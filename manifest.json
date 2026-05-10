@@ -1,0 +1,45 @@
+{
+  "name": "Disclosure Agent PRO",
+  "short_name": "Disclosure PRO",
+  "description": "UAP Intelligence Hub — Pentagon Akten, weltweite Fälle, Kongruenz-Analyse, KI Agent. KI Taskforce.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#03020a",
+  "theme_color": "#b39ddb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    }
+  ],
+  "categories": [
+    "education",
+    "news",
+    "reference"
+  ],
+  "lang": "de-DE",
+  "scope": "/",
+  "id": "disclosure-agent-pro",
+  "screenshots": [
+    {
+      "src": "assets/logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "form_factor": "narrow"
+    }
+  ]
+}

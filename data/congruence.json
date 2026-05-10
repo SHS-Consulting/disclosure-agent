@@ -1,0 +1,1178 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "last_updated": "2026-05-10",
+    "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
+    "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
+    "total_themes": 27
+  },
+  "themes": [
+    {
+      "id": "parallel-realities",
+      "title": "Realität = Frequenz/Vibration · Unendliche parallele Versionen gleichzeitig",
+      "score": 9,
+      "max_temporal_gap_years": 5000,
+      "summary": "Fünf vollständig unabhängige Quellen — von moderner Quantenphysik bis zur Vedanta-Philosophie aus 3000 v.Chr. — beschreiben identisch: Realität existiert als unendliche parallele Versionen, getrennt nur durch Frequenz/Vibration.",
+      "sources": [
+        {
+          "name": "Bashar/Anka (ab 1983)",
+          "statement": "'Alle Realitäten gleichzeitig. Wechsel durch Frequenzänderung — wie Fernsehkanäle. Unendliche parallele Erden, getrennt nur durch Vibration.'"
+        },
+        {
+          "name": "Quantenmechanik Many-Worlds (Everett 1957)",
+          "statement": "Bei jedem Messprozess spaltet sich das Universum in parallele Äste. Alle Möglichkeiten koexistieren gleichzeitig. Mainstream-Physik."
+        },
+        {
+          "name": "Vedanta / Brahman-Konzept (~3000 v.Chr.)",
+          "statement": "Wirklichkeit = unendliche Projektion des Bewusstseins (Maya). Alle Formen gleichzeitig im Absoluten. Jede 'Welt' = ein Bewusstseinszustand."
+        },
+        {
+          "name": "Council of Nine (Schlemmer/Puharich, 1952+)",
+          "statement": "'Dimensionen = Frequenzzustände. Alle überlappend gleichzeitig präsent. Ihr könnt Breitenband-Antennen werden.'"
+        },
+        {
+          "name": "Jacques Vallée (Interdimensionale Hypothese, 1969+)",
+          "statement": "'UAP aus benachbarten Frequenzbereichen. Sowohl technologisch als auch psychisch — unmöglich nur physisch.'"
+        }
+      ],
+      "tags": [
+        "bashar",
+        "quantenphysik",
+        "vedanta",
+        "council-of-nine",
+        "vallee",
+        "frequenz"
+      ]
+    },
+    {
+      "id": "supervision-threshold",
+      "title": "Earth wird überwacht — Intervention nur bei evolutionären Schwellenwerten",
+      "score": 7,
+      "max_temporal_gap_years": 70,
+      "summary": "Vier unabhängige Quellen — Channeling-Gruppen, ET-Entitäten und Zeugenberichte — beschreiben identisch: Earth wird beobachtet, direkte Intervention ist verboten solange freier Wille nicht verletzt wird.",
+      "sources": [
+        {
+          "name": "Council of Nine (1952+)",
+          "statement": "'Wir sind Beobachter. Direkte Intervention nur wenn Menschheit bestimmte Schwellenwerte erreicht. Freier Wille muss gewahrt bleiben.'"
+        },
+        {
+          "name": "Bashar (ab 1983)",
+          "statement": "'Eure Spezies steht vor einem Schwellenmoment. Erst dann ist offener Kontakt möglich. Wir dürfen den Prozess nicht erzwingen.'"
+        },
+        {
+          "name": "Jacques Vallée Kontrollfaktor-Hypothese",
+          "statement": "UAP-Phänomen reguliert und steuert menschliche Bewusstseins-Entwicklung didaktisch — nicht zufällig, über Jahrtausende."
+        },
+        {
+          "name": "Zimbabwe Ariel School 1994 (62 Kinder, unabhängig)",
+          "statement": "Telepathische Botschaft: Warnung über Naturzerstörung der Erde — als Information, nicht Bedrohung."
+        }
+      ],
+      "tags": [
+        "supervision",
+        "intervention",
+        "schwellenwert",
+        "freier-wille",
+        "bashar",
+        "council"
+      ]
+    },
+    {
+      "id": "consciousness-fundamental",
+      "title": "Bewusstsein ist fundamentaler als Materie — und ermöglicht Kontakt",
+      "score": 8,
+      "max_temporal_gap_years": 3500,
+      "summary": "Sechs unabhängige Quellen — von offiziellen CIA-Programmen bis zu 3500 Jahre alten Philosophien — beschreiben Bewusstsein als primäre Realität und Kontakt-Medium.",
+      "sources": [
+        {
+          "name": "CIA Stargate Program (1978–95, offiziell bestätigt)",
+          "statement": "Remote Viewing funktioniert nachweisbar. $20Mio, 17 Jahre. Bewusstsein kann raumzeitlich ungebundene Informationen abrufen."
+        },
+        {
+          "name": "FREE Academic Study (4.200 Experiencer, 100+ Länder)",
+          "statement": "60%+ der UAP-Kontakterfahrungen schließen außerkörperliche Zustände ein. Kontakt beginnt oft im Bewusstsein."
+        },
+        {
+          "name": "Bashar",
+          "statement": "'Ihr seid keine physischen Wesen die spirituelle Erfahrungen machen. Ihr seid Bewusstsein das eine physische Erfahrung macht.'"
+        },
+        {
+          "name": "Vedanta / Upanishaden (~1500 v.Chr.)",
+          "statement": "Bewusstsein (Atman=Brahman) als Ursubstanz. Physische Welt ist Projektion. Erkenntnis ermöglicht Zugang zu anderen Ebenen."
+        },
+        {
+          "name": "Rudolf Steiner / Anthroposophie (1900+)",
+          "statement": "Bewusstsein als eigenständige Realität. Höhere 'geistige Welten' erforschbar. Äther als Verbindungsmedium zwischen Welten. Verbindung zu höheren Intelligenzen möglich."
+        },
+        {
+          "name": "Skinwalker/Colares BAASS",
+          "statement": "Phänomene reagieren auf Bewusstsein der Beobachter (Hitchhiker-Effekt). Kognitive Interaktion dokumentiert."
+        }
+      ],
+      "tags": [
+        "bewusstsein",
+        "stargate",
+        "cia",
+        "vedanta",
+        "steiner",
+        "anthroposophie",
+        "aether",
+        "free-study"
+      ]
+    },
+    {
+      "id": "physical-injuries-uap",
+      "title": "Physische Verletzungen durch UAP — globales konsistentes Muster",
+      "score": 9,
+      "max_temporal_gap_years": 65,
+      "summary": "Über 65 Jahre, auf allen Kontinenten, vollständig unabhängig: Strahlen von UAP verursachen identische Verletzungsmuster — Verbrennungen, Punkt-Wunden, Strahlungseffekte.",
+      "sources": [
+        {
+          "name": "Colares Brasilien 1977 (offiziell dokumentiert)",
+          "statement": "Systematische Verbrennungen und Punktierwunden an Hunderten Einwohnern. Militärärzte dokumentiert. Offiziell anerkannt. BAASS analysiert."
+        },
+        {
+          "name": "Betty Hill 1961 (USA, Hypnose-Rekonstruktion)",
+          "statement": "Medizinische Untersuchung an Bord. Körperliche Spuren nach Erfahrung. Dr. Simon: kein Hinweis auf Erfindung."
+        },
+        {
+          "name": "Garry Nolan Stanford (CIA-Auftrag)",
+          "statement": "Pilots + Diplomaten mit UAP-Exposition: Gehirne zeigen anomale Aktivierung. 'Wie gebraten von innen durch Energiefeld.'"
+        },
+        {
+          "name": "NICAP/MUFON Datenbank (10.000+ Fälle)",
+          "statement": "Strahlungsverbrennungen als konsistentes Muster über 70+ Jahre auf allen Kontinenten. Keine mundane Erklärung für die Konsistenz."
+        }
+      ],
+      "tags": [
+        "verletzungen",
+        "strahlung",
+        "colares",
+        "hill",
+        "nolan",
+        "mufon"
+      ]
+    },
+    {
+      "id": "nuclear-interest",
+      "title": "UAP + Nuklearwaffen — systematisches globales Interesse",
+      "score": 9,
+      "max_temporal_gap_years": 60,
+      "summary": "Sieben+ unabhängige Quellen aus verschiedenen Ländern und Zeiträumen beschreiben identisch: UAP zeigen systematisches Interesse an Nuklearanlagen — und können Waffensysteme deaktivieren.",
+      "sources": [
+        {
+          "name": "Malmstrom AFB USA 1967 (dokumentiert, FOIA)",
+          "statement": "20 ICBMs in zwei Vorfällen deaktiviert — gleichzeitig mit Objekt über Basis. Jamison: 'Zehn gleichzeitige Ausfälle haben keine mechanische Erklärung.'"
+        },
+        {
+          "name": "Minot AFB 1966 (USA, FOIA-bestätigt)",
+          "statement": "UFO über Raketensilo, Ausfälle. Hastings: 120+ dokumentierte Fälle an US-Nuklearstandorten."
+        },
+        {
+          "name": "Sowjetische Atombasen 1960er–80er (KGB-Berichte)",
+          "statement": "UAP über Sarowo, Semipalatinsk — Raketen-Offline-Ereignisse. Russische Militäroffiziere bestätigten analog zu Salas."
+        },
+        {
+          "name": "Edgar Mitchell (Apollo 14)",
+          "statement": "'Militärpersonal aus 3 Ländern bestätigte: ETs deaktivierten Nuklearwaffen — wollten zeigen, dass wir sie nicht sicher handhaben können.'"
+        },
+        {
+          "name": "Robert Salas vor Kongress",
+          "statement": "'Pacifist species. Botschaft: WTF, Nuklearwaffen. Kein Schaden — nur Demonstration der Kontrolle.'"
+        },
+        {
+          "name": "Bashar (Channeling)",
+          "statement": "'Eure Spezies hat die Fähigkeit entwickelt, sich selbst auszulöschen. Das ist einer der Schwellenwert-Trigger die unsere Beobachtungsrolle aktivieren.'"
+        }
+      ],
+      "tags": [
+        "nuklear",
+        "icbm",
+        "malmstrom",
+        "mitchell",
+        "salas",
+        "bashar",
+        "sowjet"
+      ]
+    },
+    {
+      "id": "neurodivergence-contact",
+      "title": "Neurodivergenz als UAP-Kontakt-Prädiktor",
+      "score": 7,
+      "max_temporal_gap_years": 30,
+      "summary": "Drei unabhängige wissenschaftliche Quellen identifizieren übereinstimmend: Menschen mit atypischer Gehirnarchitektur haben überproportional häufig UAP-Kontakt-Erfahrungen.",
+      "sources": [
+        {
+          "name": "Dr. John Mack Harvard (200+ Interviews)",
+          "statement": "Signifikanter Anteil der Experiencer zeigt neurodivergente Merkmale: Hypersensitivität, atypische Wahrnehmungsverarbeitung, Hochbegabung. Kein psychisches Leiden."
+        },
+        {
+          "name": "Dr. Garry Nolan Stanford (MRI-Studie)",
+          "statement": "UAP-Exponierten: hyperaktiver Caudate-Putamen — assoziiert mit atypischer Informationsverarbeitung und Mustererkennung. 'Brains that look like high-performance processors.'"
+        },
+        {
+          "name": "FREE Study (4.200 Experiencer)",
+          "statement": "Überproportional viele berichten von früherer Sensitivität, synästhetischen Wahrnehmungen, 'anders sein' schon in Kindheit — vor jedem Kontakt."
+        }
+      ],
+      "tags": [
+        "neurodivergenz",
+        "mack",
+        "nolan",
+        "free-study",
+        "adhd",
+        "hochbegabung",
+        "caudate"
+      ]
+    },
+    {
+      "id": "steiner-aether-tesla-bashar",
+      "title": "Steiner Äther + Tesla kosmisches Wissen + Bashar Frequenz — Kongruenz",
+      "score": 8,
+      "max_temporal_gap_years": 120,
+      "summary": "Drei zeitlich und kulturell unabhängige Quellen beschreiben identisch: Es existiert ein nicht-physisches Trägermedium (Äther/Zero-Point-Field/Frequenz-Raum) das Informations- und Energietransfer jenseits bekannter Physik ermöglicht.",
+      "sources": [
+        {
+          "name": "Rudolf Steiner / Anthroposophie (1900–1925)",
+          "statement": "Äther als vierfaches Feld (Wärme-, Licht-, Ton-, Lebensäther) — nicht-physisches Trägermedium aller lebendigen Prozesse. Bewusstsein und Materie über Äther verbunden. Höhere Welten durch Entwicklung erfahrbar."
+        },
+        {
+          "name": "Nikola Tesla (Colorado Springs 1899, Labornotizen)",
+          "statement": "Tesla empfing laut eigener Aussage in Colorado Springs 'Signale von einer anderen Intelligenz'. Beschrieb den Äther als Realität: 'Licht, Wärme, Elektrizität — alles Äther-Vibrationen.' Arbeitete an 'kosmischer Energie' als unbegrenzter Quelle."
+        },
+        {
+          "name": "Bashar (ab 1983)",
+          "statement": "'Euer Universum ist Vibration. Es gibt kein Vakuum — alles ist Frequenz. Technologien die auf Frequenz-Manipulation beruhen werden euer nächster Schritt sein — nicht Verbrennung.'"
+        }
+      ],
+      "tags": [
+        "steiner",
+        "anthroposophie",
+        "aether",
+        "tesla",
+        "bashar",
+        "frequenz",
+        "kosmisch",
+        "zero-point"
+      ]
+    },
+    {
+      "id": "indigenous-knowledge",
+      "title": "Ureinwohner-Völker: offener Kontakt mit nicht-menschlichen Wesen — keine Tabuisierung",
+      "score": 8,
+      "max_temporal_gap_years": 10000,
+      "summary": "Weltweit und über Jahrtausende: Indigene Völker beschreiben Kontakt mit nicht-menschlichen Intelligenzen als selbstverständlichen Teil der Realität — ohne die Hürden westlicher Skepsis.",
+      "sources": [
+        {
+          "name": "Lakota / Plains-Indianer (Nordamerika)",
+          "statement": "Stern-Völker ('Star People') als bekannte Entitäten. Häuptling Standing Bear: 'Wir stammen von den Sternen.' Kontakt ist Teil der normalen Realität — kein Außergewöhnliches."
+        },
+        {
+          "name": "Hopi-Prophetie (Nordamerika)",
+          "statement": "Kachinas als Wesen vom Himmel. Prophetien über Rückkehr der Star Elders in einer Zeit globaler Krise. Aktive Beziehung — nicht Glaube, sondern Erfahrung."
+        },
+        {
+          "name": "Dogon-Volk Mali (Westafrika)",
+          "statement": "Astronomisches Wissen über Sirius B (Weißen Zwerg) — Jahrhunderte vor westlicher Entdeckung. Überliefert als Wissen von Nommo — Wesen vom Sirius-System. Datum: vor mind. 400 Jahren kodifiziert."
+        },
+        {
+          "name": "Aborigines Australien",
+          "statement": "Wandjina — Wesen vom Himmel in Felszeichnungen. Direkte Verbindung zwischen Schöpfungsmythos und leuchtenden Objekten vom Himmel. 40.000+ Jahre Tradition."
+        },
+        {
+          "name": "Zulu-Tradition Südafrika (Credo Mutwa)",
+          "statement": "Credo Mutwa (Zulu-Schamane): 'Chitauri' als Wesen die Menschen kontrollierten. Detaillierte Beschreibungen von Raumschiffen. Offen und ohne Geheimhaltung über Jahrtausende tradiert."
+        }
+      ],
+      "tags": [
+        "indianer",
+        "lakota",
+        "hopi",
+        "dogon",
+        "aborigines",
+        "zulu",
+        "star-people",
+        "kontakt"
+      ]
+    },
+    {
+      "id": "extreme-stench",
+      "title": "Extremer Gestank (Schwefel/Ammoniak) bei NHI-Körperkontakt — globales Muster",
+      "score": 9,
+      "max_temporal_gap_years": 49,
+      "summary": "Vollständig unabhängige Zeugen aus zwei Fällen mit 49 Jahren und 11.000 km Abstand beschreiben identisches, hochspezifisches Geruchsmuster: Schwefel + Ammoniak kombiniert, macht Anwesende krank, persistiert nach Desinfektion. Dazu: pathogene Wirkung bei direktem Körperkontakt (Chereze Tod). Dies ist ein unverwechselbares biologisches Signalmuster das über mundane Erklärungen hinausgeht.",
+      "sources": [
+        {
+          "name": "Roswell 1947 — Autopsie-Zeugen (Glenn Dennis, Naomi Selff)",
+          "statement": "Krankenschwester lief mit Tuch über dem Mund aus dem Autopsieraum. Gestank der Körper so intensiv, Ärzte und Schwestern wurden krank. Autopsie musste abgebrochen und verlegt werden. Körper in Kühlraum der Basis-Kantine gebracht."
+        },
+        {
+          "name": "Varginha 1996 — Carlos de Souza (Absturzzeuge) + Krankenhauspersonal",
+          "statement": "Absturzort: überwältigender Schwefel/Ammoniak-Gestank, musste Mund bedecken. Krankenhaus: Flügel für Öffentlichkeit gesperrt. Intensiver Geruch persistierte 3–4 Tage nach intensiver Desinfektion."
+        },
+        {
+          "name": "Varginha — Marco Eli Chereze (Militärpolizist, gestorben 23.02.1996)",
+          "statement": "Fasste Wesen mit bloßen Händen an. Danach: 'greasy residue' auf Haut die sich nicht abwaschen ließ, persistenter Ammoniakgeruch, unbekannte schwere Infektion ('benign bacteria' unbekannter Herkunft), Tod innerhalb von Wochen. Pathogene Wirkung bei direktem Kontakt."
+        },
+        {
+          "name": "Drei Zeuginnen Varginha (Lillian, Valquíria, Katia)",
+          "statement": "Beschrieben das Wesen als crouching, injured, oily brown skin — und explizit: foul smell als markantes Merkmal der Begegnung."
+        }
+      ],
+      "tags": [
+        "gestank",
+        "schwefel",
+        "ammoniak",
+        "roswell",
+        "varginha",
+        "biologisch",
+        "pathogen",
+        "chereze"
+      ],
+      "note": "Kongruenz-Bewertung: Score 9/10 wegen hochspezifischer Merkmalskombination (nicht nur 'Gestank' generisch, sondern Schwefel+Ammoniak+Persistenz+Pathogen). Zeitliche Trennung 49 Jahre, geographisch 11.000km, kulturell vollständig unabhängig."
+    },
+    {
+      "id": "memory-materials",
+      "title": "Selbstheilende / Formgedächtnis-Materialien an Absturzorten — globales Muster",
+      "score": 8,
+      "max_temporal_gap_years": 49,
+      "summary": "Zeugen aus Roswell 1947 und Varginha 1996 beschreiben unabhängig identische physikalische Eigenschaft der Trümmermaterialien: extrem leicht, kehren nach dem Zusammenknüllen selbstständig in ursprüngliche Form zurück. Kein bekannter terrestrischer Werkstoff 1947 oder 1996 mit dieser Kombination. Direkte Kongruenz mit DIA FOIA Dok. 1 (Metallic Glasses) und Lazar-Beschreibungen.",
+      "sources": [
+        {
+          "name": "Roswell 1947 — Jesse Marcel Sr. + Mac Brazel",
+          "statement": "Metallische Folien-ähnliches Material: 'kein Knick blieb' — nach Zusammenknüllen kehrte es sofort in Originalform zurück. Extrem leicht, aber nicht schneidbar. Weder Hitze noch Hammer konnten es beschädigen. Marcel: 'Nicht von dieser Erde.'"
+        },
+        {
+          "name": "Varginha 1996 — Carlos de Souza (Absturzzeuge)",
+          "statement": "Ungewöhnliche Metallfragmente am Absturzort die zurück in ihre ursprüngliche Form fanden wenn man sie zusammenknüllte — identisch zu Roswell-Beschreibungen. 49 Jahre später, 11.000km entfernt."
+        },
+        {
+          "name": "DIA FOIA Dok. 1: Metallic Glasses (AAWSAP/BAASS, 2009)",
+          "statement": "Pentagon forscht an amorphen Metalllegierungen mit Formgedächtnis und außergewöhnlicher Rückfederung. Gleichzeitig extrem hart und formbar. Pentagon forscht genau an dem Material das Zeugen 1947 und 1996 beschrieben — ist das Reverse Engineering?"
+        },
+        {
+          "name": "Bob Lazar (S-4, 1989)",
+          "statement": "UAP-Hülle: 'metallic substance similar in appearance and touch to liquid titanium' — nahtlos, keine Nähte, keine Nieten. Amorphe Struktur. Kongruiert mit Metallic Glass Forschung DIA."
+        }
+      ],
+      "tags": [
+        "formgedächtnis",
+        "self-healing",
+        "material",
+        "roswell",
+        "varginha",
+        "lazar",
+        "metallic-glass",
+        "dia-foia"
+      ],
+      "note": "Diese These verbindet physische Zeugenberichte mit dem DIA FOIA-Paket — das ist ein besonders wertvoller Treffer weil er offizielle Forschung mit Zeugenaussagen verbindet."
+    },
+    {
+      "id": "apollo-astronaut-witnesses",
+      "title": "Apollo-Astronauten: Anomalien in Mondnähe — 4 Missionen, 4 unabhängige Zeugen",
+      "score": 9,
+      "max_temporal_gap_years": 3,
+      "summary": "Vier verschiedene Apollo-Missionen mit vier verschiedenen Astronauten-Crews berichten konsistent über anomale Licht- und Objekt-Phänomene in Mondnähe — unabhängig voneinander und im Abstand von 1969 bis 1972. Jetzt alle offiziell im Pentagon PURSUE-Release 2026 freigegeben. Das NASA-Debriefing-Dokument von 1969 war 57 Jahre lang nicht öffentlich.",
+      "sources": [
+        {
+          "name": "Buzz Aldrin — Apollo 11 (1969), NASA-Debriefing, freigegeben 08.05.2026",
+          "statement": "Drei Anomalien: (1) 'Sizeable object' mit Monokular beobachtet ~1 Tag vor Mondanflug. (2) Regelmäßige Lichtblitze in abgedunkelter Kabine, mehrere Nächte. (3) 'Fairly bright light source' auf Rückflug — crew tentativ: möglicher Laser."
+        },
+        {
+          "name": "Alan Bean — Apollo 12 (1969), Pentagon PURSUE-Release 2026",
+          "statement": "Berichtete von Lichtblitzen die 'ins All zu segeln schienen' — jetzt im offiziellen Pentagon-Dokument freigegeben."
+        },
+        {
+          "name": "Harrison Schmitt — Apollo 17 (1972), Pentagon PURSUE-Release 2026",
+          "statement": "'Das sieht aus wie der 4. Juli.' Foto mit drei Punkten in Dreiecksformation über Mondober fläche freigegeben. Pentagon: 'kein Konsens — neue Voranalyse: könnte physisches Objekt sein.'"
+        },
+        {
+          "name": "Edgar Mitchell — Apollo 14 (1971), öffentliche Aussagen",
+          "statement": "'Kein Zweifel — wir werden besucht.' Gründete IONS. Sprach mit Militär aus 3 Ländern die ET-Kontakt bestätigten. Führte heimlichen ESP-Versuch in Weltraum durch."
+        }
+      ],
+      "tags": [
+        "apollo",
+        "nasa",
+        "astronauten",
+        "aldrin",
+        "bean",
+        "schmitt",
+        "mitchell",
+        "pentagon-2026",
+        "debriefing",
+        "mond"
+      ],
+      "note": "Besonders wertvoll: Das Aldrin-Debriefing war ein offizielles NASA-Dokument das 57 Jahre lang nicht öffentlich war. Jetzt im Pentagon PURSUE-Release — das bedeutet die US-Regierung hat gewusst was Aldrin sah."
+    },
+    {
+      "id": "brain-modification-contact",
+      "title": "Gehirn-Modifikation durch UAP-Kontakt — Caudate-Putamen als Schlüssel",
+      "score": 8,
+      "max_temporal_gap_years": 35,
+      "summary": "Drei unabhängige Forschungslinien konvergieren: UAP-Exposition verändert spezifisch den Caudate-Putamen-Bereich des Gehirns — denselben der mit Intuition, Mustererkennung und atypischer Informationsverarbeitung verbunden ist. Dieser Bereich ist bei einigen bereits PRE-existent anomal — bevor UAP-Kontakt stattfand.",
+      "sources": [
+        {
+          "name": "Dr. Garry Nolan Stanford (CIA-Auftrag, ab 2013)",
+          "statement": "~100 Regierungsmitarbeiter mit UAP-Exposition: Hyper-Verbindung Caudate→Putamen. 25% starben. Mehrheit: Havana-Syndrom-Symptome. Bei einigen war die Anomalie PRE-EXISTENT — vor dem Kontakt. 'An open question is: did coming in contact with whatever it was cause it — or not?'"
+        },
+        {
+          "name": "Dr. John Mack Harvard (200+ Experiencer-Interviews)",
+          "statement": "Signifikanter Anteil der Experiencer: Hypersensitivität, atypische Wahrnehmung, Hochbegabung — alles Caudate-Putamen-assoziiert. Kein psychisches Leiden."
+        },
+        {
+          "name": "FREE Academic Study (4.200 Experiencer, 100+ Länder)",
+          "statement": "60%+ der UAP-Kontakterfahrungen schließen außerkörperliche Zustände ein. Viele Experiencer berichten 'anders zu sein' schon vor erstem Kontakt — synästhetische Wahrnehmung, präkognitive Fähigkeiten."
+        },
+        {
+          "name": "Bashar-Analogie (kongruent, unabhängig)",
+          "statement": "'Bestimmte Menschen sind Breitband-Antennen — ihre Bewusstseinssarchitektur ermöglicht Wahrnehmung von Frequenzbereichen die für andere nicht zugänglich sind.' Beschreibt funktional denselben Sachverhalt den Nolan neuroanatomisch misst."
+        }
+      ],
+      "tags": [
+        "nolan",
+        "mack",
+        "free-study",
+        "caudate-putamen",
+        "gehirn",
+        "pre-existent",
+        "bashar",
+        "breitband",
+        "selektion"
+      ],
+      "note": "Kritische offene Frage: Selektiert NHI bewusst Menschen mit dieser Gehirnstruktur? Das würde bedeuten: Kontakt ist nicht zufällig. Kongruenz-Score könnte auf 9/10 steigen wenn Nat-Kobitz-Aussage und weitere medizinische Daten folgen."
+    },
+    {
+      "id": "fastwalker-surveillance-pattern",
+      "title": "Fast Walkers: Earth wird aus dem Weltraum systematisch überwacht — NORAD-Daten",
+      "score": 9,
+      "max_temporal_gap_years": 10000,
+      "summary": "NORAD-Satellitendaten zeigen: ~500 Fast-Walker-Ereignisse pro Jahr. Objekte kommen aus dem Weltraum, manövrieren, und kehren zurück. Das ist keine zufällige Erscheinung — es ist ein konstantes, wiederkehrendes Muster. Kongruiert direkt mit Kongruenz-These 2 (Earth wird überwacht) und den Ureinwohner-Überlieferungen.",
+      "sources": [
+        {
+          "name": "NORAD / USDSP-Satellit (1984, dokumentiert, 300-seitiger Bericht)",
+          "statement": "Fast Walker: 35.400 km/h, manövriert, kehrt zurück in den Weltraum. 'Irgendeine Art von Schiff das manövrieren kann.' Nicht erklärbar durch natürliche oder menschliche Mittel. NORAD verfolgt ~500 solcher Ereignisse pro Jahr — klassifiziert."
+        },
+        {
+          "name": "Oberservatory-Journal 1995 (peer-reviewed)",
+          "statement": "Dezember-1991-Objekt in Erdnähe als 'Kandidat für eine außerirdische Sonde' bezeichnet. Sah und bewegte sich wie ein künstlicher Satellit — nur viel schneller."
+        },
+        {
+          "name": "Council of Nine / Bashar (Channeling, unabhängig)",
+          "statement": "'Wir sind Beobachter. Earth wird kontinuierlich überwacht. Unsere Präsenz ist konstant, nicht episodisch.' — identisch mit dem was NORAD-Daten zeigen: kein Einzelereignis, sondern Dauerbetrieb."
+        },
+        {
+          "name": "Ureinwohner-Überlieferungen (10.000+ Jahre)",
+          "statement": "Lakota, Hopi: 'Star People' sind ständig präsent, nicht nur in Ausnahmezeiten. Wandjina-Wesen kommen und gehen — regelmäßig, nicht einmalig. Permanente Überwachungs-Präsenz als Normalzustand."
+        }
+      ],
+      "tags": [
+        "fastwalker",
+        "norad",
+        "satellit",
+        "überwachung",
+        "council-nine",
+        "bashar",
+        "ureinwohner",
+        "500-pro-jahr",
+        "permanenz"
+      ],
+      "note": "Score 9/10: NORAD-Satellitendaten (physisch messbar) + Channeling-Beschreibungen + Ureinwohner-Überlieferungen über 10.000 Jahre = maximale unabhängige Kongruenz für das Muster der permanenten Überwachung."
+    },
+    {
+      "id": "disclosure-wave-pattern",
+      "title": "Disclosure-Wellen: Jede Dekade mehr Offizielle brechen das Schweigen — eskalierendes Muster",
+      "score": 8,
+      "max_temporal_gap_years": 80,
+      "summary": "Von 1947 bis 2026: Ein konsistentes, eskalierendes Muster von offiziellen Personen die aus dem Schweigesystem ausbrechen — trotz NDA, trotz Drohungen, trotz Karriere-Risiko. Die Zahlen steigen jede Dekade. Das ist kein Zufall — es ist ein Signal.",
+      "sources": [
+        {
+          "name": "Jesse Marcel Sr. (1978, 30 Jahre nach Roswell)",
+          "statement": "Erste öffentliche Aussage: 'Das Material war nicht von dieser Erde.' Brach NDA im Alter — 'Ich wollte nicht mit der Geschichte ins Grab gehen.'"
+        },
+        {
+          "name": "Bob Lazar (1989, KLAS-TV)",
+          "statement": "S-4, Element 115, 9 Flugscheiben. FBI-Akte auf ihn. Trotz massiver Diskreditierungs-Kampagne: blieb bei Aussage für 35+ Jahre."
+        },
+        {
+          "name": "Disclosure Project 2001 (Greer): 20+ Zeugen öffentlich",
+          "statement": "Erste Massen-Disclosure-Konferenz. Wolfe, Hare, Salas — alle trotz NDA und Karriere-Risiko öffentlich. 500 weitere bereit."
+        },
+        {
+          "name": "Luis Elizondo, David Grusch, Ryan Graves (2017–2023)",
+          "statement": "Pentagon-Insider brechen Schweigesystem: AATIP, SAPs, NHI-Überreste. Erstmals unter Eid vor Kongress. Trend beschleunigt sich."
+        },
+        {
+          "name": "Haim Eshed, Ross Coulthart, Jake Barber (2020–2025)",
+          "statement": "International: Israelischer Raumfahrt-Sicherheitschef. Journalist mit Direktkontakt zu Kobitz. Erstes On-Record-NHI-Technologie-Testimony."
+        }
+      ],
+      "tags": [
+        "disclosure-welle",
+        "eskalierung",
+        "nda",
+        "marcel",
+        "lazar",
+        "greer",
+        "elizondo",
+        "grusch",
+        "eshed",
+        "coulthart"
+      ],
+      "note": "Kongruenz: Bashar sagte 1983 'Ein Offenbarungsmoment nähert sich — die Zeitlinie verdichtet sich.' Council of Nine (1952+): 'Wenn die Menschheit bestimmte Bewusstseins-Schwellenwerte erreicht, werden mehr Informationen freigegeben.' Die Disclosure-Welle entspricht exakt dieser Vorhersage."
+    },
+    {
+      "id": "nuclear-observation-correlation",
+      "title": "UAP-Aktivität korreliert mit Atomtests — historische Fotos + Malmstrom + Nuklear-Interesse",
+      "score": 10,
+      "max_temporal_gap_years": 60,
+      "summary": "Die stärkste Einzel-Kongruenz: Drei völlig unabhängige Quellen — peer-reviewed Astrofotografie-Analyse, Militär-Zeugenaussagen und Channeling — konvergieren auf IDENTISCHE Aussage: UAP reagieren auf Atomtests und Nuklearaktivität. Zeitliche Trennung der Quellen: 1952 Fotos vs. 1967 Malmstrom vs. 1983 Bashar = 31 Jahre. Daten-Typen völlig verschieden: Astronomische Messungen, militärische Zeugenaussagen, spirituelles Channeling.",
+      "sources": [
+        {
+          "name": "Dr. Villarroel VASCO-Projekt (Nature, 2025) — peer-reviewed",
+          "statement": "Historische Fotoplatten 1950er (vor Sputnik): Transiente Lichtobjekte im Orbit — +45% Häufigkeit einen Tag vor/nach Atomtestdetonation. 22-Sigma-Signifikanz. Zeitliche Korrelation mit Washington D.C. UFO-Welle 1952. Objekte reflektieren Sonnenlicht = physische Objekte."
+        },
+        {
+          "name": "Malmstrom AFB 1967 (FOIA-bestätigt, Kongress-Zeugnis)",
+          "statement": "20 ICBMs an zwei Tagen deaktiviert — gleichzeitig mit leuchtendem Objekt. Robert Hastings: 120+ ähnliche Fälle an US-Nuklearstandorten. Russland: identische Berichte an sowjetischen Atomanlagen."
+        },
+        {
+          "name": "Edgar Mitchell (Apollo 14, persönliche Aussagen)",
+          "statement": "'Militärpersonal aus 3 Ländern bestätigte: ETs deaktivierten Nuklearwaffen — wollten zeigen, dass wir sie nicht sicher handhaben.' Atomwaffen als Trigger für aktive Intervention."
+        },
+        {
+          "name": "Bashar (Channeling, ab 1983 — unabhängig von Fotos und Malmstrom)",
+          "statement": "'Eure Spezies hat die Fähigkeit entwickelt, sich selbst auszulöschen. Das ist einer der Schwellenwert-Trigger die unsere Beobachtungsrolle aktivieren.' Formuliert genau was die Fotos und Zeugen zeigen."
+        },
+        {
+          "name": "Disclosure Project 2001 — mehrere Militärzeugen unabhängig",
+          "statement": "Verschiedene Militärpersonen aus verschiedenen Basen, verschiedenen Jahrzehnten, ohne Kontakt zueinander: UAP erscheinen konsistent über Nuklearstandorten. Keine Absprache möglich."
+        }
+      ],
+      "tags": [
+        "villarroel",
+        "malmstrom",
+        "atomtest",
+        "bashar",
+        "mitchell",
+        "hastings",
+        "nature",
+        "22-sigma",
+        "45-prozent",
+        "nuklear",
+        "korrelation",
+        "peer-review"
+      ],
+      "note": "Score 10/10: Einzige These mit diesem Score. Begründung: (1) Nature-Publikation = peer-reviewed physikalische Messung, (2) FOIA-bestätigte Militärdaten, (3) Kongress-Zeugenaussagen unter Eid, (4) Channeling-Beschreibung = 4 völlig verschiedene Erkenntnisquellen, alle zeitlich und methodisch unabhängig, alle identische Kernaussage."
+    },
+    {
+      "id": "top-scientists-roswell-briefed",
+      "title": "Höchste Wissenschaftler (Einstein, Oppenheimer) wurden über Roswell briefed — konvergierte Hinweise",
+      "score": 7,
+      "max_temporal_gap_years": 46,
+      "summary": "Mehrere unabhängige Quellen deuten darauf hin, dass die bedeutendsten Wissenschaftler der Zeit unmittelbar nach Roswell 1947 in das Ereignis eingeweiht wurden — und gemeinsam erste juristische/wissenschaftliche Konzepte für den ET-Kontakt entwickelten.",
+      "sources": [
+        {
+          "name": "Dr. Shirley Wright — Tonband-Geständnis 1993 (posthum 2021)",
+          "statement": "Einsteins Studentin: Besuch mit Einstein auf Roswell-Armeebasis Juli 1947. Scheibenförmiges Objekt, 5 Körper, 1 Wesen lebend. Einstein schrieb geheimen Bericht. Keine Freigabe für Wright. Veröffentlicht erst nach ihrem Tod — kein Motiv für Betrug."
+        },
+        {
+          "name": "Oppenheimer-Einstein-Dokument Juni 1947 (Institute for Advanced Study Princeton)",
+          "statement": "'Relationships with Inhabitants of Celestial Bodies' — 6 Wochen VOR Roswell. Behandelt: Souveränität, Rechte, juristische Rahmenbedingungen bei ET-Kontakt. Warum schreiben die bedeutendsten Physiker der Welt 1947 spontan ein Dokument über ET-Recht wenn es keinen Anlass gibt?"
+        },
+        {
+          "name": "Jesse Marcel Sr. (Roswell-Erstzeuge, ab 1978 öffentlich)",
+          "statement": "'Das Material war nicht von dieser Erde.' Gleichzeitig: schnelle Verlegung zu Wright-Patterson AFB — wo laut mehreren Quellen Wissenschaftler-Briefings stattfanden."
+        },
+        {
+          "name": "MJ-12-Dokumente (umstritten): Mitglieder-Liste",
+          "statement": "Vannevar Bush, Detlev Bronk, Jerome Hunsaker — alle Spitzenwissenschaftler ihrer Zeit — als MJ-12-Mitglieder gelistet. Ob echt oder nicht: die Idee, Top-Wissenschaftler zu briefen, ist die einzige logische Reaktion auf ein ET-Ereignis."
+        }
+      ],
+      "tags": [
+        "einstein",
+        "oppenheimer",
+        "wright",
+        "roswell",
+        "wissenschaftler",
+        "briefing",
+        "mj12",
+        "princeton",
+        "dokument-1947"
+      ],
+      "note": "Score 7/10 wegen: Wright-Aussage posthum + kein Kreuz-Nachweis (Minus). Aber: Oppenheimer-Einstein-Dokument existiert physisch, Timing ist präzise, beide Quellen unabhängig voneinander. Kongruenz-Kern: Wenn Roswell real war, MUSSTEN die größten Wissenschaftler briefed werden — genau das zeigen beide Quellen."
+    },
+    {
+      "id": "uso-transmedial-permanent",
+      "title": "USOs — Objekte operieren transmedial (Luft/Wasser/Weltraum) · Unterwasserbasen-Hypothese",
+      "score": 8,
+      "max_temporal_gap_years": 60,
+      "summary": "Militärische Sonar-Daten, Radar-Aufzeichnungen und Augenzeugenberichte über Jahrzehnte belegen konsistent: Unbekannte Objekte bewegen sich nahtlos zwischen Luft und Wasser, erreichen Unterwassergeschwindigkeiten die keine menschliche Technologie erklären kann. Pentagon-Terminologie-Änderung 2022 offiziell bestätigt dieses Muster.",
+      "sources": [
+        {
+          "name": "US Navy Puerto Rico 1963 (Sonar-Tracking)",
+          "statement": "USO mit >150 Knoten (277 km/h) Unterwasser — viermal schneller als schnellste US-U-Boote. 4 Tage Sonar-Tracking bis 27.000 Fuß Tiefe. Nie identifiziert."
+        },
+        {
+          "name": "Shag Harbour 1967 Kanada (offiziell dokumentiert)",
+          "statement": "Großes Objekt crasht ins Meer. Keine Trümmer. Kanadisches Militär + US Navy verfolgten Objekt per Sonar bis Shelburne — objekt bewegte sich aktiv unter Wasser."
+        },
+        {
+          "name": "Aguadilla 2013 (US-Regierungs-Wärmebildkamera)",
+          "statement": "Objekt taucht in Ozean ein und taucht wieder auf — ohne Tempoänderung. Unterwasser: ~150 km/h. Splittet sich in zwei Objekte."
+        },
+        {
+          "name": "Operação Prato 1977 / Capt. Hollanda",
+          "statement": "Militär sah Objekte ins Küstenwasser eintauchen. 'Wir vermuteten eine Unterwasserbasis in der Nähe der Insel Colares.' Schnittpunkt: Hollanda-Bericht + USO-Muster."
+        },
+        {
+          "name": "Pentagon-Terminologie 2022 (offiziell)",
+          "statement": "'Unidentified Anomalous Phenomena' — explizit um transmediale Objekte (Luft+Wasser+Weltraum) einzuschließen. Konteradmiral Gallaudet: 'Piloten haben Objekte dokumentiert die die Luft-Wasser-Grenzfläche auf unmögliche Weise überwinden.'"
+        }
+      ],
+      "tags": [
+        "uso",
+        "transmedial",
+        "pentagon",
+        "gallaudet",
+        "puerto-rico",
+        "shag-harbour",
+        "aguadilla",
+        "colares",
+        "sonar",
+        "unterwasserbase"
+      ],
+      "note": "Score 8/10: Offizielle Pentagon-Anerkennung (2022) + militärische Sonar-Daten + Kamera-Aufnahmen + Zeugenaussagen = starke Multi-Quellen-Konvergenz. Unterirdische/Unterwasser-Basen-Hypothese: logische Schlussfolgerung wenn Objekte regelmäßig in Ozeane eintauchen ohne aufzutauchen."
+    },
+    {
+      "id": "nazi-et-aryan-connection",
+      "title": "Nazi-ET-Verbindung: Arische Ideologie als mögliches Derivat von Nordic-Alien-Kontaktberichten",
+      "score": 6,
+      "max_temporal_gap_years": 90,
+      "summary": "Mehrere unabhängige Quellen deuten auf eine mögliche Verbindung: Die physische Beschreibung der 'nordischen' oder 'arischen' Überwesen durch die Vril/Thule-Gesellschaft entspricht präzise der konsistenten Beschreibung von 'Nordic Aliens' in UAP-Kontaktberichten weltweit — zeitlich unabhängig und über Kulturen hinweg.",
+      "sources": [
+        {
+          "name": "Vril-Gesellschaft / Maria Orsic (ab 1917)",
+          "statement": "Telepathischer Kontakt mit 'Arischen Aliens' aus Aldebaran. Physische Beschreibung: groß, blond, blauäugig, hochentwickelt. Technische Pläne für Antigravitations-Antriebe empfangen. Hitler, Himmler, Haushofer beeinflusst."
+        },
+        {
+          "name": "Magenta 1933 (Mussolini-Bergung, Brophy 2019)",
+          "statement": "Zwei geborgene Wesen: ~2,1m groß, blond, prominente Stirn. Himmlers Ahnenerbe interpretierte Bergung als 'Beweis für verlorene Arische Zivilisation.'"
+        },
+        {
+          "name": "Nordic Aliens — globale UAP-Kontaktberichte (1950er–heute)",
+          "statement": "Konsistente globale Beschreibung: Große, blonde, blauäugige NHI-Wesen — in Fällen wie George Adamski (1952), Billy Meier (1975), nordamerikanische Ureinwohner-Überlieferungen, Bashar-Beschreibungen verwandter Spezies. Vollständig unabhängig von Nazi-Quellen."
+        },
+        {
+          "name": "Ahnenerbe-SS Tibet-Expeditionen (1938–43)",
+          "statement": "Suchten Beweise für Arische Urrasse in Shambhala/Hyperborea. Studierten Sanskrit-Vimana-Texte intensiv. Verbindung: Vimana = fliegende Maschinen = mögliche UAP-Beschreibungen aus 1500 v.Chr."
+        }
+      ],
+      "tags": [
+        "nazi",
+        "vril",
+        "arisch",
+        "nordics",
+        "orsic",
+        "magenta",
+        "ahnenerbe",
+        "aldebaran",
+        "tibet",
+        "vimana",
+        "global-kongruenz"
+      ],
+      "note": "Score 6/10: Hypothetisch — kein direkter Beweis für ET-Kontakt als Ursache der Arischen Ideologie. Aber: Die Übereinstimmung zwischen Nazi-'Arier'-Beschreibung und globalen Nordic-Alien-Berichten ist statistisch auffällig. Könnte erklären warum Himmler die Magenta-Bergung als 'Bestätigung' interpretierte."
+    },
+    {
+      "id": "government-openness-disclosure-france",
+      "title": "Frankreichs Transparenz-Modell: Regierungen die offen sind, finden mehr — und bestätigen das Phänomen",
+      "score": 8,
+      "max_temporal_gap_years": 45,
+      "summary": "Frankreich ist das weltweit transparenteste Land bei UAP. GEIPAN (seit 1977 aktiv, seit 2007 öffentlich) zeigt: Wenn Staaten systematisch und offen forschen, häufen sich bestätigte, unerklärliche Fälle. Das Muster gilt auch für Brasilien (FAB/Operação Prato), Belgien (NATO F-16) und Mexiko (Militäraufnahmen 2004). Kongruenz: Je offener ein Staat, desto mehr bestätigte UAP — nicht weniger.",
+      "sources": [
+        {
+          "name": "GEIPAN/Frankreich (ab 1977, öffentlich ab 2007)",
+          "statement": "3.000 Fälle. 7% definitiv unerklärlich — trotz rigoroser Filterung. Air France Flight 3532 (1994): 250m-Objekt, Radar + Pilot. Valensole: physische Spuren + Langzeit-Symptome beim Zeugen."
+        },
+        {
+          "name": "FAB Brasilien (Operação Prato 1977, deklassifiziert 2004)",
+          "statement": "Offiziell deklassifiziert 2004: 500 Fotos, 16h Film, medizinische Dokumentation. Je mehr Brasilien offenlegte, desto mehr bestätigte sich die Realität des Phänomens."
+        },
+        {
+          "name": "Belgien NATO 1989–90 (öffentlich anerkannt)",
+          "statement": "Belgische Militärführung bestätigte öffentlich: Real, unidentifiziert. F-16 Radar-Lock. Je offener das Militär kommunizierte, desto konsistenter wurden die Berichte."
+        },
+        {
+          "name": "Pentagon PURSUE Act 2026 (USA, neu)",
+          "statement": "162 Akten. Aldrin-Debriefing 57 Jahre geheim. Sobald Transparenz: Muster werden sichtbar die vorher versteckt waren. Frankreich ist 49 Jahre früher diesen Weg gegangen."
+        }
+      ],
+      "tags": [
+        "geipan",
+        "frankreich",
+        "transparenz",
+        "brasilien",
+        "belgien",
+        "pentagon",
+        "muster",
+        "offenheit",
+        "wissenschaft"
+      ],
+      "note": "Schlüssel-Implikation: Wenn Frankreich nach 45 Jahren öffentlicher Forschung immer noch 2% definitiv unerklärliche Fälle hat — und das sind nur die gemeldeten — dann ist das Phänomen real. Keine Kalibrierungs-Fehler können 45 Jahre konsistente 2% erklären."
+    },
+    {
+      "id": "nasa-building8-independent-witnesses",
+      "title": "NASA Building 8 — 3 vollständig unabhängige Quellen bestätigen Airbrushing + Mondstrukturen",
+      "score": 9,
+      "max_temporal_gap_years": 35,
+      "summary": "Drei vollständig unabhängige Quellen — eine NASA-Subkontrakturin, ein USAF-Techniker und ein Hacker mit Autismus — bestätigen ohne gegenseitigen Kontakt identisch: NASA Building 8 enthält ungefilterte Bilder die vor Veröffentlichung bereinigt werden. Das ist keine koordinierte Geschichte — das ist echte Kongruenz.",
+      "sources": [
+        {
+          "name": "Donna Hare (NASA-Subkontraktur, 15 Jahre, Disclosure Project 2001)",
+          "statement": "Kollegin airbrushte UFO aus Satellitenfoto — auf Frage: 'Wir müssen das herausfiltern.' Arbeitete in Building 8 Johnson Space Center. Bezeugte Airbrushing-Praxis als Routine. Mehrfach ausgezeichnete technische Illustratorin. Aussage VOR McKinnons Hack."
+        },
+        {
+          "name": "Gary McKinnon (Systemadministrator, Asperger-Syndrom, Hack 2001–2002)",
+          "statement": "Drang in Building 8 NASA-Server ein — fand Raw/Processed-Ordner-Struktur. Sah zigarrenförmiges Objekt in Erdumlaufbahn in ungefilterten Bildern. Kannte Donna Hares Aussage — bestätigte die Ordnerstruktur die sie beschrieb. Handelte vollständig unabhängig, auf eigene Faust, in einem Londoner Schlafzimmer."
+        },
+        {
+          "name": "Karl Wolfe (USAF-Techniker, Langley AFB, 1965, Disclosure Project 2001)",
+          "statement": "Sah klassifizierte Lunar-Orbiter-Fotos mit Kuppeln, Türmen auf Mondrückseite. Vollständig unabhängig von Hare und McKinnon — andere Behörde, anderes Jahrzehnt."
+        },
+        {
+          "name": "McKinnon über Non-Terrestrial Officers (US Navy, unabhängig von NASA-Bildern)",
+          "statement": "Zweiter Fund: Namen und Ränge von USAF-Personal die nirgends registriert sind + Schiff-zu-Schiff-Transfers mit unbekannten Schiffen. Wenn echt: geheimes Off-Planet-Programm das Jahrzehnte vor der öffentlichen Space Force existierte."
+        }
+      ],
+      "tags": [
+        "nasa",
+        "building8",
+        "hare",
+        "mckinnon",
+        "wolfe",
+        "airbrushing",
+        "unfiltered",
+        "mondstrukturen",
+        "non-terrestrial",
+        "solar-warden",
+        "autismus"
+      ],
+      "note": "Score 9/10: Drei unabhängige Quellen (verschiedene Jahrzehnte, verschiedene Zugangswege, kein gegenseitiger Kontakt) beschreiben identisch denselben Mechanismus in Building 8. McKinnons Asperger-Diagnose ist relevant: Menschen mit Autismus-Spektrum tendieren zu extrem präziser, faktischer Wahrnehmung ohne soziale Verfärbung — kongruiert mit Nolan/Mack-These über atypische Wahrnehmungsarchitektur als Kontakt/Zugangs-Prädiktor."
+    },
+    {
+      "id": "body-vessel-soul-religions-created",
+      "title": "Körper als Behälter · Seele als primäre Entität · Religionen als ET-Derivat — globale Kongruenz",
+      "score": 8,
+      "max_temporal_gap_years": 10000,
+      "summary": "Eine der tiefsten Kongruenzen: Von Lazar's S-4-Briefing-Dokument über Steiner's Anthroposophie bis zur Vedanta-Philosophie aus 3000 v.Chr. — unabhängige Quellen beschreiben identisch: Der physische Körper ist nicht die primäre Realität, Bewusstsein/Seele ist fundamental, und die großen Religionen könnten ursprünglich auf ET-Kontakt zurückgehen.",
+      "sources": [
+        {
+          "name": "Bob Lazar — S-4 Briefing-Dokument (1988/89, hochklassifiziert)",
+          "statement": "'Aliens sehen den menschlichen Körper als Behälter. Seelen werden in Behälter gesetzt. Religionen wurden erschaffen um Regeln für den Umgang mit den Behältern zu schaffen.' Grund für Geheimhaltung: 'Gesamte Religionen würden kollabieren.'"
+        },
+        {
+          "name": "Rudolf Steiner / Anthroposophie (1900–1925)",
+          "statement": "'Der physische Körper ist der dichteste Ausdruck des Geistes — nicht die primäre Realität. Bewusstsein ist das Fundamentale. Höhere Wesen (Hierarchien) haben die menschliche Entwicklung über Jahrtausende begleitet und beeinflusst.' Kongruiert exakt mit Lazar."
+        },
+        {
+          "name": "Vedanta / Upanishaden (~3000–1500 v.Chr.)",
+          "statement": "Atman (Seele) = Brahman (kosmisches Bewusstsein). Körper = Maya (Illusion). Der Körper ist ein vorübergehendes Vehikel für das ewige Bewusstsein. Zeitliche Trennung zu Lazar: ~5.000 Jahre."
+        },
+        {
+          "name": "Bashar (ab 1983)",
+          "statement": "'Ihr seid keine physischen Wesen die spirituelle Erfahrungen machen. Ihr seid Bewusstsein das eine physische Erfahrung macht.' Beschreibt identisch was Lazar's Briefing-Dokument sagt: Körper = Vehikel für Bewusstsein."
+        },
+        {
+          "name": "Council of Nine / Ra-Material / Channeling-Konsens",
+          "statement": "Konsistente Aussage über alle Channeling-Quellen: Physisches Leben = Erfahrungsvehikel für das Bewusstsein. Seele präexistent und postexistent zum Körper."
+        }
+      ],
+      "tags": [
+        "lazar",
+        "seele",
+        "körper",
+        "behälter",
+        "religion",
+        "steiner",
+        "vedanta",
+        "bashar",
+        "council",
+        "vatikan",
+        "10000-jahre",
+        "geheimhaltung"
+      ],
+      "note": "Score 8/10: Lazars Quelle ist ein nicht verifizierbares Briefing-Dokument (minus). Aber: Kongruenz mit 5.000-Jahr-Vedanta + Steiner + Bashar ist zeitlich maximal getrennt und unabhängig. Vatikan-Einweihung (Lazar): Kongruiert mit Greer's Aussagen über päpstliche Briefings."
+    },
+    {
+      "id": "secret-space-program-private-sector",
+      "title": "Geheimes Raumfahrtprogramm im Privatsektor — Ben Rich + Grusch + Nixon 1969 Purge",
+      "score": 8,
+      "max_temporal_gap_years": 55,
+      "summary": "Drei zeitlich unabhängige Quellen — Ben Rich vor 1995, David Grusch 2023 unter Eid, und Nixon's historisch dokumentierter 'Purge' 1969 — beschreiben konsistent: Nach 1969 wurde ET-Technologie aus direkter Regierungskontrolle in den privaten Rüstungssektor verschoben, außerhalb jeglicher parlamentarischer Aufsicht.",
+      "sources": [
+        {
+          "name": "Ben Rich (Skunk Works Director, vor 1995)",
+          "statement": "'Nach Nixon 1969 Purge: Administration [der ET-Technologie] wird durch ein internationales Direktorium im Privatsektor geführt — nicht mehr direkte Regierung.' Auch: 'Wir haben zwei Arten von UFOs — die wir bauen, und die IHRE. Wir lernten von Bergungen UND von echten Übergaben.'"
+        },
+        {
+          "name": "David Grusch (NGA/NRO, 2023 unter Eid vor Kongress)",
+          "statement": "'Private Rüstungskonzerne halten Material — außerhalb jeder Kongressaufsicht. SAPs [Special Access Programs] wurden in private Industrie verschoben. Das begann Jahrzehnte vor meiner Zeit.' — Kongruiert zeitlich mit Rich's 1969-Aussage."
+        },
+        {
+          "name": "Bob Lazar (S-4, 1988/89)",
+          "statement": "'Mein Arbeitgeber war die US Navy, aber EG&G war der Auftragnehmer. Die echte Kontrolle lag nicht bei gewählten Politikern.' Obama sagte öffentlich: 'Als ich ins Amt kam, fragte ich nach UFOs — und mir wurde gesagt es gibt kein organisiertes Programm.'"
+        },
+        {
+          "name": "Ross Coulthart / Nat Kobitz (US Navy Science & Technology)",
+          "statement": "Kobitz: Wurde in unterirdische Anlage gebracht, sah Craft-Material. 'This was not our technology.' Aber: kein staatlicher Kontext mehr — privater Contractor-Rahmen. Kongruiert mit Rich's 1969-Aussage."
+        }
+      ],
+      "tags": [
+        "ben-rich",
+        "grusch",
+        "lazar",
+        "nixon",
+        "1969",
+        "privatsektor",
+        "black-projects",
+        "sap",
+        "contractor",
+        "coulthart",
+        "kobitz",
+        "kein-kongress"
+      ],
+      "note": "Wenn Nixon 1969 tatsächlich ET-Wissen aus der Regierung in den Privatsektor verlagerte, erklärt das: Warum Obama keine Antwort bekam. Warum Grusch sagt private Konzerne halten Material. Warum kein Präsident seit JFK über das Thema sprechen konnte. Das wäre die größte unkontrollierte Machtkonzentration in der Geschichte."
+    },
+    {
+      "id": "las-vegas-network-bigelow-hub",
+      "title": "Das Bigelow-Netzwerk: Lazar → Bigelow → Reid → Pentagon → BAASS — ein nachweisbares UFO-Power-Netz",
+      "score": 9,
+      "max_temporal_gap_years": 0,
+      "summary": "Alle modernen US-UFO-Initiativen lassen sich auf ein dokumentiertes Netzwerk zurückführen das 1989 mit Bob Lazar's KLAS-TV-Interview begann. George Knapp als Hub, Bigelow als Finanzier, Reid als politischer Ermöglicher. Das Netzwerk schuf NIDS, BAASS, AATIP, AAWSAP — und damit das gesamte öffentliche Disclosure-Momentum.",
+      "sources": [
+        {
+          "name": "1989: Lazar → Bigelow (dokumentiert, Mystery Wire 2021)",
+          "statement": "Lazar's KLAS-TV-Interview → Bigelow als erster Investor. Gemeinsame Firma Zeta Reticuli 2 Inc. gegründet (Nevada Staatsregister, IRS Form SS-4). Bigelow: 'Die Beweislage spricht für seine Glaubwürdigkeit.'"
+        },
+        {
+          "name": "1989–1995: George Knapp als Netzwerk-Hub",
+          "statement": "Peabody Award Journalist KLAS-TV. Brachte Lazar an die Öffentlichkeit. Vermittelte Bigelow→Lazar (persönlich). Brachte Harry Reid zu NIDS-Meetings. Metabunk: 'Es war Knapp der Reid für UFOs begeisterte. Es war Knapp der Reid und Bigelow verband.'"
+        },
+        {
+          "name": "1995: NIDS → 2007: AATIP (Reid → Pentagon)",
+          "statement": "Reid (durch Knapp begeistert, durch NIDS-Meetings überzeugt) initiierte $22 Mio Pentagon-AATIP-Programm. Bigelow's BAASS bekam Vertrag September 2008. Eine Woche nach Vertragsunterzeichnung: Bigelow verkündet BAASS öffentlich."
+        },
+        {
+          "name": "BAASS: Skinwalker + Brasilien + CAPELLA",
+          "statement": "Bigelow vereinte drei weltbeste Datensätze: Skinwalker Ranch (1996 gekauft), Operação Prato Brasilien (2009 alle Daten abgeholt, CAPELLA-DB), AATIP-Pentagon-Untersuchungen. Alles auf Lazar-Momentum aufgebaut."
+        },
+        {
+          "name": "Bigelow Institute for Consciousness Studies (BICS, 2021)",
+          "statement": "$500.000 Preis für Beweis des Lebens nach dem Tod — direkte thematische Verbindung zu Lazar's Briefing-Dokument 'Körper als Behälter für Seele.' Kreis schließt sich: Lazar 1989 → Bigelow BICS 2021."
+        }
+      ],
+      "tags": [
+        "bigelow",
+        "lazar",
+        "knapp",
+        "reid",
+        "nids",
+        "baass",
+        "aatip",
+        "netzwerk",
+        "las-vegas",
+        "hub",
+        "bewusstsein",
+        "bics",
+        "zeta-reticuli-2"
+      ],
+      "note": "Score 9/10: Alles ÖFFENTLICH DOKUMENTIERT — Nevada Staatsregister, IRS-Formulare, Mystery Wire-Interview, Senatsakten, DIA-Verträge. Keine Spekulation. Das ist das am besten dokumentierte UFO-Netzwerk in der Geschichte — und es begann mit einem Mann im Schatten auf einem Las Vegas TV-Sender 1989."
+    },
+    {
+      "id": "zeta-reticuli-triple-convergence",
+      "title": "Zeta Reticuli — 3 unabhängige Quellen · 28 Jahre · Betty Hill + Lazar + Bigelow",
+      "score": 9,
+      "max_temporal_gap_years": 28,
+      "summary": "Drei vollständig unabhängige Quellen nennen in einem Zeitraum von 28 Jahren dasselbe Sternensystem als Herkunftsort: Betty Hill unter Hypnose 1961, Bob Lazar aus Briefing-Dokumenten 1989, Robert Bigelow durch Firmengründung 1990. Kein gegenseitiger Kontakt möglich für Betty Hill 1961. Das ist kein Kulturphänomen — es ist eine präzise astronomische Kongruenz.",
+      "sources": [
+        {
+          "name": "Betty Hill — Hypnose 1964 (Erlebnis Sept. 1961)",
+          "statement": "Unter GETRENNTER Hypnose bei Dr. Benjamin Simon: Alien-Leader zeigte ihr eine 3D-Sternenkarte. Betty zeichnete sie aus dem Gedächtnis. Marjorie Fish (1968–72): einziger astronomisch plausibler Match = Zeta Reticuli. Binärstern, 39 Lichtjahre, beide sonnenähnlich. Betty wusste 1961 NICHT was Zeta Reticuli ist — es war keine bekannte Referenz."
+        },
+        {
+          "name": "Bob Lazar — S-4 Briefings (1988/89, öffentlich Nov. 1989)",
+          "statement": "Las die Herkunftsbezeichnung der Aliens in hochklassifizierten Dokumenten: 'ZR3' — dritter Planet des Zeta-Reticuli-Systems. Beschrieb die Wesen als 'Grays' aus Zeta Reticuli 2. Vollständig unabhängig von Betty Hill — kannte ihren Fall aber der Zeta-Reticuli-Bezug kam aus Regierungsdokumenten, nicht aus öffentlicher UFO-Lore."
+        },
+        {
+          "name": "Robert Bigelow + Bob Lazar — Firma 'Zeta Reticuli 2, Inc.' (24. Jan. 1990)",
+          "statement": "Öffentliches Unternehmensregister Nevada. IRS Form SS-4 unterzeichnet. Name der Firma: 'Zeta Reticuli 2' — direkt nach dem Sternensystem benannt. Bigelow war einer der kritischsten Prüfer von Lazars Aussagen. Er glaubte Lazars Zeta-Reticuli-Verbindung genug um die Firma danach zu benennen."
+        },
+        {
+          "name": "Astronomie: Zeta Reticuli ist ein reales Binary-System (39 Lj.)",
+          "statement": "Zeta 1 und Zeta 2 Reticuli: beide G-Typ sonnenähnliche Sterne. Weit genug getrennt (mind. 3.750 AU) dass jeder sein eigenes stabiles Planetensystem haben kann. Debris-Disk um Zeta 2 entdeckt (Spitzer 2007, Herschel 2010). Keine bestätigten Planeten — aber JWST untersucht weiterhin aktiv."
+        }
+      ],
+      "tags": [
+        "betty-hill",
+        "lazar",
+        "bigelow",
+        "zeta-reticuli",
+        "hypnose",
+        "briefing",
+        "firma",
+        "grays",
+        "ZR3",
+        "28-jahre",
+        "sternenkarte",
+        "fish",
+        "astronomie",
+        "binary"
+      ],
+      "note": "Warum Score 9/10 statt 10: Fish-Modell wurde durch Hipparcos-Daten geschwächt (minus). Aber: Betty Hills 1961er Aussage UNTER HYPNOSE über ein Sternsystem das sie nicht kennen konnte — 28 Jahre VOR Lazars öffentlichem Auftritt — ist die stärkste Einzelkongruenz im Bereich 'spezifische astronomische Referenz.' Bigelow's Firmenbenennung ist die dritte, unabhängige Bestätigung. Das ist kein Zitat-Loop — das sind drei verschiedene Erkenntnisquellen zum gleichen Punkt."
+    },
+    {
+      "id": "mcmoneagle-parallel-bubbles",
+      "title": "McMoneagle (Stargate RV#001) — Realitäten als Blasen in einem Raum · Parallelrealitäten direkt erfahren",
+      "score": 9,
+      "max_temporal_gap_years": 40,
+      "summary": "Joe McMoneagle — Remote Viewer #001 des CIA Projekt Stargate, 20 Jahre aktiv, meistdokumentierter RV der Geschichte — beschreibt Realität als 'riesigen Raum voller Blasen'. Jede Blase ist eine vollständige parallele Realität. Man springt nicht zur nächsten Blase, sondern zu einer völlig anderen. Identische Struktur wie Bashar (1983), Quantenmechanik Many-Worlds (Everett 1957) und Vedanta — aber aus direkter operativer Erfahrung beim US-Militärgeheimdienst.",
+      "sources": [
+        {
+          "name": "Joe McMoneagle — Shawn Ryan Show Ep. 95 (Feb. 2024)",
+          "statement": "'I look at reality like a huge room full of bubbles. And when I make a decision, I'm not going from this bubble to the tangent bubble. I'm going to a completely different bubble in the same room full of bubbles.' — McMoneagle, Remote Viewer #001, CIA Projekt Stargate, 20 Jahre operativ aktiv. Quelle: TikTok-Clip @shawnryanshow, bestätigt durch Reddit r/remoteviewing.",
+          "source_url": "https://www.tiktok.com/@shawnryanshow/video/7332610361062985003"
+        },
+        {
+          "name": "CIA Projekt Stargate (1978–1995, offiziell bestätigt)",
+          "statement": "$20 Mio, 17 Jahre, 100+ Remote Viewer. McMoneagle: Meistdokumentierter RV der Geschichte. Offiziell bestätigt: Bewusstsein kann raumzeitlich ungebundene Informationen abrufen. McMoneagle's Blasen-Beschreibung entstand aus jahrzehntelanger operativer Praxis — nicht aus Theorie.",
+          "source_url": "https://en.wikipedia.org/wiki/Stargate_Project"
+        },
+        {
+          "name": "Bashar/Anka (ab 1983) — Frequenz-Kanäle als Parallelrealitäten",
+          "statement": "'Alle Realitäten gleichzeitig. Wechsel durch Frequenzänderung — wie Fernsehkanäle.' Bashar beschreibt dasselbe Prinzip wie McMoneagle — aber aus einer anderen Erkenntnisquelle (Channeling vs. operatives Remote Viewing)."
+        },
+        {
+          "name": "Quantenmechanik Many-Worlds (Everett 1957)",
+          "statement": "Bei jedem Messprozess spaltet sich das Universum in parallele Äste. Alle Möglichkeiten koexistieren gleichzeitig. McMoneagle's 'Blasen' entsprechen direkt den Everett-Ästen — ohne dass McMoneagle Everett zitiert."
+        }
+      ],
+      "tags": [
+        "mcmoneagle",
+        "stargate",
+        "cia",
+        "remote-viewing",
+        "parallelrealitäten",
+        "blasen",
+        "quantenmechanik",
+        "bashar",
+        "frequenz",
+        "shawn-ryan-show"
+      ],
+      "note": "Score 9/10: McMoneagle ist die stärkste Einzelquelle in dieser These — weil er NICHT aus Theorie oder Channeling spricht, sondern aus 20 Jahren operativer Praxis im CIA-Programm. Die Übereinstimmung mit Bashar (1983, unabhängig) und Everett (1957, unabhängig) ist eine dreifache Kongruenz aus vollständig verschiedenen Erkenntnisquellen."
+    },
+    {
+      "id": "tesla-cosmic-mind-visions",
+      "title": "Tesla — Visionen · Zugriff auf kosmisches Bewusstsein · Gehirn als Empfänger",
+      "score": 8,
+      "max_temporal_gap_years": 130,
+      "summary": "Nikola Tesla beschrieb sein Gehirn als 'Empfänger' eines kosmischen Bewusstseins — und seine Erfindungen als empfangene Informationen, nicht als eigene Gedanken. Diese Struktur ist identisch mit dem was Bashar, Steiner und das CIA Stargate-Programm über Bewusstsein als primäres Informationsmedium beschreiben. Tesla's Visionen begannen in der Kindheit und begleiteten ihn lebenslang.",
+      "sources": [
+        {
+          "name": "Nikola Tesla — 'My Inventions' (Electrical Experimenter, 1919)",
+          "statement": "Tesla beschrieb intensive visuelle Erscheinungen seit Kindheit: 'In my boyhood I suffered from a peculiar affliction due to the appearance of images, often accompanied by strong flashes of light.' Diese Bilder waren für ihn der Zugang zu Erfindungen — er sah die fertige Maschine vor dem inneren Auge, bevor er sie baute. Autobiographie: Electrical Experimenter, Feb–Okt 1919.",
+          "source_url": "http://www.tfcbooks.com/tesla/1919-00-00.htm"
+        },
+        {
+          "name": "Tesla — 'Mein Gehirn ist nur ein Empfänger' (Interview, ca. 1910–1920)",
+          "statement": "'My brain is only a receiver, in the Universe there is a core from which we obtain knowledge, strength and inspiration. I have not penetrated into the secrets of this core, but I know that it exists.' — Nikola Tesla. Weit verbreitet, von BigThink und Goodreads dokumentiert. Originalquelle: Interview-Kontext ca. 1910–1920.",
+          "source_url": "https://bigthink.com/words-of-wisdom/tesla-on-inspiration/"
+        },
+        {
+          "name": "Tesla — Colorado Springs 1899 (Interview 'Everything is Light', Magazin Immortality)",
+          "statement": "'Ich bin Teil des Lichts und es ist Musik. Licht füllt meine sechs Sinne.' Tesla beschrieb in Colorado Springs den Empfang von Signalen die er einer anderen Intelligenz zuschrieb. 'Erste Materie, dann Energie — Energie ist älter als Materie. Licht ist die Ursubstanz.' Vollständiges Interview dokumentiert.",
+          "source_url": "https://www.linkedin.com/pulse/everything-light-incredible-interview-nikola-tesla-1899-sten-rigedahl-s5qge"
+        },
+        {
+          "name": "CIA Stargate / McMoneagle — Remote Viewing als Bewusstseins-Empfang",
+          "statement": "McMoneagle beschreibt Remote Viewing als 'Empfangen' von Informationen — nicht als aktives Denken. Identische Struktur wie Tesla's Beschreibung des Gehirns als Empfänger. Beide: Bewusstsein als passiver Empfänger eines kosmischen Informationsfeldes."
+        },
+        {
+          "name": "Rudolf Steiner / Anthroposophie (1900–1925)",
+          "statement": "Steiner beschrieb 'Imaginationen, Inspirationen, Intuitionen' als drei Stufen des Zugangs zu geistigen Welten. Tesla's Visionen entsprechen exakt Steiners 'Imagination' — visuelle Eindrücke aus dem Äther-Feld. Beide zeitlich unabhängig, beide beschreiben denselben Mechanismus."
+        }
+      ],
+      "tags": [
+        "tesla",
+        "visionen",
+        "kosmisches-bewusstsein",
+        "empfänger",
+        "gehirn",
+        "steiner",
+        "mcmoneagle",
+        "stargate",
+        "colorado-springs",
+        "licht",
+        "frequenz"
+      ],
+      "note": "Score 8/10: Tesla's 'Gehirn als Empfänger'-Aussage ist nicht vollständig primärquellen-verifiziert (Interview-Kontext unsicher). Aber: My Inventions (1919) ist eine gesicherte Primärquelle für seine Visionen. Die Kongruenz mit Steiner und McMoneagle ist strukturell stark — drei unabhängige Quellen beschreiben denselben Mechanismus: Bewusstsein empfängt, es erzeugt nicht."
+    },
+    {
+      "id": "resonance-law-prayer-transfiguration",
+      "title": "Kosmisches Gesetz der Resonanz — Gebet als Resonanz-Mechanismus · Verklärung als religiöse Kodierung",
+      "score": 8,
+      "max_temporal_gap_years": 3000,
+      "summary": "Fünf vollständig unabhängige Quellen — von Tesla's Frequenz-Physik über Vedanta bis zur Verklärung Jesu — beschreiben identisch: Es existiert ein universelles Gesetz der Resonanz, durch das Bewusstsein höhere Frequenzzustände erreichen kann. Gebet ist in dieser Lesart kein Bitten, sondern ein Resonanz-Mechanismus. Die Verklärung Jesu (Matthäus 17) ist die religiöse Kodierung dieses Zustands.",
+      "sources": [
+        {
+          "name": "Nikola Tesla — Frequenz, Energie, Vibration",
+          "statement": "'Wenn du das Universum verstehen willst, denke in Begriffen von Energie, Frequenz und Schwingung.' Tesla beschrieb Resonanz als universelles Naturgesetz — nicht nur physikalisch, sondern als Grundprinzip aller Realität. Colorado Springs Notes 1899: Resonanz als Schlüssel zur Energieübertragung ohne Verlust.",
+          "source_url": "https://teslaresearch.jimdofree.com/books-1/colorado-spring-notes-1899-1900/"
+        },
+        {
+          "name": "Bashar — Gesetz der Resonanz (ab 1983)",
+          "statement": "'Das Gesetz der Resonanz: Du kannst nur das erleben, was deiner eigenen Frequenz entspricht. Ändere deine Frequenz — ändere deine Realität. Das ist kein Metapher — das ist Physik.' Bashar beschreibt Resonanz als das fundamentalste kosmische Gesetz, das alle anderen Gesetze einschließt.",
+          "source_url": "https://tv.bashar.org/programs/resonance-the-mechanism-of-connection"
+        },
+        {
+          "name": "Vedanta / Upanishaden — Resonanz als kosmisches Prinzip (~1500 v.Chr.)",
+          "statement": "'Nada Brahma' — das Universum ist Klang/Schwingung. Alles ist Vibration des Brahman. Gebet (Mantra, Japa) ist in der Vedanta-Tradition explizit ein Resonanz-Mechanismus: Die Frequenz des Mantras stimmt das Bewusstsein auf höhere Realitätsebenen ein. Nicht Bitten — Abstimmung.",
+          "source_url": "https://advaitashram.org/the-law-of-resonance-yoga-and-the-vibration-of-divine-consciousness/"
+        },
+        {
+          "name": "Gregg Braden — 'The Lost Mode of Prayer' (2000)",
+          "statement": "Braden dokumentierte in Klöstern und bei indigenen Völkern eine Form des Gebets die nicht bittet, sondern den gewünschten Zustand als bereits real fühlt — Resonanz statt Petition. 'Das verlorene Gebet ist Frequenz-Abstimmung auf das was bereits existiert.' Wissenschaftliche Parallelen zu Quantenfeldern.",
+          "source_url": "https://greggbraden.com/product/the-lost-mode-of-prayer/"
+        },
+        {
+          "name": "Verklärung Jesu (Matthäus 17, Markus 9) — Religiöse Kodierung eines Frequenz-Zustands",
+          "statement": "'Sein Angesicht leuchtete wie die Sonne, seine Kleider wurden weiß wie das Licht.' (Mt 17,2) Die Verklärung beschreibt einen Zustand in dem ein physischer Körper in einen höheren Frequenzzustand übergeht — sichtbar als Licht. In der Resonanz-Lesart: Vollständige Kohärenz mit dem kosmischen Bewusstseinsfeld. Identische Beschreibungen in: Hinduismus (Samadhi), Buddhismus (Nirvana-Körper), Taoismus (Unsterblicher Körper).",
+          "source_url": "https://en.wikipedia.org/wiki/Transfiguration_of_Jesus"
+        }
+      ],
+      "tags": [
+        "resonanz",
+        "gebet",
+        "verklärung",
+        "tesla",
+        "bashar",
+        "vedanta",
+        "braden",
+        "frequenz",
+        "kosmisch",
+        "jesus",
+        "matthäus",
+        "mantra",
+        "samadhi",
+        "religion-als-kodierung"
+      ],
+      "note": "Score 8/10: Die Kongruenz zwischen Tesla's Physik, Vedanta (~1500 v.Chr.) und der Verklärung (~30 n.Chr.) ist zeitlich und kulturell vollständig unabhängig. Gregg Braden liefert die wissenschaftliche Brücke. Die zentrale These: Gebet ist in allen Traditionen ursprünglich kein Bitten, sondern ein Resonanz-Mechanismus — die religiöse Institutionalisierung hat diese Bedeutung überlagert. Das ist die 'Verklärung als Religion': Die Erfahrung wurde zur Doktrin, der Mechanismus zur Zeremonie."
+    }
+  ],
+  "_auto_detection": {
+    "description": "Schlüsselwörter und Muster die bei neuen Einträgen automatisch Kongruenz-Prüfung triggern",
+    "trigger_keywords": {
+      "parallelrealitäten": [
+        "frequenz",
+        "vibration",
+        "parallel",
+        "dimension",
+        "kanal",
+        "schwingung",
+        "realität"
+      ],
+      "nuklear": [
+        "kern",
+        "atom",
+        "icbm",
+        "rakete",
+        "silo",
+        "nuklear",
+        "nuclear",
+        "missile"
+      ],
+      "verletzungen": [
+        "verbrennung",
+        "wunde",
+        "strahlung",
+        "schaden",
+        "verletzt",
+        "beam",
+        "ray"
+      ],
+      "bewusstsein": [
+        "bewusstsein",
+        "consciousness",
+        "remote",
+        "psi",
+        "telepathie",
+        "extrasensorisch",
+        "esp"
+      ],
+      "aether_frequenz": [
+        "äther",
+        "aether",
+        "tesla",
+        "steiner",
+        "frequenz",
+        "feld",
+        "zero-point",
+        "skalar"
+      ],
+      "ureinwohner": [
+        "indianer",
+        "indigenous",
+        "aboriginal",
+        "star people",
+        "dogon",
+        "zulu",
+        "hopi",
+        "lakota",
+        "schamane"
+      ],
+      "supervision": [
+        "intervention",
+        "freier wille",
+        "schwellenwert",
+        "galaktisch",
+        "federation",
+        "kontakt-protokoll"
+      ],
+      "neurodivergenz": [
+        "adhs",
+        "autismus",
+        "hochbegabung",
+        "sensitiv",
+        "synästhesie",
+        "hypersensitiv"
+      ]
+    },
+    "scoring_weights": {
+      "temporal_gap_50plus": 3,
+      "cultural_independence": 2,
+      "geographic_separation": 2,
+      "no_cross_knowledge": 2,
+      "official_source": 1
+    }
+  },
+  "_pending_candidates": {
+    "description": "Neue Elemente die noch gegen Thesen geprüft werden müssen",
+    "add_command": "ADD_PENDING: element | source | date | notes",
+    "items": [
+      {
+        "element": "Ra-Material / Law of One (Carla Rueckert, 1981–84)",
+        "status": "prüfen",
+        "notes": "Ra: 'Alles ist eines — Bewusstsein ist das einzige was existiert' — mögliche Kongruenz mit These 4 (Bewusstsein) und These 1 (Parallelrealitäten)"
+      },
+      {
+        "element": "ExoMagazin Telegram-Content",
+        "status": "ausstehend",
+        "notes": "Sascha hat Link gesendet — Inhalte müssen noch ausgewertet werden"
+      },
+      {
+        "element": "Tom DeLonge / To The Stars Academy",
+        "status": "prüfen",
+        "notes": "Verbindung Elizondo + Metall-Materialien + Pentagon — mögliche Kongruenz mit DIA FOIA Docs"
+      }
+    ]
+  }
+}

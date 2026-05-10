@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "description": "Fälle die als Falsch oder Fehlidentifikation eingestuft wurden"
+  },
+  "cases": [
+    {
+      "id": "calvine-debunk-theory",
+      "title": "Calvine 1990 — Berggipfel-Theorie (Mike Bara)",
+      "verdict": "UMSTRITTEN",
+      "confidence": 40,
+      "description": "Mike Bara: Berggipfel durch Temperaturinversion + Harrier = kein UFO. Gegenargument: Scharfe geometrische Kanten des Objekts widersprechen Inversionswolke.",
+      "source_url": "https://www.irishstar.com/news/us-news/calvine-ufo-uk-case-cracked-33653183"
+    },
+    {
+      "id": "phoenix-lights-flares",
+      "title": "Phoenix Lights 1997 — A-10 Leuchtraketen (Offiziell)",
+      "verdict": "TEILWEISE_WIDERLEGT",
+      "confidence": 60,
+      "description": "Phase 2 (V-Formation) erklärt als A-10 Leuchtraketen Maryland ANG. Aber: Phase 1 (massive dreieckige Struktur über Phoenix) weiterhin unerklärlich. Gouverneur Symington verspottete es erst — bestätigte es 10 Jahre später als real.",
+      "source_url": ""
+    },
+    {
+      "id": "petit-rechain-fake",
+      "title": "Petit-Rechain-Foto Belgien 1990 — bestätigte Fälschung",
+      "verdict": "WIDERLEGT",
+      "confidence": 95,
+      "description": "Patrick Marechal gestand 2011: Foto war ein Pappmodell. Belgische Militärradar-Daten und F-16-Verfolgung bleiben aber unerklärt und real — die Fälschung betrifft nur dieses eine Foto, nicht den gesamten Fall.",
+      "source_url": ""
+    },
+    {
+      "id": "alien-autopsy-1995",
+      "title": "Alien Autopsy Film 1995 (Ray Santilli) — bestätigte Fälschung",
+      "verdict": "WIDERLEGT",
+      "confidence": 99,
+      "description": "Ray Santilli gestand 2006: Film war ein Nachbau ('Restoration') mit Schweinehirn und Schafshaut. Original-Footage angeblich zu beschädigt. Kein Nachweis irgendwelcher Originalaufnahmen.",
+      "source_url": ""
+    },
+    {
+      "id": "serpo-project",
+      "title": "Project SERPO — Astronauten-Austausch mit Eben",
+      "verdict": "WIDERLEGT",
+      "confidence": 85,
+      "description": "2005–2006 anonyme E-Mails: 12 US-Astronauten zum Planeten 'Serpo' im Zeta-Reticuli-System. Astronomical Impossible (keine Reise in 9 Monaten möglich). Identische Beschreibungen zu früherer Fiktion. Quelle: Richard Doty (bekannt für UFO-Desinformation).",
+      "source_url": ""
+    },
+    {
+      "id": "crop-circles-most",
+      "title": "Crop Circles (Mehrheit) — Doug Bower & Dave Chorley",
+      "verdict": "ÜBERWIEGEND_WIDERLEGT",
+      "confidence": 80,
+      "description": "1991: Bower und Chorley gestanden Tausende von Kornkreisen seit 1978. Viele andere Fälle seither als menschengemacht bestätigt. Ausnahmen: Einige geometrisch extrem komplexe in kurzer Zeit — schwer erklärbar. 10–20% der Fälle gelten als ungeklärt.",
+      "source_url": ""
+    },
+    {
+      "id": "face-on-mars",
+      "title": "Gesicht auf dem Mars (Cydonia) — Beleuchtungseffekt",
+      "verdict": "WIDERLEGT",
+      "confidence": 95,
+      "description": "Viking Orbiter 1976: 'Gesicht.' Mars Reconnaissance Orbiter (HiRISE) 2007 in hoher Auflösung: Natürliche Mesaformation. Beleuchtungswinkel + niedrige Auflösung erzeugte Pareidolie. Kein künstliches Objekt.",
+      "source_url": ""
+    },
+    {
+      "id": "rendlesham-lighthouse",
+      "title": "Rendlesham 1980 — Leuchtturm-Theorie (Phase 2 Lichter)",
+      "verdict": "TEILWEISE_WIDERLEGT",
+      "confidence": 55,
+      "description": "Ian Ridpath: Stationäre Lichter = Orford Ness Leuchtturm (gleicher Azimut, gleiche 5-Sekunden-Frequenz). Sterne erklären die 'starlike objects'. Bodenspuren = Kaninchenbaue. ABER: Col. Halt 2010 Notaraffidavit widerspricht. Burroughs VA-Zahlung für Strahlung. Pennisttons Binary Code. Halt-Tape zeigt echte Überraschung. Leuchtturm-Theorie erklärt nicht alles — Teil-Widerlegung nur für Phase 2."
+    },
+    {
+      "id": "phoenix-phase2",
+      "title": "Phoenix Lights 1997 Phase 2 — A-10 Leuchtraketen (Maryland ANG)",
+      "verdict": "TEILWEISE_WIDERLEGT",
+      "confidence": 70,
+      "description": "US Air Force bestätigte: Maryland ANG feuerte LUU-2 Leuchtraketen über Barry Goldwater Range. Erklärt: Stationäre Lichter in V-Formation über Phoenix (Phase 2). NICHT erklärt: Phase 1 — das massive stille V-förmige Objekt das sich 300 Meilen bewegte und Sterne verdunkelte. Gouverneur Symington war Phase-1-Zeuge."
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "last_updated": "2026-05-09",
+    "add_command": "ADD_PERSON: name | role | bio | tags(comma separated) | source_url | emoji"
+  },
+  "people": [
+    {
+      "id": "grusch",
+      "name": "David Grusch",
+      "emoji": "🎖",
+      "role": "Whistleblower · NGA/NRO · 2023",
+      "bio": "Unter Eid vor US-Kongress 2023: SAPs seit Jahrzehnten aktiv, NHI-Überreste geborgen, private Rüstungskonzerne halten Material. Erste Eid-Aussage dieser Art in US-Geschichte. Nicht falsifiziert.",
+      "tags": [
+        "eid",
+        "sap",
+        "nhi",
+        "kongress",
+        "ngo",
+        "nro"
+      ],
+      "source_url": "https://oversight.house.gov/"
+    },
+    {
+      "id": "lazar",
+      "name": "Bob Lazar",
+      "emoji": "⚛️",
+      "role": "Whistleblower · S-4/Area 51 · 1989",
+      "bio": "Seit 1989 öffentlich: 9 Flugscheiben in S-4, Gravitations-Amplifier, Element 115 vor Entdeckung 2003 beschrieben. FBI-Akte per FOIA bestätigt. Bildungsnachweise umstritten. WARUM GEHEIMHALTUNG — Lazars eigene Antwort aus Briefings: '1. Religionen würden kollabieren — die Aliens behandeln den menschlichen Körper als Behälter für die Seele. Religionen wurden erschaffen um Regeln für den Umgang mit den Behältern zu schaffen.' '2. Vatikan weiß mehr als man denkt — die Kirche ist in dieses Wissen eingeweiht.' '3. Technologie ist so überlegen, dass wer sie besitzt unbegrenzte Militärmacht hat.' '4. 10.000 Jahre menschliche Geschichte müssten neu geschrieben werden — die Aliens waren immer dabei.' '5. Die Aliens selbst üben Druck aus — es zu verbergen.' Lazar las ein dickes, hochklassifiziertes Dokument über Religion — 'Die Aliens sehen Menschen als Behälter in die sie Seelen setzen wollen.' Neue Doku S4 Amazon Prime April 2026.",
+      "tags": [
+        "element115",
+        "s-4",
+        "gravitation",
+        "area51",
+        "sport-model",
+        "vatikan",
+        "religion-seele",
+        "behälter",
+        "10000-jahre",
+        "geheimhaltung-gründe"
+      ],
+      "source_url": "https://www.ufopulse.com/bob-lazar-element-115-and-the-enduring-mystery-behind-his-claims/"
+    },
+    {
+      "id": "bigelow",
+      "name": "Robert Bigelow",
+      "emoji": "🏗",
+      "role": "Unternehmer · BAASS · NIDS · Skinwalker · Brasilien-Daten",
+      "bio": "Nevada-Milliardär (Budget-Suites-Hotelkette). Lebenslanges persönliches Interesse am Paranormalen — verlor früh Großeltern durch Autounfall. BIGELOW ↔ LAZAR VERBINDUNG (1989–1990, dokumentiert): Lazar's erste KLAS-TV-Aussagen (Nov. 1989) katapultierten Area 51 in die Öffentlichkeit. Bigelow war ERSTER prominenter Nicht-Journalist der sich für Lazars Aussagen interessierte. George Knapp (KLAS-TV, Peabody Award) vermittelte die Verbindung Bigelow→Lazar→Reid. ZETA RETICULI 2, INC.: Am 24. Januar 1990 gründeten Bigelow + Lazar + Gene Huff gemeinsam eine Firma — Öffentliches Unternehmensregister Nevada. IRS Form SS-4: Robert T. Bigelow als Präsident unterzeichnet. Bigelow finanzierte ein Labor für Lazar. Offizieller Zweck: unklar — vermutlich Erforschung von Lazars behauptetem Material. Bigelow 2021 zu Mystery Wire: 'Bob war faszinierend weil er so viel wusste. Er ist kein Dummkopf. Er ist ein kluger, kreativer Mann. Die Beweislage spricht mehrheitlich für seine Glaubwürdigkeit.' HARRY REID CONNECTION: Knapp brachte Reid (US-Senator Nevada) zu NIDS-Meetings. Reid wurde 'still hooked on the UFO subject' — initiierte später AATIP ($22 Mio). NIDS → BAASS → AATIP → CAPELLA-DB: Bigelows UFO-Weg von Lazar 1989 direkt zu BAASS/Pentagon-Vertrag 2008 ($22 Mio, AAWSAP). Skinwalker Ranch 1996 gekauft. Project Colares/Brazil CAPELLA-DB. Bigelow Institute for Consciousness Studies: $500.000 Preis für Beweis des Lebens nach dem Tod — direkte Verbindung zu Lazar's Seelen-Behälter-Briefing-Dokument. Bigelow: 'ET ist definitiv präsent auf der Erde.'",
+      "tags": [
+        "baass",
+        "aatip",
+        "skinwalker",
+        "brasilien",
+        "capella",
+        "nids",
+        "lazar",
+        "zeta-reticuli-2",
+        "reid",
+        "knapp",
+        "bewusstsein",
+        "afterlife"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Advanced_Aerospace_Threat_Identification_Program"
+    },
+    {
+      "id": "elizondo",
+      "name": "Luis Elizondo",
+      "emoji": "🔍",
+      "role": "AATIP-Director · Pentagon · 2010–2017",
+      "bio": "Leitete AATIP ab 2010. Trat 2017 aus Protest zurück. Initiierte Freigabe der Navy-Videos. Bestätigte später: Skinwalker Ranch zentral für BAASS. 'Transmedium-Fähigkeiten der Objekte bestätigt.' Mitgründer To The Stars Academy.",
+      "tags": [
+        "aatip",
+        "navy-videos",
+        "transmedium",
+        "to-the-stars"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Advanced_Aerospace_Threat_Identification_Program"
+    },
+    {
+      "id": "fravor",
+      "name": "Cmdr. David Fravor",
+      "emoji": "✈️",
+      "role": "US Navy Pilot · USS Nimitz 2004",
+      "bio": "Sah Tic-Tac 5 Minuten direkt. Unter Eid 2023. 'Das Objekt kannte mein Verhalten und reagierte darauf — wie nichts was ich je erlebt habe.' Navy 2020: FLIR-Video authentisch.",
+      "tags": [
+        "tic-tac",
+        "flir",
+        "eid",
+        "nimitz",
+        "navy"
+      ],
+      "source_url": "https://www.navytimes.com/"
+    },
+    {
+      "id": "vallee",
+      "name": "Jacques Vallée",
+      "emoji": "🔭",
+      "role": "Astrophysiker · Interdimensionale Hypothese · ARPAnet",
+      "bio": "Blue-Book-Berater. ARPAnet-Pionier. Interdimensionale Hypothese: UAP aus benachbarten Dimensionen, nicht fernen Sternen. 'Sowohl technologisch als auch psychisch — unmöglich nur physisch zu erklären.' Kontrollfaktor-Hypothese: Phänomen reguliert menschliches Bewusstsein didaktisch über Jahrtausende.",
+      "tags": [
+        "interdimensional",
+        "kontrollfaktor",
+        "blue-book",
+        "arpanet",
+        "dimensions"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Jacques_Vall%C3%A9e"
+    },
+    {
+      "id": "hynek",
+      "name": "J. Allen Hynek",
+      "emoji": "🌟",
+      "role": "Astronom · Blue Book Berater · CE-Klassifikation",
+      "bio": "Began als Skeptiker. Erfand CE1–CE5-Klassifikation. Gründete CUFOS. Letzter Satz: 'Das Phänomen ist real, aber nicht das, was wir denken.' Spielberg ehrte ihn in Close Encounters (Cameo).",
+      "tags": [
+        "ce-klassifikation",
+        "cufos",
+        "blue-book",
+        "skeptiker-konvertiert"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/J._Allen_Hynek"
+    },
+    {
+      "id": "bashar",
+      "name": "Darryl Anka / Bashar",
+      "emoji": "🌌",
+      "role": "Channel · ET-Entität aus paralleler Zukunft · ab 1983",
+      "bio": "Hollywood-Spezialeffektkünstler. Channelt seit 1983 'Bashar' — ET-Entität aus paralleler Realität die wir als Zukunft wahrnehmen. Kernlehre: Unendliche Parallelrealitäten getrennt durch Frequenz/Vibration. 'Wie TV-Kanäle — alle laufen gleichzeitig.' 300.000+ Bücher Japan. Eigene UFO-Sichtung 1973.",
+      "tags": [
+        "parallelrealitäten",
+        "vibration",
+        "et-kontakt",
+        "frequenz",
+        "channeling"
+      ],
+      "source_url": "https://bashar.org"
+    },
+    {
+      "id": "council-of-nine",
+      "name": "Council of Nine — Puharich/Schlemmer",
+      "emoji": "🔮",
+      "role": "Channeling-Gruppe · ab 1952 · CIA-Verbindungen",
+      "bio": "Dr. Andrija Puharich (CIA-Verbindungen, Parapsychologieforschung) + Phyllis Schlemmer. 9 Intelligenzen: Earth überwacht, Intervention nur bei Schwellenwerten, freier Wille heilig. Gene Roddenberry nahm teil → Star Trek-Konzepte direkt basiert darauf. Uri Geller durch Puharich bekannt geworden.",
+      "tags": [
+        "council-of-nine",
+        "cia",
+        "star-trek",
+        "roddenberry",
+        "intervention-schwellenwert"
+      ],
+      "source_url": "https://unidentifiedphenomena.com/topics/council-of-nine/"
+    },
+    {
+      "id": "mitchell",
+      "name": "Edgar Mitchell",
+      "emoji": "🌙",
+      "role": "NASA Astronaut · Apollo 14 · 6. Mensch auf dem Mond",
+      "bio": "6. Mensch auf dem Mond (1971). 'Kein Zweifel — wir werden besucht.' Gründete Institute of Noetic Sciences (IONS). Sprach mit Militäroffizieren aus 3 Ländern die ET-Kontakt bestätigten. Sagte: Roswell war real, Admiral beim Joint Chiefs bestätigte ihm den Absturz — wurde dann blockiert. ESP-Experiment auf Apollo 14. Starb 2016.",
+      "tags": [
+        "apollo14",
+        "ions",
+        "roswell-bestätigung",
+        "et-kontakt",
+        "esp",
+        "noetik"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Edgar_Mitchell"
+    },
+    {
+      "id": "eshed",
+      "name": "Prof. Haim Eshed",
+      "emoji": "🇮🇱",
+      "role": "Israelischer Weltraum-Sicherheitschef · 30 Jahre Israel MOD",
+      "bio": "Ehem. Direktor Raumfahrtprogramme Israelisches Verteidigungsministerium — 30 Jahre. Dez. 2020: USA + Israel in Kontakt mit 'Galaktischer Förderation'. Trump 'war kurz davor es zu enthüllen, wurde gestoppt um Massenpanik zu verhindern.' Unterirdische Basis auf dem Mars mit US-Astronauten und ET-Vertretern. 'Wir haben einen Vertrag unterschrieben.'",
+      "tags": [
+        "galaktische-förderation",
+        "trump",
+        "mars-basis",
+        "vertrag",
+        "israel-mod"
+      ],
+      "source_url": "https://www.nbcnews.com/news/weird-news/former-israeli-space-security-chief-says-extraterrestrials-exist-trump-knows-n1250333"
+    },
+    {
+      "id": "nolan",
+      "name": "Dr. Garry Nolan",
+      "emoji": "🔬",
+      "role": "Stanford Professor · Immunologe · UAP-Material + Gehirn-MRI",
+      "bio": "Professor Pathologie Stanford. 300 Publikationen, 40 US-Patente, 8 Biotech-Firmen. Analysierte UAP-Materialproben: Magnesium-Isotopenverhältnisse 30% off (Ubatuba Brasilien). Von CIA rekrutiert: Gehirn-MRIs von Piloten/Diplomaten mit UAP-Exposition — 'ihre Gehirne sahen aus wie gebraten.' Hyperaktiver Caudate-Putamen bei Kontakt-Erfahrenden. Gründete Sol Foundation.",
+      "tags": [
+        "stanford",
+        "materialanalyse",
+        "mri",
+        "caudate-putamen",
+        "cia",
+        "sol-foundation",
+        "ubatuba"
+      ],
+      "source_url": "https://www.vice.com/en/article/stanford-professor-garry-nolan-analyzing-anomalous-materials-from-ufo-crashes/"
+    },
+    {
+      "id": "salas",
+      "name": "Capt. Robert Salas",
+      "emoji": "☢️",
+      "role": "USAF · Malmstrom AFB · Nuklear-UAP · 1967",
+      "bio": "24. März 1967, Malmstrom AFB Montana: Rotes leuchtendes Objekt → 10 Minuteman-ICBMs offline. Selbes Muster 8 Tage früher Echo Flight. NDA unterzeichnet. Vor Kongress: 'Pacifist species — Botschaft: WTF, Nuklearwaffen.' Robert Hastings: 120+ ähnliche Militärfälle an Nuklearstandorten weltweit dokumentiert.",
+      "tags": [
+        "nuklear",
+        "icbm",
+        "malmstrom",
+        "nda",
+        "salas",
+        "hastings"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Malmstrom_UFO_incident"
+    },
+    {
+      "id": "mack",
+      "name": "Dr. John E. Mack",
+      "emoji": "🧠",
+      "role": "Harvard Psychiater · Pulitzer · PEER · 200+ Experiencer-Interviews",
+      "bio": "Harvard-Psychiater (leitete Psychiatrie-Abt.), Pulitzer-Preisträger. Ab 1990: 200+ Entführungs-Erfahrende interviewt. Schlussfolgerung: kein psychisches Leiden, keine Erfindung. Gründete PEER. Auffällig: signifikant viele Experiencer neurodivergent (Hypersensitivität, atypische Wahrnehmung). Harvard-Verfahren 1994 endete ohne Sanktion — erste solche Untersuchung in Harvards Geschichte. Interviewte Zimbabwe-Kinder persönlich. Starb 2004 London.",
+      "tags": [
+        "harvard",
+        "peer",
+        "neurodivergenz",
+        "experiencer",
+        "zimbabwe",
+        "pulitzer"
+      ],
+      "source_url": "https://www.uapedia.ai/wiki/john-e-mack-m-d-the-harvard-psychiatrist-who-transformed-uap-experiencer-research/"
+    },
+    {
+      "id": "hare-wolfe",
+      "name": "Donna Hare & Karl Wolfe",
+      "emoji": "📸",
+      "role": "NASA-Whistleblower · Airbrushing + Mondstrukturen",
+      "bio": "Donna Hare (15 Jahre NASA-Subkontraktur, tech. Illustratorin): bezeugte Airbrushing von UFO aus Foto — Kollege sagte 'Wir müssen das rausfiltern.' Karl Wolfe (USAF Langley AFB, 1965, Top-Secret): sah klassifizierte Lunar-Orbiter-Fotos — Kuppeln, Türme auf Mondrückseite. 'Er sagte: Wir haben eine Basis auf der Rückseite des Mondes entdeckt.' Wolfe starb 2018 bei Fahrradunfall. Beide: Disclosure Project 2001.",
+      "tags": [
+        "nasa",
+        "airbrushing",
+        "mond",
+        "strukturen",
+        "wolfe",
+        "hare",
+        "disclosure-project"
+      ],
+      "source_url": "https://hangar1publishing.com/blogs/ufos-uaps-and-aliens/apollo-mission-ufos"
+    },
+    {
+      "id": "vallee",
+      "name": "Jacques Vallée",
+      "emoji": "🔭",
+      "role": "Astrophysiker · Interdimensionale Hypothese",
+      "bio": "Blue-Book-Berater. ARPAnet-Pionier. Interdimensionale Hypothese: UAP aus benachbarten Dimensionen. 'Sowohl technologisch als auch psychisch.' Kontrollfaktor-Hypothese: Phänomen reguliert Bewusstsein didaktisch.",
+      "tags": [
+        "interdimensional",
+        "blue-book",
+        "kontrollfaktor",
+        "arpanet"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Jacques_Vall%C3%A9e"
+    },
+    {
+      "id": "loeb",
+      "name": "Prof. Avi Loeb",
+      "emoji": "🏛",
+      "role": "Harvard · Galileo Project · Astrophysiker · Oumuamua",
+      "bio": "Harvard-Astrophysiker, leitete CfA 30 Jahre. Schlug vor: Oumuamua könnte künstlich sein. Galileo Project für wissenschaftliche UAP-Beobachtungsinfrastruktur. 'Methodische Mutigkeit' fordert er von der Wissenschaft. Sol Foundation Mitglied.",
+      "tags": [
+        "harvard",
+        "galileo-project",
+        "peer-review",
+        "oumuamua",
+        "wissenschaft"
+      ],
+      "source_url": "https://galileo.hsites.harvard.edu/"
+    },
+    {
+      "id": "friedman",
+      "name": "Stanton Friedman",
+      "emoji": "⚡",
+      "role": "Nuklearphysiker · Roswell · MJ-12 · MUFON",
+      "bio": "Erster professioneller ziviler Roswell-Forscher. Lebenslange MJ-12-Verteidigung. 'Top Secret/Majic'. 700+ Hochschulvorträge zu UFOs. Starb 2019. Archiv jetzt bei MUFON.",
+      "tags": [
+        "roswell",
+        "mj12",
+        "nuklearphysiker",
+        "mufon"
+      ],
+      "source_url": ""
+    },
+    {
+      "id": "hollanda",
+      "name": "Capt. Uyrangê Hollanda Lima",
+      "emoji": "🇧🇷",
+      "role": "Brasilianische Luftwaffe · Operação Prato 1977",
+      "bio": "Leitete Operation Prato: 500 Fotos, 15h Film, Hunderte Zeugen. Persönlich Zeuge. 1997 brach Schweigen: Begegnung mit humanoidem Wesen (~1,5m, Metallanzug), das ihn umarmte und auf Portugiesisch sagte: 'Nur ruhig.' Starb kurz nach dem Interview unter unklaren Umständen.",
+      "tags": [
+        "prato",
+        "brasilien",
+        "humanoid-kontakt",
+        "primärzeuge"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Prato"
+    },
+    {
+      "id": "aldrin",
+      "name": "Buzz Aldrin",
+      "emoji": "🌙",
+      "role": "NASA Astronaut · Apollo 11 · 2. Mensch auf dem Mond · 1969",
+      "bio": "Lunar Module Pilot Apollo 11 — zweiter Mensch auf dem Mond. 1969er NASA-Debriefing jetzt im Pentagon PURSUE-Release (8. Mai 2026) offiziell freigegeben: 3 separate Anomalie-Beobachtungen: (1) 'Sizeable object' ~1 Tag vor Mondanflug mit Monokular beobachtet, (2) Regelmäßige Lichtblitze in abgedunkelter Kabine über mehrere Nächte, (3) 'Fairly bright light source' auf Rückflug — crew tentativ: möglicher Laser. Aldrin distanzierte sich später von ET-Interpretationen, bestätigte aber die Beobachtungen.",
+      "tags": [
+        "apollo11",
+        "mond",
+        "nasa",
+        "pentagon-2026",
+        "debriefing",
+        "lichtblitze",
+        "sizeable-object"
+      ],
+      "source_url": "https://www.newsnationnow.com/space/ufo/"
+    },
+    {
+      "id": "coulthart",
+      "name": "Ross Coulthart",
+      "emoji": "📰",
+      "role": "Investigativ-Journalist · NewsNation · 5x Walkley Award · 'In Plain Sight'",
+      "bio": "Australischer Investigativ-Journalist, 35+ Jahre Erfahrung (60 Minutes, ABC Four Corners, Sydney Morning Herald). 5 Walkley Awards inkl. Gold Walkley — Australiens höchste Journalismus-Auszeichnung. Moderiert 'Reality Check' auf NewsNation. Schlüssel-Interviews: Grusch (exklusiv 2023), Jake Barber (exklusiv Jan. 2025 — erstes On-Record-Testimony zu NHI-Technologie-Programm). Enthüllte: (1) Riesiges UAP in Land außerhalb USA — 'So big they built a building over it. I know exactly where it is.' (2) Nat Kobitz (ehem. Head of Science/Technology US Navy): Atom-für-Atom-gebondetes Bulkhead-Material — 'Not our technology.' (3) UFO-Basis in Arizona identifiziert. Buch: 'In Plain Sight' (2021).",
+      "tags": [
+        "journalist",
+        "walkley",
+        "newsnationnow",
+        "grusch-exklusiv",
+        "barber-exklusiv",
+        "riesiges-ufo",
+        "kobitz",
+        "in-plain-sight"
+      ],
+      "source_url": "https://www.newsnationnow.com/space/ufo/"
+    },
+    {
+      "id": "greer",
+      "name": "Dr. Steven Greer",
+      "emoji": "📡",
+      "role": "Arzt · CSETI · Disclosure Project · CE5 · ab 1990",
+      "bio": "Notaufnahme-Arzt (Chairman of Emergency Medicine), gründete CSETI (1990) und Disclosure Project (1993). 9. Mai 2001: Historische National Press Club Konferenz — 20+ Militär-/Regierungszeugen vor 1 Milliarde Menschen live. 500+ Zeugen gesammelt, bereit unter Eid vor Kongress auszusagen. Briefte CIA-Direktoren, Joint Chiefs, UN-Führung, europäische Parlamentarier. CE5-Protokoll: bewusster Kontakt via Meditation/Intention. Kernthese: Freie Energie durch ET-Technologie existiert in SAPs — wird unterdrückt um Ölwirtschaft zu schützen. Umstritten: vermischt Hard-Evidence mit spekulativen Behauptungen. Onkel: Designer des Apollo-Mondlandungsmoduls bei Grumman.",
+      "tags": [
+        "disclosure-project",
+        "cseti",
+        "ce5",
+        "national-press-club",
+        "2001",
+        "freie-energie",
+        "500-zeugen",
+        "briefings"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Steven_M._Greer"
+    },
+    {
+      "id": "nolan-deep",
+      "name": "Dr. Garry Nolan — Gehirn-Forschung Deep Dive",
+      "emoji": "🧬",
+      "role": "Stanford Pathologie · CIA-Auftrag · Caudate-Putamen · Havana-Syndrom-Verbindung",
+      "bio": "HINTERGRUND: Professor Pathologie Stanford, Cornell BS Biologie/Genetik 1983, Stanford PhD Genetik 1989 (unter Nobel-Laureat Leonard Herzenberg), Post-Doc MIT (Nobel-Laureat David Baltimore). 300 Publikationen, 40 US-Patente, 8 Biotech-Firmen, Stanford Top-25-Inventor. 2013: CIA-Gruppe brachte MRI-Scans von Regierungspersonal unangekündigt ins Labor. BEFUNDE: ~100 Patienten (Piloten, Geheimdienstler, Aerospace-Personal) — ca. 25% starben an Verletzungen. Mehrheit: Symptome identisch mit Havana-Syndrom (= erste HS-Patienten!). Caudate-Putamen: Hyper-Verbindung von Neuronen — normalerweise nicht vorhanden, bei UAP-Erfahrenden konsistent. Nicht Schaden: Überentwicklung. Ubatuba-Magnesium: 30% anomale Isotopenverhältnisse. Gründete Sol Foundation. Jay Stratton (UAPTF-Director) brachte ihm Piloten die außerhalb der Dienstkette medizinischen Rat suchten.",
+      "tags": [
+        "stanford",
+        "cia",
+        "mri",
+        "caudate-putamen",
+        "havana-syndrom",
+        "ubatuba",
+        "magnesium-isotope",
+        "sol-foundation",
+        "stratton"
+      ],
+      "source_url": "https://www.vice.com/en/article/stanford-professor-garry-nolan-analyzing-anomalous-materials-from-ufo-crashes/"
+    },
+    {
+      "id": "shirley-wright",
+      "name": "Dr. Shirley Jean Wright",
+      "emoji": "🎓",
+      "role": "Chemikerin · Einsteins Studentin 1947 · Posthumes Tonband-Zeugnis Roswell",
+      "bio": "HINTERGRUND: Zwei PhDs (Chemie, Physikwissenschaften). Chemie-Professorin MDCC Miami über 50 Jahre. Erste weibliche Präsidentin des MDCC Faculty Senate. Mitglied der Dominican Sisters. Philanthropin — stiftete Jahrzehnte Stipendien für Naturwissenschaften. Einsteins Studentin Princeton Sommer 1947. 1993: Ließ Tonband-Aussage bei UFO-Forscherin Sheila Franklin aufnehmen — berichtete von gemeinsamem Roswell-Besuch mit Einstein im Juli 1947: scheibenförmiges Objekt im Hangar, 5 Körper grau-grünlich, 1 Wesen noch lebend. Kein Ruhm- oder Geldmotiv — veröffentlicht erst nach ihrem Tod (†01.07.2015, 85 Jahre). Tonband 2021 durch Anthony Bragalia publiziert. Oppenheimer-Einstein-Dokument 'Relationships with Inhabitants of Celestial Bodies' (Juni 1947) existiert am Institute for Advanced Study Princeton — behandelt ET-Kontakt rechtlich/politisch.",
+      "tags": [
+        "roswell",
+        "einstein",
+        "tonband",
+        "posthum",
+        "chemikerin",
+        "mdcc",
+        "princeton",
+        "oppenheimer-dokument",
+        "zwei-phds"
+      ],
+      "source_url": "https://unidentifiedphenomena.com/topics/albert-einstein-ufo-connection/"
+    },
+    {
+      "id": "gary-mckinnon",
+      "name": "Gary McKinnon ('Solo')",
+      "emoji": "💻",
+      "role": "Systemadministrator · Schottland · Hacker · 2001–2002 · Asperger-Syndrom",
+      "bio": "HINTERGRUND: Selbstgelernter schottischer Systemadministrator. Diagnose: Asperger-Syndrom (Autismus-Spektrum) + depressive Erkrankung. Atari 400 mit 14, verließ Schule mit 17, arbeitete als Friseur, dann IT-Support. Motiviert durch Greer's Disclosure Project Konferenz (Mai 2001) und Donna Hares Aussage. AKTION: 2001–2002 drang er in 97 US-Militär- und NASA-Computer ein — aus Londoner Schlafzimmer. 56k Modem. Perl-Skript für Blank-Password-Suche. Port 139. FUNDE laut Aussage: NASA Building 8 Raw-Bilder — zigarrenförmiges Craft in Orbit ohne Nieten. US Navy Excel 'Non-Terrestrial Officers' — Namen und Ränge die nirgends registriert sind. Schiff-zu-Schiff-Transfers mit unbekannten Schiffsnamen. LEGAL: US-Staatsanwälte: 'größter Militär-Computerhack aller Zeiten.' Guinness-Buch. 70 Jahre Haft möglich. UK verweigerte Auslieferung 2012 (Asperger = hohes Suizidrisiko). Alle Daten beschlagnahmt. McKinnon: 'Ich wollte es aus der Quelle wissen. Nicht nur glauben.' KONGRUENZ NASA: Donna Hares Aussage (Building 8 Airbrushing) + McKinnons Einbruch = unabhängige Bestätigung.",
+      "tags": [
+        "asperger",
+        "autismus",
+        "nasa-hack",
+        "building8",
+        "non-terrestrial-officers",
+        "solar-warden",
+        "56k",
+        "auslieferung-blockiert",
+        "uk",
+        "greer-motivation"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Gary_McKinnon"
+    },
+    {
+      "id": "ben-rich",
+      "name": "Ben Rich",
+      "emoji": "✈️",
+      "role": "Lockheed Skunk Works Director · 1975–1991 · F-117 Stealth · 'ET Home' Statement",
+      "bio": "HINTERGRUND: Zweiter Direktor von Lockheed Skunk Works (1975–1991). Nachfolger von Kelly Johnson. Entwickelte U-2, SR-71 Blackbird, F-117 Nighthawk Stealth, F-22 Raptor. Als 'Vater des Stealth-Kampfbombers' bezeichnet. Starb Januar 1995 an Krebs. STATEMENTS (vor seinem Tod): 1. Bei einem Vortrag (MUFON Director Jan Harzan anwesend): Zeigte letzte Folie — schwarze Scheibe fliegt in den Weltraum — und sagte: 'We now have the technology to take ET home.' 2. Auf Frage: 'Wie funktioniert das Antriebssystem?' — Rich: 'Wie funktioniert ESP? Alle Punkte in Raum und Zeit sind verbunden? Genau so funktioniert es.' 3. 'We already have the means to travel among the stars, but these technologies are locked up in black projects and it would take an Act of God to ever get them out to benefit humanity. Anything you can imagine, we already know how to do.' 4. 'There are two types of UFOs — the ones we build, and ones THEY build. We learned from both crash retrievals and actual hand-me-downs.' 5. 'After 1969 Nixon Purge: Administration handled by an international board of directors in the private sector.' KONTEXT: Skunk Works war bekannt für höchste Geheimhaltung — U-2, A-12, SR-71 waren Jahrzehnte lang unbekannte Projekte. Rich hatte Zugang zu allen Black Programs. KRITIK: Einige interpretieren 'ET home' als Witz nach E.T. (1982). Deathbed-Confession-Quellen nicht direkt verifizierbar — aber mehrere unabhängige Zeugen bestätigen die Kernaussagen.",
+      "tags": [
+        "skunk-works",
+        "lockheed",
+        "stealth",
+        "f117",
+        "sr71",
+        "et-home",
+        "esp-antrieb",
+        "black-projects",
+        "hand-me-downs",
+        "nixon-1969",
+        "international-board"
+      ],
+      "source_url": "https://www.secretprojects.co.uk/threads/lockheed-skunk-works-ben-rich-comments-revealed.5048/"
+    }
+  ]
+}

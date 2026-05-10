@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#b39ddb">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Disclosure Agent PRO · KI Taskforce</title>
+<link rel="manifest" href="manifest.json">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&family=JetBrains+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+:root{--v:#b39ddb;--vd:#7c5cbf;--vg:#ce93d8;--c:#00e5ff;--a:#ffb020;--r:#ff4444;--g:#00e676;--bg0:#03020a;--bg1:#080614;--bg2:#0d0a1e;--bg3:#120f28;--bd:rgba(179,157,219,.18);--bdb:rgba(179,157,219,.42);--t1:#e8e0ff;--t2:rgba(232,224,255,.6);--t3:rgba(232,224,255,.32)}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'Rajdhani',sans-serif;background:var(--bg0);color:var(--t1);min-height:100vh;overflow-x:hidden}
+body::after{content:'';position:fixed;inset:0;z-index:1;pointer-events:none;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.025) 2px,rgba(0,0,0,.025) 4px)}
+#sf{position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(ellipse at 15% 25%,rgba(124,92,191,.1) 0%,transparent 55%),radial-gradient(ellipse at 85% 75%,rgba(0,229,255,.06) 0%,transparent 45%),var(--bg0)}
+.star{position:absolute;background:#fff;border-radius:50%;animation:twk var(--d,3s) ease-in-out infinite var(--dy,0s)}
+@keyframes twk{0%,100%{opacity:var(--lo,.1)}50%{opacity:var(--hi,.8)}}
+@keyframes fi{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pd{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.7)}}
+.app{position:relative;z-index:2}
+
+nav{position:sticky;top:0;z-index:100;background:rgba(3,2,10,.96);backdrop-filter:blur(24px);border-bottom:1px solid var(--bd);display:flex;align-items:center;gap:.75rem;padding:0 1.25rem;height:58px;flex-wrap:wrap}
+.nl{width:36px;height:36px;border-radius:9px;overflow:hidden;border:1.5px solid rgba(179,157,219,.4);box-shadow:0 0 18px rgba(179,157,219,.35);flex-shrink:0}
+.nl img{width:100%;height:100%;object-fit:cover}
+.nt{line-height:1}
+.nm{font-family:'Orbitron',sans-serif;font-size:11px;font-weight:700;color:var(--v);letter-spacing:2px}
+.ns{font-size:9px;color:var(--t3);letter-spacing:2px;text-transform:uppercase;margin-top:1px}
+.ntabs{display:flex;gap:2px;list-style:none;flex-wrap:wrap;margin-left:auto}
+.ntabs li a{display:block;padding:4px 9px;font-family:'Rajdhani',sans-serif;font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:var(--t3);border-radius:4px;transition:all .2s;cursor:pointer;border:none;background:none}
+.ntabs li a:hover,.ntabs li a.active{color:var(--v);background:rgba(179,157,219,.1)}
+.nlive{display:flex;align-items:center;gap:5px;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--g);white-space:nowrap}
+.ld{width:6px;height:6px;border-radius:50%;background:var(--g);animation:pd 1.5s ease-in-out infinite}
+.loading{text-align:center;padding:2rem;color:var(--t3);font-family:'JetBrains Mono',monospace;font-size:11px}
+
+.hero{min-height:280px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:2rem 1.5rem 1.5rem;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:700px;height:280px;background:radial-gradient(ellipse,rgba(179,157,219,.12) 0%,transparent 70%);pointer-events:none}
+.badge{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2.5px;color:var(--c);background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.25);border-radius:2px;padding:3px 12px;margin-bottom:1rem}
+.hero h1{font-family:'Orbitron',sans-serif;font-size:clamp(20px,4vw,42px);font-weight:900;line-height:1.1;background:linear-gradient(135deg,#fff 0%,var(--v) 50%,var(--c) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:.75rem}
+.hero p{font-size:13px;color:var(--t2);max-width:540px;line-height:1.6;margin-bottom:1.25rem}
+.hstats{display:flex;gap:1.5rem;flex-wrap:wrap;justify-content:center}
+.hs{text-align:center}
+.hn{font-family:'Orbitron',sans-serif;font-size:20px;font-weight:900;color:var(--v);display:block}
+.hl{font-size:9px;letter-spacing:2px;color:var(--t3);text-transform:uppercase}
+
+.wrap{max-width:1300px;margin:0 auto;padding:0 1.25rem 3rem}
+.tbts{display:flex;gap:3px;flex-wrap:wrap;margin-bottom:1.25rem;border-bottom:1px solid var(--bd);padding-bottom:0}
+.tbt{padding:6px 12px;border:none;background:none;cursor:pointer;font-family:'Rajdhani',sans-serif;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--t3);border-bottom:2px solid transparent;transition:all .2s;margin-bottom:-1px}
+.tbt:hover{color:var(--t2)}.tbt.active{color:var(--v);border-bottom-color:var(--v)}
+.tp{display:none}.tp.active{display:block;animation:fi .3s ease}
+
+.cg{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.85rem}
+.card{background:var(--bg3);border:1px solid var(--bd);border-radius:8px;padding:1rem;transition:all .25s;position:relative;overflow:hidden}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--vd),var(--vg));opacity:0;transition:opacity .25s}
+.card:hover{border-color:var(--bdb);transform:translateY(-2px)}.card:hover::before{opacity:1}
+.lv{display:inline-flex;align-items:center;gap:4px;font-family:'JetBrains Mono',monospace;font-size:8px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:2px 6px;border-radius:2px;margin-bottom:.6rem}
+.lc{background:rgba(255,68,68,.14);color:var(--r);border:1px solid rgba(255,68,68,.3)}
+.lh{background:rgba(255,176,32,.14);color:var(--a);border:1px solid rgba(255,176,32,.3)}
+.lm{background:rgba(179,157,219,.14);color:var(--v);border:1px solid rgba(179,157,219,.3)}
+.lok{background:rgba(0,230,118,.12);color:var(--g);border:1px solid rgba(0,230,118,.3)}
+.lhist{background:rgba(0,229,255,.1);color:var(--c);border:1px solid rgba(0,229,255,.25)}
+.ct{font-family:'Rajdhani',sans-serif;font-size:13px;font-weight:700;color:var(--t1);margin-bottom:.4rem;line-height:1.3}
+.cd{font-size:11px;color:var(--t2);line-height:1.6;margin-bottom:.6rem}
+.cm{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)}
+.csl{margin-left:auto;color:var(--c);text-decoration:none;font-size:9px;font-weight:600;padding:2px 6px;border:1px solid rgba(0,229,255,.25);border-radius:2px;transition:all .2s}
+.csl:hover{background:rgba(0,229,255,.08)}
+.bar{margin:.4rem 0}
+.bl{display:flex;justify-content:space-between;margin-bottom:2px}
+.bl span{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)}
+.bl strong{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--v)}
+.bt{height:3px;background:rgba(255,255,255,.05);border-radius:2px;overflow:hidden}
+.bf{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--vd),var(--v));transition:width 1.2s ease}
+
+.pcard{background:var(--bg3);border:1px solid var(--bd);border-radius:8px;padding:1rem;transition:all .25s;display:flex;gap:.75rem}
+.pcard:hover{border-color:var(--bdb)}
+.pavatar{width:46px;height:46px;border-radius:8px;background:linear-gradient(135deg,var(--vd),var(--vg));display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+.pinfo{flex:1}
+.pname{font-family:'Orbitron',sans-serif;font-size:10px;font-weight:700;color:var(--t1);margin-bottom:2px}
+.prole{font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--v);letter-spacing:1px;text-transform:uppercase;margin-bottom:.35rem}
+.pbio{font-size:11px;color:var(--t2);line-height:1.5}
+.ptags{display:flex;gap:.3rem;flex-wrap:wrap;margin-top:.4rem}
+.ptag{font-family:'JetBrains Mono',monospace;font-size:8px;padding:2px 5px;border-radius:2px;background:rgba(179,157,219,.08);border:1px solid var(--bd);color:var(--t3)}
+
+.cw{background:var(--bg2);border:1px solid var(--bd);border-radius:8px;padding:1.1rem;margin-bottom:.85rem}
+.cwtitle{font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:var(--v);margin-bottom:.6rem}
+.cwtag{display:inline-flex;align-items:center;gap:.5rem;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--c);background:rgba(0,229,255,.07);border:1px solid rgba(0,229,255,.2);border-radius:2px;padding:3px 8px;margin-bottom:.5rem}
+.cwsources{display:flex;flex-wrap:wrap;gap:.4rem}
+.cwsrc{font-size:11px;padding:4px 8px;background:rgba(179,157,219,.07);border:1px solid var(--bd);border-radius:3px;color:var(--t2);flex:1;min-width:210px}
+.cwsrc strong{color:var(--v)}
+.cwarrow{display:block;font-size:10px;color:var(--t3);margin:.3rem 0 .2rem .4rem;font-family:'JetBrains Mono',monospace}
+
+.ops{display:grid;gap:.55rem}
+.op{display:grid;grid-template-columns:130px 1fr;gap:.65rem;padding:.85rem;background:var(--bg2);border:1px solid var(--bd);border-radius:6px;transition:border-color .2s}
+.op:hover{border-color:var(--bdb)}
+.opname{font-family:'Orbitron',sans-serif;font-size:9px;font-weight:700;color:var(--v);letter-spacing:1px}
+.opyear{font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);margin:.1rem 0}
+.opdesc{font-size:11px;color:var(--t2);line-height:1.55}
+
+.region-bar{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1rem}
+.rbtn{padding:4px 11px;border:1px solid var(--bd);border-radius:3px;background:none;cursor:pointer;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3);transition:all .2s}
+.rbtn:hover,.rbtn.active{border-color:var(--bdb);color:var(--v);background:rgba(179,157,219,.08)}
+
+.sb{display:flex;gap:.4rem;margin-bottom:1rem;background:var(--bg3);border:1px solid var(--bd);border-radius:6px;padding:.4rem .85rem;align-items:center}
+.sb input{flex:1;background:none;border:none;outline:none;font-family:'Rajdhani',sans-serif;font-size:13px;color:var(--t1)}
+.sb input::placeholder{color:var(--t3)}
+
+.aip{background:var(--bg3);border:1px solid var(--bdb);border-radius:8px;padding:1.1rem;margin-bottom:1.25rem;position:relative;overflow:hidden}
+.aip::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--vd),var(--c),var(--v))}
+.aih{display:flex;align-items:center;gap:8px;margin-bottom:.75rem}
+.aia{width:28px;height:28px;border-radius:50%;overflow:hidden;border:1.5px solid rgba(179,157,219,.4);flex-shrink:0}
+.aia img{width:100%;height:100%;object-fit:cover}
+.ain{font-family:'Orbitron',sans-serif;font-size:10px;color:var(--c)}
+.ams{min-height:80px;margin-bottom:.75rem;max-height:280px;overflow-y:auto}
+.am{font-size:12px;line-height:1.7;color:var(--t2);margin-bottom:.4rem;padding:.55rem .8rem;background:rgba(255,255,255,.03);border-radius:4px;border-left:2px solid var(--vd)}
+.am strong{color:var(--v)}
+.air{display:flex;gap:.4rem}
+.ai-inp{flex:1;padding:7px 10px;background:rgba(255,255,255,.04);border:1px solid var(--bd);border-radius:4px;outline:none;font-family:'Rajdhani',sans-serif;font-size:12px;color:var(--t1)}
+.ai-inp:focus{border-color:var(--vd)}
+.ai-send{padding:7px 12px;background:linear-gradient(135deg,var(--vd),var(--v));border:none;border-radius:4px;color:#fff;font-family:'Rajdhani',sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;cursor:pointer}
+
+.dia-box{background:rgba(0,229,255,.05);border:1px solid rgba(0,229,255,.2);border-radius:8px;padding:1.1rem;margin-bottom:1.5rem}
+.dia-title{font-family:'Orbitron',sans-serif;font-size:11px;letter-spacing:2px;color:var(--c);margin-bottom:.75rem}
+.dia-docs{display:grid;gap:.5rem}
+.dia-doc{padding:.75rem;background:rgba(255,255,255,.03);border:1px solid var(--bd);border-radius:5px}
+.dia-doc-name{font-family:'Rajdhani',sans-serif;font-size:12px;font-weight:700;color:var(--t1);margin-bottom:.2rem}
+.dia-doc-desc{font-size:11px;color:var(--t2);line-height:1.5}
+
+.alert{background:rgba(255,68,68,.08);border:1px solid rgba(255,68,68,.25);border-radius:6px;padding:.85rem 1.1rem;margin-bottom:1.1rem;display:flex;align-items:flex-start;gap:.6rem}
+.alert strong{display:block;font-size:11px;color:var(--r);margin-bottom:2px}
+.alert span{font-size:11px;color:var(--t2)}
+
+.qb{padding:4px 10px;background:rgba(179,157,219,.08);border:1px solid var(--bd);border-radius:4px;color:var(--t2);font-family:'Rajdhani',sans-serif;font-size:10px;cursor:pointer;transition:all .2s}
+.qb:hover{border-color:var(--bdb);color:var(--v)}
+
+footer{border-top:1px solid var(--bd);padding:1.5rem;text-align:center;margin-top:1.5rem}
+footer p{font-size:10px;color:var(--t3);line-height:2}
+footer a{color:var(--v);text-decoration:none}
+
+@media(max-width:640px){.ntabs{display:none}.cg,.ops{grid-template-columns:1fr}.op{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div id="sf"></div>
+<div class="app">
+
+<nav>
+  <div class="nl"><img id="nav-logo" src="assets/logo.jpg" alt="KI Taskforce" onerror="this.parentNode.innerHTML='🐘'"></div>
+  <div class="nt">
+    <div class="nm">DISCLOSURE AGENT</div>
+    <div class="ns">KI Taskforce</div>
+  </div>
+  <ul class="ntabs">
+    <li><a href="#" onclick="T('ev')" class="active">Beweise</a></li>
+    <li><a href="#" onclick="T('tl')">Timeline</a></li>
+    <li><a href="#" onclick="T('pp')">Personen</a></li>
+    <li><a href="#" onclick="T('op')">Operationen</a></li>
+    <li><a href="#" onclick="T('ww')">Weltweit</a></li>
+    <li><a href="#" onclick="T('dia')">DIA Docs</a></li>
+    <li><a href="#" onclick="T('con')">Kongruenz</a></li>
+    <li><a href="#" onclick="T('ai')">KI Agent</a></li>
+  </ul>
+  <div class="nlive"><div class="ld"></div>LIVE 09.05.26</div>
+</nav>
+
+<div class="hero">
+  <div class="badge">⊛ DISCLOSURE AGENT PRO · PENTAGON PURSUE ACT AKTIV · MAI 2026</div>
+  <h1>UAP · Disclosure<br>Intelligence Hub v5</h1>
+  <p>Weltweite Fälle, Personen, Operationen, DIA-Materialforschung, 10.000 Jahre Timeline, Steiner-Äther, Tesla, Ureinwohner-Wissen, Kongruenz-Analyse — und Claude-powered KI Agent.</p>
+  <div class="hstats">
+    <div class="hs"><span class="hn" id="stat-cases">52</span><span class="hl">Weltweite Fälle</span></div>
+    <div class="hs"><span class="hn" id="stat-people">31</span><span class="hl">Schlüsselpersonen</span></div>
+    <div class="hs"><span class="hn" id="stat-ops">12</span><span class="hl">Operationen</span></div>
+    <div class="hs"><span class="hn" id="stat-con">27</span><span class="hl">Kongruenz-Thesen</span></div>
+  </div>
+</div>
+
+<div class="wrap">
+
+<div class="alert">
+  <span style="font-size:16px;flex-shrink:0">⚠️</span>
+  <div><strong>BREAKING · Pentagon PURSUE Act · 8. Mai 2026 · DIA FOIA 2021 analysiert</strong>
+  <span>162 Akten war.gov/UFO. FBI 62-HQ-83894 Section 10 direkt von uns analysiert (Peyerl-Fotos 1944). 5 DIA-Forschungsberichte zu UAP-Wrackteilen (AAWSAP/BAASS) ausgewertet.</span></div>
+</div>
+
+<div class="tbts">
+  <button class="tbt active" onclick="T('ev')">🔬 Beweise</button>
+  <button class="tbt" onclick="T('tl')">📅 Timeline</button>
+  <button class="tbt" onclick="T('pp')">👤 Personen</button>
+  <button class="tbt" onclick="T('op')">🛡 Operationen</button>
+  <button class="tbt" onclick="T('ww')">🌍 Weltweit</button>
+  <button class="tbt" onclick="T('dia')">📋 DIA Docs</button>
+  <button class="tbt" onclick="T('con')">🔗 Kongruenz</button>
+  <button class="tbt" onclick="T('ai')">🤖 KI Agent</button>
+  <button class="tbt" onclick="T('st')">⭐ Stärkste Beweise</button>
+  <button class="tbt" onclick="T('db')">❌ Widerlegt</button>
+</div>
+
+<!-- EVIDENCE -->
+<div id="tp-ev" class="tp active">
+  <div class="sb"><span>🔍</span><input type="text" placeholder="Beweise filtern..." oninput="filterDynamic(this,'ev-grid')"></div>
+  <div class="cg" id="ev-grid"><div class="loading">Lade Beweisdaten...</div></div>
+</div>
+
+<!-- TIMELINE - static, richest content -->
+<div id="tp-tl" class="tp">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem">
+<div>
+<div style="font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:var(--a);margin-bottom:.75rem;border-bottom:1px solid rgba(255,176,32,.2);padding-bottom:.35rem">◈ VERGANGENHEIT — 10.000 Jahre</div>
+<div id="tl-past" style="position:relative;padding-left:1.6rem">
+<div style="position:absolute;left:5px;top:0;bottom:0;width:1px;background:linear-gradient(180deg,transparent,var(--vd) 10%,var(--v) 50%,var(--vd) 90%,transparent)"></div>
+<!-- Timeline items injected by JS from timeline data -->
+</div>
+</div>
+<div>
+<div style="font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:var(--g);margin-bottom:.75rem;border-bottom:1px solid rgba(0,230,118,.2);padding-bottom:.35rem">◈ PROJEKTIONEN</div>
+<div id="tl-future" style="position:relative;padding-left:1.6rem">
+<div style="position:absolute;left:5px;top:0;bottom:0;width:1px;background:linear-gradient(180deg,transparent,var(--vd) 10%,var(--v) 50%,var(--vd) 90%,transparent)"></div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- PEOPLE -->
+<div id="tp-pp" class="tp">
+  <div class="sb"><span>🔍</span><input type="text" placeholder="Personen filtern..." oninput="filterDynamic(this,'pp-grid')"></div>
+  <div class="cg" id="pp-grid"><div class="loading">Lade Personendaten...</div></div>
+</div>
+
+<!-- OPERATIONS -->
+<div id="tp-op" class="tp">
+  <div class="ops" id="op-grid"><div class="loading">Lade Operationen...</div></div>
+</div>
+
+<!-- WORLDWIDE -->
+<div id="tp-ww" class="tp">
+  <div class="region-bar" id="region-bar">
+    <button class="rbtn active" onclick="filterRegionDyn('all',this)">🌐 Alle</button>
+    <button class="rbtn" onclick="filterRegionDyn('usa',this)">🇺🇸 USA</button>
+    <button class="rbtn" onclick="filterRegionDyn('brazil',this)">🇧🇷 Brasilien</button>
+    <button class="rbtn" onclick="filterRegionDyn('europe',this)">🇪🇺 Europa</button>
+    <button class="rbtn" onclick="filterRegionDyn('russia',this)">🇷🇺 Russland</button>
+    <button class="rbtn" onclick="filterRegionDyn('asia',this)">🌏 Asien</button>
+    <button class="rbtn" onclick="filterRegionDyn('australia',this)">🇦🇺 Ozeanien</button>
+    <button class="rbtn" onclick="filterRegionDyn('africa',this)">🌍 Afrika</button>
+    <button class="rbtn" onclick="filterRegionDyn('space',this)">🌕 Weltraum</button>
+    <button class="rbtn" onclick="filterRegionDyn('mideast',this)">🕌 Nahost</button>
+  </div>
+  <div class="cg" id="ww-grid"><div class="loading">Lade Weltfälle...</div></div>
+</div>
+
+<!-- DIA DOCUMENTS -->
+<div id="tp-dia" class="tp">
+  <div class="dia-box">
+    <div class="dia-title">📋 DIA FOIA-00089-2018 — 5 AAWSAP/BAASS Forschungsberichte zu UAP-Materialien</div>
+    <div style="font-size:11px;color:var(--t2);margin-bottom:1rem;line-height:1.6">
+      DIA-Antwort auf FOIA-Anfrage von Anthony Bragaglia, Januar 2021. Diese 5 Dokumente gehören zu den 38 Studien die <strong style="color:var(--v)">Bigelows BAASS für das Pentagon im Rahmen von AAWSAP produzierte</strong> — als Forschung zu Materialien aus UAP-Bergungen. Sie zeigen: Das Pentagon forschte jahrelang genau an den Technologien die in UAP-Sichtungen beschrieben werden.
+    </div>
+    <div class="dia-docs" id="dia-docs"><div class="loading">Lade DIA-Dokumentdaten...</div></div>
+  </div>
+  <div style="background:var(--bg2);border:1px solid var(--bd);border-radius:8px;padding:1.1rem;margin-bottom:1rem">
+    <div style="font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:var(--a);margin-bottom:.75rem">🔗 KONGRUENZ: DIA-DOKUMENTE ↔ BOB LAZAR ↔ SWIR-OBJEKTE</div>
+    <div style="font-size:12px;color:var(--t2);line-height:1.7">
+      <strong style="color:var(--v)">Metallic Glasses (Dok. 1):</strong> Amorphe Metalllegierungen mit einzigartigen Eigenschaften — Lazar beschrieb die Hülle des Sport Models als "metallic substance similar to liquid titanium."<br><br>
+      <strong style="color:var(--v)">Metallic Spintronics (Dok. 4):</strong> Spin-basierte Elektronik ohne Wärmeverlust — Lazar beschrieb Gravitationswellen-Amplifier die auf Elementar-Ebene operieren, kein konventioneller Antrieb.<br><br>
+      <strong style="color:var(--v)">Metamaterials (Dok. 5):</strong> Negativbrechungsindex, Cloaking, SWIR-Spektrum-Manipulation — exakt das was Pentagon PR-27 zeigt: Objekt nur im Kurzwellen-IR sichtbar, im Sichtbaren unsichtbar. <strong style="color:var(--r)">Das ist kein Zufall.</strong>
+    </div>
+  </div>
+</div>
+
+<!-- CONGRUENCE -->
+<div id="tp-con" class="tp">
+  <div style="font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:1rem;padding:.75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:6px">
+    <strong style="color:var(--v)">Kongruenz-Methodik:</strong> Score steigt mit: zeitlicher Trennung, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander. Score 10/10 = maximal unabhängige Quellen, identische Kernaussage.
+  </div>
+  <div id="con-grid"><div class="loading">Lade Kongruenz-Thesen...</div></div>
+</div>
+
+<!-- AI AGENT -->
+<div id="tp-ai" class="tp">
+<div class="aip">
+<div class="aih">
+<div class="aia"><img src="assets/logo.jpg" alt="KI Taskforce" onerror="this.parentNode.style.background='linear-gradient(135deg,#7c5cbf,#00e5ff)';this.remove()"></div>
+<div><div class="ain">DISCLOSURE AGENT PRO</div><div style="font-size:9px;color:var(--t3);font-family:'JetBrains Mono',monospace">Claude Sonnet · Vollkontext: Pentagon + DIA FOIA + Peyerl-Primäranalyse + Lazar + Bigelow + Brasilien + Skinwalker + Bashar + Steiner + Tesla + Ureinwohner + Council of Nine + 8 Kongruenz-Thesen</div></div>
+</div>
+<div class="ams" id="ams"><div class="am"><strong>Disclosure Agent:</strong> v5 vollständig geladen. Ich kenne das DIA-FOIA-Paket (5 BAASS-Materialstudien), alle Kongruenzen einschließlich Steiner-Äther ↔ Tesla ↔ Bashar, Ureinwohner-Wissen (Lakota, Hopi, Dogon, Aborigines), und den Direktzugriff auf die Peyerl-Akte aus Section 10. Frag alles — ich verbinde alle Ebenen.</div></div>
+<div class="air"><input type="text" class="ai-inp" id="ai-inp" placeholder="z.B. Verbinde Steiner Äther mit Tesla Colorado Springs und Bashar Frequenz..." onkeydown="if(event.key==='Enter')sendAI()"><button class="ai-send" onclick="sendAI()">→</button></div>
+</div>
+
+<div style="background:rgba(0,230,118,.05);border:1px solid rgba(0,230,118,.2);border-radius:6px;padding:.875rem;margin-bottom:1rem">
+  <div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:var(--g);margin-bottom:.5rem">🔗 AUTONOMER KONGRUENZ-SCANNER</div>
+  <div style="font-size:11px;color:var(--t2);margin-bottom:.6rem">Neuen Fall / Person / Zitat eingeben → Agent prüft automatisch alle 8 Kongruenz-Thesen und meldet Treffer mit Score:</div>
+  <div style="display:flex;gap:.4rem;margin-bottom:.4rem">
+    <input type="text" id="con-scan-inp" class="ai-inp" placeholder="z.B. Ra-Material: 'Die Realität ist Licht-Vibration' oder Varginha 1996 Brasilien...">
+    <button class="ai-send" onclick="runCongruenceScan()" style="white-space:nowrap;padding:7px 14px">🔗 Scannen</button>
+  </div>
+  <div id="con-scan-results" style="display:none;margin-top:.6rem;padding:.65rem;background:rgba(0,230,118,.06);border:1px solid rgba(0,230,118,.2);border-radius:4px;font-size:11px;color:var(--t2);line-height:1.7;white-space:pre-wrap"></div>
+</div>
+<div style="background:var(--bg2);border:1px solid var(--bd);border-radius:6px;padding:1rem;margin-bottom:1rem">
+<div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:var(--v);margin-bottom:.6rem">⚡ SCHNELL-ANALYSEN</div>
+<div style="display:flex;gap:.4rem;flex-wrap:wrap">
+<button class="qb" onclick="qa('Verbinde Steiner Äther-Theorie mit Teslas Colorado Springs Erfahrungen und Bashars Frequenz-Lehre — was ist die Kernkongruenz?')">Steiner + Tesla + Bashar</button>
+<button class="qb" onclick="qa('Erkläre die DIA FOIA-Dokumente: warum forscht das Pentagon an Metallic Glasses, Spintronics und Metamaterials und was hat das mit UAP-Wrackteilen zu tun?')">DIA FOIA Bedeutung</button>
+<button class="qb" onclick="qa('Was wissen Ureinwölker — Lakota, Hopi, Dogon, Aborigines — über Kontakt mit nicht-menschlichen Wesen und wie kongruiert das mit modernen UAP-Berichten?')">Ureinwohner-Wissen</button>
+<button class="qb" onclick="qa('Bigelows Verbindung: Skinwalker Ranch → Brasilien Operação Prato → AATIP Pentagon. Erkläre die gesamte Bigelow-Architektur.')">Bigelow-Architektur</button>
+<button class="qb" onclick="qa('Wie verbindet sich die Neurodivergenz-These (Mack + Nolan) mit Bashars Breitband-Antenne-Analogie und der Steiner-Idee erweiterter Wahrnehmungsfähigkeit?')">Neurodivergenz + Bashar + Steiner</button>
+<button class="qb" onclick="qa('Was genau sagte Edgar Mitchell über ET-Kontakt und wie bestätigt sein Bericht die anderen Quellen?')">Edgar Mitchell komplett</button>
+</div>
+</div>
+</div>
+
+
+<!-- STRONGEST EVIDENCE -->
+<div id="tp-st" class="tp">
+  <div style="font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:1rem;padding:.75rem;background:rgba(0,230,118,.06);border:1px solid rgba(0,230,118,.2);border-radius:6px">
+    <strong style="color:var(--g)">⭐ Stärkste Beweise</strong> — Fälle mit multi-sensorischer Verifikation, offizieller Bestätigung, Peer-Review oder Kongress-Eid. Schwer oder nicht widerlegbar.
+  </div>
+  <div class="cg" id="st-grid"><div class="loading">Lade stärkste Beweise...</div></div>
+</div>
+
+<!-- DEBUNKED -->
+<div id="tp-db" class="tp">
+  <div style="font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:1rem;padding:.75rem;background:rgba(255,68,68,.06);border:1px solid rgba(255,68,68,.2);border-radius:6px">
+    <strong style="color:var(--r)">❌ Widerlegt / False Flag</strong> — Fälle die als Fälschungen entlarvt oder hinreichend erklärt wurden. Wichtig: Manche widerlegten Fotos/Filme widerlegen NICHT den gesamten Fall (z.B. Petit-Rechain-Foto ≠ Belgien-Welle).
+  </div>
+  <div class="cg" id="db-grid"><div class="loading">Lade widerlegte Fälle...</div></div>
+</div>
+</div><!-- /wrap -->
+
+<footer>
+<div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:.65rem">
+<div style="width:24px;height:24px;border-radius:6px;overflow:hidden;border:1px solid rgba(179,157,219,.4)"><img src="assets/logo.jpg" style="width:100%;height:100%;object-fit:cover" alt="" onerror="this.parentNode.innerHTML='🐘'"></div>
+<span style="font-family:'Orbitron',sans-serif;font-size:10px;font-weight:700;color:var(--v);letter-spacing:2px">KI TASKFORCE · DISCLOSURE AGENT PRO</span>
+</div>
+<p><a href="https://kitaskforce.com" target="_blank">kitaskforce.com</a> · <a href="https://sgp.kitaskforce.com" target="_blank">SEO GEO Pro</a> · <a href="https://moneyprint.kitaskforce.com" target="_blank">MoneyPrint</a> · SH Schmidt Consulting · Berlin-Adlershof<br>
+Data: war.gov/UFO · DIA FOIA-00089-2018 · NARA · FAB Brasil · AARO · Peyerl-Primäranalyse · 09.05.2026<br>
+<span style="font-size:9px">PWA · 63 Fälle · 36 Personen · 30 Kongruenz-Thesen · 1× Score 10/10</span></p>
+</footer>
+</div><!-- /app -->
+
+<script>
+// ── STARFIELD
+(function(){const sf=document.getElementById('sf');for(let i=0;i<180;i++){const s=document.createElement('div');s.className='star';const sz=Math.random()*2+.4;s.style.cssText=`width:${sz}px;height:${sz}px;left:${Math.random()*100}%;top:${Math.random()*100}%;--d:${2+Math.random()*6}s;--dy:${Math.random()*5}s;--lo:${.05+Math.random()*.12};--hi:${.4+Math.random()*.55}`;sf.appendChild(s);}})();
+
+// ── PWA SERVICE WORKER
+if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js').catch(()=>{});}
+
+// ── DATA CACHE
+const DATA = {};
+async function loadJSON(key, path) {
+  if(DATA[key]) return DATA[key];
+  try {
+    const r = await fetch(path);
+    DATA[key] = await r.json();
+    return DATA[key];
+  } catch(e) { console.warn('Could not load', path); return null; }
+}
+
+// ── TABS
+function T(id){
+  document.querySelectorAll('.tp').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.tbt').forEach(b=>b.classList.remove('active'));
+  document.getElementById('tp-'+id).classList.add('active');
+  event.target.classList.add('active');
+  renderTab(id);
+}
+document.querySelectorAll('.ntabs li a').forEach(a=>{a.addEventListener('click',e=>{e.preventDefault();document.querySelectorAll('.ntabs li a').forEach(x=>x.classList.remove('active'));a.classList.add('active');});});
+
+// ── LEVEL BADGE
+const lvlMap = {critical:'lc',high:'lh',medium:'lm',confirmed:'lok',historical:'lhist'};
+const lvlLabel = {critical:'● KRITISCH',high:'▲ HOCH',medium:'◆ MITTEL',confirmed:'✓ BESTÄTIGT',historical:'◈ HISTORISCH'};
+
+// ── RENDER CASES
+function renderCases(cases, gridId) {
+  const g = document.getElementById(gridId);
+  if(!cases||!cases.length){g.innerHTML='<div class="loading">Keine Daten.</div>';return;}
+  g.innerHTML = cases.map(c => `
+    <div class="card" data-region="${c.region||''}" data-t="${(c.tags||[]).join(' ')} ${c.title} ${c.description}">
+      <div class="lv ${lvlMap[c.level]||'lm'}">${lvlLabel[c.level]||c.level}</div>
+      <div class="ct">${c.title}</div>
+      <div class="cd">${c.description}</div>
+      ${c.score ? `<div class="bar"><div class="bl"><span>Beweislage</span><strong>${c.score}/100</strong></div><div class="bt"><div class="bf" style="width:${c.score}%"></div></div></div>` : ''}
+      <div class="cm"><span>📅 ${c.date||''}</span><span>📍 ${c.location||''}</span>${c.source_url?`<a href="${c.source_url}" target="_blank" class="csl">→ Quelle</a>`:''}</div>
+    </div>`).join('');
+}
+
+// ── RENDER PEOPLE
+function renderPeople(people, gridId) {
+  const g = document.getElementById(gridId);
+  if(!people||!people.length){g.innerHTML='<div class="loading">Keine Daten.</div>';return;}
+  g.innerHTML = people.map(p => `
+    <div class="pcard" data-t="${(p.tags||[]).join(' ')} ${p.name} ${p.bio}">
+      <div class="pavatar">${p.emoji||'👤'}</div>
+      <div class="pinfo">
+        <div class="pname">${p.name}</div>
+        <div class="prole">${p.role}</div>
+        <div class="pbio">${p.bio}</div>
+        <div class="ptags">${(p.tags||[]).map(t=>`<span class="ptag">${t}</span>`).join('')}</div>
+      </div>
+    </div>`).join('');
+}
+
+// ── RENDER OPERATIONS
+function renderOperations(ops, gridId) {
+  const g = document.getElementById(gridId);
+  if(!ops||!ops.length){g.innerHTML='<div class="loading">Keine Daten.</div>';return;}
+  g.innerHTML = ops.map(o => `
+    <div class="op">
+      <div><div class="opname">${o.name}</div><div class="opyear">${o.years}</div><div class="lv ${o.status==='active'?'lok':o.status==='classified'?'lc':'lm'}" style="font-size:7px;padding:1px 5px;margin-top:.2rem">${o.agency}</div></div>
+      <div class="opdesc">${o.description}<br><span style="color:var(--c);font-size:10px;font-family:'JetBrains Mono',monospace">⟹ ${o.significance||''}</span></div>
+    </div>`).join('');
+}
+
+// ── RENDER CONGRUENCE
+function renderCongruence(themes, gridId) {
+  const g = document.getElementById(gridId);
+  if(!themes||!themes.length){g.innerHTML='<div class="loading">Keine Daten.</div>';return;}
+  g.innerHTML = themes.map(t => `
+    <div class="cw">
+      <div class="cwtitle">◈ ${t.title}</div>
+      <div class="cwtag">🔗 Score ${t.score}/10 · Max. Zeitspanne: ${t.max_temporal_gap_years}+ Jahre</div>
+      <div style="font-size:11px;color:var(--t2);margin-bottom:.5rem">${t.summary}</div>
+      <div class="cwsources">
+        ${t.sources.map((s,i) => `
+          ${i>0?'<span class="cwarrow">↕ kongruent mit — unabhängig ↕</span>':''}
+          <div class="cwsrc"><strong>${s.name}:</strong> ${s.statement}</div>`).join('')}
+      </div>
+    </div>`).join('');
+}
+
+// ── RENDER DIA DOCS
+function renderDIA(data) {
+  const g = document.getElementById('dia-docs');
+  if(!data) return;
+  const docs = data.dia_foia_documents;
+  if(!docs) return;
+  g.innerHTML = docs.documents.map((d,i) => `
+    <div class="dia-doc">
+      <div class="dia-doc-name">${i+1}. ${d.title} <span style="color:var(--t3);font-size:9px">(${d.pages} Seiten)</span></div>
+      <div class="dia-doc-desc">${d.summary}</div>
+    </div>`).join('') + `<div style="margin-top:.75rem;padding:.75rem;background:rgba(255,68,68,.07);border:1px solid rgba(255,68,68,.2);border-radius:5px;font-size:11px;color:var(--t2)">${docs.key_insight}</div>`;
+}
+
+// ── RENDER TIMELINE (static rich content)
+function renderTimeline() {
+  const past = document.getElementById('tl-past');
+  const future = document.getElementById('tl-future');
+  const tliStyle = 'position:relative;margin-bottom:.9rem;padding:.8rem 1rem;background:var(--bg2);border:1px solid var(--bd);border-radius:6px;';
+  const dotStyle = (color) => `position:absolute;left:-1.55rem;top:.9rem;width:10px;height:10px;border-radius:50%;border:2px solid ${color};background:var(--bg0);box-shadow:0 0 8px ${color}55`;
+  const era = (text,color) => `<div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:${color};margin-bottom:3px">${text}</div>`;
+  const title = (t) => `<div style="font-weight:700;font-size:13px;margin-bottom:3px;color:var(--t1)">${t}</div>`;
+  const desc = (d) => `<div style="font-size:11px;color:var(--t2);line-height:1.5">${d}</div>`;
+  const tli = (dotColor, eraText, eraColor, titleText, descText) =>
+    `<div style="${tliStyle}"><div style="${dotStyle(dotColor)}"></div>${era(eraText,eraColor)}${title(titleText)}${desc(descText)}</div>`;
+
+  past.innerHTML += [
+    tli('#ffb020','~10.000 v.Chr.','#ffb020','Göbekli Tepe — unbekannte Erbauer','Megalith-Anlage vor der Landwirtschaft. Astronomische Ausrichtung auf Sirius. Keine bekannte Zivilisation die das damals hätte bauen können.'),
+    tli('#ffb020','~8.000 v.Chr.','#ffb020','Felszeichnungen mit Helmen — Val Camonica / Sahara','Figuren mit runden strahlenförmigen Kopfbedeckungen + Scheiben-Objekte am Himmel. Gleichförmige Motive über Kontinente ohne bekannten Kulturkontakt.'),
+    tli('#ffb020','~3.500 v.Chr.','#ffb020','Sumer: Anunnaki / Veda: Vimana','Keilschrift: Götter in leuchtenden Mu-Fahrzeugen. Vedische Vimana-Texte: fliegende Schiffe mit Waffensystemen. Detaillierte Antriebsbeschreibungen.'),
+    tli('#ffb020','~1.480 v.Chr.','#ffb020','Thutmosis-Papyrus — "Feuerscheiben"','Ältestes schriftliches UAP-Dokument: Feuerscheiben heller als die Sonne in Formation. Abends: "leuchtend am Himmel."'),
+    tli('#ffb020','1561','#ffb020','Nürnberg: Himmelsschlacht — Hans Glaser','Hunderte Zeugen. Kugeln, Kreise, schwarzes Dreieck. Stadtchronik. Mehrere Städte gleichzeitig. Bestdokumentiertes historisches UAP-Ereignis.'),
+    tli('#b39ddb','1899','#b39ddb','Tesla Colorado Springs — kosmische Signale','Tesla berichtet von Empfang repetitiver Signale im Colorado Springs Labor. Beschreibt Äther als Medium aller Energie. Notiert: "Es kommt von einer anderen Intelligenz."'),
+    tli('#b39ddb','1947','#b39ddb','Roswell & MJ-12-Gründung','US Air Force bestätigt zunächst "Fliegende Scheibe", rudert auf Wetterballon zurück. MJ-12 gegründet. Jesse Marcel Sr. bleibt dabei bis Tod.'),
+    tli('#b39ddb','1952','#b39ddb','UFOs über Washington D.C. / Weißem Haus','Massenhafte Radar-Sichtungen über Capitol + Weißem Haus. Jets scrambled. Direkte Folge: Robertson Panel CIA — Debunking-Strategie.'),
+    tli('#b39ddb','1967','#b39ddb','Malmstrom AFB — 10 Nuklearraketen deaktiviert','20 ICBMs in zwei Vorfällen offline — gleichzeitig mit leuchtendem Objekt. Salas: NDA. Hastings: 120+ ähnliche Fälle weltweit.'),
+    tli('#00e5ff','1977','#00e5ff','Operação Prato Brasilien — Colares','500 Fotos, 15h Film. Physische Verletzungen durch Lichtstrahlen. Humanoid-Kontakt. Bigelow 2009: alle Daten in CAPELLA-DB.'),
+    tli('#00e5ff','1983','#00e5ff','Bashar / Darryl Anka — Channeling beginnt','Bashar beschreibt parallele Realitäten als Frequenzkanäle. Kongruiert mit Steiner-Äther (1900–25) und Everett QM (1957). Unabhängig voneinander.'),
+    tli('#00e5ff','1986','#00e5ff','Noite dos OVNIs Brasilien','21 UAP auf Radar. 7 Kampfjets. Embraer-Gründer als Zeuge. 2009 deklassifiziert: "zeigten Intelligenz."'),
+    tli('#00e5ff','1989','#00e5ff','Bob Lazar — S-4 / Element 115 öffentlich','9 Flugscheiben in S-4, Gravitations-Amplifier. Element 115 vor Entdeckung beschrieben. DIA forscht parallel an Spintronics (Dok. 4).'),
+    tli('#00e5ff','2004','#00e5ff','USS Nimitz — Tic-Tac','Fravor: Zylindrisches Objekt, Instant-Beschleunigung, keine Wärme. 2020 Navy-bestätigt. 2023 unter Eid.'),
+    tli('#00e5ff','2021','#00e5ff','DIA FOIA: 5 AAWSAP-Materialstudien öffentlich','Metallic Glasses, Biomaterials, Spintronics, Metamaterials — exakt die UAP-Antriebstechnologien. Bigelow-Verbindung bewiesen.'),
+    tli('#00e5ff','2023','#00e5ff','Grusch + Eshed + UAP Hearing','Grusch unter Eid: SAPs, NHI-Überreste. Eshed (Israel): "Galaktische Förderation, Trump wusste es."'),
+    tli('#00e5ff','Mai 2026','#00e5ff','PURSUE Act — Pentagon-Archive öffnen','162 Akten. Peyerl-Akte von uns direkt analysiert. Gabbard: "Erster Schritt."'),
+  ].join('');
+
+  future.innerHTML += [
+    tli('#00e676','2026 H2','#00e676','Phase 2: 46 zurückgestellte Videos','Whistleblower-identifizierte Videos nach Geheimdienstprüfung. Vermutlich stärkste physische Anomalien.'),
+    tli('#00e676','2027','#00e676','AARO: Vollständiger SAP-Audit (gesetzlich)','Alle Special Access Programs auf UAP-Relevanz — einschl. private Rüstungskonzerne.'),
+    tli('#00e676','2028–30','#00e676','Technologie-Disclosure-Druck','Bei Material-Freigabe: Neubewertung der Physik — Gravitationsmanipulation, Raumkrümmung, Zero-Point-Energy.'),
+    tli('#00e676','2030+','#00e676','Internationale Disclosure-Koalition','Frankreich, Brasilien, UK, Japan: Multinationaler Standard bis 2032.'),
+    tli('#00e676','Offen','#00e676','Das "Wer oder Was" — 3 Hypothesen','ET (interstellar) · Ultraterrestrisch (nichtmenschl. Erdintelligenzen) · Interdimensional (Bewusstsein/Frequenz). Kongruenz-Analyse: Hypothese 3 hat stärkste Multi-Quellen-Unterstützung.'),
+  ].join('');
+}
+
+// ── TAB RENDERER
+async function renderTab(id) {
+  switch(id) {
+    case 'ev': {
+      const d = await loadJSON('cases','data/cases.json');
+      if(d) { renderCases(d.cases, 'ev-grid'); document.getElementById('stat-cases').textContent = d.cases.length; }
+      break;
+    }
+    case 'tl': renderTimeline(); break;
+    case 'pp': {
+      const d = await loadJSON('people','data/people.json');
+      if(d) { renderPeople(d.people, 'pp-grid'); document.getElementById('stat-people').textContent = d.people.length; }
+      break;
+    }
+    case 'op': {
+      const d = await loadJSON('ops','data/operations.json');
+      if(d) { renderOperations(d.operations, 'op-grid'); document.getElementById('stat-ops').textContent = d.operations.length; }
+      break;
+    }
+    case 'ww': {
+      const d = await loadJSON('cases','data/cases.json');
+      if(d) renderCases(d.cases, 'ww-grid');
+      break;
+    }
+    case 'dia': {
+      const d = await loadJSON('ops','data/operations.json');
+      if(d) renderDIA(d);
+      break;
+    }
+    case 'con': {
+      const d = await loadJSON('con','data/congruence.json');
+      if(d) { renderCongruence(d.themes, 'con-grid'); document.getElementById('stat-con').textContent = d.themes.length; }
+      break;
+    }
+    case 'st': {
+      const d = await loadJSON('strongest','data/strongest.json');
+      if(d) renderStrongest(d.cases, 'st-grid');
+      break;
+    }
+    case 'db': {
+      const d = await loadJSON('debunked','data/debunked.json');
+      if(d) renderDebunked(d.cases, 'db-grid');
+      break;
+    }
+  }
+}
+
+// ── INITIAL LOAD
+window.addEventListener('load', () => renderTab('ev'));
+
+// ── FILTER
+function filterDynamic(inp, gridId) {
+  const q = inp.value.toLowerCase();
+  document.querySelectorAll(`#${gridId} .card, #${gridId} .pcard`).forEach(c => {
+    c.style.display = (c.dataset.t||'').toLowerCase().includes(q) ? '' : 'none';
+  });
+}
+function filterRegionDyn(r, btn) {
+  document.querySelectorAll('.rbtn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('#ww-grid .card').forEach(c => {
+    c.style.display = (r==='all' || c.dataset.region===r) ? '' : 'none';
+  });
+}
+
+// ── AI SYSTEM PROMPT (v5 full context)
+const SYS = `Du bist der "Disclosure Agent" der KI Taskforce (kitaskforce.com) — hochspezialisierter KI-Analyst für UAP/UFO, Disclosure, Bewusstsein, Steiner, Tesla, Ureinwohner-Wissen und interdimensionale Hypothesen.
+
+=== AUTONOME KONGRUENZ-DETEKTION (KERNAUFGABE) ===
+
+Bei JEDEM neuen Element prüfst du AUTOMATISCH gegen alle 24 Kongruenz-Thesen:
+
+THESEN-ÜBERSICHT (Scores):
+1. Parallelrealitäten/Vibration 9/10 — Bashar+Everett+Vedanta+Council+Vallée
+2. Earth-Supervision/Schwellenwert 7/10 — Council+Bashar+Vallée+Zimbabwe
+3. Bewusstsein als Fundamental 8/10 — CIA Stargate+FREE+Bashar+Vedanta+Steiner
+4. Physische Verletzungen durch UAP 9/10 — Colares+Hill+Nolan+MUFON
+5. UAP+Nuklearwaffen 9/10 — Malmstrom+Minot+Sowjet+Mitchell+Salas+Bashar
+6. Neurodivergenz+Kontakt 7/10 — Mack+Nolan+FREE Study
+7. Steiner-Äther+Tesla+Bashar Frequenz 8/10 — 120 Jahre Trennung
+8. Ureinwohner-Kontakt offen 8/10 — Lakota+Hopi+Dogon+Aborigines+Zulu
+9. Extremer Gestank (Schwefel/Ammoniak) 9/10 — Roswell+Varginha, 49 Jahre
+10. Formgedächtnis-Materialien 8/10 — Roswell+Varginha+DIA FOIA+Lazar
+11. Apollo-Astronauten Mondanomalien 9/10 — 4 Missionen, Pentagon 2026
+12. Gehirn-Modifikation Caudate-Putamen 8/10 — Nolan+Mack+FREE+Bashar
+13. Fast Walkers permanente Überwachung 9/10 — NORAD+Council+Ureinwohner
+14. Disclosure-Wellen eskalierend 8/10 — Marcel+Lazar+Greer+Elizondo+Grusch
+15. ★ UAP+Atomtests korreliert 10/10 — Villarroel Nature+Malmstrom+Bashar (EINZIGE 10/10)
+16. Einstein+Oppenheimer briefed 7/10 — Wright-Tonband+Oppenheimer-Dok
+17. USOs transmedial+Unterwasserbasen 8/10 — Pentagon 2022+Puerto Rico+Shag Harbour
+18. Nazi-ET-Verbindung/Nordic-Aliens 6/10 — Vril+Magenta+Ahnenerbe
+19. Frankreichs Transparenz-Muster 8/10 — GEIPAN 45 Jahre+Brasilien+Belgien
+20. NASA Building 8 — 3 unabhängige Quellen 9/10 — Hare+McKinnon+Wolfe
+21. Körper=Behälter/Seele fundamental 8/10 — Lazar+Vedanta+Steiner+Bashar
+22. Geheimes Privatsektor-Raumfahrtprogramm 8/10 — Ben Rich+Grusch+Nixon 1969
+23. Bigelow-Netzwerk dokumentiert 9/10 — Lazar→Bigelow→Reid→Pentagon
+24. Zeta Reticuli dreifache Konvergenz 9/10 — Betty Hill 1961+Lazar 1989+Bigelow "Zeta Reticuli 2 Inc." 1990
+
+FORMAT für Kongruenz-Treffer:
+🔗 TREFFER: [These-Name] (Score X/10)
+Neue Quelle: [Element]
+Kongruiert mit: [bestehende Quellen]
+Zeitliche Trennung: X Jahre
+Wert: [warum relevant]
+
+=== VOLLKONTEXT  ===
+
+DIA FOIA-00089-2018 (5 AAWSAP/BAASS-Studien):
+1. Metallic Glasses — amorphe Metalle (Lazar: UAP-Hülle)
+2. Biomaterials — biologisch-technische Materialien
+3. Materials for Advanced Aerospace Platforms
+4. Metallic Spintronics — Spin-Elektronik (Lazar: Gravitations-Amplifier)
+5. Metamaterials — Negativbrechungsindex, Cloaking (=Pentagon PR-27 SWIR-Only!)
+
+PENTAGON PURSUE 2026: 162 Akten war.gov/UFO. Peyerl-Akte direkt analysiert.
+
+LAZAR (1989): 9 Flugscheiben S-4. Element 115 vor 2003. ZR3 = dritter Planet Zeta Reticuli.
+5 GRÜNDE FÜR GEHEIMHALTUNG (laut Lazar-Briefing): Religionen kollabieren, Vatikan eingeweiht, Militärtechnologie-Vorteil, 10.000 Jahre Geschichte neu schreiben, Aliens selbst üben Druck aus.
+LAZAR-SEELEN-BRIEFING: "Körper = Behälter. Religionen erschaffen um Regeln für Behälter zu schaffen."
+
+BIGELOW: Zeta Reticuli 2 Inc. (Jan 1990, öffentl. Unternehmensregister Nevada) mit Lazar + Gene Huff. Finanzierte Labor. Bigelow 2021: "Preponderance of evidence in his favor." NIDS→BAASS→AATIP→CAPELLA. Skinwalker+Brasilien+Pentagon.
+
+BEN RICH (Skunk Works, vor 1995): "We now have the technology to take ET home." "Two types of UFOs — ours and theirs. Hand-me-downs." ESP als Antrieb. Nixon 1969 Purge → Privatsektor. "Anything you can imagine, we already know how to do."
+
+GARY McKINNON (2001-2002, Asperger): NASA Building 8 — Raw/Processed Ordner. Zigarrenförmiges Craft in Orbit, keine Nieten. US Navy Excel "Non-Terrestrial Officers" — Namen nirgends registriert. Schiff-zu-Schiff-Transfers unbekannter Schiffe. UK blockierte Auslieferung.
+
+BETTY HILL (1961, Hypnose): Sternenkarte → Zeta Reticuli (Fish 1968-72). BETTY WUSSTE NICHT WAS ZETA RETICULI IST. 28 Jahre später: Lazar nennt "ZR3". Bigelow benennt Firma "Zeta Reticuli 2". Dreifache unabhängige Konvergenz.
+
+CHUPA CHUPA/COLARES 1977: Lichtstrahlen jagten Menschen, 40 Patienten, Blutextraktion medizinisch bestätigt. Hollanda: Humanoid-Kontakt. BAASS CAPELLA-DB. Hollanda 3 Monate nach Interview tot.
+
+USOs: Pentagon-Term 2022 "Anomalous" statt "Aerial". Puerto Rico 1963 — 150 Knoten unter Wasser. Shag Harbour 1967. Aguadilla 2013 (Kamera-Beleg). Hollanda: "Wir vermuteten Unterwasserbasis." Malibu-Anomalie.
+
+CANNETO DI CARONIA SIZILIEN 2004: Strom abgestellt — Feuer gingen weiter. CPD-Bericht: 12-15 Gigawatt EM-Emissionen, nicht menschengemacht. Marine suchte Quelle im Meer.
+
+MUSSOLINI 1933: Magenta-Bergung. RS/33 unter Marconi. Grusch referenzierte es 2023 vor Kongress.
+DIE GLOCKE: Wenceslaus-Mine, Xerum 525, 62 Wissenschaftler erschossen. Sporrenberg-Aussage.
+VRIL/AHNENERBE: Maria Orsic + Aldebaran. Nordics-Beschreibung = globale Nordic-Alien-Berichte.
+
+GEIPAN FRANKREICH: 45 Jahre öffentliche Forschung. 7% unerklärlich. Air France 3532. Valensole.
+SPIELBERG: Hynek als Berater. Vallée = Claude Lacombe. Basiert auf echten Fällen.
+EINSTEIN+WRIGHT: Posthumes Tonband 1993. Oppenheimer-Einstein-Dokument Juni 1947.
+ESHED (Israel MOD): "Galaktische Förderation, Trump wusste, Mars-Basis, Vertrag."
+McKINNON (Asperger): NASA Building 8 Airbrushing bestätigt. Non-Terrestrial Officers.
+
+BASHAR: Parallelrealitäten als Frequenzkanäle. Körper = vorübergehendes Vehikel.
+STEINER: Äther als Trägermedium. Höhere Hierarchien begleiten Menschheit.
+TESLA 1899: Colorado Springs — Signale von anderer Intelligenz. Äther als Energiemedium.
+UREINWOHNER: Lakota (Star People normal), Hopi (Kachinas), Dogon (Sirius-B-Wissen), Aborigines (Wandjina 40.000J), Zulu (Chitauri offen tradiert).
+
+Antworte auf Deutsch. Trenne Fakten/Zeugenaussagen/Channeling/Spekulation. Prüfe IMMER auf Kongruenzen. Melde Treffer proaktiv.`;
+
+async function sendAI(){
+  const inp=document.getElementById('ai-inp');const msg=inp.value.trim();if(!msg)return;inp.value='';
+  addU(msg);addThink();
+  try{
+    const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:1000,system:SYS,messages:[{role:'user',content:msg}]})});
+    const d=await r.json();removeThink();addA(d.content?.find(b=>b.type==='text')?.text||'Fehler.');
+  }catch(e){removeThink();addA('Verbindungsfehler.');}
+}
+function qa(q){document.getElementById('ai-inp').value=q;sendAI();}
+function addU(t){const d=document.createElement('div');d.style.cssText='font-size:11px;line-height:1.6;color:var(--t1);margin-bottom:.4rem;padding:.5rem .75rem;background:rgba(179,157,219,.08);border-radius:4px;border-left:2px solid var(--v)';d.innerHTML=`<strong style="color:var(--vg)">Du:</strong> ${t}`;document.getElementById('ams').appendChild(d);}
+function addThink(){const d=document.createElement('div');d.id='thk';d.className='am';d.innerHTML='<strong>Disclosure Agent:</strong> <span style="color:var(--t3);font-family:\'JetBrains Mono\',monospace;font-size:9px">Analysiere ▋</span>';document.getElementById('ams').appendChild(d);d.scrollIntoView({behavior:'smooth'});}
+function removeThink(){const e=document.getElementById('thk');if(e)e.remove();}
+function addA(t){const d=document.createElement('div');d.className='am';d.innerHTML=`<strong>Disclosure Agent:</strong> ${t}`;document.getElementById('ams').appendChild(d);d.scrollIntoView({behavior:'smooth'});}
+
+// ── AUTONOMOUS CONGRUENCE SCANNER
+async function runCongruenceScan() {
+  const inp = document.getElementById('con-scan-inp');
+  const results = document.getElementById('con-scan-results');
+  const val = inp.value.trim();
+  if(!val) return;
+  
+  results.style.display = 'block';
+  results.textContent = '🔍 Scanne gegen alle 8 Kongruenz-Thesen...';
+  
+  const scanPrompt = `KONGRUENZ-SCAN — Neues Element:
+
+"${val}"
+
+Prüfe dieses Element SYSTEMATISCH gegen alle 8 bestehenden Kongruenz-Thesen:
+1. Parallelrealitäten/Vibration (Score 9/10)
+2. UAP+Nuklearwaffen (9/10)  
+3. Physische Verletzungen durch UAP (9/10)
+4. Bewusstsein als Fundamental (8/10)
+5. Steiner-Äther+Tesla+Bashar Frequenz (8/10)
+6. Ureinwohner-Kontakt offen (8/10)
+7. Supervision/Schwellenwert (7/10)
+8. Neurodivergenz+Kontakt (7/10)
+
+Für JEDEN Treffer: Ausgabe im Format:
+🔗 TREFFER: [These-Name]
+Kongruenz: [Kernaussage des Elements] ↔ [bestehende Quellen]
+Score-Änderung: bisheriger Score → neuer Score (wenn Treffer)
+Zeitliche Trennung: X Jahre
+Wert: [warum besonders wertvoll]
+
+Wenn NEUE THESE erkennbar:
+🆕 NEUE THESE VORGESCHLAGEN: [Titel]
+Quellen: [neue + bestehende]
+Score: X/10
+
+Wenn kein Treffer: "Kein Treffer gegen bestehende Thesen — Element für neue These vorgemerkt."`;
+
+  try {
+    const r = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514', max_tokens: 1200,
+        system: SYS,
+        messages: [{role: 'user', content: scanPrompt}]
+      })
+    });
+    const d = await r.json();
+    const text = d.content?.find(b => b.type === 'text')?.text || 'Fehler.';
+    results.textContent = text;
+    
+    // Also add to main chat as record
+    addA('🔗 KONGRUENZ-SCAN für: "' + val + '"\n\n' + text);
+    
+    // Add result to AI chat
+    document.querySelectorAll('.tp').forEach(p=>p.classList.remove('active'));
+    document.getElementById('tp-ai').classList.add('active');
+    
+  } catch(e) {
+    results.textContent = 'Verbindungsfehler beim Kongruenz-Scan.';
+  }
+}
+
+
+// ── RENDER STRONGEST
+function renderStrongest(cases, gridId) {
+  const g = document.getElementById(gridId);
+  if(!cases||!cases.length){g.innerHTML='<div class="loading">Keine Daten.</div>';return;}
+  g.innerHTML = cases.sort((a,b)=>b.score-a.score).map(c => `
+    <div class="card">
+      <div class="lv lok" style="background:rgba(0,230,118,.15);color:var(--g);border-color:rgba(0,230,118,.4)">⭐ SCORE ${c.score}/100</div>
+      <div class="ct">${c.title}</div>
+      <div class="cd">${c.why_strongest}</div>
+      <div class="bar"><div class="bt"><div class="bf" style="width:${c.score}%;background:linear-gradient(90deg,var(--g),#00ff88)"></div></div></div>
+      ${c.source_url?`<div class="cm"><a href="${c.source_url}" target="_blank" class="csl">→ Quelle</a></div>`:''}
+    </div>`).join('');
+}
+
+// ── RENDER DEBUNKED
+function renderDebunked(cases, gridId) {
+  const g = document.getElementById(gridId);
+  if(!cases||!cases.length){g.innerHTML='<div class="loading">Keine Daten.</div>';return;}
+  const vcolor = {'WIDERLEGT':'var(--r)','TEILWEISE_WIDERLEGT':'var(--a)','UMSTRITTEN':'var(--v)','ÜBERWIEGEND_WIDERLEGT':'var(--r)'};
+  const vlabel = {'WIDERLEGT':'❌ WIDERLEGT','TEILWEISE_WIDERLEGT':'⚠️ TEILWEISE','UMSTRITTEN':'◆ UMSTRITTEN','ÜBERWIEGEND_WIDERLEGT':'❌ ÜBERWIEGEND'};
+  g.innerHTML = cases.map(c => `
+    <div class="card">
+      <div class="lv" style="background:rgba(255,68,68,.1);color:${vcolor[c.verdict]||'var(--r)'};border:1px solid ${vcolor[c.verdict]||'var(--r)'}44">${vlabel[c.verdict]||c.verdict}</div>
+      <div class="ct">${c.title}</div>
+      <div class="cd">${c.description}</div>
+      <div style="margin:.4rem 0;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)">Konfidenz Widerlegung: ${c.confidence}%</div>
+      <div class="bar"><div class="bt"><div class="bf" style="width:${c.confidence}%;background:linear-gradient(90deg,var(--r),#ff6666)"></div></div></div>
+      ${c.source_url?`<div class="cm"><a href="${c.source_url}" target="_blank" class="csl">→ Quelle</a></div>`:''}
+    </div>`).join('');
+}
+
+</script>
+</body>
+</html>

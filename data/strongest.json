@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "description": "Fälle mit stärksten, schwer widerlegbaren Beweisen"
+  },
+  "cases": [
+    {
+      "id": "malmstrom-strongest",
+      "title": "Malmstrom AFB 1967 — FOIA + Kongress + Russland parallel",
+      "score": 96,
+      "why_strongest": "FOIA-bestätigt. Kongress-Zeugnis unter Eid (Salas). Russische Militäroffiziere bestätigten identische Vorfälle unabhängig. 20 ICBMs gleichzeitig offline = mechanisch unmöglich ohne externe Ursache.",
+      "source_url": "https://en.wikipedia.org/wiki/Malmstrom_UFO_incident"
+    },
+    {
+      "id": "villarroel-strongest",
+      "title": "Villarroel VASCO — Nature-Publikation + 22-Sigma",
+      "score": 94,
+      "why_strongest": "Peer-reviewed in Nature. 22-Sigma-Statistik. Objekte reflektieren Sonnenlicht (physisch real). Korrelation Atomtests +45%. Kein bekanntes astrophysikalisches Phänomen kann so erscheinen und verschwinden.",
+      "source_url": ""
+    },
+    {
+      "id": "trans-en-provence-strongest",
+      "title": "Trans-en-Provence 1981 — GEPAN peer-reviewed + physische Spuren",
+      "score": 92,
+      "why_strongest": "Peer-reviewed wissenschaftliche Publikation. Physische Bodenspuren: 600°C Erhitzung, -30% Chlorophyll. Sofortuntersuchung durch staatliche Behörde (GEPAN/CNES). Keine mundane Erklärung in 45 Jahren.",
+      "source_url": "https://www.cnes.fr/fr/geipan"
+    },
+    {
+      "id": "nimitz-strongest",
+      "title": "USS Nimitz 2004 — Multi-Sensor + Navy-bestätigt + Eid",
+      "score": 91,
+      "why_strongest": "Radar + FLIR + Augenzeugen gleichzeitig. Navy 2020 offiziell bestätigt: 'Unexplained aerial phenomena.' Pilot unter Eid 2023. Keine bekannte menschliche Technologie kann diese Manöver ausführen.",
+      "source_url": ""
+    },
+    {
+      "id": "grusch-strongest",
+      "title": "David Grusch — Eid vor Kongress + ICIG-Beschwerde",
+      "score": 89,
+      "why_strongest": "Unter Eid. Intelligence Community Inspector General (ICIG) stufte Beschwerde als 'credible and urgent' ein. NGA/NRO-Hintergrund. Erste derartige Aussage in der US-Geschichte. Nicht falsifiziert.",
+      "source_url": "https://oversight.house.gov/"
+    },
+    {
+      "id": "jacobs-strongest",
+      "title": "Lt. Jacobs Vandenberg 1964 — Film + Major Mansmann unabhängig",
+      "score": 87,
+      "why_strongest": "Zwei unabhängige Zeugen: Jacobs + Major Mansmann (ohne gegenseitigen Kontakt über 18 Jahre). Film sofort auf Top Secret hochgestuft — zeigt: Etwas war darauf. Elizondo: Film gezeigt bekommen.",
+      "source_url": ""
+    },
+    {
+      "id": "prato-strongest",
+      "title": "Operação Prato 1977 — Militärfilm + Medizin + 500 Fotos",
+      "score": 93,
+      "why_strongest": "500 Fotos, 16h Film. Medizinische Dokumentation von Verletzungen. Brasilianische Armee vor Ort. 2004 deklassifiziert. BAASS holte alle Daten (zeigt: US-Regierung hielt es für real genug).",
+      "source_url": ""
+    },
+    {
+      "id": "yemen-strongest",
+      "title": "Jemen 2024 — Kongress-Video · Hellfire-Direkttreffer ohne Wirkung · Pentagon schweigt",
+      "score": 86,
+      "why_strongest": "Militärisches Infrarot-Video von MQ-9 Reaper. Im Kongress präsentiert. Pentagon verweigerte Stellungnahme statt zu widerlegen. Kein bekannter Flugkörper überlebt unversehrt einen Hellfire-Direkttreffer. Kongruiert mit Teheran 1976, Malmstrom 1967, Vandenberg 1964 — UAP zeigen systematische Immunität gegen menschliche Waffen.",
+      "source_url": "https://www.20min.ch/story/jemen-mysterioeser-vorfall-us-rakete-prallt-von-ufo-ab-103412541"
+    },
+    {
+      "id": "gimbal-gofast-strongest",
+      "title": "Gimbal + GoFast 2015 — Navy offiziell bestätigt + tägliche Sichtungen USS Roosevelt",
+      "score": 89,
+      "why_strongest": "Drei Videos 2020 offiziell Navy-bestätigt. Professionelle Militärpiloten als Zeugen. Ryan Graves: 'Wir sahen diese Dinge täglich.' Rotation ohne Antrieb (Gimbal). Geschwindigkeit ohne Antrieb (GoFast). Physikalisch unmöglich mit bekannter Technologie.",
+      "source_url": "https://www.navytimes.com/"
+    },
+    {
+      "id": "tic-tac-strongest",
+      "title": "Tic-Tac 2004 — Multi-Sensor Multi-Crew Navy-offiziell 5.000G berechnet",
+      "score": 93,
+      "why_strongest": "USS Princeton Radar-Tracking 2 Wochen. Vier F/A-18 Piloten. FLIR-Video offiziell bestaetigt. Simulationen: mehr als 5.000G bei Manoevern. Mirror-imaging = intelligentes reaktives Verhalten. Kein Antrieb, keine Waermesignatur, keine Steuerflaechen. Navy 2020 offiziell: Unexplained Aerial Phenomena.",
+      "source_url": "https://www.navytimes.com/"
+    }
+  ]
+}
