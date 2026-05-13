@@ -275,7 +275,7 @@
         "oumuamua",
         "wissenschaft"
       ],
-      "source_url": "https://galileo.hsites.harvard.edu/"
+      "source_url": "https://galileoproject.harvard.edu"
     },
     {
       "id": "friedman",
@@ -320,7 +320,7 @@
         "lichtblitze",
         "sizeable-object"
       ],
-      "source_url": "https://www.newsnationnow.com/space/ufo/"
+      "source_url": "https://www.newsnationnow.com/space/ufo/buzz-aldrin-cabin-flashes-apollo-11/"
     },
     {
       "id": "coulthart",
@@ -338,7 +338,7 @@
         "kobitz",
         "in-plain-sight"
       ],
-      "source_url": "https://www.newsnationnow.com/space/ufo/"
+      "source_url": "https://www.newsnationnow.com/podcasts-newsnation/new-ufo-videos-deep-analysis-with-ross-coulthart-reality-check/"
     },
     {
       "id": "greer",
@@ -435,7 +435,245 @@
         "nixon-1969",
         "international-board"
       ],
-      "source_url": "https://www.secretprojects.co.uk/threads/lockheed-skunk-works-ben-rich-comments-revealed.5048/"
+      "source_url": "https://nexusnewsfeed.com/article/geopolitics/lockheed-skunk-works-director-says-we-can-take-et-home"
+    },
+    {
+      "id": "jake-barber",
+      "name": "Jake Barber",
+      "emoji": "🚁",
+      "role": "Ex-USAF Veteran · Crash Retrieval Whistleblower · Psioniker-Koordinator · Jan. 2025",
+      "bio": "30 Jahre offiziell + inoffiziell für US-Regierung und Geheimdienste. USAF-Veteran, Hubschrauberpilot. Okt. 2024: Reist nach Washington D.C. Jan. 18, 2025: Exklusiv-Interview Ross Coulthart / NewsNation. Pentagon: AARO bestätigt Untersuchung seiner Aussagen. Crash Retrieval: Bergung nicht-menschlicher Objekte (Ei-förmig, weiß, anomal). PSIONIKER: Arbeitete mit Individuen die UAPs via Bewusstsein herbeirufen. 'Geheimdienstakten dokumentieren: Bestimmte Menschen können UAPs per Intention rufen.' Marco Rubio-Stab getroffen. 3 Militärveteranen bestätigten on-camera. Skywatcher-Projekt: UAP-Dokumentation mit Sensoren + Dog Whistle.",
+      "tags": [
+        "retrieval",
+        "psioniker",
+        "bewusstsein",
+        "coulthart",
+        "newsnationnow",
+        "rubio",
+        "aaro",
+        "skywatcher",
+        "egg-shaped"
+      ],
+      "source_url": "https://www.wikidisc.org/wiki/Jake_Barber"
+    },
+    {
+      "id": "dieter-broers",
+      "name": "Dieter Broers",
+      "emoji": "🌞",
+      "role": "Biophysiker · Bewusstseinsforschung · Solaraktivität & UAP · DE",
+      "bio": "Biophysiker, Bewusstseinsforscher, Autor. Verbindung Solaraktivität → menschliches Bewusstsein → UAP-Aktivität. These: Erhöhte Solaraktivität beeinflusst das elektromagnetische Feld der Erde und menschliche Wahrnehmung — könnte UAP-Kontaktfenster öffnen. Bücher: 'Die Sonne — unser Herz im All', 'Solar Revolution'. YouTube-Beiträge: 'Realitätsabgleich: UAP UFO — Realität oder Täuschung?' (Jan. 2025): https://www.youtube.com/watch?v=-681SfI8Jjg 'Enthüllungen über UAPs und außerirdische Einflüsse Teil 1' (mit J.J. und Desiree Hurtak): https://www.youtube.com/watch?v=37uPpXLBAzk 'Enthüllungen über UAPs und außerirdische Einflüsse Teil 2': https://www.youtube.com/watch?v=BnA8ndinAxE Kongruenz: Solaraktivität → EM-Feld → Bewusstsein → UAP = neue interdisziplinäre Kongruenz-These.",
+      "tags": [
+        "biophysiker",
+        "solar",
+        "bewusstsein",
+        "em-feld",
+        "youtube",
+        "hurtak",
+        "realitätsabgleich",
+        "enthüllungen"
+      ],
+      "source_url": "https://www.youtube.com/watch?v=-681SfI8Jjg"
+    },
+    {
+      "id": "erich-von-daeniken",
+      "name": "Erich von Däniken",
+      "emoji": "🏛",
+      "role": "Autor · 'Erinnerungen an die Zukunft' · Prä-Astronautik · 65+ Bücher · 70 Mio. Exemplare",
+      "bio": "Schweizer Autor (geb. 1935). Begründer der modernen Prä-Astronautik-Theorie. 1968: 'Erinnerungen an die Zukunft' — 65+ Mio. Exemplare, 40 Sprachen. Kernthese: Antike Kulturen wurden von ET-Intelligenzen besucht — hinterließen Spuren in Architektur, Kunst, Religion, Mythologie. Schlüsselargumente: Nazca-Linien (Landebahnen?), Pumapunku (unmögliche Präzision), Ägyptische Pyramiden (Energieprojektoren?), Hesekiels Rad (Raumschiff-Beschreibung), Palenque-Sarkophag (Maya-Astronaut), Dogon-Sirius-Wissen. Gründete AAS (Archaeology, Astronautics and SETI Research Association). Kritik: Selektive Beweisführung, Unterschätzung antiker menschlicher Fähigkeiten. Gegenpol: Stimmt mit Ureinwohner-Überlieferungen (Star People) überein. Kongruenz: Dogon-Sirius-Wissen (These 8), Vimana-Texte (Nazi-Ahnenerbe), Ezekiels Rad (UAP-Beschreibung), Nazca-Linien als Kommunikationszeichen an Himmelswesen.",
+      "tags": [
+        "prä-astronautik",
+        "nazca",
+        "pumapunku",
+        "pyramiden",
+        "hesekiel",
+        "palenque",
+        "dogon",
+        "aas",
+        "65-bücher",
+        "70-millionen"
+      ],
+      "source_url": "https://www.daniken.com"
+    },
+    {
+      "id": "timothy-leary",
+      "name": "Timothy Leary",
+      "emoji": "🔮",
+      "role": "Harvard Psychologe · Psychedelika · Starseed-Philosophie · Bewusstsein als ET-Kontakt",
+      "bio": "Harvard-Psychologieprofessor (1959–1963, entlassen wegen Psychedelika-Forschung). Prominentester Psychedelika-Advokat der 1960er. UAP-PERSPEKTIVE: Verwarf 'Nuts and Bolts' UFO-Literatur. 'ETs reisen keine Lichtjahre um in Feldern zu landen — sie sind interdimensional.' STARSEED-PHILOSOPHIE: Menschheit ist dazu bestimmt, die Erde zu verlassen. 'Star Seeds' = Menschen die evolutionär zu ET-Status evolvieren. Theorie: UFO-Phänomene = fortgeschrittene, nicht-physische Entitäten oder zukünftige Versionen menschlicher Intelligenz. Psychedelika als Kontaktmedium: Veränderte Bewusstseinszustände ermöglichen Kontakt mit höherer Intelligenz — identisch mit Bashar-CE5-Greer-Ansatz. SMI²LE: Space Migration, Intelligence Increase, Life Extension. Kongruenz: These 3 (Bewusstsein als Fundamental) + These 21 (Körper als Behälter) + Barber Psionik.",
+      "tags": [
+        "harvard",
+        "psychedelika",
+        "starseed",
+        "bewusstsein",
+        "interdimensional",
+        "smile",
+        "space-migration",
+        "ce5",
+        "kongruenz"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Timothy_Leary"
+    },
+    {
+      "id": "robert-jacobs",
+      "name": "Dr. Robert Jacobs",
+      "emoji": "🎯",
+      "role": "USAF Lt. · Vandenberg 1964 · Raketen-UFO-Film · PhD USC",
+      "bio": "HINTERGRUND: Lt. Robert Jacobs, 1369th Photographic Squadron, Vandenberg AFB. PhD University of Southern California (später). Award-winning Video-Produzent + Professor. 4. Sept. 1964: Filmte Atlas-ICBM-Test mit Boston-University-Teleskop in Big Sur. Im entwickelten Film: Saucerförmiges Objekt mit Kuppel — feuert 4 Lichtstrahlen auf Gefechtskopf. Rakete taumelt aus Bahn. Film sofort Top Secret, an SAC Omaha geflogen. Major Mansmann: 'Vergessen Sie es — das war ein Laser-Test.' Schwieg 18 Jahre. 1982: National Enquirer. Dann Disclosure Project 2001. Mansmann (unabhängig) bestätigte Jacobs Aussagen vollständig. Luis Elizondo: Film wurde ihm gezeigt. KONGRUENZ: UAP deaktivieren/beschädigen Nuklearwaffen (These 5).",
+      "tags": [
+        "vandenberg",
+        "big-sur",
+        "atlas",
+        "lichtstrahl",
+        "film",
+        "mansmann",
+        "top-secret",
+        "elizondo",
+        "nuklear",
+        "disclosure-project"
+      ],
+      "source_url": "https://enigmalabs.io/library/97213748-296c-429d-93e5-31131ec02202"
+    },
+    {
+      "id": "halt",
+      "name": "Lt. Col. Charles Halt",
+      "emoji": "📼",
+      "role": "USAF Deputy Base Commander · Rendlesham 1980 · Halt-Tape · 2010 Notarielles Eid-Affidavit",
+      "bio": "Deputy Base Commander, RAF Woodbridge. Ging in Rendlesham Forest um UFO-Berichte zu WIDERLEGEN. Stattdessen: 18-Minuten Mikrokassetten-Aufnahme seines eigenen Erlebnisses (Halt-Tape). Hört man auf dem Band: echte Überraschung und Verwirrung eines skeptischen Militäroffiziers. 2010 unterzeichnete er ein notariell beglaubigtes Affidavit: 'Die Objekte die ich aus nächster Nähe sah waren extraterrestrischen Ursprungs. Sowohl UK als auch US Sicherheitsdienste haben die Bedeutung des Vorfalls zu unterdrücken versucht.' Bis heute: 'Niemand hat mich je debriefed.' Gemeinsam mit Penniston + Burroughs veröffentlichte er Buch 'Encounter in Rendlesham Forest' (2014).",
+      "tags": [
+        "rendlesham",
+        "halt-tape",
+        "affidavit",
+        "debriefed-nie",
+        "uk",
+        "usaf",
+        "skeptiker-konvertiert"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Rendlesham_Forest_incident"
+    },
+    {
+      "id": "elizondo-full",
+      "name": "Luis Elizondo",
+      "emoji": "🔍",
+      "role": "Army Counterintelligence · AATIP-Direktor 2010-17 · To The Stars · 5 Observables",
+      "bio": "Army-Counterintelligence-Agent, schutzte US-Aerospace-Technologie vor Feinden. Pentagon OUSDI ab 2008, AATIP-Direktor ab 2010. Ruecktritt Oktober 2017 - Brief an Mattis: Existentielle Bedrohung wird ignoriert. Uebergab drei Navy-Videos an NY Times und Washington Post. Senator Reid 2021 bestaetigt Fuehrungsrolle. Inspector General: koordinierte Diskreditierungs-Kampagne gegen ihn. To The Stars Academy mit DeLonge und Mellon. 5 Observables: instantane Beschleunigung, Hypersonik, Low Observability, Trans-Medium, positiver Auftrieb. Alle gleichzeitig physikalisch unmoeglich. 2023: Buch Imminent. Kernaussage: Wir werden besucht und die Regierung weiss es.",
+      "tags": [
+        "aatip",
+        "ruecktritt",
+        "mattis",
+        "navy-videos",
+        "to-the-stars",
+        "5-observables",
+        "reid"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Luis_Elizondo"
+    },
+    {
+      "id": "christopher-mellon",
+      "name": "Christopher Mellon",
+      "emoji": "🏛",
+      "role": "Deputy Asst. Secretary of Defense for Intelligence · NY Times UAP-Leak 2017",
+      "bio": "Deputy Assistant Secretary of Defense for Intelligence 1997-2002. Staff Director Senate Intelligence Committee. 20 Jahre im US-Geheimdienstapparat. DER MANN DER DIE VIDEOS FREIGAB: Uebergab persoenlich Nimitz und Roosevelt FLIR-Videos an NY Times und Washington Post Dezember 2017 - startete moderne Disclosure-Aera. Mitgruender To The Stars Academy mit Elizondo und DeLonge. Beriet Kongress-Mitglieder direkt fuer UAP-Hearings 2023. Kernaussage: Das Phaenomen ist real. Wir sammeln Daten seit Jahrzehnten und tun nichts. Mellon und Elizondo und Reid und Bigelow bildeten das dokumentierte Disclosure-Netzwerk.",
+      "tags": [
+        "pentagon",
+        "disclosure",
+        "ny-times",
+        "videos-freigegeben",
+        "to-the-stars",
+        "elizondo",
+        "kongress"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Christopher_Mellon"
+    },
+    {
+      "id": "ryan-graves",
+      "name": "Lt. Ryan Graves",
+      "emoji": "✈️",
+      "role": "F/A-18 Pilot · USS Roosevelt · Taeglich UAP · Americans for Safe Aerospace",
+      "bio": "F/A-18F Super Hornet Pilot, US Navy, USS Theodore Roosevelt CSG. 2014-2015: Taeglich UAP-Sichtungen im restricted airspace. Cube in a sphere - geometrische Objekte ohne Waermesignatur, 12+ Stunden stationaer. 120 Knoten Wind: Objekte unbeeindruckt. Kein Ballon, kein bekanntes Geraet. Kongress Juli 2023 unter Eid - erster fast-aktiver Pilot oeffentlich. Gruendete Americans for Safe Aerospace (ASA) fuer UAP-Sicherheitsforschung. Niemand meldete es aus Angst verrueckt zu wirken - das ist das eigentliche Problem.",
+      "tags": [
+        "uss-roosevelt",
+        "f18",
+        "taeglich",
+        "cube-sphere",
+        "eid",
+        "asa",
+        "stigma",
+        "sicherheit"
+      ],
+      "source_url": "https://americansforsafeaerospace.org"
+    },
+    {
+      "id": "admiral-byrd",
+      "name": "Admiral Richard E. Byrd",
+      "emoji": "🧭",
+      "role": "US Navy Rear Admiral · Polarforscher · Operation Highjump 1947",
+      "bio": "Rear Admiral US Navy, beruehmt als amerikanischer Polarforscher. Erster Flug ueber Suedpol 1929. Mehrere Antarktis-Expeditionen. Operation Highjump 1946-47: 4.700 Mann, 13 Schiffe - geplant 6 Monate, abgebrochen nach 8 Wochen. Statement 1947: Objekte die von Pol zu Pol fliegen - meinte sowjetische Flugzeuge, nicht UAP. Statement wurde mistranslated und in UFO-Community falsch interpretiert. Dennoch: Fruehzeitiger Expeditions-Abbruch und rascher Antarktis-Vertrag 1959 naehren Spekulationen. Wichtig als Figur an Schnittstelle Militaer-Geheimhaltung-Polarforschung.",
+      "tags": [
+        "antarktis",
+        "highjump",
+        "polarforscher",
+        "sowjet",
+        "1947",
+        "umstritten",
+        "antarktis-vertrag"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Operation_Highjump"
+    },
+    {
+      "id": "nick-pope",
+      "name": "Nick Pope",
+      "emoji": "🇬🇧",
+      "role": "UK MOD UFO-Desk 1991-1994 · 12.000 Faelle · Fox Mulder Grossbritanniens · †06.04.2026",
+      "bio": "HINTERGRUND: Buergerlicher Staatsdiener UK Ministry of Defence, 1985-2006. Vater: George Pope, Direktor des Royal Aircraft Establishment Farnborough. 1991-1994: Secretariat (Air Staff) Sec(AS)2a - offizieller UFO-Desk des MOD. Begann als Skeptiker - konvertierte nach Analyse von 12.000 Faellen. 5% blieben nach gruendlicher Untersuchung vollstaendig unerklaelich. Besonders interessant: Faelle mit Polizisten, Piloten, Militaer als Zeugen und gleichzeitiger Radarbestaetigung. Mehrfach wurden ihm Hindernisse in den Weg gelegt - Ablenkungsaufgaben wenn er zu nah an bestimmten Faellen war. 2014: Buch 'Encounter in Rendlesham Forest' mit Burroughs und Penniston. Wurde als 'der echte Fox Mulder' bezeichnet - The X-Files lief parallel. Starb 6. April 2026 im Alter von 60 Jahren - 34 Tage vor dem heutigen Datum. Sah die grosse Disclosure-Welle von 2026 nicht mehr.",
+      "tags": [
+        "uk",
+        "mod",
+        "ufo-desk",
+        "12000-faelle",
+        "5-prozent-unerklaelich",
+        "rendlesham",
+        "fox-mulder",
+        "verstorben-2026"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Nick_Pope_(journalist)"
+    },
+    {
+      "id": "john-lear",
+      "name": "John Lear",
+      "emoji": "✈️",
+      "role": "CIA-Pilot · Sohn des Learjet-Erfinders · 19.000 Flugstunden · Area 51 Insider · †2022",
+      "bio": "HINTERGRUND: Sohn von Bill Lear (Learjet-Erfinder). 19.000+ Flugstunden, 150+ Flugzeugtypen, 17 Weltrekorde. Mehr FAA-Zertifikate als jeder andere Pilot in der Geschichte. 1967-1983: Flog geheime CIA-Missionen in Suedostasien, Osteuropa, Naher Osten, Afrika. ENTSCHEIDENDE ROLLE: 1989 stellte Lear Journalist George Knapp und Bob Lazar zusammen - gab Lazars Story die erste Glauwuerdigkeit. Ohne Lear kein Lazar-Interview. AUSSAGEN (ab 1987): Geheime Regierungsvertraege mit Grays. Unterirdische Basen (Dulce, Area 51). Regierung benutzt ET-Technologie gegen eigene Bevoelkerung. UMSTRITTEN: Manche seiner Behauptungen gelten als Disinfo. Bill Cooper beschuldigte ihn CIA-Agent zu sein - ironisch da Lear tatsaechlich CIA flog. KONGRUENZ: Ohne Lear kein Lazar, ohne Lazar kein Bigelow, ohne Bigelow kein AATIP. Er war der erste Dominostein im Disclosure-Netzwerk. Starb 29. Maerz 2022 im Alter von 79 Jahren.",
+      "tags": [
+        "cia",
+        "learjet",
+        "19000-stunden",
+        "lazar-vermittler",
+        "knapp",
+        "area51",
+        "dulce",
+        "umstritten",
+        "verstorben-2022"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/John_Lear"
+    },
+    {
+      "id": "george-knapp",
+      "name": "George Knapp",
+      "emoji": "📺",
+      "role": "Investigativ-Journalist · KLAS-TV Las Vegas · Peabody Award · Das Netzwerk-Zentrum",
+      "bio": "Investigativ-Journalist, KLAS-TV Las Vegas (CBS-Affiliate). Peabody Award - hoechste Auszeichnung im US-Journalismus. DER ZENTRALE HUB des gesamten modernen Disclosure-Netzwerks: Brachte 1989 John Lear und Bob Lazar zusammen. Sendete erstes Lazar-Interview weltweit - mit Schatten und Pseudonym 'Dennis' Mai 1989. Zwei Wochen spaeter: Lazar namentlich und ohne Schatten. Vermittelte Robert Bigelow zu Lazar und Harry Reid. Reid durch Knapp-Verbindung fuer UFOs begeistert - initiierte spaeter AATIP 22 Mio USD. Jahrzehntelange Beziehung zu Bigelow - berichtete ueber NIDS und Skinwalker Ranch. 2025 vor Kongress ausgesagt - schriftliches Zeugnis Haus-Oversight-Ausschuss. Kernaussage: Das Netzwerk das Disclosure erzwang begann in Las Vegas mit einem TV-Sender.",
+      "tags": [
+        "las-vegas",
+        "klas-tv",
+        "peabody",
+        "lazar",
+        "lear",
+        "bigelow",
+        "reid",
+        "netzwerk-hub",
+        "kongress-2025"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/George_Knapp_(journalist)"
     }
   ]
 }

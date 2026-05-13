@@ -145,10 +145,10 @@ footer a{color:var(--v);text-decoration:none}
 <div class="app">
 
 <nav>
-  <div class="nl"><img id="nav-logo" src="/manus-storage/logo_0d59b647.jpg" alt="KI Taskforce" onerror="this.parentNode.innerHTML='🐘'"></div>
+  <div class="nl"><img id="nav-logo" src="assets/logo.jpg" alt="KI Taskforce" onerror="this.parentNode.innerHTML='🐘'"></div>
   <div class="nt">
     <div class="nm">DISCLOSURE AGENT</div>
-    <div class="ns">KI Taskforce · PRO · Deploy-Ready</div>
+    <div class="ns">KI Taskforce</div>
   </div>
   <ul class="ntabs">
     <li><a href="#" onclick="T('ev')" class="active">Beweise</a></li>
@@ -164,12 +164,12 @@ footer a{color:var(--v);text-decoration:none}
 </nav>
 
 <div class="hero">
-  <div class="badge">⊛ PENTAGON PURSUE ACT AKTIV · MAI 2026 · DIA FOIA ANALYSIERT</div>
-  <h1>UAP · Disclosure<br>Intelligence Hub PRO</h1>
+  <div class="badge">⊛ DISCLOSURE AGENT PRO · PENTAGON PURSUE ACT AKTIV · MAI 2026</div>
+  <h1>UAP · Disclosure<br>Intelligence Hub v5</h1>
   <p>Weltweite Fälle, Personen, Operationen, DIA-Materialforschung, 10.000 Jahre Timeline, Steiner-Äther, Tesla, Ureinwohner-Wissen, Kongruenz-Analyse — und Claude-powered KI Agent.</p>
   <div class="hstats">
-    <div class="hs"><span class="hn" id="stat-cases">46</span><span class="hl">Weltweite Fälle</span></div>
-    <div class="hs"><span class="hn" id="stat-people">26</span><span class="hl">Schlüsselpersonen</span></div>
+    <div class="hs"><span class="hn" id="stat-cases">52</span><span class="hl">Weltweite Fälle</span></div>
+    <div class="hs"><span class="hn" id="stat-people">31</span><span class="hl">Schlüsselpersonen</span></div>
     <div class="hs"><span class="hn" id="stat-ops">12</span><span class="hl">Operationen</span></div>
     <div class="hs"><span class="hn" id="stat-con">27</span><span class="hl">Kongruenz-Thesen</span></div>
   </div>
@@ -192,6 +192,8 @@ footer a{color:var(--v);text-decoration:none}
   <button class="tbt" onclick="T('dia')">📋 DIA Docs</button>
   <button class="tbt" onclick="T('con')">🔗 Kongruenz</button>
   <button class="tbt" onclick="T('ai')">🤖 KI Agent</button>
+  <button class="tbt" onclick="T('st')">⭐ Stärkste Beweise</button>
+  <button class="tbt" onclick="T('db')">❌ Widerlegt</button>
 </div>
 
 <!-- EVIDENCE -->
@@ -278,8 +280,8 @@ footer a{color:var(--v);text-decoration:none}
 <div id="tp-ai" class="tp">
 <div class="aip">
 <div class="aih">
-<div class="aia"><img src="/manus-storage/logo_0d59b647.jpg" alt="KI Taskforce" onerror="this.parentNode.style.background='linear-gradient(135deg,#7c5cbf,#00e5ff)';this.remove()"></div>
-<div><div class="ain">DISCLOSURE AGENT PRO · KI Taskforce</div><div style="font-size:9px;color:var(--t3);font-family:'JetBrains Mono',monospace">Claude Sonnet · Vollkontext: Pentagon + DIA FOIA + Peyerl-Primäranalyse + Lazar + Bigelow + Brasilien + Skinwalker + Bashar + Steiner + Tesla + Ureinwohner + Council of Nine + 27 Kongruenz-Thesen</div></div>
+<div class="aia"><img src="assets/logo.jpg" alt="KI Taskforce" onerror="this.parentNode.style.background='linear-gradient(135deg,#7c5cbf,#00e5ff)';this.remove()"></div>
+<div><div class="ain">DISCLOSURE AGENT PRO</div><div style="font-size:9px;color:var(--t3);font-family:'JetBrains Mono',monospace">Claude Sonnet · Vollkontext: Pentagon + DIA FOIA + Peyerl-Primäranalyse + Lazar + Bigelow + Brasilien + Skinwalker + Bashar + Steiner + Tesla + Ureinwohner + Council of Nine + 8 Kongruenz-Thesen</div></div>
 </div>
 <div class="ams" id="ams"><div class="am"><strong>Disclosure Agent:</strong> v5 vollständig geladen. Ich kenne das DIA-FOIA-Paket (5 BAASS-Materialstudien), alle Kongruenzen einschließlich Steiner-Äther ↔ Tesla ↔ Bashar, Ureinwohner-Wissen (Lakota, Hopi, Dogon, Aborigines), und den Direktzugriff auf die Peyerl-Akte aus Section 10. Frag alles — ich verbinde alle Ebenen.</div></div>
 <div class="air"><input type="text" class="ai-inp" id="ai-inp" placeholder="z.B. Verbinde Steiner Äther mit Tesla Colorado Springs und Bashar Frequenz..." onkeydown="if(event.key==='Enter')sendAI()"><button class="ai-send" onclick="sendAI()">→</button></div>
@@ -287,7 +289,7 @@ footer a{color:var(--v);text-decoration:none}
 
 <div style="background:rgba(0,230,118,.05);border:1px solid rgba(0,230,118,.2);border-radius:6px;padding:.875rem;margin-bottom:1rem">
   <div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:var(--g);margin-bottom:.5rem">🔗 AUTONOMER KONGRUENZ-SCANNER</div>
-  <div style="font-size:11px;color:var(--t2);margin-bottom:.6rem">Neuen Fall / Person / Zitat eingeben → Agent prüft automatisch alle 27 Kongruenz-Thesen und meldet Treffer mit Score:</div>
+  <div style="font-size:11px;color:var(--t2);margin-bottom:.6rem">Neuen Fall / Person / Zitat eingeben → Agent prüft automatisch alle 8 Kongruenz-Thesen und meldet Treffer mit Score:</div>
   <div style="display:flex;gap:.4rem;margin-bottom:.4rem">
     <input type="text" id="con-scan-inp" class="ai-inp" placeholder="z.B. Ra-Material: 'Die Realität ist Licht-Vibration' oder Varginha 1996 Brasilien...">
     <button class="ai-send" onclick="runCongruenceScan()" style="white-space:nowrap;padding:7px 14px">🔗 Scannen</button>
@@ -307,16 +309,32 @@ footer a{color:var(--v);text-decoration:none}
 </div>
 </div>
 
+
+<!-- STRONGEST EVIDENCE -->
+<div id="tp-st" class="tp">
+  <div style="font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:1rem;padding:.75rem;background:rgba(0,230,118,.06);border:1px solid rgba(0,230,118,.2);border-radius:6px">
+    <strong style="color:var(--g)">⭐ Stärkste Beweise</strong> — Fälle mit multi-sensorischer Verifikation, offizieller Bestätigung, Peer-Review oder Kongress-Eid. Schwer oder nicht widerlegbar.
+  </div>
+  <div class="cg" id="st-grid"><div class="loading">Lade stärkste Beweise...</div></div>
+</div>
+
+<!-- DEBUNKED -->
+<div id="tp-db" class="tp">
+  <div style="font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:1rem;padding:.75rem;background:rgba(255,68,68,.06);border:1px solid rgba(255,68,68,.2);border-radius:6px">
+    <strong style="color:var(--r)">❌ Widerlegt / False Flag</strong> — Fälle die als Fälschungen entlarvt oder hinreichend erklärt wurden. Wichtig: Manche widerlegten Fotos/Filme widerlegen NICHT den gesamten Fall (z.B. Petit-Rechain-Foto ≠ Belgien-Welle).
+  </div>
+  <div class="cg" id="db-grid"><div class="loading">Lade widerlegte Fälle...</div></div>
+</div>
 </div><!-- /wrap -->
 
 <footer>
 <div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:.65rem">
-<div style="width:24px;height:24px;border-radius:6px;overflow:hidden;border:1px solid rgba(179,157,219,.4)"><img src="/manus-storage/logo_0d59b647.jpg" style="width:100%;height:100%;object-fit:cover" alt="" onerror="this.parentNode.innerHTML='🐘'"></div>
-<span style="font-family:'Orbitron',sans-serif;font-size:10px;font-weight:700;color:var(--v);letter-spacing:2px">KI TASKFORCE · DISCLOSURE AGENT v5</span>
+<div style="width:24px;height:24px;border-radius:6px;overflow:hidden;border:1px solid rgba(179,157,219,.4)"><img src="assets/logo.jpg" style="width:100%;height:100%;object-fit:cover" alt="" onerror="this.parentNode.innerHTML='🐘'"></div>
+<span style="font-family:'Orbitron',sans-serif;font-size:10px;font-weight:700;color:var(--v);letter-spacing:2px">KI TASKFORCE · DISCLOSURE AGENT PRO</span>
 </div>
 <p><a href="https://kitaskforce.com" target="_blank">kitaskforce.com</a> · <a href="https://sgp.kitaskforce.com" target="_blank">SEO GEO Pro</a> · <a href="https://moneyprint.kitaskforce.com" target="_blank">MoneyPrint</a> · SH Schmidt Consulting · Berlin-Adlershof<br>
 Data: war.gov/UFO · DIA FOIA-00089-2018 · NARA · FAB Brasil · AARO · Peyerl-Primäranalyse · 09.05.2026<br>
-<span style="font-size:9px">PWA PRO · 46 Fälle · 26 Personen · 27 Kongruenz-Thesen · 1× Score 10/10 · Manus-deployable</span></p>
+<span style="font-size:9px">PWA · 63 Fälle · 36 Personen · 30 Kongruenz-Thesen · 1× Score 10/10</span></p>
 </footer>
 </div><!-- /app -->
 
@@ -498,6 +516,16 @@ async function renderTab(id) {
       if(d) { renderCongruence(d.themes, 'con-grid'); document.getElementById('stat-con').textContent = d.themes.length; }
       break;
     }
+    case 'st': {
+      const d = await loadJSON('strongest','data/strongest.json');
+      if(d) renderStrongest(d.cases, 'st-grid');
+      break;
+    }
+    case 'db': {
+      const d = await loadJSON('debunked','data/debunked.json');
+      if(d) renderDebunked(d.cases, 'db-grid');
+      break;
+    }
   }
 }
 
@@ -559,7 +587,7 @@ Kongruiert mit: [bestehende Quellen]
 Zeitliche Trennung: X Jahre
 Wert: [warum relevant]
 
-=== VOLLKONTEXT v5.2 ===
+=== VOLLKONTEXT  ===
 
 DIA FOIA-00089-2018 (5 AAWSAP/BAASS-Studien):
 1. Metallic Glasses — amorphe Metalle (Lazar: UAP-Hülle)
@@ -609,8 +637,8 @@ async function sendAI(){
   const inp=document.getElementById('ai-inp');const msg=inp.value.trim();if(!msg)return;inp.value='';
   addU(msg);addThink();
   try{
-    const r=await fetch('/api/claude',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({system:SYS,max_tokens:1000,messages:[{role:'user',content:msg}]})});
-    const d=await r.json();removeThink();addA(d.content?.find(b=>b.type==='text')?.text||'Fehler: '+(d.error?.message||JSON.stringify(d)));
+    const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:1000,system:SYS,messages:[{role:'user',content:msg}]})});
+    const d=await r.json();removeThink();addA(d.content?.find(b=>b.type==='text')?.text||'Fehler.');
   }catch(e){removeThink();addA('Verbindungsfehler.');}
 }
 function qa(q){document.getElementById('ai-inp').value=q;sendAI();}
@@ -627,7 +655,7 @@ async function runCongruenceScan() {
   if(!val) return;
   
   results.style.display = 'block';
-  results.textContent = '🔍 Scanne gegen alle 27 Kongruenz-Thesen...';
+  results.textContent = '🔍 Scanne gegen alle 8 Kongruenz-Thesen...';
   
   const scanPrompt = `KONGRUENZ-SCAN — Neues Element:
 
@@ -658,11 +686,11 @@ Score: X/10
 Wenn kein Treffer: "Kein Treffer gegen bestehende Thesen — Element für neue These vorgemerkt."`;
 
   try {
-    const r = await fetch('/api/claude', {
+    const r = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
-        max_tokens: 1200,
+        model: 'claude-sonnet-4-20250514', max_tokens: 1200,
         system: SYS,
         messages: [{role: 'user', content: scanPrompt}]
       })
@@ -674,15 +702,45 @@ Wenn kein Treffer: "Kein Treffer gegen bestehende Thesen — Element für neue T
     // Also add to main chat as record
     addA('🔗 KONGRUENZ-SCAN für: "' + val + '"\n\n' + text);
     
-    // Switch to AI tab to show result
+    // Add result to AI chat
     document.querySelectorAll('.tp').forEach(p=>p.classList.remove('active'));
     document.getElementById('tp-ai').classList.add('active');
-    document.querySelectorAll('.tbt').forEach(b=>b.classList.remove('active'));
-    document.querySelectorAll('.tbt')[7].classList.add('active');
     
   } catch(e) {
     results.textContent = 'Verbindungsfehler beim Kongruenz-Scan.';
   }
+}
+
+
+// ── RENDER STRONGEST
+function renderStrongest(cases, gridId) {
+  const g = document.getElementById(gridId);
+  if(!cases||!cases.length){g.innerHTML='<div class="loading">Keine Daten.</div>';return;}
+  g.innerHTML = cases.sort((a,b)=>b.score-a.score).map(c => `
+    <div class="card">
+      <div class="lv lok" style="background:rgba(0,230,118,.15);color:var(--g);border-color:rgba(0,230,118,.4)">⭐ SCORE ${c.score}/100</div>
+      <div class="ct">${c.title}</div>
+      <div class="cd">${c.why_strongest}</div>
+      <div class="bar"><div class="bt"><div class="bf" style="width:${c.score}%;background:linear-gradient(90deg,var(--g),#00ff88)"></div></div></div>
+      ${c.source_url?`<div class="cm"><a href="${c.source_url}" target="_blank" class="csl">→ Quelle</a></div>`:''}
+    </div>`).join('');
+}
+
+// ── RENDER DEBUNKED
+function renderDebunked(cases, gridId) {
+  const g = document.getElementById(gridId);
+  if(!cases||!cases.length){g.innerHTML='<div class="loading">Keine Daten.</div>';return;}
+  const vcolor = {'WIDERLEGT':'var(--r)','TEILWEISE_WIDERLEGT':'var(--a)','UMSTRITTEN':'var(--v)','ÜBERWIEGEND_WIDERLEGT':'var(--r)'};
+  const vlabel = {'WIDERLEGT':'❌ WIDERLEGT','TEILWEISE_WIDERLEGT':'⚠️ TEILWEISE','UMSTRITTEN':'◆ UMSTRITTEN','ÜBERWIEGEND_WIDERLEGT':'❌ ÜBERWIEGEND'};
+  g.innerHTML = cases.map(c => `
+    <div class="card">
+      <div class="lv" style="background:rgba(255,68,68,.1);color:${vcolor[c.verdict]||'var(--r)'};border:1px solid ${vcolor[c.verdict]||'var(--r)'}44">${vlabel[c.verdict]||c.verdict}</div>
+      <div class="ct">${c.title}</div>
+      <div class="cd">${c.description}</div>
+      <div style="margin:.4rem 0;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)">Konfidenz Widerlegung: ${c.confidence}%</div>
+      <div class="bar"><div class="bt"><div class="bf" style="width:${c.confidence}%;background:linear-gradient(90deg,var(--r),#ff6666)"></div></div></div>
+      ${c.source_url?`<div class="cm"><a href="${c.source_url}" target="_blank" class="csl">→ Quelle</a></div>`:''}
+    </div>`).join('');
 }
 
 </script>

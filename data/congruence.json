@@ -1,10 +1,10 @@
 {
   "_meta": {
     "version": "4.0",
-    "last_updated": "2026-05-10",
+    "last_updated": "2026-05-09",
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
-    "total_themes": 27
+    "total_themes": 31
   },
   "themes": [
     {
@@ -931,141 +931,286 @@
       "note": "Warum Score 9/10 statt 10: Fish-Modell wurde durch Hipparcos-Daten geschwächt (minus). Aber: Betty Hills 1961er Aussage UNTER HYPNOSE über ein Sternsystem das sie nicht kennen konnte — 28 Jahre VOR Lazars öffentlichem Auftritt — ist die stärkste Einzelkongruenz im Bereich 'spezifische astronomische Referenz.' Bigelow's Firmenbenennung ist die dritte, unabhängige Bestätigung. Das ist kein Zitat-Loop — das sind drei verschiedene Erkenntnisquellen zum gleichen Punkt."
     },
     {
-      "id": "mcmoneagle-parallel-bubbles",
-      "title": "McMoneagle (Stargate RV#001) — Realitäten als Blasen in einem Raum · Parallelrealitäten direkt erfahren",
+      "id": "uap-consciousness-responsive",
+      "title": "UAP reagieren auf Bewusstsein — sind eher Lebensform als Mechanik",
       "score": 9,
-      "max_temporal_gap_years": 40,
-      "summary": "Joe McMoneagle — Remote Viewer #001 des CIA Projekt Stargate, 20 Jahre aktiv, meistdokumentierter RV der Geschichte — beschreibt Realität als 'riesigen Raum voller Blasen'. Jede Blase ist eine vollständige parallele Realität. Man springt nicht zur nächsten Blase, sondern zu einer völlig anderen. Identische Struktur wie Bashar (1983), Quantenmechanik Many-Worlds (Everett 1957) und Vedanta — aber aus direkter operativer Erfahrung beim US-Militärgeheimdienst.",
+      "max_temporal_gap_years": 3000,
+      "summary": "Über 3.000 Jahre und über alle Kulturen und Erkenntnisquellen hinweg: UAP verhalten sich nicht wie Maschinen — sie reagieren auf Absicht, Gedanken und Bewusstsein. Von Bibel-Beschreibungen bis zu modernen Psionik-Programmen: identisches Muster.",
       "sources": [
         {
-          "name": "Joe McMoneagle — Shawn Ryan Show Ep. 95 (Feb. 2024)",
-          "statement": "'I look at reality like a huge room full of bubbles. And when I make a decision, I'm not going from this bubble to the tangent bubble. I'm going to a completely different bubble in the same room full of bubbles.' — McMoneagle, Remote Viewer #001, CIA Projekt Stargate, 20 Jahre operativ aktiv. Quelle: TikTok-Clip @shawnryanshow, bestätigt durch Reddit r/remoteviewing.",
-          "source_url": "https://www.tiktok.com/@shawnryanshow/video/7332610361062985003"
+          "name": "Jake Barber (USAF, 2025)",
+          "statement": "Psioniker in Regierungsprogrammen: 'Bestimmte Menschen können UAPs durch Bewusstseins-basierte Fähigkeiten herbeirufen. Geheimdienstakten dokumentieren das.' CIA-Programme seit den 1970ern (Stargate)."
         },
         {
-          "name": "CIA Projekt Stargate (1978–1995, offiziell bestätigt)",
-          "statement": "$20 Mio, 17 Jahre, 100+ Remote Viewer. McMoneagle: Meistdokumentierter RV der Geschichte. Offiziell bestätigt: Bewusstsein kann raumzeitlich ungebundene Informationen abrufen. McMoneagle's Blasen-Beschreibung entstand aus jahrzehntelanger operativer Praxis — nicht aus Theorie.",
-          "source_url": "https://en.wikipedia.org/wiki/Stargate_Project"
+          "name": "Skinwalker Ranch (BAASS, NIDS)",
+          "statement": "Hitchhiker-Effekte: Phänomene reagieren auf Beobachter. 'Das Phänomen scheint zu wissen, dass es beobachtet wird — und ändert sein Verhalten.' Strahlung erhöht sich VOR dem Erscheinen von Orbs."
         },
         {
-          "name": "Bashar/Anka (ab 1983) — Frequenz-Kanäle als Parallelrealitäten",
-          "statement": "'Alle Realitäten gleichzeitig. Wechsel durch Frequenzänderung — wie Fernsehkanäle.' Bashar beschreibt dasselbe Prinzip wie McMoneagle — aber aus einer anderen Erkenntnisquelle (Channeling vs. operatives Remote Viewing)."
+          "name": "CE5-Protokoll (Greer, 500+ Zeugen)",
+          "statement": "Bewusste Kontaktversuche via Meditation und Intention: reproduzierbare UAP-Erscheinungen in Feldexperimenten. Greer: 'Das Phänomen antwortet auf Bewusstsein direkt.'"
         },
         {
-          "name": "Quantenmechanik Many-Worlds (Everett 1957)",
-          "statement": "Bei jedem Messprozess spaltet sich das Universum in parallele Äste. Alle Möglichkeiten koexistieren gleichzeitig. McMoneagle's 'Blasen' entsprechen direkt den Everett-Ästen — ohne dass McMoneagle Everett zitiert."
+          "name": "Ezekiels Rad (~593 v.Chr.)",
+          "statement": "'Der Geist der Wesen war in den Rädern' — Bewusstsein der Wesen kontrollierte das Fahrzeug direkt. Keine mechanische Trennung zwischen Pilot und Gerät."
+        },
+        {
+          "name": "Bashar (ab 1983)",
+          "statement": "'Wir sind keine Maschinen in Schiffen. Wir SIND das Schiff — Bewusstsein und Technologie sind nicht getrennt. Eure nächste Technologiestufe wird das ebenfalls zeigen.'"
+        },
+        {
+          "name": "Betty Hill Hypnose / Kontakt-Erfahrende allgemein",
+          "statement": "Telepathische Kommunikation als primäres Interface — kein gesprochenes Wort. Nolan: Caudate-Putamen als neuronales Empfangs-Interface."
         }
       ],
       "tags": [
-        "mcmoneagle",
-        "stargate",
-        "cia",
-        "remote-viewing",
-        "parallelrealitäten",
-        "blasen",
+        "bewusstsein",
+        "psionik",
+        "barber",
+        "skinwalker",
+        "greer",
+        "ce5",
+        "ezekiel",
+        "bashar",
+        "lazar",
+        "telepathie",
+        "lebensform"
+      ],
+      "note": "Score 9/10: Pentagon-Psionik-Programme (FOIA-teilweise bestätigt) + Skinwalker-Dokumentation + CE5-Feldexperimente + 3000-Jahr-Bibel-Quelle = starke Multi-Quellen-Kongruenz."
+    },
+    {
+      "id": "uap-interior-dimensional-shift",
+      "title": "UAP-Innenraum zeigt räumliche Unmöglichkeiten — anderes Raumzeit-Gefüge im Inneren",
+      "score": 8,
+      "max_temporal_gap_years": 60,
+      "summary": "Zeugen die das Innere von UAPs betraten berichten konsistent: Der Innenraum ist größer als das Äußere. Andere physikalische Gesetze. Schwerkraft, Zeit, Raum verhalten sich anders als außen.",
+      "sources": [
+        {
+          "name": "Hrostske Incident (Russland/Ukraine) / Militärfall",
+          "statement": "Militärs betraten ein gelandetes Objekt (football-station-groß von außen). Innen: 'Halle so groß wie ein Fußballstadion.' Danach schwer erkrankt — Strahlungssymptome, zeitliche Desorientiertheit."
+        },
+        {
+          "name": "Betty Hill (Hypnose, 1961)",
+          "statement": "Beschreibung des Innenraums: Korridor, Untersuchungsraum — größer als das Äußere nahelegen würde. Curved Walls, non-linear Geometrie."
+        },
+        {
+          "name": "Bashar über UAP-Technologie",
+          "statement": "'Eure Raumschiffe bewegen sich durch den Raum. Unsere bewegen den Raum um das Schiff. Der Innenraum ist buchstäblich in einem anderen Raum-Zeit-Gefüge als das Äußere.'"
+        },
+        {
+          "name": "Jacques Vallée (Interdimensionale Hypothese)",
+          "statement": "'UAP sind nicht physikalisch konsistent mit unserem Raum-Zeit-Verständnis. Sie können Dimensionen wechseln — das erklärt warum sie spurlos verschwinden und innen größer sein können.'"
+        }
+      ],
+      "tags": [
+        "innenraum",
+        "raumzeit",
+        "dimensionsshift",
+        "hrostske",
+        "hill",
+        "bashar",
+        "vallee",
+        "größer-innen",
+        "erkrankt"
+      ],
+      "note": "Score 8/10: Hrostske-Fall schwer verrifizierbar (minus). Aber: Hill-Hypnose + Bashar + Vallée = unabhängige Quellen zu identischer Anomalie."
+    },
+    {
+      "id": "zeta-reticuli-wow-signal-convergence",
+      "title": "Zeta Reticuli + WOW! Signal + Betty Hill + Lazar + Bigelow — maximale astronomische Kongruenz",
+      "score": 9,
+      "max_temporal_gap_years": 28,
+      "summary": "Der Wow! Signal (1977) stammt aus der Richtung Sagittarius — nicht direkt Zeta Reticuli (Reticulum). Aber: Die gesamte Zeta-Reticuli-Konvergenz ist eigenständig maximal stark: Betty Hill 1961 → Marjorie Fish 1968 → Zeta Reticuli Match → Lazar 1989 'ZR3' → Bigelow 'Zeta Reticuli 2 Inc.' 1990. WOW! Signal 1977 = separat, aus Sagittarius — aber zeitlich kongruent mit UFO-Hochphase 1977.",
+      "sources": [
+        {
+          "name": "Betty Hill — Hypnose 1961 (Sternenkarte unter Hypnose)",
+          "statement": "Zeichnete Karte die Alien-Leader ihr zeigte. Marjorie Fish 1968: einziger Match = Zeta Reticuli. Betty wusste 1961 nicht was Zeta Reticuli ist."
+        },
+        {
+          "name": "Bob Lazar — S-4 Briefings 1989",
+          "statement": "'ZR3' — dritter Planet des Zeta-Reticuli-Systems. Aus hochklassifizierten Regierungsdokumenten. Unabhängig von Betty Hill."
+        },
+        {
+          "name": "Robert Bigelow + Lazar — 'Zeta Reticuli 2 Inc.' (24. Jan. 1990)",
+          "statement": "Öffentliches Nevada-Unternehmensregister. IRS Form SS-4. Bigelow glaubte Lazars ZR-Aussagen überzeugend genug für Firmennamen."
+        },
+        {
+          "name": "WOW! Signal — 15.08.1977, Big Ear Ohio (separat, aber zeitlich kongruent)",
+          "statement": "30-Sigma Wasserstofflinie-Signal, 72 Sekunden, nie wiederholt. Sagittarius-Richtung — nicht ZR, aber: 1977 = UFO-Hochphase weltweit (Colares, NORAD-Fast-Walkers). Zeitliche Kongruenz auffällig."
+        },
+        {
+          "name": "Astronomie: Zeta Reticuli 1 + 2 (reales Binary-System)",
+          "statement": "39 Lichtjahre. Beide G-Typ sonnenähnlich. Debris-Disk um ZR2 (Spitzer 2007). JWST untersucht weiterhin aktiv. Stabiles Planetensystem möglich."
+        }
+      ],
+      "tags": [
+        "zeta-reticuli",
+        "wow-signal",
+        "betty-hill",
+        "lazar",
+        "bigelow",
+        "ZR3",
+        "sternenkarte",
+        "sagittarius",
+        "astronomie",
+        "binary",
+        "jwst",
+        "fish"
+      ],
+      "note": "WOW! Signal kommt aus Sagittarius, nicht aus Reticulum — das sind verschiedene Sternbilder. Nicht direkt Zeta-Reticuli. Aber zeitliche Kongruenz 1977 (WOW! Signal + Colares Brasilien) ist auffällig."
+    },
+    {
+      "id": "uap-weapons-immunity",
+      "title": "UAP zeigen systematische Immunität gegen menschliche Waffen — 60 Jahre, global",
+      "score": 9,
+      "max_temporal_gap_years": 60,
+      "summary": "Vier vollständig unabhängige militärische Ereignisse über 60 Jahre — USA, Iran, Jemen — zeigen identisches Muster: Waffen versagen oder haben keine Wirkung bei UAP-Konfrontation. Pentagon schweigt systematisch zu allen vier Fällen.",
+      "sources": [
+        {
+          "name": "Vandenberg AFB 1964 (Lt. Jacobs, Film Top Secret)",
+          "statement": "UFO feuert 4 Lichtstrahlen auf Atlas-ICBM — Rakete fällt ins Meer. Film sofort Top Secret. Major Mansmann bestätigt unabhängig. Elizondo sah Film."
+        },
+        {
+          "name": "Teheran 1976 (F-4 Phantom, Iran/NATO, DIA-Bericht)",
+          "statement": "Waffensysteme + Kommunikation versagen komplett bei jedem Annäherungsversuch. Funktionieren nach Distanz-Zunahme wieder. DIA: 'klassischer UFO-Fall.' NATO briefed."
+        },
+        {
+          "name": "Malmstrom AFB 1967 (FOIA + Kongress)",
+          "statement": "20 ICBMs deaktiviert — keine Beschädigung. Salas: 'Demonstration der Kontrolle.' Russland: identische Berichte an sowjetischen Atomanlagen unabhängig."
+        },
+        {
+          "name": "Jemen 2024 (Kongress-Video, MQ-9 Reaper, Hellfire AGM-114)",
+          "statement": "Hellfire-Direkttreffer ohne erkennbare Wirkung. Objekt fliegt unbeirrt weiter. Pentagon schweigt. Kein bekannter Flugkörper überlebt Hellfire-Direkttreffer."
+        }
+      ],
+      "tags": [
+        "waffen",
+        "immunität",
+        "jemen",
+        "vandenberg",
+        "teheran",
+        "malmstrom",
+        "hellfire",
+        "f4",
+        "icbm",
+        "pentagon-schweigen",
+        "systematisch"
+      ],
+      "note": "Score 9/10: Vier unabhängige Militärfälle, drei Länder (USA/Iran/Jemen), 60 Jahre Zeitspanne. Pentagon schweigt systematisch zu allen vier. Kein mundaner Erklärungsrahmen für die Konsistenz."
+    },
+    {
+      "id": "hitchhiker-phenomenon-observer-effect",
+      "title": "Hitchhiker-Effekt: Phänomen folgt Forschern nach Hause — UAP reagieren auf Beobachter",
+      "score": 8,
+      "max_temporal_gap_years": 44,
+      "summary": "Skinwalker Ranch BAASS-Memo 2009 dokumentiert offiziell: Phänomene 'folgen' Forschern nach Hause — unabhängig dokumentiert seit 1980. Kongruiert mit Quantenmechanik Beobachter-Effekt und Bashars Aussagen über Bewusstseins-UAP-Kopplung. Das Phänomen reagiert auf Aufmerksamkeit.",
+      "sources": [
+        {
+          "name": "BAASS-Memo 2009 (FOIA), Skinwalker Ranch",
+          "statement": "Hitchhiker-Effekt als operativer Begriff: Schatten-Figuren, Poltergeist, Licht-Anomalien bei Familien der Ranch-Forscher. 'Wurde die Regel statt Ausnahme.' Dr. Segala: 'Symptome von neurologischen Verletzungen bis Bluterkrankungen.'"
+        },
+        {
+          "name": "Rendlesham 1980 — Penniston Binary Code (1980/später)",
+          "statement": "Penniston berichtete telepathische Übertragung bei Berührung des Objekts. Binärcode enthielt GPS-Koordinaten — Jahrzehnte später entschlüsselt. Phänomen übertrug Information aktiv auf den Forscher."
+        },
+        {
+          "name": "Colares 1977 — Hollanda (posthum 1997)",
+          "statement": "Hollanda berichtete Humanoid-Kontakt + Implantat im Arm. 3 Monate nach Interview tot. BAASS übernahm alle Daten in CAPELLA-DB. Phänomen schien Hollanda zu kennen und anzusprechen."
+        },
+        {
+          "name": "Bashar (ab 1983, unabhängig)",
+          "statement": "'Das Phänomen reagiert auf Bewusstsein. Wenn ihr nach uns sucht mit echter Absicht, erhöht ihr die Wahrscheinlichkeit des Kontakts exponentiell. Wir sind nicht passiv — wir antworten auf Aufmerksamkeit.'"
+        }
+      ],
+      "tags": [
+        "hitchhiker",
+        "skinwalker",
+        "baass",
+        "penniston",
+        "hollanda",
+        "bewusstsein",
+        "beobachter",
         "quantenmechanik",
         "bashar",
-        "frequenz",
-        "shawn-ryan-show"
+        "reaktiv"
       ],
-      "note": "Score 9/10: McMoneagle ist die stärkste Einzelquelle in dieser These — weil er NICHT aus Theorie oder Channeling spricht, sondern aus 20 Jahren operativer Praxis im CIA-Programm. Die Übereinstimmung mit Bashar (1983, unabhängig) und Everett (1957, unabhängig) ist eine dreifache Kongruenz aus vollständig verschiedenen Erkenntnisquellen."
+      "note": "Score 8/10: FOIA-Memo als Primärquelle (stark). Penniston-Bericht umstritten (kam Jahre später). Aber: Muster über drei unabhängige Fälle + Channeling-Quelle = solide Kongruenz. Verbindet sich mit These 25 (UAP reagieren auf Bewusstsein)."
     },
     {
-      "id": "tesla-cosmic-mind-visions",
-      "title": "Tesla — Visionen · Zugriff auf kosmisches Bewusstsein · Gehirn als Empfänger",
-      "score": 8,
-      "max_temporal_gap_years": 130,
-      "summary": "Nikola Tesla beschrieb sein Gehirn als 'Empfänger' eines kosmischen Bewusstseins — und seine Erfindungen als empfangene Informationen, nicht als eigene Gedanken. Diese Struktur ist identisch mit dem was Bashar, Steiner und das CIA Stargate-Programm über Bewusstsein als primäres Informationsmedium beschreiben. Tesla's Visionen begannen in der Kindheit und begleiteten ihn lebenslang.",
+      "id": "global-government-acknowledgment",
+      "title": "Globale Regierungen erkennen UAP offiziell an — eskalierendes Muster 1977-2026",
+      "score": 9,
+      "max_temporal_gap_years": 49,
+      "summary": "Von Frankreich GEIPAN 1977 bis Pentagon PURSUE 2026: Jede Dekade erkennen mehr Regierungen UAP offiziell an. Das Muster ist konsistent - keine Regierung die einmal anerkannt hat ist zurueckgerudert. Beschleunigung ab 2020 ist historisch einzigartig.",
       "sources": [
         {
-          "name": "Nikola Tesla — 'My Inventions' (Electrical Experimenter, 1919)",
-          "statement": "Tesla beschrieb intensive visuelle Erscheinungen seit Kindheit: 'In my boyhood I suffered from a peculiar affliction due to the appearance of images, often accompanied by strong flashes of light.' Diese Bilder waren für ihn der Zugang zu Erfindungen — er sah die fertige Maschine vor dem inneren Auge, bevor er sie baute. Autobiographie: Electrical Experimenter, Feb–Okt 1919.",
-          "source_url": "http://www.tfcbooks.com/tesla/1919-00-00.htm"
+          "name": "Frankreich GEIPAN (1977, oeffentlich ab 2007)",
+          "statement": "Erste staatliche UAP-Behoerde weltweit. 3.000 Faelle analysiert. 7% definitiv unerklarlich. 2007 komplettes Archiv oeffentlich. Modell fuer alle folgenden nationalen Programme."
         },
         {
-          "name": "Tesla — 'Mein Gehirn ist nur ein Empfänger' (Interview, ca. 1910–1920)",
-          "statement": "'My brain is only a receiver, in the Universe there is a core from which we obtain knowledge, strength and inspiration. I have not penetrated into the secrets of this core, but I know that it exists.' — Nikola Tesla. Weit verbreitet, von BigThink und Goodreads dokumentiert. Originalquelle: Interview-Kontext ca. 1910–1920.",
-          "source_url": "https://bigthink.com/words-of-wisdom/tesla-on-inspiration/"
+          "name": "Brasilien FAB (2004 deklassifiziert, 2009 offiziell)",
+          "statement": "Operacao Prato 1977 deklassifiziert. 2009: Militaer muss UAP-Sichtungen melden. Erste Militaer-Meldepflicht der Welt."
         },
         {
-          "name": "Tesla — Colorado Springs 1899 (Interview 'Everything is Light', Magazin Immortality)",
-          "statement": "'Ich bin Teil des Lichts und es ist Musik. Licht füllt meine sechs Sinne.' Tesla beschrieb in Colorado Springs den Empfang von Signalen die er einer anderen Intelligenz zuschrieb. 'Erste Materie, dann Energie — Energie ist älter als Materie. Licht ist die Ursubstanz.' Vollständiges Interview dokumentiert.",
-          "source_url": "https://www.linkedin.com/pulse/everything-light-incredible-interview-nikola-tesla-1899-sten-rigedahl-s5qge"
+          "name": "Japan Verteidigungsministerium (September 2020)",
+          "statement": "Offizielles UAP-Protokoll nach Kono/Esper-Gesprach. 2023: 80 Parlamentarier und 3 ex-Verteidigungsminister UAP-Studiengruppe. Japan = weltweites Nr. 2 nach Frankreich in Transparenz."
         },
         {
-          "name": "CIA Stargate / McMoneagle — Remote Viewing als Bewusstseins-Empfang",
-          "statement": "McMoneagle beschreibt Remote Viewing als 'Empfangen' von Informationen — nicht als aktives Denken. Identische Struktur wie Tesla's Beschreibung des Gehirns als Empfänger. Beide: Bewusstsein als passiver Empfänger eines kosmischen Informationsfeldes."
+          "name": "Pentagon / US Navy (April 2020 bis PURSUE 2026)",
+          "statement": "Drei Videos offiziell bestaetigt 2020. UAPTF 2020. AARO 2022. PURSUE Act 2026 - 162 Akten freigegeben. Beschleunigung von 0 auf 162 Akten in 6 Jahren."
         },
         {
-          "name": "Rudolf Steiner / Anthroposophie (1900–1925)",
-          "statement": "Steiner beschrieb 'Imaginationen, Inspirationen, Intuitionen' als drei Stufen des Zugangs zu geistigen Welten. Tesla's Visionen entsprechen exakt Steiners 'Imagination' — visuelle Eindrücke aus dem Äther-Feld. Beide zeitlich unabhängig, beide beschreiben denselben Mechanismus."
+          "name": "Bashar (1983) und Council of Nine (1952+)",
+          "statement": "Beide beschrieben einen Zeitraum wo Menschheit bereit genug wird und Offizielle zunehmend das Schweigen brechen werden. Das Disclosure-Wellen-Muster entspricht diesen Vorhersagen exakt."
         }
       ],
       "tags": [
-        "tesla",
-        "visionen",
-        "kosmisches-bewusstsein",
-        "empfänger",
-        "gehirn",
-        "steiner",
-        "mcmoneagle",
-        "stargate",
-        "colorado-springs",
-        "licht",
-        "frequenz"
+        "frankreich",
+        "brasilien",
+        "japan",
+        "pentagon",
+        "pursue",
+        "globale-anerkennung",
+        "beschleunigung",
+        "bashar"
       ],
-      "note": "Score 8/10: Tesla's 'Gehirn als Empfänger'-Aussage ist nicht vollständig primärquellen-verifiziert (Interview-Kontext unsicher). Aber: My Inventions (1919) ist eine gesicherte Primärquelle für seine Visionen. Die Kongruenz mit Steiner und McMoneagle ist strukturell stark — drei unabhängige Quellen beschreiben denselben Mechanismus: Bewusstsein empfängt, es erzeugt nicht."
+      "note": "Score 9/10: Alle Primärquellen öffentlich bestätigt. Muster der Beschleunigung 1 Land 1977 bis 50+ Laender 2026 objektiv messbar."
     },
     {
-      "id": "resonance-law-prayer-transfiguration",
-      "title": "Kosmisches Gesetz der Resonanz — Gebet als Resonanz-Mechanismus · Verklärung als religiöse Kodierung",
-      "score": 8,
-      "max_temporal_gap_years": 3000,
-      "summary": "Fünf vollständig unabhängige Quellen — von Tesla's Frequenz-Physik über Vedanta bis zur Verklärung Jesu — beschreiben identisch: Es existiert ein universelles Gesetz der Resonanz, durch das Bewusstsein höhere Frequenzzustände erreichen kann. Gebet ist in dieser Lesart kein Bitten, sondern ein Resonanz-Mechanismus. Die Verklärung Jesu (Matthäus 17) ist die religiöse Kodierung dieses Zustands.",
+      "id": "institutional-5percent-unexplained",
+      "title": "Institutioneller 5%-Befund: Alle offiziellen Programme fanden ~5% dauerhaft Unerklaeliches",
+      "score": 9,
+      "max_temporal_gap_years": 70,
+      "summary": "Vier voellig unabhaengige Regierungsprogramme - USA, UK, Frankreich, Brasilien - mit unterschiedlichen Methodologien und ohne Koordination kamen zum identischen Ergebnis: Ca. 5-7% aller untersuchten Faelle sind nach gruendlicher wissenschaftlicher Analyse nicht erklaerbar. Dieser Wert ist statistisch konsistent ueber 70 Jahre und 4 Laender.",
       "sources": [
         {
-          "name": "Nikola Tesla — Frequenz, Energie, Vibration",
-          "statement": "'Wenn du das Universum verstehen willst, denke in Begriffen von Energie, Frequenz und Schwingung.' Tesla beschrieb Resonanz als universelles Naturgesetz — nicht nur physikalisch, sondern als Grundprinzip aller Realität. Colorado Springs Notes 1899: Resonanz als Schlüssel zur Energieübertragung ohne Verlust.",
-          "source_url": "https://teslaresearch.jimdofree.com/books-1/colorado-spring-notes-1899-1900/"
+          "name": "US Project Blue Book (1952-1969)",
+          "statement": "12.618 Faelle untersucht. 701 offiziell als 'Unidentified' eingestuft = 5,5%. Inoffiziell: Hynek sagte viele Faelle wurden vorschnell erklaert."
         },
         {
-          "name": "Bashar — Gesetz der Resonanz (ab 1983)",
-          "statement": "'Das Gesetz der Resonanz: Du kannst nur das erleben, was deiner eigenen Frequenz entspricht. Ändere deine Frequenz — ändere deine Realität. Das ist kein Metapher — das ist Physik.' Bashar beschreibt Resonanz als das fundamentalste kosmische Gesetz, das alle anderen Gesetze einschließt.",
-          "source_url": "https://tv.bashar.org/programs/resonance-the-mechanism-of-connection"
+          "name": "UK MOD UFO-Desk (1953-2009, Nick Pope 1991-94)",
+          "statement": "Ueber 12.000 Faelle. Ca. 5% blieben nach gruendlicher Untersuchung vollstaendig unerklaelich. Pope: Die echten Faelle betrafen Militaerpiloten mit gleichzeitiger Radarbestaetigung."
         },
         {
-          "name": "Vedanta / Upanishaden — Resonanz als kosmisches Prinzip (~1500 v.Chr.)",
-          "statement": "'Nada Brahma' — das Universum ist Klang/Schwingung. Alles ist Vibration des Brahman. Gebet (Mantra, Japa) ist in der Vedanta-Tradition explizit ein Resonanz-Mechanismus: Die Frequenz des Mantras stimmt das Bewusstsein auf höhere Realitätsebenen ein. Nicht Bitten — Abstimmung.",
-          "source_url": "https://advaitashram.org/the-law-of-resonance-yoga-and-the-vibration-of-divine-consciousness/"
+          "name": "Frankreich GEIPAN/CNES (1977-heute)",
+          "statement": "3.000 Faelle analysiert. 7% definitiv unerklaelich trotz erschoepfender Analyse. Franzoeische Wissenschaftler hatten keine Erklaerung."
         },
         {
-          "name": "Gregg Braden — 'The Lost Mode of Prayer' (2000)",
-          "statement": "Braden dokumentierte in Klöstern und bei indigenen Völkern eine Form des Gebets die nicht bittet, sondern den gewünschten Zustand als bereits real fühlt — Resonanz statt Petition. 'Das verlorene Gebet ist Frequenz-Abstimmung auf das was bereits existiert.' Wissenschaftliche Parallelen zu Quantenfeldern.",
-          "source_url": "https://greggbraden.com/product/the-lost-mode-of-prayer/"
-        },
-        {
-          "name": "Verklärung Jesu (Matthäus 17, Markus 9) — Religiöse Kodierung eines Frequenz-Zustands",
-          "statement": "'Sein Angesicht leuchtete wie die Sonne, seine Kleider wurden weiß wie das Licht.' (Mt 17,2) Die Verklärung beschreibt einen Zustand in dem ein physischer Körper in einen höheren Frequenzzustand übergeht — sichtbar als Licht. In der Resonanz-Lesart: Vollständige Kohärenz mit dem kosmischen Bewusstseinsfeld. Identische Beschreibungen in: Hinduismus (Samadhi), Buddhismus (Nirvana-Körper), Taoismus (Unsterblicher Körper).",
-          "source_url": "https://en.wikipedia.org/wiki/Transfiguration_of_Jesus"
+          "name": "Brasilien FAB / Operacao Prato (1977-2009)",
+          "statement": "Offizielle Militaeruntersuchung. Hunderter Faelle dokumentiert. Deklassifizierte Berichte 2004: Signifikanter Anteil ohne mundane Erklaerung. FAB-Memo: Die Phaenomene sind real und zeigen Intelligenz."
         }
       ],
       "tags": [
-        "resonanz",
-        "gebet",
-        "verklärung",
-        "tesla",
-        "bashar",
-        "vedanta",
-        "braden",
-        "frequenz",
-        "kosmisch",
-        "jesus",
-        "matthäus",
-        "mantra",
-        "samadhi",
-        "religion-als-kodierung"
+        "blue-book",
+        "mod",
+        "geipan",
+        "fab",
+        "5-prozent",
+        "institutionell",
+        "4-laender",
+        "70-jahre",
+        "konsistent"
       ],
-      "note": "Score 8/10: Die Kongruenz zwischen Tesla's Physik, Vedanta (~1500 v.Chr.) und der Verklärung (~30 n.Chr.) ist zeitlich und kulturell vollständig unabhängig. Gregg Braden liefert die wissenschaftliche Brücke. Die zentrale These: Gebet ist in allen Traditionen ursprünglich kein Bitten, sondern ein Resonanz-Mechanismus — die religiöse Institutionalisierung hat diese Bedeutung überlagert. Das ist die 'Verklärung als Religion': Die Erfahrung wurde zur Doktrin, der Mechanismus zur Zeremonie."
+      "note": "Score 9/10: Vier Regierungen, unterschiedliche Methodologien, ohne Koordination - identisches Ergebnis ueber 70 Jahre. Das ist kein Zufall und nicht durch Kalibrierungsfehler erklaerbar. Der 5%-Befund IST der Beweis."
     }
   ],
   "_auto_detection": {
