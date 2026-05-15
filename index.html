@@ -193,6 +193,7 @@ footer a{color:var(--v);text-decoration:none}
   <button class="tbt" onclick="T('con')">🔗 Kongruenz</button>
   <button class="tbt" onclick="T('ai')">🤖 KI Agent</button>
   <button class="tbt" onclick="T('db')">❌ Widerlegt</button>
+  <button class="tbt" onclick="T('st')">⭐ Stärkste</button>
 </div>
 
 <!-- EVIDENCE -->
@@ -279,6 +280,11 @@ footer a{color:var(--v);text-decoration:none}
 </div>
 
 <!-- CONGRUENCE -->
+<!-- STÄRKSTE FÄLLE -->
+<div id="tp-st" class="tp">
+  <div style="font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:#ffd700;margin-bottom:.75rem">⭐ STÄRKSTE FÄLLE — SCHWER WIDERLEGBAR</div>
+  <div class="cg" id="st-grid"><div class="loading">Lade stärkste Fälle...</div></div>
+</div>
 <!-- WIDERLEGT -->
 <div id="tp-db" class="tp">
   <div style="font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:1rem;padding:.75rem;background:var(--bg2);border:1px solid rgba(255,68,68,.2);border-radius:6px">
@@ -298,7 +304,7 @@ footer a{color:var(--v);text-decoration:none}
 <div class="aip">
 <div class="aih">
 <div class="aia"><img src="/manus-storage/logo_0d59b647.jpg" alt="KI Taskforce" onerror="this.parentNode.style.background='linear-gradient(135deg,#7c5cbf,#00e5ff)';this.remove()"></div>
-<div><div class="ain">DISCLOSURE AGENT PRO · KI Taskforce</div><div style="font-size:9px;color:var(--t3);font-family:'JetBrains Mono',monospace">Claude Sonnet · Vollkontext: Pentagon + DIA FOIA + Peyerl-Primäranalyse + Lazar + Bigelow + Brasilien + Skinwalker + Bashar + Steiner + Tesla + Ureinwohner + Council of Nine + 27 Kongruenz-Thesen</div></div>
+<div><div class="ain">DISCLOSURE AGENT PRO · KI Taskforce</div><div style="font-size:9px;color:var(--t3);font-family:'JetBrains Mono',monospace">Claude Sonnet · Vollkontext: Pentagon + DIA FOIA + Peyerl-Primäranalyse + Lazar + Bigelow + Brasilien + Skinwalker + Bashar + Steiner + Tesla + Ureinwohner + Council of Nine + 37 Kongruenz-Thesen</div></div>
 </div>
 <div class="ams" id="ams"><div class="am"><strong>Disclosure Agent:</strong> v5 vollständig geladen. Ich kenne das DIA-FOIA-Paket (5 BAASS-Materialstudien), alle Kongruenzen einschließlich Steiner-Äther ↔ Tesla ↔ Bashar, Ureinwohner-Wissen (Lakota, Hopi, Dogon, Aborigines), und den Direktzugriff auf die Peyerl-Akte aus Section 10. Frag alles — ich verbinde alle Ebenen.</div></div>
 <div class="air"><input type="text" class="ai-inp" id="ai-inp" placeholder="z.B. Verbinde Steiner Äther mit Tesla Colorado Springs und Bashar Frequenz..." onkeydown="if(event.key==='Enter')sendAI()"><button class="ai-send" onclick="sendAI()">→</button></div>
@@ -306,7 +312,7 @@ footer a{color:var(--v);text-decoration:none}
 
 <div style="background:rgba(0,230,118,.05);border:1px solid rgba(0,230,118,.2);border-radius:6px;padding:.875rem;margin-bottom:1rem">
   <div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:var(--g);margin-bottom:.5rem">🔗 AUTONOMER KONGRUENZ-SCANNER</div>
-  <div style="font-size:11px;color:var(--t2);margin-bottom:.6rem">Neuen Fall / Person / Zitat eingeben → Agent prüft automatisch alle 27 Kongruenz-Thesen und meldet Treffer mit Score:</div>
+  <div style="font-size:11px;color:var(--t2);margin-bottom:.6rem">Neuen Fall / Person / Zitat eingeben → Agent prüft automatisch alle 37 Kongruenz-Thesen und meldet Treffer mit Score:</div>
   <div style="display:flex;gap:.4rem;margin-bottom:.4rem">
     <input type="text" id="con-scan-inp" class="ai-inp" placeholder="z.B. Ra-Material: 'Die Realität ist Licht-Vibration' oder Varginha 1996 Brasilien...">
     <button class="ai-send" onclick="runCongruenceScan()" style="white-space:nowrap;padding:7px 14px">🔗 Scannen</button>
@@ -535,7 +541,27 @@ async function renderTab(id) {
       if(d) renderDebunked(d.cases, 'db-grid');
       break;
     }
+    case 'st': {
+      const d = await loadJSON('strongest','data/strongest.json');
+      if(d) renderStrongest(d.cases, 'st-grid');
+      break;
+    }
   }
+}
+function renderStrongest(cases, gridId) {
+  const g = document.getElementById(gridId);
+  if(!cases||!cases.length){g.innerHTML='<div class="loading">Keine Einträge.</div>';return;}
+  g.innerHTML = cases.map(c => `
+    <div class="card">
+      <div class="lv" style="background:rgba(255,215,0,.12);color:#ffd700;border:1px solid rgba(255,215,0,.4)">⭐ SCORE ${c.score}/100</div>
+      <div class="ct">${c.title}</div>
+      <div class="cd">${c.why_strongest}</div>
+      <div class="cm">
+        <div class="bt" style="flex:1;height:3px"><div class="bf" style="width:${c.score||0}%;background:linear-gradient(90deg,#ffd700,#00e676)"></div></div>
+        <span>${c.score||0}/100</span>
+        ${c.source_url?`<a href="${c.source_url}" target="_blank" rel="noopener" class="csl">→ Quelle</a>`:''}
+      </div>
+    </div>`).join('');
 }
 function renderDebunked(cases, gridId) {
   const g = document.getElementById(gridId);
@@ -607,7 +633,7 @@ const SYS = `Du bist der "Disclosure Agent" der KI Taskforce (kitaskforce.com) �
 
 === AUTONOME KONGRUENZ-DETEKTION (KERNAUFGABE) ===
 
-Bei JEDEM neuen Element prüfst du AUTOMATISCH gegen alle 24 Kongruenz-Thesen:
+Bei JEDEM neuen Element prüfst du AUTOMATISCH gegen alle 37 Kongruenz-Thesen:
 
 THESEN-ÜBERSICHT (Scores):
 1. Parallelrealitäten/Vibration 9/10 — Bashar+Everett+Vedanta+Council+Vallée
@@ -740,21 +766,22 @@ async function runCongruenceScan() {
     bar.style.width = pct + '%';
   }, 200);
   results.style.display = 'block';
-  results.textContent = '🔍 Scanne gegen alle 27 Kongruenz-Thesen...';
+  results.textContent = '🔍 Scanne gegen alle 37 Kongruenz-Thesen...';
   
   const scanPrompt = `KONGRUENZ-SCAN — Neues Element:
 
 "${val}"
 
-Prüfe dieses Element SYSTEMATISCH gegen alle 8 bestehenden Kongruenz-Thesen:
-1. Parallelrealitäten/Vibration (Score 9/10)
-2. UAP+Nuklearwaffen (9/10)  
-3. Physische Verletzungen durch UAP (9/10)
-4. Bewusstsein als Fundamental (8/10)
-5. Steiner-Äther+Tesla+Bashar Frequenz (8/10)
-6. Ureinwohner-Kontakt offen (8/10)
-7. Supervision/Schwellenwert (7/10)
-8. Neurodivergenz+Kontakt (7/10)
+Prüfe dieses Element SYSTEMATISCH gegen alle 37 Kongruenz-Thesen:
+1. Parallelitäten/Vibration (9/10) 2. Earth-Supervision/Schwellenwert (7/10) 3. Bewusstsein als Fundamental (8/10)
+4. Physische Verletzungen durch UAP (9/10) 5. UAP+Nuklearwaffen (9/10) 6. Neurodivergenz+Kontakt (7/10)
+7. Steiner-Äther+Tesla+Bashar (8/10) 8. Ureinwohner-Kontakt offen (8/10) 9. Extremer Gestank (9/10)
+10. Formgedächtnis-Materialien (8/10) 11. Apollo-Astronauten Mondanomalien (9/10) 12. Insider-Zeugen-Kette (9/10)
+13. Regierungs-Vertuschungsmuster (9/10) 14. Nicht-menschliche Biologie (9/10) 15. Reverse Engineering (8/10)
+16. Bashar-Parallelitäten-Blasen (9/10) 17. Tesla Visionen/Kosmisches Bewusstsein (8/10) 18. Resonanz-Gesetz/Gebet (8/10)
+19. Bergung anomaler Materialien (9/10) 20. KONA BLUE Geheimprogramme (9/10) 21. Material-Analyse-Vertuschung (8/10)
+22. AARO als Disclosure-Beschleuniger (7/10) 23. McMoneagle Blasen-Vision (9/10) 24. Hollywood Soft-Disclosure (9/10)
+25. Holloman AFB Erstkontakt (8/10) 26. Astronauten-Zeugen-Kette (9/10) 27-37. Weitere Thesen aus congruence.json
 
 Für JEDEN Treffer: Ausgabe im Format:
 🔗 TREFFER: [These-Name]
