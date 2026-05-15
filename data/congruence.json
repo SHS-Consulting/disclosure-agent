@@ -1,10 +1,10 @@
 {
   "_meta": {
     "version": "4.0",
-    "last_updated": "2026-05-09",
+    "last_updated": "2026-05-15",
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
-    "total_themes": 31
+    "total_themes": 35
   },
   "themes": [
     {
@@ -1211,6 +1211,125 @@
         "konsistent"
       ],
       "note": "Score 9/10: Vier Regierungen, unterschiedliche Methodologien, ohne Koordination - identisches Ergebnis ueber 70 Jahre. Das ist kein Zufall und nicht durch Kalibrierungsfehler erklaerbar. Der 5%-Befund IST der Beweis."
+    },
+    {
+      "id": "recovered-materials-government-analysis",
+      "title": "Bergung anomaler Materialien — Staatliche Analyse bestätigt Existenz",
+      "tag": "MATERIALIEN · BERGUNG · OFFIZIELL",
+      "score": 9,
+      "description": "Mehrere unabhängige Quellen berichten von geborgenen Materialien unbekannter Herkunft. Staatliche Laboranalysen (ORNL 2022/2024) bestätigen die Existenz dieser Proben — auch wenn die Ergebnisse 'gewöhnlich' ausfallen, belegt allein die Beauftragung staatlicher Spitzenlabore die Ernsthaftigkeit der Untersuchung. Die Magnesium-Probe (angeblich Roswell 1947) wurde als Terahertz-Wellenleiter mit Antigravitations-Eigenschaften beschrieben. AARO-Beauftragung von ORNL = implizite Anerkennung, dass solche Proben existieren.",
+      "sources": [
+        {
+          "name": "ORNL: Analyse Magnesium-Probe (Roswell-Behauptung) — AARO 2024",
+          "detail": "Oak Ridge National Laboratory analysierte Mg-Legierung, die als Roswell-1947-Material bezeichnet wurde. Terahertz-Wellenleiter-Eigenschaften behauptet.",
+          "url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/ORNL-Synopsis_Analysis_of_a_Metallic_Specimen.pdf"
+        },
+        {
+          "name": "ORNL: Analyse Aluminium-Probe (Ohio 1990er) — AARO 2024",
+          "detail": "Zweite ORNL-Analyse einer angeblich anomalen Aluminiumprobe aus Ohio. Ergebnis: gewöhnliche Legierung — aber Beauftragung selbst ist signifikant.",
+          "url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/ORNL_ANALYSIS_OF_AN_ALUMINUM_SPECIMEN.pdf"
+        },
+        {
+          "name": "Bob Lazar: S-4 Materialien — Element 115",
+          "detail": "Lazar beschrieb 1989 unbekannte Materialien in S-4/Area 51. Element 115 (Moscovium) wurde 2003 synthetisiert — Kongruenz mit Lazars Beschreibungen.",
+          "url": "https://www.imdb.com/title/tt9107368/"
+        },
+        {
+          "name": "DIA FOIA: Formgedächtnis-Materialien (AAWSAP/BAASS)",
+          "detail": "DIA-Dokumente beschreiben Formgedächtnis-Materialien und Bi-Metall-Strukturen aus UAP-Bergungen.",
+          "url": "https://www.theblackvault.com/documentarchive/the-advanced-aerospace-weapon-system-applications-program-aawsap/"
+        }
+      ],
+      "congruence_score": 9,
+      "congruence_explanation": "ORNL-Beauftragung durch AARO + Lazar + DIA FOIA + Roswell-Zeugen = 4 unabhängige Quellen über 77 Jahre. Staatliche Analyse bestätigt Existenz der Proben, auch wenn Ergebnisse 'normal' ausfallen."
+    },
+    {
+      "id": "kona-blue-secret-programs-non-human",
+      "title": "Geheimprogramme für Non-Human Intelligence — KONA BLUE & Vorläufer",
+      "tag": "GEHEIMPROGRAMME · NON-HUMAN · OFFIZIELL",
+      "score": 8,
+      "description": "KONA BLUE (DHS) war ein geplantes Programm zur Bergung und Auswertung von 'nicht-menschlichen Biologics'. Obwohl nie formell genehmigt, belegt seine Existenz als Proposal, dass Regierungskreise die Möglichkeit nicht-menschlicher Entitäten ernst genug nahmen, um ein dediziertes Programm zu planen. Zusammen mit AATIP, AAWSAP/BAASS und den Grusch-Aussagen entsteht ein Muster: Geheimprogramme für UAP-Bergung und NHI-Analyse existieren oder existierten.",
+      "sources": [
+        {
+          "name": "KONA BLUE — DHS Geheimprogramm-Enthüllung (AARO 2024)",
+          "detail": "AARO enthüllte: KONA BLUE war ein DHS-PSAP-Proposal für 'non-human biologics'. Nie genehmigt, aber Proposal selbst ist historisch bedeutsam.",
+          "url": "https://www.aaro.mil/Portals/136/PDFs/UAP_RECORDS_RESEARCH/History_and_Origin_of_KONA_BLUE_FINAL_508.pdf"
+        },
+        {
+          "name": "David Grusch: UAP-Bergungsprogramme (Kongress-Aussage 2023)",
+          "detail": "Grusch sagte unter Eid aus: Jahrzehntelange Bergungsprogramme für nicht-menschliche Fahrzeuge und Insassen existieren.",
+          "url": "https://oversight.house.gov/hearing/unidentified-anomalous-phenomena-implications-on-national-security-public-safety-and-government-transparency/"
+        },
+        {
+          "name": "AATIP / AAWSAP: Pentagon UAP-Forschungsprogramme",
+          "detail": "Advanced Aerospace Threat Identification Program (AATIP) und AAWSAP/BAASS untersuchten UAPs und angebliche Bergungen für das Pentagon.",
+          "url": "https://www.defense.gov/News/Releases/Release/Article/2165713/statement-by-the-department-of-defense-on-the-release-of-historical-navy-videos/"
+        },
+        {
+          "name": "Lue Elizondo: Bestätigung geheimer UAP-Programme",
+          "detail": "Elizondo, ehemaliger AATIP-Leiter, bestätigte die Existenz von Programmen zur Analyse nicht-menschlicher Technologie.",
+          "url": "https://www.nytimes.com/2017/12/16/us/politics/pentagon-program-ufo-harry-reid.html"
+        }
+      ],
+      "congruence_score": 8,
+      "congruence_explanation": "KONA BLUE (DHS) + Grusch-Aussage (Kongress) + AATIP/AAWSAP (Pentagon) + Elizondo = 4 unabhängige Quellen aus verschiedenen Behörden über 30+ Jahre. Muster: Geheimprogramme für NHI sind institutionell verankert."
+    },
+    {
+      "id": "material-analysis-ordinary-cover-extraordinary",
+      "title": "Staatliche Analysen als Vertuschung — 'Gewöhnlich' trotz außergewöhnlicher Herkunft",
+      "tag": "VERTUSCHUNG · MATERIALANALYSE · MUSTER",
+      "score": 7,
+      "description": "Ein wiederkehrendes Muster: Staatliche Analysen von angeblich anomalen Materialien kommen zu 'gewöhnlichen' Ergebnissen, obwohl die Umstände der Bergung außergewöhnlich sind. ORNL-Aluminium (Ohio): 'gewöhnliche Legierung'. ORNL-Magnesium (Roswell): Analyse ohne Antigravitations-Test. Dieses Muster kongruiert mit dem Hitchhiker-Phänomen (Beweise verschwinden/werden neutralisiert) und dem institutionellen 5%-Unerklärten-Muster.",
+      "sources": [
+        {
+          "name": "ORNL Aluminium-Analyse: 'Gewöhnliche Legierung' — AARO 2024",
+          "detail": "Probe mit angeblich anomalen Eigenschaften → ORNL-Befund: gewöhnliche Aluminiumlegierung.",
+          "url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/ORNL_ANALYSIS_OF_AN_ALUMINUM_SPECIMEN.pdf"
+        },
+        {
+          "name": "Roswell 1947: Metalltrümmer mit Formgedächtnis",
+          "detail": "Zeugen beschrieben Metall, das sich nach Verformung selbst zurückformte. Keine staatliche Analyse bestätigte je diese Eigenschaften.",
+          "url": "https://www.nytimes.com/1994/09/18/us/air-force-details-a-1994-study-of-the-roswell-incident.html"
+        },
+        {
+          "name": "Hitchhiker-Phänomen: Beweise verschwinden (Colm Kelleher / NIDS)",
+          "detail": "Kelleher und Knapp dokumentierten, wie physische Beweise aus UAP-Kontakten systematisch 'verschwinden' oder sich als unauffällig erweisen.",
+          "url": "https://www.amazon.com/Hunt-Skinwalker-Science-Confronts-Unexplained/dp/1416505210"
+        }
+      ],
+      "congruence_score": 7,
+      "congruence_explanation": "ORNL-Muster + Roswell-Formgedächtnis-Zeugen + Hitchhiker-Phänomen = Kongruenz über 77 Jahre. Staatliche 'gewöhnlich'-Befunde können Vertuschung oder Limitation der Analysemethoden sein."
+    },
+    {
+      "id": "aaro-transparency-disclosure-acceleration",
+      "title": "AARO als Disclosure-Beschleuniger — Institutionelle Transparenz 2021–2026",
+      "tag": "DISCLOSURE · AARO · INSTITUTIONELL",
+      "score": 8,
+      "description": "AARO (gegründet 2022) hat in kurzer Zeit mehr offizielle UAP-Dokumente veröffentlicht als alle Vorgängerbehörden zusammen: 8 Case Resolution Reports, 6 Information Papers, 3 Records-Dokumente, KONA BLUE-Enthüllung, ORNL-Analysen. Dies kongruiert mit dem Disclosure-Wellen-Muster (These 14) und der institutionellen 5%-Unerklärten-These. Die Beschleunigung 2021–2026 (UAPTF → AARO → Kongress-Anhörungen → Grusch) folgt einem exponentiellen Muster.",
+      "sources": [
+        {
+          "name": "AARO UAP Records — Alle veröffentlichten Dokumente",
+          "detail": "AARO hat seit 2022 systematisch UAP-Dokumente veröffentlicht: Cases, Records, Information Papers.",
+          "url": "https://www.aaro.mil/UAP-Records/"
+        },
+        {
+          "name": "AARO UAP Case Resolution Reports — 8 Fälle",
+          "detail": "8 offizielle Case Resolution Reports mit Beweismaterial und Analysen.",
+          "url": "https://www.aaro.mil/UAP-Cases/UAP-Case-Resolution-Reports/"
+        },
+        {
+          "name": "AARO Declassification Information Paper 2025",
+          "detail": "AARO erklärt seinen Deklassifizierungsprozess — institutionelles Bekenntnis zu Transparenz.",
+          "url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/AARO_Declassification_Info_Paper_2025.pdf"
+        },
+        {
+          "name": "2025 UAP Workshop White Paper — AARO & AUI",
+          "detail": "AARO sponserte 2025 einen wissenschaftlichen Workshop mit 40 Teilnehmern aus Regierung, Wissenschaft und unabhängiger Forschung.",
+          "url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/2025_UAP_Workshop_Paper.pdf"
+        }
+      ],
+      "congruence_score": 8,
+      "congruence_explanation": "AARO-Veröffentlichungen + Kongress-Anhörungen + Grusch-Aussage + UAPTF-Berichte = institutionelle Disclosure-Welle 2021–2026. Kongruiert mit These 14 (Disclosure-Wellen) und These 30 (Globale Regierungsanerkennung)."
     }
   ],
   "_auto_detection": {

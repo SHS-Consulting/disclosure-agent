@@ -1,9 +1,10 @@
 {
   "_meta": {
     "version": "4.0",
-    "last_updated": "2026-05-09",
+    "last_updated": "2026-05-15",
     "total": 64,
-    "add_command": "ADD_CASE: title | region(usa/brazil/europe/russia/asia/australia/africa/space) | level(critical/high/medium/confirmed/historical) | date | location | description | source_url | tags(comma separated)"
+    "add_command": "ADD_CASE: title | region(usa/brazil/europe/russia/asia/australia/africa/space) | level(critical/high/medium/confirmed/historical) | date | location | description | source_url | tags(comma separated)",
+    "total_cases": 81
   },
   "cases": [
     {
@@ -1394,6 +1395,333 @@
         "2009-geschlossen",
         "beinahe-kollision",
         "56-jahre"
+      ]
+    },
+    {
+      "id": "aaro-al-taqaddum-2017",
+      "title": "Al Taqaddum Objekt — Irak 2017",
+      "region": "Naher Osten",
+      "level": "BESTÄTIGT",
+      "date": "2017-10-23",
+      "location": "Al Taqaddum Air Base, Irak",
+      "score": 62,
+      "description": "Ein IR-Sensor eines Aerostat-Blimps auf 2.700 Fuß über Al Taqaddum Air Base, Irak, zeichnete 17 Minuten 30 Sekunden Footage eines unidentifizierten Objekts auf. AARO bewertet mit hoher Konfidenz: Objekt zeigte kein anomales Verhalten. Einschätzung: Cluster aus voll und teilweise aufgeblasenen Ballons.",
+      "source_url": "https://www.aaro.mil/Portals/136/PDFs/case_resolution_reports/AARO_Al_Taqaddam_Case_Resolution_Final.pdf",
+      "tags": [
+        "AARO",
+        "IR-Sensor",
+        "Irak",
+        "Aerostat",
+        "Aufgelöst",
+        "Ballon"
+      ]
+    },
+    {
+      "id": "aaro-mt-etna-2018",
+      "title": "Mt. Etna Objekt — Sizilien 2018",
+      "region": "Europa",
+      "level": "BESTÄTIGT",
+      "date": "2018-12",
+      "location": "Mittelmeer, südlich Sizilien, Italien",
+      "score": 58,
+      "description": "Eine SWIR-Kamera an Bord eines US-Militär-UAS nahe NAS Sigonella zeichnete 12 Minuten IR-Video eines Ätna-Ausbruchs auf. Für ca. 4,5 Minuten erscheint ein rundes Objekt, das sich mit hoher Geschwindigkeit durch die Aschewolke zu bewegen scheint. AARO-Einschätzung: Optisches Artefakt durch Wärmestrahlung der Eruption.",
+      "source_url": "https://www.aaro.mil/Portals/136/PDFs/case_resolution_reports/Mt-Etna-Object.pdf",
+      "tags": [
+        "AARO",
+        "SWIR",
+        "UAS",
+        "Sizilien",
+        "Vulkan",
+        "Aufgelöst",
+        "Optisches Artefakt"
+      ]
+    },
+    {
+      "id": "aaro-puerto-rico-2013",
+      "title": "Puerto Rico Objekte — Aguadilla 2013",
+      "region": "Karibik",
+      "level": "KRITISCH",
+      "date": "2013-04-26",
+      "location": "Rafael Hernandez Airport, Aguadilla, Puerto Rico",
+      "score": 78,
+      "description": "Ein IR-Sensor an Bord eines US Customs and Border Protection-Flugzeugs zeichnete ein UAP auf, das sich mit hoher Geschwindigkeit bewegt, sich in zwei Objekte aufzuteilen scheint und ins Wasser ein- und austaucht. AARO-Rekonstruktion: Zwei separate Objekte, die sich mit Windgeschwindigkeit in gerader Linie bewegen. Kein Wassereintritt nachweisbar.",
+      "source_url": "https://www.aaro.mil/Portals/136/PDFs/case_resolution_reports/AARO_Puerto_Rico_UAP_Case_Resolution.pdf",
+      "tags": [
+        "AARO",
+        "IR-Sensor",
+        "Puerto Rico",
+        "Customs",
+        "Wasserobjekt",
+        "Aufgelöst"
+      ]
+    },
+    {
+      "id": "aaro-gofast-2015",
+      "title": "GoFast — Atlantik 2015",
+      "region": "Nordamerika",
+      "level": "KRITISCH",
+      "date": "2015-01",
+      "location": "Atlantischer Ozean, Küste Florida, USA",
+      "score": 82,
+      "description": "Ein US Navy F/A-18F Pilot zeichnete mit einem FLIR-Sensor auf ca. 13.000 Fuß über dem Atlantik ein Objekt auf. Das Video zeigt ein Objekt, das sich scheinbar mit extremer Geschwindigkeit über die Wasseroberfläche bewegt. AARO-Analyse: Parallaxe-Effekt täuscht Geschwindigkeit vor; Objekt bewegt sich tatsächlich mit Windgeschwindigkeit.",
+      "source_url": "https://www.aaro.mil/Portals/136/PDFs/case_resolution_reports/AARO_GoFast_Case_Resolution_Card_Methodology_Final.pdf",
+      "tags": [
+        "AARO",
+        "US Navy",
+        "FLIR",
+        "F/A-18",
+        "GoFast",
+        "Atlantik",
+        "Parallaxe"
+      ]
+    },
+    {
+      "id": "aaro-eglin-uap-2023",
+      "title": "Eglin UAP — Trainingsbereich USA 2023",
+      "region": "Nordamerika",
+      "level": "BESTÄTIGT",
+      "date": "2023",
+      "location": "Eglin Air Force Base Trainingsbereich, USA",
+      "score": 55,
+      "description": "Ein Militärpilot meldete das Objekt als potenzielle Flugsicherheitsgefahr und Eindringen in einen sensiblen Trainingsbereich. AARO veröffentlichte einen Case Resolution Report. Details zum Objekt und zur Auflösung sind im offiziellen PDF dokumentiert.",
+      "source_url": "https://www.aaro.mil/Portals/136/PDFs/case_resolution_reports/Case_Resolution_of_Eglin_UAP_2_508_.pdf",
+      "tags": [
+        "AARO",
+        "Eglin AFB",
+        "Trainingsbereich",
+        "Flugsicherheit",
+        "Aufgelöst"
+      ]
+    },
+    {
+      "id": "aaro-atmospheric-wake-2022-23",
+      "title": "Atmospheric Wake Objekte — Naher Osten / Mittelmeer 2022–2023",
+      "region": "Naher Osten",
+      "level": "BESTÄTIGT",
+      "date": "2022/2023",
+      "location": "Naher Osten und Mittelmeer",
+      "score": 60,
+      "description": "Drei verschiedene Missionen im Nahen Osten und Mittelmeer 2022–2023 meldeten Objekte mit potenziell anomaler Antriebssignatur. Videos zeigen elliptische Objekte mit atmosphärischen Wirbelschleppen. AARO-Einschätzung: Atmosphärische Wirbelschleppe-Phänomene, keine anomale Technologie.",
+      "source_url": "https://www.aaro.mil/Portals/136/PDFs/case_resolution_reports/Case_Resolution_of_Atmospheric_Wakes_508-02262024.pdf",
+      "tags": [
+        "AARO",
+        "Naher Osten",
+        "Mittelmeer",
+        "Wirbelschleppe",
+        "Antrieb",
+        "Aufgelöst"
+      ]
+    },
+    {
+      "id": "aaro-southeast-asia-triangles-2023",
+      "title": "Südostasien Dreiecke — Formation 2023",
+      "region": "Asien",
+      "level": "BESTÄTIGT",
+      "date": "2023",
+      "location": "Südostasien",
+      "score": 65,
+      "description": "Sechs dreieckige Objekte in Formation wurden ursprünglich als potenziell anomal und als Navigationsrisiko eingestuft. AARO veröffentlichte einen Case Resolution Report. Die Dreiecksformation ist dokumentiert im offiziellen AARO-Bericht.",
+      "source_url": "https://www.aaro.mil/Portals/136/PDFs/case_resolution_reports/Case_Resolution_of_Southeast_Asia_Triangles_508-02262024.pdf",
+      "tags": [
+        "AARO",
+        "Südostasien",
+        "Dreieck",
+        "Formation",
+        "Navigation",
+        "Aufgelöst"
+      ]
+    },
+    {
+      "id": "aaro-western-us-2021",
+      "title": "Western US Objekte — Lichter in Formation 2021",
+      "region": "Nordamerika",
+      "level": "BESTÄTIGT",
+      "date": "2021",
+      "location": "Westliche USA",
+      "score": 58,
+      "description": "Militärpersonal meldete äquidistante Lichter, die in gleichmäßigem Tempo flogen, als UAP mit potenziellem Eindringen in gesperrten Luftraum. AARO-Einschätzung im offiziellen Case Resolution Report dokumentiert.",
+      "source_url": "https://www.aaro.mil/Portals/136/PDFs/case_resolution_reports/Case_Resolution_of_Western_United_States_Uap_508-02262024.pdf",
+      "tags": [
+        "AARO",
+        "USA",
+        "Lichter",
+        "Formation",
+        "Gesperrter Luftraum",
+        "Aufgelöst"
+      ]
+    },
+    {
+      "id": "aaro-nara-uap-records",
+      "title": "NARA UAP-Akten — Nationale Archivdatenbank",
+      "region": "Nordamerika",
+      "level": "BESTÄTIGT",
+      "date": "2023-2026",
+      "location": "Washington D.C., USA",
+      "score": 70,
+      "description": "Die National Archives and Records Administration (NARA) stellt Zugang zu zahlreichen Regierungsakten über UFOs und UAPs bereit – über den National Archives Catalog und NARA's Website. NARA digitalisiert aktiv historische Akten aus seinen Beständen im Auftrag des Department of War. Digitalisierte Akten werden fortlaufend im Catalog verfügbar gemacht. AARO erkennt die Bedeutung von NARA für die Überprüfung historischer UAP-Berichte an.",
+      "source_url": "https://www.archives.gov/research/topics/uaps",
+      "tags": [
+        "AARO",
+        "NARA",
+        "Archiv",
+        "Historisch",
+        "Declassified",
+        "Records"
+      ]
+    },
+    {
+      "id": "aaro-nasa-uap-study-2023",
+      "title": "NASA UAP Independent Study — Abschlussbericht 2023",
+      "region": "Nordamerika",
+      "level": "BESTÄTIGT",
+      "date": "2023-09-14",
+      "location": "Washington D.C., USA",
+      "score": 75,
+      "description": "Am 14. September 2023 veröffentlichte das NASA UAP Independent Study Team seinen Abschlussbericht mit einer Reihe von Empfehlungen, wie die Behörde das Verständnis von UAPs vorantreiben kann. Das Team betonte die Notwendigkeit besserer Datenerfassung, standardisierter Berichtsverfahren und wissenschaftlicher Offenheit. Der Bericht markiert einen Wendepunkt in der offiziellen wissenschaftlichen Auseinandersetzung mit UAPs.",
+      "source_url": "https://science.nasa.gov/uap",
+      "tags": [
+        "AARO",
+        "NASA",
+        "Wissenschaft",
+        "Studie",
+        "Empfehlungen",
+        "2023"
+      ]
+    },
+    {
+      "id": "aaro-kona-blue-dhs",
+      "title": "KONA BLUE — DHS Geheimprogramm-Enthüllung",
+      "region": "Nordamerika",
+      "level": "KRITISCH",
+      "date": "2024",
+      "location": "USA",
+      "score": 88,
+      "description": "AARO erfuhr vom KONA BLUE-Programm durch Interviews im Rahmen seiner historischen Überprüfung. Mehrere Interviewte identifizierten KONA BLUE als ein sensibles DHS-Compartment, das für die Bergung und Auswertung von 'nicht-menschlichen Biologics' eingerichtet worden sein soll. AARO-Recherche ergab: KONA BLUE war ein Prospective Special Access Program (PSAP), das DHS-Führung vorgeschlagen, aber nie genehmigt oder formal eingerichtet wurde. KONA BLUE erhielt niemals Materialien oder Finanzierung – es gibt keine Informationen über das Programm hinaus der Präsentationsunterlagen.",
+      "source_url": "https://www.aaro.mil/Portals/136/PDFs/UAP_RECORDS_RESEARCH/History_and_Origin_of_KONA_BLUE_FINAL_508.pdf",
+      "tags": [
+        "AARO",
+        "KONA BLUE",
+        "DHS",
+        "Geheimprogramm",
+        "Non-Human",
+        "Biologics",
+        "Aufgelöst"
+      ]
+    },
+    {
+      "id": "aaro-ornl-aluminum-2024",
+      "title": "ORNL Analyse — Aluminium-Probe (Ohio, 1990er)",
+      "region": "Nordamerika",
+      "level": "BESTÄTIGT",
+      "date": "2024",
+      "location": "Oak Ridge, Tennessee, USA",
+      "score": 65,
+      "description": "2024 beauftragte AARO das Oak Ridge National Laboratory (ORNL) mit der Analyse einer metallischen Probe, die angeblich Mitte der 1990er Jahre auf einem Privatgrundstück in Ohio gefunden wurde und angeblich anomale Zusammensetzungs- und Struktureigenschaften aufwies. ORNL-Befund: Die Probe ist konsistent mit 'einer gewöhnlichen Aluminiumlegierung für gängige Anwendungen.' AARO veröffentlichte zusätzlich ein eigenes Supplement zur ORNL-Analyse.",
+      "source_url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/ORNL_ANALYSIS_OF_AN_ALUMINUM_SPECIMEN.pdf",
+      "tags": [
+        "AARO",
+        "ORNL",
+        "Materialanalyse",
+        "Aluminium",
+        "Ohio",
+        "Aufgelöst",
+        "2024"
+      ]
+    },
+    {
+      "id": "aaro-ornl-metallic-mg-alloy-2024",
+      "title": "ORNL Analyse — Magnesium-Legierung (angeblich Roswell 1947)",
+      "region": "Nordamerika",
+      "level": "KRITISCH",
+      "date": "2024-04",
+      "location": "Oak Ridge, Tennessee, USA",
+      "score": 85,
+      "description": "2022 beauftragte AARO das Oak Ridge National Laboratory (ORNL) mit Materialtests an einer Magnesium(Mg)-Legierungsprobe. Diese Probe wurde öffentlich als Bauteil eines 1947 abgestürzten außerirdischen Fahrzeugs bezeichnet und soll außergewöhnliche Eigenschaften besitzen – darunter die Funktion als Terahertz-Wellenleiter zur Erzeugung von Antigravitations-Fähigkeiten. Im April 2024 dokumentierte ORNL die Methodik und Ergebnisse der Elementar- und Strukturanalyse.",
+      "source_url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/ORNL-Synopsis_Analysis_of_a_Metallic_Specimen.pdf",
+      "tags": [
+        "AARO",
+        "ORNL",
+        "Materialanalyse",
+        "Magnesium",
+        "Roswell",
+        "Antigravitation",
+        "Terahertz",
+        "2024"
+      ]
+    },
+    {
+      "id": "aaro-declassification-paper-2025",
+      "title": "AARO Declassification — Informationspapier 2025",
+      "region": "Nordamerika",
+      "level": "BESTÄTIGT",
+      "date": "2025",
+      "location": "Washington D.C., USA",
+      "score": 68,
+      "description": "AARO ist der Freigabe und öffentlichen Veröffentlichung von so vielen UAP-bezogenen Informationen wie möglich verpflichtet. Das Informationspapier erklärt: Warum sind so viele UAP-bezogene Informationen klassifiziert? Wie führt AARO die Deklassifizierung und Veröffentlichung von UAP-Informationen durch? Das Papier gibt Einblick in den Deklassifizierungsprozess.",
+      "source_url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/AARO_Declassification_Info_Paper_2025.pdf",
+      "tags": [
+        "AARO",
+        "Declassification",
+        "Transparenz",
+        "Klassifizierung",
+        "2025"
+      ]
+    },
+    {
+      "id": "aaro-starlink-flaring-uap-2025",
+      "title": "Starlink Satellite Flaring — UAP-Verwechslungen",
+      "region": "Global",
+      "level": "BESTÄTIGT",
+      "date": "2025-04-22",
+      "location": "Global",
+      "score": 55,
+      "description": "Satellite Flaring ist ein optisches Phänomen, das auftritt, wenn Sonnenlicht von Satellitenoberflächen (Antennen, Solarpanele) reflektiert wird. Das AARO-Papier diskutiert spekulare und diffuse Reflexion von Sonnenlicht durch künstliche Satelliten und wie diese Effekte als UAP fehlinterpretiert werden können. Es bietet eine Methode, mit der Beobachter feststellen können, ob ihre Sichtungen auf Satellite Flaring zurückzuführen sind.",
+      "source_url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/AARO_Satellite_Flaring_Paper_508_FINAL_04222025.pdf",
+      "tags": [
+        "AARO",
+        "Starlink",
+        "Satellite Flaring",
+        "Optisch",
+        "Fehlidentifikation",
+        "2025"
+      ]
+    },
+    {
+      "id": "aaro-forced-perspective-parallax-2024",
+      "title": "Forced Perspective & Parallax — UAP-Fehlwahrnehmungen",
+      "region": "Global",
+      "level": "BESTÄTIGT",
+      "date": "2024",
+      "location": "Global",
+      "score": 50,
+      "description": "Obwohl keine einzelne Erklärung alle UAP-Fälle abdecken kann, können die Effekte von Forced Perspective und Parallax häufig übermäßig große Größen oder hohe Geschwindigkeiten in UAP-Berichten erklären. Das AARO-Informationspapier gibt einen Überblick über diese visuellen Effekte und ihre Auswirkungen auf die UAP-Wahrnehmung.",
+      "source_url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/AARO_Effect_of_Forced_Perspective_and_Parallax_View_on_UAP_Observations_2024.pdf",
+      "tags": [
+        "AARO",
+        "Forced Perspective",
+        "Parallax",
+        "Optisch",
+        "Fehlwahrnehmung",
+        "2024"
+      ]
+    },
+    {
+      "id": "aaro-uap-workshop-2025",
+      "title": "AARO UAP Workshop — Narrative Data & Analysis 2025",
+      "region": "Nordamerika",
+      "level": "BESTÄTIGT",
+      "date": "2025-08",
+      "location": "USA",
+      "score": 72,
+      "description": "Im August 2025 veranstaltete AARO einen Workshop zu UAP Narrative Data, Infrastructures, and Analysis in Partnerschaft mit Associated Universities, Inc. (AUI). 40 Teilnehmer aus Regierung, Wissenschaft und unabhängigen Forschungsorganisationen diskutierten die Herausforderungen und Möglichkeiten bei der Arbeit mit UAP-Narrativberichten und verwandten Datenquellen. Das White Paper fasst die Ergebnisse zusammen.",
+      "source_url": "https://www.aaro.mil/Portals/136/PDFs/Information%20Papers/2025_UAP_Workshop_Paper.pdf",
+      "tags": [
+        "AARO",
+        "Workshop",
+        "Wissenschaft",
+        "Datenanalyse",
+        "AUI",
+        "2025"
       ]
     }
   ]
