@@ -4,7 +4,7 @@
     "last_updated": "2026-05-16",
     "total": 64,
     "add_command": "ADD_CASE: title | region(usa/brazil/europe/russia/asia/australia/africa/space) | level(critical/high/medium/confirmed/historical) | date | location | description | source_url | tags(comma separated)",
-    "total_cases": 84
+    "total_cases": 85
   },
   "cases": [
     {
@@ -1833,6 +1833,45 @@
       ],
       "region": "USA",
       "status": "documented"
+    },
+    {
+      "id": "edgar-mitchell-apollo14-ufo-testimony-2008",
+      "title": "Edgar Mitchell – Apollo-14-Astronaut: 'UFO-Phänomen ist real, seit 60 Jahren vertuscht'",
+      "date": "2008-07-23",
+      "location": "Kerrang Radio, Birmingham, UK (Interview)",
+      "category": "testimony",
+      "classification": "KRITISCH",
+      "tags": [
+        "NASA",
+        "Astronaut",
+        "Apollo",
+        "Mondlandung",
+        "Roswell",
+        "Regierung",
+        "Zeuge",
+        "Höchstdekoriert"
+      ],
+      "summary": "Edgar Mitchell – 6. Mensch auf dem Mond (Apollo 14, 9. Februar 1971), MIT-Doktor der Aeronautik, Träger des Presidential Medal of Freedom – erklärte in einem Live-Interview auf Kerrang Radio (Birmingham, UK) am 23. Juli 2008: 'Es gibt nicht viel Zweifel, dass es Leben im ganzen Universum gibt. Ich bin mir absolut sicher, dass wir nicht allein sind.' Er gab weiter an, er habe Geheimdienstinformationen, dass die Erde besucht wurde, und 'das UFO-Phänomen ist real – obwohl es von Regierungen seit 60 Jahren vertuscht wird.' Auf Roswell angesprochen bestätigte er: 'Ja, das ist wirklich passiert.' Er beschrieb Außerirdische als harmlose 'kleine Menschen'. NASA reagierte mit einer offiziellen Distanzierung: 'Dr. Mitchell ist ein großer Amerikaner, aber wir teilen seine Meinung zu diesem Thema nicht.' Mitchell ist der höchstdekorierte und akademisch qualifizierteste Zeuge, der je öffentlich über UFOs und staatliche Vertuschung ausgesagt hat.",
+      "witnesses": [
+        "Dr. Edgar Mitchell (NASA-Astronaut, Apollo 14, 6. Mensch auf dem Mond, MIT-Doktor der Aeronautik)"
+      ],
+      "evidence": [
+        "Live-Interview Kerrang Radio, Birmingham UK, 23. Juli 2008 (Guardian-Bericht 25. Juli 2008)",
+        "Mitchell: 'Ich habe Geheimdienstinformationen, dass wir besucht wurden und das UFO-Phänomen real ist'",
+        "Mitchell bestätigt Roswell 1947 als echtes Ereignis",
+        "NASA-Pressemitteilung: offizielle Distanzierung von Mitchells Aussagen",
+        "Frühere Aussagen in US-Medien (Cabinet Magazine, diverse Interviews)",
+        "Mitchell führte während Apollo 14 inoffizielle ESP-Experimente durch (Telepathie-Versuche mit Kollegen auf der Erde)"
+      ],
+      "source_url": "https://www.theguardian.com/world/2008/jul/25/usa1",
+      "source_label": "The Guardian (25. Juli 2008)",
+      "congruence_themes": [
+        "government-cover-up-pattern",
+        "insider-testimony-chain"
+      ],
+      "region": "USA",
+      "status": "documented",
+      "credibility_note": "Höchstdekorierter Zeuge in der UAP-Geschichte: MIT-Doktor, NASA-Astronaut, 6. Mensch auf dem Mond, 9-Stunden-Mondspaziergang (Rekord mit Alan Shepard). Akademische und militärische Qualifikationen auf höchstem Niveau."
     }
   ]
 }

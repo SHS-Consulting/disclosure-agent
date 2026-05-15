@@ -1,8 +1,9 @@
 {
   "_meta": {
     "version": "4.0",
-    "last_updated": "2026-05-09",
-    "add_command": "ADD_PERSON: name | role | bio | tags(comma separated) | source_url | emoji"
+    "last_updated": "2026-05-16",
+    "add_command": "ADD_PERSON: name | role | bio | tags(comma separated) | source_url | emoji",
+    "total_people": 40
   },
   "people": [
     {
@@ -674,6 +675,34 @@
         "kongress-2025"
       ],
       "source_url": "https://en.wikipedia.org/wiki/George_Knapp_(journalist)"
+    },
+    {
+      "id": "edgar-mitchell",
+      "name": "Dr. Edgar Mitchell",
+      "role": "NASA-Astronaut · Apollo 14 · 6. Mensch auf dem Mond",
+      "affiliation": "NASA / US Navy (Konteradmiral)",
+      "credibility": "HÖCHST",
+      "tags": [
+        "NASA",
+        "Astronaut",
+        "Apollo",
+        "Mondlandung",
+        "Zeuge",
+        "MIT",
+        "Wissenschaftler"
+      ],
+      "bio": "Edgar Dean Mitchell (1930–2016) war NASA-Astronaut, Konteradmiral der US Navy und der 6. Mensch, der den Mond betrat (Apollo 14, 9. Februar 1971). Er hält gemeinsam mit Alan Shepard den Rekord für den längsten Mondspaziergang (9 Stunden). Mitchell besaß zwei Bachelor-Abschlüsse und einen Doktortitel in Aeronautik vom MIT. 1973 gründete er das Institute of Noetic Sciences (IONS). Er war einer der wenigen NASA-Astronauten, die öffentlich über UFOs und staatliche Vertuschung sprachen. In einem Live-Interview 2008 erklärte er, er habe Geheimdienstinformationen über außerirdische Besuche und bestätigte Roswell als echtes Ereignis. NASA distanzierte sich offiziell.",
+      "key_statements": [
+        "Das UFO-Phänomen ist real – obwohl es von Regierungen seit 60 Jahren vertuscht wird. (Kerrang Radio, 2008)",
+        "Roswell ist wirklich passiert. (2008)",
+        "Ich bin absolut sicher, dass wir nicht allein sind. (2008)",
+        "Außerirdische sind harmlose kleine Menschen. (2008)"
+      ],
+      "source_url": "https://www.theguardian.com/world/2008/jul/25/usa1",
+      "source_label": "The Guardian (25. Juli 2008)",
+      "birth_year": 1930,
+      "death_year": 2016,
+      "nationality": "USA"
     }
   ]
 }
