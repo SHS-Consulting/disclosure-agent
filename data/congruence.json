@@ -1,10 +1,10 @@
 {
   "_meta": {
     "version": "4.0",
-    "last_updated": "2026-05-15",
+    "last_updated": "2026-05-16",
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
-    "total_themes": 35
+    "total_themes": 37
   },
   "themes": [
     {
@@ -1330,6 +1330,121 @@
       ],
       "congruence_score": 8,
       "congruence_explanation": "AARO-Veröffentlichungen + Kongress-Anhörungen + Grusch-Aussage + UAPTF-Berichte = institutionelle Disclosure-Welle 2021–2026. Kongruiert mit These 14 (Disclosure-Wellen) und These 30 (Globale Regierungsanerkennung)."
+    },
+    {
+      "id": "hollywood-soft-disclosure-spielberg",
+      "title": "Hollywood als Soft-Disclosure-Kanal – Spielberg, E.T. und die Vorbereitung der Menschheit",
+      "statement": "Regierungen nutzen Hollywood-Produktionen als kontrollierten Kanal zur schrittweisen Vorbereitung der Öffentlichkeit auf die Enthüllung außerirdischer Realitäten ('Soft Disclosure'). Spielbergs Werke – von 'Begegnungen der dritten Art' (1977) über 'E.T.' (1982) bis 'Disclosure Day' (2026) – folgen einem Muster: Insider-Wissen fließt in Drehbücher ein, Regierungsstellen versprechen und entziehen Originalmaterial, und Filme normalisieren Kontaktszenarien Jahrzehnte vor offizieller Anerkennung.",
+      "sources": [
+        {
+          "name": "Robert Emenegger – Pentagon verspricht Holloman-Filmmaterial (1974)",
+          "type": "government",
+          "year": 1974,
+          "quote": "Military officials promised him access to thousands of feet of film capturing the Holloman UFO incident. He was even told to portray it as hypothetical after the promise fell through.",
+          "url": "https://en.wikipedia.org/wiki/UFOs:_Past,_Present,_and_Future"
+        },
+        {
+          "name": "Wikipedia: Holloman-Sequenz als Vorbild für Close Encounters",
+          "type": "academic",
+          "year": 2024,
+          "quote": "The Holloman landing sequence has been noted for its similarities to the finale of the later Spielberg film Close Encounters of the Third Kind.",
+          "url": "https://en.wikipedia.org/wiki/UFOs:_Past,_Present,_and_Future"
+        },
+        {
+          "name": "Dan Farah (Age of Disclosure Produzent, auch Ready Player One)",
+          "type": "insider",
+          "year": 2026,
+          "quote": "We wouldn't be living through this extraordinary time without the cultural impact Steven Spielberg made with Close Encounters of the Third Kind and E.T. We're now seeing multiple films about the existence of non-human intelligent life being covered up by the U.S. Government because we are living in the age of disclosure.",
+          "url": "https://www.hollywoodreporter.com/movies/movie-news/ufo-disclosure-movies-spielberg-kosinski-roswell-1236522458/"
+        },
+        {
+          "name": "Steven Spielberg – Konsultation mit J. Allen Hynek (Project Blue Book)",
+          "type": "insider",
+          "year": 1977,
+          "quote": "Spielberg already had a good amount of background on the government's efforts to study strange occurrences in the sky, having consulted with J. Allen Hynek while prepping Close Encounters of the Third Kind.",
+          "url": "https://www.syfy.com/syfy-wire/what-inspired-steven-spielberg-to-revisit-aliens-in-disclosure-day"
+        },
+        {
+          "name": "Hollywood Reporter: 'Disclosure Day' als Teil koordinierter Regierung-Hollywood-Bewegung",
+          "type": "media",
+          "year": 2026,
+          "quote": "Some believe the documentary and Disclosure Day are part of a coordinated government-Hollywood movement to prepare humanity for the near-term disclosure of alien life.",
+          "url": "https://www.hollywoodreporter.com/movies/movie-news/ufo-disclosure-movies-spielberg-kosinski-roswell-1236522458/"
+        },
+        {
+          "name": "E.T. – White House Screening 1982: Reagan-Reaktion",
+          "type": "government",
+          "year": 1982,
+          "quote": "Nach einer privaten Vorführung von E.T. im Weißen Haus soll Reagan zu Spielberg gesagt haben: 'Es gibt nur sechs Menschen im Raum, die wissen, dass das alles wahr ist.' (Spielberg, mehrfach berichtet)",
+          "url": "https://www.reddit.com/r/todayilearned/comments/198lsu/til_during_a_screening_of_et_the_extraterrestrial/"
+        }
+      ],
+      "congruence_score": 9,
+      "related_cases": [
+        "holloman-afb-1964",
+        "emenegger-documentary-1974",
+        "spielberg-disclosure-day-2026",
+        "roswell-1947"
+      ],
+      "tags": [
+        "Hollywood",
+        "Soft-Disclosure",
+        "Spielberg",
+        "Emenegger",
+        "E.T.",
+        "Regierung",
+        "Kulturelle Vorbereitung"
+      ]
+    },
+    {
+      "id": "holloman-contact-government-confirmation",
+      "title": "Holloman AFB 1964 – Staatlich bestätigter Erstkontakt mit nicht-menschlichen Entitäten",
+      "statement": "Der Holloman AFB Vorfall von 1964 repräsentiert einen staatlich arrangierten, friedlichen Erstkontakt mit nicht-menschlichen Entitäten – dokumentiert durch Militärfilmmaterial, bestätigt durch mehrere unabhängige Insider (Emenegger, Shartle, Eric Davis, George H.W. Bush) und zeitlich kongruent mit dem Socorro-Vorfall (24. April 1964). Die Geheimhaltung folgt dem bekannten Muster: Material wird Filmemachern versprochen, dann zurückgezogen; Ereignisse werden als 'hypothetisch' dargestellt; Bestätigungen kommen nur in privaten Gesprächen.",
+      "sources": [
+        {
+          "name": "Eric Davis (Pentagon AATIP-Berater) – Age of Disclosure (2025)",
+          "type": "insider",
+          "year": 2025,
+          "quote": "Former President George H.W. Bush, in a 2003 private conversation, confirmed hearing about the event: three craft approached, one landed, and a non-human entity interacted with personnel.",
+          "url": "https://2ndlifemediaalamogordo.town.news/g/alamogordo-nm/n/353012/alamogordo-non-human-entity-and-1964-holloman-afb-alien-encounter-fact"
+        },
+        {
+          "name": "James Fox (Dokumentarfilmer) – Julian Dorey Podcast (2023)",
+          "type": "insider",
+          "year": 2023,
+          "quote": "The government definitely has footage of it.",
+          "url": "https://2ndlifemediaalamogordo.town.news/g/alamogordo-nm/n/353012/alamogordo-non-human-entity-and-1964-holloman-afb-alien-encounter-fact"
+        },
+        {
+          "name": "Robert Emenegger & Paul Shartle – Sichtung des Originalmaterials (1974)",
+          "type": "witness",
+          "year": 1974,
+          "quote": "Emenegger recounted that military officials promised him access to thousands of feet of film. He was told to portray it as hypothetical after the promise fell through – possibly due to Watergate.",
+          "url": "https://bandsaboutmovies.com/2020/12/14/ufo_it_has_begun/"
+        },
+        {
+          "name": "Zeitliche Kongruenz: Socorro NM Sichtung (24. April 1964)",
+          "type": "corroboration",
+          "year": 1964,
+          "quote": "The 1964 date aligns closely with the famous Socorro, NM sighting (April 24, 1964), where officer Lonnie Zamora saw an egg-shaped craft and two small beings.",
+          "url": "https://2ndlifemediaalamogordo.town.news/g/alamogordo-nm/n/353012/alamogordo-non-human-entity-and-1964-holloman-afb-alien-encounter-fact"
+        }
+      ],
+      "congruence_score": 8,
+      "related_cases": [
+        "holloman-afb-1964",
+        "emenegger-documentary-1974",
+        "socorro-1964",
+        "roswell-1947"
+      ],
+      "tags": [
+        "Holloman",
+        "Erstkontakt",
+        "Militär",
+        "Geheimhaltung",
+        "Nicht-menschliche Entitäten",
+        "Staatlich bestätigt"
+      ]
     }
   ],
   "_auto_detection": {

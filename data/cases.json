@@ -1,10 +1,10 @@
 {
   "_meta": {
     "version": "4.0",
-    "last_updated": "2026-05-15",
+    "last_updated": "2026-05-16",
     "total": 64,
     "add_command": "ADD_CASE: title | region(usa/brazil/europe/russia/asia/australia/africa/space) | level(critical/high/medium/confirmed/historical) | date | location | description | source_url | tags(comma separated)",
-    "total_cases": 81
+    "total_cases": 84
   },
   "cases": [
     {
@@ -1723,6 +1723,116 @@
         "AUI",
         "2025"
       ]
+    },
+    {
+      "id": "holloman-afb-1964",
+      "title": "Holloman AFB 1964 – Erster offizieller Kontakt",
+      "date": "1964-04-01",
+      "location": "Holloman Air Force Base, New Mexico, USA",
+      "category": "contact",
+      "classification": "KRITISCH",
+      "tags": [
+        "Kontakt",
+        "Militär",
+        "Nicht-menschliche Entitäten",
+        "Filmbeweise",
+        "Geheimhaltung",
+        "Spielberg"
+      ],
+      "summary": "April/Mai 1964: Drei scheibenförmige Objekte nähern sich dem Holloman AFB. Eines landet auf dem Rollfeld. Eine Rampe fährt aus, nicht-menschliche Entitäten treten heraus – ausgerüstet mit einem Übersetzergerät. Militärpersonal und CIA-Beamte sollen in einem vorher arrangierten Treffen interagiert haben. Der Vorfall wurde angeblich mit 16mm-Kameras gefilmt. Filmemacher Robert Emenegger wurde 1974 vom Pentagon versprochen, das Originalmaterial für seinen Dokumentarfilm zu erhalten – kurz vor der Veröffentlichung wurde das Angebot zurückgezogen (angeblich wegen Watergate). Astrophysiker Eric Davis (ehem. Pentagon AATIP-Berater) berichtete 2025, dass Ex-Präsident George H.W. Bush 2003 privat bestätigte, von dem Vorfall gehört zu haben.",
+      "witnesses": [
+        "Robert Emenegger (Filmemacher, 1974 Pentagon-Kontakt)",
+        "Paul Shartle (Norton AFB, bestätigte Emenegger-Aussage)",
+        "Eric Davis (Astrophysiker, Pentagon AATIP-Berater)",
+        "George H.W. Bush (laut Eric Davis, 2003 privates Gespräch)",
+        "James Fox (Dokumentarfilmer, Julian Dorey Podcast 2023)"
+      ],
+      "evidence": [
+        "Emenegger-Dokumentar 'UFOs: Past, Present and Future' (1974) – Pentagon versprach Originalmaterial",
+        "Aussage Paul Shartle (Norton AFB): bestätigte Sichtung des Filmmaterials",
+        "Amazon Prime Dokumentar 'The Age of Disclosure' (2025) – Eric Davis Aussage",
+        "Zeitliche Koinzidenz mit Socorro NM Sichtung (24. April 1964, Lonnie Zamora)",
+        "Holloman AFB Schimpansen-Forschungsprogramm (1950er–60er) als mögliche Vorbereitung auf Kontakt"
+      ],
+      "source_url": "https://2ndlifemediaalamogordo.town.news/g/alamogordo-nm/n/353012/alamogordo-non-human-entity-and-1964-holloman-afb-alien-encounter-fact",
+      "source_label": "2nd Life Media Alamogordo (Dez. 2025)",
+      "congruence_themes": [
+        "hollywood-soft-disclosure-spielberg",
+        "holloman-contact-government-confirmation"
+      ],
+      "region": "USA",
+      "status": "unverified_classified"
+    },
+    {
+      "id": "emenegger-documentary-1974",
+      "title": "Robert Emenegger – Pentagon verspricht Holloman-Filmmaterial (1974)",
+      "date": "1974-01-01",
+      "location": "Norton AFB / Pentagon, USA",
+      "category": "government",
+      "classification": "KRITISCH",
+      "tags": [
+        "Pentagon",
+        "Geheimhaltung",
+        "Filmbeweise",
+        "Holloman",
+        "Soft-Disclosure",
+        "Dokumentar"
+      ],
+      "summary": "1974 wurde Filmemacher Robert Emenegger vom Pentagon kontaktiert und ihm versprochen, authentisches 16mm-Filmmaterial der Holloman AFB Landung von 1964 für seinen Dokumentarfilm 'UFOs: Past, Present and Future' zu erhalten. Er und Produzent Paul Shartle (Norton AFB) sollen das Material tatsächlich gesichtet haben – drei Wesen, die aus einem Raumfahrzeug traten. Kurz vor der Veröffentlichung wurde das Angebot zurückgezogen, angeblich aus politischen Gründen (Watergate). Emenegger musste die Sequenz als 'hypothetische Rekonstruktion' kennzeichnen. Die Holloman-Sequenz wurde später als direktes Vorbild für das Finale von Spielbergs 'Begegnungen der dritten Art' (1977) diskutiert.",
+      "witnesses": [
+        "Robert Emenegger (Filmemacher)",
+        "Paul Shartle (Norton AFB, Produzent)"
+      ],
+      "evidence": [
+        "Dokumentarfilm 'UFOs: Past, Present and Future' (1974, re-released als 'UFOs: It Has Begun')",
+        "Emenegger Interview: bestätigte Sichtung des Originalmaterials",
+        "Wikipedia-Eintrag: 'The Holloman landing sequence has been noted for its similarities to the finale of Close Encounters of the Third Kind'",
+        "Reddit-Thread mit Emenegger/Shartle Interview-Ausschnitt (2024)"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/UFOs:_Past,_Present,_and_Future",
+      "source_label": "Wikipedia: UFOs: Past, Present, and Future",
+      "congruence_themes": [
+        "hollywood-soft-disclosure-spielberg"
+      ],
+      "region": "USA",
+      "status": "documented"
+    },
+    {
+      "id": "spielberg-disclosure-day-2026",
+      "title": "Spielberg 'Disclosure Day' (2026) – Hollywood als Disclosure-Kanal",
+      "date": "2026-06-12",
+      "location": "Hollywood, USA (Universal Pictures)",
+      "category": "government",
+      "classification": "BESTÄTIGT",
+      "tags": [
+        "Spielberg",
+        "Hollywood",
+        "Soft-Disclosure",
+        "Disclosure Day",
+        "Hynek",
+        "Nimitz",
+        "AATIP"
+      ],
+      "summary": "Steven Spielbergs neuer Film 'Disclosure Day' (Kinostart 12. Juni 2026, Universal Pictures) thematisiert die globale Reaktion auf den unwiderlegbaren Beweis außerirdischen Lebens. Spielberg wurde durch den NYT-Artikel über das Pentagon-AATIP-Programm (Dez. 2017) und das Nimitz-FLIR-Video neu inspiriert. Er hatte bereits für 'Begegnungen der dritten Art' (1977) mit J. Allen Hynek (Leiter Project Blue Book) zusammengearbeitet. Online-Theorien sehen 'Disclosure Day' als Teil einer koordinierten Regierung-Hollywood-Bewegung zur Vorbereitung der Menschheit auf die Enthüllung außerirdischen Lebens – verstärkt durch Obamas und Trumps öffentliche UAP-Kommentare und Trumps Ankündigung, UAP-Akten zu declassifizieren. 'Age of Disclosure'-Produzent Dan Farah (auch Produzent bei Spielbergs 'Ready Player One') sagte: 'Wir würden diese außerordentliche Zeit nicht erleben ohne den kulturellen Einfluss, den Spielberg mit Close Encounters und E.T. gemacht hat.'",
+      "witnesses": [
+        "Steven Spielberg (Regisseur, Empire-Interview 2026)",
+        "Dan Farah (Produzent, Age of Disclosure + Ready Player One)",
+        "J. Allen Hynek (ehem. Berater, Project Blue Book – konsultiert für Close Encounters 1977)"
+      ],
+      "evidence": [
+        "Syfy Wire Interview (17. April 2026): Spielberg über AATIP/Nimitz als Inspiration",
+        "Hollywood Reporter (März 2026): 'Hollywood Is Suddenly Taking UFOs Seriously'",
+        "Dan Farah Zitat: Spielbergs Einfluss auf die Disclosure-Bewegung",
+        "IMDB: Disclosure Day (2026), Regie Spielberg, Drehbuch David Koepp",
+        "Spielberg konsultierte J. Allen Hynek (Project Blue Book) für Close Encounters 1977"
+      ],
+      "source_url": "https://www.syfy.com/syfy-wire/what-inspired-steven-spielberg-to-revisit-aliens-in-disclosure-day",
+      "source_label": "Syfy Wire (April 2026)",
+      "congruence_themes": [
+        "hollywood-soft-disclosure-spielberg"
+      ],
+      "region": "USA",
+      "status": "documented"
     }
   ]
 }
