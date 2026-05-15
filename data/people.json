@@ -703,6 +703,63 @@
       "birth_year": 1930,
       "death_year": 2016,
       "nationality": "USA"
+    },
+    {
+      "id": "gordon-cooper",
+      "name": "Gordon Cooper",
+      "role": "NASA-Astronaut / USAF-Testpilot",
+      "emoji": "👨‍✈️",
+      "bio": "Leroy Gordon Cooper Jr. (1927–2004) war Mercury- und Gemini-Astronaut, USAF-Testpilot und Luft- und Raumfahrtingenieur. Er beobachtete 1951 in Europa Kampfformationen unbekannter Objekte, 1957 in Deutschland strahlende Flugscheiben und 1957/58 auf der Edwards AFB die Landung eines scheibenförmigen Objekts – gefilmt von einem Kamerateam, das Material sofort konfisziert. 1985 sprach er vor der UN über die Realität außerirdischer Besucher.",
+      "tags": [
+        "Astronaut",
+        "USAF",
+        "Mercury",
+        "Gemini",
+        "Zeuge",
+        "UN-Rede"
+      ],
+      "key_statements": [
+        "Ich glaube, dass diese außerirdischen Fahrzeuge und ihre Besatzungen diesen Planeten besuchen. (UN, 1985)",
+        "Wir beobachteten zwei Tage lang Kampfformationen unbekannter Objekte über Europa. (1951)",
+        "Ein Kamerateam filmte die Landung eines scheibenförmigen Objekts auf der Edwards AFB. (1957/58)"
+      ]
+    },
+    {
+      "id": "buzz-aldrin",
+      "name": "Buzz Aldrin",
+      "role": "NASA-Astronaut / Apollo 11 / 2. Mensch auf dem Mond",
+      "emoji": "🌕",
+      "bio": "Buzz Aldrin (* 1930) ist der zweite Mensch auf dem Mond (Apollo 11, 1969). West Point-Absolvent, MIT-Doktor in Astronautik, 66 Kampfeinsätze in Korea. Er beobachtete während Apollo 11 im translunaren Raum ein Objekt mit 'sizable dimension', das im Technical Crew Debriefing 1969 dokumentiert wurde. Presidential Medal of Freedom, Congressional Gold Medal.",
+      "tags": [
+        "Astronaut",
+        "Apollo",
+        "Mondlandung",
+        "Zeuge",
+        "MIT"
+      ],
+      "key_statements": [
+        "The first unusual thing that we saw I guess was one day out or something pretty close to the moon. It had a sizable dimension to it. (Apollo 11 Technical Debriefing, 1969)",
+        "Wir beobachteten ein Objekt mit erheblicher Größe im translunaren Raum."
+      ]
+    },
+    {
+      "id": "brian-oleary",
+      "name": "Brian O'Leary",
+      "role": "NASA-Astronaut / Physikprofessor Princeton",
+      "emoji": "🔭",
+      "bio": "Dr. Brian O'Leary (1940–2011) war NASA-Astronaut, PhD in Astronomie (UC Berkeley) und Physikprofessor an der Princeton University. Er erklärte 2009 öffentlich: 'We have contact with alien cultures.' O'Leary beschrieb systematische NASA-Vertuschung und forschte zu freier Energie und außerirdischer Technologie.",
+      "tags": [
+        "Astronaut",
+        "NASA",
+        "Physiker",
+        "Princeton",
+        "Whistleblower",
+        "Zeuge"
+      ],
+      "key_statements": [
+        "We have contact with alien cultures. (Project Camelot, 2009)",
+        "Die NASA betreibt systematische Vertuschung von UAP-Beweisen."
+      ]
     }
   ]
 }

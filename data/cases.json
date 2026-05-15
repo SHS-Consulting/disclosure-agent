@@ -4,7 +4,7 @@
     "last_updated": "2026-05-16",
     "total": 64,
     "add_command": "ADD_CASE: title | region(usa/brazil/europe/russia/asia/australia/africa/space) | level(critical/high/medium/confirmed/historical) | date | location | description | source_url | tags(comma separated)",
-    "total_cases": 85
+    "total_cases": 88
   },
   "cases": [
     {
@@ -1872,6 +1872,73 @@
       "region": "USA",
       "status": "documented",
       "credibility_note": "Höchstdekorierter Zeuge in der UAP-Geschichte: MIT-Doktor, NASA-Astronaut, 6. Mensch auf dem Mond, 9-Stunden-Mondspaziergang (Rekord mit Alan Shepard). Akademische und militärische Qualifikationen auf höchstem Niveau."
+    },
+    {
+      "id": "gordon-cooper-ufo-testimony",
+      "title": "Gordon Cooper – Flugscheibe Edwards AFB gefilmt (1957)",
+      "date": "1957",
+      "location": "Edwards Air Force Base, Kalifornien, USA",
+      "category": "Zeugnis",
+      "credibility": 9,
+      "tags": [
+        "KRITISCH",
+        "NASA",
+        "Astronaut",
+        "USAF",
+        "Zeuge"
+      ],
+      "summary": "NASA-Astronaut und USAF-Testpilot Gordon Cooper beobachtete 1951 in Europa Kampfformationen unbekannter Objekte und 1957/58 auf der Edwards AFB die Landung einer Flugscheibe auf einem trockenen See – gefilmt von einem Kamerateam. Das Material wurde sofort von der US-Regierung konfisziert. Cooper sprach 1985 vor der UN über die Realität außerirdischer Besucher.",
+      "witnesses": [
+        "Leroy Gordon Cooper Jr.",
+        "USAF-Kamerateam Edwards AFB"
+      ],
+      "source": "UN-Rede Gordon Cooper 1985 / ufologie.patrickgross.org",
+      "source_url": "https://www.ufologie.patrickgross.org/htm/coopun.htm",
+      "significance": "Höchstdekorierter USAF-Zeuge: Mercury- und Gemini-Astronaut, Testpilot, Luft- und Raumfahrtingenieur. Drei unabhängige Sichtungen über 6 Jahre. Kamerateam-Dokumentation konfisziert."
+    },
+    {
+      "id": "buzz-aldrin-apollo11-translunar-ufo",
+      "title": "Buzz Aldrin – Translunar-Objekt Apollo 11 (1969)",
+      "date": "Juli 1969",
+      "location": "Translunarer Raum, Apollo 11 Mission",
+      "category": "Zeugnis",
+      "credibility": 8,
+      "tags": [
+        "NASA",
+        "Astronaut",
+        "Apollo",
+        "Zeuge"
+      ],
+      "summary": "Buzz Aldrin, zweiter Mensch auf dem Mond, beobachtete während der Apollo 11 Mission auf dem Weg zum Mond ein Objekt mit 'sizable dimension', das mit einem Monocular untersucht wurde. Das Apollo 11 Technical Crew Debriefing von 1969 wurde erst 2026 durch die NY Post veröffentlicht und bestätigt die Sichtung.",
+      "witnesses": [
+        "Buzz Aldrin",
+        "Neil Armstrong",
+        "Michael Collins"
+      ],
+      "source": "Apollo 11 Technical Crew Debriefing 1969 / NY Post (2026)",
+      "source_url": "https://nypost.com/2026/05/08/us-news/buzz-aldrin-described-unusual-phenomena-during-apollo-11-mission-ufo-docs-reveal/",
+      "significance": "Erstmals öffentlich bestätigte UAP-Sichtung während der historischen Mondlandungsmission. Aldrin: West Point + MIT Doktor in Astronautik, Presidential Medal of Freedom."
+    },
+    {
+      "id": "brian-oleary-nasa-contact-testimony",
+      "title": "Brian O'Leary – 'We have contact with alien cultures' (2009)",
+      "date": "2009",
+      "location": "Project Camelot Interview",
+      "category": "Zeugnis",
+      "credibility": 8,
+      "tags": [
+        "NASA",
+        "Astronaut",
+        "Zeuge",
+        "Insider"
+      ],
+      "summary": "Dr. Brian O'Leary, NASA-Astronaut und Princeton-Physikprofessor, erklärte im Project Camelot Interview 2009: 'We have contact with alien cultures.' Er beschrieb systematische NASA-Vertuschung und sprach über freie Energie und außerirdische Technologie. O'Leary hielt einen PhD in Astronomie von der UC Berkeley.",
+      "witnesses": [
+        "Dr. Brian O'Leary"
+      ],
+      "source": "Project Camelot Interview (2009)",
+      "source_url": "https://projectcamelot.org/lang/en/brian_o_leary_interview_transcript_en.html",
+      "significance": "NASA-Astronaut, PhD Astronomie (Berkeley), Princeton-Physikprofessor – einer der akademisch höchstqualifizierten Whistleblower. Direkte Aussage über Kontakt mit außerirdischen Kulturen."
     }
   ]
 }
