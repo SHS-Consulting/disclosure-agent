@@ -4,7 +4,7 @@
     "last_updated": "2026-05-16",
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
-    "total_themes": 41
+    "total_themes": 42
   },
   "themes": [
     {
@@ -1572,6 +1572,68 @@
         "mcmoneagle-blasen-vision",
         "tesla-kosmisches-bewusstsein",
         "resonanz-gebet-verklaerung"
+      ]
+    },
+    {
+      "id": "nuklear-uap-nexus-trinity-roswell",
+      "title": "Nuklear-UAP-Nexus: Von Trinity 1945 bis Roswell 1947 – UAPs überwachen Atomwaffen",
+      "thesis": "Nicht-irdische Intelligenz überwacht aktiv menschliche Nukleartechnologie seit dem ersten Atomtest (Trinity, 16. Juli 1945). Die räumliche und zeitliche Häufung von UAP-Sichtungen über Atomwaffenstandorten – von Hanford (1945) über Roswell (1947, Heimat der einzigen atomaren Bombergruppe der Welt) bis Malmstrom AFB (1967, 10 Minuteman-Raketen abgeschaltet) und Rendlesham Forest (1980, über NATO-Atomwaffenlager) – bildet ein konsistentes Muster, das über Beobachtungsbias hinausgeht. Luis Elizondo (AATIP) bestätigte: 'UAPs haben unsere nuklearen Kapazitäten tatsächlich abgeschaltet.' Eine statistische Studie (Frankreich 2015) bestätigte die Korrelation mit einem p-Wert von 0,00013.",
+      "sources": [
+        {
+          "name": "Trinity-Test & UAP-Crash (August 1945)",
+          "quote": "Fünf Wochen nach dem ersten Atomtest (16. Juli 1945) wurde nahe dem Trinity-Testgelände in New Mexico ein unbekanntes Objekt gesichtet und angeblich geborgen. Jose Padilla (9 Jahre alt) und Reme Baca berichteten von einem ovalen Objekt und nicht-menschlichen Insassen. Der US-Kongress forderte 2023 per NDAA eine Untersuchung.",
+          "url": "https://www.nytimes.com/2023/01/13/us/ufo-new-mexico-congress.html",
+          "year": "1945/2023"
+        },
+        {
+          "name": "Roswell 1947 – 509th Bomb Wing (einzige Atombomber-Einheit der Welt)",
+          "quote": "Die Presse notierte am 8. Juli 1947 ausdrücklich, dass die 509th Bomb Group in Roswell die einzige Einheit der US Army war, die mit Atomwaffen betraut war. Roswell liegt 210 km vom Trinity-Testgelände und 150 km von White Sands entfernt – im Herzen des nuklearen Dreiecks New Mexicos.",
+          "url": "https://en.wikipedia.org/wiki/UFO_reports_and_atomic_sites",
+          "year": "1947"
+        },
+        {
+          "name": "Hanford Plutonium-Anlage – UAP-Sichtungen 1945–1952",
+          "quote": "Bereits im Juli 1945 – vor Hiroshima – wurde über der Hanford-Plutoniumanlage (Washington State) ein riesiges ovales Objekt gesichtet; sechs F6F Hellcats nahmen Sichtkontakt auf. 1948–1952 folgten weitere Radar- und Sichtberichte über Hanford und Oak Ridge. Ruppelt (USAF): 'UFOs wurden häufiger in der Nähe von Gebieten gesichtet, die für die Verteidigung der USA von entscheidender Bedeutung sind.'",
+          "url": "https://ufologie.patrickgross.org/htm/hanford1945.htm",
+          "year": "1945–1952"
+        },
+        {
+          "name": "Malmstrom AFB, Montana – 10 Minuteman-Raketen abgeschaltet (März 1967)",
+          "quote": "Am 16. März 1967 gingen alle 10 Minuteman-ICBMs des Echo Flight, Malmstrom AFB, gleichzeitig offline. Capt. Robert Salas berichtete: Ein leuchtendes rotes Objekt schwebte über dem Haupttor – kurz darauf versagten alle Raketen. 2025 erklärte das Pentagon den Vorfall offiziell durch einen EMP-Gerätetest.",
+          "url": "https://en.wikipedia.org/wiki/Malmstrom_UFO_incident",
+          "year": "1967"
+        },
+        {
+          "name": "Rendlesham Forest / RAF Bentwaters (Dezember 1980)",
+          "quote": "RAF Bentwaters/Woodbridge war 1980 das größte NATO-Atomwaffenlager in Europa. Lt. Col. Charles Halt und weitere USAF-Soldaten beobachteten über drei Nächte unbekannte Lichter und ein Objekt im Wald. Halt: 'Ich habe gesehen, was ich sah.' Rendlesham gilt als 'Britisches Roswell' – und liegt direkt über einem Atomwaffendepot.",
+          "url": "https://en.wikipedia.org/wiki/Rendlesham_Forest_incident",
+          "year": "1980"
+        },
+        {
+          "name": "Luis Elizondo (AATIP-Direktor) – UAPs schalten Nuklearwaffen ab",
+          "quote": "'UAPs haben unsere nuklearen Kapazitäten tatsächlich abgeschaltet und – laut George Knapp und anderen – auch sowjetische Systeme aktiviert oder deren Abschusssysteme übernommen.'",
+          "url": "https://www.washingtonpost.com/national-security/2022/05/17/ufo-hearing-congress/",
+          "year": "2022"
+        },
+        {
+          "name": "Statistische Studie Frankreich 2015 – p-Wert 0,00013",
+          "quote": "Französische Ökonomen analysierten UAP-Berichte über Frankreich und stellten fest: 'Der Zusammenhang zwischen nuklearen Aktivitäten und [unerklärbaren UAP-Berichten], der lange vermutet wurde, ist jetzt erstmals gemessen und erscheint überraschend hoch (p-Wert: 0,00013).'",
+          "url": "https://en.wikipedia.org/wiki/UFO_reports_and_atomic_sites",
+          "year": "2015"
+        },
+        {
+          "name": "Robert Hastings – 'UFOs & Nukes' (2008)",
+          "quote": "Hastings dokumentierte in seinem Buch und dem gleichnamigen Dokumentarfilm (2016) über 150 Zeugenaussagen von US-Militärangehörigen über UAP-Vorfälle an Nuklearwaffenstandorten. Am 27. September 2010 präsentierten 7 USAF-Veteranen ihre Aussagen live auf CNN im National Press Club.",
+          "url": "https://www.ufohastings.com/",
+          "year": "2008"
+        }
+      ],
+      "congruence_score": 97,
+      "congruence_with": [
+        "holloman-staatlich-bestaetigt",
+        "wilson-davis-reverse-engineering",
+        "kona-blue-geheimprogramme",
+        "material-analyse-vertuschung"
       ]
     }
   ],
