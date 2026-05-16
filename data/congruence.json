@@ -4,7 +4,7 @@
     "last_updated": "2026-05-16",
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
-    "total_themes": 39
+    "total_themes": 41
   },
   "themes": [
     {
@@ -1498,6 +1498,80 @@
         "Disclosure",
         "Institutionell",
         "Offiziell"
+      ]
+    },
+    {
+      "id": "wilson-davis-reverse-engineering",
+      "title": "Geheimes Reverse-Engineering-Programm für nicht-irdische Objekte",
+      "thesis": "Private Rüstungsunternehmen betreiben im Auftrag von US-Geheimdiensten geheime Reverse-Engineering-Programme für geborgene nicht-irdische Flugobjekte – abgeschirmt vor dem Kongress und sogar vor hochrangigen Militärs.",
+      "sources": [
+        {
+          "name": "Wilson-Davis-Memo (2002/2019)",
+          "quote": "Admiral Wilson wurde der Zugang zu einem Reverse-Engineering-Programm von einem 'Watch Committee' verweigert – mit Karriere-Drohung.",
+          "url": "https://www.scribd.com/document/642671725/Davis-Wilson-Memo-An-Introductory-Guide-pdf",
+          "year": "2002"
+        },
+        {
+          "name": "David Grusch – Kongress-Anhörung (2023)",
+          "quote": "Grusch bestätigte die Existenz von Bergungsprogrammen und validierte Davis' Erkenntnisse in seiner Whistleblower-Beschwerde.",
+          "url": "https://www.congress.gov/event/118th-congress/house-event/116282/text",
+          "year": "2023"
+        },
+        {
+          "name": "Dr. Eric Davis – Pentagon-Briefing (2020)",
+          "quote": "\"Off-world vehicles not made on this earth.\" – Davis briefte den Senat über geborgene Materialien, die nicht reproduzierbar sind.",
+          "url": "https://nymag.com/intelligencer/2020/07/ufo-report-pentagon-has-off-world-vehicles-not-from-earth.html",
+          "year": "2020"
+        },
+        {
+          "name": "KONA BLUE – DHS-Geheimprogramm",
+          "quote": "AARO-Bericht bestätigt: DHS beantragte ein Programm für 'non-human biologics' – Antrag abgelehnt, Programm dennoch weitergeführt.",
+          "url": "https://www.aaro.mil/UAP-Records/",
+          "year": "2024"
+        }
+      ],
+      "congruence_score": 95,
+      "congruence_with": [
+        "kona-blue-geheimprogramme",
+        "holloman-staatlich-bestaetigt",
+        "material-analyse-vertuschung"
+      ]
+    },
+    {
+      "id": "eric-davis-skinwalker-bewusstsein",
+      "title": "Skinwalker Ranch: Das Phänomen reagiert auf Bewusstsein – Intelligente Interaktion",
+      "thesis": "Das UAP/Paranormal-Phänomen auf der Skinwalker Ranch und anderswo reagiert aktiv auf menschliches Bewusstsein – telepathische Kommunikation, Entitäten-Übernahme und metallische Stimmen deuten auf eine intelligente, nicht-menschliche Quelle hin, die Bewusstsein als Kommunikationskanal nutzt.",
+      "sources": [
+        {
+          "name": "Dr. Eric Davis – Exomagazin-Interview (2026)",
+          "quote": "\"Ich hatte telepathischen Kontakt auf der Skinwalker Ranch\" – metallische Stimmen im Kopf, Entität sprach durch Davis.",
+          "url": "https://www.exomagazin.tv/dr-eric-davis-ich-hatte-telepathischen-kontakt-auf-der-skinwalker-ranch-teil-1/",
+          "year": "2026"
+        },
+        {
+          "name": "Joe McMoneagle – Remote Viewing (Stargate)",
+          "quote": "McMoneagle beschreibt Realitäten als Blasen in einem Raum – das Bewusstsein kann zwischen ihnen navigieren.",
+          "url": "https://www.shawnryanshow.com/episodes/joe-mcmoneagle",
+          "year": "2024"
+        },
+        {
+          "name": "Colm Kelleher & George Knapp – Hunt for the Skinwalker (2005)",
+          "quote": "Das Phänomen scheint auf Beobachter zu reagieren und verstärkt sich bei wissenschaftlicher Untersuchung.",
+          "url": "https://www.goodreads.com/book/show/278462",
+          "year": "2005"
+        },
+        {
+          "name": "Nikola Tesla – Colorado Springs Notes (1899)",
+          "quote": "\"Das Gehirn ist nur ein Empfänger. Im Universum gibt es einen Kern, aus dem wir Wissen, Kraft und Inspiration beziehen.\"",
+          "url": "http://www.tfcbooks.com/tesla/1919-00-00.htm",
+          "year": "1899"
+        }
+      ],
+      "congruence_score": 88,
+      "congruence_with": [
+        "mcmoneagle-blasen-vision",
+        "tesla-kosmisches-bewusstsein",
+        "resonanz-gebet-verklaerung"
       ]
     }
   ],

@@ -899,6 +899,42 @@
         "Wissenschaft",
         "Radar"
       ]
+    },
+    {
+      "id": "eric-w-davis",
+      "name": "Dr. Eric W. Davis",
+      "role": "Astrophysiker · DIA/AATIP Senior Science Advisor · EarthTech International",
+      "nationality": "US",
+      "credibility": "KRITISCH",
+      "tags": [
+        "Wissenschaftler",
+        "DIA",
+        "AATIP",
+        "AAWSAP",
+        "Insider",
+        "Whistleblower-Informant"
+      ],
+      "bio": "Dr. Eric W. Davis (geb. ~1962) ist Astrophysiker (Ph.D. University of Arizona, 1991) und Senior Research Physicist am Institute for Advanced Studies-Austin sowie Senior Science Advisor bei EarthTech International. Er war jahrzehntelang wissenschaftlicher Berater für US-Geheimdienste, darunter DIA, AATIP und AAWSAP (das geheime Pentagon-UAP-Programm unter Robert Bigelow/BAASS). Davis forschte auf der Skinwalker Ranch für das National Institute for Discovery Science (NIDS), wo er paranormale Erfahrungen machte, darunter telepathischen Kontakt und metallische Stimmen. Er ist Autor des berühmten Wilson-Davis-Memos (2002), das ein Treffen mit Admiral Thomas Wilson über ein geheimes UFO-Reverse-Engineering-Programm dokumentiert. Davis informierte David Grusch über das verborgene Bergungsprogramm – Grusch validierte Davis' Erkenntnisse in seiner Whistleblower-Beschwerde an den IGIC (2023). Im März 2020 gab Davis geheime Briefings an Pentagon-Abteilungen über 'off-world vehicles not made on this earth'. Im Oktober 2019 briefte er Mitarbeiter des Senate Armed Services Committee und des Senate Intelligence Committee.",
+      "key_statements": [
+        "\"Off-world vehicles not made on this earth.\" – Pentagon-Briefing, März 2020 (New York Magazine)",
+        "\"We couldn't make it ourselves.\" – über geborgene Materialien, 2020",
+        "\"It's the way it's fabricated what makes it exotic... the combination of the materials is unusual... we could not be able to fabricate or reproduce.\" – über Crash-Retrieval-Materialien, Reddit 2025",
+        "\"I had telepathic contact at Skinwalker Ranch\" – Exomagazin-Interview, April 2026",
+        "\"One of them landed on the tarmac and a non-human entity deboarded the craft and interacted with uniformed Air Force and civilian CIA personnel.\" – über Holloman AFB 1964, The Age of Disclosure, 2025",
+        "\"Yeah. Dave Grusch validated that during his investigation, which went into his whistleblower complaint to the IGIC.\" – über Majestic 12, Reddit"
+      ],
+      "connections": [
+        "Admiral Thomas Wilson (Wilson-Davis-Memo 2002)",
+        "David Grusch (Whistleblower-Informant)",
+        "Hal Puthoff (EarthTech-Kollege, AATIP)",
+        "Colm Kelleher (NIDS/BAASS)",
+        "George Knapp (Skinwalker Ranch)",
+        "Luis Elizondo (AATIP)",
+        "Harry Reid (AATIP-Initiator)",
+        "George H.W. Bush (Holloman AFB Briefing)"
+      ],
+      "source_url": "https://nymag.com/intelligencer/2020/07/ufo-report-pentagon-has-off-world-vehicles-not-from-earth.html",
+      "source_label": "New York Magazine – Pentagon-Briefing 2020"
     }
   ]
 }
