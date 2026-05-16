@@ -3,7 +3,7 @@
     "version": "4.0",
     "last_updated": "2026-05-16",
     "add_command": "ADD_PERSON: name | role | bio | tags(comma separated) | source_url | emoji",
-    "total_people": 40
+    "total_people": 49
   },
   "people": [
     {
@@ -779,6 +779,125 @@
         "Stell dir einen riesigen Raum vor, der vollständig mit Blasen gefüllt ist. Jede Blase ist eine separate Realität. Du springst nicht von einer Blase zur nächsten – du springst in eine völlig andere. (Shawn Ryan Show Ep. 95, 2024)",
         "Remote Viewing ist eine trainierbare Fähigkeit, die auf der Natur des Bewusstseins basiert, das nicht an Raum und Zeit gebunden ist.",
         "Ich habe Dinge gesehen, die mir bewiesen haben, dass das Universum weit größer ist, als wir uns vorstellen können."
+      ]
+    },
+    {
+      "id": "jon-kosloski",
+      "name": "Dr. Jon Kosloski",
+      "role": "AARO-Direktor (seit 2023)",
+      "affiliation": "All-domain Anomaly Resolution Office (AARO), US-Verteidigungsministerium",
+      "nationality": "USA",
+      "credibility": "Höchst",
+      "background": "Dr. Jon Kosloski ist seit 2023 Direktor des All-domain Anomaly Resolution Office (AARO). Er übernahm das Amt von Dr. Sean Kirkpatrick. Kosloski hat einen wissenschaftlichen Hintergrund in Physik und Ingenieurwesen und betont den datengetriebenen, wissenschaftlichen Ansatz von AARO. Unter seiner Führung hat AARO über 1.600 UAP-Berichte erhalten und ausgewertet.",
+      "key_statements": [
+        "AARO verfolgt einen streng wissenschaftlichen Ansatz bei der UAP-Untersuchung",
+        "Hochwertige Sensordaten sind der kritische Engpass bei der UAP-Analyse",
+        "AARO baut ein globales Meldenetzwerk für UAP-Sichtungen auf"
+      ],
+      "related_cases": [
+        "ctx-kosloski-aaro-2026"
+      ],
+      "tags": [
+        "AARO",
+        "Pentagon",
+        "Regierung",
+        "Wissenschaft",
+        "Offiziell"
+      ]
+    },
+    {
+      "id": "kevin-ryan-aaro",
+      "name": "J. Kevin Ryan",
+      "role": "AARO Chief of Operations (Ret.), Special Agent USAF",
+      "affiliation": "All-domain Anomaly Resolution Office (AARO) / US Air Force Office of Special Investigations",
+      "nationality": "USA",
+      "credibility": "Höchst",
+      "background": "J. Kevin Ryan ist ein pensionierter Special Agent der US Air Force mit über 37 Jahren kombiniertem Militär- und Zivildienst. Er schloss seine Bundeskarriere als Chief of Operations des AARO ab. Ryan ist Autor des offiziellen AARO-Leitfadens zur forensischen UAP-Fotografie (CTX Spring 2026), einem US-Regierungsdokument ohne Copyright-Schutz.",
+      "key_statements": [
+        "Consumer-grade Nachtfotografie kann forensisch verwertbare UAP-Beweise liefern",
+        "RAW-Format und EXIF-Metadaten-Erhaltung sind Pflicht für wissenschaftliche UAP-Dokumentation",
+        "SHA-256-Hashing sofort nach der Aufnahme ist entscheidend für die Beweiskette"
+      ],
+      "related_cases": [
+        "ctx-ryan-uap-photography-guide-2026"
+      ],
+      "tags": [
+        "AARO",
+        "Pentagon",
+        "Militär",
+        "Forensik",
+        "Methodik",
+        "Offiziell"
+      ]
+    },
+    {
+      "id": "artem-bilyk",
+      "name": "Dr. Artem Bilyk",
+      "role": "Forscher, Defense Intelligence Research Institute Kyiv",
+      "affiliation": "Defense Intelligence Research Institute, Kyiv, Ukraine",
+      "nationality": "Ukraine",
+      "credibility": "Hoch",
+      "background": "Dr. Artem Bilyk ist Forscher am Defense Intelligence Research Institute in Kyiv. Er dokumentierte zusammen mit Dr. Kyrylo Nikolaiev sechs UAP-Fälle aus dem ukrainischen Kriegsgebiet 2023–2024. Die Fälle wurden im CTX-EAG Special Issue Spring 2026 der Naval Postgraduate School veröffentlicht.",
+      "key_statements": [
+        "Sechs UAP-Fälle im ukrainischen Kriegsgebiet 2023–2024 zeigen keine konventionellen Erklärungen",
+        "Militärische Radarsysteme und Wärmebildkameras bestätigen die Anomalien",
+        "Die Objekte zeigten keine Infrarotsignatur und keine Schallentwicklung"
+      ],
+      "related_cases": [
+        "ctx-ukraine-uap-2023-2024"
+      ],
+      "tags": [
+        "Ukraine",
+        "Militär",
+        "Wissenschaft",
+        "Radar",
+        "Wärmebild"
+      ]
+    },
+    {
+      "id": "kaylin-hagopian",
+      "name": "Kaylin Hagopian",
+      "role": "Forscherin, Sandia National Laboratories",
+      "affiliation": "Sandia National Laboratories, Albuquerque, New Mexico",
+      "nationality": "USA",
+      "credibility": "Hoch",
+      "background": "Kaylin Hagopian ist Forscherin an den Sandia National Laboratories. Sie entwickelte zusammen mit Dr. Joshua Shank ein Event-Based-Sensor-System zur Echtzeit-UAP-Erkennung im Auftrag des US-Verteidigungsministeriums. Das System reagiert auf Helligkeitsänderungen mit Mikrosekunden-Auflösung.",
+      "key_statements": [
+        "Event-Based Sensors reagieren auf Helligkeitsänderungen mit Mikrosekunden-Auflösung",
+        "Das System ist deutlich schneller als konventionelle Kameras für UAP-Erkennung",
+        "Sandia NL entwickelt das System im Auftrag des US-Verteidigungsministeriums"
+      ],
+      "related_cases": [
+        "ctx-sandia-event-based-sensing-2026"
+      ],
+      "tags": [
+        "Technologie",
+        "Sandia",
+        "Pentagon",
+        "Wissenschaft",
+        "Sensor"
+      ]
+    },
+    {
+      "id": "kyrylo-nikolaiev",
+      "name": "Dr. Kyrylo Nikolaiev",
+      "role": "Forscher, Defense Intelligence Research Institute Kyiv",
+      "affiliation": "Defense Intelligence Research Institute, Kyiv, Ukraine",
+      "nationality": "Ukraine",
+      "credibility": "Hoch",
+      "background": "Dr. Kyrylo Nikolaiev ist Forscher am Defense Intelligence Research Institute in Kyiv. Er dokumentierte zusammen mit Dr. Artem Bilyk sechs UAP-Fälle aus dem ukrainischen Kriegsgebiet 2023–2024 für das CTX-EAG Special Issue Spring 2026.",
+      "key_statements": [
+        "UAP-Aktivität im Kriegsgebiet unterscheidet sich grundlegend von bekannten militärischen Drohnen",
+        "Die Objekte zeigten keine Wärmesignatur – kein konventioneller Antrieb erkennbar"
+      ],
+      "related_cases": [
+        "ctx-ukraine-uap-2023-2024"
+      ],
+      "tags": [
+        "Ukraine",
+        "Militär",
+        "Wissenschaft",
+        "Radar"
       ]
     }
   ]

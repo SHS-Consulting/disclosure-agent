@@ -4,7 +4,7 @@
     "last_updated": "2026-05-16",
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
-    "total_themes": 37
+    "total_themes": 39
   },
   "themes": [
     {
@@ -1444,6 +1444,60 @@
         "Geheimhaltung",
         "Nicht-menschliche Entitäten",
         "Staatlich bestätigt"
+      ]
+    },
+    {
+      "id": "ukraine-war-uap-military",
+      "title": "UAP im Kriegsgebiet – Militärische Anomalien ohne konventionelle Erklärung",
+      "description": "Sechs dokumentierte UAP-Fälle im ukrainischen Kriegsgebiet 2023–2024 zeigen Objekte ohne Infrarotsignatur, ohne Schallentwicklung und ohne bekannte Antriebstechnologie. Das Defense Intelligence Research Institute Kyiv schließt konventionelle Erklärungen aus. Diese Fälle kongruieren mit dem Malmstrom-Muster (UAP über Nuklearanlagen) und dem Nimitz-Fall (militärische Radar-Bestätigung).",
+      "sources": [
+        {
+          "title": "CTX-EAG Special Issue Spring 2026 – Bilyk & Nikolaiev",
+          "url": "https://nps.edu/web/ecco/uap-special-ctx-issue",
+          "type": "Peer-reviewed Militärzeitschrift",
+          "year": 2026,
+          "credibility": "Sehr hoch"
+        }
+      ],
+      "congruences": [
+        "Nimitz-Fall 2004 (militärische Radar-Bestätigung ohne konventionelle Erklärung)",
+        "Malmstrom AFB 1967 (UAP über militärischen Anlagen)",
+        "AARO Case Resolution Reports (offizielle US-Bestätigung)"
+      ],
+      "tags": [
+        "Militär",
+        "Ukraine",
+        "Radar",
+        "Wissenschaft",
+        "Kriegsgebiet"
+      ]
+    },
+    {
+      "id": "aaro-scientific-methodology-disclosure",
+      "title": "AARO als institutioneller Disclosure-Beschleuniger – Wissenschaft statt Vertuschung",
+      "description": "Das All-domain Anomaly Resolution Office (AARO) unter Dr. Jon Kosloski verfolgt einen offen wissenschaftlichen Ansatz: peer-reviewed Publikationen in Militärzeitschriften (CTX), Zusammenarbeit mit Sandia National Laboratories, öffentliche Fotografie-Leitfäden (J. Kevin Ryan). Dies kongruiert mit der These, dass institutionelle Disclosure schrittweise durch offizielle Kanäle erfolgt – nicht durch einen einzelnen 'Big Reveal', sondern durch akkumulierte wissenschaftliche Evidenz.",
+      "sources": [
+        {
+          "title": "CTX-EAG Special Issue Spring 2026 – Kosloski Interview + Ryan + Hagopian",
+          "url": "https://nps.edu/web/ecco/uap-special-ctx-issue",
+          "type": "Peer-reviewed Militärzeitschrift, Naval Postgraduate School",
+          "year": 2026,
+          "credibility": "Sehr hoch"
+        }
+      ],
+      "congruences": [
+        "AARO Case Resolution Reports (offizielle US-Bestätigung)",
+        "NASA UAP-Bericht 2023 (wissenschaftlicher Ansatz)",
+        "Pentagon PURSUE Act 2024 (gesetzliche Disclosure-Pflicht)",
+        "Hollywood als Soft-Disclosure-Kanal (schrittweise Vorbereitung der Öffentlichkeit)"
+      ],
+      "tags": [
+        "AARO",
+        "Pentagon",
+        "Wissenschaft",
+        "Disclosure",
+        "Institutionell",
+        "Offiziell"
       ]
     }
   ],

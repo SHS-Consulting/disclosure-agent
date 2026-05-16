@@ -4,7 +4,7 @@
     "last_updated": "2026-05-16",
     "total": 64,
     "add_command": "ADD_CASE: title | region(usa/brazil/europe/russia/asia/australia/africa/space) | level(critical/high/medium/confirmed/historical) | date | location | description | source_url | tags(comma separated)",
-    "total_cases": 88
+    "total_cases": 92
   },
   "cases": [
     {
@@ -1939,6 +1939,126 @@
       "source": "Project Camelot Interview (2009)",
       "source_url": "https://projectcamelot.org/lang/en/brian_o_leary_interview_transcript_en.html",
       "significance": "NASA-Astronaut, PhD Astronomie (Berkeley), Princeton-Physikprofessor – einer der akademisch höchstqualifizierten Whistleblower. Direkte Aussage über Kontakt mit außerirdischen Kulturen."
+    },
+    {
+      "id": "ctx-kosloski-aaro-2026",
+      "title": "Dr. Jon Kosloski – AARO-Direktor bestätigt wissenschaftlichen UAP-Ansatz",
+      "date": "2026-03-01",
+      "location": "Washington D.C., USA",
+      "country": "USA",
+      "category": "Regierung",
+      "classification": "OFFIZIELL",
+      "credibility": 9,
+      "summary": "Dr. Jon Kosloski, amtierender Direktor des All-domain Anomaly Resolution Office (AARO), gibt im CTX-EAG Special Issue Spring 2026 ein ausführliches Interview. Er bestätigt den wissenschaftlich-methodischen Ansatz von AARO, die Notwendigkeit hochwertiger Sensordaten und den Aufbau eines globalen Meldenetzwerks. AARO hat seit 2023 über 1.600 UAP-Berichte erhalten.",
+      "witnesses": [
+        "Dr. Jon Kosloski (AARO-Direktor)"
+      ],
+      "evidence": [
+        "Offizielles Interview in peer-reviewed Militärzeitschrift CTX",
+        "AARO-Jahresbericht 2025"
+      ],
+      "tags": [
+        "AARO",
+        "Regierung",
+        "Pentagon",
+        "Wissenschaft",
+        "Offiziell"
+      ],
+      "source_url": "https://nps.edu/web/ecco/uap-special-ctx-issue",
+      "source_name": "CTX-EAG Special Issue Spring 2026, Naval Postgraduate School",
+      "status": "Bestätigt"
+    },
+    {
+      "id": "ctx-ukraine-uap-2023-2024",
+      "title": "Ukraine Militär-UAP-Fälle 2023–2024 – Defense Intelligence Research Institute Kyiv",
+      "date": "2024-01-01",
+      "location": "Ukraine (Kriegsgebiet)",
+      "country": "Ukraine",
+      "category": "Militär",
+      "classification": "KRITISCH",
+      "credibility": 8,
+      "summary": "Dr. Artem Bilyk und Dr. Kyrylo Nikolaiev vom Defense Intelligence Research Institute Kyiv dokumentieren im CTX-EAG Special Issue 2026 sechs UAP-Fälle aus dem ukrainischen Kriegsgebiet 2023–2024. Die Objekte zeigten keine Infrarotsignatur, keine Schallentwicklung und keine bekannte Antriebstechnologie. Mehrere Fälle wurden von militärischen Radarsystemen und Wärmebildkameras erfasst. Die Autoren schließen konventionelle Erklärungen aus.",
+      "witnesses": [
+        "Ukrainische Militärpiloten",
+        "Bodenradar-Operatoren",
+        "Wärmebildkamera-Teams"
+      ],
+      "evidence": [
+        "Radar-Tracks",
+        "Wärmebildaufnahmen",
+        "Militärische Zeugenaussagen",
+        "Peer-reviewed Artikel CTX Spring 2026"
+      ],
+      "tags": [
+        "Militär",
+        "Ukraine",
+        "Radar",
+        "Wärmebild",
+        "Kriegsgebiet",
+        "Wissenschaft"
+      ],
+      "source_url": "https://nps.edu/web/ecco/uap-special-ctx-issue",
+      "source_name": "CTX-EAG Special Issue Spring 2026 – Bilyk & Nikolaiev, Defense Intelligence Research Institute Kyiv",
+      "status": "Bestätigt"
+    },
+    {
+      "id": "ctx-sandia-event-based-sensing-2026",
+      "title": "Sandia National Laboratories – Event-Based Sensing für UAP-Erkennung",
+      "date": "2026-03-01",
+      "location": "Albuquerque, New Mexico, USA",
+      "country": "USA",
+      "category": "Technologie",
+      "classification": "OFFIZIELL",
+      "credibility": 9,
+      "summary": "Kaylin Hagopian und Dr. Joshua Shank von den Sandia National Laboratories präsentieren im CTX-EAG Special Issue 2026 ein neuartiges Event-Based-Sensor-System zur Echtzeit-UAP-Erkennung. Das System reagiert auf Helligkeitsänderungen mit Mikrosekunden-Auflösung – deutlich schneller als konventionelle Kameras. Sandia NL entwickelt das System im Auftrag des US-Verteidigungsministeriums für die UAP-Überwachung.",
+      "witnesses": [
+        "Kaylin Hagopian (Sandia NL)",
+        "Dr. Joshua Shank (Sandia NL)"
+      ],
+      "evidence": [
+        "Peer-reviewed Artikel CTX Spring 2026",
+        "Sandia NL Forschungsdaten"
+      ],
+      "tags": [
+        "Technologie",
+        "Sandia",
+        "Pentagon",
+        "Wissenschaft",
+        "Sensor",
+        "AARO"
+      ],
+      "source_url": "https://nps.edu/web/ecco/uap-special-ctx-issue",
+      "source_name": "CTX-EAG Special Issue Spring 2026 – Hagopian & Shank, Sandia National Laboratories",
+      "status": "Bestätigt"
+    },
+    {
+      "id": "ctx-ryan-uap-photography-guide-2026",
+      "title": "J. Kevin Ryan (AARO Chief of Ops) – Forensischer UAP-Fotografie-Leitfaden",
+      "date": "2026-03-01",
+      "location": "Washington D.C., USA",
+      "country": "USA",
+      "category": "Methodik",
+      "classification": "OFFIZIELL",
+      "credibility": 9,
+      "summary": "J. Kevin Ryan, pensionierter Special Agent der US Air Force und ehemaliger Chief of Operations des AARO, veröffentlicht im CTX-EAG Special Issue 2026 einen umfassenden forensischen Leitfaden zur UAP-Fotografie. Das Dokument ist ein US-Regierungsdokument (kein Copyright-Schutz). Kernaussagen: RAW-Format (DNG/ARW) ist Pflicht, EXIF-Metadaten müssen erhalten bleiben, SHA-256-Hashing sofort nach der Aufnahme, manuelle Fokussierung auf Unendlich ('Infinity Lock'). AARO betont den kritischen Mangel an hochwertigen visuellen Beweisen.",
+      "witnesses": [
+        "J. Kevin Ryan (AARO Chief of Operations, Ret.)"
+      ],
+      "evidence": [
+        "Peer-reviewed Artikel CTX Spring 2026",
+        "US-Regierungsdokument (kein Copyright)"
+      ],
+      "tags": [
+        "AARO",
+        "Methodik",
+        "Forensik",
+        "Pentagon",
+        "Offiziell",
+        "Wissenschaft"
+      ],
+      "source_url": "https://nps.edu/web/ecco/uap-special-ctx-issue",
+      "source_name": "CTX-EAG Special Issue Spring 2026 – J. Kevin Ryan, USAF Ret. / AARO",
+      "status": "Bestätigt"
     }
   ]
 }
