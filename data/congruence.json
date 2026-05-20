@@ -1899,6 +1899,32 @@
           "type": "Buch"
         }
       ]
+    },
+    {
+      "id": "soho-uap-solar-activity",
+      "title": "SOHO-UAP-Nexus: Außerirdische Aktivitäten in Sonnennähe",
+      "score": 8.5,
+      "description": "Seit dem Start des NASA/ESA-SOHO-Satelliten 1995 werden regelmäßig UAP-ähnliche Objekte in unmittelbarer Sonnennähe dokumentiert. Morpheus (2006) beschreibt zwei Gruppen: eine 'beschießt' die Sonne, die andere verteidigt sie. NASA schränkt den öffentlichen Datenzugang zunehmend ein. Russische Heliobiologie-Forschung und US-amerikanische 'Astrogenetics/Chronobiology in Space'-Programme untersuchen denselben Zusammenhang – beide klassifiziert. Die statistische Häufung von UAP-Sichtungen während Sonnensturm-Perioden (Hastings, 2010; Salas, 2024) deutet auf eine Korrelation zwischen solarer Aktivität und UAP-Präsenz hin.",
+      "supporting_cases": [
+        "morpheus-transformation-der-erde-2006",
+        "malmstrom-afb-1967",
+        "nuklear-uap-nexus"
+      ],
+      "supporting_persons": [
+        "morpheus"
+      ],
+      "sources": [
+        "Morpheus: Transformation der Erde (2006), S. 1-45",
+        "NASA SOHO-Satellitendaten (1995-2006)",
+        "Robert Hastings: UFOs & Nukes (2010)"
+      ],
+      "tags": [
+        "soho",
+        "sonne",
+        "uap",
+        "nasa",
+        "heliobiologie"
+      ]
     }
   ],
   "_auto_detection": {

@@ -3,7 +3,7 @@
     "version": "4.0",
     "last_updated": "2026-05-21",
     "add_command": "ADD_PERSON: name | role | bio | tags(comma separated) | source_url | emoji",
-    "total_people": 54
+    "total_people": 55
   },
   "people": [
     {
@@ -1402,6 +1402,67 @@
           "type": "Dokumentarfilm"
         }
       ]
+    },
+    {
+      "id": "morpheus",
+      "name": "Morpheus",
+      "emoji": "📚",
+      "role": "Naturwissenschaftler, Erfinder, Autor (Pseudonym)",
+      "nationality": "Deutsch",
+      "affiliation": "Unabhängig / Argo-Verlag",
+      "status": "aktiv",
+      "credibility": "hoch – über 100 internationale Patente, naturwissenschaftliche Grundlage",
+      "tags": [
+        "soft-disclosure",
+        "wissenschaft",
+        "bewusstsein",
+        "soho-uap",
+        "anunnaki"
+      ],
+      "bio": "Morpheus ist das Pseudonym eines international renommierten Naturwissenschaftlers und Erfinders mit über 100 internationalen Patenten. Er schreibt unter diesem Namen aus Sicherheitsgründen: Kurz vor Erscheinen seines Buches 'Transformation der Erde' (2006) wurden alle seine Festplatten durch einen EMP-Angriff gelöscht, und am 20. Juni 2006 wurde er auf einem Campingplatz in Italien mit Gas betäubt und sein Laptop mit dem Buchmanuskript gestohlen. Sein Verleger Roland Reber kommentierte: 'Warum hat jemand Interesse daran, Ihnen diese Informationen vorzuenthalten?' Morpheus verbindet Naturwissenschaft (Quantenphysik, Heliobiologie, Burkhard Heims 12D-Modell) mit Disclosure-Forschung. Er analysiert NASA-SOHO-Satellitendaten und dokumentiert UAP-ähnliche Objekte in Sonnennähe. Weitere Bücher: 'Matrix Code' und 'Die Realitätenmacher'. Geistige Väter: Teilhard de Chardin, Burkhard Heim, Ilya Prigogine.",
+      "key_statements": [
+        "NASA-SOHO-Daten zeigen zwei Gruppen von Objekten in Sonnennähe: eine 'beschießt' die Sonne, die andere versucht dies zu verhindern – NASA verwehrt zunehmend Zugang zu diesen Daten.",
+        "Der Regierungsplan war, eine unregelmäßige Sonne für alle anomalen Phänomene verantwortlich zu machen – Klimawandel, Meteore, Polschmelze – um die wahre Ursache (Nibiru/Planet X) zu verschleiern.",
+        "Die Elektronen unseres Körpers sind kosmischen Ursprungs und durch Quantenverschränkung mit den Elektronen der Sonne verbunden – Sonnenflecken sind direkte Boten der Bewusstseinsveränderung.",
+        "Burkhard Heims 12-dimensionaler Hyperraum erklärt, wie immaterielle Signale mit Materie wechselwirken – dies ist der physikalische Mechanismus hinter Telepathie und Bewusstseinsfeldern.",
+        "Zwei Anschläge auf meine Person vor Erscheinen dieses Buches bestätigen die Relevanz dieser Informationen – ich schreibe unter Pseudonym, weil ich meine Sicherheit nicht garantieren kann."
+      ],
+      "connections": [
+        "burkhard-heim",
+        "soho-uap",
+        "anunnaki",
+        "nibiru",
+        "nasa"
+      ],
+      "books": [
+        {
+          "title": "Transformation der Erde: Interkosmische Einflüsse auf das Bewußtsein",
+          "year": 2006,
+          "publisher": "Argo-Verlag",
+          "isbn": "978-3-937987-24-8"
+        },
+        {
+          "title": "Matrix Code",
+          "year": "unbekannt",
+          "publisher": "Argo-Verlag"
+        },
+        {
+          "title": "Die Realitätenmacher",
+          "year": "unbekannt",
+          "publisher": "Argo-Verlag"
+        }
+      ],
+      "security_incidents": [
+        {
+          "date": "ca. Mai 2006",
+          "event": "Alle Festplatten durch EMP-Angriff gelöscht"
+        },
+        {
+          "date": "20. Juni 2006",
+          "event": "Gas-Betäubung auf Campingplatz in Italien, Laptop mit Buchmanuskript gestohlen"
+        }
+      ],
+      "source_url": "https://www.magazin2000plus.de"
     }
   ]
 }
