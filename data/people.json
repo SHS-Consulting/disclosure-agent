@@ -3,7 +3,7 @@
     "version": "4.0",
     "last_updated": "2026-05-21",
     "add_command": "ADD_PERSON: name | role | bio | tags(comma separated) | source_url | emoji",
-    "total_people": 53
+    "total_people": 54
   },
   "people": [
     {
@@ -1301,6 +1301,105 @@
           "name": "Reddit r/HighStrangeness – Phil Schneider Diskussion",
           "url": "https://www.reddit.com/r/HighStrangeness/comments/1fp6u0y/what_is_everyones_thoughts_on_phil_schneider_and/",
           "type": "Community-Diskussion"
+        }
+      ]
+    },
+    {
+      "id": "bob-lazar",
+      "name": "Bob Lazar (Robert Scott Lazar)",
+      "emoji": "⚛️",
+      "role": "Techniker · S-4/Area 51 Whistleblower · Element-115-Claim · 1989",
+      "born": "1959-01-26",
+      "nationality": "US-amerikanisch",
+      "education": [
+        "Pierce Junior College, Los Angeles (verifiziert)",
+        "Behauptet: MIT (Physik) + Caltech (Elektronik) – beide Universitäten: keine Aufzeichnungen"
+      ],
+      "career": [
+        "Techniker, Los Alamos National Laboratory (1982, verifiziert durch Telefonbuch-Eintrag)",
+        "Behauptet: Physiker, S-4 (geheimes Sublager von Area 51/Nellis AFB), US Navy, Auftragnehmer EG&G",
+        "Behauptet: Reverse Engineering von 9 außerirdischen Raumschiffen (1988–1989)",
+        "Inhaber: United Nuclear Scientific Equipment and Supplies (aktiv)",
+        "1990: Verurteilung wegen Kuppelei (Prostitutionsring), 150h Sozialdienst",
+        "2006/2007: United Nuclear verurteilt wegen Verkauf illegaler Chemikalien über Staatsgrenzen"
+      ],
+      "bio": "Robert Scott Lazar ist der bekannteste Area-51-Whistleblower der Geschichte. Seit seinem ersten TV-Interview im Mai 1989 (KLAS Las Vegas, Journalist George Knapp, zunächst unter Pseudonym 'Dennis' mit verdecktem Gesicht) behauptet er, an einem geheimen Sublager namens 'S-4' nahe Papoose Lake (südlich von Area 51) gearbeitet zu haben. Dort soll er an Reverse Engineering von 9 außerirdischen Raumschiffen beteiligt gewesen sein. Das Antriebssystem basierte laut Lazar auf Element 115 (damals noch nicht synthetisiert), das eine Gravitationswelle erzeugt, die das Raumschiff 'faltet'. 2003 synthetisierten Wissenschaftler erstmals Element 115 (Moscovium) – allerdings mit einer Halbwertszeit von nur 0,65 Sekunden, nicht stabil wie von Lazar behauptet. Lazars Bildungs- und Beschäftigungsnachweise sind weitgehend widerlegt: MIT und Caltech haben keine Aufzeichnungen über ihn. Er behauptet, seine Akten wurden gelöscht. Ein Los Alamos-Telefonbuch von 1982 enthält seinen Namen – was seine Verbindung zum Labor belegt, aber nicht seine Rolle als Physiker. Lazar war 2019 Gegenstand eines Dokumentarfilms von Jeremy Corbell und George Knapp ('Bob Lazar: Area 51 & Flying Saucers') und 2026 von Luigi Vendittelli ('S4: The Bob Lazar Story'). Er erschien mehrfach im Joe Rogan Podcast. Lazar betreibt heute United Nuclear Scientific Equipment and Supplies in Michigan.",
+      "key_statements": [
+        {
+          "quote": "I worked at S-4, a facility south of Area 51. My job was to help reverse engineer one of nine flying saucers. The craft was powered by Element 115, which produces a gravity wave that allows the craft to distort space-time and travel vast distances.",
+          "context": "KLAS-TV Interview mit George Knapp, Mai 1989 (zunächst als 'Dennis')",
+          "year": "1989"
+        },
+        {
+          "quote": "The Sport Model – that's what we called it – was about 15 feet tall and 52 feet in diameter. It was made of a material that looked and felt like liquid titanium. There were no seams, no welds, no bolts. The interior had no right angles – everything was curved.",
+          "context": "Beschreibung des 'Sport Model' Raumschiffs, KLAS-TV November 1989",
+          "year": "1989"
+        },
+        {
+          "quote": "I read briefing documents that described alien involvement in human affairs going back 10,000 years. The documents referred to humans as 'containers' – as if we were being used for something.",
+          "context": "Beschreibung der Briefing-Dokumente bei S-4",
+          "year": "1989"
+        },
+        {
+          "quote": "They erased my records. MIT, Caltech, Los Alamos – all gone. That's how they silence people. They don't kill you – they erase you. You become a ghost.",
+          "context": "Antwort auf Fragen zur fehlenden Bildungsverifizierung",
+          "year": "1989"
+        },
+        {
+          "quote": "Element 115 – I called it Moscovium before it had a name. The stable isotope is what powers the craft. What they synthesized in 2003 is the unstable version. The stable version exists – just not in our periodic table.",
+          "context": "Reaktion auf Moscovium-Synthese 2003, spätere Interviews",
+          "year": "2003+"
+        }
+      ],
+      "element_115_claim": {
+        "claim": "1989: Lazar behauptet, das Antriebssystem der S-4-Raumschiffe nutze ein stabiles Isotop von Element 115 (damals nicht existierend), das eine Gravitationswelle erzeugt.",
+        "verification_2003": "2003: Joint Institute for Nuclear Research (Dubna) + Lawrence Livermore NL synthetisieren erstmals Element 115 (Moscovium, Mc). Halbwertszeit: 0,65 Sekunden (instabil). Lazars Claim eines stabilen Isotops ist nicht bestätigt.",
+        "assessment": "Lazar wusste 1989 von einem Element mit 115 Protonen – das ist bemerkenswert. Ob er es erraten, aus Insider-Wissen kannte oder von Briefing-Dokumenten las, ist ungeklärt. Die Instabilität widerlegt seinen Antriebsanspruch."
+      },
+      "credibility": "sehr umstritten – Bildungsnachweise widerlegt, aber Element-115-Vorwissen bemerkenswert",
+      "media": [
+        "Bob Lazar: Area 51 & Flying Saucers (Corbell/Knapp, 2019)",
+        "S4: The Bob Lazar Story (Vendittelli, 2026)",
+        "The Joe Rogan Experience (mehrfach)"
+      ],
+      "connections": {
+        "cases": [],
+        "operations": [
+          "aawsap-aatip",
+          "majestic-12"
+        ]
+      },
+      "tags": [
+        "area-51",
+        "s4",
+        "lazar",
+        "element-115",
+        "reverse-engineering",
+        "nevada",
+        "usa",
+        "whistleblower"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Bob_Lazar",
+      "sources": [
+        {
+          "name": "Wikipedia – Bob Lazar",
+          "url": "https://en.wikipedia.org/wiki/Bob_Lazar",
+          "type": "Enzyklopädie"
+        },
+        {
+          "name": "KLAS-TV Interview mit George Knapp (Mai/November 1989)",
+          "url": "https://en.wikipedia.org/wiki/Bob_Lazar",
+          "type": "Primärquelle / TV-Interview"
+        },
+        {
+          "name": "Wikipedia – Moscovium (Element 115)",
+          "url": "https://en.wikipedia.org/wiki/Moscovium",
+          "type": "Wissenschaftliche Quelle"
+        },
+        {
+          "name": "Bob Lazar: Area 51 & Flying Saucers (Corbell/Knapp, 2019)",
+          "url": "https://en.wikipedia.org/wiki/Bob_Lazar",
+          "type": "Dokumentarfilm"
         }
       ]
     }

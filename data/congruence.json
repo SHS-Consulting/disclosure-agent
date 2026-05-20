@@ -1,10 +1,10 @@
 {
   "_meta": {
     "version": "4.0",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-05-21",
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
-    "total_themes": 47
+    "total_themes": 48
   },
   "themes": [
     {
@@ -1810,6 +1810,94 @@
         "salas",
         "robert-emenegger",
         "eric-w-davis"
+      ]
+    },
+    {
+      "id": "new-mexico-cluster-geografische-konzentration",
+      "title": "New Mexico Cluster: Geografische Konzentration von UAP-Ereignissen im 300km-Radius",
+      "score": 9.4,
+      "category": "Geografische Anomalie",
+      "description": "In einem Radius von ca. 300km in New Mexico/Südwest-USA konzentrieren sich die bedeutendsten UAP-Ereignisse der Geschichte: Trinity-Test (1945), Roswell (1947), Holloman AFB (1955, 1964), White Sands Missile Range, Los Alamos National Laboratory (Manhattan Project), Dulce Base (1979), Kirtland AFB (Atomwaffenlager), Sandia Base. Diese Konzentration ist statistisch auffällig und korreliert mit der höchsten Dichte an Nuklearanlagen und Militärforschungseinrichtungen weltweit.",
+      "evidence": [
+        {
+          "event": "Trinity-Test (White Sands, NM)",
+          "date": "1945-07-16",
+          "significance": "Erste Atomexplosion der Welt – 5 Wochen später UAP-Crash in der Region",
+          "distance_to_roswell_km": 190
+        },
+        {
+          "event": "Roswell UFO-Crash",
+          "date": "1947-07-02",
+          "significance": "509th Bomb Wing – einzige Atombomber-Einheit der Welt",
+          "distance_to_trinity_km": 190
+        },
+        {
+          "event": "Los Alamos National Laboratory",
+          "date": "1943–heute",
+          "significance": "Manhattan Project, Nuklearwaffenentwicklung, UAP-Sichtungen über Anlage",
+          "distance_to_roswell_km": 230
+        },
+        {
+          "event": "Holloman AFB – Eisenhower-Kontakt",
+          "date": "1955-02",
+          "significance": "Angebliches NHI-Treffen mit Eisenhower",
+          "distance_to_trinity_km": 60
+        },
+        {
+          "event": "Holloman AFB – Zweiter Kontakt",
+          "date": "1964",
+          "significance": "3 Scheiben, NHI-Kontakt, 16mm-Film",
+          "distance_to_trinity_km": 60
+        },
+        {
+          "event": "Kirtland AFB (Albuquerque, NM)",
+          "date": "1950–heute",
+          "significance": "Größtes Atomwaffenlager der USA, UAP-Sichtungen 1980 dokumentiert",
+          "distance_to_roswell_km": 200
+        },
+        {
+          "event": "Dulce Base (Archuleta Mesa, NM)",
+          "date": "1979",
+          "significance": "Angebliche unterirdische NHI-Anlage, Schneider-Kampf",
+          "distance_to_roswell_km": 280
+        },
+        {
+          "event": "White Sands Missile Range",
+          "date": "1945–heute",
+          "significance": "Raketentests, UAP-Sichtungen, Nähe zu Trinity",
+          "distance_to_trinity_km": 30
+        }
+      ],
+      "statistical_significance": "8 der bedeutendsten UAP-Ereignisse der Geschichte in einem 300km-Radius. Alle korrelieren mit Nuklear- oder Militärforschungsanlagen. Verbindet Nuklear-UAP-Nexus-These (Score 9.7) mit Eisenhower-Kontaktserie (Score 8.8) und Dulce-Greada-Treaty-Vertragsbruch. Mögliche Erklärungen: (a) NHI-Interesse an Nukleartechnologie, (b) Geheimhaltungs-Konzentration in dünn besiedelter Region, (c) Zufall.",
+      "connected_themes": [
+        "nuklear-uap-nexus-trinity-roswell",
+        "eisenhower-nhi-kontaktserie",
+        "holloman-kontaktserie-1955-1964",
+        "geheimhaltungs-eskalation-nda-repressalien"
+      ],
+      "connected_cases": [
+        "roswell-1947",
+        "eisenhower-muroc-edwards-1954-first-contact",
+        "holloman-afb-1964-nhi-kontakt",
+        "malmstrom-afb-1967-nuklear-uap",
+        "dulce-base-new-mexico-underground-alien-facility"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia – UFO reports and atomic sites",
+          "url": "https://en.wikipedia.org/wiki/UFO_reports_and_atomic_sites",
+          "type": "Enzyklopädie"
+        },
+        {
+          "name": "Statistische Studie Frankreich (2015): p-Wert 0,00013 – Korrelation UAP ↔ Nuklearstandorte",
+          "url": "https://en.wikipedia.org/wiki/UFO_reports_and_atomic_sites",
+          "type": "Akademische Studie"
+        },
+        {
+          "name": "Robert Hastings – UFOs & Nukes (2008)",
+          "url": "https://en.wikipedia.org/wiki/UFO_reports_and_atomic_sites",
+          "type": "Buch"
+        }
       ]
     }
   ],
