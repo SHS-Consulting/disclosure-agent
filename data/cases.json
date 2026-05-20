@@ -4,7 +4,7 @@
     "last_updated": "2026-05-20",
     "total": 64,
     "add_command": "ADD_CASE: title | region(usa/brazil/europe/russia/asia/australia/africa/space) | level(critical/high/medium/confirmed/historical) | date | location | description | source_url | tags(comma separated)",
-    "total_cases": 97
+    "total_cases": 99
   },
   "cases": [
     {
@@ -2364,6 +2364,249 @@
           "name": "Reddit r/UFOs – Robert Emenegger Interview (Mel Fabregas)",
           "url": "https://www.reddit.com/r/UFOs/comments/1ae5f6b/robert_emenegger_on_using_actual_footage_from_a/",
           "type": "Interview-Zusammenfassung"
+        }
+      ]
+    },
+    {
+      "id": "malmstrom-afb-1967-nuklear-uap",
+      "title": "Malmstrom AFB 1967 – 20 Minuteman-Raketen offline: Echo & Oscar Flight",
+      "date": "1967-03-16",
+      "location": {
+        "country": "USA",
+        "region": "Montana",
+        "city": "Great Falls",
+        "site": "Malmstrom Air Force Base, 341st Strategic Missile Wing",
+        "coordinates": "47.4836° N, 109.3492° W",
+        "note": "Echo Flight (Hilger/Winifred) und Oscar Flight (Roy, MT) – beide 341st SMW"
+      },
+      "category": "Nuklear-UAP / Militär-Zeugnis",
+      "classification": "kritisch",
+      "status": "bestätigt-durch-FOIA",
+      "tags": [
+        "nuklear",
+        "malmstrom",
+        "minuteman",
+        "1967",
+        "usa",
+        "salas",
+        "hastings",
+        "echo-flight",
+        "oscar-flight",
+        "foia-bestätigt"
+      ],
+      "summary": "Einer der am besten dokumentierten Nuklear-UAP-Vorfälle: Im März 1967 gingen innerhalb von Sekunden alle 10 Minuteman-I-Raketen des Echo Flight (16. März) und kurz darauf alle 10 des Oscar Flight (24. März) auf der Malmstrom AFB in Montana in den NO-GO-Status. Gleichzeitig berichteten Sicherheitswachen von einem leuchtend roten, ovalen Objekt, das über dem Fronttor schwebte. Lt. Robert Salas (Oscar Flight) und Col. Fred Meiwald wurden zur Geheimhaltung verpflichtet und mussten Geheimhaltungserklärungen unterzeichnen. FOIA-Dokumente bestätigen den Echo-Flight-Vorfall. 2010 traten 7 USAF-Veteranen beim National Press Club auf und bestätigten ähnliche Vorfälle an 120+ Standorten weltweit. 2025 behauptete das Pentagon, ein klassifizierter EMP-Test sei die Ursache gewesen – was Salas öffentlich widerlegte.",
+      "detailed_description": "**Hintergrund: Malmstrom AFB und die 341st Strategic Missile Wing**\n\nMalmstrom AFB in Montana war 1967 Heimat der 341st Strategic Missile Wing mit Minuteman-I-ICBMs. Die Raketen waren in unterirdischen Silos über die Prärie verteilt, je 10 Silos pro 'Flight' (Staffel), gesteuert von einem unterirdischen Launch Control Center (LCC) mit zwei Offizieren. Echo Flight (E) lag nahe Hilger/Winifred, Oscar Flight (O) nahe Roy, MT.\n\n**Echo Flight – 16. März 1967 (08:45 Uhr)**\n\nOffizieller Air Force-Bericht (341st SMW Command History): 'Am 16. März 1967 um 0845 gingen alle Standorte in Echo (E) Flight, Malmstrom AFB, in den NO-GO-Status... Alle LFs in E Flight verloren nahezu gleichzeitig den Strategic Alert.' Der Bericht hält fest, dass 'Gerüchte über UFOs in der Gegend von Echo Flight zum Zeitpunkt des Ausfalls widerlegt wurden' – aber Col. (ret.) Walt Figel (Echo-Flight-Kommandant) berichtete später, dass ein Sicherheitsposten ihm tatsächlich ein UAP über dem Silo gemeldet hatte, als die Raketen ausfielen.\n\n**Oscar Flight – 24. März 1967 (Abendstunden)**\n\nLt. Robert Salas (26 Jahre, USAF Academy Class of 1964) war im unterirdischen LCC mit Col. Fred Meiwald. Ablauf nach Salas' Aussage:\n\n1. Sicherheitswache meldet: Seltsame Lichter über dem Gelände – extrem schnell, scharfe 90°-Kurven, völlig lautlos.\n2. Salas macht einen Witz ('vielleicht UFOs') und legt auf.\n3. Minuten später: Wache ruft schreiend zurück – ovales Objekt mit rot pulsierendem Licht schwebt direkt über dem Fronttor. Alle Wachen mit gezogenen Waffen.\n4. Salas geht zu Meiwald – bevor er viel sagen kann, fallen alle 10 Minuteman-Raketen innerhalb von Sekunden in den NO-GO-Status.\n5. Meldung ans Kommando: 'Das ist schon mal passiert' (Verweis auf Echo Flight).\n\nNach der Ablösung am nächsten Morgen: Befehl zum Schweigen, AFOSI anwesend, Geheimhaltungserklärungen unterzeichnet. 'Der Vorfall ist jetzt klassifiziert – sprechen Sie mit niemandem darüber.'\n\n**FOIA-Bestätigung**\n\n1994 entdeckte Salas in Timothy Goods Buch 'Above Top Secret' eine Beschreibung des Echo-Flight-Vorfalls. Er ließ über MUFON eine FOIA-Anfrage stellen (ohne Erwähnung von UFOs). Die Air Force antwortete: Der Vorfall war klassifiziert, wird aber wegen des Zeitablaufs declassifiziert. Die FOIA-Dokumente bestätigen den gleichzeitigen Ausfall aller 10 Echo-Flight-Raketen am 16. März 1967. Der Oscar-Flight-Vorfall bleibt nach Salas' Kenntnis weiterhin klassifiziert.\n\n**National Press Club – 27. September 2010**\n\nRobert Hastings (Autor 'UFOs & Nukes', 30 Jahre Recherche) organisierte eine Pressekonferenz im National Press Club in Washington D.C. Sieben USAF-Veteranen traten auf und beschrieben UAP-Vorfälle an Nuklearstandorten. CNN übertrug live. Hastings: 'Außerirdische Intelligenz interessiert sich für unsere Nuklearwaffen – und hat demonstriert, dass sie diese deaktivieren kann.' Salas präsentierte seinen Oscar-Flight-Bericht. Weitere Zeugen beschrieben ähnliche Vorfälle an Minot AFB, F.E. Warren AFB und anderen Standorten. Hastings dokumentierte über 120 ähnliche Vorfälle an Nuklearstandorten weltweit.\n\n**Pentagon-Erklärung 2025 und Salas' Widerlegung**\n\nIm Juni 2025 berichtete das Wall Street Journal, das Pentagon habe erklärt, der Malmstrom-Vorfall sei durch einen geheimen EMP-Test verursacht worden. Salas widerlegte dies öffentlich (Ojai Valley News, Juni 2025):\n- Kein EMP-Gerät der 1960er Jahre konnte 10 Raketen gleichzeitig und selektiv deaktivieren, ohne andere Systeme zu beeinflussen.\n- Die Erklärung erklärt nicht, warum Sicherheitswachen ein leuchtendes Objekt sahen.\n- Wenn es ein geheimer Test war: Warum wurden Offiziere zur Geheimhaltung verpflichtet und mussten NDAs unterzeichnen?\n- Reddit-Kommentar: 'Um den Malmstrom-Vorfall zu erklären, hat Kirkpatrick eine Fantasie erfunden, bei der jemand heimlich ein leuchtendes rotes EMP-Gerät ins Silo geschmuggelt hat.'\n\n**Verbindung zur Nuklear-UAP-Nexus-These**\n\nMalmstrom 1967 ist das Kernstück der Nuklear-UAP-Nexus-These (Congruence Score 97). Zusammen mit Rendlesham Forest 1980 (NATO-Atomwaffenlager), Hanford 1945–1952 und der statistischen Studie (p = 0,00013) bildet es den stärksten Beleg für die These, dass nicht-menschliche Intelligenz gezielt Nuklearanlagen überwacht und demonstrativ in deren Betrieb eingreift.",
+      "witnesses": [
+        {
+          "name": "Capt. Robert Salas",
+          "role": "USAF Missile Launch Officer, Oscar Flight, 341st SMW",
+          "testimony": "Persönlicher Augenzeugenbericht: Sicherheitswache meldet UAP über Fronttor, dann fallen alle 10 Minuteman-Raketen gleichzeitig aus. Zur Geheimhaltung verpflichtet, NDA unterzeichnet. Seit 1996 öffentlich, 3 Bücher, National Press Club 2010. Widerlegte Pentagon-EMP-Erklärung 2025.",
+          "credibility": "sehr hoch",
+          "public_statement": true,
+          "year": "1967/1996"
+        },
+        {
+          "name": "Col. Fred Meiwald",
+          "role": "USAF, Oscar-Flight-Kommandant",
+          "testimony": "Bestätigte Salas' Grundaussage. War im LCC als die Raketen ausfielen. Stimmte der Veröffentlichung seiner Informationen zu.",
+          "credibility": "sehr hoch",
+          "public_statement": true,
+          "year": "1967"
+        },
+        {
+          "name": "Col. Walt Figel (ret.)",
+          "role": "USAF, Echo-Flight-Kommandant",
+          "testimony": "Echo-Flight-Kommandant am 16. März 1967. Bestätigte, dass ein Sicherheitsposten ein UAP über einem Silo gemeldet hatte, als die Raketen ausfielen. Stimmte der Veröffentlichung zu.",
+          "credibility": "sehr hoch",
+          "public_statement": true,
+          "year": "1967"
+        },
+        {
+          "name": "Robert Hastings",
+          "role": "UFO-Forscher, Autor 'UFOs & Nukes' (2008), 30 Jahre Recherche",
+          "testimony": "Dokumentierte über 120 ähnliche UAP-Vorfälle an Nuklearstandorten weltweit. Organisierte National Press Club Pressekonferenz 2010 mit 7 USAF-Veteranen. CNN-Liveübertragung. Buch: 'UFOs & Nukes: The Secret Link Revealed' (2008).",
+          "credibility": "hoch",
+          "public_statement": true,
+          "year": "2008/2010"
+        }
+      ],
+      "physical_evidence": [
+        {
+          "type": "FOIA-Dokument: 341st SMW Command History",
+          "description": "Offizielles Air Force-Dokument, das den gleichzeitigen Ausfall aller 10 Echo-Flight-Raketen am 16. März 1967 bestätigt. Declassifiziert 1994 via FOIA. Enthält den Satz: 'Gerüchte über UFOs... wurden widerlegt' – was paradoxerweise die Existenz der UFO-Gerüchte bestätigt.",
+          "status": "öffentlich / declassifiziert",
+          "url": "https://documents.theblackvault.com/documents/ufos/malmstromufo.pdf"
+        }
+      ],
+      "official_response": "Air Force (1967): Vorfall klassifiziert, Geheimhaltungserklärungen. Offizielle Linie: Kein Zusammenhang mit UFOs. FOIA (1994): Declassifizierung des Echo-Flight-Vorfalls. Pentagon (2025, WSJ): Klassifizierter EMP-Test als Ursache – von Salas widerlegt. Pentagon-Bericht AARO: 'Kein Zusammenhang mit UAPs nachgewiesen.'",
+      "connections": {
+        "people": [
+          "robert-salas",
+          "robert-hastings"
+        ],
+        "cases": [
+          "rendlesham-forest-1980",
+          "nuklear-uap-nexus-trinity-roswell"
+        ],
+        "operations": [
+          "aaro",
+          "project-blue-book"
+        ]
+      },
+      "congruence_themes": [
+        "nuklear-uap-nexus-trinity-roswell"
+      ],
+      "significance": "Malmstrom AFB 1967 ist der am besten dokumentierte Nuklear-UAP-Vorfall: FOIA-bestätigt, mehrere unabhängige Zeugen, National Press Club-Aussagen, 3 Bücher von Salas. Zusammen mit Echo Flight (10 Raketen) und Oscar Flight (10 Raketen) = 20 ICBMs innerhalb einer Woche deaktiviert. Die Pentagon-EMP-Erklärung von 2025 wurde von Salas öffentlich widerlegt und von Forschern als unplausibel eingestuft.",
+      "sources": [
+        {
+          "name": "Wikipedia – Malmstrom UFO incident",
+          "url": "https://en.wikipedia.org/wiki/Malmstrom_UFO_incident",
+          "type": "Enzyklopädie"
+        },
+        {
+          "name": "Robert Salas – Persönlicher Bericht (USAFA Class of 1964)",
+          "url": "https://www.usafaclasses.org/1964/Salas_Robert/history.htm",
+          "type": "Primärquelle / Zeugenbericht"
+        },
+        {
+          "name": "FOIA-Dokument: 2001 FOIA Response on Malmstrom UFO Incident (Black Vault)",
+          "url": "https://documents.theblackvault.com/documents/ufos/malmstromufo.pdf",
+          "type": "Primärquelle / Regierungsdokument"
+        },
+        {
+          "name": "National Press Club 2010 – 7 USAF-Veteranen (CNN-Liveübertragung)",
+          "url": "https://www.cbsnews.com/news/ex-air-force-personnel-ufos-deactivated-nukes/",
+          "type": "Nachrichtenartikel / Pressekonferenz"
+        },
+        {
+          "name": "Robert Salas – Rebuttal zu WSJ EMP-Erklärung (Ojai Valley News, Juni 2025)",
+          "url": "https://www.ojaivalleynews.com/news/opinion-a-rebuttal-from-robert-salas-of-ojai-to-wall-street-journal-s-june-6/article_81c5493f-3c22-407f-ac1a-46b3009d1dea.html",
+          "type": "Widerlegung / Primärquelle"
+        },
+        {
+          "name": "Calgary Herald – 'Nearly six decades after seminal Montana UFO incidents' (2023)",
+          "url": "https://calgaryherald.com/news/seminal-montana-ufo-events-pentagon",
+          "type": "Nachrichtenartikel"
+        },
+        {
+          "name": "Robert Hastings – UFOs & Nukes: The Secret Link Revealed (2008)",
+          "url": "https://tv.apple.com/us/movie/ufos-and-nukes-the-secret-link-revealed/umc.cmc.633w24hjejsuauxfdpjgj5c4n",
+          "type": "Buch / Dokumentarfilm"
+        },
+        {
+          "name": "C-SPAN – 'Malmstrom Nuclear UFO 1967' (Congressional Hearing Reference)",
+          "url": "https://www.c-span.org/clip/house-committee/user-clip-malmstrom-nuclear-ufo-1967/5072738",
+          "type": "Kongress-Referenz"
+        }
+      ]
+    },
+    {
+      "id": "eisenhower-holloman-1955-nhi-treffen",
+      "title": "Eisenhower-Holloman 1955 – Geheimes Treffen mit NHI: 'Columbine III' landet in New Mexico",
+      "date": "1955-02-11",
+      "location": {
+        "country": "USA",
+        "region": "New Mexico",
+        "city": "Alamogordo",
+        "site": "Holloman Air Force Base (HAFB)",
+        "coordinates": "32.8523° N, 106.1073° W",
+        "note": "Öffentlich: Präsident auf Wachtelsuche in Thomasville, Georgia"
+      },
+      "category": "Präsidentieller Kontakt / NHI-Treffen",
+      "classification": "kritisch",
+      "status": "unbestätigt-aber-mehrfach-bezeugt",
+      "tags": [
+        "eisenhower",
+        "holloman",
+        "nhi-kontakt",
+        "1955",
+        "new-mexico",
+        "usa",
+        "präsident",
+        "nuklear"
+      ],
+      "summary": "Einer der beständigsten Kontakt-Berichte der UAP-Geschichte: Am 11. Februar 1955 soll Präsident Dwight D. Eisenhower heimlich mit der 'Columbine III' auf der Holloman AFB gelandet sein, während er öffentlich auf Wachtelsuche in Thomasville, Georgia war. Laut einem Brief an UFO-Forscher Art Campbell betrat Eisenhower ein gelandetes UAP für ca. 45 Minuten. Hunderte von Basismitarbeitern sollen Zeugen gewesen sein. Radar wurde abgeschaltet, elektrische Störungen traten auf. Anschließend wurden Mitarbeiter zur Geheimhaltung verpflichtet. Dieser Vorfall wird als mögliches Folgetreffen nach einem angeblichen ersten Kontakt bei Muroc/Edwards AFB 1954 gesehen.",
+      "detailed_description": "**Historischer Kontext: Eisenhowers 'fehlende Stunden'**\n\nPräsident Eisenhower war bekannt für häufige Besuche in Thomasville, Georgia, zum Wachtelschießen auf Plantagen. Am 9.–11. Februar 1955 war er offiziell dort. Pressesekretär James Hagerty erklärte, der Präsident erhole sich von einer leichten Erkrankung ('the sniffles'). Für ca. 36 Stunden war Eisenhower aus der öffentlichen Wahrnehmung verschwunden. Zeitungsberichte bestätigen seine Anwesenheit in Georgia vor und nach dem Fenster – aber nicht während.\n\n**Die Holloman-Begegnung (11. Februar 1955)**\n\nLaut dem Brief an Art Campbell (UFO-Forscher, Autor von 'Finding the UFO Crash at San Augustin') landete die Columbine III (Eisenhowers Präsidentenflugzeug) heimlich auf Holloman AFB. Nach dem Rollen zu einer bestimmten Position landete ein UAP auf der Startbahn. Ein zweites Objekt schwebte in der Nähe. Eine Person, die für Eisenhower gehalten wurde, verließ das Flugzeug, näherte sich dem gelandeten UAP und betrat es für ca. 45 Minuten. Während dieser Zeit beobachteten Basismitarbeiter das schwebende Objekt. Der Briefschreiber nannte mehrere Zeugen: Militärpersonal, Krankenhauspersonal und zivile Arbeiter – Hunderte von Personen sollen anwesend gewesen sein. Radar wurde abgeschaltet. Elektrische Störungen traten auf.\n\nNach der Begegnung adressierte Eisenhower und die Basisführung Gruppen von Personal in einem Hangar und später in einem Theater: 'Was Sie hier sehen, bleibt hier.' Noch am selben Tag kehrte Eisenhower nach Georgia zurück – ohne dass die Presse bemerkt hatte, dass er die Jagdgesellschaft verlassen hatte.\n\n**Art Campbell und die Briefquelle**\n\nArt Campbell, der jahrelang Absturztrümmer in den Plains of San Augustin, New Mexico, untersuchte, erhielt einen Brief von einem ehemaligen Luftwaffenmann, der behauptete, von dem Ereignis zu wissen. Campbell korrespondierte mehrfach mit der Quelle und überprüfte deren Hintergrund. Er veröffentlichte den Bericht detailliert. M. Timothy Mounce (Autor, Professor) analysierte Campbells Arbeit 2026 und fand sie 'in einem Netz von Menschen, Orten und Fragen' eingebettet, das schwer zu ignorieren sei.\n\n**Verbindung zu Muroc/Edwards AFB 1954**\n\nViele Forscher sehen den Holloman-Vorfall 1955 als Folgetreffen nach einem angeblichen ersten Kontakt bei Muroc/Edwards AFB im Februar 1954. Beim Muroc-Treffen sollen 'Nordische' Außerirdische (menschenähnlich, blond) erschienen sein und Eisenhower gebeten haben, das Atomprogramm zu stoppen – ohne Einigung. Beim Holloman-Treffen 1955 sollen dann 'Graue' erschienen sein, mit denen ein Vertrag geschlossen wurde: Technologietransfer gegen Erlaubnis zu begrenzten Entführungen für medizinische Studien (Greada Treaty). Diese Erzählung ist in der UFO-Forschung weit verbreitet, aber nicht offiziell bestätigt.\n\n**Verbindung zu Holloman AFB 1964**\n\nRay Stanford (UFO-Forscher) vermutet zwei separate Kontaktereignisse: 30. April 1964 (tagsüber) und 19./20. April 1978 (nachts). Das Holloman-1955-Treffen wäre damit das erste in einer Serie von mindestens drei Kontakten auf der gleichen Basis. Die geografische Nähe zu Trinity (1945), Roswell (1947) und White Sands Missile Range verstärkt die Nuklear-UAP-Nexus-These.\n\n**Eric Davis und George H.W. Bush (2004)**\n\nDr. Eric Davis berichtete, dass George H.W. Bush in ihren Telefonaten nicht nur den Holloman-Film (1964) bestätigte, sondern auch von einem 'geheimen Projekt' mit 'obszöner Sicherheitsstufe' sprach – was einige Forscher als Verweis auf die gesamte Holloman-Kontaktserie (1954/1955, 1964) interpretieren.\n\n**Kritische Einordnung**\n\nDer Vorfall basiert primär auf einem anonymen Brief an Art Campbell. Es gibt keine offiziellen Dokumente, die das Treffen bestätigen. Eisenhowers Abwesenheit aus der öffentlichen Wahrnehmung für ca. 36 Stunden ist dokumentiert, aber könnte auch andere Erklärungen haben. Der Vorfall ist Teil einer größeren Erzählung (Muroc 1954, Holloman 1955, Holloman 1964), die intern konsistent ist, aber keine unabhängige Bestätigung hat.",
+      "witnesses": [
+        {
+          "name": "Anonymer ehemaliger Luftwaffenmann",
+          "role": "Basismitarbeiter Holloman AFB (Identität nicht öffentlich)",
+          "testimony": "Schrieb einen 7-seitigen Brief an Art Campbell. Beschrieb Eisenhowers heimliche Landung, UAP-Landung, 45-minütigen Aufenthalt im UAP, Ansprache an Personal, Geheimhaltungsbefehl. Nannte weitere Zeugen.",
+          "credibility": "unbekannt",
+          "public_statement": false,
+          "year": "1955 (Brief später)"
+        },
+        {
+          "name": "Art Campbell",
+          "role": "UFO-Forscher, Autor 'Finding the UFO Crash at San Augustin'",
+          "testimony": "Korrespondierte mehrfach mit der Briefquelle, überprüfte deren Hintergrund und veröffentlichte den Bericht. Hielt die Quelle für glaubwürdig.",
+          "credibility": "mittel",
+          "public_statement": true,
+          "year": "Veröffentlichung nach 1955"
+        },
+        {
+          "name": "Rep. Eric Burlison (Missouri)",
+          "role": "US-Repräsentant, Mitglied des Oversight-Ausschusses",
+          "testimony": "Berichtete in einem Interview, dass Physiker Eric Davis ein Ereignis beschrieben habe, bei dem unidentifizierte Fahrzeuge auf einer US-Luftwaffenbasis landeten und ein Treffen mit amerikanischen Offiziellen stattfand – mit einem Übersetzungsgerät. (Quelle: meer.com, April 2026)",
+          "credibility": "hoch",
+          "public_statement": true,
+          "year": "2026"
+        }
+      ],
+      "physical_evidence": [
+        {
+          "type": "Zeitungsberichte: Eisenhowers Abwesenheit",
+          "description": "Zeitungsberichte bestätigen Eisenhowers Anwesenheit in Thomasville, Georgia vor und nach dem 11. Februar 1955 – aber nicht während des ca. 36-stündigen Fensters. Pressesekretär Hagerty: 'Der Präsident hat die Grippe.'",
+          "status": "öffentlich",
+          "url": "https://www.meer.com/en/105987-did-eisenhower-meet-aliens"
+        }
+      ],
+      "official_response": "Keine offizielle Bestätigung oder Dementierung des Holloman-Treffens. Pressesekretär James Hagerty erklärte 1955: Eisenhower erhole sich von einer leichten Erkrankung. Keine Regierungsdokumente über das Treffen bekannt.",
+      "connections": {
+        "people": [
+          "eric-davis",
+          "hal-puthoff",
+          "george-hw-bush"
+        ],
+        "cases": [
+          "holloman-afb-1964-nhi-kontakt",
+          "eisenhower-muroc-1954"
+        ],
+        "operations": [
+          "legacy-program",
+          "greada-treaty"
+        ]
+      },
+      "congruence_themes": [
+        "nuklear-uap-nexus-trinity-roswell",
+        "wilson-davis-reverse-engineering"
+      ],
+      "significance": "Das Eisenhower-Holloman-Treffen ist Teil einer der beständigsten Erzählungen der UAP-Geschichte: Dass ein amtierender US-Präsident direkten Kontakt mit NHI hatte. Die geografische Konzentration (Trinity 1945, Roswell 1947, Muroc 1954, Holloman 1955, Holloman 1964) in einem Radius von ~400 km in New Mexico/Südkalifornien ist auffällig und stützt die Nuklear-UAP-Nexus-These. Rep. Burlisons Verweis auf Eric Davis' Beschreibung (2026) gibt dem Vorfall neue Aktualität.",
+      "sources": [
+        {
+          "name": "meer.com – 'Did Eisenhower meet aliens?' (M. Timothy Mounce, April 2026)",
+          "url": "https://www.meer.com/en/105987-did-eisenhower-meet-aliens",
+          "type": "Analyse / Zusammenfassung"
+        },
+        {
+          "name": "KVIA News – 'Report: Ex-President Eisenhower Met With Aliens At Holloman AFB' (2012)",
+          "url": "https://kvia.com/news/2012/02/15/report-ex-president-eisenhower-met-with-aliens-at-holloman-air-force-base/",
+          "type": "Nachrichtenartikel"
+        },
+        {
+          "name": "NextGov – 'President Eisenhower had three secret meetings with aliens' (2012)",
+          "url": "https://www.nextgov.com/digital-government/2012/02/president-eisenhower-had-three-secret-meetings-with-aliens-former-pentagon-consultant-claims/50657/",
+          "type": "Nachrichtenartikel"
+        },
+        {
+          "name": "Wasabi PDF – 'President Eisenhower [meets Aliens] at Holloman AFB'",
+          "url": "https://s3.us-west-1.wasabisys.com/bfs-website2023/Documents%20&%20Resources/Aliens/President%20Eisenhower%20[meets%20Aliens]%20at%20Holloman%20AFB%20-%202%20pages.pdf",
+          "type": "Primärquelle / Art Campbell Bericht"
+        },
+        {
+          "name": "JournalNews.com.ph – Eric Davis / George H.W. Bush bestätigt Holloman-Film",
+          "url": "https://journalnews.com.ph/jacques-vallee-on-footage-of-ufo-landing-at-holloman-afb-occupant-carried-vertical-staff-with-spiral-antenna/",
+          "type": "Sekundärquelle"
         }
       ]
     }
