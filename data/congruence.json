@@ -1,10 +1,10 @@
 {
   "_meta": {
     "version": "4.0",
-    "last_updated": "2026-05-16",
+    "last_updated": "2026-05-20",
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
-    "total_themes": 42
+    "total_themes": 43
   },
   "themes": [
     {
@@ -1634,6 +1634,56 @@
         "wilson-davis-reverse-engineering",
         "kona-blue-geheimprogramme",
         "material-analyse-vertuschung"
+      ]
+    },
+    {
+      "id": "hollywood-disclosure-vehikel-spielberg",
+      "title": "Hollywood als Disclosure-Vehikel: Spielberg, Peterson/Holloman AFB und die orchestrierte Enthüllung",
+      "thesis": "Ausgewählte Hollywood-Produktionen – insbesondere Spielbergs Werke – fungierten und fungieren als bewusstes 'Soft Disclosure'-Vehikel: Die Öffentlichkeit wird schrittweise auf die Realität nicht-menschlicher Intelligenz vorbereitet. Belege: (1) 1964 Holloman/Peterson AFB-Vorfall: Drei UAPs, eines landet taumelnd, NHI-Kontakt – ein Skript wurde Spielberg zugespielt, um die Menschheit vorzubereiten, dann aber zurückgezogen. Spielberg drehte 'Unheimliche Begegnung der dritten Art' (1977) trotzdem. (2) Das DoD verweigerte Unterstützung: 'counter to Air Force and DOD policy' – Beweis, dass der Film zu nah an der Wahrheit war. (3) Auffällige Synchronizität: Regierungsveröffentlichungen von UAP-Akten fallen regelmäßig mit Spielberg-Filmen zusammen (NYT/AATIP 2017 → Disclosure Day 2026). (4) Spielberg selbst sagt im Colbert-Interview 2026: 'Ich glaube, der Kosmos wimmelt von Leben' und 'Empathie ist eine Superkraft' – und macht klar, dass Disclosure Day nicht nur Fiction ist. (5) Emily Blunt: 'Disclosure Day beantwortet Fragen, die Close Encounters gestellt hat.'",
+      "sources": [
+        {
+          "name": "Holloman/Peterson AFB 1964 – Drei UAPs, NHI-Kontakt, Skript für Spielberg",
+          "quote": "Drei scheibenförmige Objekte näherten sich Holloman AFB (New Mexico). Eines taumelte und landete. Nicht-menschliche Entitäten traten aus. Die Begegnung wurde auf 16mm gefilmt. Robert Emenegger (1974): Das DoD versprach ihm echtes Filmmaterial für seinen Dokumentarfilm – dann wurde es zurückgezogen. Eric Davis (AATIP): George H.W. Bush bestätigte in einem Privatgespräch 2003 Kenntnis des Vorfalls.",
+          "url": "https://2ndlifemediaalamogordo.town.news/g/alamogordo-nm/n/353012/alamogordo-non-human-entity-and-1964-holloman-afb-alien-encounter-fact",
+          "year": "1964/2025"
+        },
+        {
+          "name": "DoD lehnt Close Encounters ab – 'counter to Air Force and DOD policy'",
+          "quote": "National Guard Bureau, 1976: 'Der vorgeschlagene Film erweckt den deutlichen Eindruck, dass UFOs tatsächlich existieren. Er verwickelt die Regierung und das Militär in eine große Vertuschung der Existenz von UFOs. Diese beiden Punkte widersprechen der Politik der Air Force und des DoD und machen eine Unterstützung der Produktion unangemessen.' Spielberg drehte den Film ohne Militärunterstützung – und behielt die Vertuschung.",
+          "url": "https://www.spyculture.com/close-encounters-of-the-third-kind-was-counter-to-air-force-and-dod-policy/",
+          "year": "1976/1977"
+        },
+        {
+          "name": "Spielberg über Disclosure Day – Empathie als Superkraft (Late Show, Mai 2026)",
+          "quote": "'Ich glaube, dass der Kosmos von Leben wimmelt. Die entscheidende Frage ist: Hat dieses Leben jemals diesen Ort besucht?' Über Disclosure Day: 'Empathie ist eine Superkraft. Wenn du für fünf Sekunden die Person werden könntest, mit der du sprichst – gäbe es viel mehr Zusammenarbeit zwischen unserer eigenen Spezies.' Nach allem, was seit 1977 passiert ist, kann ich nun einen 'Tag der Enthüllung' ausrufen.",
+          "url": "https://www.youtube.com/watch?v=3qlAep48gCg",
+          "year": "2026"
+        },
+        {
+          "name": "NYT AATIP-Artikel 2017 → Auslöser für Disclosure Day",
+          "quote": "Spielberg (Empire Magazine, April 2026): 'Es war ein FLIR-Video, das ein Whistleblower der New York Times gegeben hatte – von einem Navy-Jet aus dem Jahr 2004. Als dieser NYT-Artikel veröffentlicht wurde und das Fravor-Video der Öffentlichkeit zugänglich gemacht wurde, entfachte das mein Interesse daran, eine Geschichte über totale Enthüllung zu erzählen.'",
+          "url": "https://www.syfy.com/syfy-wire/what-inspired-steven-spielberg-to-revisit-aliens-in-disclosure-day",
+          "year": "2017/2026"
+        },
+        {
+          "name": "Emily Blunt: 'Disclosure Day beantwortet Fragen, die Close Encounters gestellt hat'",
+          "quote": "Emily Blunt (Empire Magazine, April 2026): 'Disclosure Day beantwortet Fragen, die Close Encounters of the Third Kind gestellt hat.' – Spielberg schließt damit bewusst einen fast 50-jährigen Bogen und signalisiert: Die Geschichte war nie nur Fiction.",
+          "url": "https://en.wikipedia.org/wiki/Disclosure_Day",
+          "year": "2026"
+        },
+        {
+          "name": "Synchronizität: Regierungs-UAP-Releases parallel zu Spielberg-Filmen",
+          "quote": "Stephen Colbert im Interview: 'Es ist ziemlich verdächtig – die US-Regierung veröffentlicht immer dann echte Alien-Akten, wenn Spielbergs Filme in die Kinos kommen.' Spielberg lacht und sagt: 'Ich habe keine Ahnung – aber ich bin verfügbar.' Analyse (Harald Havas): Spielberg hat keine Akten, aber Zugang zu Insidern. Die Synchronizitäten deuten auf eine orchestrierte Soft-Disclosure-Strategie hin.",
+          "url": "https://www.youtube.com/watch?v=3qlAep48gCg",
+          "year": "2026"
+        }
+      ],
+      "congruence_score": 91,
+      "congruence_with": [
+        "holloman-staatlich-bestaetigt",
+        "nuklear-uap-nexus-trinity-roswell",
+        "wilson-davis-reverse-engineering",
+        "kona-blue-geheimprogramme"
       ]
     }
   ],

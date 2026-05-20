@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "4.0",
-    "last_updated": "2026-05-16",
+    "last_updated": "2026-05-20",
     "add_command": "ADD_PERSON: name | role | bio | tags(comma separated) | source_url | emoji",
-    "total_people": 49
+    "total_people": 51
   },
   "people": [
     {
@@ -935,6 +935,91 @@
       ],
       "source_url": "https://nymag.com/intelligencer/2020/07/ufo-report-pentagon-has-off-world-vehicles-not-from-earth.html",
       "source_label": "New York Magazine – Pentagon-Briefing 2020"
+    },
+    {
+      "id": "steven-spielberg",
+      "name": "Steven Spielberg",
+      "role": "Filmregisseur, Produzent – Hollywood Disclosure-Vehikel",
+      "affiliation": "Amblin Entertainment / Universal Pictures",
+      "nationality": "USA",
+      "born": "1946",
+      "status": "aktiv",
+      "credibility": "hoch",
+      "significance": "kritisch",
+      "bio": "Steven Spielberg (* 18. Dezember 1946) ist einer der einflussreichsten Filmregisseure der Kinogeschichte. Sein Verhältnis zum UAP-Thema ist einzigartig: Er beriet sich bereits 1976/77 für 'Unheimliche Begegnung der dritten Art' mit J. Allen Hynek (Leiter von Project Blue Book) und erhielt Insiderinformationen über einen angeblichen Kontaktvorfall an der Holloman/Peterson Air Force Base (New Mexico, 1964): Drei scheibenförmige Objekte näherten sich, eines landete taumelnd, nicht-menschliche Entitäten traten aus. Ein Skript wurde Spielberg zugespielt – angeblich um die Menschheit 'vorsichtig vorzubereiten' – dann aber zurückgezogen. Spielberg drehte den Film trotzdem. Das DoD verweigerte jede Unterstützung: 'counter to Air Force and DOD policy.' 2017 entfachte der NYT-Artikel über das AATIP-Programm (Tic-Tac-Video, Fravor) sein Interesse neu. 2026 bringt er 'Disclosure Day' heraus – ein Film über ein gestohlenes Roswell-Archiv, einen Whistleblower und die Frage der totalen Enthüllung. Im Late Show-Interview (20. Mai 2026) erklärt er: 'Ich glaube, der Kosmos wimmelt von Leben' und hebt Empathie als die eigentliche Superkraft hervor.",
+      "key_statements": [
+        {
+          "quote": "Ich glaube, dass der Kosmos von Leben wimmelt. Die entscheidende Frage ist: Hat dieses Leben jemals, in irgendeinem epischen Ereignis unserer Geschichte, diesen Ort besucht – oder interagiert es jetzt mit uns, und interagiert es schon seit vielen Jahren mit uns?",
+          "source": "Late Show mit Stephen Colbert, 20. Mai 2026",
+          "url": "https://www.youtube.com/watch?v=3qlAep48gCg"
+        },
+        {
+          "quote": "Empathie ist eine Superkraft. Wenn du für fünf Sekunden die Person werden könntest, mit der du sprichst – und in diesen fünf Sekunden alles verstehst, was diese Person in ihrem ganzen Leben durchgemacht hat – gäbe es viel mehr Zusammenarbeit zwischen unserer eigenen Spezies auf diesem Planeten.",
+          "source": "Late Show mit Stephen Colbert, 20. Mai 2026 (über Disclosure Day)",
+          "url": "https://www.youtube.com/watch?v=3qlAep48gCg"
+        },
+        {
+          "quote": "Nach allem, was seit 1977 passiert ist, kann ich nun einen 'Tag der Enthüllung' ausrufen.",
+          "source": "Late Show mit Stephen Colbert, 20. Mai 2026",
+          "url": "https://www.youtube.com/watch?v=3qlAep48gCg"
+        },
+        {
+          "quote": "Es war ein FLIR-Video, das ein Whistleblower der New York Times gegeben hatte – von einem Navy-Jet aus dem Jahr 2004. Navy-Piloten, darunter David Fravor, beobachteten ein 40 Fuß langes oblonges Objekt ohne sichtbaren Antrieb vor der Küste San Diegos. Das hat mein Interesse daran entfacht, eine Geschichte über totale Enthüllung zu erzählen.",
+          "source": "Empire Magazine / Syfy.com, April 2026",
+          "url": "https://www.syfy.com/syfy-wire/what-inspired-steven-spielberg-to-revisit-aliens-in-disclosure-day"
+        },
+        {
+          "quote": "Ich habe 'The Secrets of Skinwalker Ranch' – alle Staffeln – durchgebingt. Ich folge diesem Thema seit langer Zeit.",
+          "source": "Empire Magazine, April 2026",
+          "url": "https://www.syfy.com/syfy-wire/what-inspired-steven-spielberg-to-revisit-aliens-in-disclosure-day"
+        },
+        {
+          "quote": "[Colbert fragt nach verdächtigen Zeitpunkten: Regierung veröffentlicht UAP-Akten immer dann, wenn Spielberg einen Film herausbringt] Ich habe keine Ahnung – aber ich bin verfügbar.",
+          "source": "Late Show mit Stephen Colbert, 20. Mai 2026",
+          "url": "https://www.youtube.com/watch?v=3qlAep48gCg"
+        }
+      ],
+      "connections": [
+        "j-allen-hynek",
+        "david-fravor",
+        "luis-elizondo",
+        "eric-davis"
+      ],
+      "related_cases": [
+        "holloman-afb-1964-kontakt",
+        "disclosure-day-2026",
+        "tic-tac-nimitz-2004"
+      ],
+      "tags": [
+        "hollywood",
+        "soft-disclosure",
+        "film",
+        "close-encounters",
+        "disclosure-day",
+        "empathie"
+      ],
+      "sources": [
+        {
+          "name": "Late Show mit Stephen Colbert – Spielberg über Disclosure Day (20. Mai 2026)",
+          "url": "https://www.youtube.com/watch?v=3qlAep48gCg"
+        },
+        {
+          "name": "Wikipedia: Disclosure Day (2026)",
+          "url": "https://en.wikipedia.org/wiki/Disclosure_Day"
+        },
+        {
+          "name": "Syfy.com: Was Spielberg zu Disclosure Day inspirierte (April 2026)",
+          "url": "https://www.syfy.com/syfy-wire/what-inspired-steven-spielberg-to-revisit-aliens-in-disclosure-day"
+        },
+        {
+          "name": "SpyCulture.com: Close Encounters war 'counter to Air Force and DOD policy'",
+          "url": "https://www.spyculture.com/close-encounters-of-the-third-kind-was-counter-to-air-force-and-dod-policy/"
+        },
+        {
+          "name": "Holloman AFB 1964 – Alamogordo Non-Human Entity Incident",
+          "url": "https://2ndlifemediaalamogordo.town.news/g/alamogordo-nm/n/353012/alamogordo-non-human-entity-and-1964-holloman-afb-alien-encounter-fact"
+        }
+      ]
     }
   ]
 }
