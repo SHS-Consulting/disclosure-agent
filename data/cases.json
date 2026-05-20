@@ -1,10 +1,10 @@
 {
   "_meta": {
     "version": "4.0",
-    "last_updated": "2026-05-16",
+    "last_updated": "2026-05-20",
     "total": 64,
     "add_command": "ADD_CASE: title | region(usa/brazil/europe/russia/asia/australia/africa/space) | level(critical/high/medium/confirmed/historical) | date | location | description | source_url | tags(comma separated)",
-    "total_cases": 92
+    "total_cases": 97
   },
   "cases": [
     {
@@ -881,7 +881,8 @@
         "hopkinsville",
         "et",
         "filmvorbereitung",
-        "weltöffentlichkeit"
+        "weltöffentlichkeit",
+        "soft-disclosure"
       ]
     },
     {
@@ -1776,7 +1777,8 @@
         "Filmbeweise",
         "Holloman",
         "Soft-Disclosure",
-        "Dokumentar"
+        "Dokumentar",
+        "soft-disclosure"
       ],
       "summary": "1974 wurde Filmemacher Robert Emenegger vom Pentagon kontaktiert und ihm versprochen, authentisches 16mm-Filmmaterial der Holloman AFB Landung von 1964 für seinen Dokumentarfilm 'UFOs: Past, Present and Future' zu erhalten. Er und Produzent Paul Shartle (Norton AFB) sollen das Material tatsächlich gesichtet haben – drei Wesen, die aus einem Raumfahrzeug traten. Kurz vor der Veröffentlichung wurde das Angebot zurückgezogen, angeblich aus politischen Gründen (Watergate). Emenegger musste die Sequenz als 'hypothetische Rekonstruktion' kennzeichnen. Die Holloman-Sequenz wurde später als direktes Vorbild für das Finale von Spielbergs 'Begegnungen der dritten Art' (1977) diskutiert.",
       "witnesses": [
@@ -1811,7 +1813,8 @@
         "Disclosure Day",
         "Hynek",
         "Nimitz",
-        "AATIP"
+        "AATIP",
+        "soft-disclosure"
       ],
       "summary": "Steven Spielbergs neuer Film 'Disclosure Day' (Kinostart 12. Juni 2026, Universal Pictures) thematisiert die globale Reaktion auf den unwiderlegbaren Beweis außerirdischen Lebens. Spielberg wurde durch den NYT-Artikel über das Pentagon-AATIP-Programm (Dez. 2017) und das Nimitz-FLIR-Video neu inspiriert. Er hatte bereits für 'Begegnungen der dritten Art' (1977) mit J. Allen Hynek (Leiter Project Blue Book) zusammengearbeitet. Online-Theorien sehen 'Disclosure Day' als Teil einer koordinierten Regierung-Hollywood-Bewegung zur Vorbereitung der Menschheit auf die Enthüllung außerirdischen Lebens – verstärkt durch Obamas und Trumps öffentliche UAP-Kommentare und Trumps Ankündigung, UAP-Akten zu declassifizieren. 'Age of Disclosure'-Produzent Dan Farah (auch Produzent bei Spielbergs 'Ready Player One') sagte: 'Wir würden diese außerordentliche Zeit nicht erleben ohne den kulturellen Einfluss, den Spielberg mit Close Encounters und E.T. gemacht hat.'",
       "witnesses": [
@@ -2172,6 +2175,197 @@
       ],
       "source_url": "https://nypost.com/2025/11/22/us-news/president-george-hw-bush-knew-of-1964-alien-contact-with-humans-in-new-mexico-documentary/",
       "source_label": "NY Post – 'President Bush knew of 1964 alien contact', November 2025"
+    },
+    {
+      "id": "holloman-afb-1964-nhi-kontakt",
+      "title": "Holloman AFB 1964 – Drei UAPs, NHI-Kontakt und das konfiszierte 16mm-Filmmaterial",
+      "date": "1964-04-30",
+      "location": {
+        "country": "USA",
+        "region": "New Mexico",
+        "city": "Alamogordo",
+        "site": "Holloman Air Force Base (HAFB), Otero County",
+        "coordinates": "32.8523° N, 106.1073° W",
+        "note": "Nahe White Sands Missile Range und Trinity-Testgelände (1945)"
+      },
+      "category": "Kontakt / NHI-Begegnung / Regierungskooperation",
+      "classification": "kritisch",
+      "status": "unbestätigt-aber-mehrfach-bezeugt",
+      "tags": [
+        "holloman",
+        "nhi-kontakt",
+        "soft-disclosure",
+        "emenegger",
+        "pentagon",
+        "1964",
+        "new-mexico",
+        "klassifiziert"
+      ],
+      "summary": "Einer der am meisten diskutierten Kontaktvorfälle der UAP-Geschichte: Im April/Mai 1964 sollen drei scheibenförmige UAPs die Holloman Air Force Base in New Mexico angeflogen haben. Zwei entfernten sich, eines taumelte und landete. Drei nicht-menschliche Entitäten (NHI) traten aus dem Fahrzeug, trugen enge Overalls, Kopfbedeckungen als Kommunikationsgeräte und ein Übersetzungsgerät. Ein Basiskommandant und Air Force-Offiziere traten ihnen entgegen. Das Ereignis wurde auf 16mm-Film festgehalten. Das Filmmaterial gelangte zu Norton AFB, wurde dem Dokumentarfilmer Robert Emenegger 1972 vom Pentagon zur Nutzung angeboten – und kurz vor Fertigstellung seines Films konfisziert. Zeuge Paul Shartle bestätigte 1988 im Fernsehen, das Filmmaterial gesehen zu haben. George H.W. Bush bestätigte 2004 gegenüber Astrophysiker Eric Davis: 'Es war das Echte.'",
+      "detailed_description": "**Hintergrund und geografischer Kontext**\n\nHolloman AFB liegt in Otero County, New Mexico – nur 120 km vom Trinity-Testgelände (erste Atomexplosion, Juli 1945) und 200 km von Roswell entfernt. Die Basis war in den 1960er Jahren ein Zentrum für Raketentests, Schimpansen-Raumfahrtforschung (Project Mercury-Vorläufer) und geheimdienstliche Aktivitäten. Das Alamogordo Primate Research Facility auf dem Gelände züchtete Schimpansen für NASA-Experimente – was einige Forscher als mögliche Vorbereitung auf 'interaktiven Kontakt' interpretieren.\n\n**Der Vorfall (April/Mai 1964)**\n\nNach übereinstimmenden Berichten mehrerer Zeugen näherten sich drei scheibenförmige Objekte der Basis. Zwei zogen ab. Das dritte taumelte oder 'hatte Probleme' und landete auf dem Rollfeld. Drei Entitäten traten aus: menschengroß, grau-bläuliche Haut, ausgeprägte Nasen, eng anliegende Overalls, dünne Kopfbedeckungen (Kommunikationsgeräte), eines trug einen vertikalen Stab mit Spiralantenne und ein Übersetzungsgerät. Ein Basiskommandant und mehrere Air Force-Offiziere sowie CIA-Personal traten ihnen entgegen. Die Entitäten wurden in Gebäude 830, dann in Gebäude 930 auf der 'Mars Avenue' gebracht und sollen dort 2–3 Jahre verblieben sein. Ein Biologe namens Alfred Lorenzo soll mit ihnen zusammengearbeitet haben. Das Ereignis wurde auf 16mm-Film festgehalten.\n\n**Das Filmmaterial und Robert Emenegger (1972–1974)**\n\nPaul Shartle, Security Manager und Leiter des Audio-Visual-Programms auf Norton AFB, sah das Filmmaterial drei Jahre nach dem Vorfall (ca. 1967). 1972 nahm er Kontakt zu den Dokumentarfilmern Robert Emenegger und Allan Sandler auf, die ursprünglich eine Serie über fortschrittliche Militärtechnologie produzieren wollten. Shartle führte sie in einen 'Clean Room' (abhörsicher) und berichtete vom Holloman-Film. Emenegger und Sandler besuchten das Pentagon wiederholt – ohne sich einzutragen (plausible deniability). Col. William Coleman (ehem. Air Force-Sprecher für Project Blue Book) genehmigte die Nutzung des Filmmaterials für den Dokumentarfilm. Die Air Force sollte den Film sponsern – als PR-Maßnahme nach Vietnam. Produktionsmeetings im Pentagon verliefen ohne Einwände. Kurz vor Fertigstellung: Das Watergate-Skandal-Klima machte eine Veröffentlichung 'unpassend'. Das Filmmaterial wurde konfisziert – Emenegger verlor das gesamte Finale seines Films. Er ersetzte es durch animierte Sequenzen, die auf dem Filmmaterial basieren. Einige Frames des Originals sollen autorisiert in die Rekonstruktion eingeflossen sein – Zuschauer entdeckten eine echte helle Scheibe, die langsam vor dem Holloman-Hintergrund landet.\n\n**Jacques Vallées Tagebucheintrag (Forbidden Science, Vol. II)**\n\nDr. Jacques Vallée notierte in seinem Forschungstagebuch: Emenegger habe ihm erzählt, dass Captain Horner das Holloman-Filmmaterial kurz vor Sandlers Zugriff konfisziert habe. Vallée beschreibt die NHI-Beschreibung: 'Assyrische Nasen, ein gedrehtes Seil als Hut, blaugrüne Haut, Augen wie Pingpong-Bälle mit einem Loch in der Mitte. Einer hatte einen Draht im Ohr und trug einen vertikalen Stab mit Spiralantenne.' Vallée war skeptisch gegenüber der Geschichte, hielt sie aber für dokumentationswürdig.\n\n**Paul Shartles Fernsehzeugnis (UFO Cover-Up? Live!, 1988)**\n\nIn der Fernsehsendung 'UFO Cover-Up? Live!' (1988, moderiert von Mike Farrell) bestätigte Paul Shartle öffentlich: Er habe 'drei scheibenförmige Fahrzeuge' auf dem Film gesehen. Eines schien Probleme zu haben und landete, während die anderen zwei abzogen. Drei Aliens kamen heraus – menschengroß, seltsame graue Haut, ausgeprägte Nasen, enge Overalls, dünne Kopfbedeckungen als Kommunikationsgeräte, ein Übersetzungsgerät in der Hand. Auf die Frage, was seine Vorgesetzten sagten: Das Filmmaterial sei 'Theatermaterial', das die Air Force für einen Trainingsfilm gekauft habe. Shartles Antwort: 'Es war mein Job, genaue Aufzeichnungen über solche Käufe zu führen – und ich hatte keinen für dieses Filmmaterial.'\n\n**George H.W. Bush bestätigt (2004, via Eric Davis)**\n\nAstrophysiker Dr. Eric Davis (ehem. Pentagon AATIP-Berater) berichtete: Am 26. März 2004 traf er Hal Puthoff im Fiesta Rancho Casino Hotel, Las Vegas. Puthoff teilte ihm mit, dass Ex-Präsident George H.W. Bush (Navy-Pilot, CIA-Direktor, Präsident) zweimal mit Davis telefoniert hatte. Im zweiten Gespräch bestätigte Bush: Er kenne den Holloman-Film. Auf die Frage, ob es sich um ein Trainingsfilm oder eine Special-Ops-Übung handele, antwortete Bush: 'Nein – es war das Echte.' Es habe ein geheimes Projekt gegeben, und die Sicherheitsstufe sei 'obszön' gewesen. (Quelle: Joe Murgia, UFO-Forscher, der Puthoffs Bericht dokumentierte.)\n\n**Allan Sandler und die CIA-Verbindung**\n\nForscher Robbie Graham (Mysterious Universe) berichtete: Emenegger sagte ihm, Sandler habe 'sehr seltsame Verbindungen' gehabt und 'Dinge für die CIA und vielleicht sogar das FBI getan – sie alle schienen zusammenzuarbeiten.' Sandler war auch Produzent von 'Lancelot Link, Secret Chimp' – einer Spionage-Parodie mit Schimpansen-Besetzung, die er als 'Get Smart mit Schimpansen' beschrieb. Die Schimpansen-Verbindung zu Hollomans Primatenforschung bleibt ein offenes Fragezeichen.\n\n**James Fox und Christopher Sharp (2023)**\n\nDokumentarfilmer James Fox berichtete auf dem Julian Dorey Podcast (2023): Sandler habe ihm persönlich von drei UAPs erzählt, die von einem Militärjet eskortiert wurden. Zwei zogen ab, eines taumelte zur Erde. Die Wesen mit einzigartigen Merkmalen traten aus, dann brach das Filmmaterial ab. Fox: 'Die Regierung hat definitiv Filmmaterial davon.' Journalist Christopher Sharp: Er habe von mehreren Quellen gehört, dass der Holloman-Besuch real war – ob extraterrestrisch, interdimensional oder ultra-terrestrisch, sei unklar.\n\n**Verbindung zu Spielberg und Close Encounters (1977)**\n\nSpielberg konsultierte J. Allen Hynek (Project Blue Book) für Close Encounters. Hynek war in Emeneggers Dokumentarfilm präsent. Die Verbindungslinie: Holloman-Vorfall (1964) → Emenegger-Film (1974) → Hynek → Spielberg → Close Encounters (1977). Emily Blunt über Disclosure Day (2026): 'Der Film beantwortet Fragen, die Close Encounters gestellt hat.' – Ein bewusster 50-Jahres-Bogen von Holloman zu Disclosure Day.\n\n**Verbindung zum Eisenhower-Treffen (1954)**\n\nEinige Forscher sehen Holloman 1964 als Fortsetzung eines angeblichen ersten Kontakts bei Holloman/Muroc AFB 1954 (Eisenhower-Treffen). Ray Stanford (UFO-Forscher) vermutet zwei separate Kontaktereignisse: 30. April 1964 (tagsüber) und 19./20. April 1978 (nachts).",
+      "witnesses": [
+        {
+          "name": "Paul Shartle",
+          "role": "Security Manager, Chief of Requirements, Audio-Visual Program, Norton AFB",
+          "testimony": "Sah das Holloman-Filmmaterial ca. 1967. Bestätigte 1988 öffentlich im Fernsehen (UFO Cover-Up? Live!): 'Drei scheibenförmige Fahrzeuge. Eines hatte Probleme und landete. Drei Aliens kamen heraus – menschengroß, seltsame graue Haut, ausgeprägte Nasen, enge Overalls, Kommunikations-Kopfbedeckungen, Übersetzungsgerät.' Auf Nachfrage zu den Aufzeichnungen: 'Ich hatte keine Kaufaufzeichnung für dieses Filmmaterial – und das war mein Job.'",
+          "credibility": "hoch",
+          "public_statement": true,
+          "year": "1988"
+        },
+        {
+          "name": "Robert Emenegger",
+          "role": "Dokumentarfilmer, Creative Director Gray Advertising, Nixon-Administration-Kontakt",
+          "testimony": "Erhielt 1972 Angebot des Pentagon, echtes Holloman-Filmmaterial für Dokumentarfilm zu nutzen. Besuchte Pentagon wiederholt ohne Eintragung. Col. Coleman genehmigte Nutzung. Kurz vor Fertigstellung: Filmmaterial konfisziert wegen Watergate-Klima. 1988 TV: 'Das Pentagon war sehr kooperativ – bis das Filmmaterial im letzten Moment konfisziert wurde und wir das gesamte Finale verloren.'",
+          "credibility": "hoch",
+          "public_statement": true,
+          "year": "1974/1988"
+        },
+        {
+          "name": "Allan Sandler",
+          "role": "Co-Produzent, angebliche CIA-Verbindungen",
+          "testimony": "Berichtete James Fox (2023): Drei UAPs, von Militärjet eskortiert. Zwei zogen ab, eines taumelte zur Erde. Wesen mit einzigartigen Merkmalen traten aus, dann brach das Filmmaterial ab.",
+          "credibility": "mittel",
+          "public_statement": false,
+          "year": "2023 (via James Fox)"
+        },
+        {
+          "name": "George H.W. Bush",
+          "role": "Ex-Präsident USA, ehem. CIA-Direktor, Navy-Pilot",
+          "testimony": "Bestätigte 2004 in zwei Telefonaten gegenüber Dr. Eric Davis: Kannte den Holloman-Film. Auf Frage ob Trainingsfilm oder Special Ops: 'Nein – es war das Echte.' Es habe ein geheimes Projekt gegeben, Sicherheitsstufe 'obszön'. (Quelle: Joe Murgia, dokumentiert via Hal Puthoff)",
+          "credibility": "sehr hoch",
+          "public_statement": false,
+          "year": "2004"
+        },
+        {
+          "name": "Dr. Eric Davis",
+          "role": "Astrophysiker, Pentagon AATIP Senior Science Advisor, EarthTech International",
+          "testimony": "Dokumentierte George H.W. Bushs Bestätigung des Holloman-Vorfalls. Erwähnte den Fall im Kontext des 'Legacy Program' in 'The Age of Disclosure' (2025).",
+          "credibility": "sehr hoch",
+          "public_statement": true,
+          "year": "2004/2025"
+        },
+        {
+          "name": "Dr. Jacques Vallée",
+          "role": "Astrophysiker, UFO-Forscher, Berater für Close Encounters",
+          "testimony": "Dokumentierte in 'Forbidden Science – Volume II' (Tagebuch): Emenegger berichtete ihm von der Konfiszierung durch Captain Horner. Beschrieb NHI-Merkmale: 'Assyrische Nasen, blaugrüne Haut, Augen wie Pingpong-Bälle, Spiralantennenstab.' Vallée war skeptisch, hielt die Geschichte aber für dokumentationswürdig.",
+          "credibility": "sehr hoch",
+          "public_statement": true,
+          "year": "1970er (Tagebuch)"
+        },
+        {
+          "name": "James Fox",
+          "role": "Dokumentarfilmer ('Moment of Contact', 'The Phenomenon')",
+          "testimony": "Berichtete auf Julian Dorey Podcast (2023): Sandler erzählte ihm persönlich von drei UAPs mit Militär-Eskorte, Landung, NHI-Austritt. Fox: 'Die Regierung hat definitiv Filmmaterial davon.'",
+          "credibility": "hoch",
+          "public_statement": true,
+          "year": "2023"
+        },
+        {
+          "name": "Col. William Coleman",
+          "role": "Ehem. Air Force Public Information Officer, Project Blue Book",
+          "testimony": "Genehmigte als Pentagon-Vertreter die Nutzung des Holloman-Filmmaterials für Emeneggers Dokumentarfilm. Erschien selbst im Film. War drei Wochen nach seiner Pensionierung für den Job engagiert worden (Vallée).",
+          "credibility": "hoch",
+          "public_statement": true,
+          "year": "1972/1974"
+        }
+      ],
+      "physical_evidence": [
+        {
+          "type": "16mm-Filmmaterial",
+          "description": "Klassifiziertes 16mm-Filmmaterial des Holloman-Vorfalls, von der Air Force bei Norton AFB gelagert. Paul Shartle sah es ca. 1967. Dem Pentagon zufolge für Emeneggers Dokumentarfilm freigegeben, dann kurz vor Fertigstellung konfisziert. Einige Frames sollen autorisiert in die animierte Rekonstruktion eingeflossen sein. Zuschauer entdeckten eine echte helle Scheibe im Hintergrund der Holloman-Landschaft.",
+          "status": "klassifiziert / konfisziert",
+          "custody": "US Air Force / Pentagon"
+        },
+        {
+          "type": "Animierte Rekonstruktion (Emenegger, 1974)",
+          "description": "Emenegger ersetzte das konfiszierte Filmmaterial durch eine animierte Sequenz basierend auf dem, was er gesehen hatte. Rod Serling beschrieb sie als Ereignis, das 'in der Zukunft passieren könnte oder vielleicht schon passiert ist.'",
+          "status": "öffentlich",
+          "url": "https://en.wikipedia.org/wiki/UFOs:_Past,_Present,_and_Future"
+        }
+      ],
+      "official_response": "Die US Air Force bezeichnete das Filmmaterial als 'Theatermaterial für einen Trainingsfilm'. Paul Shartle: Keine Kaufaufzeichnung existierte. Das Pentagon kooperierte zunächst vollständig mit Emenegger, konfiszierte das Material dann wegen des 'Watergate-Klimas'. Keine offizielle Bestätigung oder Dementierung des Vorfalls selbst.",
+      "connections": {
+        "people": [
+          "robert-emenegger",
+          "paul-shartle",
+          "steven-spielberg",
+          "eric-davis",
+          "j-allen-hynek",
+          "jacques-vallee",
+          "hal-puthoff",
+          "james-fox",
+          "george-hw-bush"
+        ],
+        "cases": [
+          "roswell-1947",
+          "holloman-eisenhower-1954",
+          "close-encounters-1977-film",
+          "disclosure-day-2026"
+        ],
+        "operations": [
+          "project-blue-book",
+          "legacy-program",
+          "aatip"
+        ]
+      },
+      "congruence_themes": [
+        "hollywood-disclosure-vehikel-spielberg",
+        "nuklear-uap-nexus-trinity-roswell",
+        "wilson-davis-reverse-engineering"
+      ],
+      "significance": "Holloman AFB 1964 ist einer der wenigen UAP-Fälle, bei dem: (1) ein amtierender Regierungsbeamter (Shartle) das Filmmaterial öffentlich bestätigte, (2) ein Ex-Präsident (Bush) den Vorfall als 'das Echte' bezeichnete, (3) das Pentagon aktiv mit einem Filmemacher kooperierte und das Material dann konfiszierte, (4) mehrere unabhängige Zeugen (Emenegger, Sandler, Shartle, Vallée, Fox) übereinstimmende Details berichteten, und (5) der Fall direkte Verbindungen zu Spielbergs Close Encounters (1977) und Disclosure Day (2026) aufweist.",
+      "sources": [
+        {
+          "name": "PodcastUFO.com – 'A UFO Landing at Holloman AFB?' (Charles Lear, 2021)",
+          "url": "https://podcastufo.com/a-ufo-landing-at-holloman-afb/",
+          "type": "Analyse / Primärquellen-Zusammenfassung"
+        },
+        {
+          "name": "JournalNews.com.ph – Jacques Vallée über Holloman, Eric Davis/Bush (Vicky Verma, 2023)",
+          "url": "https://journalnews.com.ph/jacques-vallee-on-footage-of-ufo-landing-at-holloman-afb-occupant-carried-vertical-staff-with-spiral-antenna/",
+          "type": "Sekundärquelle / Vallée-Tagebuch"
+        },
+        {
+          "name": "Alamogordo Town News – 'The Alamogordo Non-Human Entity and the 1964 Holloman AFB Alien Encounter' (Chris Edwards, 2025)",
+          "url": "https://2ndlifemediaalamogordo.town.news/g/alamogordo-nm/n/353012/alamogordo-non-human-entity-and-1964-holloman-afb-alien-encounter-fact",
+          "type": "Lokale Recherche / Zusammenfassung"
+        },
+        {
+          "name": "Wikipedia – UFOs: Past, Present, and Future (1974)",
+          "url": "https://en.wikipedia.org/wiki/UFOs:_Past,_Present,_and_Future",
+          "type": "Enzyklopädie"
+        },
+        {
+          "name": "Wikipedia – The Age of Disclosure (2025)",
+          "url": "https://en.wikipedia.org/wiki/The_Age_of_Disclosure",
+          "type": "Enzyklopädie"
+        },
+        {
+          "name": "UFO Cover-Up? Live! (1988) – Paul Shartle Fernsehzeugnis (Mike Farrell)",
+          "url": "https://www.youtube.com/watch?v=sA5GpKcJ3zc",
+          "type": "Primärquelle / Fernsehzeugnis"
+        },
+        {
+          "name": "Jacques Vallée – Forbidden Science, Volume II (Tagebucheintrag)",
+          "url": "https://journalnews.com.ph/jacques-vallee-on-footage-of-ufo-landing-at-holloman-afb-occupant-carried-vertical-staff-with-spiral-antenna/",
+          "type": "Primärquelle / Forschungstagebuch"
+        },
+        {
+          "name": "NY Post – 'President George HW Bush knew of 1964 alien contact' (Nov. 2025)",
+          "url": "https://nypost.com/2025/11/22/us-news/president-george-hw-bush-knew-of-1964-alien-contact-with-humans-in-new-mexico-documentary/",
+          "type": "Nachrichtenartikel"
+        },
+        {
+          "name": "SpyCulture.com – Close Encounters war 'counter to Air Force and DOD policy'",
+          "url": "https://www.spyculture.com/close-encounters-of-the-third-kind-was-counter-to-air-force-and-dod-policy/",
+          "type": "Dokumentenanalyse"
+        },
+        {
+          "name": "Reddit r/UFOs – Robert Emenegger Interview (Mel Fabregas)",
+          "url": "https://www.reddit.com/r/UFOs/comments/1ae5f6b/robert_emenegger_on_using_actual_footage_from_a/",
+          "type": "Interview-Zusammenfassung"
+        }
+      ]
     }
   ]
 }

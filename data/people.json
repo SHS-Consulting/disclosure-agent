@@ -3,7 +3,7 @@
     "version": "4.0",
     "last_updated": "2026-05-20",
     "add_command": "ADD_PERSON: name | role | bio | tags(comma separated) | source_url | emoji",
-    "total_people": 51
+    "total_people": 52
   },
   "people": [
     {
@@ -1018,6 +1018,82 @@
         {
           "name": "Holloman AFB 1964 – Alamogordo Non-Human Entity Incident",
           "url": "https://2ndlifemediaalamogordo.town.news/g/alamogordo-nm/n/353012/alamogordo-non-human-entity-and-1964-holloman-afb-alien-encounter-fact"
+        }
+      ]
+    },
+    {
+      "id": "robert-emenegger",
+      "name": "Robert Emenegger",
+      "role": "Dokumentarfilmer, Produzent – Pentagon-UFO-Kooperation 1972–1974",
+      "affiliation": "Gray Advertising Company / unabhängiger Produzent",
+      "nationality": "USA",
+      "born": "ca. 1930er",
+      "status": "historisch",
+      "credibility": "hoch",
+      "significance": "kritisch",
+      "bio": "Robert Emenegger ist ein amerikanischer Dokumentarfilmer und Werbeproduzent, der als Creative Director bei der Gray Advertising Company arbeitete – einer Agentur mit Verbindungen zur Nixon-Administration (Nixon bat Emenegger persönlich um Empfehlungen für sein Team). 1972 erhielt er zusammen mit Partner Allan Sandler vom Pentagon das außerordentliche Angebot, echtes, klassifiziertes 16mm-Filmmaterial einer UAP-Landung auf der Holloman Air Force Base (1964) für einen Dokumentarfilm zu nutzen. Das Pentagon kooperierte vollständig: Meetings ohne Eintragung (plausible deniability), Col. William Coleman genehmigte die Nutzung, die Air Force sollte den Film sponsern. Kurz vor Fertigstellung wurde das Filmmaterial konfisziert – offiziell wegen des Watergate-Klimas. Emenegger ersetzte es durch animierte Sequenzen. Sein Dokumentarfilm 'UFOs: Past, Present, and Future' (1974, Neuauflage 1979 als 'UFOs: It Has Begun') wurde für einen Golden Globe nominiert und enthält Auftritte von J. Allen Hynek, Jacques Vallée, Robert Friend und Col. Coleman. 1988 bestätigte Emenegger öffentlich im Fernsehen (UFO Cover-Up? Live!): Das Filmmaterial war echt, und er verlor das gesamte Finale seines Films durch die Konfiszierung.",
+      "key_statements": [
+        {
+          "quote": "Das Pentagon war sehr, sehr kooperativ – bis das Filmmaterial im letzten Moment konfisziert wurde und wir das gesamte Finale unserer Show verloren.",
+          "source": "UFO Cover-Up? Live! (Fernsehsendung, 1988)",
+          "url": "https://www.youtube.com/watch?v=sA5GpKcJ3zc"
+        },
+        {
+          "quote": "Was ich sah und hörte, überzeugte mich, dass das UFO-Phänomen real ist.",
+          "source": "UFO Cover-Up? Live! (Fernsehsendung, 1988)",
+          "url": "https://www.youtube.com/watch?v=sA5GpKcJ3zc"
+        },
+        {
+          "quote": "Ich konnte es nicht glauben – aber ich sagte 'na gut' und machte mit. [Über die Pentagon-Meetings, bei denen niemand die Holloman-Sequenz im Skript in Frage stellte]",
+          "source": "Interview mit Mel Fabregas",
+          "url": "https://www.reddit.com/r/UFOs/comments/1ae5f6b/robert_emenegger_on_using_actual_footage_from_a/"
+        },
+        {
+          "quote": "Das Filmmaterial von der echten UFO-Landung war authentisch und klassifiziert. Die Air Force war bereit, es mir für meinen Dokumentarfilm zu überlassen.",
+          "source": "Reddit AMA / Interview-Zusammenfassung",
+          "url": "https://www.reddit.com/r/ufo/comments/1diwdyx/what_is_the_general_consensus_about_the_supposed/"
+        },
+        {
+          "quote": "[Über Allan Sandler] Er hatte sehr seltsame Verbindungen und tat Dinge für die CIA und vielleicht sogar das FBI – sie alle schienen zusammenzuarbeiten.",
+          "source": "Robbie Graham, Mysterious Universe (via Interview)",
+          "url": "https://mysteriousuniverse.org/2019/01/when-the-government-gave-hollywood-footage-of-a-real-alien-landing/"
+        }
+      ],
+      "connections": [
+        "paul-shartle",
+        "steven-spielberg",
+        "j-allen-hynek",
+        "jacques-vallee",
+        "william-coleman"
+      ],
+      "related_cases": [
+        "holloman-afb-1964-nhi-kontakt"
+      ],
+      "tags": [
+        "hollywood",
+        "soft-disclosure",
+        "pentagon",
+        "dokumentarfilm",
+        "holloman",
+        "1974",
+        "konfisziert"
+      ],
+      "sources": [
+        {
+          "name": "PodcastUFO.com – 'A UFO Landing at Holloman AFB?' (Charles Lear, 2021)",
+          "url": "https://podcastufo.com/a-ufo-landing-at-holloman-afb/"
+        },
+        {
+          "name": "Wikipedia – UFOs: Past, Present, and Future (1974)",
+          "url": "https://en.wikipedia.org/wiki/UFOs:_Past,_Present,_and_Future"
+        },
+        {
+          "name": "UFO Cover-Up? Live! (1988) – Emenegger und Shartle im Fernsehen",
+          "url": "https://www.youtube.com/watch?v=sA5GpKcJ3zc"
+        },
+        {
+          "name": "Robbie Graham – Mysterious Universe: 'When the Government Gave Hollywood Footage of a Real Alien Landing'",
+          "url": "https://mysteriousuniverse.org/2019/01/when-the-government-gave-hollywood-footage-of-a-real-alien-landing/"
         }
       ]
     }
