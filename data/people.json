@@ -202,19 +202,133 @@
     },
     {
       "id": "salas",
-      "name": "Capt. Robert Salas",
+      "name": "Capt. Robert L. Salas (ret.)",
       "emoji": "☢️",
-      "role": "USAF · Malmstrom AFB · Nuklear-UAP · 1967",
-      "bio": "24. März 1967, Malmstrom AFB Montana: Rotes leuchtendes Objekt → 10 Minuteman-ICBMs offline. Selbes Muster 8 Tage früher Echo Flight. NDA unterzeichnet. Vor Kongress: 'Pacifist species — Botschaft: WTF, Nuklearwaffen.' Robert Hastings: 120+ ähnliche Militärfälle an Nuklearstandorten weltweit dokumentiert.",
+      "role": "USAF Missile Launch Officer · Malmstrom AFB · Nuklear-UAP-Hauptzeuge",
+      "born": "1940",
+      "nationality": "US-amerikanisch",
+      "education": [
+        "B.S. – U.S. Air Force Academy (Class of 1964)",
+        "M.S. Aerospace Engineering – Air Force Institute of Technology"
+      ],
+      "career": [
+        "USAF: ICBM Launch Controller, Malmstrom AFB Montana (1966–1967)",
+        "USAF: Missile Propulsion Engineer, Edwards AFB Californien",
+        "Martin-Marietta / Rockwell International (1971–1974)",
+        "Federal Aviation Administration (FAA) – bis ca. 1995 (Rente)",
+        "Mathematiklehrer (1999–2016)",
+        "Kandidat US-Repräsentantenhaus, Californien 26. Bezirk (2020, Democratic)"
+      ],
+      "bio": "Robert L. Salas ist der meistzitierte Nuklear-UAP-Zeuge der Welt. Als USAF-Offizier und ICBM-Launch-Controller auf der Malmstrom AFB in Montana erlebte er am 24. März 1967 den Oscar-Flight-Vorfall: Ein leuchtendes rotes Objekt schwebte über dem Fronttor, während alle 10 Minuteman-I-Raketen innerhalb von Sekunden in den NO-GO-Status fielen. Salas wurde zur Geheimhaltung verpflichtet und unterzeichnete eine NDA. Erst 1994, nach der Lektüre von Timothy Goods 'Above Top Secret', begann er, den Vorfall öffentlich zu machen. Seitdem hat er 3 Bücher veröffentlicht, unzählige Konferenzen besucht, beim National Press Club 2010 ausgesagt (CNN live), am Congressional Hearing November 2024 teilgenommen und die Pentagon-EMP-Erklärung von 2025 öffentlich widerlegt. Er lebt in Ojai, Californien, und ist Teilnehmer des Dokumentarfilms 'The Age of Disclosure' (SXSW 2025).",
+      "key_statements": [
+        {
+          "quote": "I was told to keep quiet about this. I signed a security oath. For years I said nothing. Then I read Timothy Good's book and realized: this happened to others too.",
+          "context": "Great Falls Tribune, 1996 – erstes öffentliches Interview",
+          "year": "1996"
+        },
+        {
+          "quote": "The object was glowing red. It was hovering directly above the front gate. All my security guards had their weapons drawn. Then the missiles started going down – one by one, within seconds. All ten.",
+          "context": "National Press Club, Washington D.C., 27. September 2010 (CNN live)",
+          "year": "2010"
+        },
+        {
+          "quote": "Whatever it was, it was not aggressive. It was demonstrating a capability. It was saying: 'We can do this. We can shut down your weapons.' I believe it was a message – a pacifist message.",
+          "context": "Congressional Hearing, House Oversight Committee, 13. November 2024",
+          "year": "2024"
+        },
+        {
+          "quote": "The Pentagon's explanation – a secret EMP test – is absurd. No EMP device in 1967 could selectively disable 10 ICBMs simultaneously without affecting other systems. And it doesn't explain the glowing object my guards saw.",
+          "context": "Widerlegung der WSJ/Pentagon-EMP-Erklärung, Ojai Valley News, Juni 2025",
+          "year": "2025"
+        },
+        {
+          "quote": "I was also abducted in 1985. I know how that sounds. But the nuclear incident and the abduction are connected – they are part of the same phenomenon.",
+          "context": "West Central Tribune, Februar 2025",
+          "year": "2025"
+        }
+      ],
+      "books": [
+        {
+          "title": "Faded Giant",
+          "year": "2005",
+          "publisher": "BookSurge",
+          "isbn": "1419603418",
+          "description": "Erstveröffentlichung des Oscar-Flight-Vorfalls und der Geheimhaltung"
+        },
+        {
+          "title": "Unidentified: The UFO Phenomenon – How World Governments Have Conspired to Conceal Humanity's Biggest Secret",
+          "year": "2014",
+          "publisher": "Weiser",
+          "isbn": "978-1601633422",
+          "description": "Erweiterung auf globale Regierungsvertuschung"
+        },
+        {
+          "title": "UAPs and the Nuclear Puzzle: Visitations, National Security, and the Need for Transparency",
+          "year": "2023",
+          "publisher": "New Page Books",
+          "isbn": "978-1637480168",
+          "description": "Aktuellstes Werk: Nuklear-UAP-Verbindung und Transparenzforderung"
+        }
+      ],
+      "connections": {
+        "cases": [
+          "malmstrom-afb-1967-nuklear-uap",
+          "nuklear-uap-nexus-trinity-roswell"
+        ],
+        "people": [
+          "robert-hastings",
+          "fred-meiwald",
+          "walt-figel"
+        ]
+      },
       "tags": [
         "nuklear",
         "icbm",
         "malmstrom",
         "nda",
         "salas",
-        "hastings"
+        "hastings",
+        "echo-flight",
+        "oscar-flight",
+        "foia",
+        "congressional-hearing",
+        "age-of-disclosure"
       ],
-      "source_url": "https://en.wikipedia.org/wiki/Malmstrom_UFO_incident"
+      "credibility": "sehr hoch",
+      "public_since": "1996",
+      "source_url": "https://en.wikipedia.org/wiki/Robert_Salas",
+      "sources": [
+        {
+          "name": "Wikipedia – Robert Salas",
+          "url": "https://en.wikipedia.org/wiki/Robert_Salas",
+          "type": "Enzyklopädie"
+        },
+        {
+          "name": "USAFA Class of 1964 – Bob's History (Primärquelle)",
+          "url": "https://www.usafaclasses.org/1964/Salas_Robert/history.htm",
+          "type": "Primärquelle"
+        },
+        {
+          "name": "CBS News – Ex-Air Force Personnel: UFOs Deactivated Nukes (2010)",
+          "url": "https://www.cbsnews.com/news/ex-air-force-personnel-ufos-deactivated-nukes/",
+          "type": "Nachrichtenartikel"
+        },
+        {
+          "name": "C-SPAN – Malmstrom Nuclear UFO 1967 (Congressional Hearing 2022)",
+          "url": "https://www.c-span.org/clip/house-committee/user-clip-malmstrom-nuclear-ufo-1967/5072738",
+          "type": "Kongress-Referenz"
+        },
+        {
+          "name": "Ojai Valley News – Salas Rebuttal zu Pentagon EMP-Erklärung (Juni 2025)",
+          "url": "https://www.ojaivalleynews.com/news/opinion-a-rebuttal-from-robert-salas-of-ojai-to-wall-street-journal-s-june-6/article_81c5493f-3c22-407f-ac1a-46b3009d1dea.html",
+          "type": "Widerlegung / Primärquelle"
+        },
+        {
+          "name": "Coffee or Die – Did UFOs Really Disable Nuclear-Armed American Missiles? (2021)",
+          "url": "https://www.coffeeordie.com/ufo-disabled-nuclear-icbm",
+          "type": "Nachrichtenartikel"
+        }
+      ]
     },
     {
       "id": "mack",

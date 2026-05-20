@@ -4,7 +4,7 @@
     "last_updated": "2026-05-20",
     "total": 64,
     "add_command": "ADD_CASE: title | region(usa/brazil/europe/russia/asia/australia/africa/space) | level(critical/high/medium/confirmed/historical) | date | location | description | source_url | tags(comma separated)",
-    "total_cases": 99
+    "total_cases": 100
   },
   "cases": [
     {
@@ -2607,6 +2607,125 @@
           "name": "JournalNews.com.ph – Eric Davis / George H.W. Bush bestätigt Holloman-Film",
           "url": "https://journalnews.com.ph/jacques-vallee-on-footage-of-ufo-landing-at-holloman-afb-occupant-carried-vertical-staff-with-spiral-antenna/",
           "type": "Sekundärquelle"
+        }
+      ]
+    },
+    {
+      "id": "eisenhower-muroc-edwards-1954-first-contact",
+      "title": "Muroc/Edwards AFB 1954 – Eisenhowers 'First Contact': Nordische NHI, Zahnarzttarnung, Greada Treaty",
+      "date": "1954-02-20",
+      "location": {
+        "country": "USA",
+        "region": "Californien",
+        "city": "Rosamond",
+        "site": "Muroc Airfield / Edwards Air Force Base (EAFB)",
+        "coordinates": "34.9054° N, 117.8839° W",
+        "note": "Öffentlich: Eisenhower auf Golfurlaub in Palm Springs, CA – 'Zahnarztnotfall'"
+      },
+      "category": "Präsidentieller Erstkontakt / NHI-Treffen",
+      "classification": "kritisch",
+      "status": "unbestätigt-aber-mehrfach-bezeugt",
+      "tags": [
+        "eisenhower",
+        "muroc",
+        "edwards-afb",
+        "1954",
+        "usa",
+        "nordische-nhi",
+        "greada-treaty",
+        "first-contact",
+        "palm-springs",
+        "zahnarzt-tarnung"
+      ],
+      "summary": "In der Nacht vom 20. auf den 21. Februar 1954 verschwand Präsident Eisenhower während seines Golfurlaubs in Palm Springs, Californien, für eine gesamte Nacht. Die offizielle Erklärung: Zahnarztnotfall (gebrochene Zahnkrone beim Hühneressen). Laut mehreren Quellen – darunter Gerald Lights Brief vom 16. April 1954 und spätere Zeugenberichte – wurde Eisenhower heimlich zur nahe gelegenen Muroc Airfield (heute Edwards AFB) gebracht, wo er zwei 'Nordische' Außerirdische (menschenähnlich, weiße Haare, blasse Augen) traf. Diese boten Technologietransfer gegen Aufgabe des Atomprogramms an. Eisenhower lehnte ab. Später im Jahr 1954 soll ein Vertrag mit einer anderen Rasse (den 'Grauen') geschlossen worden sein – der sogenannte Greada Treaty.",
+      "detailed_description": "**Historischer Kontext: Palm Springs, Februar 1954**\n\nPräsident Eisenhower reiste vom 17. bis 24. Februar 1954 nach Palm Springs, Californien, zum Golfspielen. In der Nacht vom 20. auf den 21. Februar verschwand er für die gesamte Nacht. Pressesekretär James Hagerty berief eine Notpressekonferenz ein und erklärte: Der Präsident habe beim Abendessen (gebratenes Hühnchen) die Porzellankappe seines oberen linken mittleren Schneidezahns abgebrochen und sei zu einem lokalen Zahnarzt gebracht worden. Am nächsten Morgen erschien Eisenhower bei einem Gottesdienst in Los Angeles – ohne weitere Erklärung. Ein lokaler Zahnarzt wurde bei einer offiziellen Veranstaltung als 'der Zahnarzt, der den Präsidenten behandelt hat' vorgestellt.\n\n**Gerald Lights Brief – 16. April 1954**\n\nDie erste öffentliche Quelle ist ein Brief von Gerald Light (Metaphysiker, Autor, bekannte Persönlichkeit der südkalifornischen Esoterik-Szene) an Meade Layne, Direktor der Borderland Sciences Research Associates. Light behauptete, Teil einer Delegation von Gemeindeführern gewesen zu sein, die zu dem Treffen eingeladen wurden, um die öffentliche Reaktion zu testen:\n\n> 'Ich bin gerade von Muroc zurückgekehrt. Der Bericht ist wahr – erschütternd wahr! Ich reiste in Begleitung von Franklin Allen (Hearst-Zeitungen), Edwin Nourse (Brookings Institute, Trumans Wirtschaftsberater) und Bischof MacIntyre (L.A.). Ich sah fünf separate und verschiedene Typen von Flugzeugen, die von unseren Luftwaffenoffizieren – mit Unterstützung und Erlaubnis der Ätherer – studiert und gehandhabt wurden. Präsident Eisenhower wurde eines Nachts während seines Besuchs in Palm Springs heimlich nach Muroc gebracht. Ich bin überzeugt, dass er direkt zum Volk sprechen wird – wenn die Pattsituation anhält. Eine offizielle Erklärung wird für Mitte Mai vorbereitet.'\n\nKeine offizielle Erklärung folgte. Light beschrieb die emotionale Reaktion der Anwesenden als 'vollständigen Zusammenbruch und Verwirrung' – als hätte 'die Welt aufgehört zu existieren'.\n\n**Die Delegation: Vier 'Weise Männer'**\n\nLight nannte vier Delegationsmitglieder:\n1. **Edwin Nourse** (1883–1974) – Erster Vorsitzender des Council of Economic Advisors unter Truman (1944–1953). Wirtschaftsexperte für die möglichen Folgen eines Erstkontakts.\n2. **Kardinal James Francis MacIntyre** – Bischof der Katholischen Kirche in Los Angeles (1948–1970), erster Kardinal des amerikanischen Westens (ernannt von Papst Pius XII. 1952). Repräsentant des Vatikans. Alle seine Korrespondenz ist für Forscher gesperrt.\n3. **Franklin Winthrop Allen** – Ehemaliger Hearst-Reporter, 80 Jahre alt, Autor eines Buches über parlamentarische Ausschüsse. Vertreter der Presse.\n4. **Gerald Light** selbst – Metaphysiker, Clairvoyant, Autor.\n\n**Die Nordischen NHI und das abgelehnte Angebot**\n\nLaut der Überlieferung trafen zwei Außerirdische mit 'nordischem' Aussehen ein: weiße Haare, blasse blaue Augen, farblose Lippen – menschenähnlich, aber eindeutig nicht menschlich. Kommunikation erfolgte telepathisch. Ihr Angebot:\n- Aufgabe des US-Atomprogramms → Erhalt überlegener Technologie und spirituellen Wissens.\n\nEisenhower lehnte ab. Er wollte die Nuklearwaffen nicht aufgeben – insbesondere nicht ohne Garantien, dass die Sowjetunion dasselbe täte.\n\n**Der Greada Treaty – Zweites Treffen (1954)**\n\nLaut der Überlieferung folgte später im Jahr 1954 ein zweites Treffen mit einer anderen außerirdischen Rasse – den 'Grauen' (Zeta Reticulaner). Mit diesen wurde der sogenannte 'Greada Treaty' geschlossen:\n- USA erlaubt begrenzte Entführungen für medizinische Studien → Rückgabe der Menschen.\n- Außerirdische teilen Technologie mit der US-Regierung.\n- Geheimhaltung auf beiden Seiten.\n\nKritiker: Der Vertrag erklärt, warum Entführungsberichte nach 1954 explodieren und warum die US-Regierung systematisch schweigt. Befürworter: Der Vertrag wurde gebrochen – viele Entführte wurden nie zurückgegeben.\n\n**Wissenschaftliche Einordnung (Martin Mack Teasley, 2025)**\n\nMartin Mack Teasley, Archivar der Eisenhower Presidential Library und Autor von 'The Real Ike: Eisenhower Fact and Fiction' (University Press of Kansas, 2025), widmet dem Vorfall ein ganzes Kapitel ('Take Me to Your Leader: Ike and the Extraterrestrials'). Er beschreibt die Episode als 'intriguing' und stellt fest, dass Eisenhower die US-Raumfahrt begründete (NASA, Mercury-Programm) – was einige als Reaktion auf das Treffen interpretieren. Teasley: 'Der Leser muss selbst urteilen.'\n\n**Verbindung zu Holloman AFB 1955 und 1964**\n\nViele Forscher sehen Muroc 1954 als Beginn einer Kontaktserie:\n1. Muroc/Edwards AFB, 20. Feb. 1954 – Nordische NHI, Angebot abgelehnt\n2. Holloman AFB, 11. Feb. 1955 – Graue NHI, Greada Treaty bestätigt/erweitert\n3. Holloman AFB, 25. April 1964 – Emenegger-Film, Shartle-Zeugnis, Bush-Bestätigung\n\nDiese Chronologie ist intern konsistent und erklärt, warum Holloman AFB in New Mexico zum Zentrum der US-NHI-Kontaktgeschichte wurde.",
+      "witnesses": [
+        {
+          "name": "Gerald Light",
+          "role": "Metaphysiker, Autor, Gemeindeführer Südkalifornien",
+          "testimony": "Brief vom 16. April 1954 an Meade Layne: Beschreibt persönliche Teilnahme an der Delegation, 5 Typen von Flugzeugen, emotionalen Zusammenbruch der Anwesenden, Eisenhowers heimliche Ankunft. Ankündigung einer offiziellen Erklärung für Mitte Mai (die nie kam).",
+          "credibility": "mittel (bekannt für okkulte Erfahrungen, aber Brief zeitnah)",
+          "public_statement": true,
+          "year": "1954"
+        },
+        {
+          "name": "Dr. Michael E. Salla (PhD)",
+          "role": "Exopolitik-Forscher, American University Washington D.C.",
+          "testimony": "Veröffentlichte 2004 eine detaillierte Analyse aller verfügbaren Quellen zum Muroc-Treffen. Identifizierte die vier Delegationsmitglieder und überprüfte ihre Hintergründe. Schlussfolgerung: Umstände sind konsistent mit einem echten Treffen.",
+          "credibility": "mittel",
+          "public_statement": true,
+          "year": "2004"
+        },
+        {
+          "name": "Martin Mack Teasley",
+          "role": "Archivar, Eisenhower Presidential Library; Autor 'The Real Ike' (2025)",
+          "testimony": "Widmet dem Vorfall Kapitel 9 seines akademischen Werks. Beschreibt die Episode als 'intriguing' und dokumentiert Eisenhowers Abwesenheit. Lässt den Leser selbst urteilen.",
+          "credibility": "hoch (akademisch)",
+          "public_statement": true,
+          "year": "2025"
+        }
+      ],
+      "physical_evidence": [
+        {
+          "type": "Pressemeldungen: Eisenhowers Verschwinden",
+          "description": "Zeitungsberichte vom 21. Februar 1954 bestätigen Eisenhowers Abwesenheit und die Zahnarzt-Erklärung. Pressesekretär Hagerty hielt eine Notpressekonferenz ab – ungewöhnlich für einen Zahnarztbesuch.",
+          "status": "öffentlich",
+          "url": "https://rgea.info/president-eisenhower-a-dental-emergency-and-the-potential-alien-cover-up/"
+        },
+        {
+          "type": "Gerald Light Brief (16. April 1954)",
+          "description": "Zeitgenössischer Brief, 4 Wochen nach dem Ereignis. Nannte vier namentlich überprüfbare Personen. Meade Layne beschrieb Light als 'begabten und hochgebildeten Schriftsteller und Redner'.",
+          "status": "historisch / nicht offiziell bestätigt",
+          "url": "http://www.bahaistudies.net/asma/eisenhower_meeting.pdf"
+        }
+      ],
+      "official_response": "Keine offizielle Bestätigung. Pressesekretär Hagerty (1954): Zahnarztnotfall. Eisenhower Presidential Library Archivar: 'Nichts in den Archiven deutet darauf hin.' Eisenhowers Sohn auf E-Mail-Anfrage: 'Nein.' (ohne weitere Erklärung). Martin Mack Teasley (2025): Dokumentiert den Vorfall akademisch ohne Bestätigung.",
+      "connections": {
+        "people": [
+          "eric-w-davis"
+        ],
+        "cases": [
+          "eisenhower-holloman-1955-nhi-treffen",
+          "holloman-afb-1964-nhi-kontakt",
+          "roswell-1947"
+        ],
+        "operations": [
+          "greada-treaty",
+          "majestic-12",
+          "legacy-program"
+        ]
+      },
+      "congruence_themes": [
+        "nuklear-uap-nexus-trinity-roswell",
+        "eisenhower-nhi-kontaktserie",
+        "holloman-kontaktserie-1955-1964"
+      ],
+      "significance": "Muroc/Edwards AFB 1954 ist der angebliche Beginn der Eisenhower-NHI-Kontaktserie und der Ausgangspunkt für den Greada Treaty. Die Kombination aus dokumentierter Abwesenheit, zeitnahem Zeugenbericht (Gerald Light, 4 Wochen später), vier überprüfbaren Delegationsmitgliedern und der akademischen Behandlung durch Teasley (2025) macht diesen Fall zu einem der historiographisch interessantesten der UAP-Geschichte. Die geografische Nähe zu Roswell (1947) und die zeitliche Nähe zu Trinity (1945) stützen die Nuklear-UAP-Nexus-These.",
+      "sources": [
+        {
+          "name": "Michael E. Salla PhD – 'Eisenhower's 1954 Meeting With Extraterrestrials' (2004)",
+          "url": "http://www.bahaistudies.net/asma/eisenhower_meeting.pdf",
+          "type": "Akademische Analyse"
+        },
+        {
+          "name": "Martin Mack Teasley – 'The Real Ike: Eisenhower Fact and Fiction' (2025, Kap. 9)",
+          "url": "https://kansaspress.ku.edu/blog/2025/12/18/dwight-d-eisenhower-and-the-ufo-controversy/",
+          "type": "Akademisches Buch / University Press of Kansas"
+        },
+        {
+          "name": "RGEA – 'President Eisenhower, A Dental Emergency, and the Alien Cover-Up'",
+          "url": "https://rgea.info/president-eisenhower-a-dental-emergency-and-the-potential-alien-cover-up/",
+          "type": "Zusammenfassung"
+        },
+        {
+          "name": "KVIA News – 'Report: Ex-President Eisenhower Met With Aliens' (2012)",
+          "url": "https://kvia.com/news/2012/02/15/report-ex-president-eisenhower-met-with-aliens-at-holloman-air-force-base/",
+          "type": "Nachrichtenartikel"
+        },
+        {
+          "name": "Reddit r/ufo – Eisenhower Edwards AFB 1954 Nordic aliens Greada Treaty",
+          "url": "https://www.reddit.com/r/ufo/comments/1i21cwj/what_do_you_think_about_meetings_and_agreements/",
+          "type": "Community-Diskussion"
         }
       ]
     }

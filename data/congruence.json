@@ -4,7 +4,7 @@
     "last_updated": "2026-05-20",
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
-    "total_themes": 43
+    "total_themes": 47
   },
   "themes": [
     {
@@ -1684,6 +1684,132 @@
         "nuklear-uap-nexus-trinity-roswell",
         "wilson-davis-reverse-engineering",
         "kona-blue-geheimprogramme"
+      ]
+    },
+    {
+      "id": "malmstrom-echo-oscar-flight-nuclear-shutdown",
+      "title": "Malmstrom Echo/Oscar Flight 1967 – 20 ICBMs deaktiviert: FOIA-bestätigter Nuklear-UAP-Vorfall",
+      "score": 9.5,
+      "category": "Nuklear / Militär",
+      "description": "Der am besten dokumentierte Nuklear-UAP-Vorfall: Innerhalb einer Woche (16. + 24. März 1967) wurden auf der Malmstrom AFB, Montana, insgesamt 20 Minuteman-I-ICBMs gleichzeitig deaktiviert – Echo Flight (10 Raketen) und Oscar Flight (10 Raketen). Gleichzeitig berichteten Sicherheitswachen von leuchtend roten, ovalen Objekten über den Silos. FOIA-Dokumente bestätigen den Echo-Flight-Vorfall. Capt. Robert Salas (Oscar Flight) und Col. Fred Meiwald wurden zur Geheimhaltung verpflichtet. 2010: National Press Club, 7 USAF-Veteranen, CNN live. 2024: Congressional Hearing. 2025: Pentagon-EMP-Erklärung von Salas öffentlich widerlegt.",
+      "sources": [
+        "Capt. Robert Salas – Oscar Flight, 24. März 1967 (Zeugenbericht)",
+        "Col. Walt Figel – Echo Flight, 16. März 1967 (Zeugenbericht)",
+        "FOIA-Dokument: 341st SMW Command History (declassifiziert 1994)",
+        "National Press Club, 27. September 2010 (CNN live, 7 USAF-Veteranen)",
+        "Congressional Hearing, House Oversight Committee, 13. November 2024",
+        "Robert Hastings – UFOs & Nukes (2008): 120+ ähnliche Vorfälle weltweit",
+        "Salas-Rebuttal zu WSJ/Pentagon EMP-Erklärung (Ojai Valley News, Juni 2025)"
+      ],
+      "temporal_gap": "57 Jahre (1967–2024)",
+      "independent_sources": 7,
+      "key_connections": [
+        "nuklear-uap-nexus-trinity-roswell",
+        "nuclear-interest",
+        "nuclear-observation-correlation"
+      ],
+      "cases": [
+        "malmstrom-afb-1967-nuklear-uap"
+      ],
+      "people": [
+        "salas",
+        "robert-hastings"
+      ]
+    },
+    {
+      "id": "eisenhower-nhi-kontaktserie",
+      "title": "Eisenhower-NHI-Kontaktserie 1954–1955: Muroc + Holloman – Präsident trifft Außerirdische",
+      "score": 8.8,
+      "category": "Präsidentieller Kontakt / Geheimhaltung",
+      "description": "Eine der beständigsten Erzählungen der UAP-Geschichte: Präsident Eisenhower soll in zwei getrennten Ereignissen (Muroc/Edwards AFB, Feb. 1954 und Holloman AFB, Feb. 1955) direkten Kontakt mit nicht-menschlicher Intelligenz gehabt haben. Muroc 1954: Nordische NHI bieten Technologietransfer gegen Aufgabe des Atomprogramms – Eisenhower lehnt ab. Holloman 1955: Graue NHI, Greada Treaty (Technologie gegen Entführungserlaubnis). Gerald Lights Brief (April 1954) ist die älteste Quelle. Rep. Eric Burlison (2026) referenziert Eric Davis' Beschreibung eines solchen Treffens. Akademische Behandlung durch Martin Mack Teasley (University Press of Kansas, 2025).",
+      "sources": [
+        "Gerald Light – Brief an Meade Layne, 16. April 1954 (4 Wochen nach dem Ereignis)",
+        "Dr. Michael E. Salla – 'Eisenhower's 1954 Meeting With Extraterrestrials' (2004)",
+        "Martin Mack Teasley – 'The Real Ike' Kap. 9 (University Press of Kansas, 2025)",
+        "Rep. Eric Burlison (Missouri) – Referenz auf Eric Davis' Beschreibung (2026)",
+        "Art Campbell – Brief-Quelle Holloman 1955 (Holloman-Bericht)",
+        "Dr. Eric Davis – Telefonprotokoll mit George H.W. Bush (2004): 'Es war das Echte'"
+      ],
+      "temporal_gap": "72 Jahre (1954–2026)",
+      "independent_sources": 6,
+      "key_connections": [
+        "holloman-kontaktserie-1955-1964",
+        "nuklear-uap-nexus-trinity-roswell",
+        "wilson-davis-reverse-engineering"
+      ],
+      "cases": [
+        "eisenhower-muroc-edwards-1954-first-contact",
+        "eisenhower-holloman-1955-nhi-treffen"
+      ],
+      "people": [
+        "eric-w-davis"
+      ]
+    },
+    {
+      "id": "holloman-kontaktserie-1955-1964",
+      "title": "Holloman AFB Kontaktserie 1955–1964: Drei Begegnungen, ein Ort – Emenegger, Shartle, Bush",
+      "score": 9.0,
+      "category": "NHI-Kontakt / Geheimhaltung",
+      "description": "Holloman AFB in New Mexico ist der einzige bekannte Ort, an dem mehrere unabhängige Quellen NHI-Kontakte auf derselben Basis beschreiben: (1) Eisenhower-Holloman 1955: Columbine III landet heimlich, Eisenhower betritt UAP für 45 Min. (2) Holloman AFB 1964: 3 UAPs landen, NHI mit Spiralantennenstab, 16mm-Film konfisziert. Paul Shartle (Norton AFB, 1988 TV-Zeugnis), George H.W. Bush (Eric Davis, 2004: 'Es war das Echte'), Jacques Vallée (Tagebuch 1970er), Robert Emenegger (Pentagon 1974, Filmmaterial konfisziert). Rep. Eric Burlison (2026) referenziert Eric Davis' Beschreibung. Geografische Konzentration: Holloman liegt 100km von Trinity (1945) und 200km von Roswell (1947).",
+      "sources": [
+        "Paul Shartle – Norton AFB, TV-Zeugnis 1988: 3 Scheiben, eine landet, NHI mit Spiralstab",
+        "George H.W. Bush – Eric Davis Telefonprotokoll 2004: 'Es war das Echte'",
+        "Jacques Vallée – Forbidden Science II (Tagebuch 1970er): NHI-Beschreibung",
+        "Robert Emenegger – Pentagon 1974: Filmmaterial versprochen und konfisziert",
+        "Art Campbell – Brief-Quelle Holloman 1955: Eisenhower 45 Min. im UAP",
+        "Rep. Eric Burlison (Missouri) – Referenz auf Eric Davis (2026)",
+        "James Fox – 'Die Regierung hat definitiv Filmmaterial davon' (2023)"
+      ],
+      "temporal_gap": "71 Jahre (1955–2026)",
+      "independent_sources": 7,
+      "key_connections": [
+        "eisenhower-nhi-kontaktserie",
+        "nuklear-uap-nexus-trinity-roswell",
+        "hollywood-disclosure-vehikel-spielberg"
+      ],
+      "cases": [
+        "holloman-afb-1964-nhi-kontakt",
+        "eisenhower-holloman-1955-nhi-treffen",
+        "eisenhower-muroc-edwards-1954-first-contact"
+      ],
+      "people": [
+        "eric-w-davis",
+        "robert-emenegger",
+        "steven-spielberg"
+      ]
+    },
+    {
+      "id": "geheimhaltungs-eskalation-nda-repressalien",
+      "title": "Geheimhaltungs-Eskalation: NDA-Unterzeichnungen, Filmbeschlagnahme, Repressalien – System schützt sich",
+      "score": 9.2,
+      "category": "Institutionelle Vertuschung / Geheimhaltung",
+      "description": "Ein wiederkehrendes Muster über 80 Jahre: Zeugen werden zur Geheimhaltung verpflichtet, Beweise konfisziert, Whistleblower mit Repressalien konfrontiert. Malmstrom 1967: Salas + Meiwald unterzeichnen NDAs, AFOSI anwesend. Holloman 1964/1974: Emenegger erhält Pentagon-Zusage für Filmmaterial, wird konfisziert. Roswell 1947: Marcel zur Falschaussage gezwungen. Grusch 2023: Repressalien gegen Whistleblower, IG-Beschwerde. Eric Davis 2019/2020: Pentagon-Briefings über 'off-world vehicles' – Teilnehmer zur Geheimhaltung verpflichtet. Das Muster ist konsistent: Je näher ein Zeuge an physischen Beweisen war, desto aggressiver die Geheimhaltungsmaßnahmen.",
+      "sources": [
+        "Capt. Robert Salas – NDA nach Oscar Flight 1967 (Zeugenbericht)",
+        "Robert Emenegger – Pentagon konfisziert Holloman-Filmmaterial 1974 (Zeugenbericht)",
+        "Jesse Marcel Sr. – Roswell 1947: Zur Falschaussage gezwungen (Zeugenbericht)",
+        "David Grusch – IG-Beschwerde 2023: Repressalien gegen UAP-Whistleblower",
+        "Dr. Eric Davis – Pentagon-Briefings 2019/2020: Teilnehmer zur Geheimhaltung verpflichtet",
+        "Bob Lazar – S-4 1989: Identität gelöscht, Akten vernichtet",
+        "Luis Elizondo – AATIP-Rücktritt 2017: Widerstand innerhalb des Pentagon"
+      ],
+      "temporal_gap": "79 Jahre (1947–2026)",
+      "independent_sources": 7,
+      "key_connections": [
+        "malmstrom-echo-oscar-flight-nuclear-shutdown",
+        "holloman-kontaktserie-1955-1964",
+        "wilson-davis-reverse-engineering",
+        "kona-blue-secret-programs-non-human"
+      ],
+      "cases": [
+        "malmstrom-afb-1967-nuklear-uap",
+        "holloman-afb-1964-nhi-kontakt",
+        "roswell-1947"
+      ],
+      "people": [
+        "salas",
+        "robert-emenegger",
+        "eric-w-davis"
       ]
     }
   ],
