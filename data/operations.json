@@ -1,32 +1,232 @@
 {
   "_meta": {
-    "version": "4.0", "last_updated": "2026-05-09",
-    "add_command": "ADD_OPERATION: name | years | agency | status(active/historical/classified) | description | significance"
+    "version": "4.0",
+    "last_updated": "2026-05-20",
+    "add_command": "ADD_OPERATION: name | years | agency | status(active/historical/classified) | description | significance",
+    "total_operations": 13
   },
   "dia_foia_documents": {
     "source": "DIA FOIA-00089-2018, Response Jan 2021, via Anthony Bragaglia",
     "context": "Diese 5 Dokumente sind Teil der 38 AAWSAP-Studien die BAASS (Bigelow Aerospace Advanced Space Studies) für das Pentagon produzierte. Sie dokumentieren die Materialforschung zu UAP-Wrackteilen — genau die Technologien die Bob Lazar für die Antriebe der 9 Flugscheiben in S-4 beschrieb.",
     "documents": [
-      {"title": "Metallic Glasses: Status and Prospects for Aerospace Applications", "doc_id": "DIA-08-0911-012", "date": "14 Dec 2009", "pages": 30, "summary": "Amorphe Metalllegierungen (Metallic Glasses) — außergewöhnliche Materialeigenschaften: gleichzeitig hart und verformbar wie Kunststoff, korrosionsbeständig, verlustfreie Energieleitung. Zirkonium-Titan-Kupfer-Nickel-Beryllium-Legierungen. Bob Lazar beschrieb ähnliche Materialien für UAP-Hülle."},
-      {"title": "Biomaterials", "pages": 32, "summary": "Biologisch-kompatible Materialien für Implantate, Wundheilung, künstliche Organe — und Aerospace-Schnittstellen. Verbindung Biologie-Technologie. Im UAP-Kontext: mögliche Mensch-Maschine-Interface-Technologie."},
-      {"title": "Materials for Advanced Aerospace Platforms", "pages": 27, "summary": "Hochleistungslegierungen, Verbundwerkstoffe, Hochtemperaturmaterialien für Hyperschall-Plattformen. Direkter Bezug zu UAP-Materialien die extreme Hitze bei Beschleunigung erzeugen müssten."},
-      {"title": "Metallic Spintronics", "pages": 27, "summary": "Spin-basierte Elektronik — Nutzung des Elektronen-Spins statt Ladung. Kein Wärmeverlust, extrem schnelle Schaltzeiten. Antiferromagnetische Spin-Valve-Strukturen. Mögliche Grundlage für UAP-Antriebssteuerung via Gravitationswellen."},
-      {"title": "Metamaterials for Aerospace Applications", "pages": 38, "summary": "Negativbrechungsindex-Materialien, Super-Lenses, Cloaking-Technologie. SiC-basierte Super-Linsen die Sub-Wellenlängen-Objekte abbilden. Tarnung durch Lichtmanipulation — exakt das was SWIR-Only UAP (PR-27) nahelegt: sichtbar nur in bestimmten Spektren."}
+      {
+        "title": "Metallic Glasses: Status and Prospects for Aerospace Applications",
+        "doc_id": "DIA-08-0911-012",
+        "date": "14 Dec 2009",
+        "pages": 30,
+        "summary": "Amorphe Metalllegierungen (Metallic Glasses) — außergewöhnliche Materialeigenschaften: gleichzeitig hart und verformbar wie Kunststoff, korrosionsbeständig, verlustfreie Energieleitung. Zirkonium-Titan-Kupfer-Nickel-Beryllium-Legierungen. Bob Lazar beschrieb ähnliche Materialien für UAP-Hülle."
+      },
+      {
+        "title": "Biomaterials",
+        "pages": 32,
+        "summary": "Biologisch-kompatible Materialien für Implantate, Wundheilung, künstliche Organe — und Aerospace-Schnittstellen. Verbindung Biologie-Technologie. Im UAP-Kontext: mögliche Mensch-Maschine-Interface-Technologie."
+      },
+      {
+        "title": "Materials for Advanced Aerospace Platforms",
+        "pages": 27,
+        "summary": "Hochleistungslegierungen, Verbundwerkstoffe, Hochtemperaturmaterialien für Hyperschall-Plattformen. Direkter Bezug zu UAP-Materialien die extreme Hitze bei Beschleunigung erzeugen müssten."
+      },
+      {
+        "title": "Metallic Spintronics",
+        "pages": 27,
+        "summary": "Spin-basierte Elektronik — Nutzung des Elektronen-Spins statt Ladung. Kein Wärmeverlust, extrem schnelle Schaltzeiten. Antiferromagnetische Spin-Valve-Strukturen. Mögliche Grundlage für UAP-Antriebssteuerung via Gravitationswellen."
+      },
+      {
+        "title": "Metamaterials for Aerospace Applications",
+        "pages": 38,
+        "summary": "Negativbrechungsindex-Materialien, Super-Lenses, Cloaking-Technologie. SiC-basierte Super-Linsen die Sub-Wellenlängen-Objekte abbilden. Tarnung durch Lichtmanipulation — exakt das was SWIR-Only UAP (PR-27) nahelegt: sichtbar nur in bestimmten Spektren."
+      }
     ],
     "key_insight": "Diese Studien zeigen: Das Pentagon hat jahrelang die exakten Technologien erforscht die in UAP-Sichtungen beschrieben werden — Metall-Gläser (Lazar-Hülle), Spintronik (Gravitations-Amplifier), Metamaterials (Cloaking/SWIR-Only). Das ist kein Zufall."
   },
   "operations": [
-    {"id":"project-sign","name":"Project Sign","years":"1947–1948","agency":"USAF/ATIC","status":"historical","description":"Erste offizielle USAF-Untersuchung. Internes 'Estimate of the Situation' schloss auf ET-Ursprung — von Gen. Vandenberg vernichtet. Öffentlich: 'alles erklärbar.'","significance":"Erste Bestätigung ET-Hypothese innerhalb der USAF — dann sofort unterdrückt."},
-    {"id":"project-grudge","name":"Project Grudge","years":"1949–1951","agency":"USAF","status":"historical","description":"Ruppelt: 'dark ages.' Explizites Debunking-Mandat. 23% der Fälle unerklärlich — trotzdem Gesamtschluss: alles erklärt.","significance":"Bewusstes Debunking als Regierungsstrategie etabliert."},
-    {"id":"project-blue-book","name":"Project Blue Book","years":"1952–1969","agency":"USAF/ATIC","status":"historical","description":"12.618 Fälle, 701 offiziell unerklärlich. Hynek als Berater. Nur 'sichere' Fälle öffentlich. Echte Berichte direkt an MJ-12-Nachfolger.","significance":"Öffentlichkeits-Beruhigung während interne Forschung weiterläuft."},
-    {"id":"robertson-panel","name":"Robertson Panel","years":"1953","agency":"CIA","status":"historical","description":"CIA-Wissenschaftskomitee. Ziel: Öffentlichkeit 'entängstigen' und UFO-Forschungsgruppen als Sicherheitsrisiko einstufen. Startpunkt der systematischen Vertuschungsstrategie.","significance":"Erste staatliche Propaganda-Strategie gegen UAP-Öffentlichkeit."},
-    {"id":"majestic-12","name":"Majestic 12 (MJ-12)","years":"1947–?","agency":"Multi-Agency / Präsident","status":"classified","description":"12-köpfiges Komitee (Hillenkoetter, Forrestal, Bush, Twining) für Roswell-Bergung. Dokumente 1984 aufgetaucht — überwiegend als Fälschungen eingestuft, aber 2 Elemente verifiziert.","significance":"Rahmen für alle späteren SAPs wenn Dokumente authentisch."},
-    {"id":"operacao-prato","name":"Operação Prato","years":"1977–1978","agency":"FAB (Brasilianische Luftwaffe)","status":"declassified","description":"500 Fotos, 15h Film, Colares/Pará. Physische Verletzungen durch Lichtstrahlen. Capt. Hollanda: Humanoid-Kontakt. 2004 deklassifiziert. BAASS holte 2009 alle Daten ab.","significance":"Umfangreichste offizielle Regierungs-UAP-Untersuchung mit physischen Beweisen weltweit."},
-    {"id":"project-stargate","name":"Project Stargate","years":"1978–1995","agency":"CIA/DIA","status":"declassified","description":"$20 Mio, Remote Viewing bestätigt funktionierend. Pat Price, Ingo Swann, Joe McMoneagle. Abschlussbericht: Methodik als 'real' eingestuft.","significance":"Offizieller CIA-Beweis dass Bewusstsein raumzeitlich ungebunden Information abrufen kann."},
-    {"id":"aawsap-aatip","name":"AAWSAP / AATIP","years":"2007–2012+","agency":"DIA/Pentagon","status":"semi-public","description":"$22 Mio. BAASS-Auftragnehmer. 38 Studien (Warp-Drive, Extradimensionen, Metallic Glasses, Spintronics, Metamaterials). Skinwalker Ranch zentral. 'Project Colares/Brazil' Workstream.","significance":"Direktes Pentagon-Forschungsprogramm zu UAP-Technologien — durch DIA FOIA 2021 bewiesen."},
-    {"id":"aaro","name":"AARO","years":"2022–heute","agency":"DoD","status":"active","description":"All-domain Anomaly Resolution Office. Gesetzlich bis 2027: alle SAPs auditieren. Kritiker: bisher wenig konkrete Ergebnisse.","significance":"Erste permanente offizielle UAP-Behörde der USA."},
-    {"id":"pursue","name":"PURSUE Act","years":"2026","agency":"Pentagon/WhiteHouse","status":"active","description":"Presidential Unsealing and Reporting System for UAP Encounters. Trump-Direktive. 162 Dokumente bisher. Gabbard: 'Erster Schritt.' 46 Videos zurückgestellt.","significance":"Größtes öffentliches Disclosure-Event in der US-Geschichte."},
-    {"id":"nids-skinwalker","name":"NIDS / Skinwalker Ranch","years":"1996–2004","agency":"Bigelow/Privat","status":"historical","description":"National Institute for Discovery Science. Multidisziplinäres Team: Strahlung vor Orbs, EM-Pulse, Hitchhiker-Effekte 2009 dokumentiert. Übergang zu BAASS/Pentagon.","significance":"Privat-staatliche Brücke: Bigelow verbindet Skinwalker + Brasilien + AATIP."},
-    {"id":"project-colares-brazil","name":"Project Colares/Brazil (AAWSAP)","years":"2009","agency":"BAASS/DIA","status":"classified","description":"AAWSAP-Workstream: Alle brasilianischen Militärdaten (Operação Prato 1977 + FAB 1986) in CAPELLA-Datenbank eingespeist. Größter historischer UAP-Datensatz mit physischen Beweisen.","significance":"Bigelow vereint drei weltbeste UAP-Datensätze: Skinwalker + Brasilien + AATIP."}
+    {
+      "id": "project-sign",
+      "name": "Project Sign",
+      "years": "1947–1948",
+      "agency": "USAF/ATIC",
+      "status": "historical",
+      "description": "Erste offizielle USAF-Untersuchung. Internes 'Estimate of the Situation' schloss auf ET-Ursprung — von Gen. Vandenberg vernichtet. Öffentlich: 'alles erklärbar.'",
+      "significance": "Erste Bestätigung ET-Hypothese innerhalb der USAF — dann sofort unterdrückt."
+    },
+    {
+      "id": "project-grudge",
+      "name": "Project Grudge",
+      "years": "1949–1951",
+      "agency": "USAF",
+      "status": "historical",
+      "description": "Ruppelt: 'dark ages.' Explizites Debunking-Mandat. 23% der Fälle unerklärlich — trotzdem Gesamtschluss: alles erklärt.",
+      "significance": "Bewusstes Debunking als Regierungsstrategie etabliert."
+    },
+    {
+      "id": "project-blue-book",
+      "name": "Project Blue Book",
+      "years": "1952–1969",
+      "agency": "USAF/ATIC",
+      "status": "historical",
+      "description": "12.618 Fälle, 701 offiziell unerklärlich. Hynek als Berater. Nur 'sichere' Fälle öffentlich. Echte Berichte direkt an MJ-12-Nachfolger.",
+      "significance": "Öffentlichkeits-Beruhigung während interne Forschung weiterläuft."
+    },
+    {
+      "id": "robertson-panel",
+      "name": "Robertson Panel",
+      "years": "1953",
+      "agency": "CIA",
+      "status": "historical",
+      "description": "CIA-Wissenschaftskomitee. Ziel: Öffentlichkeit 'entängstigen' und UFO-Forschungsgruppen als Sicherheitsrisiko einstufen. Startpunkt der systematischen Vertuschungsstrategie.",
+      "significance": "Erste staatliche Propaganda-Strategie gegen UAP-Öffentlichkeit."
+    },
+    {
+      "id": "majestic-12",
+      "name": "Majestic 12 (MJ-12)",
+      "years": "1947–?",
+      "agency": "Multi-Agency / Präsident",
+      "status": "classified",
+      "description": "12-köpfiges Komitee (Hillenkoetter, Forrestal, Bush, Twining) für Roswell-Bergung. Dokumente 1984 aufgetaucht — überwiegend als Fälschungen eingestuft, aber 2 Elemente verifiziert.",
+      "significance": "Rahmen für alle späteren SAPs wenn Dokumente authentisch."
+    },
+    {
+      "id": "operacao-prato",
+      "name": "Operação Prato",
+      "years": "1977–1978",
+      "agency": "FAB (Brasilianische Luftwaffe)",
+      "status": "declassified",
+      "description": "500 Fotos, 15h Film, Colares/Pará. Physische Verletzungen durch Lichtstrahlen. Capt. Hollanda: Humanoid-Kontakt. 2004 deklassifiziert. BAASS holte 2009 alle Daten ab.",
+      "significance": "Umfangreichste offizielle Regierungs-UAP-Untersuchung mit physischen Beweisen weltweit."
+    },
+    {
+      "id": "project-stargate",
+      "name": "Project Stargate",
+      "years": "1978–1995",
+      "agency": "CIA/DIA",
+      "status": "declassified",
+      "description": "$20 Mio, Remote Viewing bestätigt funktionierend. Pat Price, Ingo Swann, Joe McMoneagle. Abschlussbericht: Methodik als 'real' eingestuft.",
+      "significance": "Offizieller CIA-Beweis dass Bewusstsein raumzeitlich ungebunden Information abrufen kann."
+    },
+    {
+      "id": "aawsap-aatip",
+      "name": "AAWSAP / AATIP",
+      "years": "2007–2012+",
+      "agency": "DIA/Pentagon",
+      "status": "semi-public",
+      "description": "$22 Mio. BAASS-Auftragnehmer. 38 Studien (Warp-Drive, Extradimensionen, Metallic Glasses, Spintronics, Metamaterials). Skinwalker Ranch zentral. 'Project Colares/Brazil' Workstream.",
+      "significance": "Direktes Pentagon-Forschungsprogramm zu UAP-Technologien — durch DIA FOIA 2021 bewiesen."
+    },
+    {
+      "id": "aaro",
+      "name": "AARO",
+      "years": "2022–heute",
+      "agency": "DoD",
+      "status": "active",
+      "description": "All-domain Anomaly Resolution Office. Gesetzlich bis 2027: alle SAPs auditieren. Kritiker: bisher wenig konkrete Ergebnisse.",
+      "significance": "Erste permanente offizielle UAP-Behörde der USA."
+    },
+    {
+      "id": "pursue",
+      "name": "PURSUE Act",
+      "years": "2026",
+      "agency": "Pentagon/WhiteHouse",
+      "status": "active",
+      "description": "Presidential Unsealing and Reporting System for UAP Encounters. Trump-Direktive. 162 Dokumente bisher. Gabbard: 'Erster Schritt.' 46 Videos zurückgestellt.",
+      "significance": "Größtes öffentliches Disclosure-Event in der US-Geschichte."
+    },
+    {
+      "id": "nids-skinwalker",
+      "name": "NIDS / Skinwalker Ranch",
+      "years": "1996–2004",
+      "agency": "Bigelow/Privat",
+      "status": "historical",
+      "description": "National Institute for Discovery Science. Multidisziplinäres Team: Strahlung vor Orbs, EM-Pulse, Hitchhiker-Effekte 2009 dokumentiert. Übergang zu BAASS/Pentagon.",
+      "significance": "Privat-staatliche Brücke: Bigelow verbindet Skinwalker + Brasilien + AATIP."
+    },
+    {
+      "id": "project-colares-brazil",
+      "name": "Project Colares/Brazil (AAWSAP)",
+      "years": "2009",
+      "agency": "BAASS/DIA",
+      "status": "classified",
+      "description": "AAWSAP-Workstream: Alle brasilianischen Militärdaten (Operação Prato 1977 + FAB 1986) in CAPELLA-Datenbank eingespeist. Größter historischer UAP-Datensatz mit physischen Beweisen.",
+      "significance": "Bigelow vereint drei weltbeste UAP-Datensätze: Skinwalker + Brasilien + AATIP."
+    },
+    {
+      "id": "greada-treaty",
+      "name": "Greada Treaty",
+      "emoji": "📜",
+      "subtitle": "Geheimvertrag USA–NHI (1954–1955): Technologie gegen Entführungserlaubnis",
+      "period": "1954–laufend",
+      "classification": "unbestätigt-aber-mehrfach-bezeugt",
+      "status": "aktiv (laut Whistleblowern)",
+      "description": "Der 'Greada Treaty' (auch 'Grenada Treaty' oder 'Eisenhower Treaty') ist der angebliche Geheimvertrag zwischen der US-Regierung und einer außerirdischen Rasse (den 'Grauen' / Zeta Reticulaner), der 1954–1955 in einer Serie von Treffen auf Muroc/Edwards AFB und Holloman AFB ausgehandelt wurde. Laut der Überlieferung beinhaltet der Vertrag:\n\n**Kernbedingungen (laut Quellen):**\n- USA erlaubt begrenzte Entführungen menschlicher Bürger für medizinische Studien\n- NHI geben entführte Menschen zurück und melden die Entführungen der US-Regierung\n- NHI teilen Technologie mit der US-Regierung (Antigravitation, Materialien)\n- USA hält die Existenz der NHI geheim (Geheimhaltungspflicht)\n- USA darf keine Atomwaffen gegen NHI einsetzen\n\n**Vertragsbruch (laut Whistleblowern):**\nViele Entführte wurden nicht zurückgegeben. Die NHI entführten mehr Menschen als vereinbart. Die US-Regierung war nicht in der Lage, den Vertrag durchzusetzen. Laut einigen Quellen führte dies zu einer Eskalation der Geheimhaltung und zur Gründung von MJ-12 und später KONA BLUE.\n\n**Historische Einordnung:**\nDer Begriff 'Greada Treaty' wurde von Milton William Cooper (1989) popularisiert. Cooper behauptete, das Dokument im Rahmen seiner Navy-Intelligence-Tätigkeit gesehen zu haben. Spätere Quellen (Bob Lazar, Phil Schneider, Dr. Michael Salla) erweiterten die Erzählung. Keine offiziellen Dokumente bestätigen den Vertrag. Die Erzählung ist konsistent mit der Holloman-Kontaktserie (1954–1964) und erklärt die Explosion von Entführungsberichten nach 1954.",
+      "key_events": [
+        {
+          "date": "1954-02-20",
+          "event": "Muroc/Edwards AFB: Erstkontakt mit Nordischen NHI – Angebot abgelehnt",
+          "significance": "Eisenhower lehnt Technologietransfer gegen Atomverzicht ab"
+        },
+        {
+          "date": "1954-11",
+          "event": "Zweites Treffen (Datum unsicher): Graue NHI, Greada Treaty unterzeichnet",
+          "significance": "Beginn des Technologie-Entführungs-Austauschs"
+        },
+        {
+          "date": "1955-02-11",
+          "event": "Holloman AFB: Bestätigung/Erweiterung des Vertrags",
+          "significance": "Eisenhower betritt UAP für 45 Minuten"
+        },
+        {
+          "date": "1964-04-25",
+          "event": "Holloman AFB: Dritter Kontakt – Emenegger-Film",
+          "significance": "Mögliche Vertragsüberprüfung oder -erweiterung"
+        },
+        {
+          "date": "1989",
+          "event": "Milton William Cooper veröffentlicht 'Behold a Pale Horse' – erste öffentliche Erwähnung",
+          "significance": "Greada Treaty wird öffentlich bekannt"
+        }
+      ],
+      "key_figures": [
+        "Präsident Dwight D. Eisenhower",
+        "Milton William Cooper (Navy Intelligence, Whistleblower)",
+        "Bob Lazar (S-4, Element 115, Zeta Reticuli)",
+        "Phil Schneider (Dulce Base, Geologist)",
+        "Dr. Michael E. Salla (Exopolitik-Forscher)",
+        "Dr. Eric Davis (AATIP, Holloman-Bestätigung via Bush)"
+      ],
+      "connections": {
+        "cases": [
+          "eisenhower-muroc-edwards-1954-first-contact",
+          "eisenhower-holloman-1955-nhi-treffen",
+          "holloman-afb-1964-nhi-kontakt"
+        ],
+        "operations": [
+          "majestic-12",
+          "kona-blue",
+          "legacy-program"
+        ]
+      },
+      "official_response": "Keine offizielle Bestätigung. Alle Regierungsquellen dementieren. AARO (2024): Keine Belege für außerirdische Verträge gefunden. Eisenhower Presidential Library: Keine Dokumente über NHI-Treffen.",
+      "sources": [
+        {
+          "name": "Milton William Cooper – 'Behold a Pale Horse' (1991)",
+          "url": "https://en.wikipedia.org/wiki/Behold_a_Pale_Horse",
+          "type": "Buch / Whistleblower"
+        },
+        {
+          "name": "Dr. Michael E. Salla – 'Eisenhower's 1954 Meeting With Extraterrestrials' (2004)",
+          "url": "http://www.bahaistudies.net/asma/eisenhower_meeting.pdf",
+          "type": "Akademische Analyse"
+        },
+        {
+          "name": "Wikipedia – Greada Treaty",
+          "url": "https://en.wikipedia.org/wiki/Greada_Treaty",
+          "type": "Enzyklopädie"
+        },
+        {
+          "name": "meer.com – 'Did Eisenhower meet aliens?' (M. Timothy Mounce, April 2026)",
+          "url": "https://www.meer.com/en/105987-did-eisenhower-meet-aliens",
+          "type": "Analyse"
+        }
+      ]
+    }
   ]
 }
