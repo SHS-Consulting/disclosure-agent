@@ -3,7 +3,7 @@
     "version": "4.0",
     "last_updated": "2026-05-21",
     "add_command": "ADD_PERSON: name | role | bio | tags(comma separated) | source_url | emoji",
-    "total_people": 55
+    "total_people": 56
   },
   "people": [
     {
@@ -1463,6 +1463,78 @@
         }
       ],
       "source_url": "https://www.magazin2000plus.de"
+    },
+    {
+      "id": "zecharia-sitchin",
+      "name": "Zecharia Sitchin",
+      "emoji": "📜",
+      "role": "Autor, Altorientalist, Anunnaki/Nibiru-Forscher",
+      "nationality": "Aserbaidschanisch-Amerikanisch",
+      "born": "1920",
+      "died": "2010",
+      "affiliation": "Unabhängig",
+      "status": "verstorben",
+      "credibility": "Umstritten – Laien-Altorientalist, aber weitreichender kultureller Einfluss",
+      "tags": [
+        "wissenschaft",
+        "anunnaki",
+        "nibiru",
+        "sumerisch",
+        "soft-disclosure"
+      ],
+      "bio": "Zecharia Sitchin (1920–2010) war ein aserbaidschanisch-amerikanischer Autor und Selbststudierter der altorientalischen Sprachen. Er studierte an der London School of Economics und arbeitete als Journalist und Redakteur in Israel, bevor er sich der Erforschung sumerischer Keilschriften widmete. Sein 1976 erschienenes Buch 'Der zwölfte Planet' (The 12th Planet) begründete die 'Ancient Astronaut'-These: Die sumerischen Götter (Anunnaki) seien Bewohner des Planeten Nibiru (3.600-Jahr-Orbit), die zur Erde kamen, um Gold abzubauen und den Homo sapiens genetisch zu erschaffen. Sitchin veröffentlichte insgesamt 15 Bücher (Earth Chronicles-Serie), die zusammen über 2 Millionen Mal verkauft wurden und in 25 Sprachen übersetzt wurden. Mainstream-Altorientalisten kritisieren seine Übersetzungen als fehlerhaft; Befürworter sehen in seinen Werken eine Schlüsselquelle für das Verständnis der Anunnaki-Verbindung. Morpheus, Erich von Däniken und zahlreiche Disclosure-Forscher stützen sich auf Sitchins Grundlagenwerk.",
+      "key_statements": [
+        "Die sumerischen Götter – die Anunnaki – waren keine Mythen, sondern reale Wesen vom 12. Planeten Nibiru, die vor 450.000 Jahren zur Erde kamen, um Gold abzubauen.",
+        "Der Homo sapiens wurde durch genetische Manipulation der Anunnaki erschaffen – eine Kreuzung zwischen Homo erectus und Anunnaki-DNA – als Arbeitssklave für den Goldabbau.",
+        "Nibiru umkreist die Sonne in einer elliptischen Bahn mit einer Umlaufzeit von 3.600 Jahren (ein 'Sar' in sumerischer Zeitrechnung) – sein nächster Vorbeiflug verursacht periodische Erdkatastrophen.",
+        "Die sumerischen Keilschriften beschreiben detailliert Raumfahrt, Genetik und Astronomie – Wissen, das die Sumerer ohne außerirdische Lehrer nicht hätten besitzen können.",
+        "Das Alte Testament ist eine verkürzte Version der sumerischen Texte – JAHWE ist eine Zusammenführung mehrerer Anunnaki-Figuren, insbesondere Enlil und Enki."
+      ],
+      "connections": [
+        "morpheus",
+        "erich-von-daeniken",
+        "anunnaki",
+        "nibiru",
+        "sumerisch"
+      ],
+      "books": [
+        {
+          "title": "Der zwölfte Planet (The 12th Planet)",
+          "year": 1976,
+          "series": "Earth Chronicles Band 1"
+        },
+        {
+          "title": "The Stairway to Heaven",
+          "year": 1980,
+          "series": "Earth Chronicles Band 2"
+        },
+        {
+          "title": "The Wars of Gods and Men",
+          "year": 1985,
+          "series": "Earth Chronicles Band 3"
+        },
+        {
+          "title": "The Lost Realms",
+          "year": 1990,
+          "series": "Earth Chronicles Band 4"
+        },
+        {
+          "title": "When Time Began",
+          "year": 1993,
+          "series": "Earth Chronicles Band 5"
+        },
+        {
+          "title": "Divine Encounters",
+          "year": 1995,
+          "series": "Earth Chronicles Band 6"
+        },
+        {
+          "title": "The Cosmic Code",
+          "year": 1998,
+          "series": "Earth Chronicles Band 6"
+        }
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Zecharia_Sitchin"
     }
   ]
 }
