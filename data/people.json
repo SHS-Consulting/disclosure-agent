@@ -1,9 +1,9 @@
 {
   "_meta": {
     "version": "4.0",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-05-21",
     "add_command": "ADD_PERSON: name | role | bio | tags(comma separated) | source_url | emoji",
-    "total_people": 52
+    "total_people": 53
   },
   "people": [
     {
@@ -1208,6 +1208,99 @@
         {
           "name": "Robbie Graham – Mysterious Universe: 'When the Government Gave Hollywood Footage of a Real Alien Landing'",
           "url": "https://mysteriousuniverse.org/2019/01/when-the-government-gave-hollywood-footage-of-a-real-alien-landing/"
+        }
+      ]
+    },
+    {
+      "id": "phil-schneider",
+      "name": "Philip Schneider",
+      "emoji": "⛏️",
+      "role": "Geoloog · Sprengstoffingenieur · Dulce-Base-Whistleblower · 1979",
+      "born": "1947-04-23",
+      "died": "1996-01-17",
+      "nationality": "US-amerikanisch",
+      "education": [
+        "Geologie und Strukturmechanik (ohne Abschluss, eigene Angabe)",
+        "Sprengstoff-Zertifizierung, US-Militär"
+      ],
+      "career": [
+        "US-Regierung / Morrison-Knudsen: Geoloog und Sprengstoffingenieur für unterirdische Militärbasen (DUMB – Deep Underground Military Bases)",
+        "Behauptete: Sicherheitsfreigabe Stufe Cosmic (höchste Stufe), 17 Jahre Regierungsarbeit",
+        "1979: Dulce-Einsatz (eigene Angabe)",
+        "1994–1995: Vortragstour auf UFO-Konferenzen (ca. 30 Vorträge in einem Jahr)",
+        "1995: Ankündigung, alle Geheimnisse offenzulegen – 6 Monate später tot"
+      ],
+      "bio": "Philip Schneider war ein US-amerikanischer Geoloog und Sprengstoffingenieur, der behauptete, für die US-Regierung an unterirdischen Militärbasen (DUMBs) gearbeitet zu haben. Sein bekanntester Vortrag (1995) beschreibt einen angeblichen Kampf in der Dulce Base, New Mexico, im Jahr 1979, bei dem er 66 Militärangehörige und Zivilisten verlor und selbst mit einer Kobalt-Strahlenwaffe verletzt wurde (fehlende Finger an seiner linken Hand zeigte er als Beweis). Schneider starb am 17. Januar 1996 in seiner Wohnung in Willowbrook, Oregon. Die Polizei klassifizierte den Tod als Selbstmord durch Strangulation mit einem Katheter-Schlauch. Seine Ex-Frau Cynthia Drayer und Anhänger behaupten, er wurde ermordet – als Konsequenz seiner Enthüllungen. Schneiders Vater Oscar Schneider war angeblich ein U-Boot-Kapitän, der an geheimen Projekten beteiligt war (Operation Crossroads, Bikini-Atoll-Tests). Schneiders Glaubwürdigkeit ist stark umstritten: Keine unabhängige Verifikation seiner Ansprüche, keine Dokumente, keine Zeugen für den Dulce-Kampf. Dennoch ist er eine Schlüsselfigur der Dulce-Base-Überlieferung und der Geheimhaltungs-Eskalations-These.",
+      "key_statements": [
+        {
+          "quote": "In 1979, I was involved in building an addition to the deep underground military base at Dulce, New Mexico. We were cutting through rock when we opened up a large cavern. We found a group of large-nosed gray aliens. I shot two of them. My colleague shot a third. I was struck with a cobalt radiation gun – that's why I'm missing these fingers.",
+          "context": "UFO-Konferenz Vortrag, 1995 (einer von ca. 30 Vorträgen)",
+          "year": "1995"
+        },
+        {
+          "quote": "There are 131 active deep underground military bases in the United States. Each base costs between 17 and 26 billion dollars to build. The black budget is 25% of the gross national product – and it's growing at 10% per year.",
+          "context": "UFO-Konferenz Vortrag, 1995",
+          "year": "1995"
+        },
+        {
+          "quote": "I am going to tell you everything I know. I have six months to live. I have been the target of 13 assassination attempts in the last two years. If I am murdered, know that it is because I told the truth.",
+          "context": "Ankündigung 1995 – 6 Monate später tot",
+          "year": "1995"
+        },
+        {
+          "quote": "The Greada Treaty was signed in 1954. It was a deal with the devil. We gave them permission to abduct humans for experiments. They were supposed to give them back. They didn't.",
+          "context": "UFO-Konferenz Vortrag, 1995",
+          "year": "1995"
+        }
+      ],
+      "death": {
+        "date": "1996-01-17",
+        "location": "Willowbrook, Oregon",
+        "official_cause": "Selbstmord durch Strangulation mit Katheter-Schlauch",
+        "disputed": true,
+        "dispute_notes": "Ex-Frau Cynthia Drayer: Mord. Argumente: Schneider war Rechtshänder, Schlauch war mehrfach um den Hals gewickelt (schwer allein durchführbar), Wohnung war durchwühlt, Unterlagen fehlten. Polizei: Keine Beweise für Fremdeinwirkung. Schneider hatte zuvor 13 Mordanschläge behauptet."
+      },
+      "credibility": "sehr umstritten",
+      "connections": {
+        "cases": [
+          "dulce-base-new-mexico-underground-alien-facility"
+        ],
+        "operations": [
+          "greada-treaty",
+          "majestic-12"
+        ]
+      },
+      "tags": [
+        "dulce",
+        "dumb",
+        "underground",
+        "schneider",
+        "whistleblower",
+        "greada-treaty",
+        "1979",
+        "tod-ungeklärt"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/UFO_conspiracy_theories",
+      "sources": [
+        {
+          "name": "Discovery.com – 'Allegedly, There Is a Secret Underground Alien Base in Dulce, NM'",
+          "url": "https://www.discovery.com/exploration/Secret-Underground-Alien-Base-Dulce-New-Mexico",
+          "type": "Zusammenfassung"
+        },
+        {
+          "name": "Epoch Times – 'Alien-Human Battle of 1979 in New Mexico: Alleged Eye Witness Report'",
+          "url": "https://www.theepochtimes.com/alien-human-battle-of-1979-in-new-mexico-alleged-eye-witness-report_607504.html",
+          "type": "Zeugenbericht"
+        },
+        {
+          "name": "The Sun – 'Secret underground base conspiracy theorists are convinced exists' (Juli 2025)",
+          "url": "https://www.the-sun.com/news/14609837/underground-base-ufo-alien-new-mexico-conspiracy-dulce/",
+          "type": "Nachrichtenartikel"
+        },
+        {
+          "name": "Reddit r/HighStrangeness – Phil Schneider Diskussion",
+          "url": "https://www.reddit.com/r/HighStrangeness/comments/1fp6u0y/what_is_everyones_thoughts_on_phil_schneider_and/",
+          "type": "Community-Diskussion"
         }
       ]
     }

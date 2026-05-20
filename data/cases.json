@@ -1,10 +1,10 @@
 {
   "_meta": {
     "version": "4.0",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-05-21",
     "total": 64,
     "add_command": "ADD_CASE: title | region(usa/brazil/europe/russia/asia/australia/africa/space) | level(critical/high/medium/confirmed/historical) | date | location | description | source_url | tags(comma separated)",
-    "total_cases": 100
+    "total_cases": 101
   },
   "cases": [
     {
@@ -2727,6 +2727,132 @@
           "name": "Reddit r/ufo – Eisenhower Edwards AFB 1954 Nordic aliens Greada Treaty",
           "url": "https://www.reddit.com/r/ufo/comments/1i21cwj/what_do_you_think_about_meetings_and_agreements/",
           "type": "Community-Diskussion"
+        }
+      ]
+    },
+    {
+      "id": "dulce-base-new-mexico-underground-alien-facility",
+      "title": "Dulce Base – Unterirdische NHI-Anlage in New Mexico: Schneider-Kampf 1979, Bennewitz, Greada Treaty-Vertragsbruch",
+      "date": "1979-08",
+      "location": {
+        "country": "USA",
+        "region": "New Mexico",
+        "city": "Dulce",
+        "site": "Archuleta Mesa, unterhalb des Jicarilla Apache Reservats",
+        "coordinates": "36.9382° N, 107.0006° W",
+        "note": "Kleinste Stadt New Mexicos ohne Ampel – angeblich über 7-stöckiger Untergrundanlage"
+      },
+      "category": "Unterirdische Basis / NHI-Kooperation / Greada Treaty",
+      "classification": "kritisch",
+      "status": "unbestätigt – mehrere unabhängige Quellen",
+      "tags": [
+        "dulce",
+        "underground",
+        "dumb",
+        "new-mexico",
+        "usa",
+        "nhi",
+        "greada-treaty",
+        "schneider",
+        "bennewitz",
+        "genetische-experimente",
+        "entführungen"
+      ],
+      "summary": "Dulce, New Mexico: Laut mehreren Quellen existiert unter dem Archuleta Mesa eine 7-stöckige unterirdische Anlage, die gemeinsam von Menschen und Grauen NHI betrieben wird. Ebene 1–4: Sicherheit, Lager, Laboratorien. Ebene 5: Alien Housing. Ebene 6–7: Genetische Experimente an Menschen und Tieren ('Nightmare Hall'). Phil Schneider (1995): Sprengstoffingenieur, der 1979 beim Tunnelbau auf NHI stieß – Kampf, 66 Tote, Schneider verletzt. Paul Bennewitz (1979–1988): Physiker, der elektronische Signale abfing und als NHI-Kommunikation interpretierte. Verbindung: Dulce gilt als Zentrum des Greada-Treaty-Vertragsbruchs – Entführte wurden nicht zurückgegeben, sondern in Ebene 6–7 gehalten.",
+      "detailed_description": "**Geografischer Kontext**\n\nDulce ist eine Kleinstadt im Norden New Mexicos mit ca. 2.600 Einwohnern, Hauptstadt des Jicarilla Apache Nation Reservats. Sie liegt 100km nördlich von Los Alamos (Manhattan Project) und 200km nordwestlich von Roswell. Der Archuleta Mesa überragt die Stadt und gilt als Eingang zur angeblichen Basis.\n\n**Paul Bennewitz – Der erste Zeuge (1979–1988)**\n\nPaul Bennewitz (PhD Physik, Albuquerque) begann 1979, elektronische Signale in der Nähe von Kirtland AFB abzufangen. Er interpretierte sie als NHI-Kommunikation und entwickelte die Überzeugung, dass eine unterirdische Basis bei Dulce existiert. Bis 1983 erschienen seine Behauptungen in der Presse. Die AFOSI (Richard Doty) bestätigte Bennewitz' Theorien mit gefälschten Dokumenten – angeblich um ihn von echten Geheimprogrammen (Stealth-Technologie) abzulenken. Bennewitz erlitt einen Nervenzusammenbruch und wurde hospitalisiert. Sein Fall gilt als Paradebeispiel für staatliche Disinformation.\n\n**Phil Schneider – Der Dulce-Kampf 1979**\n\nPhilip Schneider behauptete in Vorträgen (1994–1995), 1979 als Sprengstoffingenieur beim Bau eines Tunnels für eine neue DUMB-Sektion bei Dulce auf eine Gruppe 'großnasiger Grauer' gestoßen zu sein. Ein Kampf entbrannte: 66 Militärangehörige und Zivilisten starben. Schneider wurde von einer Kobalt-Strahlenwaffe getroffen – er zeigte fehlende Finger als Beweis. Er wurde von einem Delta-Force-Soldaten gerettet. Schneider starb am 17. Januar 1996 unter ungeklärten Umständen (offiziell: Selbstmord; Ex-Frau: Mord).\n\n**Thomas Edwin Castello – Der 'Dulce Papers' Whistleblower**\n\nThomas Edwin Castello behauptete, Sicherheitstechniker der Dulce Base gewesen zu sein und schmuggelte angeblich Fotos und Dokumente heraus ('Dulce Papers'). Er beschrieb 7 Ebenen:\n- Ebene 1: Sicherheit und Transport\n- Ebene 2: Wohnbereich für Menschen\n- Ebene 3: Laboratorien\n- Ebene 4: Mentale Studien (Telepathie, Hypnose)\n- Ebene 5: Alien Housing (Graue NHI)\n- Ebene 6: Genetische Experimente (Tier-Mensch-Hybride)\n- Ebene 7: 'Nightmare Hall' – Menschliche Entführte in Tanks\n\nCastello verschwand nach 1990. Keine unabhängige Verifikation seiner Identität.\n\n**Gabe Valdez – Viehverstümmelungen als physische Evidenz**\n\nGabe Valdez, ehemaliger New Mexico State Police Trooper, dokumentierte ab 1975 unerklärliche Viehverstümmelungen in der Dulce-Region: Chirurgisch präzise Schnitte, kein Blut, keine Spuren. Valdez fand Gasmasken, Leuchtstäbe und Radarfolie am Tatort – 'Raubtiere hinterlassen das nicht.' Er berichtete von schwarzen, lautlosen Flugzeugen über dem Gebiet. Valdez: 'Die Beweise deuten auf eine hochentwickelte Operation hin – nicht auf Tiere.'\n\n**Jicarilla Apache Tradition**\n\nDie Jicarilla Apache haben Überlieferungen von 'Wesen unter der Erde', die mit der Dulce-Erzählung resonieren. Der Stammesrat hat die Dulce-Base-Theorie teilweise unterstützt – auch um Tourismus zu fördern (Dulce Base UFO Conference 2016 im Casino Hotel).\n\n**Verbindung zum Greada Treaty**\n\nDulce gilt als physischer Beweis für den Greada-Treaty-Vertragsbruch: Entführte wurden nicht zurückgegeben, sondern in Ebene 7 ('Nightmare Hall') für genetische Experimente gehalten. Die Explosion von Entführungsberichten nach 1954 und die geografische Konzentration in New Mexico (Roswell 1947, Trinity 1945, Los Alamos, Dulce) stützen die Nuklear-UAP-Nexus-These.\n\n**Wissenschaftliche Einordnung**\n\nPolitikwissenschaftler Michael Barkun (UC Berkeley): Die Dulce-Legende ist 'eine attraktive Legende' – Cold-War-Untergrundanlagen geben ihr 'oberflächliche Plausibilität'. Die Beschreibungen von Experimenten an Entführten und Kämpfen mit Delta Force liegen 'weit außerhalb selbst der abenteuerlichsten Berichte über geheime Untergrundbasen.' Skeptoid-Podcast (Brian Dunning, 2013): Keine verifizierbaren Belege.",
+      "witnesses": [
+        {
+          "name": "Phil Schneider",
+          "role": "Sprengstoffingenieur, angeblicher Dulce-Kampf-Teilnehmer",
+          "testimony": "30 Vorträge 1994–1995: Kampf 1979, 66 Tote, Kobalt-Strahlenwaffe, fehlende Finger",
+          "credibility": "sehr umstritten – keine unabhängige Verifikation",
+          "year": "1994-1995"
+        },
+        {
+          "name": "Thomas Edwin Castello",
+          "role": "Angeblicher Sicherheitstechniker der Dulce Base",
+          "testimony": "Dulce Papers: 7 Ebenen, Nightmare Hall, Tier-Mensch-Hybride",
+          "credibility": "sehr umstritten – Identität nicht verifiziert, verschwunden",
+          "year": "1988-1990"
+        },
+        {
+          "name": "Paul Bennewitz",
+          "role": "Physiker, Albuquerque",
+          "testimony": "Elektronische Signale als NHI-Kommunikation, unterirdische Basis",
+          "credibility": "niedrig – AFOSI-Disinformation bestätigt",
+          "year": "1979-1988"
+        },
+        {
+          "name": "Gabe Valdez",
+          "role": "New Mexico State Police Trooper",
+          "testimony": "Viehverstümmelungen, Gasmasken, Leuchtstäbe, schwarze Flugzeuge",
+          "credibility": "mittel – offizieller Zeuge, aber keine UAP-Bestätigung",
+          "year": "1975-1990"
+        }
+      ],
+      "physical_evidence": [
+        {
+          "type": "Viehverstümmelungen (Dulce-Region, 1975–1990)",
+          "description": "Chirurgisch präzise Schnitte, kein Blut, Gasmasken, Leuchtstäbe am Tatort. Gabe Valdez dokumentiert.",
+          "status": "physisch vorhanden, Ursache ungeklärt"
+        },
+        {
+          "type": "Dulce Papers (Castello)",
+          "description": "Angebliche Fotos und Dokumente aus der Basis – nie öffentlich verifiziert",
+          "status": "unbestätigt"
+        },
+        {
+          "type": "Schneiders fehlende Finger",
+          "description": "Schneider zeigte fehlende Finger als Beweis für Kobalt-Strahlenwaffe",
+          "status": "physisch vorhanden, Ursache unbekannt"
+        }
+      ],
+      "official_response": "Keine offizielle Bestätigung. FBI: Keine Untersuchung der Dulce Base. AARO (2024): Keine Belege für unterirdische NHI-Anlagen. Michael Barkun (UC Berkeley): 'Attraktive Legende mit oberflächlicher Plausibilität.'",
+      "connections": {
+        "people": [
+          "phil-schneider"
+        ],
+        "cases": [
+          "roswell-1947",
+          "eisenhower-muroc-edwards-1954-first-contact",
+          "malmstrom-afb-1967-nuklear-uap"
+        ],
+        "operations": [
+          "greada-treaty",
+          "majestic-12"
+        ]
+      },
+      "congruence_themes": [
+        "geheimhaltungs-eskalation-nda-repressalien",
+        "nuklear-uap-nexus-trinity-roswell",
+        "eisenhower-nhi-kontaktserie"
+      ],
+      "significance": "Dulce Base ist das zentrale Element der Greada-Treaty-Vertragsbruch-Erzählung. Ob real oder nicht: Die Überlieferung ist intern konsistent mit der Nuklear-UAP-Konzentration in New Mexico (Trinity 1945, Roswell 1947, Los Alamos, Holloman AFB, Dulce) und erklärt die Explosion von Entführungsberichten nach 1954. Die AFOSI-Disinformation gegen Bennewitz ist historisch belegt und zeigt, dass staatliche Stellen aktiv an der Dulce-Erzählung beteiligt waren – ob um sie zu fördern oder zu unterdrücken, bleibt unklar.",
+      "sources": [
+        {
+          "name": "Wikipedia – Dulce Base",
+          "url": "https://en.wikipedia.org/wiki/Dulce_Base",
+          "type": "Enzyklopädie"
+        },
+        {
+          "name": "Discovery.com – 'Secret Underground Alien Base in Dulce, New Mexico' (2019)",
+          "url": "https://www.discovery.com/exploration/Secret-Underground-Alien-Base-Dulce-New-Mexico",
+          "type": "Zusammenfassung"
+        },
+        {
+          "name": "The Sun – 'Underground base conspiracy theorists are convinced exists' (Juli 2025)",
+          "url": "https://www.the-sun.com/news/14609837/underground-base-ufo-alien-new-mexico-conspiracy-dulce/",
+          "type": "Nachrichtenartikel"
+        },
+        {
+          "name": "Michael Barkun – 'A Culture of Conspiracy' (UC Press, 2006)",
+          "url": "https://en.wikipedia.org/wiki/Dulce_Base",
+          "type": "Akademisches Buch"
+        },
+        {
+          "name": "Epoch Times – 'Alien-Human Battle of 1979 in New Mexico'",
+          "url": "https://www.theepochtimes.com/alien-human-battle-of-1979-in-new-mexico-alleged-eye-witness-report_607504.html",
+          "type": "Zeugenbericht"
         }
       ]
     }
