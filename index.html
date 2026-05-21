@@ -223,7 +223,19 @@ footer a{color:var(--v);text-decoration:none}
 
 <!-- TIMELINE - static, richest content -->
 <div id="tp-tl" class="tp">
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem">
+<!-- Timeline Filter -->
+<div style="margin-bottom:1rem">
+  <div class="sb" style="margin-bottom:.6rem"><span>🔍</span><input type="text" id="tl-search" placeholder="Timeline durchsuchen..." oninput="filterTimeline()" style="background:transparent;border:none;outline:none;color:var(--t1);width:100%;font-family:'Rajdhani',sans-serif;font-size:13px"></div>
+  <div style="display:flex;flex-wrap:wrap;gap:.4rem">
+    <button class="tl-epoch-btn active" data-epoch="all" onclick="setEpoch('all',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.1);color:var(--t1);cursor:pointer">🌐 Alle</button>
+    <button class="tl-epoch-btn" data-epoch="antike" onclick="setEpoch('antike',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(255,176,32,.35);background:rgba(255,176,32,.07);color:#ffb020;cursor:pointer">🏛️ Antike (&lt;1900)</button>
+    <button class="tl-epoch-btn" data-epoch="frueh" onclick="setEpoch('frueh',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(179,157,219,.35);background:rgba(179,157,219,.07);color:#b39ddb;cursor:pointer">⚡ 1900–1950</button>
+    <button class="tl-epoch-btn" data-epoch="kaltkrieg" onclick="setEpoch('kaltkrieg',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(0,229,255,.35);background:rgba(0,229,255,.07);color:#00e5ff;cursor:pointer">☢️ Kalter Krieg</button>
+    <button class="tl-epoch-btn" data-epoch="modern" onclick="setEpoch('modern',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(0,230,118,.35);background:rgba(0,230,118,.07);color:#00e676;cursor:pointer">🛸 Modern (1990+)</button>
+    <button class="tl-epoch-btn" data-epoch="zukunft" onclick="setEpoch('zukunft',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(0,230,118,.35);background:rgba(0,230,118,.07);color:#00e676;cursor:pointer">🔮 Projektionen</button>
+  </div>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem" id="tl-grid-container">
 <div>
 <div style="font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:var(--a);margin-bottom:.75rem;border-bottom:1px solid rgba(255,176,32,.2);padding-bottom:.35rem">◈ VERGANGENHEIT — 10.000 Jahre</div>
 <div id="tl-past" style="position:relative;padding-left:1.6rem">
@@ -235,6 +247,7 @@ footer a{color:var(--v);text-decoration:none}
 <div style="font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:var(--g);margin-bottom:.75rem;border-bottom:1px solid rgba(0,230,118,.2);padding-bottom:.35rem">◈ PROJEKTIONEN</div>
 <div id="tl-future" style="position:relative;padding-left:1.6rem">
 <div style="position:absolute;left:5px;top:0;bottom:0;width:1px;background:linear-gradient(180deg,transparent,var(--vd) 10%,var(--v) 50%,var(--vd) 90%,transparent)"></div>
+</div>
 </div>
 </div>
 </div>
@@ -608,6 +621,62 @@ ${scoreBar}
     ? futureItems.map(x => makeTLI(x.year, x.c)).join('')
     : '<div class="loading" style="font-size:11px">Keine Projektionen vorhanden.</div>';
 }
+
+// ── TIMELINE FILTER FUNCTIONS
+let _tlEpoch = 'all';
+let _tlSearch = '';
+
+function setEpoch(epoch, btn) {
+  _tlEpoch = epoch;
+  document.querySelectorAll('.tl-epoch-btn').forEach(b => {
+    b.style.opacity = '0.5';
+    b.style.fontWeight = 'normal';
+  });
+  btn.style.opacity = '1';
+  btn.style.fontWeight = '700';
+  filterTimeline();
+}
+
+function filterTimeline() {
+  _tlSearch = (document.getElementById('tl-search')?.value || '').toLowerCase();
+  const past = document.getElementById('tl-past');
+  const future = document.getElementById('tl-future');
+  if(!past || !future) return;
+  
+  // Show/hide columns based on epoch
+  if(_tlEpoch === 'zukunft') {
+    past.parentElement.style.display = 'none';
+    future.parentElement.style.display = 'block';
+  } else if(_tlEpoch !== 'all') {
+    past.parentElement.style.display = 'block';
+    future.parentElement.style.display = 'none';
+  } else {
+    past.parentElement.style.display = 'block';
+    future.parentElement.style.display = 'block';
+  }
+  
+  // Filter individual items
+  const items = past.querySelectorAll('div[style*="margin-bottom:.85rem"]');
+  items.forEach(item => {
+    const text = item.textContent.toLowerCase();
+    const yearEl = item.querySelector('div[style*="JetBrains Mono"]');
+    const yearText = yearEl ? yearEl.textContent : '';
+    const yearMatch = yearText.match(/(\d{4})/);
+    const yearNum = yearMatch ? parseInt(yearMatch[1]) : 0;
+    
+    let epochMatch = true;
+    if(_tlEpoch !== 'all' && _tlEpoch !== 'zukunft') {
+      if(_tlEpoch === 'antike') epochMatch = yearNum < 1900;
+      else if(_tlEpoch === 'frueh') epochMatch = yearNum >= 1900 && yearNum < 1950;
+      else if(_tlEpoch === 'kaltkrieg') epochMatch = yearNum >= 1950 && yearNum < 1990;
+      else if(_tlEpoch === 'modern') epochMatch = yearNum >= 1990;
+    }
+    
+    const searchMatch = !_tlSearch || text.includes(_tlSearch);
+    item.style.display = (epochMatch && searchMatch) ? '' : 'none';
+  });
+}
+
 // ── RENDER DIA DOCS
 function renderDIA(data) {
   const g = document.getElementById('dia-docs');

@@ -1582,6 +1582,112 @@
           "date": "2018"
         }
       ]
+    },
+    {
+      "id": "richard-doty",
+      "name": "Richard Doty",
+      "role": "AFOSI Special Agent / UAP Disinformation Operative",
+      "emoji": "🕵️",
+      "bio": "Richard C. Doty war von 1979 bis 1988 Special Agent beim Air Force Office of Special Investigations (AFOSI), stationiert auf der Kirtland AFB in New Mexico. Er ist die zentrale Figur der staatlichen UAP-Disinformationskampagne der 1980er Jahre. Doty führte zwei koordinierte Operationen durch: (1) Operation Bennewitz – er überzeugte den Elektronikunternehmer Paul Bennewitz systematisch, dass er Alien-Kommunikation empfange, bis Bennewitz 1988 einen Nervenzusammenbruch erlitt und in eine psychiatrische Einrichtung eingewiesen wurde. (2) Operation Howe – er täuschte die preisgekrönte Journalistin Linda Moulton Howe mit gefälschten MJ-12-Dokumenten und dem Versprechen echter UAP-Filmaufnahmen, die nie geliefert wurden. Doty arbeitete mit dem UFO-Forscher Bill Moore zusammen, der als Informant fungierte. 2023 erschien der Dokumentarfilm 'Doty' von Trevor Paglen über seine Aktivitäten. 2025 gab Doty in einem Debrief-Interview zu, dass er Fehler gemacht habe, und äußerte sich zur aktuellen UAP-Disclosure-Bewegung.",
+      "keyStatements": [
+        "Ich habe Paul Bennewitz mit Fehlinformationen versorgt – das war ein Fehler. Er war ein unschuldiger Mann.",
+        "Die AFOSI hatte ein Interesse daran, die UFO-Forschungsgemeinschaft zu infiltrieren und zu destabilisieren.",
+        "Linda Moulton Howe wurde von mir mit gefälschten Dokumenten getäuscht. Das Filmmaterial von Holloman existiert – aber ich durfte es ihr nicht zeigen.",
+        "Bill Moore war mein Kontakt in der Forschungsgemeinschaft. Er wusste, dass er Desinformation weitergab.",
+        "Die aktuellen Whistleblower wie Grusch sagen die Wahrheit. Das Programm existiert."
+      ],
+      "connections": [
+        "paul-bennewitz",
+        "linda-moulton-howe",
+        "bill-moore",
+        "mj-12",
+        "kirtland-afb"
+      ],
+      "tags": [
+        "AFOSI",
+        "Disinformation",
+        "MJ-12",
+        "Kirtland AFB",
+        "Operation Bennewitz",
+        "Operation Howe",
+        "Whistleblower"
+      ],
+      "credibility": "Kontrovers – bestätigter Disinformationsagent, der selbst Fehler eingestand; aktuelle Aussagen zur Disclosure werden unterschiedlich bewertet",
+      "sources": [
+        {
+          "title": "Mirage Men – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mirage_Men"
+        },
+        {
+          "title": "Paul Bennewitz – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paul_Bennewitz"
+        },
+        {
+          "title": "Doty – Dokumentarfilm von Trevor Paglen (2023)",
+          "url": "https://paglen.studio/2023/05/10/doty/"
+        },
+        {
+          "title": "The Debrief: Richard Doty Interview 2025",
+          "url": "https://thedebrief.org/richard-doty-disinformation-paul-bennewitz-and-uap-whistleblower-fallout/"
+        },
+        {
+          "title": "e-flux: Society of the Psyop – Doty Operations",
+          "url": "https://www.e-flux.com/journal/147/623330/society-of-the-psyop-part-1-ufos-and-the-future-of-media"
+        }
+      ]
+    },
+    {
+      "id": "lue-elizondo",
+      "name": "Luis 'Lue' Elizondo",
+      "role": "AATIP-Direktor / Pentagon UAP-Programm / Disclosure-Aktivist",
+      "emoji": "🎖️",
+      "bio": "Luis Daniel 'Lue' Elizondo ist ein ehemaliger US-Militärgeheimdienstoffizier und Autor. Er studierte Mikrobiologie und Immunologie an der University of Miami. Ab 1995 diente er in der US Army, später als ziviler Geheimdienstoffizier in Afghanistan, Südamerika und Guantanamo Bay. Ab 2008 arbeitete er im Pentagon beim Office of the Under Secretary of Defense for Intelligence (OUSDI). 2009 wurde er in das Advanced Aerospace Threat Identification Program (AATIP) rekrutiert, das geheime Pentagon-Programm zur Untersuchung von UAP-Bedrohungen. Im Oktober 2017 trat er aus Protest gegen 'übermäßige Geheimhaltung und internen Widerstand' zurück. Unmittelbar danach übergab er drei Navy-UAP-Videos (Tic-Tac, Gimbal, GoFast) an die New York Times, was am 16. Dezember 2017 zur historischen NYT-Enthüllung führte. Er trat der To The Stars Academy of Arts & Sciences bei und wurde zur bekanntesten Figur der modernen UAP-Disclosure-Bewegung. Senator Harry Reid bestätigte 2021 schriftlich Elizondos Führungsrolle in AATIP. Im November 2024 sagte er vor dem House Oversight Subcommittee unter Eid aus: Die US-Regierung besitze UAP-Bergungsmaterial und außerirdische Überreste. NYT No. 1 Bestseller-Autor ('Imminent', 2024). Mitglied des Galileo Project.",
+      "keyStatements": [
+        "Wir sind nicht allein im Universum – und wir waren es nie. Das ist meine persönliche Überzeugung nach Jahren der Untersuchung.",
+        "Ich trat zurück, weil die Bürokratie und der interne Widerstand es unmöglich machten, das Thema ernsthaft zu behandeln.",
+        "Die Videos, die ich der NYT gegeben habe, zeigen echte, nicht identifizierbare Phänomene – das ist Tatsache.",
+        "Die US-Regierung besitzt exotisches Material, das mit UAPs assoziiert ist. Das ist meine Aussage unter Eid.",
+        "Senator Harry Reid hat schriftlich bestätigt: Ich hatte eine Führungsrolle in AATIP. Das Pentagon lügt."
+      ],
+      "connections": [
+        "david-fravor",
+        "harry-reid",
+        "christopher-mellon",
+        "grusch",
+        "aatip"
+      ],
+      "tags": [
+        "AATIP",
+        "Pentagon",
+        "NYT 2017",
+        "Disclosure",
+        "Navy UAP Videos",
+        "Congress Testimony",
+        "TTSA"
+      ],
+      "credibility": "Hoch – Pentagon-Bestätigung durch Dana White 2017, Senator Reid-Brief 2021, Congressional Testimony 2024; einige Detailangaben zur AATIP-Rolle umstritten",
+      "sources": [
+        {
+          "title": "Luis Elizondo – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Luis_Elizondo"
+        },
+        {
+          "title": "NYT: Glowing Auras and Black Money (16.12.2017)",
+          "url": "https://www.nytimes.com/2017/12/16/us/politics/pentagon-program-ufo-harry-reid.html"
+        },
+        {
+          "title": "Congress.gov: UAP Hearing Biografie Nov. 2024",
+          "url": "https://www.congress.gov/118/meeting/house/117721/witnesses/HHRG-118-GO12-Bio-ElizondoL-20241113.pdf"
+        },
+        {
+          "title": "House Oversight: Unidentified Anomalous Phenomena – Exposing the Truth (Nov. 2024)",
+          "url": "https://oversight.house.gov/hearing/unidentified-anomalous-phenomena-exposing-the-truth/"
+        },
+        {
+          "title": "Pentagon OIG FOIA: Elizondo Complaint 2017–2019",
+          "url": "https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/UFOsandUAPs/25-F-2554_Elizondo_OIG_Docs_2017-2019.pdf"
+        }
+      ]
     }
   ]
 }
