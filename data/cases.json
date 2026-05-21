@@ -2,7 +2,7 @@
   "_meta": {
     "version": "4.0",
     "last_updated": "2026-05-21",
-    "total": 64,
+    "total": 104,
     "add_command": "ADD_CASE: title | region(usa/brazil/europe/russia/asia/australia/africa/space) | level(critical/high/medium/confirmed/historical) | date | location | description | source_url | tags(comma separated)",
     "total_cases": 103
   },
@@ -3133,6 +3133,29 @@
         "grusch-2023"
       ],
       "significance": "Dieses FOIA-Dokument ist einer der stärksten indirekten Beweise für ein aktives Reverse-Engineering-Programm der US-Regierung. Die DIA bestätigte nicht nur die Existenz von UAP-Material bei Bigelow Aerospace, sondern veröffentlichte 5 technische Studien, die zeigen, welche Materialklassen analysiert wurden. Die Verbindung zwischen Nitinol/Memory Metal und Roswell-Zeugenbeschreibungen, sowie die Metamaterial-Tarnkappen-Verbindung zu UAP-Sichtungen, macht dieses Dokument zu einem Schlüsselstück im Puzzle der Disclosure-Geschichte."
+    },
+    {
+      "id": "kumburgaz-turkey-2007-2009",
+      "title": "Kumburgaz UFO-Serie 2007–2009 · Türkei · Humanoid-Besatzung auf Video · TÜBİTAK-bestätigt",
+      "region": "europa",
+      "level": "critical",
+      "date": "2007–2009 (23 separate Ereignisse)",
+      "location": "Kumburgaz, Büyükçekmece, Istanbul, Türkei – Küste des Marmarameers",
+      "score": 97,
+      "tags": [
+        "Video",
+        "Wissenschaft",
+        "Zeugen",
+        "Humanoid",
+        "TUBITAK",
+        "SIRIUS",
+        "Marmara",
+        "Türkei",
+        "Besatzung",
+        "Analyse"
+      ],
+      "description": "ZEUGE: Yalçın Yalman, Nachtwächter der Yeni-Kent-Wohnanlage, Kumburgaz. Filmte zwischen 2007 und 2009 auf 23 separaten Gelegenheiten unbekannte Objekte über dem Marmara-Meer. Kamera: Canon DM-GL1-A MiniDV (3CCD, 20x optisch), mit Sony VCI HGD-1758 Tele-Konverter (1,7x) auf 58mm-Adapter = effektiv 200x optischer Zoom. Aufnahmen teils bei Nacht, teils bei Tagesanbruch.\n\nCHRONOLOGIE DER SCHLÜSSELEREIGNISSE:\n• Juni 2007: Erste Sichtung – scheibenförmiges, metallisch glänzendes Objekt über dem Marmara-Meer. Yalman beginnt systematisch zu filmen.\n• Mai–September 2008: Intensivste Sichtungsperiode. Schlüsseldaten: 22. Mai 2008 (erste Besatzungs-Aufnahmen), 8. Juni 2008 (deutlichste Humanoid-Sequenz), 9. Juni 2008 (orangefarbener Plasmakörper mit Wasserreflexion), 12. Juni 2008 (horizontale Bewegung, Licht-Schatten-Verschiebung), 16. Juni 2008, 2. Juli 2008 (elongiertes Objekt + Lichter-Cluster 75 Minuten später), September 2008.\n• 13./14. Mai 2009: Während des Internationalen UFO-Kongresses Istanbul – Massenzeugnis. Dr. Roger Leir (USA) und 7–8 weitere Kongressteilnehmer beobachten live ein scheibenförmiges Objekt unter Vollmond und bezeugen Yalmans Filmaufnahme in Echtzeit. Leir gab mehrere Interviews vor seinem Tod 2014.\n\nKAMERA-TECHNISCHE DETAILS: Das 200x-Zoom ermöglichte Detailaufnahmen aus einer Entfernung von 44–91 Seemeilen (81–168 km) über das Marmara-Meer. Die gegenüberliegende Küste ist mit bloßem Auge nicht sichtbar – was Verwechslung mit Landstrukturen ausschließt. Aufnahmen auf Original-MiniDV-Kassetten, nicht digital bearbeitet.\n\nBESATZUNGS-SEQUENZ (8. Juni 2008 + 13. Mai 2009): In der Mitte des Objekts ist eine Art Fenster oder Luke erkennbar. Darin sind zwei Figuren mit humanoidem Erscheinungsbild sichtbar: großer, dunkler Kopf, erkennbarer Torso, Bewegungen (Kopf heben/senken). Bildanalyst Mario Valdés (Chile): \"Die Figur ist nicht statisch – sie bewegt sich permanent, hebt den Kopf und schaut direkt in die Kamera, senkt ihn dann wieder. Die Synchronizität der Bewegung mit der Kamerabewegung schließt ein Artefakt aus.\"\n\nWISSENSCHAFTLICHE ANALYSEN (7 unabhängige Institutionen):\n1. TÜBİTAK (Wissenschafts- und Technologieforschungsrat der Türkei, staatlich): Analysierte Originalkassetten live im Fernsehen. Offizielles Ergebnis: \"Die Objekte haben eine Struktur aus einem spezifischen Material und sind definitiv keine CGI-Animation, kein Modell, keine Maßstabsnachbildung, kein Studioeffekt. Die Objekte haben eine physische Struktur und bestehen aus Materialien, die in keine bekannte Kategorie fallen (Flugzeuge, Hubschrauber, Meteore, Venus, Mars, Satelliten, Laternen etc.) – sie fallen in die Kategorie UFO/unbekannten Ursprungs.\"\n2. TUG Nationales Observatorium der Türkei (staatlich): Gleiche Schlussfolgerung wie TÜBİTAK.\n3. SIRIUS UFO Space Science Research Center (Haktan Akdoğan, Istanbul): Pixelanalyse, Frame-by-Frame, Luminanzprüfung. Ergebnis: \"100% authentisch, kein Betrug.\"\n4. Mario Valdés, Bildanalyst (Santiago, Chile): Detaillierte Photogramm-Analyse, Bewegungsvektor-Analyse der Humanoid-Sequenz. Ergebnis: Figur ist real und in Bewegung.\n5. Prof. José Atenas, Grafik/Video-Experte, 30 Jahre TV-Erfahrung (Chile): \"Bilder sind authentisch.\"\n6. Japanische Analyseteams (unabhängig): Gleiche Schlussfolgerung.\n7. Russische und brasilianische Analysten: Kein Betrug nachweisbar.\n\nDEBUNKING-VERSUCHE: Mick West (Metabunk, 2018) schlug vor, die Objekte könnten Reflexionen von Yachtfenstern sein. Gegenargument: Die Objekte sind 44–91 Seemeilen entfernt, die gegenüberliegende Küste ist mit bloßem Auge nicht sichtbar, und die Bewegungsmuster entsprechen nicht Bootsreflexionen. UAP Files Podcast (2024): \"Micks Debunk ist fehlerhaft und wurde von mehreren Analysten widerlegt.\"\n\nZEUGEN (neben Yalman): Lokale Bewohner der Yeni-Kent-Anlage, Fischer, Neugierige, Dr. Roger Leir (Arzt, Implantate-Forscher, USA), 7–8 internationale UFO-Kongress-Teilnehmer (Mai 2009), Sängerin Reyhan Karaca (Eurovision 1991) und TV-Moderatorin Hülya Avşar berichteten eigene Sichtungen im gleichen Zeitraum.\n\nBEDEUTUNG: Nick Pope (ehem. Leiter UFO-Desk, britisches Verteidigungsministerium): \"Sehr interessant – ohne ordentliche Analyse besteht Missinterpretationsrisiko.\" Haktan Akdoğan: \"Dies ist ein Wendepunkt für türkische UFO-Forschung. Die Behörden können dieses Phänomen nicht länger ignorieren.\" Eurasianet (Nicholas Birch, 22. Juni 2009): Berichtete über wachsendes gesellschaftliches Interesse in der Türkei. Über 1.000 Türken zahlten 35 Lira für den UFO-Kongress 2009.\n\nYOUTUBE-QUELLEN (Originalaufnahmen): Playlist 2007–2009: youtube.com/playlist?list=PLLxHwkkuCQiAxs41N15DzcPl46IbJaQ27 | 2008 Langversion: youtu.be/BFuivergbXA | 6. Dez. 2008: youtu.be/nRLhIFkv_FU | History Channel Analyse: youtube.com/watch?v=ufGOXLIG38g | Wissenschaftliche Analyse 2025: youtube.com/watch?v=xklLLI8fNRg\n\nSTATUS: Bis heute ungeklärt. Kein Debunker konnte Fälschung nachweisen. Gilt als einer der am besten dokumentierten UAP-Fälle weltweit mit humanoidem Besatzungsnachweis.",
+      "source_url": "http://turkeyufocase.blogspot.com/2011/04/turkey-ufo-sightings-were-series-of_16.html"
     }
   ]
 }
