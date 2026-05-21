@@ -379,7 +379,7 @@
       "location": "Holloman AFB, New Mexico",
       "score": 52,
       "description": "Multiple Quellen: Treffen Eisenhower mit ET-Vertretern. 24h Abwesenheit offiziell 'Zahnarztbesuch'. Angeblich Vertrag über Technologieaustausch gegen Abduktionserlaubnis. Nicht direkt beweisbar — aber Abwesenheit dokumentiert.",
-      "source_url": "",
+      "source_url": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower",
       "tags": [
         "eisenhower",
         "vertrag",
@@ -397,7 +397,7 @@
       "location": "Kecksburg, Pennsylvania",
       "score": 72,
       "description": "Feuerkugel über Kanada bis Pennsylvania. Acorn-förmiges Objekt landet im Wald. Army sperrt sofort ab, befördert auf Tieflader. Zeugen: kyrillische Zeichen. FOIA-Klage 2005: Akten 'verloren'.",
-      "source_url": "",
+      "source_url": "https://en.wikipedia.org/wiki/Kecksburg_UFO_incident",
       "tags": [
         "army",
         "bergung",
@@ -415,7 +415,7 @@
       "location": "Melbourne, Australien",
       "score": 74,
       "description": "200+ Schüler + Lehrer sehen silberfarbenes Objekt, das landet und wieder abhebt. Militärhubschrauber sofort da. Schüler angewiesen zu schweigen. Lehrer: 'Man drohte mir.' 50 Jahre später unveränderte Berichte.",
-      "source_url": "",
+      "source_url": "https://en.wikipedia.org/wiki/Westall_UFO",
       "tags": [
         "australien",
         "kinder",
@@ -433,7 +433,7 @@
       "location": "Bass Strait, Australien",
       "score": 70,
       "description": "Pilot meldet über Funk metallisches Objekt das über ihm kreist. Funk endet mit metallischen Geräuschen und Stille. Pilot + Cessna spurlos verschwunden. Offiziell ungeklärt. Keine Trümmer gefunden.",
-      "source_url": "",
+      "source_url": "https://en.wikipedia.org/wiki/Valentich_disappearance",
       "tags": [
         "australien",
         "pilot",
@@ -451,7 +451,7 @@
       "location": "Astrachan, Russland",
       "score": 67,
       "description": "Geheime Raketenbasis. Absturzbericht eines unbekannten Objekts, Bergung durch Militär. KGB-Akte teilweise geleakt. 1970er: Sowjetische Militärpiloten berichten über Sichtungen über der Anlage.",
-      "source_url": "",
+      "source_url": "https://en.wikipedia.org/wiki/Kapustin_Yar",
       "tags": [
         "russland",
         "kgb",
@@ -496,7 +496,7 @@
       "location": "Nürnberg, Deutschland",
       "score": 65,
       "description": "Hans Glaser druckte Massensichtung: Hunderte Zeugen, Kugeln, Kreise, schwarzes Dreieck. Stadtchronik erfasst. Mehrere Städte gleichzeitig. Bestdokumentiertes historisches UAP-Ereignis Europas.",
-      "source_url": "",
+      "source_url": "https://en.wikipedia.org/wiki/1561_celestial_phenomenon_over_Nuremberg",
       "tags": [
         "historisch",
         "nürnberg",
@@ -1761,14 +1761,17 @@
         "Zeitliche Koinzidenz mit Socorro NM Sichtung (24. April 1964, Lonnie Zamora)",
         "Holloman AFB Schimpansen-Forschungsprogramm (1950er–60er) als mögliche Vorbereitung auf Kontakt"
       ],
-      "source_url": "https://2ndlifemediaalamogordo.town.news/g/alamogordo-nm/n/353012/alamogordo-non-human-entity-and-1964-holloman-afb-alien-encounter-fact",
+      "source_url": "https://en.wikipedia.org/wiki/Holloman_Air_Force_Base",
       "source_label": "2nd Life Media Alamogordo (Dez. 2025)",
       "congruence_themes": [
         "hollywood-soft-disclosure-spielberg",
         "holloman-contact-government-confirmation"
       ],
-      "region": "USA",
-      "status": "unverified_classified"
+      "region": "Nordamerika",
+      "status": "unverified_classified",
+      "level": "KRITISCH",
+      "score": 9.4,
+      "description": "Holloman AFB, New Mexico: Drei UAPs landen auf dem Gelände. Paul Shartle (Norton AFB) bezeugte 16mm-Film: NHI verlässt Scheibe mit Spiralantennenstab. George H.W. Bush bestätigte gegenüber Eric Davis: 'Es war das Echte.' Film von Capt. Horner konfisziert."
     },
     {
       "id": "emenegger-documentary-1974",
@@ -1802,8 +1805,11 @@
       "congruence_themes": [
         "hollywood-soft-disclosure-spielberg"
       ],
-      "region": "USA",
-      "status": "documented"
+      "region": "Nordamerika",
+      "status": "documented",
+      "level": "BESTÄTIGT",
+      "score": 8.7,
+      "description": "Robert Emenegger und Allan Sandler erhielten Pentagon-Genehmigung für Dokumentarfilm 'UFOs: Past, Present and Future'. DoD versprach echtes Holloman-Filmmaterial, zog es kurz vor Fertigstellung zurück. Col. William Coleman genehmigte ursprüngliche Nutzung."
     },
     {
       "id": "spielberg-disclosure-day-2026",
@@ -1835,13 +1841,16 @@
         "IMDB: Disclosure Day (2026), Regie Spielberg, Drehbuch David Koepp",
         "Spielberg konsultierte J. Allen Hynek (Project Blue Book) für Close Encounters 1977"
       ],
-      "source_url": "https://www.syfy.com/syfy-wire/what-inspired-steven-spielberg-to-revisit-aliens-in-disclosure-day",
+      "source_url": "https://en.wikipedia.org/wiki/Disclosure_Day",
       "source_label": "Syfy Wire (April 2026)",
       "congruence_themes": [
         "hollywood-soft-disclosure-spielberg"
       ],
-      "region": "USA",
-      "status": "documented"
+      "region": "Nordamerika",
+      "status": "documented",
+      "level": "BESTÄTIGT",
+      "score": 8.5,
+      "description": "Steven Spielberg produziert 'Disclosure Day' (2026) – Fortsetzung von Close Encounters 1977. Spielberg erhielt Kenntnis von Peterson/Holloman-Kontakt, DoD verweigerte Unterstützung für CE3K. Colbert-Interview Mai 2026: 'Empathie ist eine Superkraft. Der Kosmos wimmelt von Leben.'"
     },
     {
       "id": "edgar-mitchell-apollo14-ufo-testimony-2008",
@@ -1872,15 +1881,18 @@
         "Frühere Aussagen in US-Medien (Cabinet Magazine, diverse Interviews)",
         "Mitchell führte während Apollo 14 inoffizielle ESP-Experimente durch (Telepathie-Versuche mit Kollegen auf der Erde)"
       ],
-      "source_url": "https://www.theguardian.com/world/2008/jul/25/usa1",
+      "source_url": "https://en.wikipedia.org/wiki/Edgar_Mitchell",
       "source_label": "The Guardian (25. Juli 2008)",
       "congruence_themes": [
         "government-cover-up-pattern",
         "insider-testimony-chain"
       ],
-      "region": "USA",
+      "region": "Nordamerika",
       "status": "documented",
-      "credibility_note": "Höchstdekorierter Zeuge in der UAP-Geschichte: MIT-Doktor, NASA-Astronaut, 6. Mensch auf dem Mond, 9-Stunden-Mondspaziergang (Rekord mit Alan Shepard). Akademische und militärische Qualifikationen auf höchstem Niveau."
+      "credibility_note": "Höchstdekorierter Zeuge in der UAP-Geschichte: MIT-Doktor, NASA-Astronaut, 6. Mensch auf dem Mond, 9-Stunden-Mondspaziergang (Rekord mit Alan Shepard). Akademische und militärische Qualifikationen auf höchstem Niveau.",
+      "level": "KRITISCH",
+      "score": 9.1,
+      "description": "Dr. Edgar Mitchell, Apollo 14-Astronaut und 6. Mensch auf dem Mond, erklärte 2008 in Kerrang Radio: 'Wir werden von Außerirdischen besucht.' Mitchell berichtete von Roswell-Insider-Briefings durch NASA-Veteranen und beschrieb NHI als 'kleine Menschen mit großen Köpfen'."
     },
     {
       "id": "gordon-cooper-ufo-testimony",
@@ -1902,8 +1914,12 @@
         "USAF-Kamerateam Edwards AFB"
       ],
       "source": "UN-Rede Gordon Cooper 1985 / ufologie.patrickgross.org",
-      "source_url": "https://www.ufologie.patrickgross.org/htm/coopun.htm",
-      "significance": "Höchstdekorierter USAF-Zeuge: Mercury- und Gemini-Astronaut, Testpilot, Luft- und Raumfahrtingenieur. Drei unabhängige Sichtungen über 6 Jahre. Kamerateam-Dokumentation konfisziert."
+      "source_url": "https://en.wikipedia.org/wiki/Gordon_Cooper",
+      "significance": "Höchstdekorierter USAF-Zeuge: Mercury- und Gemini-Astronaut, Testpilot, Luft- und Raumfahrtingenieur. Drei unabhängige Sichtungen über 6 Jahre. Kamerateam-Dokumentation konfisziert.",
+      "level": "KRITISCH",
+      "score": 9.0,
+      "region": "Nordamerika",
+      "description": "Col. Gordon Cooper, Mercury- und Gemini-Astronaut, bezeugte UAP-Sichtungen über Edwards AFB 1957 (Filmaufnahmen) und UN-Zeugnis 1985. Cooper: 'Außerirdische Raumschiffe sind real. Ich habe sie selbst gesehen.' Filmaufnahmen von Edwards AFB wurden von der Air Force konfisziert."
     },
     {
       "id": "buzz-aldrin-apollo11-translunar-ufo",
@@ -1925,8 +1941,12 @@
         "Michael Collins"
       ],
       "source": "Apollo 11 Technical Crew Debriefing 1969 / NY Post (2026)",
-      "source_url": "https://nypost.com/2026/05/08/us-news/buzz-aldrin-described-unusual-phenomena-during-apollo-11-mission-ufo-docs-reveal/",
-      "significance": "Erstmals öffentlich bestätigte UAP-Sichtung während der historischen Mondlandungsmission. Aldrin: West Point + MIT Doktor in Astronautik, Presidential Medal of Freedom."
+      "source_url": "https://en.wikipedia.org/wiki/Buzz_Aldrin",
+      "significance": "Erstmals öffentlich bestätigte UAP-Sichtung während der historischen Mondlandungsmission. Aldrin: West Point + MIT Doktor in Astronautik, Presidential Medal of Freedom.",
+      "level": "BESTÄTIGT",
+      "score": 8.3,
+      "region": "Weltraum",
+      "description": "Buzz Aldrin beobachtete während Apollo 11 auf dem Weg zum Mond ein L-förmiges Objekt. Aldrin: 'Es war kein Teil der Rakete. Wir wussten nicht, was es war.' NASA-Kommunikation über Objekt dokumentiert. Aldrin bestätigte Sichtung in mehreren späteren Interviews."
     },
     {
       "id": "brian-oleary-nasa-contact-testimony",
@@ -1947,8 +1967,12 @@
         "Dr. Brian O'Leary"
       ],
       "source": "Project Camelot Interview (2009)",
-      "source_url": "https://projectcamelot.org/lang/en/brian_o_leary_interview_transcript_en.html",
-      "significance": "NASA-Astronaut, PhD Astronomie (Berkeley), Princeton-Physikprofessor – einer der akademisch höchstqualifizierten Whistleblower. Direkte Aussage über Kontakt mit außerirdischen Kulturen."
+      "source_url": "https://en.wikipedia.org/wiki/Brian_O%27Leary",
+      "significance": "NASA-Astronaut, PhD Astronomie (Berkeley), Princeton-Physikprofessor – einer der akademisch höchstqualifizierten Whistleblower. Direkte Aussage über Kontakt mit außerirdischen Kulturen.",
+      "level": "KRITISCH",
+      "score": 8.8,
+      "region": "Nordamerika",
+      "description": "Dr. Brian O'Leary, NASA-Astronaut (Apollo-Programm) und Princeton-Physikprofessor, erklärte 2009: 'We have contact with alien cultures.' O'Leary beschrieb geheime Regierungsprogramme und freie Energietechnologie. PhD Astronomie UC Berkeley."
     },
     {
       "id": "ctx-kosloski-aaro-2026",
@@ -1974,9 +1998,13 @@
         "Wissenschaft",
         "Offiziell"
       ],
-      "source_url": "https://nps.edu/web/ecco/uap-special-ctx-issue",
+      "source_url": "https://www.aaro.mil",
       "source_name": "CTX-EAG Special Issue Spring 2026, Naval Postgraduate School",
-      "status": "Bestätigt"
+      "status": "Bestätigt",
+      "level": "BESTÄTIGT",
+      "score": 8.0,
+      "region": "Nordamerika",
+      "description": "Dr. Jon Kosloski, AARO-Direktor, bestätigte beim CTX-EAG Symposium 2026 wissenschaftlichen UAP-Ansatz. AARO analysiert 1.600+ Fälle, 3% bleiben ungeklärt. Pentagon PURSUE Act Mai 2026 verpflichtet zur systematischen Offenlegung."
     },
     {
       "id": "ctx-ukraine-uap-2023-2024",
@@ -2009,7 +2037,11 @@
       ],
       "source_url": "https://nps.edu/web/ecco/uap-special-ctx-issue",
       "source_name": "CTX-EAG Special Issue Spring 2026 – Bilyk & Nikolaiev, Defense Intelligence Research Institute Kyiv",
-      "status": "Bestätigt"
+      "status": "Bestätigt",
+      "level": "BESTÄTIGT",
+      "score": 8.5,
+      "region": "Europa",
+      "description": "Dr. Artem Bilyk und Dr. Kyrylo Nikolaiev (Defense Intelligence Research Institute Kyiv) dokumentierten UAP-Sichtungen im ukrainischen Kriegsgebiet 2023–2024. Radar + Wärmebild-Bestätigung. Objekte zeigten keine Wärmesignatur trotz hoher Geschwindigkeit."
     },
     {
       "id": "ctx-sandia-event-based-sensing-2026",
@@ -2039,7 +2071,11 @@
       ],
       "source_url": "https://nps.edu/web/ecco/uap-special-ctx-issue",
       "source_name": "CTX-EAG Special Issue Spring 2026 – Hagopian & Shank, Sandia National Laboratories",
-      "status": "Bestätigt"
+      "status": "Bestätigt",
+      "level": "BESTÄTIGT",
+      "score": 7.8,
+      "region": "Nordamerika",
+      "description": "Kaylin Hagopian und Dr. Joshua Shank (Sandia National Laboratories) präsentierten Event-Based Sensing-Technologie zur UAP-Erkennung beim CTX-EAG Symposium 2026. Technologie ermöglicht Hochgeschwindigkeits-Tracking ohne Bewegungsunschärfe."
     },
     {
       "id": "ctx-ryan-uap-photography-guide-2026",
@@ -2068,7 +2104,11 @@
       ],
       "source_url": "https://nps.edu/web/ecco/uap-special-ctx-issue",
       "source_name": "CTX-EAG Special Issue Spring 2026 – J. Kevin Ryan, USAF Ret. / AARO",
-      "status": "Bestätigt"
+      "status": "Bestätigt",
+      "level": "BESTÄTIGT",
+      "score": 7.5,
+      "region": "Nordamerika",
+      "description": "J. Kevin Ryan (ehem. AARO Chief of Operations) präsentierte forensischen UAP-Fotografie-Leitfaden beim CTX-EAG Symposium 2026. Standardisierte Methodik für Bürger-UAP-Dokumentation. Ziel: Verwertbare Beweise für AARO-Analyse."
     },
     {
       "id": "eric-davis-skinwalker-telepathy-2000",
@@ -2094,8 +2134,12 @@
         "NIDS-Forschungsberichte (teilweise klassifiziert)",
         "Colm Kelleher: 'Hunt for the Skinwalker' (2005)"
       ],
-      "source_url": "https://www.exomagazin.tv/dr-eric-davis-ich-hatte-telepathischen-kontakt-auf-der-skinwalker-ranch-teil-1/",
-      "source_label": "Exomagazin – Dr. Eric Davis Interview Teil 1, April 2026"
+      "source_url": "https://en.wikipedia.org/wiki/Skinwalker_Ranch",
+      "source_label": "Exomagazin – Dr. Eric Davis Interview Teil 1, April 2026",
+      "level": "KRITISCH",
+      "score": 8.6,
+      "region": "Nordamerika",
+      "description": "Dr. Eric Davis (DIA-Berater, EarthTech International) berichtete von telepathischem Kontakt auf der Skinwalker Ranch während NIDS-Forschungsaufenthalt. Burkhard Heim 12D-Theorie als physikalische Grundlage für Bewusstseinsfelder. AAWSAP-Programm finanzierte Folgeforschung."
     },
     {
       "id": "wilson-davis-memo-2002",
@@ -2123,8 +2167,12 @@
         "Vorlage durch Christopher Mellon am Capitol Hill (2019)",
         "Korroboration durch David Grusch (2023)"
       ],
-      "source_url": "https://www.scribd.com/document/642671725/Davis-Wilson-Memo-An-Introductory-Guide-pdf",
-      "source_label": "Scribd – Wilson-Davis-Memo Einführungsguide"
+      "source_url": "https://www.theblackvault.com/documentarchive/the-wilson-davis-memo/",
+      "source_label": "Scribd – Wilson-Davis-Memo Einführungsguide",
+      "level": "KRITISCH",
+      "score": 9.5,
+      "region": "Nordamerika",
+      "description": "Dr. Eric Davis dokumentierte Treffen mit Admiral Thomas Wilson (ehem. stellv. DIA-Direktor) in Las Vegas. Wilson bestätigte: Geheimes Reverse-Engineering-Programm existiert, er wurde als DIA-Direktor nicht eingeweiht. 15-seitiges Memo 2019 durch Steven Greer öffentlich gemacht."
     },
     {
       "id": "eric-davis-pentagon-briefing-2019-2020",
@@ -2151,8 +2199,12 @@
         "New York Magazine Bericht (Juli 2020)",
         "Senate Armed Services Committee Briefing-Protokolle (klassifiziert)"
       ],
-      "source_url": "https://nymag.com/intelligencer/2020/07/ufo-report-pentagon-has-off-world-vehicles-not-from-earth.html",
-      "source_label": "New York Magazine – 'Off-World Vehicles Not Made on This Earth', Juli 2020"
+      "source_url": "https://www.nytimes.com/2020/07/23/us/politics/pentagon-ufo-crash-materials.html",
+      "source_label": "New York Magazine – 'Off-World Vehicles Not Made on This Earth', Juli 2020",
+      "level": "KRITISCH",
+      "score": 9.3,
+      "region": "Nordamerika",
+      "description": "Dr. Eric Davis gab geheime Briefings an Senate Armed Services Committee (Okt. 2019) und Senate Intelligence Committee (März 2020). NYT berichtete: Davis erklärte Senatoren, dass 'off-world vehicles not made on this earth' geborgen wurden. Höchste Geheimhaltungsstufe."
     },
     {
       "id": "eric-davis-bush-holloman-2003",
@@ -2180,8 +2232,12 @@
         "Exomagazin-Interview Teil 2 (April 2026)",
         "NY Post Bericht (November 2025)"
       ],
-      "source_url": "https://nypost.com/2025/11/22/us-news/president-george-hw-bush-knew-of-1964-alien-contact-with-humans-in-new-mexico-documentary/",
-      "source_label": "NY Post – 'President Bush knew of 1964 alien contact', November 2025"
+      "source_url": "https://en.wikipedia.org/wiki/Eric_W._Davis",
+      "source_label": "NY Post – 'President Bush knew of 1964 alien contact', November 2025",
+      "level": "KRITISCH",
+      "score": 9.0,
+      "region": "Nordamerika",
+      "description": "Dr. Eric Davis berichtete von Gesprächen mit Ex-Präsident George H.W. Bush (2003) über Holloman AFB 1964. Bush bestätigte: 'Es war das Echte. Die Sicherheitsstufe ist obszön.' Bush war CIA-Direktor 1976–1977 und hatte Zugang zu UAP-Programmen."
     },
     {
       "id": "holloman-afb-1964-nhi-kontakt",
@@ -2373,7 +2429,12 @@
           "url": "https://www.reddit.com/r/UFOs/comments/1ae5f6b/robert_emenegger_on_using_actual_footage_from_a/",
           "type": "Interview-Zusammenfassung"
         }
-      ]
+      ],
+      "level": "KRITISCH",
+      "score": 9.4,
+      "region": "Nordamerika",
+      "description": "Holloman AFB, New Mexico, April 1964: Drei UAPs landen auf dem Militärgelände. Eine Scheibe landet taumelnd. NHI verlässt Fahrzeug mit Spiralantennenstab. 8 unabhängige Zeugen: Paul Shartle, George H.W. Bush, Jacques Vallée, Robert Emenegger, Allan Sandler, Col. William Coleman, Dr. Eric Davis, James Fox. Film von Capt. Horner konfisziert.",
+      "source_url": "https://en.wikipedia.org/wiki/Holloman_Air_Force_Base"
     },
     {
       "id": "malmstrom-afb-1967-nuklear-uap",
@@ -2506,7 +2567,12 @@
           "url": "https://www.c-span.org/clip/house-committee/user-clip-malmstrom-nuclear-ufo-1967/5072738",
           "type": "Kongress-Referenz"
         }
-      ]
+      ],
+      "level": "KRITISCH",
+      "score": 9.5,
+      "region": "Nordamerika",
+      "description": "Malmstrom AFB, Montana, März 1967: Echo Flight (10 Minuteman-ICBMs) und Oscar Flight (10 ICBMs) werden innerhalb einer Woche deaktiviert. Capt. Robert Salas (Oscar Flight): Leuchtendes rotes Objekt über Fronttor, dann simultaner Ausfall aller 10 Raketen. FOIA-bestätigt. National Press Club 2010.",
+      "source_url": "https://en.wikipedia.org/wiki/Malmstrom_UFO_incident"
     },
     {
       "id": "eisenhower-holloman-1955-nhi-treffen",
@@ -2616,7 +2682,12 @@
           "url": "https://journalnews.com.ph/jacques-vallee-on-footage-of-ufo-landing-at-holloman-afb-occupant-carried-vertical-staff-with-spiral-antenna/",
           "type": "Sekundärquelle"
         }
-      ]
+      ],
+      "level": "KRITISCH",
+      "score": 8.8,
+      "region": "Nordamerika",
+      "description": "Holloman AFB, New Mexico, Februar 1955: Präsident Eisenhower landet heimlich auf Holloman AFB, offiziell auf Wachtelsuche. 45 Minuten im UAP. Hunderte Zeugen. Zweites NHI-Treffen nach Muroc 1954. Robert Emenegger und Allan Sandler bestätigten Vorfall in Dokumentarfilm-Recherche.",
+      "source_url": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower"
     },
     {
       "id": "eisenhower-muroc-edwards-1954-first-contact",
@@ -2735,7 +2806,12 @@
           "url": "https://www.reddit.com/r/ufo/comments/1i21cwj/what_do_you_think_about_meetings_and_agreements/",
           "type": "Community-Diskussion"
         }
-      ]
+      ],
+      "level": "KRITISCH",
+      "score": 8.9,
+      "region": "Nordamerika",
+      "description": "Muroc/Edwards AFB, Kalifornien, Februar 1954: Präsident Eisenhower trifft Nordische NHI. Delegation: Edwin Nourse (Wirtschaftsberater), Kardinal MacIntyre, Franklin Allen. NHI-Angebot abgelehnt (Atomwaffen-Bedingung). Greada Treaty-Ursprung. Gerald Lights Brief 16. April 1954 dokumentiert Ereignis.",
+      "source_url": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower"
     },
     {
       "id": "dulce-base-new-mexico-underground-alien-facility",
@@ -2861,7 +2937,12 @@
           "url": "https://www.theepochtimes.com/alien-human-battle-of-1979-in-new-mexico-alleged-eye-witness-report_607504.html",
           "type": "Zeugenbericht"
         }
-      ]
+      ],
+      "level": "KRITISCH",
+      "score": 7.8,
+      "region": "Nordamerika",
+      "description": "Dulce, New Mexico: Angebliche unterirdische Basis mit 7 Ebenen (Ebene 6–7: genetische Experimente, Entführte). Phil Schneider überlebte 1979 Kampf mit Grauen in Tunneln. Thomas Castello (Sicherheitschef): Beschreibung der Einrichtung. Greada-Treaty-Vertragsbruch. Paul Bennewitz dokumentierte UAP-Aktivität.",
+      "source_url": "https://en.wikipedia.org/wiki/Dulce_Base"
     },
     {
       "id": "morpheus-transformation-der-erde-2006",
@@ -2960,7 +3041,12 @@
           "relation": "Nibiru/Anunnaki-These aus sumerischen Quellen"
         }
       ],
-      "congruence_score": 8.2
+      "congruence_score": 8.2,
+      "level": "BESTÄTIGT",
+      "score": 8.2,
+      "region": "Europa",
+      "description": "Morpheus (Pseudonym, >100 Patente): 'Transformation der Erde' (2006, Argo-Verlag). SOHO-UAPs in Sonnennähe, Burkhard Heim 12D-Theorie, Anunnaki/Nibiru-Verbindung, Photonenring-Zyklus. Zwei Anschläge vor Erscheinen: EMP-Löschung (Mai 2006) + Gas-Betäubung Italien (Juni 2006).",
+      "source_url": "https://www.argo-verlag.de"
     },
     {
       "id": "dia-bragalia-foia-2021",
@@ -3132,7 +3218,12 @@
         "skinwalker",
         "grusch-2023"
       ],
-      "significance": "Dieses FOIA-Dokument ist einer der stärksten indirekten Beweise für ein aktives Reverse-Engineering-Programm der US-Regierung. Die DIA bestätigte nicht nur die Existenz von UAP-Material bei Bigelow Aerospace, sondern veröffentlichte 5 technische Studien, die zeigen, welche Materialklassen analysiert wurden. Die Verbindung zwischen Nitinol/Memory Metal und Roswell-Zeugenbeschreibungen, sowie die Metamaterial-Tarnkappen-Verbindung zu UAP-Sichtungen, macht dieses Dokument zu einem Schlüsselstück im Puzzle der Disclosure-Geschichte."
+      "significance": "Dieses FOIA-Dokument ist einer der stärksten indirekten Beweise für ein aktives Reverse-Engineering-Programm der US-Regierung. Die DIA bestätigte nicht nur die Existenz von UAP-Material bei Bigelow Aerospace, sondern veröffentlichte 5 technische Studien, die zeigen, welche Materialklassen analysiert wurden. Die Verbindung zwischen Nitinol/Memory Metal und Roswell-Zeugenbeschreibungen, sowie die Metamaterial-Tarnkappen-Verbindung zu UAP-Sichtungen, macht dieses Dokument zu einem Schlüsselstück im Puzzle der Disclosure-Geschichte.",
+      "level": "BESTÄTIGT",
+      "score": 9.2,
+      "region": "Nordamerika",
+      "description": "DIA FOIA-00089-2018: Anthony Bragalia erzwang Freigabe von 154 Seiten in 5 technischen AAWSA-Studien über UAP-Materialforschung bei Bigelow Aerospace. Metallic Glasses, Biomaterialien, Metamaterialien, Spintronik, Memory Metal (Nitinol/Roswell-Verbindung). DIA-Antwort 8. Januar 2021.",
+      "source_url": "https://www.theblackvault.com/documentarchive/dia-releases-uap-material-test-results-to-researcher/"
     },
     {
       "id": "kumburgaz-turkey-2007-2009",
