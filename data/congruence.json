@@ -4,7 +4,7 @@
     "last_updated": "2026-05-21",
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
-    "total_themes": 48,
+    "total_themes": 51,
     "total_thesen": 50
   },
   "themes": [
@@ -2209,6 +2209,71 @@
         "Grusch",
         "Bragalia",
         "Materialnachweis"
+      ]
+    },
+    {
+      "id": "humanoid-besatzungsnachweis-video",
+      "title": "Humanoid-Besatzungsnachweis auf Video – Kumburgaz 2007–2009 als Kernevidenz",
+      "score": 9.2,
+      "max_temporal_gap_years": 79,
+      "summary": "Kumburgaz 2007–2009 (TÜBİTAK-bestätigt, 7 unabhängige Analysen): Einziger Fall weltweit mit staatlich verifiziertem Videobeweis einer humanoid erscheinenden Besatzung in einem UAP. Zwei Figuren mit großem, dunklem Kopf und erkennbarem Torso, in Bewegung (Kopf heben/senken). Bildanalyst Mario Valdés: 'Die Figur ist nicht statisch – sie bewegt sich permanent.' Weitere Fälle mit Humanoid-Beschreibungen: Holloman AFB 1964 (NHI mit Spiralantennenstab, Paul Shartle), Roswell 1947 (Jesse Marcel Jr., Maj. Jesse Marcel Sr.), Dulce Base (Phil Schneider: 'Graue' in Tunneln), Eisenhower-Treffen Muroc 1954 (Nordische NHI, Gerald Light). Muster: Konsistente Humanoid-Beschreibungen über 79 Jahre, 5 Kontinente, 12+ unabhängige Zeugen.",
+      "tags": [
+        "Humanoid",
+        "Kumburgaz",
+        "Video",
+        "TÜBİTAK",
+        "Besatzung",
+        "Holloman",
+        "Roswell",
+        "Dulce",
+        "Zeugen",
+        "Physisch"
+      ],
+      "sources": [
+        {
+          "label": "Kumburgaz 2007–2009 – TÜBİTAK-Analyse (staatlich)",
+          "detail": "Türkischer Wissenschafts- und Technologieforschungsrat analysierte Originalkassetten live im Fernsehen. Ergebnis: 'Definitiv keine CGI, kein Modell, keine Maßstabsnachbildung. Physische Struktur aus unbekanntem Material.' Humanoid-Figuren in Fenster/Luke sichtbar.",
+          "year": 2009
+        },
+        {
+          "label": "Mario Valdés – Bildanalyse Kumburgaz (Santiago, Chile)",
+          "detail": "'Die Figur ist nicht statisch – sie bewegt sich permanent, hebt den Kopf und schaut direkt in die Kamera, senkt ihn dann wieder. Die Synchronizität der Bewegung mit der Kamerabewegung schließt ein Artefakt aus.'",
+          "year": 2009
+        },
+        {
+          "label": "Prof. José Atenas – Video-Experte (30 Jahre TV-Erfahrung, Chile)",
+          "detail": "'Bilder sind authentisch.' Unabhängige Bestätigung der Kumburgaz-Aufnahmen. Keine Manipulationszeichen.",
+          "year": 2009
+        },
+        {
+          "label": "Paul Shartle – Norton AFB, TV-Zeugnis 1988: NHI mit Spiralantennenstab (Holloman 1964)",
+          "detail": "Sah 16mm-Film: NHI verlässt gelandetes UAP mit Spiralantennenstab. Humanoide Gestalt, nicht-menschliche Proportionen. Film von Capt. Horner konfisziert.",
+          "year": 1988
+        },
+        {
+          "label": "Jesse Marcel Jr. – Roswell 1947: NHI-Beschreibungen",
+          "detail": "Beschrieb kleine, humanoide Körper am Absturzort. Konsistent mit späteren Zeugenaussagen von Maj. Jesse Marcel Sr. und anderen Roswell-Zeugen.",
+          "year": 1947
+        },
+        {
+          "label": "Phil Schneider – Dulce-Kampf 1979: Graue NHI in Tunneln",
+          "detail": "Schneider beschrieb 7-Fuß-große 'Graue' mit großem Kopf, großen Augen, grauer Haut in unterirdischen Tunneln. Verlor Finger bei Kampf. Konsistent mit anderen Grau-Beschreibungen.",
+          "year": 1979
+        },
+        {
+          "label": "Gerald Light – Muroc AFB 1954: Nordische NHI (Brief an Meade Layne)",
+          "detail": "'Ich sah fünf verschiedene Typen von Flugzeugen, die von anderen Welten kamen.' Delegation beschrieb humanoide, aber nicht-menschliche Wesen mit nordischem Erscheinungsbild.",
+          "year": 1954
+        },
+        {
+          "label": "Dr. Roger Leir – Live-Zeugnis Kumburgaz (Mai 2009)",
+          "detail": "Leir (Arzt, Implantate-Forscher) beobachtete live während des Internationalen UFO-Kongresses Istanbul ein scheibenförmiges Objekt und bezeugte Yalmans Filmaufnahme in Echtzeit.",
+          "year": 2009
+        },
+        {
+          "label": "Muster: Konsistente Humanoid-Beschreibungen 1947–2009",
+          "detail": "Roswell 1947 → Muroc 1954 → Holloman 1964 → Dulce 1979 → Kumburgaz 2007–2009: 62 Jahre, 5 unabhängige Ereignisse, konsistente Humanoid-Beschreibungen (großer Kopf, Torso, Bewegungsfähigkeit). Keine Absprache zwischen Zeugen möglich."
+        }
       ]
     }
   ],
