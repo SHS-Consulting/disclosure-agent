@@ -4,7 +4,7 @@
     "last_updated": "2026-05-21",
     "total": 64,
     "add_command": "ADD_CASE: title | region(usa/brazil/europe/russia/asia/australia/africa/space) | level(critical/high/medium/confirmed/historical) | date | location | description | source_url | tags(comma separated)",
-    "total_cases": 102
+    "total_cases": 103
   },
   "cases": [
     {
@@ -2958,6 +2958,178 @@
         }
       ],
       "congruence_score": 8.2
+    },
+    {
+      "id": "dia-bragalia-foia-2021",
+      "title": "DIA-FOIA Bragalia 2021 — UFO-Wrackteile · Bigelow Aerospace · 5 Geheimstudien · Reverse-Engineering-Beweis",
+      "date": "2021-01-08",
+      "location": "Washington D.C., USA",
+      "category": "Regierung",
+      "credibility": "Kritisch",
+      "tags": [
+        "Regierung",
+        "FOIA",
+        "Materialanalyse",
+        "wissenschaft",
+        "Pentagon",
+        "Bigelow",
+        "Reverse-Engineering",
+        "DIA",
+        "AATIP",
+        "AAWSA"
+      ],
+      "summary": "Am 8. Januar 2021 antwortete die Defense Intelligence Agency (DIA) auf eine FOIA-Anfrage des Investigativjournalisten Anthony Bragalia vom 27. Dezember 2017. Bragalia hatte explizit nach 'allen Informationen über Testergebnisse von UAP-Material von Bigelow Aerospace' gefragt. Die DIA bestätigte die Existenz des Materials und veröffentlichte 154 Seiten in 5 technischen Studien – produziert unter dem DIA Advanced Aerospace Weapon System Applications (AAWSA) Program, dem direkten Vorläufer von AATIP. Das Dokument gilt als einer der stärksten indirekten Beweise für ein aktives Reverse-Engineering-Programm der US-Regierung.",
+      "details": {
+        "foia_request": {
+          "antragsteller": "Anthony Bragalia (Investigativjournalist, UFO-Forscher)",
+          "datum": "27. Dezember 2017",
+          "fallnummer": "FOIA-00089-2018",
+          "anfrage_text": "all information on test results from the UAP material from Bigelow Aerospace",
+          "antwort_datum": "8. Januar 2021",
+          "unterzeichner": "Steven W. Tumiski, Chief, Records Management and Information Services, DIA",
+          "freigegebene_seiten": 154,
+          "angewandte_ausnahmen": [
+            "Exemption 3 (10 U.S.C. § 424 – DIA-Identitätsschutz)",
+            "Exemption 6 (Privatsphäre von Personen)"
+          ]
+        },
+        "programm_kontext": {
+          "name": "DIA Advanced Aerospace Weapon System Applications (AAWSA) Program",
+          "haushaltsjahr": "FY 2009",
+          "auftragnehmer": "Bigelow Aerospace Advanced Space Studies (BAASS)",
+          "verbindung": "AAWSA → AATIP (Advanced Aerospace Threat Identification Program)",
+          "bedeutung": "Die DIA beauftragte Bigelow Aerospace direkt mit der Analyse von UAP-Material – die FOIA-Antwort bestätigt implizit, dass solches Material existiert und analysiert wurde"
+        },
+        "5_studien": [
+          {
+            "nummer": 1,
+            "titel": "Metallic Glasses: Status and Prospects for Aerospace Applications",
+            "referenz": "DIA-08-0911-012",
+            "datum": "14. Dezember 2009",
+            "seiten": 30,
+            "inhalt": "Amorphe Metalllegierungen (Metallic Glasses) mit außergewöhnlichen mechanischen Eigenschaften: stärker als Stahl, elastischer als Titan, keine Kristallstruktur. Mögliche Aerospace-Anwendungen als Strukturkomponenten und Schutzschichten.",
+            "uap_relevanz": "Roswell-Wrackteile wurden von Zeugen als 'memory metal' beschrieben – Material das nach Verformung zur Ursprungsform zurückkehrt. Metallic Glasses zeigen ähnliches Verhalten. Jesse Marcel Sr. beschrieb Folie die sich selbst glättete."
+          },
+          {
+            "nummer": 2,
+            "titel": "Biomaterials",
+            "seiten": 32,
+            "inhalt": "Biokompatible Materialien für medizinische Implantate: Silicone, Nitinol (Nickel-Titan Memory Metal), Titan-Legierungen, BioCeramics, Hydrogele, biodegradierbare Polymere.",
+            "uap_relevanz": "Nitinol ist das bekannteste 'Memory Metal' – kehrt nach Verformung zur Ursprungsform zurück. Direkte Verbindung zu Roswell-Zeugenbeschreibungen. Nitinol wurde 1959 von William Buehler am Naval Ordnance Laboratory entwickelt – kurz nach Roswell."
+          },
+          {
+            "nummer": 3,
+            "titel": "Materials for Advanced Aerospace Platforms",
+            "seiten": 27,
+            "inhalt": "Hochtemperatur-Legierungen, Kohlenstofffaser-Verbundwerkstoffe, Keramiken für Hyperschall-Anwendungen. Materialien die extremen thermischen und mechanischen Belastungen standhalten.",
+            "uap_relevanz": "UAPs zeigen extreme Beschleunigungen und Hyperschall-Manöver ohne sichtbare Hitzesignaturen – die analysierten Materialklassen könnten erklären, wie solche Hüllen konstruiert sind."
+          },
+          {
+            "nummer": 4,
+            "titel": "Metallic Spintronics",
+            "seiten": 27,
+            "inhalt": "Spin-Transfer-Torque (STT) Phänomen in magnetischen Nanostrukturen. Quantenmechanische Austauschwechselwirkung. Mögliche Anwendungen: Hochgeschwindigkeits-Datenspeicher (MRAM), Mikrowellenschaltkreise bis >100 GHz.",
+            "uap_relevanz": "Spin-Manipulation auf Quantenebene könnte Grundlage für UAP-Antriebssysteme sein. Bob Lazars Beschreibung des 'Sport Model'-Antriebs (Gravitationswellen durch Amplitudenmodulation) zeigt konzeptuelle Ähnlichkeiten mit STT-Prinzipien."
+          },
+          {
+            "nummer": 5,
+            "titel": "Metamaterials for Aerospace Applications",
+            "seiten": 38,
+            "inhalt": "Metamaterialien mit negativem Brechungsindex. Superlens und Hyper-Lens Konzepte für Sub-Wellenlängen-Bildgebung. Indefinite Permittivity Medium (IPM). Tarnkappen-Technologie durch Lichtbiegung.",
+            "uap_relevanz": "Metamaterialien können elektromagnetische Wellen 'umlenken' und Objekte effektiv unsichtbar machen. Dies erklärt, warum UAPs plötzlich verschwinden oder auf Radar nicht sichtbar sind. Lukas Limacher (AATIP-Forscher) beschrieb UAP-Hüllen als mögliche Metamaterial-Konstruktionen."
+          }
+        ],
+        "schluesselerkenntnisse": [
+          "Die DIA bestätigte explizit eine FOIA-Anfrage über 'UAP-Material von Bigelow Aerospace' – was die Existenz solchen Materials impliziert",
+          "Alle 5 Studien sind technische Grundlagenforschung für Reverse-Engineering von nicht-menschlicher Technologie",
+          "Das AAWSA-Programm (2009) ist der direkte institutionelle Vorläufer von AATIP – die Kontinuität des Programms ist dokumentiert",
+          "Nitinol/Memory Metal verbindet Studie 2 direkt mit Roswell-Zeugenbeschreibungen von 1947",
+          "Metamaterialien (Studie 5) erklären UAP-Tarnfähigkeit auf physikalisch plausibler Basis",
+          "Bigelow Aerospace war nicht nur Immobilienmakler für Skinwalker Ranch, sondern offizieller DIA-Auftragnehmer für UAP-Materialanalyse"
+        ],
+        "anthony_bragalia": {
+          "beschreibung": "Investigativjournalist und UAP-Forscher, bekannt für aggressive FOIA-Anfragen an US-Behörden",
+          "bedeutung": "Seine FOIA-Anfrage war präzise genug ('UAP material from Bigelow Aerospace'), um eine inhaltliche DIA-Antwort zu erzwingen – was die Existenz des Materials de facto bestätigt",
+          "weitere_arbeit": "Bragalia hat auch FOIA-Anfragen zu Roswell-Materialien bei Wright-Patterson AFB gestellt"
+        }
+      },
+      "witnesses": [
+        {
+          "name": "Anthony Bragalia",
+          "role": "FOIA-Antragsteller, Investigativjournalist",
+          "statement": "Die DIA hat mir bestätigt, dass sie Testergebnisse von UAP-Material von Bigelow Aerospace haben. Das ist ein historischer Moment – die Regierung gibt implizit zu, dass solches Material existiert."
+        },
+        {
+          "name": "Steven W. Tumiski",
+          "role": "Chief, Records Management and Information Services, DIA",
+          "statement": "DIA-Antwortschreiben vom 8. Januar 2021: Freigabe von 154 Seiten in 5 technischen Studien unter AAWSA-Programm"
+        },
+        {
+          "name": "Robert Bigelow",
+          "role": "CEO Bigelow Aerospace / BAASS",
+          "statement": "60 Minutes Interview 2017: 'Ich bin absolut überzeugt, dass wir besucht werden. Das ist kein Geheimnis.' – Bigelow finanzierte UAP-Forschung aus eigener Tasche und im Auftrag der DIA."
+        }
+      ],
+      "sources": [
+        {
+          "type": "Primärdokument",
+          "title": "DIA FOIA Response – FOIA-00089-2018",
+          "date": "2021-01-08",
+          "author": "Defense Intelligence Agency",
+          "description": "Offizielles DIA-Antwortschreiben mit 154 Seiten in 5 technischen Studien über UAP-Materialforschung"
+        },
+        {
+          "type": "Primärdokument",
+          "title": "Metallic Glasses: Status and Prospects for Aerospace Applications",
+          "reference": "DIA-08-0911-012",
+          "date": "2009-12-14",
+          "program": "AAWSA Program FY 2009"
+        },
+        {
+          "type": "Primärdokument",
+          "title": "Biomaterials (AAWSA Program)",
+          "date": "2009",
+          "program": "AAWSA Program FY 2009"
+        },
+        {
+          "type": "Primärdokument",
+          "title": "Materials for Advanced Aerospace Platforms (AAWSA Program)",
+          "date": "2009",
+          "program": "AAWSA Program FY 2009"
+        },
+        {
+          "type": "Primärdokument",
+          "title": "Metallic Spintronics (AAWSA Program)",
+          "date": "2009",
+          "program": "AAWSA Program FY 2009"
+        },
+        {
+          "type": "Primärdokument",
+          "title": "Metamaterials for Aerospace Applications (AAWSA Program)",
+          "date": "2009",
+          "program": "AAWSA Program FY 2009"
+        },
+        {
+          "type": "Medien",
+          "title": "The Black Vault – DIA FOIA Release Analysis",
+          "url": "https://www.theblackvault.com/documentarchive/dia-releases-uap-material-test-results-to-researcher/",
+          "description": "Analyse der DIA-FOIA-Veröffentlichung durch John Greenewald Jr."
+        },
+        {
+          "type": "Medien",
+          "title": "60 Minutes – Robert Bigelow Interview",
+          "date": "2017-05-28",
+          "description": "Bigelow bestätigt UAP-Überzeugung und Forschungsaktivitäten"
+        }
+      ],
+      "connections": [
+        "bigelow-lazar-connection",
+        "roswell-1947",
+        "aatip-2017",
+        "skinwalker",
+        "grusch-2023"
+      ],
+      "significance": "Dieses FOIA-Dokument ist einer der stärksten indirekten Beweise für ein aktives Reverse-Engineering-Programm der US-Regierung. Die DIA bestätigte nicht nur die Existenz von UAP-Material bei Bigelow Aerospace, sondern veröffentlichte 5 technische Studien, die zeigen, welche Materialklassen analysiert wurden. Die Verbindung zwischen Nitinol/Memory Metal und Roswell-Zeugenbeschreibungen, sowie die Metamaterial-Tarnkappen-Verbindung zu UAP-Sichtungen, macht dieses Dokument zu einem Schlüsselstück im Puzzle der Disclosure-Geschichte."
     }
   ]
 }

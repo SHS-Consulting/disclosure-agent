@@ -1,5 +1,5 @@
-// Disclosure Agent Service Worker v23
-const CACHE = 'disclosure-v23';
+// Disclosure Agent Service Worker v24
+const CACHE = 'disclosure-v24';
 const ASSETS = ['/', '/index.html', '/manifest.json',
   '/data/cases.json', '/data/people.json', '/data/operations.json',
   '/data/congruence.json', '/data/timeline.json'];
