@@ -375,6 +375,25 @@ footer a{color:var(--v);text-decoration:none}
   <div style="font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:1rem;padding:.75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:6px">
     <strong style="color:var(--v)">Kongruenz-Methodik:</strong> Score steigt mit: zeitlicher Trennung, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander. Score 10/10 = maximal unabhängige Quellen, identische Kernaussage.
   </div>
+  <!-- Kongruenz-Statistik-Header (dynamisch befüllt) -->
+  <div id="con-stats-header" style="display:none;margin-bottom:1rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.6rem">
+    <div style="background:var(--bg2);border:1px solid var(--bd);border-radius:6px;padding:.65rem .9rem;text-align:center">
+      <div id="con-stat-total" style="font-family:'Orbitron',sans-serif;font-size:22px;font-weight:900;color:var(--v)">–</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-top:2px">Thesen gesamt</div>
+    </div>
+    <div style="background:var(--bg2);border:1px solid var(--bd);border-radius:6px;padding:.65rem .9rem;text-align:center">
+      <div id="con-stat-avg" style="font-family:'Orbitron',sans-serif;font-size:22px;font-weight:900;color:var(--c)">–</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-top:2px">Ø Score</div>
+    </div>
+    <div style="background:var(--bg2);border:1px solid var(--bd);border-radius:6px;padding:.65rem .9rem;text-align:center">
+      <div id="con-stat-high" style="font-family:'Orbitron',sans-serif;font-size:22px;font-weight:900;color:var(--g)">–</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-top:2px">Score ≥ 9.0</div>
+    </div>
+    <div style="background:var(--bg2);border:1px solid var(--bd);border-radius:6px;padding:.65rem .9rem;text-align:center">
+      <div id="con-stat-top" style="font-family:'Orbitron',sans-serif;font-size:11px;font-weight:700;color:var(--a);line-height:1.3">–</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-top:2px">Stärkste These</div>
+    </div>
+  </div>
   <div id="con-grid"><div class="loading">Lade Kongruenz-Thesen...</div></div>
 </div>
 
@@ -514,17 +533,41 @@ function renderOperations(ops, gridId) {
 function renderCongruence(themes, gridId) {
   const g = document.getElementById(gridId);
   if(!themes||!themes.length){g.innerHTML='<div class="loading">Keine Daten.</div>';return;}
-  g.innerHTML = themes.map(t => `
-    <div class="cw">
+  
+  // Statistik berechnen und Header befüllen
+  const scores = themes.map(t => t.score || 0).filter(s => s > 0);
+  const avg = scores.length ? (scores.reduce((a,b)=>a+b,0)/scores.length).toFixed(2) : '–';
+  const highCount = scores.filter(s => s >= 9.0).length;
+  const topTheme = themes.reduce((best, t) => (!best || (t.score||0) > (best.score||0)) ? t : best, null);
+  const el = (id) => document.getElementById(id);
+  if(el('con-stat-total')) el('con-stat-total').textContent = themes.length;
+  if(el('con-stat-avg')) el('con-stat-avg').textContent = avg;
+  if(el('con-stat-high')) el('con-stat-high').textContent = highCount;
+  if(el('con-stat-top')) el('con-stat-top').textContent = topTheme ? topTheme.title.substring(0,40) : '–';
+  const header = document.getElementById('con-stats-header');
+  if(header) header.style.display = 'grid';
+  
+  g.innerHTML = themes.map(t => {
+    // Quellen-Rendering: unterstützt sowohl altes Format {name, statement} als auch neues {title, author, year, type}
+    const sourcesHtml = (t.sources||[]).map((s,i) => {
+      const name = s.name || s.title || 'Quelle';
+      const stmt = s.statement || (s.author ? `${s.author} (${s.year||''}) – ${s.type||''}` : '');
+      const url = s.url || s.source_url || '';
+      const link = url ? ` <a href="${url}" target="_blank" style="color:var(--c);font-size:9px;text-decoration:none">[→]</a>` : '';
+      return `${i>0?'<span class="cwarrow">↕ kongruent mit — unabhängig ↕</span>':''}
+        <div class="cwsrc"><strong>${name}:</strong> ${stmt}${link}</div>`;
+    }).join('');
+    const scoreColor = (t.score||0) >= 9.5 ? 'var(--r)' : (t.score||0) >= 9.0 ? 'var(--g)' : (t.score||0) >= 8.0 ? 'var(--c)' : 'var(--v)';
+    const gapText = t.max_temporal_gap_years ? ` · Zeitspanne: ${t.max_temporal_gap_years}+ Jahre` : '';
+    const sigHtml = t.significance ? `<div style="margin-top:.5rem;padding:.5rem .7rem;background:rgba(179,157,219,.06);border-left:2px solid var(--vd);border-radius:0 4px 4px 0;font-size:10px;color:var(--t2);line-height:1.5">${t.significance}</div>` : '';
+    return `<div class="cw">
       <div class="cwtitle">◈ ${t.title}</div>
-      <div class="cwtag">🔗 Score ${t.score}/10 · Max. Zeitspanne: ${t.max_temporal_gap_years}+ Jahre</div>
-      <div style="font-size:11px;color:var(--t2);margin-bottom:.5rem">${t.summary}</div>
-      <div class="cwsources">
-        ${t.sources.map((s,i) => `
-          ${i>0?'<span class="cwarrow">↕ kongruent mit — unabhängig ↕</span>':''}
-          <div class="cwsrc"><strong>${s.name}:</strong> ${s.statement}</div>`).join('')}
-      </div>
-    </div>`).join('');
+      <div class="cwtag">🔗 Score <span style="color:${scoreColor};font-weight:700">${t.score||'?'}/10</span>${gapText}</div>
+      <div style="font-size:11px;color:var(--t2);margin-bottom:.5rem">${t.summary||''}</div>
+      <div class="cwsources">${sourcesHtml}</div>
+      ${sigHtml}
+    </div>`;
+  }).join('');
 }
 
 // ── RENDER DIA DOCS
