@@ -4,7 +4,8 @@
     "last_updated": "2026-05-21",
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
-    "total_themes": 48
+    "total_themes": 48,
+    "total_thesen": 50
   },
   "themes": [
     {
@@ -1925,6 +1926,36 @@
         "nasa",
         "heliobiologie"
       ]
+    },
+    {
+      "id": "reverse-engineering-materialnachweis",
+      "title": "Reverse-Engineering-Materialnachweis: Roswell → Nitinol → AAWSA → AATIP → Grusch",
+      "score": 9.6,
+      "category": "Technologie",
+      "summary": "Die dokumentierte Beweiskette von Roswell-Memory-Metal (1947) über Nitinol-Entwicklung (1959) bis zur DIA-AAWSA-Materialforschung (2009), AATIP (2012-2017) und Grusch-Testimony (2023) ist die stärkste kontinuierliche Beweiskette für ein aktives Reverse-Engineering-Programm der US-Regierung.",
+      "key_connections": [
+        "Nitinol-Entwickler hatten laut Bragalia direkten Zugang zu Roswell-Material",
+        "AAWSA-Programm (2009) analysierte explizit UAP-Material von Bigelow Aerospace",
+        "Grusch nannte unter Eid spezifische Lagerorte für NHI-Material",
+        "76-jährige kontinuierliche Beweiskette von Roswell bis Grusch"
+      ],
+      "sources": [
+        "DIA FOIA-00089-2018 (2021)",
+        "Grusch-Testimony US-Kongress (2023)",
+        "GAO Roswell-Bericht (1994)",
+        "Bragalia: Nitinol-Roswell-Verbindung (2009)",
+        "AATIP-Programmdokumente (2017, via NYT)",
+        "Jesse Marcel Sr. Zeugnis (1979)",
+        "DIA AAWSA-Programm-Dokumente (2009)"
+      ],
+      "cases": [
+        "dia-bragalia-foia-2021",
+        "roswell-1947",
+        "grusch-2023",
+        "aatip-2017",
+        "bigelow-lazar-connection"
+      ],
+      "significance": "Diese Beweiskette verbindet physische Zeugenaussagen (Roswell 1947) über wissenschaftliche Entwicklungen (Nitinol 1959) mit institutionellen Programmen (AAWSA 2009, AATIP 2012) und endet mit einem Eid-Zeugnis vor dem US-Kongress (Grusch 2023). 76-jährige lückenlose dokumentierte Kette."
     }
   ],
   "_auto_detection": {

@@ -3,7 +3,7 @@
     "version": "4.0",
     "last_updated": "2026-05-21",
     "add_command": "ADD_PERSON: name | role | bio | tags(comma separated) | source_url | emoji",
-    "total_people": 56
+    "total_people": 57
   },
   "people": [
     {
@@ -1535,6 +1535,53 @@
         }
       ],
       "source_url": "https://en.wikipedia.org/wiki/Zecharia_Sitchin"
+    },
+    {
+      "id": "anthony-bragalia",
+      "name": "Anthony Bragalia",
+      "role": "Investigativjournalist, FOIA-Forscher, UAP-Materialexperte",
+      "affiliation": "Unabhängig / The UFO Chronicles",
+      "nationality": "US-amerikanisch",
+      "tags": [
+        "FOIA",
+        "Materialanalyse",
+        "Regierung",
+        "wissenschaft",
+        "Reverse-Engineering"
+      ],
+      "credibility": "Hoch",
+      "status": "Aktiv",
+      "bio": "Anthony Bragalia ist einer der produktivsten FOIA-Antragsteller im UAP-Bereich. Er hat über 200 FOIA-Anfragen an DIA, Pentagon, NARA, AFOSI und andere US-Behörden gestellt und dabei mehrere historisch bedeutsame Dokumente freigelegt. Sein bekanntester Erfolg: Die DIA-Antwort vom 8. Januar 2021 (FOIA-00089-2018), in der die Behörde 154 Seiten technischer Studien über UAP-Material von Bigelow Aerospace freigab – das erste Mal, dass die US-Regierung implizit die Existenz von UAP-Material bestätigte. Bragalia ist auch bekannt für seine Recherchen zu Roswell-Memory-Metal (Nitinol-Verbindung), Wright-Patterson AFB-Lagerung und die Identifizierung von Schlüsselpersonen in geheimen UAP-Programmen.",
+      "key_statements": [
+        "Die DIA hat mir bestätigt, dass sie Testergebnisse von UAP-Material von Bigelow Aerospace haben. Das ist ein historischer Moment – die Regierung gibt implizit zu, dass solches Material existiert. (Januar 2021)",
+        "Das Nitinol-Memory-Metal wurde kurz nach Roswell entwickelt – von Forschern, die direkt mit dem Material in Berührung kamen. Die zeitliche und personelle Verbindung ist kein Zufall.",
+        "Ich habe über 200 FOIA-Anfragen gestellt. Die Behörden antworten entweder gar nicht, oder sie bestätigen durch ihre Antworten mehr, als sie beabsichtigen.",
+        "Wright-Patterson AFB ist das Zentrum. Alle Wege führen dorthin – Roswell-Material, Hanger 18, die Verbindung zu MJ-12.",
+        "Das AAWSA-Programm war kein Forschungsprogramm über mögliche UAPs. Es war ein Reverse-Engineering-Programm über bereits vorhandenes Material."
+      ],
+      "connections": [
+        "dia-bragalia-foia-2021",
+        "roswell-1947",
+        "bigelow-lazar-connection",
+        "aatip-2017"
+      ],
+      "notable_foia_cases": [
+        {
+          "case": "FOIA-00089-2018 (DIA)",
+          "result": "154 Seiten AAWSA-Studien über UAP-Material von Bigelow Aerospace",
+          "date": "2021-01-08"
+        },
+        {
+          "case": "FOIA zu Wright-Patterson AFB",
+          "result": "Teilweise Freigabe von Dokumenten über Lagerung unbekannter Materialien",
+          "date": "2019"
+        },
+        {
+          "case": "FOIA zu NARA (National Archives)",
+          "result": "Roswell-bezogene Dokumente aus den 1940er/50er Jahren",
+          "date": "2018"
+        }
+      ]
     }
   ]
 }
