@@ -99,7 +99,10 @@ nav{position:sticky;top:0;z-index:100;background:rgba(3,2,10,.96);backdrop-filte
 
 .region-bar{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1rem}
 .rbtn{padding:4px 11px;border:1px solid var(--bd);border-radius:3px;background:none;cursor:pointer;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3);transition:all .2s}
-.rbtn:hover,.rbtn.active{border-color:var(--bdb);color:var(--v);background:rgba(179,157,219,.08)}
+.rbtn:hover{opacity:.85;filter:brightness(1.2)}
+.rbtn.active{border-color:var(--bdb);color:var(--v);background:rgba(179,157,219,.12);filter:brightness(1.15)}
+/* Buttons mit inline-Farbe behalten ihre Farbe auch im active/hover-State */
+.rbtn[style*='color']:hover,.rbtn[style*='color'].active{color:inherit}
 
 .sb{display:flex;gap:.4rem;margin-bottom:1rem;background:var(--bg3);border:1px solid var(--bd);border-radius:6px;padding:.4rem .85rem;align-items:center}
 .sb input{flex:1;background:none;border:none;outline:none;font-family:'Rajdhani',sans-serif;font-size:13px;color:var(--t1)}
@@ -201,23 +204,23 @@ footer a{color:var(--v);text-decoration:none}
 <div id="tp-ev" class="tp active">
   <div class="sb"><span>🔍</span><input type="text" id="ev-search" placeholder="Beweise filtern..." oninput="filterEvidence(this)"></div>
   <div class="region-bar" id="ev-filter-bar">
-    <button class="rbtn active" onclick="filterEvidenceTag('all',this)">🌐 Alle</button>
-    <button class="rbtn" onclick="filterEvidenceTag('KRITISCH',this)" style="border-color:rgba(255,68,68,.5)">🔴 Kritisch</button>
-    <button class="rbtn" onclick="filterEvidenceTag('BESTÄTIGT',this)" style="border-color:rgba(0,230,118,.4)">✅ Bestätigt</button>
-    <button class="rbtn" onclick="filterEvidenceTag('AARO',this)" style="border-color:rgba(0,180,255,.5);color:#00b4ff">🏛 AARO</button>
-    <button class="rbtn" onclick="filterEvidenceTag('NASA',this)">🚀 NASA</button>
-    <button class="rbtn" onclick="filterEvidenceTag('Astronaut',this)" style="border-color:rgba(255,215,0,.5);color:#ffd700">👨‍🚀 Astronauten</button>
-    <button class="rbtn" onclick="filterEvidenceTag('Pentagon',this)">⬡ Pentagon</button>
-    <button class="rbtn" onclick="filterEvidenceTag('Nuklear',this)">☢ Nuklear</button>
-    <button class="rbtn" onclick="filterEvidenceTag('Materialanalyse',this)">🔬 Material</button>
-    <button class="rbtn" onclick="filterEvidenceTag('soft-disclosure',this)" style="border-color:rgba(255,176,32,.5);color:#ffb020">🎬 Hollywood</button>
-    <button class="rbtn" onclick="filterEvidenceTag('eisenhower',this)" style="border-color:rgba(100,200,255,.5);color:#64c8ff">🤝 Eisenhower</button>
-    <button class="rbtn" onclick="filterEvidenceTag('dulce',this)" style="border-color:rgba(180,100,255,.5);color:#b464ff">🕳️ Dulce</button>
-    <button class="rbtn" onclick="filterEvidenceTag('wissenschaft',this)" style="border-color:rgba(80,220,160,.5);color:#50dca0">🔭 Wissenschaft</button>
-    <button class="rbtn" onclick="filterEvidenceTag('FOIA',this)" style="border-color:rgba(255,200,50,.5);color:#ffc832">📄 FOIA</button>
-    <button class="rbtn" onclick="filterEvidenceTag('Video',this)" style="border-color:rgba(255,80,80,.5);color:#ff5050">🎥 Video</button>
-    <button class="rbtn" onclick="filterEvidenceTag('Humanoid',this)" style="border-color:rgba(0,230,118,.5);color:#00e676">👽 Humanoid</button>
-    <button class="rbtn" onclick="filterEvidenceTag('PURSUE',this)" style="border-color:rgba(0,229,255,.5);color:#00e5ff">🏛 PURSUE</button>
+    <button class="rbtn active" onclick="filterEvidenceTag('all',this)" style="border-color:rgba(255,255,255,.35);color:#ffffff">🌐 Alle</button>
+    <button class="rbtn" onclick="filterEvidenceTag('KRITISCH',this)" style="border-color:rgba(255,68,68,.5);color:#ff4444;background:rgba(255,68,68,.08)">🔴 Kritisch</button>
+    <button class="rbtn" onclick="filterEvidenceTag('BESTÄTIGT',this)" style="border-color:rgba(0,230,118,.5);color:#00e676;background:rgba(0,230,118,.07)">✅ Bestätigt</button>
+    <button class="rbtn" onclick="filterEvidenceTag('AARO',this)" style="border-color:rgba(0,180,255,.5);color:#00b4ff;background:rgba(0,180,255,.07)">🏛 AARO</button>
+    <button class="rbtn" onclick="filterEvidenceTag('NASA',this)" style="border-color:rgba(255,140,0,.5);color:#ff8c00;background:rgba(255,140,0,.07)">🚀 NASA</button>
+    <button class="rbtn" onclick="filterEvidenceTag('Astronaut',this)" style="border-color:rgba(255,215,0,.5);color:#ffd700;background:rgba(255,215,0,.07)">👨‍🚀 Astronauten</button>
+    <button class="rbtn" onclick="filterEvidenceTag('Pentagon',this)" style="border-color:rgba(100,160,255,.5);color:#64a0ff;background:rgba(100,160,255,.07)">⬡ Pentagon</button>
+    <button class="rbtn" onclick="filterEvidenceTag('Nuklear',this)" style="border-color:rgba(255,100,100,.5);color:#ff6464;background:rgba(255,100,100,.07)">☢ Nuklear</button>
+    <button class="rbtn" onclick="filterEvidenceTag('Materialanalyse',this)" style="border-color:rgba(80,220,160,.5);color:#50dca0;background:rgba(80,220,160,.07)">🔬 Material</button>
+    <button class="rbtn" onclick="filterEvidenceTag('soft-disclosure',this)" style="border-color:rgba(255,176,32,.5);color:#ffb020;background:rgba(255,176,32,.07)">🎥 Hollywood</button>
+    <button class="rbtn" onclick="filterEvidenceTag('eisenhower',this)" style="border-color:rgba(100,200,255,.5);color:#64c8ff;background:rgba(100,200,255,.07)">🤝 Eisenhower</button>
+    <button class="rbtn" onclick="filterEvidenceTag('dulce',this)" style="border-color:rgba(180,100,255,.5);color:#b464ff;background:rgba(180,100,255,.07)">🕳️ Dulce</button>
+    <button class="rbtn" onclick="filterEvidenceTag('wissenschaft',this)" style="border-color:rgba(80,220,160,.5);color:#50dca0;background:rgba(80,220,160,.07)">🔭 Wissenschaft</button>
+    <button class="rbtn" onclick="filterEvidenceTag('FOIA',this)" style="border-color:rgba(255,200,50,.5);color:#ffc832;background:rgba(255,200,50,.07)">📄 FOIA</button>
+    <button class="rbtn" onclick="filterEvidenceTag('Video',this)" style="border-color:rgba(255,80,80,.5);color:#ff5050;background:rgba(255,80,80,.07)">🎥 Video</button>
+    <button class="rbtn" onclick="filterEvidenceTag('Humanoid',this)" style="border-color:rgba(0,230,118,.5);color:#00e676;background:rgba(0,230,118,.07)">👽 Humanoid</button>
+    <button class="rbtn" onclick="filterEvidenceTag('PURSUE',this)" style="border-color:rgba(0,229,255,.5);color:#00e5ff;background:rgba(0,229,255,.07)">🏛 PURSUE</button>
   </div>
   <div class="cg" id="ev-grid"><div class="loading">Lade Beweisdaten...</div></div>
 </div>
