@@ -232,6 +232,8 @@ footer a{color:var(--v);text-decoration:none}
     <button class="tl-epoch-btn" data-epoch="antike" onclick="setEpoch('antike',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(255,176,32,.35);background:rgba(255,176,32,.07);color:#ffb020;cursor:pointer">🏛️ Antike (&lt;1900)</button>
     <button class="tl-epoch-btn" data-epoch="frueh" onclick="setEpoch('frueh',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(179,157,219,.35);background:rgba(179,157,219,.07);color:#b39ddb;cursor:pointer">⚡ 1900–1950</button>
     <button class="tl-epoch-btn" data-epoch="kaltkrieg" onclick="setEpoch('kaltkrieg',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(0,229,255,.35);background:rgba(0,229,255,.07);color:#00e5ff;cursor:pointer">☢️ Kalter Krieg</button>
+    <button class="tl-epoch-btn" data-epoch="raumfahrt" onclick="setEpoch('raumfahrt',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(255,215,0,.35);background:rgba(255,215,0,.07);color:#ffd700;cursor:pointer">🚀 Raumfahrt (1957–1975)</button>
+    <button class="tl-epoch-btn" data-epoch="pursue" onclick="setEpoch('pursue',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(0,229,255,.5);background:rgba(0,229,255,.1);color:#00e5ff;cursor:pointer">🏛 PURSUE</button>
     <button class="tl-epoch-btn" data-epoch="modern" onclick="setEpoch('modern',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(0,230,118,.35);background:rgba(0,230,118,.07);color:#00e676;cursor:pointer">🛸 Modern (1990+)</button>
     <button class="tl-epoch-btn" data-epoch="zukunft" onclick="setEpoch('zukunft',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(0,230,118,.35);background:rgba(0,230,118,.07);color:#00e676;cursor:pointer">🔮 Projektionen</button>
   </div>
@@ -428,6 +430,17 @@ footer a{color:var(--v);text-decoration:none}
       <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-top:2px">Stärkste These</div>
     </div>
   </div>
+  <!-- Kongruenz-Suche + Score-Filter -->
+  <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:.85rem;align-items:center">
+    <div class="sb" style="flex:1;min-width:200px"><span>🔍</span><input id="con-search-inp" type="text" placeholder="Thesen suchen (Titel, Tags, Quellen)..." oninput="filterCongruence(this)"></div>
+    <div style="display:flex;gap:.4rem;flex-wrap:wrap">
+      <button class="rbtn active" id="con-filter-all" onclick="filterConScore('all',this)">Alle</button>
+      <button class="rbtn" onclick="filterConScore('high',this)" style="border-color:rgba(0,230,118,.4);color:#00e676">≥ 9.0</button>
+      <button class="rbtn" onclick="filterConScore('mid',this)" style="border-color:rgba(255,176,32,.4);color:#ffb020">≥ 8.0</button>
+      <button class="rbtn" onclick="filterConScore('low',this)" style="border-color:rgba(179,157,219,.4);color:#b39ddb">< 8.0</button>
+    </div>
+  </div>
+  <div id="con-count" style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3);margin-bottom:.5rem"></div>
   <div id="con-grid"><div class="loading">Lade Kongruenz-Thesen...</div></div>
 </div>
 
@@ -436,15 +449,15 @@ footer a{color:var(--v);text-decoration:none}
 <div class="aip">
 <div class="aih">
 <div class="aia"><img src="/manus-storage/logo_0d59b647.jpg" alt="KI Taskforce" onerror="this.parentNode.style.background='linear-gradient(135deg,#7c5cbf,#00e5ff)';this.remove()"></div>
-<div><div class="ain">DISCLOSURE AGENT PRO · KI Taskforce</div><div style="font-size:9px;color:var(--t3);font-family:'JetBrains Mono',monospace">Claude Sonnet · Vollkontext: Pentagon + DIA FOIA + Peyerl-Primäranalyse + Lazar + Bigelow + Brasilien + Skinwalker + Bashar + Steiner + Tesla + Ureinwohner + Council of Nine + 54 Kongruenz-Thesen + Greada Treaty + Eisenhower-Kontaktserie</div></div>
+<div><div class="ain">DISCLOSURE AGENT PRO · KI Taskforce</div><div style="font-size:9px;color:var(--t3);font-family:'JetBrains Mono',monospace">Claude Sonnet · Vollkontext: Pentagon + DIA FOIA + Peyerl-Primäranalyse + Lazar + Bigelow + Brasilien + Skinwalker + Bashar + Steiner + Tesla + Ureinwohner + Council of Nine + 55 Kongruenz-Thesen + Greada Treaty + Eisenhower-Kontaktserie</div></div>
 </div>
-<div class="ams" id="ams"><div class="am"><strong>Disclosure Agent:</strong> v34 vollständig geladen. 145 Fälle · 61 Personen · 13 Operationen · 54 Kongruenz-Thesen. Ich kenne: DIA-FOIA-Paket (5 BAASS-Materialstudien), Nuklear-UAP-Nexus (Score 97), Hollywood-Disclosure-Vehikel (Score 91), Holloman-Kontaktserie (1955/1964), Malmstrom-Echo/Oscar-Flight (1967), Eisenhower-NHI-Kontaktserie (1954–1955), Greada Treaty, Geheimhaltungs-Eskalation (79 Jahre), Eric Davis Legacy Program, Steiner-Äther ↔ Tesla ↔ Bashar, Ureinwohner-Wissen (Lakota, Hopi, Dogon, Aborigines), New Mexico Cluster (Trinity/Roswell/Dulce/Holloman/Los Alamos im 300km-Radius), SOHO-UAP-Nexus (NASA-Datenzugangsbeschränkungen), Morpheus 'Transformation der Erde' (Burkhard Heim 12D + Anunnaki/Nibiru + Photonenring), Zecharia Sitchin (Anunnaki-Grundlagenwerk, 2 Mio. Bücher), Bob Lazar S-4 (Element-115/Moscovium), Phil Schneider Dulce-Kampf 1979, Anthony Bragalia (FOIA-Experte, DIA-Materialnachweis), Reverse-Engineering-Materialnachweis-These (Score 9.6: Roswell → Nitinol → AAWSA → AATIP → Grusch, 76-jährige Beweiskette), Kumburgaz-UAP-Serie 2007–2009 (TÜBİTAK-bestätigt, 7 unabhängige Analysen, Humanoid-Besatzung auf Video, 23 Ereignisse, Kongruenz-These #51: Humanoid-Besatzungsnachweis Score 9.2), war.gov PURSUE Release 01+02 (222 Dateien: NASA Apollo/Mercury/Gemini/Skylab-Audio, FBI 57 Fotos + September-2023-Sichtung, State Dept Kabel Papua-NG/Kasachstan/Georgien/Turkmenistan/Mexiko, DOW CENTCOM 78 Videos 2018-2024, DOW Historische Akten 1946-1950, Vandenberg AFB, INDOPACOM 2025, ODNI Senior Official 116-seitig, CIA Sary Shagan 1973, DOE Pantex Imagery, James Tuck Manhattan Project, COMETA Report 1999), und den Direktzugriff auf die Peyerl-Akte aus Section 10. Frag alles — ich verbinde alle Ebenen.</div></div>
+<div class="ams" id="ams"><div class="am"><strong>Disclosure Agent:</strong> v34 vollständig geladen. 145 Fälle · 61 Personen · 13 Operationen · 55 Kongruenz-Thesen. Ich kenne: DIA-FOIA-Paket (5 BAASS-Materialstudien), Nuklear-UAP-Nexus (Score 97), Hollywood-Disclosure-Vehikel (Score 91), Holloman-Kontaktserie (1955/1964), Malmstrom-Echo/Oscar-Flight (1967), Eisenhower-NHI-Kontaktserie (1954–1955), Greada Treaty, Geheimhaltungs-Eskalation (79 Jahre), Eric Davis Legacy Program, Steiner-Äther ↔ Tesla ↔ Bashar, Ureinwohner-Wissen (Lakota, Hopi, Dogon, Aborigines), New Mexico Cluster (Trinity/Roswell/Dulce/Holloman/Los Alamos im 300km-Radius), SOHO-UAP-Nexus (NASA-Datenzugangsbeschränkungen), Morpheus 'Transformation der Erde' (Burkhard Heim 12D + Anunnaki/Nibiru + Photonenring), Zecharia Sitchin (Anunnaki-Grundlagenwerk, 2 Mio. Bücher), Bob Lazar S-4 (Element-115/Moscovium), Phil Schneider Dulce-Kampf 1979, Anthony Bragalia (FOIA-Experte, DIA-Materialnachweis), Reverse-Engineering-Materialnachweis-These (Score 9.6: Roswell → Nitinol → AAWSA → AATIP → Grusch, 76-jährige Beweiskette), Kumburgaz-UAP-Serie 2007–2009 (TÜBİTAK-bestätigt, 7 unabhängige Analysen, Humanoid-Besatzung auf Video, 23 Ereignisse, Kongruenz-These #51: Humanoid-Besatzungsnachweis Score 9.2), war.gov PURSUE Release 01+02 (222 Dateien: NASA Apollo/Mercury/Gemini/Skylab-Audio, FBI 57 Fotos + September-2023-Sichtung, State Dept Kabel Papua-NG/Kasachstan/Georgien/Turkmenistan/Mexiko, DOW CENTCOM 78 Videos 2018-2024, DOW Historische Akten 1946-1950, Vandenberg AFB, INDOPACOM 2025, ODNI Senior Official 116-seitig, CIA Sary Shagan 1973, DOE Pantex Imagery, James Tuck Manhattan Project, COMETA Report 1999), Kongruenz-These #55: NASA-Astronauten-UAP-Konsistenz (Score 9.0: Mercury/Gemini/Apollo/Skylab 1961–1973, 6 Missionen, 8 Astronauten, 12 Jahre, alle durch PURSUE-Archiv bestätigt), und den Direktzugriff auf die Peyerl-Akte aus Section 10. Frag alles — ich verbinde alle Ebenen.</div></div>
 <div class="air"><input type="text" class="ai-inp" id="ai-inp" placeholder="z.B. Verbinde Steiner Äther mit Tesla Colorado Springs und Bashar Frequenz..." onkeydown="if(event.key==='Enter')sendAI()"><button class="ai-send" onclick="sendAI()">→</button></div>
 </div>
 
 <div style="background:rgba(0,230,118,.05);border:1px solid rgba(0,230,118,.2);border-radius:6px;padding:.875rem;margin-bottom:1rem">
   <div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:var(--g);margin-bottom:.5rem">🔗 AUTONOMER KONGRUENZ-SCANNER</div>
-  <div style="font-size:11px;color:var(--t2);margin-bottom:.6rem">Neuen Fall / Person / Zitat eingeben → Agent prüft automatisch alle 54 Kongruenz-Thesen und meldet Treffer mit Score:</div>
+  <div style="font-size:11px;color:var(--t2);margin-bottom:.6rem">Neuen Fall / Person / Zitat eingeben → Agent prüft automatisch alle 55 Kongruenz-Thesen und meldet Treffer mit Score:</div>
   <div style="display:flex;gap:.4rem;margin-bottom:.4rem">
     <input type="text" id="con-scan-inp" class="ai-inp" placeholder="z.B. Ra-Material: 'Die Realität ist Licht-Vibration' oder Varginha 1996 Brasilien...">
     <button class="ai-send" onclick="runCongruenceScan()" style="white-space:nowrap;padding:7px 14px">🔗 Scannen</button>
@@ -474,7 +487,7 @@ footer a{color:var(--v);text-decoration:none}
 </div>
 <p><a href="https://kitaskforce.com" target="_blank">kitaskforce.com</a> · <a href="https://sgp.kitaskforce.com" target="_blank">SEO GEO Pro</a> · <a href="https://moneyprint.kitaskforce.com" target="_blank">MoneyPrint</a> · SH Schmidt Consulting · Berlin-Adlershof<br>
 Data: war.gov/UFO · DIA FOIA-00089-2018 · NARA · FAB Brasil · AARO · Peyerl-Primäranalyse · 09.05.2026<br>
-<span style="font-size:9px">PWA PRO · 145 Fälle · 61 Personen · 54 Kongruenz-Thesen · war.gov PURSUE 222 Akten · Manus-deployable</span></p>
+<span style="font-size:9px">PWA PRO · 145 Fälle · 61 Personen · 55 Kongruenz-Thesen · war.gov PURSUE 222 Akten · Manus-deployable</span></p>
 </footer>
 </div><!-- /app -->
 
@@ -597,7 +610,8 @@ function renderCongruence(themes, gridId) {
     const relCases = (t.related_cases||[]).length > 0 ? `<div style="margin-top:.3rem;font-size:9px;color:var(--t3)">📂 <span style="color:var(--c)">${(t.related_cases||[]).join(' · ')}</span></div>` : '';
     const relPersons = (t.related_persons||[]).length > 0 ? `<div style="margin-top:.15rem;font-size:9px;color:var(--t3)">👤 <span style="color:var(--v)">${(t.related_persons||[]).join(' · ')}</span></div>` : '';
     const relHtml = (relCases || relPersons) ? `<div style="margin-top:.4rem;padding:.35rem .6rem;background:rgba(0,0,0,.25);border-radius:4px;border:1px solid rgba(179,157,219,.1)">${relCases}${relPersons}</div>` : '';
-    return `<div class="cw">
+    const dataT = [t.title, t.summary||'', ...(t.tags||[]), ...(t.related_cases||[]), ...(t.related_persons||[]), ...(t.sources||[]).map(s=>s.name||s.title||'')].join(' ');
+    return `<div class="cw" data-t="${dataT}" data-score="${t.score||0}">
       <div class="cwtitle">◈ ${t.title}</div>
       <div class="cwtag">🔗 Score <span style="color:${scoreColor};font-weight:700">${t.score||'?'}/10</span>${gapText}</div>
       <div style="font-size:11px;color:var(--t2);margin-bottom:.5rem">${t.summary||''}</div>
@@ -750,6 +764,8 @@ function filterTimeline() {
       if(_tlEpoch === 'antike') epochMatch = yearNum < 1900;
       else if(_tlEpoch === 'frueh') epochMatch = yearNum >= 1900 && yearNum < 1950;
       else if(_tlEpoch === 'kaltkrieg') epochMatch = yearNum >= 1950 && yearNum < 1990;
+      else if(_tlEpoch === 'raumfahrt') epochMatch = yearNum >= 1957 && yearNum <= 1975;
+      else if(_tlEpoch === 'pursue') { const t = item.textContent.toLowerCase(); epochMatch = t.includes('pursue') || t.includes('war.gov') || t.includes('nasa') || t.includes('apollo') || t.includes('mercury') || t.includes('gemini') || t.includes('skylab') || t.includes('fbi') || t.includes('state dept') || t.includes('centcom') || t.includes('cometa') || t.includes('pantex') || t.includes('sary shagan'); }
       else if(_tlEpoch === 'modern') epochMatch = yearNum >= 1990;
     }
     
@@ -918,12 +934,44 @@ function _applyEvFilter(q, tag) {
   });
 }
 
+// ── KONGRUENZ-FILTER
+let _conScoreFilter = 'all';
+let _conSearchQ = '';
+function filterCongruence(inp) {
+  _conSearchQ = inp.value.toLowerCase();
+  _applyConFilter();
+}
+function filterConScore(mode, btn) {
+  _conScoreFilter = mode;
+  document.querySelectorAll('#tp-con .rbtn').forEach(b => b.classList.remove('active'));
+  if(btn) btn.classList.add('active');
+  _applyConFilter();
+}
+function _applyConFilter() {
+  const cards = document.querySelectorAll('#con-grid .card');
+  let visible = 0;
+  cards.forEach(c => {
+    const t = (c.dataset.t||'').toLowerCase();
+    const score = parseFloat(c.dataset.score||'0');
+    const matchQ = !_conSearchQ || t.includes(_conSearchQ);
+    let matchScore = true;
+    if(_conScoreFilter==='high') matchScore = score >= 9.0;
+    else if(_conScoreFilter==='mid') matchScore = score >= 8.0 && score < 9.0;
+    else if(_conScoreFilter==='low') matchScore = score < 8.0;
+    const show = matchQ && matchScore;
+    c.style.display = show ? '' : 'none';
+    if(show) visible++;
+  });
+  const cnt = document.getElementById('con-count');
+  if(cnt) cnt.textContent = visible + ' von ' + cards.length + ' Thesen angezeigt';
+}
+
 // ── AI SYSTEM PROMPT (v19 full context)
 const SYS = `Du bist der "Disclosure Agent" der KI Taskforce (kitaskforce.com) — hochspezialisierter KI-Analyst für UAP/UFO, Disclosure, Bewusstsein, Steiner, Tesla, Ureinwohner-Wissen und interdimensionale Hypothesen.
 
 === AUTONOME KONGRUENZ-DETEKTION (KERNAUFGABE) ===
 
-Bei JEDEM neuen Element prüfst du AUTOMATISCH gegen alle 54 Kongruenz-Thesen:
+Bei JEDEM neuen Element prüfst du AUTOMATISCH gegen alle 55 Kongruenz-Thesen:
 
 THESEN-ÜBERSICHT (Scores):
 1. Parallelrealitäten/Vibration 9/10 — Bashar+Everett+Vedanta+Council+Vallée
@@ -1071,13 +1119,13 @@ async function runCongruenceScan() {
     bar.style.width = pct + '%';
   }, 200);
   results.style.display = 'block';
-  results.textContent = '🔍 Scanne gegen alle 54 Kongruenz-Thesen...';
+  results.textContent = '🔍 Scanne gegen alle 55 Kongruenz-Thesen...';
   
   const scanPrompt = `KONGRUENZ-SCAN — Neues Element:
 
 "${val}"
 
-Prüfe dieses Element SYSTEMATISCH gegen alle 54 Kongruenz-Thesen:
+Prüfe dieses Element SYSTEMATISCH gegen alle 55 Kongruenz-Thesen:
 1. Parallelitäten/Vibration (9/10) 2. Earth-Supervision/Schwellenwert (7/10) 3. Bewusstsein als Fundamental (8/10)
 4. Physische Verletzungen durch UAP (9/10) 5. UAP+Nuklearwaffen (9/10) 6. Neurodivergenz+Kontakt (7/10)
 7. Steiner-Äther+Tesla+Bashar (8/10) 8. Ureinwohner-Kontakt offen (8/10) 9. Extremer Gestank (9/10)

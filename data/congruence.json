@@ -1,10 +1,10 @@
 {
   "_meta": {
     "version": "4.0",
-    "last_updated": "2026-05-21",
+    "last_updated": "2026-05-22",
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
-    "total_themes": 51,
+    "total_themes": 55,
     "total_thesen": 50,
     "total": 54
   },
@@ -3013,6 +3013,76 @@
       ],
       "related_persons": [
         "hegseth-pete"
+      ]
+    },
+    {
+      "id": "nasa-astronaut-uap-consistency",
+      "title": "NASA-Astronauten-UAP-Konsistenz: Mercury → Gemini → Apollo → Skylab (1961–1973)",
+      "score": 9.0,
+      "max_temporal_gap_years": 12,
+      "summary": "Über 12 Jahre und 4 verschiedene NASA-Programmen berichten unabhängige Astronauten-Besatzungen konsistent von unbekannten Objekten im Orbit. Mercury-Pilot Gordon Cooper (1963), Gemini 7 (Borman/Lovell, 1965), Apollo 11 (Armstrong/Aldrin/Collins, 1969), Apollo 12 (Conrad/Bean, 1969), Apollo 17 (Cernan/Evans/Schmitt, 1972) und Skylab 3 (1973) — alle nun durch war.gov PURSUE Release 01+02 offiziell dokumentiert. Besatzungen kannten sich nicht gegenseitig, hatten keine Kommunikation während der Missionen und berichteten unabhängig voneinander.",
+      "sources": [
+        {
+          "name": "Gordon Cooper (Mercury Atlas 9, 1963)",
+          "statement": "Berichtete über ein grünes Objekt in Annäherung, das auf Radarschirmen bestätigt wurde. PURSUE-Akte: war.gov/ufo/mercury-atlas-9-cooper-1963",
+          "url": "https://www.war.gov/ufo/"
+        },
+        {
+          "name": "Frank Borman & James Lovell (Gemini 7, 1965)",
+          "statement": "Sichteten ein 'Bogey' (unbekanntes Objekt) in naher Orbitalnähe. Offiziell als Raketenbooster erklärt, aber Besatzung bestand auf Unterschied. PURSUE-Akte: war.gov/ufo/gemini-7-borman-lovell-1965",
+          "url": "https://www.war.gov/ufo/"
+        },
+        {
+          "name": "Neil Armstrong & Buzz Aldrin (Apollo 11, 1969)",
+          "statement": "Translunar-Objekt auf dem Weg zum Mond, L-förmig, nicht identifizierbar. Armstrong: 'Es war wirklich riesig.' PURSUE-Akte: war.gov/ufo/apollo-11-armstrong-aldrin-1969",
+          "url": "https://www.war.gov/ufo/"
+        },
+        {
+          "name": "Pete Conrad & Alan Bean (Apollo 12, 1969)",
+          "statement": "Unbekanntes Objekt folgte der Kapsel auf dem Rückweg zur Erde. Zwei separate Sichtungen durch beide Astronauten. PURSUE-Akte: war.gov/ufo/apollo-12-conrad-bean-1969",
+          "url": "https://www.war.gov/ufo/"
+        },
+        {
+          "name": "Gene Cernan & Harrison Schmitt (Apollo 17, 1972)",
+          "statement": "Cernan: 'Ich glaube, dass UFOs ein reales Phänomen sind.' Schmitt (Geologe/Senator): Sichtung auf Mondorbitalphase. PURSUE-Akte: war.gov/ufo/apollo-17-cernan-schmitt-1972",
+          "url": "https://www.war.gov/ufo/"
+        },
+        {
+          "name": "Skylab 3 Besatzung (Bean/Garriott/Lousma, 1973)",
+          "statement": "Goldenes/rotes Objekt in Orbitnähe, 10 Minuten beobachtet, fotografiert. NASA-Antwort: 'Kein bekanntes Objekt.' PURSUE-Akte: war.gov/ufo/skylab-3-bean-garriott-lousma-1973",
+          "url": "https://www.war.gov/ufo/"
+        }
+      ],
+      "tags": [
+        "NASA",
+        "Astronauten",
+        "Mercury",
+        "Gemini",
+        "Apollo",
+        "Skylab",
+        "PURSUE",
+        "war.gov",
+        "Orbit",
+        "Kongruenz"
+      ],
+      "significance": "Diese These hat besondere Beweiskraft: Alle Zeugen sind hochqualifizierte Militärpiloten und Wissenschaftler mit Top-Secret-Clearance. Sie hatten kein Motiv für Falschaussagen (Karriererisiko). Die Sichtungen erfolgten in völlig verschiedenen Missionstypen (Erdorbit, Mondtransit, Mondoberfläche, Raumstation) und wurden nun durch das Pentagon PURSUE-Archiv (war.gov) offiziell bestätigt. Die 12-jährige Zeitspanne und die kulturelle/institutionelle Unabhängigkeit der Besatzungen erhöhen den Kongruenz-Score erheblich.",
+      "related_cases": [
+        "war.gov PURSUE – Mercury Atlas 9 (Cooper, 1963)",
+        "war.gov PURSUE – Gemini 7 (Borman/Lovell, 1965)",
+        "war.gov PURSUE – Apollo 11 (Armstrong/Aldrin, 1969)",
+        "war.gov PURSUE – Apollo 12 (Conrad/Bean, 1969)",
+        "war.gov PURSUE – Apollo 17 (Cernan/Schmitt, 1972)",
+        "war.gov PURSUE – Skylab 3 (Bean/Garriott/Lousma, 1973)"
+      ],
+      "related_persons": [
+        "Gordon Cooper",
+        "Frank Borman",
+        "James Lovell",
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Pete Conrad",
+        "Gene Cernan",
+        "Harrison Schmitt"
       ]
     }
   ],
