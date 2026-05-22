@@ -1744,6 +1744,71 @@
         "burlison-eric",
         "aaro"
       ]
+    },
+    {
+      "id": "frank-borman",
+      "name": "Frank Borman",
+      "emoji": "🚀",
+      "role": "NASA-Astronaut · Apollo 8 Commander · Gemini 7 Pilot",
+      "bio": "Col. Frank Borman (USAF, ret.) war Commander der Apollo 8-Mission (1968) — der ersten bemannten Mondumkreisung — und Pilot von Gemini 7 (1965). Während Gemini 7 berichtete er gemeinsam mit James Lovell über ein 'Bogey' in naher Orbitalnähe. Offiziell als Raketenbooster erklärt, bestand die Besatzung auf einem Unterschied. PURSUE-Akte: war.gov/ufo/gemini-7-borman-lovell-1965.",
+      "tags": [
+        "Astronaut",
+        "NASA",
+        "Gemini",
+        "Apollo",
+        "PURSUE",
+        "war.gov"
+      ],
+      "source_url": "https://www.war.gov/ufo/"
+    },
+    {
+      "id": "pete-conrad",
+      "name": "Pete Conrad",
+      "emoji": "🌕",
+      "role": "NASA-Astronaut · Apollo 12 Commander · 3. Mensch auf dem Mond",
+      "bio": "Capt. Pete Conrad (USN) war Commander der Apollo 12-Mission (November 1969) und der dritte Mensch, der den Mond betrat. Auf dem Rückweg zur Erde berichtete Conrad gemeinsam mit Alan Bean über ein unbekanntes Objekt, das der Kapsel folgte — zwei separate Sichtungen unabhängig voneinander. PURSUE-Akte: war.gov/ufo/apollo-12-conrad-bean-1969.",
+      "tags": [
+        "Astronaut",
+        "NASA",
+        "Apollo",
+        "PURSUE",
+        "war.gov",
+        "Mondlandung"
+      ],
+      "source_url": "https://www.war.gov/ufo/"
+    },
+    {
+      "id": "gene-cernan",
+      "name": "Gene Cernan",
+      "emoji": "🌌",
+      "role": "NASA-Astronaut · Apollo 17 Commander · Letzter Mensch auf dem Mond",
+      "bio": "Capt. Eugene 'Gene' Cernan (USN) war Commander der Apollo 17-Mission (Dezember 1972) und damit der letzte Mensch, der den Mond betrat. Cernan war einer der offensten NASA-Astronauten: 'Ich glaube, dass UFOs ein reales Phänomen sind.' Gemeinsam mit Harrison Schmitt dokumentierte er eine Sichtung in der Mondorbitalphase. PURSUE-Akte: war.gov/ufo/apollo-17-cernan-schmitt-1972.",
+      "tags": [
+        "Astronaut",
+        "NASA",
+        "Apollo",
+        "PURSUE",
+        "war.gov",
+        "Mondlandung",
+        "Zeuge"
+      ],
+      "source_url": "https://www.war.gov/ufo/"
+    },
+    {
+      "id": "james-lovell",
+      "name": "James Lovell",
+      "emoji": "🛸",
+      "role": "NASA-Astronaut · Apollo 13 Commander · Gemini 7 & 12 Pilot",
+      "bio": "Capt. James Lovell (USN, ret.) flog vier Weltraummissionen: Gemini 7 (1965), Gemini 12 (1966), Apollo 8 (1968) und Apollo 13 (1970). Während Gemini 7 berichtete er gemeinsam mit Frank Borman über ein unbekanntes Objekt im Orbit. Als einer der erfahrensten Astronauten der NASA-Geschichte gilt sein Zeugnis als besonders glaubwürdig. PURSUE-Akte: war.gov/ufo/gemini-7-borman-lovell-1965.",
+      "tags": [
+        "Astronaut",
+        "NASA",
+        "Gemini",
+        "Apollo",
+        "PURSUE",
+        "war.gov"
+      ],
+      "source_url": "https://www.war.gov/ufo/"
     }
   ]
 }
