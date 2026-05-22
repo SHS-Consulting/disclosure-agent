@@ -1,78 +1,348 @@
 {
   "_meta": {
-    "version": "1.0",
-    "description": "Fälle mit stärksten, schwer widerlegbaren Beweisen"
+    "version": "2.0",
+    "last_updated": "2026-05-22",
+    "total": 10,
+    "description": "Top-10 Fälle nach Beweisscore — automatisch aus cases.json generiert"
   },
   "cases": [
     {
-      "id": "malmstrom-strongest",
-      "title": "Malmstrom AFB 1967 — FOIA + Kongress + Russland parallel",
+      "id": 105,
+      "title": "war.gov PURSUE Release 02 – F-16C schießt UAP über Lake Huron ab (12. Feb. 2023)",
+      "score": 98,
+      "level": "KRITISCH",
+      "date": "2023-02-12",
+      "location": "Lake Huron, Michigan, USA",
+      "region": "USA",
+      "category": "",
+      "why_strongest": "Pentagon PURSUE-Archiv (war.gov). Erstes öffentlich freigegebenes Video eines US-Kampfjets, der ein UAP abschießt. Ein F-16C Fighting Falcon der US Air National Guard feuert ein AIM-9X Sidewinder-Rakete auf ein unbekanntes Objekt über...",
+      "witnesses": [],
+      "evidence": [],
+      "tags": [
+        "video",
+        "AARO",
+        "PURSUE",
+        "war.gov",
+        "militär",
+        "abschuss",
+        "F-16",
+        "Lake Huron",
+        "2023",
+        "Release-02"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "connections": []
+    },
+    {
+      "id": "143",
+      "title": "DOE Enhanced PANTEX Imagery – UAP über US-Atomwaffen-Montageanlage",
+      "score": 98,
+      "level": "KRITISCH",
+      "date": "2020-2025",
+      "location": "Pantex Plant, Amarillo, Texas",
+      "region": "USA",
+      "category": "Geheimdienstdokument",
+      "why_strongest": "3 Beweisquellen. 2 Zeuge(n). Geheimdienstquelle. Pentagon PURSUE-Archiv (war.gov). Nuklear-Kontext (höchste Geheimhaltungsstufe). DOE-UAP-D001: Enhanced PANTEX Imagery. Die Pantex Plant in Amarillo, Texas ist die einzige Anlage in den USA, die Atomwaffen montiert, demontiert und wartet. Erste offizielle US-Regierungsbestätigung ...",
+      "witnesses": [
+        "DOE/NNSA Personal (geschwärzt)",
+        "Sandia National Laboratories Analysten"
+      ],
+      "evidence": [
+        "DOE-UAP-D001: Enhanced PANTEX Imagery",
+        "war.gov/ufo PURSUE Release 02 (22. Mai 2026)",
+        "Pantex Plant: Einzige US-Atomwaffen-Montageanlage"
+      ],
+      "tags": [
+        "DOE",
+        "Pantex",
+        "PURSUE",
+        "war.gov",
+        "Nuklear",
+        "Atomwaffen",
+        "Texas"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "connections": [
+        "Nuklear-UAP-Nexus",
+        "PURSUE Release 02"
+      ]
+    },
+    {
+      "id": "pentagon-gr-2023",
+      "title": "90°-Kurven bei 130 km/h — Griechenland 2023",
+      "score": 97,
+      "level": "KRITISCH",
+      "date": "Okt 2023",
+      "location": "Östliches Mittelmeer",
+      "region": "mideast",
+      "category": "",
+      "why_strongest": "Pentagon PR-49: IR-Video zeigt Objekt mit abrupten 90°-Kurven ohne Geschwindigkeitsverlust. Keine G-Kraft-Anzeichen, keine bekannte Antriebstechnologie. Metabunk: kein mundaner Erklärungsansatz.",
+      "witnesses": [],
+      "evidence": [],
+      "tags": [
+        "pentagon",
+        "ir",
+        "physik"
+      ],
+      "source_url": "https://www.war.gov/UFO/",
+      "connections": []
+    },
+    {
+      "id": "kumburgaz-turkey-2007-2009",
+      "title": "Kumburgaz UFO-Serie 2007–2009 · Türkei · Humanoid-Besatzung auf Video · TÜBİTAK-bestätigt",
+      "score": 97,
+      "level": "KRITISCH",
+      "date": "2007–2009 (23 separate Ereignisse)",
+      "location": "Kumburgaz, Büyükçekmece, Istanbul, Türkei – Küste des Marmarameers",
+      "region": "europa",
+      "category": "",
+      "why_strongest": "Videobeweis. ZEUGE: Yalçın Yalman, Nachtwächter der Yeni-Kent-Wohnanlage, Kumburgaz. Filmte zwischen 2007 und 2009 auf 23 separaten Gelegenheiten unbekannte Objekte über dem Marmara-Meer. Kamera: Canon DM-GL1-A Mi...",
+      "witnesses": [],
+      "evidence": [],
+      "tags": [
+        "Video",
+        "Wissenschaft",
+        "Zeugen",
+        "Humanoid",
+        "TUBITAK",
+        "SIRIUS",
+        "Marmara",
+        "Türkei",
+        "Besatzung",
+        "Analyse"
+      ],
+      "source_url": "http://turkeyufocase.blogspot.com/2011/04/turkey-ufo-sightings-were-series-of_16.html",
+      "connections": []
+    },
+    {
+      "id": 111,
+      "title": "war.gov PURSUE Release 02 – DOE/Pantex: UAP-Bericht über US-Atomwaffen-Montageanlage (UCNI-klassifiziert)",
       "score": 96,
-      "why_strongest": "FOIA-bestätigt. Kongress-Zeugnis unter Eid (Salas). Russische Militäroffiziere bestätigten identische Vorfälle unabhängig. 20 ICBMs gleichzeitig offline = mechanisch unmöglich ohne externe Ursache.",
-      "source_url": "https://en.wikipedia.org/wiki/Malmstrom_UFO_incident"
+      "level": "KRITISCH",
+      "date": "2010-01-01",
+      "location": "Pantex Plant, Carson County, Texas, USA",
+      "region": "USA",
+      "category": "",
+      "why_strongest": "FOIA-bestätigt. Pentagon PURSUE-Archiv (war.gov). Zwei Seiten (Seiten 5–6) eines sechsseitigen Pantex Unidentified Object Incident Report, freigegeben als DOE-UAP-D001. Pantex ist die einzige US-Anlage zur Montage und Demontage von Atomwaffen (verwal...",
+      "witnesses": [],
+      "evidence": [],
+      "tags": [
+        "DOE",
+        "Pantex",
+        "Sandia",
+        "nuklear",
+        "UCNI",
+        "atomwaffen",
+        "PURSUE",
+        "war.gov",
+        "Release-02",
+        "FOIA",
+        "radar"
+      ],
+      "source_url": "https://pursueindex.com/finds/doe-uap-d001-pantex-image",
+      "connections": []
     },
     {
-      "id": "villarroel-strongest",
-      "title": "Villarroel VASCO — Nature-Publikation + 22-Sigma",
-      "score": 94,
-      "why_strongest": "Peer-reviewed in Nature. 22-Sigma-Statistik. Objekte reflektieren Sonnenlicht (physisch real). Korrelation Atomtests +45%. Kein bekanntes astrophysikalisches Phänomen kann so erscheinen und verschwinden.",
-      "source_url": ""
+      "id": "142",
+      "title": "CIA HUMINT-Bericht: UAP über sowjetischem Atomwaffentestgelände Sary Shagan (1973)",
+      "score": 96,
+      "level": "KRITISCH",
+      "date": "1973-12-20",
+      "location": "Sary Shagan, Kasachstan (UdSSR)",
+      "region": "Zentralasien",
+      "category": "Geheimdienstdokument",
+      "why_strongest": "2 Beweisquellen. 1 Zeuge(n). Geheimdienstquelle. Pentagon PURSUE-Archiv (war.gov). Nuklear-Kontext (höchste Geheimhaltungsstufe). CIA-UAP-D001: Intelligence Information Report, USSR, 20. Dezember 1973. CIA-HUMINT-Agent berichtet über UAP-Sichtungen über dem sowjetischen Atomwaffentestgelände Sary Shagan. Direkte Verbindung zur N...",
+      "witnesses": [
+        "CIA HUMINT-Agent (Identität geschwärzt)"
+      ],
+      "evidence": [
+        "CIA-UAP-D001: Intelligence Information Report, USSR, 20. Dez. 1973",
+        "war.gov/ufo PURSUE Release 02 (22. Mai 2026)"
+      ],
+      "tags": [
+        "CIA",
+        "UdSSR",
+        "Sowjetunion",
+        "PURSUE",
+        "war.gov",
+        "Nuklear",
+        "1973"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "connections": [
+        "Nuklear-UAP-Nexus",
+        "PURSUE Release 02"
+      ]
     },
     {
-      "id": "trans-en-provence-strongest",
-      "title": "Trans-en-Provence 1981 — GEPAN peer-reviewed + physische Spuren",
-      "score": 92,
-      "why_strongest": "Peer-reviewed wissenschaftliche Publikation. Physische Bodenspuren: 600°C Erhitzung, -30% Chlorophyll. Sofortuntersuchung durch staatliche Behörde (GEPAN/CNES). Keine mundane Erklärung in 45 Jahren.",
-      "source_url": "https://www.cnes.fr/fr/geipan"
+      "id": "wilson-davis-memo-2002",
+      "title": "Wilson-Davis-Memo – Admiral Wilson bestätigt geheimes UFO-Bergungsprogramm",
+      "score": 95,
+      "level": "KRITISCH",
+      "date": "16. Oktober 2002",
+      "location": "Las Vegas, Nevada, USA",
+      "region": "Nordamerika",
+      "category": "Geheimdienstdokument",
+      "why_strongest": "4 Beweisquellen. 2 Zeuge(n). Geheimdienstquelle. Dr. Eric Davis dokumentierte Treffen mit Admiral Thomas Wilson (ehem. stellv. DIA-Direktor) in Las Vegas. Wilson bestätigte: Geheimes Reverse-Engineering-Programm existiert, er wurde als DIA-Direktor ...",
+      "witnesses": [
+        "Admiral Thomas Wilson",
+        "Dr. Eric W. Davis"
+      ],
+      "evidence": [
+        "Wilson-Davis-Memo (15 Seiten, 2002, veröffentlicht 2019)",
+        "Bestätigung durch Eric Davis (2019)",
+        "Vorlage durch Christopher Mellon am Capitol Hill (2019)",
+        "Korroboration durch David Grusch (2023)"
+      ],
+      "tags": [
+        "Wilson-Davis-Memo",
+        "DIA",
+        "Reverse Engineering",
+        "Geheimprogramm",
+        "Insider",
+        "Pentagon"
+      ],
+      "source_url": "https://www.theblackvault.com/documentarchive/the-wilson-davis-memo/",
+      "connections": []
     },
     {
-      "id": "nimitz-strongest",
-      "title": "USS Nimitz 2004 — Multi-Sensor + Navy-bestätigt + Eid",
-      "score": 91,
-      "why_strongest": "Radar + FLIR + Augenzeugen gleichzeitig. Navy 2020 offiziell bestätigt: 'Unexplained aerial phenomena.' Pilot unter Eid 2023. Keine bekannte menschliche Technologie kann diese Manöver ausführen.",
-      "source_url": ""
+      "id": "malmstrom-afb-1967-nuklear-uap",
+      "title": "Malmstrom AFB 1967 – 20 Minuteman-Raketen offline: Echo & Oscar Flight",
+      "score": 95,
+      "level": "KRITISCH",
+      "date": "1967-03-16",
+      "location": {
+        "country": "USA",
+        "region": "Montana",
+        "city": "Great Falls",
+        "site": "Malmstrom Air Force Base, 341st Strategic Missile Wing",
+        "coordinates": "47.4836° N, 109.3492° W",
+        "note": "Echo Flight (Hilger/Winifred) und Oscar Flight (Roy, MT) – beide 341st SMW"
+      },
+      "region": "Nordamerika",
+      "category": "Nuklear-UAP / Militär-Zeugnis",
+      "why_strongest": "4 Zeuge(n). Militärisch dokumentiert. Malmstrom AFB, Montana, März 1967: Echo Flight (10 Minuteman-ICBMs) und Oscar Flight (10 ICBMs) werden innerhalb einer Woche deaktiviert. Capt. Robert Salas (Oscar Flight): Leuchtendes rotes Objekt üb...",
+      "witnesses": [
+        {
+          "name": "Capt. Robert Salas",
+          "role": "USAF Missile Launch Officer, Oscar Flight, 341st SMW",
+          "testimony": "Persönlicher Augenzeugenbericht: Sicherheitswache meldet UAP über Fronttor, dann fallen alle 10 Minuteman-Raketen gleichzeitig aus. Zur Geheimhaltung verpflichtet, NDA unterzeichnet. Seit 1996 öffentlich, 3 Bücher, National Press Club 2010. Widerlegte Pentagon-EMP-Erklärung 2025.",
+          "credibility": "sehr hoch",
+          "public_statement": true,
+          "year": "1967/1996"
+        },
+        {
+          "name": "Col. Fred Meiwald",
+          "role": "USAF, Oscar-Flight-Kommandant",
+          "testimony": "Bestätigte Salas' Grundaussage. War im LCC als die Raketen ausfielen. Stimmte der Veröffentlichung seiner Informationen zu.",
+          "credibility": "sehr hoch",
+          "public_statement": true,
+          "year": "1967"
+        },
+        {
+          "name": "Col. Walt Figel (ret.)",
+          "role": "USAF, Echo-Flight-Kommandant",
+          "testimony": "Echo-Flight-Kommandant am 16. März 1967. Bestätigte, dass ein Sicherheitsposten ein UAP über einem Silo gemeldet hatte, als die Raketen ausfielen. Stimmte der Veröffentlichung zu.",
+          "credibility": "sehr hoch",
+          "public_statement": true,
+          "year": "1967"
+        },
+        {
+          "name": "Robert Hastings",
+          "role": "UFO-Forscher, Autor 'UFOs & Nukes' (2008), 30 Jahre Recherche",
+          "testimony": "Dokumentierte über 120 ähnliche UAP-Vorfälle an Nuklearstandorten weltweit. Organisierte National Press Club Pressekonferenz 2010 mit 7 USAF-Veteranen. CNN-Liveübertragung. Buch: 'UFOs & Nukes: The Secret Link Revealed' (2008).",
+          "credibility": "hoch",
+          "public_statement": true,
+          "year": "2008/2010"
+        }
+      ],
+      "evidence": [],
+      "tags": [
+        "nuklear",
+        "malmstrom",
+        "minuteman",
+        "1967",
+        "usa",
+        "salas",
+        "hastings",
+        "echo-flight",
+        "oscar-flight",
+        "foia-bestätigt"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Malmstrom_UFO_incident",
+      "connections": {
+        "people": [
+          "robert-salas",
+          "robert-hastings"
+        ],
+        "cases": [
+          "rendlesham-forest-1980",
+          "nuklear-uap-nexus-trinity-roswell"
+        ],
+        "operations": [
+          "aaro",
+          "project-blue-book"
+        ]
+      }
     },
     {
-      "id": "grusch-strongest",
-      "title": "David Grusch — Eid vor Kongress + ICIG-Beschwerde",
-      "score": 89,
-      "why_strongest": "Unter Eid. Intelligence Community Inspector General (ICIG) stufte Beschwerde als 'credible and urgent' ein. NGA/NRO-Hintergrund. Erste derartige Aussage in der US-Geschichte. Nicht falsifiziert.",
-      "source_url": "https://oversight.house.gov/"
+      "id": 106,
+      "title": "war.gov PURSUE Release 02 – Senior Intelligence Officer: Orange Orbs jagen Kampfjets (2025)",
+      "score": 95,
+      "level": "KRITISCH",
+      "date": "2025-01-01",
+      "location": "Westliche USA (undisclosed), Bergregion",
+      "region": "USA",
+      "category": "",
+      "why_strongest": "Pentagon PURSUE-Archiv (war.gov). Ein aktuell diensttuender Senior US Intelligence Officer schildert in einem 116-seitigen ODNI-Dokument eine Serie von UAP-Begegnungen über mehr als eine Stunde an Bord eines Militärhubschraubers (spät...",
+      "witnesses": [],
+      "evidence": [],
+      "tags": [
+        "ODNI",
+        "PURSUE",
+        "war.gov",
+        "erstzeugnis",
+        "orbs",
+        "hubschrauber",
+        "2025",
+        "Release-02",
+        "orange-orbs"
+      ],
+      "source_url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/ODNI-UAP-D001_USPER_Narrative_Senior_USIC.pdf",
+      "connections": []
     },
     {
-      "id": "jacobs-strongest",
-      "title": "Lt. Jacobs Vandenberg 1964 — Film + Major Mansmann unabhängig",
-      "score": 87,
-      "why_strongest": "Zwei unabhängige Zeugen: Jacobs + Major Mansmann (ohne gegenseitigen Kontakt über 18 Jahre). Film sofort auf Top Secret hochgestuft — zeigt: Etwas war darauf. Elizondo: Film gezeigt bekommen.",
-      "source_url": ""
-    },
-    {
-      "id": "prato-strongest",
-      "title": "Operação Prato 1977 — Militärfilm + Medizin + 500 Fotos",
-      "score": 93,
-      "why_strongest": "500 Fotos, 16h Film. Medizinische Dokumentation von Verletzungen. Brasilianische Armee vor Ort. 2004 deklassifiziert. BAASS holte alle Daten (zeigt: US-Regierung hielt es für real genug).",
-      "source_url": ""
-    },
-    {
-      "id": "yemen-strongest",
-      "title": "Jemen 2024 — Kongress-Video · Hellfire-Direkttreffer ohne Wirkung · Pentagon schweigt",
-      "score": 86,
-      "why_strongest": "Militärisches Infrarot-Video von MQ-9 Reaper. Im Kongress präsentiert. Pentagon verweigerte Stellungnahme statt zu widerlegen. Kein bekannter Flugkörper überlebt unversehrt einen Hellfire-Direkttreffer. Kongruiert mit Teheran 1976, Malmstrom 1967, Vandenberg 1964 — UAP zeigen systematische Immunität gegen menschliche Waffen.",
-      "source_url": "https://www.20min.ch/story/jemen-mysterioeser-vorfall-us-rakete-prallt-von-ufo-ab-103412541"
-    },
-    {
-      "id": "gimbal-gofast-strongest",
-      "title": "Gimbal + GoFast 2015 — Navy offiziell bestätigt + tägliche Sichtungen USS Roosevelt",
-      "score": 89,
-      "why_strongest": "Drei Videos 2020 offiziell Navy-bestätigt. Professionelle Militärpiloten als Zeugen. Ryan Graves: 'Wir sahen diese Dinge täglich.' Rotation ohne Antrieb (Gimbal). Geschwindigkeit ohne Antrieb (GoFast). Physikalisch unmöglich mit bekannter Technologie.",
-      "source_url": "https://www.navytimes.com/"
-    },
-    {
-      "id": "tic-tac-strongest",
-      "title": "Tic-Tac 2004 — Multi-Sensor Multi-Crew Navy-offiziell 5.000G berechnet",
-      "score": 93,
-      "why_strongest": "USS Princeton Radar-Tracking 2 Wochen. Vier F/A-18 Piloten. FLIR-Video offiziell bestaetigt. Simulationen: mehr als 5.000G bei Manoevern. Mirror-imaging = intelligentes reaktives Verhalten. Kein Antrieb, keine Waermesignatur, keine Steuerflaechen. Navy 2020 offiziell: Unexplained Aerial Phenomena.",
-      "source_url": "https://www.navytimes.com/"
+      "id": "141",
+      "title": "ODNI Senior USIC Official – UAP-Zeugnis (Western US, 2025)",
+      "score": 95,
+      "level": "KRITISCH",
+      "date": "2025",
+      "location": "Westliche USA",
+      "region": "USA",
+      "category": "Geheimdienstdokument",
+      "why_strongest": "3 Beweisquellen. 2 Zeuge(n). Geheimdienstquelle. Pentagon PURSUE-Archiv (war.gov). ODNI-UAP-D001: USPER Narrative eines hochrangigen USIC-Beamten (US Intelligence Community). Ein Senior-Geheimdienstbeamter beschreibt eine persönliche UAP-Begegnung im westlichen USA. Das 116-seitige ...",
+      "witnesses": [
+        "Senior USIC Official (Identität geschwärzt)",
+        "US-Militärpiloten"
+      ],
+      "evidence": [
+        "ODNI-UAP-D001: USPER Narrative, Senior USIC Official",
+        "116-seitiges Dokument",
+        "war.gov/ufo PURSUE Release 02 (22. Mai 2026)"
+      ],
+      "tags": [
+        "ODNI",
+        "PURSUE",
+        "war.gov",
+        "2025",
+        "Senior Official",
+        "Orange Orbs"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "connections": [
+        "PURSUE Release 02",
+        "AARO"
+      ]
     }
   ]
 }

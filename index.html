@@ -217,6 +217,7 @@ footer a{color:var(--v);text-decoration:none}
     <button class="rbtn" onclick="filterEvidenceTag('FOIA',this)" style="border-color:rgba(255,200,50,.5);color:#ffc832">📄 FOIA</button>
     <button class="rbtn" onclick="filterEvidenceTag('Video',this)" style="border-color:rgba(255,80,80,.5);color:#ff5050">🎥 Video</button>
     <button class="rbtn" onclick="filterEvidenceTag('Humanoid',this)" style="border-color:rgba(0,230,118,.5);color:#00e676">👽 Humanoid</button>
+    <button class="rbtn" onclick="filterEvidenceTag('PURSUE',this)" style="border-color:rgba(0,229,255,.5);color:#00e5ff">🏛 PURSUE</button>
   </div>
   <div class="cg" id="ev-grid"><div class="loading">Lade Beweisdaten...</div></div>
 </div>
@@ -351,9 +352,32 @@ footer a{color:var(--v);text-decoration:none}
     </div>
   </div>
 
+  <div style="background:rgba(255,68,68,.05);border:1px solid rgba(255,68,68,.25);border-radius:8px;padding:1.25rem">
+    <div style="display:flex;align-items:flex-start;gap:1rem">
+      <div style="font-size:2rem;flex-shrink:0">🏛️</div>
+      <div style="flex:1">
+        <div style="font-family:'Orbitron',sans-serif;font-size:11px;letter-spacing:1px;color:#ff4444;margin-bottom:.25rem">PRIMÄRARCHIV · PENTAGON PURSUE ACT</div>
+        <div style="font-weight:700;color:var(--t1);margin-bottom:.5rem">war.gov/ufo — Offizielles Pentagon UAP-Archiv (PURSUE Release 01+02)</div>
+        <div style="color:var(--t2);font-size:12px;margin-bottom:.75rem">222 freigegebene Dateien (8. Mai + 22. Mai 2026): NASA-Missionsaudio (Apollo, Mercury, Gemini, Skylab), FBI-Fotodokumentation (57 Bilder), State Dept Kabel (5 Länder), DOW CENTCOM 78 Militärvideos (2018–2024), CIA Sary Shagan 1973, DOE Pantex Imagery, ODNI Senior Official 116 Seiten, James Tuck (Manhattan Project), COMETA Report 1999. Alle Dokumente direkt vom US-Verteidigungsministerium.</div>
+        <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.75rem">
+          <span style="background:rgba(255,68,68,.12);color:#ff4444;padding:2px 8px;border-radius:4px;font-size:10px">222 Dateien</span>
+          <span style="background:rgba(255,68,68,.12);color:#ff4444;padding:2px 8px;border-radius:4px;font-size:10px">Pentagon</span>
+          <span style="background:rgba(255,68,68,.12);color:#ff4444;padding:2px 8px;border-radius:4px;font-size:10px">PURSUE Act</span>
+          <span style="background:rgba(255,68,68,.12);color:#ff4444;padding:2px 8px;border-radius:4px;font-size:10px">Release 01: 8. Mai 2026</span>
+          <span style="background:rgba(255,68,68,.12);color:#ff4444;padding:2px 8px;border-radius:4px;font-size:10px">Release 02: 22. Mai 2026</span>
+        </div>
+        <div style="display:flex;gap:.75rem;align-items:center;flex-wrap:wrap">
+          <a href="https://www.war.gov/ufo/" target="_blank" rel="noopener" style="background:#ff4444;color:#fff;padding:.5rem 1.25rem;border-radius:6px;font-family:'Orbitron',sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;text-decoration:none">🏛 war.gov/ufo ÖFFNEN</a>
+          <a href="https://github.com/BPSAI/pursue-index" target="_blank" rel="noopener" style="background:rgba(255,68,68,.15);color:#ff4444;padding:.5rem 1.25rem;border-radius:6px;font-family:'Orbitron',sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;text-decoration:none;border:1px solid rgba(255,68,68,.3)">📁 PURSUE-Index (GitHub)</a>
+          <span style="color:var(--t3);font-size:11px">Offiziell · Kostenlos · Keine Anmeldung</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div style="background:rgba(0,230,118,.03);border:1px solid rgba(0,230,118,.15);border-radius:8px;padding:1rem;text-align:center">
     <div style="color:var(--t3);font-size:11px;margin-bottom:.5rem">Weitere Dokumente werden laufend ergänzt</div>
-    <div style="color:var(--t2);font-size:12px">Peyerl-Akte (Section 10) · war.gov/UFO-Akten · NARA-Freigaben · AARO-Berichte</div>
+    <div style="color:var(--t2);font-size:12px">Peyerl-Akte (Section 10) · NARA-Freigaben · AARO-Berichte · COMETA Report</div>
   </div>
 
 </div>
@@ -362,6 +386,16 @@ footer a{color:var(--v);text-decoration:none}
 <!-- STÄRKSTE FÄLLE -->
 <div id="tp-st" class="tp">
   <div style="font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:#ffd700;margin-bottom:.75rem">⭐ STÄRKSTE FÄLLE — SCHWER WIDERLEGBAR</div>
+  <div style="font-size:11px;color:var(--t2);line-height:1.6;margin-bottom:.85rem;padding:.65rem .85rem;background:rgba(255,215,0,.05);border:1px solid rgba(255,215,0,.2);border-radius:6px">
+    <strong style="color:#ffd700">Methodik:</strong> Automatisch aus allen 145 Fällen nach Beweisscore sortiert. Score 95–100 = mehrere unabhängige Primärquellen, offizielle Dokumente, Zeugen unter Eid. Wird bei jedem Update automatisch aktualisiert.
+  </div>
+  <!-- Score-Legende -->
+  <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.85rem">
+    <span style="font-family:'JetBrains Mono',monospace;font-size:8px;padding:3px 8px;background:rgba(255,68,68,.12);border:1px solid rgba(255,68,68,.3);border-radius:2px;color:#ff4444">● KRITISCH 95–100</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:8px;padding:3px 8px;background:rgba(255,176,32,.12);border:1px solid rgba(255,176,32,.3);border-radius:2px;color:#ffb020">● HOCH 85–94</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:8px;padding:3px 8px;background:rgba(179,157,219,.12);border:1px solid rgba(179,157,219,.3);border-radius:2px;color:#b39ddb">● MITTEL 70–84</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:8px;padding:3px 8px;background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.25);border-radius:2px;color:#00e5ff">Auto-Update aus 145 Fällen</span>
+  </div>
   <div class="cg" id="st-grid"><div class="loading">Lade stärkste Fälle...</div></div>
 </div>
 <!-- WIDERLEGT -->
@@ -789,17 +823,35 @@ async function renderTab(id) {
 function renderStrongest(cases, gridId) {
   const g = document.getElementById(gridId);
   if(!cases||!cases.length){g.innerHTML='<div class="loading">Keine Einträge.</div>';return;}
-  g.innerHTML = cases.map(c => `
-    <div class="card">
-      <div class="lv" style="background:rgba(255,215,0,.12);color:#ffd700;border:1px solid rgba(255,215,0,.4)">⭐ SCORE ${c.score}/100</div>
+  const levelColor = s => s>=95?'#ff4444':s>=85?'#ffb020':s>=70?'#b39ddb':'#00e5ff';
+  const levelBg = s => s>=95?'rgba(255,68,68,.12)':s>=85?'rgba(255,176,32,.12)':s>=70?'rgba(179,157,219,.12)':'rgba(0,229,255,.08)';
+  const levelBorder = s => s>=95?'rgba(255,68,68,.3)':s>=85?'rgba(255,176,32,.3)':s>=70?'rgba(179,157,219,.3)':'rgba(0,229,255,.25)';
+  const rankEmoji = i => ['🥇','🥈','🥉','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','🔟'][i]||`${i+1}.`;
+  g.innerHTML = cases.map((c,i) => {
+    const sc = c.score||0;
+    const tags = (c.tags||[]).slice(0,4).map(t=>`<span class="ptag">${t}</span>`).join('');
+    const witnesses = c.witnesses&&c.witnesses.length ? `<div style="font-size:10px;color:var(--t3);margin-top:.3rem">👁 ${c.witnesses.slice(0,2).join(', ')}${c.witnesses.length>2?' +'+( c.witnesses.length-2)+' weitere':''}</div>` : '';
+    const connections = c.connections&&c.connections.length ? `<div style="font-size:10px;color:var(--t3);margin-top:.2rem">🔗 ${c.connections.slice(0,2).join(' · ')}</div>` : '';
+    return `
+    <div class="card" style="border-color:${levelBorder(sc)}">
+      <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem">
+        <span style="font-family:'Orbitron',sans-serif;font-size:18px">${rankEmoji(i)}</span>
+        <div class="lv" style="background:${levelBg(sc)};color:${levelColor(sc)};border:1px solid ${levelBorder(sc)};margin-bottom:0">${c.level||'KRITISCH'} &nbsp;${sc}/100</div>
+        <div style="margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)">${c.date||''}</div>
+      </div>
       <div class="ct">${c.title}</div>
-      <div class="cd">${c.why_strongest}</div>
-      <div class="cm">
-        <div class="bt" style="flex:1;height:3px"><div class="bf" style="width:${c.score||0}%;background:linear-gradient(90deg,#ffd700,#00e676)"></div></div>
-        <span>${c.score||0}/100</span>
+      <div class="cd">${(c.why_strongest||c.description||'').slice(0,220)}${(c.why_strongest||'').length>220?'...':''}</div>
+      ${witnesses}${connections}
+      <div style="margin-top:.5rem">
+        <div class="bt" style="height:4px;margin-bottom:.4rem"><div class="bf" style="width:${sc}%;background:linear-gradient(90deg,${levelColor(sc)},#00e676)"></div></div>
+      </div>
+      <div style="display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;margin-top:.3rem">
+        ${tags}
+        <span style="margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3)">${c.location||''}</span>
         ${c.source_url?`<a href="${c.source_url}" target="_blank" rel="noopener" class="csl">→ Quelle</a>`:''}
       </div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
 }
 function renderDebunked(cases, gridId) {
   const g = document.getElementById(gridId);
