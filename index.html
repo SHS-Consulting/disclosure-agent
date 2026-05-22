@@ -237,6 +237,12 @@ footer a{color:var(--v);text-decoration:none}
     <button class="rbtn" onclick="filterEvidenceTag('Humanoid',this)" style="border-color:rgba(0,230,118,.5);color:#00e676;background:rgba(0,230,118,.07)">👽 Humanoid</button>
     <button class="rbtn" onclick="filterEvidenceTag('PURSUE',this)" style="border-color:rgba(0,229,255,.5);color:#00e5ff;background:rgba(0,229,255,.07)">🏛 PURSUE</button>
   </div>
+  <!-- Neueste Fälle -->
+  <div id="ev-recent" style="margin-bottom:1rem;display:none">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:.5rem">⏱ Zuletzt hinzugefügt</div>
+    <div id="ev-recent-list" style="display:flex;flex-direction:column;gap:.35rem"></div>
+    <div style="margin-top:.5rem;margin-bottom:.75rem;border-top:1px solid var(--bd)"></div>
+  </div>
   <div class="cg" id="ev-grid"><div class="loading">Lade Beweisdaten...</div></div>
 </div>
 
@@ -276,7 +282,19 @@ footer a{color:var(--v);text-decoration:none}
 
 <!-- PEOPLE -->
 <div id="tp-pp" class="tp">
-  <div class="sb"><span>🔍</span><input type="text" placeholder="Personen filtern..." oninput="filterDynamic(this,'pp-grid')"></div>
+  <div class="sb"><span>🔍</span><input type="text" id="pp-search-inp" placeholder="Personen filtern..." oninput="filterPeople(this)"></div>
+  <div class="region-bar" style="margin-bottom:.75rem">
+    <button class="rbtn active" id="pp-filter-all" onclick="filterPeopleTag('all',this)" style="border-color:rgba(255,255,255,.35);color:#ffffff">🌐 Alle</button>
+    <button class="rbtn" onclick="filterPeopleTag('Astronaut',this)" style="border-color:rgba(255,215,0,.5);color:#ffd700;background:rgba(255,215,0,.07)">👨‍🚀 Astronauten</button>
+    <button class="rbtn" onclick="filterPeopleTag('Whistleblower',this)" style="border-color:rgba(255,68,68,.5);color:#ff4444;background:rgba(255,68,68,.07)">📣 Whistleblower</button>
+    <button class="rbtn" onclick="filterPeopleTag('Militär',this)" style="border-color:rgba(100,160,255,.5);color:#64a0ff;background:rgba(100,160,255,.07)">🎖 Militär</button>
+    <button class="rbtn" onclick="filterPeopleTag('Wissenschaftler',this)" style="border-color:rgba(80,220,160,.5);color:#50dca0;background:rgba(80,220,160,.07)">🔬 Wissenschaftler</button>
+    <button class="rbtn" onclick="filterPeopleTag('Politiker',this)" style="border-color:rgba(0,180,255,.5);color:#00b4ff;background:rgba(0,180,255,.07)">🏛 Politiker</button>
+    <button class="rbtn" onclick="filterPeopleTag('Insider',this)" style="border-color:rgba(179,157,219,.5);color:#b39ddb;background:rgba(179,157,219,.07)">🔐 Insider</button>
+    <button class="rbtn" onclick="filterPeopleTag('PURSUE',this)" style="border-color:rgba(0,229,255,.5);color:#00e5ff;background:rgba(0,229,255,.07)">🏛 PURSUE</button>
+    <button class="rbtn" onclick="filterPeopleTag('Zeuge',this)" style="border-color:rgba(255,176,32,.5);color:#ffb020;background:rgba(255,176,32,.07)">👁 Zeuge</button>
+  </div>
+  <div id="pp-count" style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3);margin-bottom:.5rem"></div>
   <div class="cg" id="pp-grid"><div class="loading">Lade Personendaten...</div></div>
 </div>
 
@@ -470,6 +488,15 @@ footer a{color:var(--v);text-decoration:none}
     <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3);margin-bottom:.5rem">Klick auf Knoten = These anzeigen · Größe = Score · Farbe = Score-Level · Linien = geteilte Tags/Personen</div>
     <canvas id="con-net-canvas" style="width:100%;border:1px solid var(--bd);border-radius:8px;background:var(--bg2);cursor:grab"></canvas>
     <div id="con-net-tooltip" style="display:none;position:fixed;background:var(--bg3);border:1px solid var(--bdb);border-radius:6px;padding:.6rem .9rem;font-size:11px;color:var(--t1);max-width:280px;z-index:999;pointer-events:none"></div>
+    <!-- Netzwerk-Legende -->
+    <div style="display:flex;flex-wrap:wrap;gap:.5rem 1.2rem;margin-top:.6rem;padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px;align-items:center">
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1px">LEGENDE:</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#ff4444;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">Score ≥ 9.5</span></span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#00e676;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">Score ≥ 9.0</span></span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#00e5ff;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">Score ≥ 8.0</span></span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#b39ddb;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">Score &lt; 8.0</span></span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3)">Knotengröße = Score · Linienstärke = gemeinsame Tags/Personen · Klick = zur These springen</span>
+    </div>
   </div>
 </div>
 
@@ -568,6 +595,27 @@ const lvlLabel = {critical:'● KRITISCH',high:'▲ HOCH',medium:'◆ MITTEL',co
 function renderCases(cases, gridId) {
   const g = document.getElementById(gridId);
   if(!cases||!cases.length){g.innerHTML='<div class="loading">Keine Daten.</div>';return;}
+  
+  // Neueste Fälle (letzte 10) anzeigen
+  if(gridId === 'ev-grid') {
+    const recentBox = document.getElementById('ev-recent');
+    const recentList = document.getElementById('ev-recent-list');
+    if(recentBox && recentList) {
+      const last10 = cases.slice(-10).reverse();
+      recentList.innerHTML = last10.map((c,i) => {
+        const lvlColors = {KRITISCH:'#ff4444',BESTÄTIGT:'#00e676',HOCH:'#ffb020'};
+        const col = lvlColors[c.level] || '#b39ddb';
+        return `<div style="display:flex;gap:.6rem;align-items:center;padding:.3rem .6rem;background:var(--bg2);border:1px solid var(--bd);border-radius:4px;cursor:pointer" onclick="document.getElementById('ev-grid').querySelectorAll('.card')[${cases.length-10+i}]?.scrollIntoView({behavior:'smooth',block:'center'})">
+          <span style="font-family:'JetBrains Mono',monospace;font-size:8px;color:${col};min-width:28px">#${cases.length-10+i+1}</span>
+          <span style="font-size:10px;color:var(--t1);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${c.title}</span>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);flex-shrink:0">${c.date||''}</span>
+          ${c.tags&&c.tags.includes('PURSUE')?'<span style="font-family:\'JetBrains Mono\',monospace;font-size:7px;color:#00e5ff;border:1px solid rgba(0,229,255,.4);border-radius:2px;padding:1px 4px;flex-shrink:0">PURSUE</span>':''}
+        </div>`;
+      }).join('');
+      recentBox.style.display = 'block';
+    }
+  }
+  
   g.innerHTML = cases.map(c => `
     <div class="card" data-region="${c.region||''}" data-t="${(c.tags||[]).join(' ')} ${c.title} ${c.description}">
       <div class="lv ${lvlMap[c.level]||'lm'}">${lvlLabel[c.level]||c.level}</div>
@@ -934,6 +982,34 @@ function filterDynamic(inp, gridId) {
     c.style.display = (c.dataset.t||'').toLowerCase().includes(q) ? '' : 'none';
   });
 }
+// ── PERSONEN FILTER
+let _ppTag = 'all';
+let _ppSearch = '';
+function filterPeople(inp) {
+  _ppSearch = inp.value.toLowerCase();
+  _applyPpFilter();
+}
+function filterPeopleTag(tag, btn) {
+  _ppTag = tag;
+  document.querySelectorAll('#tp-pp .rbtn').forEach(b => b.classList.remove('active'));
+  if(btn) btn.classList.add('active');
+  _applyPpFilter();
+}
+function _applyPpFilter() {
+  const cards = document.querySelectorAll('#pp-grid .pcard');
+  let visible = 0;
+  cards.forEach(c => {
+    const t = (c.dataset.t||'').toLowerCase();
+    const matchQ = !_ppSearch || t.includes(_ppSearch);
+    const matchTag = _ppTag === 'all' || t.includes(_ppTag.toLowerCase());
+    const show = matchQ && matchTag;
+    c.style.display = show ? '' : 'none';
+    if(show) visible++;
+  });
+  const cnt = document.getElementById('pp-count');
+  if(cnt) cnt.textContent = visible + ' von ' + cards.length + ' Personen angezeigt';
+}
+
 function filterRegionDyn(r, btn) {
   document.querySelectorAll('#ww-grid').closest('.tp') ? null : null;
   document.querySelectorAll('#ww-grid ~ .region-bar .rbtn, .region-bar:not(#ev-filter-bar) .rbtn').forEach(b => b.classList.remove('active'));
