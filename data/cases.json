@@ -37,6 +37,13 @@
         "navy",
         "flir",
         "eid"
+      ],
+      "video_url": "https://www.youtube.com/watch?v=PBEFF-UXJP4",
+      "witnesses": [
+        "Cmdr. David Fravor (F/A-18 Pilot)",
+        "Lt. Cmdr. Jim Slaight (Wingman)",
+        "Chad Underwood (FLIR-Aufnahme)",
+        "Kevin Day (Radar-Operator USS Princeton)"
       ]
     },
     {
@@ -289,6 +296,14 @@
         "kongress",
         "grusch",
         "FOIA"
+      ],
+      "video_url": "https://www.youtube.com/watch?v=KQ7Dw-739VY",
+      "witnesses": [
+        "David Grusch (NGA/NRO, unter Eid)",
+        "Ryan Graves (F/A-18 Pilot)",
+        "David Fravor (Cmdr., USS Nimitz)",
+        "Rep. Tim Burchett (Ausschussvorsitz)",
+        "Rep. Anna Paulina Luna"
       ]
     },
     {
@@ -1288,6 +1303,12 @@
         "f18",
         "rotation",
         "täglich"
+      ],
+      "video_url": "https://www.youtube.com/watch?v=wxVReBhgnU0",
+      "witnesses": [
+        "Ryan Graves (F/A-18 Pilot, USS Roosevelt)",
+        "Danny Accoin (F/A-18 Pilot)",
+        "Multiple USS Roosevelt Besatzung"
       ]
     },
     {
@@ -1376,7 +1397,8 @@
         "mirror-imaging",
         "navy-bestaetigt",
         "wissenschaft"
-      ]
+      ],
+      "video_url": "https://www.youtube.com/watch?v=PBEFF-UXJP4"
     },
     {
       "id": "ryan-graves-daily-uap",
@@ -1499,7 +1521,8 @@
         "GoFast",
         "Atlantik",
         "Parallaxe"
-      ]
+      ],
+      "video_url": "https://www.youtube.com/watch?v=F4SBRfSCBMo"
     },
     {
       "id": "aaro-eglin-uap-2023",
@@ -4525,6 +4548,47 @@
       "connections": [
         "PURSUE Release 01",
         "Internationale Disclosure"
+      ]
+    },
+    {
+      "id": "robertson-panel-1953",
+      "title": "Robertson Panel 1953 — CIA-Debunking-Strategie · Direkte Folge Washington DC 1952",
+      "region": "usa",
+      "level": "critical",
+      "date": "1953-01-14",
+      "location": "Washington D.C., CIA Headquarters",
+      "score": 91,
+      "classification": "KRITISCH",
+      "description": "14.–17. Januar 1953: CIA beruft geheimes Expertengremium unter H.P. Robertson (CalTech) als direkte Reaktion auf die Washington DC UFO-Flotte Juli 1952. Ziel: Systematische Debunking-Strategie entwickeln. Ergebnis: Empfehlung zur 'Entmystifizierung' von UFO-Berichten, Überwachung ziviler UFO-Gruppen (NICAP, APRO), Medien-Desinformationskampagne. Vollständig deklassifiziert 1975 durch FOIA. Beweist: US-Regierung wusste, dass ein erheblicher Prozentsatz der Sichtungen unerklärlich ist — und entschied sich bewusst für Vertuschung statt Transparenz. Direkter Vorläufer aller späteren Geheimhaltungsprogramme (GRUDGE, BLUEBOOK, AATIP). Major Keyhoe hatte Recht.",
+      "source_url": "https://sgp.fas.org/library/ciaufo.html",
+      "video_url": "https://youtu.be/4-MbGYAv7Cg",
+      "tags": [
+        "cia",
+        "robertson",
+        "debunking",
+        "geheimhaltung",
+        "washington",
+        "1953",
+        "foia",
+        "nicap",
+        "bluebook",
+        "grudge",
+        "desinformation",
+        "kongress",
+        "keyhoe",
+        "deklassifiziert"
+      ],
+      "witnesses": [
+        "Dr. H.P. Robertson (CIA, CalTech — Vorsitz)",
+        "Dr. Luis Alvarez (Physiker, späterer Nobelpreisträger)",
+        "Dr. Samuel Goudsmit (Physiker)",
+        "Dr. Thornton Page (Astronom)",
+        "Dr. Lloyd Berkner (Wissenschaftler)"
+      ],
+      "related_cases": [
+        "dc-1952",
+        "grusch-2023",
+        "elizondo-aatip-resignation"
       ]
     }
   ]
