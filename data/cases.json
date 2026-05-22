@@ -335,21 +335,40 @@
     },
     {
       "id": "dc-1952",
-      "title": "UFOs über Washington D.C. / Weißem Haus 1952",
+      "title": "UFO-Flotte über Washington D.C. 1952 — Weißes Haus, Capitol, Army scrambled",
       "region": "usa",
-      "level": "high",
+      "level": "critical",
       "date": "Jul 1952",
       "location": "Washington D.C.",
-      "score": 77,
-      "description": "Massenhafte Radar-Sichtungen über Capitol, Weißem Haus, National Mall. Zwei Wochen hintereinander. Jets scrambled, keine Einholmöglichkeit. Direkte Folge: Robertson Panel CIA — Debunking-Strategie.",
+      "score": 92,
+      "description": "19.–20. Juli 1952 (und erneut 26.–27. Juli): Massenhafte Radar-Sichtungen über Capitol, Weißem Haus und National Mall. Mehrere unbekannte Objekte auf Radar des Washington National Airport und Andrews AFB gleichzeitig erfasst. Air Force scrambled F-94 Jets — Objekte entkamen mit überlegener Geschwindigkeit. Generalmajor John Samford hielt am 29. Juli 1952 die größte Pressekonferenz des Pentagon seit dem Zweiten Weltkrieg. Major Donald Keyhoe (Autor 'Flying Saucers Are Real') konfrontierte das Militär live: Objekte interplanetaren Ursprungs. Direkte Folge: Robertson Panel CIA 1953 — systematische Debunking-Strategie. Eines der bestdokumentierten Massensichtungen der US-Geschichte mit Radar-Bestätigung und Augenzeugen.",
       "source_url": "https://sgp.fas.org/library/ciaufo.html",
       "tags": [
         "radar",
         "washington",
         "capitol",
+        "weißes haus",
         "cia",
-        "robertson"
-      ]
+        "robertson",
+        "pressekonferenz",
+        "scrambled",
+        "keyhoe",
+        "flotte",
+        "pentagon",
+        "1952",
+        "massenssichtung",
+        "andrews-afb",
+        "air-force"
+      ],
+      "video_url": "https://youtu.be/4-MbGYAv7Cg",
+      "witnesses": [
+        "Generalmajor John Samford (Air Force Director of Intelligence)",
+        "Major Donald Keyhoe (USMC ret., Autor)",
+        "Radar-Operatoren Washington National Airport",
+        "Radar-Operatoren Andrews AFB",
+        "F-94 Jet-Piloten"
+      ],
+      "classification": "KRITISCH"
     },
     {
       "id": "roswell-1947",

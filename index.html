@@ -691,7 +691,8 @@ function renderCases(cases, gridId) {
       <div class="ct">${c.title}</div>
       <div class="cd">${c.description}</div>
       ${c.score ? `<div class="bar"><div class="bl"><span>Beweislage</span><strong>${c.score}/100</strong></div><div class="bt"><div class="bf" style="width:${c.score}%"></div></div></div>` : ''}
-      <div class="cm"><span>📅 ${c.date||''}</span><span>📍 ${c.location||''}</span>${c.source_url?`<a href="${c.source_url}" target="_blank" class="csl">→ Quelle</a>`:''}</div>
+      <div class="cm"><span>📅 ${c.date||''}</span><span>📍 ${c.location||''}</span>${c.source_url?`<a href="${c.source_url}" target="_blank" class="csl">→ Quelle</a>`:''} ${c.video_url?`<a href="${c.video_url}" target="_blank" style="font-family:'JetBrains Mono',monospace;font-size:9px;color:#ff4444;text-decoration:none;border:1px solid rgba(255,68,68,.35);border-radius:3px;padding:2px 7px;white-space:nowrap">▶ Video</a>`:''}</div>
+      ${c.witnesses&&c.witnesses.length?`<div style="margin-top:.4rem;font-size:9px;color:var(--t3);font-family:'JetBrains Mono',monospace">👤 ${c.witnesses.slice(0,2).join(' · ')}${c.witnesses.length>2?' +'+( c.witnesses.length-2)+' weitere':''}</div>`:''}
     </div>`).join('');
 }
 
