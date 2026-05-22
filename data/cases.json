@@ -2,7 +2,7 @@
   "_meta": {
     "version": "4.0",
     "last_updated": "2026-05-22",
-    "total": 114,
+    "total": 145,
     "add_command": "ADD_CASE: title | region(usa/brazil/europe/russia/asia/australia/africa/space) | level(critical/high/medium/confirmed/historical) | date | location | description | source_url | tags(comma separated)",
     "total_cases": 103
   },
@@ -3495,6 +3495,1017 @@
         "2019",
         "Release-02",
         "militär"
+      ]
+    },
+    {
+      "id": "115",
+      "title": "NASA Apollo 12 – UAP-Sichtung (1969)",
+      "date": "1969",
+      "location": "Erdorbit / Mondmission",
+      "region": "USA",
+      "category": "Astronauten-Zeugnis",
+      "level": "Hoch",
+      "score": 8.5,
+      "description": "Apollo 12 Astronauten berichten über UAP-Sichtungen. 6 NASA-Dokumente freigegeben: Transkript, medizinisches Debriefing, 5 Bildmaterial-Einträge. Pete Conrad: Unbekannte Objekte begleiten die Kapsel auf dem Weg zum Mond. 7 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
+      "witnesses": [
+        "Pete Conrad",
+        "Alan Bean",
+        "Richard Gordon"
+      ],
+      "evidence": [
+        "NASA PURSUE-Archiv: 7 Dokument(e)",
+        "war.gov/ufo Release 01/02",
+        "Offizielle NASA-Transkripte"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "NASA",
+        "Astronauten",
+        "PURSUE",
+        "war.gov",
+        "Raumfahrt"
+      ],
+      "connections": [
+        "NASA-UAP-Programm",
+        "PURSUE Release 01/02"
+      ]
+    },
+    {
+      "id": "116",
+      "title": "NASA NASA Other – UAP-Sichtung (1970)",
+      "date": "1970",
+      "location": "Erdorbit / Mondmission",
+      "region": "USA",
+      "category": "Astronauten-Zeugnis",
+      "level": "Hoch",
+      "score": 7.5,
+      "description": "Weitere NASA-UAP-Dokumente aus dem PURSUE-Archiv. 1 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
+      "witnesses": [
+        "NASA Astronauten"
+      ],
+      "evidence": [
+        "NASA PURSUE-Archiv: 1 Dokument(e)",
+        "war.gov/ufo Release 01/02",
+        "Offizielle NASA-Transkripte"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "NASA",
+        "Astronauten",
+        "PURSUE",
+        "war.gov",
+        "Raumfahrt"
+      ],
+      "connections": [
+        "NASA-UAP-Programm",
+        "PURSUE Release 01/02"
+      ]
+    },
+    {
+      "id": "117",
+      "title": "NASA Apollo 17 – UAP-Sichtung (1972)",
+      "date": "1972",
+      "location": "Erdorbit / Mondmission",
+      "region": "USA",
+      "category": "Astronauten-Zeugnis",
+      "level": "Hoch",
+      "score": 8.7,
+      "description": "Apollo 17 – letzte bemannte Mondmission. 4 NASA-Dokumente freigegeben: Transkript, Crew-Debriefing, technisches Debriefing, Audio-Excerpt (7. Dez. 1972). Crew diskutiert unbekannte Lichter im Mondorbit. 5 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
+      "witnesses": [
+        "Eugene Cernan",
+        "Harrison Schmitt",
+        "Ronald Evans"
+      ],
+      "evidence": [
+        "NASA PURSUE-Archiv: 5 Dokument(e)",
+        "war.gov/ufo Release 01/02",
+        "Offizielle NASA-Transkripte"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "NASA",
+        "Astronauten",
+        "PURSUE",
+        "war.gov",
+        "Raumfahrt"
+      ],
+      "connections": [
+        "NASA-UAP-Programm",
+        "PURSUE Release 01/02"
+      ]
+    },
+    {
+      "id": "118",
+      "title": "NASA Gemini 7 – UAP-Sichtung (1965)",
+      "date": "1965",
+      "location": "Erdorbit / Mondmission",
+      "region": "USA",
+      "category": "Astronauten-Zeugnis",
+      "level": "Kritisch",
+      "score": 9.2,
+      "description": "Gemini 7 Transkript und Audio-Excerpt freigegeben. Frank Borman: \"Wir haben ein Bogey bei 10 Uhr hoch.\" NASA-Kontrolle bestätigt auf Radar. 2 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
+      "witnesses": [
+        "Frank Borman",
+        "James Lovell"
+      ],
+      "evidence": [
+        "NASA PURSUE-Archiv: 2 Dokument(e)",
+        "war.gov/ufo Release 01/02",
+        "Offizielle NASA-Transkripte"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "NASA",
+        "Astronauten",
+        "PURSUE",
+        "war.gov",
+        "Raumfahrt"
+      ],
+      "connections": [
+        "NASA-UAP-Programm",
+        "PURSUE Release 01/02"
+      ]
+    },
+    {
+      "id": "119",
+      "title": "NASA Apollo 11 – UAP-Sichtung (1969)",
+      "date": "1969",
+      "location": "Erdorbit / Mondmission",
+      "region": "USA",
+      "category": "Astronauten-Zeugnis",
+      "level": "Kritisch",
+      "score": 9.0,
+      "description": "Apollo 11 – erste Mondlandung. Technisches Crew-Debriefing freigegeben. Neil Armstrong und Buzz Aldrin berichten über unbekannte Objekte. Buzz Aldrin später: \"Es gab etwas da draußen, das uns begleitete.\" 1 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
+      "witnesses": [
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Michael Collins"
+      ],
+      "evidence": [
+        "NASA PURSUE-Archiv: 1 Dokument(e)",
+        "war.gov/ufo Release 01/02",
+        "Offizielle NASA-Transkripte"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "NASA",
+        "Astronauten",
+        "PURSUE",
+        "war.gov",
+        "Raumfahrt"
+      ],
+      "connections": [
+        "NASA-UAP-Programm",
+        "PURSUE Release 01/02"
+      ]
+    },
+    {
+      "id": "120",
+      "title": "NASA Skylab – UAP-Sichtung (1973)",
+      "date": "1973",
+      "location": "Erdorbit / Mondmission",
+      "region": "USA",
+      "category": "Astronauten-Zeugnis",
+      "level": "Hoch",
+      "score": 7.8,
+      "description": "Skylab Technisches Crew-Debriefing 1973 freigegeben. Crew berichtet über unbekannte Objekte und Lichter rund um die Raumstation. 1 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
+      "witnesses": [
+        "Pete Conrad",
+        "Joseph Kerwin",
+        "Paul Weitz"
+      ],
+      "evidence": [
+        "NASA PURSUE-Archiv: 1 Dokument(e)",
+        "war.gov/ufo Release 01/02",
+        "Offizielle NASA-Transkripte"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "NASA",
+        "Astronauten",
+        "PURSUE",
+        "war.gov",
+        "Raumfahrt"
+      ],
+      "connections": [
+        "NASA-UAP-Programm",
+        "PURSUE Release 01/02"
+      ]
+    },
+    {
+      "id": "121",
+      "title": "NASA Mercury Atlas 9 – UAP-Sichtung (1963)",
+      "date": "1963",
+      "location": "Erdorbit / Mondmission",
+      "region": "USA",
+      "category": "Astronauten-Zeugnis",
+      "level": "Kritisch",
+      "score": 9.1,
+      "description": "Mercury Atlas 9 \"Faith 7\" – Gordon Cooper. Zwei Audio-Excerpts (15. Mai 1963). Cooper berichtet über leuchtendes grünes Objekt. Bestätigt von Tracking-Stationen in Perth, Australien. 2 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
+      "witnesses": [
+        "Gordon Cooper"
+      ],
+      "evidence": [
+        "NASA PURSUE-Archiv: 2 Dokument(e)",
+        "war.gov/ufo Release 01/02",
+        "Offizielle NASA-Transkripte"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "NASA",
+        "Astronauten",
+        "PURSUE",
+        "war.gov",
+        "Raumfahrt"
+      ],
+      "connections": [
+        "NASA-UAP-Programm",
+        "PURSUE Release 01/02"
+      ]
+    },
+    {
+      "id": "122",
+      "title": "NASA Mercury Atlas 8 – UAP-Sichtung (1962)",
+      "date": "1962",
+      "location": "Erdorbit / Mondmission",
+      "region": "USA",
+      "category": "Astronauten-Zeugnis",
+      "level": "Hoch",
+      "score": 7.5,
+      "description": "Mercury Atlas 8 \"Sigma 7\" – Wally Schirra. Audio-Excerpt (3. Oktober 1962) freigegeben. 1 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
+      "witnesses": [
+        "Wally Schirra"
+      ],
+      "evidence": [
+        "NASA PURSUE-Archiv: 1 Dokument(e)",
+        "war.gov/ufo Release 01/02",
+        "Offizielle NASA-Transkripte"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "NASA",
+        "Astronauten",
+        "PURSUE",
+        "war.gov",
+        "Raumfahrt"
+      ],
+      "connections": [
+        "NASA-UAP-Programm",
+        "PURSUE Release 01/02"
+      ]
+    },
+    {
+      "id": "123",
+      "title": "NASA Mercury Atlas 7 – UAP-Sichtung (1962)",
+      "date": "1962",
+      "location": "Erdorbit / Mondmission",
+      "region": "USA",
+      "category": "Astronauten-Zeugnis",
+      "level": "Hoch",
+      "score": 7.5,
+      "description": "Mercury Atlas 7 \"Aurora 7\" – Scott Carpenter. Audio-Excerpt (24. Mai 1962) freigegeben. 1 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
+      "witnesses": [
+        "Scott Carpenter"
+      ],
+      "evidence": [
+        "NASA PURSUE-Archiv: 1 Dokument(e)",
+        "war.gov/ufo Release 01/02",
+        "Offizielle NASA-Transkripte"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "NASA",
+        "Astronauten",
+        "PURSUE",
+        "war.gov",
+        "Raumfahrt"
+      ],
+      "connections": [
+        "NASA-UAP-Programm",
+        "PURSUE Release 01/02"
+      ]
+    },
+    {
+      "id": "124",
+      "title": "NASA Mercury-Redstone 4 – UAP-Sichtung (1961)",
+      "date": "1961",
+      "location": "Erdorbit / Mondmission",
+      "region": "USA",
+      "category": "Astronauten-Zeugnis",
+      "level": "Hoch",
+      "score": 7.2,
+      "description": "Mercury-Redstone 4 \"Liberty Bell 7\" – Gus Grissom. Audio-Excerpt (21. Juli 1961). Früheste NASA-UAP-Aufzeichnung im PURSUE-Archiv. 1 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
+      "witnesses": [
+        "Gus Grissom"
+      ],
+      "evidence": [
+        "NASA PURSUE-Archiv: 1 Dokument(e)",
+        "war.gov/ufo Release 01/02",
+        "Offizielle NASA-Transkripte"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "NASA",
+        "Astronauten",
+        "PURSUE",
+        "war.gov",
+        "Raumfahrt"
+      ],
+      "connections": [
+        "NASA-UAP-Programm",
+        "PURSUE Release 01/02"
+      ]
+    },
+    {
+      "id": "125",
+      "title": "FBI UFO-Fotodokumentation – PURSUE Release 01 (8 Bilder, 24 PDFs)",
+      "date": "1940-2023",
+      "location": "USA (verschiedene)",
+      "region": "USA",
+      "category": "Behördendokument",
+      "level": "Hoch",
+      "score": 8.8,
+      "description": "Das FBI hat im Rahmen von PURSUE Release 01 (8. Mai 2026) insgesamt 8 Bilddateien (FBI Photo A001–A008) und 24 PDF-Dokumente (FBI Photo B001–B024) freigegeben. Diese umfassen historische UAP-Fotografien, Zeugenaussagen und Untersuchungsberichte aus dem FBI-Archiv. Viele Dokumente stammen aus dem berühmten FBI-Aktenbestand 62-HQ-83894 (Project Blue Book-Verbindungen). Einige Dokumente sind teilweise geschwärzt.",
+      "witnesses": [
+        "FBI Special Agents (anonym)",
+        "Zivilzeugen (geschwärzt)"
+      ],
+      "evidence": [
+        "8 Bilddateien: FBI Photo A001–A008",
+        "24 PDFs: FBI Photo B001–B024",
+        "war.gov/ufo PURSUE Release 01 (8. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "FBI",
+        "PURSUE",
+        "war.gov",
+        "Fotodokumentation",
+        "Historisch",
+        "FOIA"
+      ],
+      "connections": [
+        "FBI 62-HQ-83894",
+        "Project Blue Book",
+        "PURSUE Release 01"
+      ]
+    },
+    {
+      "id": "126",
+      "title": "FBI September 2023 UAP-Sichtung – Zeugenaussage + Composite Sketch",
+      "date": "2023-09",
+      "location": "USA (geschwärzt)",
+      "region": "USA",
+      "category": "Zeugenbericht",
+      "level": "Hoch",
+      "score": 8.5,
+      "description": "Das FBI hat 4 Dokumente zu einer UAP-Sichtung vom September 2023 freigegeben: Composite Sketch (Phantombild), Serial 003, Serial 004 und Serial 005. Ein USPER (US Person) beschreibt eine Begegnung mit einem unbekannten Flugobjekt. Ort und Identität geschwärzt.",
+      "witnesses": [
+        "USPER (US Person, Identität geschwärzt)"
+      ],
+      "evidence": [
+        "FBI September 2023 Sighting – Composite Sketch",
+        "Serial 003, 004, 005",
+        "war.gov/ufo PURSUE Release 01 (8. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "FBI",
+        "PURSUE",
+        "war.gov",
+        "2023",
+        "Zeugenbericht",
+        "Composite Sketch"
+      ],
+      "connections": [
+        "FBI UAP-Untersuchungen",
+        "PURSUE Release 01"
+      ]
+    },
+    {
+      "id": "127",
+      "title": "State Department UAP-Kabel – Unbekannt (2000)",
+      "date": "2000",
+      "location": "Unbekannt",
+      "region": "Unbekannt",
+      "category": "Diplomatisches Dokument",
+      "level": "Hoch",
+      "score": 8.2,
+      "description": "Diplomatisches Kabel über UAP-Sichtung. Im Rahmen von PURSUE Release 01 (8. Mai 2026) freigegeben. Zeigt globale Reichweite der UAP-Dokumentation durch US-Auslandsvertretungen.",
+      "witnesses": [
+        "US-Botschaftspersonal (geschwärzt)"
+      ],
+      "evidence": [
+        "State Department UAP Cable – Unbekannt, 2000",
+        "war.gov/ufo PURSUE Release 01 (8. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "State Department",
+        "PURSUE",
+        "war.gov",
+        "Diplomatisch",
+        "International",
+        "2000"
+      ],
+      "connections": [
+        "PURSUE Release 01",
+        "Globale UAP-Dokumentation"
+      ]
+    },
+    {
+      "id": "128",
+      "title": "State Department UAP-Kabel – Unbekannt (2000)",
+      "date": "2000",
+      "location": "Unbekannt",
+      "region": "Unbekannt",
+      "category": "Diplomatisches Dokument",
+      "level": "Hoch",
+      "score": 8.2,
+      "description": "Diplomatisches Kabel über UAP-Sichtung. Im Rahmen von PURSUE Release 01 (8. Mai 2026) freigegeben. Zeigt globale Reichweite der UAP-Dokumentation durch US-Auslandsvertretungen.",
+      "witnesses": [
+        "US-Botschaftspersonal (geschwärzt)"
+      ],
+      "evidence": [
+        "State Department UAP Cable – Unbekannt, 2000",
+        "war.gov/ufo PURSUE Release 01 (8. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "State Department",
+        "PURSUE",
+        "war.gov",
+        "Diplomatisch",
+        "International",
+        "2000"
+      ],
+      "connections": [
+        "PURSUE Release 01",
+        "Globale UAP-Dokumentation"
+      ]
+    },
+    {
+      "id": "129",
+      "title": "State Department UAP-Kabel – Papua-Neuguinea (1985)",
+      "date": "1985",
+      "location": "Papua-Neuguinea",
+      "region": "Papua-Neuguinea",
+      "category": "Diplomatisches Dokument",
+      "level": "Hoch",
+      "score": 8.2,
+      "description": "Diplomatisches Kabel (28. Jan. 1985). US-Botschaft berichtet über UAP-Sichtung. Im Rahmen von PURSUE Release 01 (8. Mai 2026) freigegeben. Zeigt globale Reichweite der UAP-Dokumentation durch US-Auslandsvertretungen.",
+      "witnesses": [
+        "US-Botschaftspersonal (geschwärzt)"
+      ],
+      "evidence": [
+        "State Department UAP Cable – Papua-Neuguinea, 1985",
+        "war.gov/ufo PURSUE Release 01 (8. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "State Department",
+        "PURSUE",
+        "war.gov",
+        "Diplomatisch",
+        "International",
+        "1985"
+      ],
+      "connections": [
+        "PURSUE Release 01",
+        "Globale UAP-Dokumentation"
+      ]
+    },
+    {
+      "id": "130",
+      "title": "State Department UAP-Kabel – Kasachstan (1994)",
+      "date": "1994",
+      "location": "Kasachstan",
+      "region": "Kasachstan",
+      "category": "Diplomatisches Dokument",
+      "level": "Hoch",
+      "score": 8.2,
+      "description": "Diplomatisches Kabel (31. Jan. 1994). Nach dem Ende der Sowjetunion – UAP über ehemaligem sowjetischen Territorium. Im Rahmen von PURSUE Release 01 (8. Mai 2026) freigegeben. Zeigt globale Reichweite der UAP-Dokumentation durch US-Auslandsvertretungen.",
+      "witnesses": [
+        "US-Botschaftspersonal (geschwärzt)"
+      ],
+      "evidence": [
+        "State Department UAP Cable – Kasachstan, 1994",
+        "war.gov/ufo PURSUE Release 01 (8. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "State Department",
+        "PURSUE",
+        "war.gov",
+        "Diplomatisch",
+        "International",
+        "1994"
+      ],
+      "connections": [
+        "PURSUE Release 01",
+        "Globale UAP-Dokumentation"
+      ]
+    },
+    {
+      "id": "131",
+      "title": "State Department UAP-Kabel – Georgien (2001)",
+      "date": "2001",
+      "location": "Georgien",
+      "region": "Georgien",
+      "category": "Diplomatisches Dokument",
+      "level": "Hoch",
+      "score": 8.2,
+      "description": "Diplomatisches Kabel aus Tiflis (30. Okt. 2001). UAP im Südkaukasus. Im Rahmen von PURSUE Release 01 (8. Mai 2026) freigegeben. Zeigt globale Reichweite der UAP-Dokumentation durch US-Auslandsvertretungen.",
+      "witnesses": [
+        "US-Botschaftspersonal (geschwärzt)"
+      ],
+      "evidence": [
+        "State Department UAP Cable – Georgien, 2001",
+        "war.gov/ufo PURSUE Release 01 (8. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "State Department",
+        "PURSUE",
+        "war.gov",
+        "Diplomatisch",
+        "International",
+        "2001"
+      ],
+      "connections": [
+        "PURSUE Release 01",
+        "Globale UAP-Dokumentation"
+      ]
+    },
+    {
+      "id": "132",
+      "title": "State Department UAP-Kabel – Turkmenistan (2004)",
+      "date": "2004",
+      "location": "Turkmenistan",
+      "region": "Turkmenistan",
+      "category": "Diplomatisches Dokument",
+      "level": "Hoch",
+      "score": 8.2,
+      "description": "Diplomatisches Kabel aus Aschgabat (5. Nov. 2004). UAP in Zentralasien. Im Rahmen von PURSUE Release 01 (8. Mai 2026) freigegeben. Zeigt globale Reichweite der UAP-Dokumentation durch US-Auslandsvertretungen.",
+      "witnesses": [
+        "US-Botschaftspersonal (geschwärzt)"
+      ],
+      "evidence": [
+        "State Department UAP Cable – Turkmenistan, 2004",
+        "war.gov/ufo PURSUE Release 01 (8. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "State Department",
+        "PURSUE",
+        "war.gov",
+        "Diplomatisch",
+        "International",
+        "2004"
+      ],
+      "connections": [
+        "PURSUE Release 01",
+        "Globale UAP-Dokumentation"
+      ]
+    },
+    {
+      "id": "133",
+      "title": "State Department UAP-Kabel – Mexiko (2003)",
+      "date": "2003",
+      "location": "Mexiko",
+      "region": "Mexiko",
+      "category": "Diplomatisches Dokument",
+      "level": "Hoch",
+      "score": 8.2,
+      "description": "Diplomatisches Kabel aus Mexiko (16. Sept. 2003). UAP-Sichtung. Im Rahmen von PURSUE Release 01 (8. Mai 2026) freigegeben. Zeigt globale Reichweite der UAP-Dokumentation durch US-Auslandsvertretungen.",
+      "witnesses": [
+        "US-Botschaftspersonal (geschwärzt)"
+      ],
+      "evidence": [
+        "State Department UAP Cable – Mexiko, 2003",
+        "war.gov/ufo PURSUE Release 01 (8. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "State Department",
+        "PURSUE",
+        "war.gov",
+        "Diplomatisch",
+        "International",
+        "2003"
+      ],
+      "connections": [
+        "PURSUE Release 01",
+        "Globale UAP-Dokumentation"
+      ]
+    },
+    {
+      "id": "134",
+      "title": "DOW CENTCOM UAP-Mission Reports 2020 – 20 Videos (Persischer Golf / Arabisches Meer)",
+      "date": "2020",
+      "location": "Persischer Golf, Arabisches Meer, Straße von Hormuz",
+      "region": "Naher Osten",
+      "category": "Militärisches Dokument",
+      "level": "Kritisch",
+      "score": 9.3,
+      "description": "Das US-Verteidigungsministerium hat im Rahmen von PURSUE Release 02 (22. Mai 2026) insgesamt 20 Militär-Videos aus dem Jahr 2020 freigegeben. Die Videos zeigen UAP-Sichtungen durch US-Streitkräfte im CENTCOM-Bereich. Callsigns sind geschwärzt. Die Objekte zeigen keine Wärmesignatur, keine Schallwellen und keine konventionelle Antriebstechnologie. Mehrere Videos zeigen UAPs in Formation oder mit sofortiger Beschleunigung.",
+      "witnesses": [
+        "US Navy und USAF Piloten (Callsigns geschwärzt)",
+        "Radar-Operatoren"
+      ],
+      "evidence": [
+        "20 freigegebene Militär-Videos (DOW-UAP-PR Serie)",
+        "war.gov/ufo PURSUE Release 02 (22. Mai 2026)",
+        "CENTCOM-Operationsgebiet bestätigt"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "DOW",
+        "CENTCOM",
+        "PURSUE",
+        "war.gov",
+        "Militär",
+        "Video",
+        "2020",
+        "Persischer Golf"
+      ],
+      "connections": [
+        "AARO",
+        "PURSUE Release 02",
+        "Nuklear-UAP-Nexus"
+      ]
+    },
+    {
+      "id": "135",
+      "title": "DOW CENTCOM UAP-Mission Reports 2021–2024 – 21 Videos (Syrien, Iran, Irak)",
+      "date": "2021-2024",
+      "location": "Syrien, Irak, Iran, Griechenland, VAE, Dschibuti",
+      "region": "Naher Osten",
+      "category": "Militärisches Dokument",
+      "level": "Kritisch",
+      "score": 9.4,
+      "description": "Das US-Verteidigungsministerium hat im Rahmen von PURSUE Release 02 21 Militär-Videos aus 2021–2024 freigegeben. Besonders bedeutsam: DOW-UAP-PR050 zeigt 4 UAPs in Formation über dem Iran (26. Aug. 2022). DOW-UAP-PR051 zeigt sofortige Beschleunigung über Syrien. Die Häufung von UAP-Sichtungen in aktiven Konfliktgebieten ist statistisch signifikant (CTX-EAG Report 2026).",
+      "witnesses": [
+        "US-Militärpiloten (Callsigns geschwärzt)",
+        "Radar-Operatoren"
+      ],
+      "evidence": [
+        "21 freigegebene Militär-Videos",
+        "DOW-UAP-PR050: 4 UAP Formation über Iran (26. Aug. 2022)",
+        "DOW-UAP-PR051: Sofortige Beschleunigung über Syrien",
+        "war.gov/ufo PURSUE Release 02 (22. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "DOW",
+        "CENTCOM",
+        "PURSUE",
+        "war.gov",
+        "Militär",
+        "Video",
+        "Syrien",
+        "Iran"
+      ],
+      "connections": [
+        "AARO",
+        "PURSUE Release 02",
+        "UAP im Kriegsgebiet"
+      ]
+    },
+    {
+      "id": "136",
+      "title": "DOW CENTCOM UAP-Mission Reports 2018–2019 – 3 Videos",
+      "date": "2018-2019",
+      "location": "Persischer Golf, Ostküste USA",
+      "region": "Naher Osten / USA",
+      "category": "Militärisches Dokument",
+      "level": "Kritisch",
+      "score": 9.2,
+      "description": "Das US-Verteidigungsministerium hat 3 Militär-Videos aus 2018–2019 freigegeben. Darunter: DOW-UAP-PR096 (HH11 03 July 2018 UAPs), DOW-UAP-PR097/PR099 (Hi-Res: Observes UAP on 25SEP19), DOW-UAP-PR086 (UAP from Dec 2019 East Coast). Die East-Coast-Sichtung vom Dezember 2019 ergänzt die bekannten Nimitz/Roosevelt-Vorfälle.",
+      "witnesses": [
+        "US Navy Piloten (Callsigns geschwärzt)"
+      ],
+      "evidence": [
+        "3 freigegebene Militär-Videos",
+        "DOW-UAP-PR096: HH11 03 July 2018",
+        "DOW-UAP-PR097/099: 25. September 2019 (Hi-Res)",
+        "war.gov/ufo PURSUE Release 02 (22. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "DOW",
+        "CENTCOM",
+        "PURSUE",
+        "war.gov",
+        "Militär",
+        "Video",
+        "2018",
+        "2019"
+      ],
+      "connections": [
+        "AARO",
+        "PURSUE Release 02",
+        "Nimitz-Vorfall"
+      ]
+    },
+    {
+      "id": "137",
+      "title": "DOW CENTCOM UAP-Mission Reports (undatiert) – 34 Videos",
+      "date": "2015-2025",
+      "location": "CENTCOM-Bereich (geschwärzt)",
+      "region": "Naher Osten",
+      "category": "Militärisches Dokument",
+      "level": "Hoch",
+      "score": 8.8,
+      "description": "34 weitere Militär-Videos aus dem CENTCOM-Bereich ohne genaues Datum. Alle zeigen UAP-Sichtungen durch US-Streitkräfte.",
+      "witnesses": [
+        "US-Militärpiloten (Callsigns geschwärzt)"
+      ],
+      "evidence": [
+        "34 freigegebene Militär-Videos",
+        "war.gov/ufo PURSUE Release 02 (22. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "DOW",
+        "CENTCOM",
+        "PURSUE",
+        "war.gov",
+        "Militär",
+        "Video"
+      ],
+      "connections": [
+        "AARO",
+        "PURSUE Release 02"
+      ]
+    },
+    {
+      "id": "138",
+      "title": "DOW Historische UFO-Akten 1946–1950 – 1 Dokumente (Roswell-Ära)",
+      "date": "1946-1950",
+      "location": "USA (verschiedene)",
+      "region": "USA",
+      "category": "Historisches Dokument",
+      "level": "Kritisch",
+      "score": 9.1,
+      "description": "Das US-Verteidigungsministerium hat im Rahmen von PURSUE Release 01 (8. Mai 2026) 1 historische UFO-Dokumente aus den Jahren 1946–1950 freigegeben. Darunter: 18_100754_ General 1946-7_Vol_2 (30. Dez. 1947 – kurz nach Roswell), 18_6369445_General_1948_Vol_1 (15. Juni 1948), 342_HS1-416511228_319.1 Flying Discs 1949, 38_143685 Incident Summaries 1-233. Die 233 Incident Summaries dokumentieren UFO-Sichtungen unmittelbar nach Roswell.",
+      "witnesses": [
+        "US-Militärpersonal (historisch)",
+        "Zivilzeugen"
+      ],
+      "evidence": [
+        "18_100754_ General 1946-7_Vol_2 (30. Dez. 1947)",
+        "18_6369445_General_1948_Vol_1 (15. Juni 1948)",
+        "342_HS1-416511228_319.1 Flying Discs 1949",
+        "38_143685 Incident Summaries: 233 Vorfälle",
+        "war.gov/ufo PURSUE Release 01 (8. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "DOW",
+        "PURSUE",
+        "war.gov",
+        "Historisch",
+        "1946",
+        "1947",
+        "1948",
+        "1949",
+        "Roswell-Ära"
+      ],
+      "connections": [
+        "Roswell 1947",
+        "Nuklear-UAP-Nexus",
+        "PURSUE Release 01"
+      ]
+    },
+    {
+      "id": "139",
+      "title": "DOW Vandenberg AFB Launch Summary – UAP über Raketenstartanlage (2000)",
+      "date": "2000",
+      "location": "Vandenberg AFB, Kalifornien",
+      "region": "USA",
+      "category": "Militärisches Dokument",
+      "level": "Hoch",
+      "score": 8.6,
+      "description": "DOW-UAP-D049: Launch Summary von Vandenberg AFB (2000). Vandenberg AFB ist der Hauptstartplatz für US-Militärsatelliten und ballistische Raketen. UAP-Sichtung während eines Raketenstarts – direkte Verbindung zur Nuklear-UAP-Nexus-These.",
+      "witnesses": [
+        "USAF Personal (geschwärzt)"
+      ],
+      "evidence": [
+        "DOW-UAP-D049: Launch Summary, Vandenberg AFB, 2000",
+        "war.gov/ufo PURSUE Release 02 (22. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "DOW",
+        "PURSUE",
+        "war.gov",
+        "Vandenberg",
+        "Raketenstart",
+        "2000",
+        "Nuklear"
+      ],
+      "connections": [
+        "Nuklear-UAP-Nexus",
+        "PURSUE Release 02"
+      ]
+    },
+    {
+      "id": "140",
+      "title": "DOW INDOPACOM UAP-Korrespondenz (April 2025)",
+      "date": "2025-04",
+      "location": "Indo-Pazifik",
+      "region": "Asien-Pazifik",
+      "category": "Militärisches Dokument",
+      "level": "Kritisch",
+      "score": 9.0,
+      "description": "DOW-UAP-D050: E-Mail-Korrespondenz aus dem INDOPACOM (Indo-Pacific Command), April 2025. Das INDOPACOM ist das größte US-Militärkommando. Die Freigabe einer aktuellen 2025-Korrespondenz deutet auf erhöhte UAP-Aktivität im Indo-Pazifik hin.",
+      "witnesses": [
+        "INDOPACOM Personal (geschwärzt)"
+      ],
+      "evidence": [
+        "DOW-UAP-D050: E-Mail-Korrespondenz, INDOPACOM, April 2025",
+        "war.gov/ufo PURSUE Release 02 (22. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "DOW",
+        "INDOPACOM",
+        "PURSUE",
+        "war.gov",
+        "2025",
+        "Indo-Pazifik"
+      ],
+      "connections": [
+        "PURSUE Release 02",
+        "AARO"
+      ]
+    },
+    {
+      "id": "141",
+      "title": "ODNI Senior USIC Official – UAP-Zeugnis (Western US, 2025)",
+      "date": "2025",
+      "location": "Westliche USA",
+      "region": "USA",
+      "category": "Geheimdienstdokument",
+      "level": "Kritisch",
+      "score": 9.5,
+      "description": "ODNI-UAP-D001: USPER Narrative eines hochrangigen USIC-Beamten (US Intelligence Community). Ein Senior-Geheimdienstbeamter beschreibt eine persönliche UAP-Begegnung im westlichen USA. Das 116-seitige Dokument enthält Beschreibungen von Orange Orbs, die US-Kampfjets jagten.",
+      "witnesses": [
+        "Senior USIC Official (Identität geschwärzt)",
+        "US-Militärpiloten"
+      ],
+      "evidence": [
+        "ODNI-UAP-D001: USPER Narrative, Senior USIC Official",
+        "116-seitiges Dokument",
+        "war.gov/ufo PURSUE Release 02 (22. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "ODNI",
+        "PURSUE",
+        "war.gov",
+        "2025",
+        "Senior Official",
+        "Orange Orbs"
+      ],
+      "connections": [
+        "PURSUE Release 02",
+        "AARO"
+      ]
+    },
+    {
+      "id": "142",
+      "title": "CIA HUMINT-Bericht: UAP über sowjetischem Atomwaffentestgelände Sary Shagan (1973)",
+      "date": "1973-12-20",
+      "location": "Sary Shagan, Kasachstan (UdSSR)",
+      "region": "Zentralasien",
+      "category": "Geheimdienstdokument",
+      "level": "Kritisch",
+      "score": 9.6,
+      "description": "CIA-UAP-D001: Intelligence Information Report, USSR, 20. Dezember 1973. CIA-HUMINT-Agent berichtet über UAP-Sichtungen über dem sowjetischen Atomwaffentestgelände Sary Shagan. Direkte Verbindung zur Nuklear-UAP-Nexus-These.",
+      "witnesses": [
+        "CIA HUMINT-Agent (Identität geschwärzt)"
+      ],
+      "evidence": [
+        "CIA-UAP-D001: Intelligence Information Report, USSR, 20. Dez. 1973",
+        "war.gov/ufo PURSUE Release 02 (22. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "CIA",
+        "UdSSR",
+        "Sowjetunion",
+        "PURSUE",
+        "war.gov",
+        "Nuklear",
+        "1973"
+      ],
+      "connections": [
+        "Nuklear-UAP-Nexus",
+        "PURSUE Release 02"
+      ]
+    },
+    {
+      "id": "143",
+      "title": "DOE Enhanced PANTEX Imagery – UAP über US-Atomwaffen-Montageanlage",
+      "date": "2020-2025",
+      "location": "Pantex Plant, Amarillo, Texas",
+      "region": "USA",
+      "category": "Geheimdienstdokument",
+      "level": "Kritisch",
+      "score": 9.8,
+      "description": "DOE-UAP-D001: Enhanced PANTEX Imagery. Die Pantex Plant in Amarillo, Texas ist die einzige Anlage in den USA, die Atomwaffen montiert, demontiert und wartet. Erste offizielle US-Regierungsbestätigung von UAP-Aktivität über einer aktiven Atomwaffen-Montageanlage.",
+      "witnesses": [
+        "DOE/NNSA Personal (geschwärzt)",
+        "Sandia National Laboratories Analysten"
+      ],
+      "evidence": [
+        "DOE-UAP-D001: Enhanced PANTEX Imagery",
+        "war.gov/ufo PURSUE Release 02 (22. Mai 2026)",
+        "Pantex Plant: Einzige US-Atomwaffen-Montageanlage"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "DOE",
+        "Pantex",
+        "PURSUE",
+        "war.gov",
+        "Nuklear",
+        "Atomwaffen",
+        "Texas"
+      ],
+      "connections": [
+        "Nuklear-UAP-Nexus",
+        "PURSUE Release 02"
+      ]
+    },
+    {
+      "id": "144",
+      "title": "DOE James Tuck Korrespondenz – Manhattan-Projekt-Physiker und UAP (Los Alamos)",
+      "date": "1950-1960",
+      "location": "Los Alamos, New Mexico",
+      "region": "USA",
+      "category": "Historisches Dokument",
+      "level": "Kritisch",
+      "score": 9.4,
+      "description": "DOE-UAP-D002/D003: James Tuck Korrespondenz. Dr. James Tuck war ein britischer Physiker, der am Manhattan-Projekt und an der Entwicklung der Wasserstoffbombe in Los Alamos beteiligt war. Er sammelte privat UAP-Daten in der Umgebung von Los Alamos. Direkter Beweis für das Interesse von Manhattan-Projekt-Wissenschaftlern an UAPs.",
+      "witnesses": [
+        "Dr. James Tuck (Manhattan-Projekt-Physiker)"
+      ],
+      "evidence": [
+        "DOE-UAP-D002/D003: James Tuck Korrespondenz",
+        "war.gov/ufo PURSUE Release 01/02",
+        "Los Alamos National Laboratory Archiv"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "DOE",
+        "Los Alamos",
+        "Manhattan Projekt",
+        "PURSUE",
+        "war.gov",
+        "Nuklear",
+        "New Mexico"
+      ],
+      "connections": [
+        "New Mexico Cluster",
+        "Nuklear-UAP-Nexus",
+        "PURSUE Release 01"
+      ]
+    },
+    {
+      "id": "145",
+      "title": "COMETA Report: 'UFOs and Defense – What Should We Prepare For?' (1999)",
+      "date": "1999",
+      "location": "Frankreich / International",
+      "region": "Europa",
+      "category": "Wissenschaftliches Dokument",
+      "level": "Kritisch",
+      "score": 9.3,
+      "description": "255_413270_UFOs_and_Defense_What_Should_we_Prepare_For: Freigegeben im Rahmen von PURSUE Release 01 (8. Mai 2026). Der berühmte COMETA-Report (1999) – 90-seitiger Bericht von 13 hochrangigen französischen Militär- und Geheimdienstoffizieren (u.a. General Bernard Norlain, IHEDN). Schlussfolgerung: UAPs sind real, könnten außerirdischen Ursprungs sein und stellen eine strategische Herausforderung für die Verteidigung dar.",
+      "witnesses": [
+        "General Bernard Norlain (IHEDN)",
+        "13 französische Militär- und Geheimdienstoffiziere"
+      ],
+      "evidence": [
+        "255_413270_UFOs_and_Defense_What_Should_we_Prepare_For",
+        "COMETA Report 1999 (Frankreich)",
+        "war.gov/ufo PURSUE Release 01 (8. Mai 2026)"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "COMETA",
+        "PURSUE",
+        "war.gov",
+        "Frankreich",
+        "Militär",
+        "Wissenschaft",
+        "1999"
+      ],
+      "connections": [
+        "PURSUE Release 01",
+        "Internationale Disclosure"
       ]
     }
   ]
