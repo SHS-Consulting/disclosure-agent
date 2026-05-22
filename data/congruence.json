@@ -5,7 +5,8 @@
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
     "total_themes": 51,
-    "total_thesen": 50
+    "total_thesen": 50,
+    "total": 54
   },
   "themes": [
     {
@@ -2893,6 +2894,125 @@
         "bob-lazar",
         "elizondo",
         "lue-elizondo"
+      ]
+    },
+    {
+      "id": "pursue-release02-institutional-disclosure",
+      "title": "PURSUE Release 02: Institutionelle Disclosure-Bestätigung (war.gov, 22. Mai 2026)",
+      "score": 9.9,
+      "summary": "Die Veröffentlichung von 64 UAP-Dateien (51 Videos, 7 Audio, 6 PDFs) durch das US Department of War am 22. Mai 2026 ist die bisher umfangreichste offizielle Disclosure-Aktion der US-Regierung. Sie bestätigt gleichzeitig: (1) Nuklear-UAP-Nexus (AFSWP-Dokument 209 Sichtungen NM, Pantex-Bericht, CIA Sary Shagan), (2) Militärische Konfrontation (F-16 schießt UAP über Lake Huron ab), (3) Aktive Bedrohungswahrnehmung (Orbs jagen Kampfjets, 2025), (4) Historische Kontinuität (Manhattan-Project-Physiker Tuck, Apollo/Mercury-Audio), (5) Globale Reichweite (>1 Milliarde Website-Aufrufe in 2 Wochen). Die Tatsache, dass ein amtierender Senior Intelligence Officer einen persönlichen Erlebnisbericht einreicht, der öffentlich gemacht wird, ist ohne historisches Vorbild.",
+      "significance": "Erstmalige offizielle Bestätigung, dass: (a) US-Kampfjets aktiv UAPs abschießen, (b) UAPs über Atomwaffenstandorten (Pantex) von Sandia analysiert werden, (c) ein amtierender Senior Intelligence Officer UAP-Begegnungen als 'speechless'-Erlebnis beschreibt, (d) die US-Regierung aktiv auf Release 03 hinarbeitet. Score 9.9 = höchster Wert im System.",
+      "tags": [
+        "PURSUE",
+        "war.gov",
+        "Disclosure",
+        "institutionell",
+        "2026",
+        "Release-02",
+        "Trump",
+        "Hegseth"
+      ],
+      "sources": [
+        {
+          "name": "war.gov/UFO – Release 02 (22. Mai 2026)",
+          "statement": "64 Dateien: 51 Videos, 7 Audio, 6 PDFs. >1 Milliarde Aufrufe seit Launch 8. Mai 2026.",
+          "year": 2026,
+          "type": "primary"
+        },
+        {
+          "name": "ODNI-UAP-D001 – Senior USIC Narrative",
+          "statement": "We were virtually speechless after these observations. (Senior Intelligence Officer, 2025)",
+          "year": 2026,
+          "type": "government"
+        },
+        {
+          "name": "AFSWP-Dokument – 209 UAP-Sichtungen New Mexico 1948–1950",
+          "statement": "Witnesses reported UAP maneuvering, flying out of sight, disappearing, or exploding near military bases.",
+          "year": 2026,
+          "type": "government"
+        },
+        {
+          "name": "DOE-UAP-D001 – Pantex Incident Report (Sandia Enhanced)",
+          "statement": "UCNI-markierter UAP-Bericht über die einzige US-Atomwaffen-Montageanlage, analysiert von Sandia National Labs.",
+          "year": 2026,
+          "type": "government"
+        },
+        {
+          "name": "CIA-UAP-D001 – Sary Shagan IIR (1977)",
+          "statement": "CIA HUMINT-Bericht: UAP-Sichtung an sowjetischem Atomwaffentestgelände als regulärer Punkt der Quellenaussage.",
+          "year": 2026,
+          "type": "declassified"
+        },
+        {
+          "name": "CBS News – Pentagon releases more UFO files (22. Mai 2026)",
+          "statement": "The most striking document is an account by a currently serving senior intelligence officer.",
+          "year": 2026,
+          "type": "media"
+        },
+        {
+          "name": "Daily Mail – F-16 shoots down UFO over Lake Huron (22. Mai 2026)",
+          "statement": "Infrared cameras caught the moment when the small craft was struck by a US weapons system on February 12, 2023.",
+          "year": 2026,
+          "type": "media"
+        }
+      ],
+      "related_cases": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "related_persons": [
+        "hegseth-pete",
+        "luna-anna-paulina",
+        "grusch-david",
+        "elizondo-luis"
+      ]
+    },
+    {
+      "id": "nuclear-uap-pantex-sandia",
+      "title": "Pantex-Sandia-Nexus: UAP über der einzigen US-Atomwaffen-Montageanlage",
+      "score": 9.8,
+      "summary": "DOE-UAP-D001 (war.gov Release 02) dokumentiert einen UAP-Vorfall an der Pantex Plant (Carson County, Texas) – der einzigen US-Anlage zur Montage und Demontage von Atomwaffen. Das Dokument trägt UCNI-Markierung (Unclassified Controlled Nuclear Information, Atomic Energy Act) und wurde von Sandia National Labs bildverbessert. Dies ist der direkteste Nachweis einer UAP-Sichtung an einer Atomwaffen-Produktionsanlage in der Geschichte der US-Regierung.",
+      "significance": "Sandia National Labs ist das führende US-Atomwaffen-Forschungslabor. Die Tatsache, dass Sandia die Bildverbesserung durchführte (nicht Pantex selbst), deutet auf eine institutionelle Eskalation des Vorfalls hin. In Kombination mit dem AFSWP-Dokument (209 Sichtungen NM 1948–1950), dem CIA Sary Shagan-Bericht und dem Malmstrom-Vorfall (1967) ergibt sich ein 78-jähriges Muster von UAP-Aktivität an Atomwaffen-Standorten.",
+      "tags": [
+        "DOE",
+        "Pantex",
+        "Sandia",
+        "nuklear",
+        "atomwaffen",
+        "PURSUE",
+        "war.gov",
+        "Release-02"
+      ],
+      "sources": [
+        {
+          "name": "DOE-UAP-D001 – Pantex Incident Report",
+          "statement": "UCNI-markierter UAP-Bericht. Sandia National Labs Enhanced Images of the Object. Image from Ground Surveillance Radar Tower.",
+          "year": 2026,
+          "type": "government"
+        },
+        {
+          "name": "pursueindex.com – DOE-UAP-D001 Analysis",
+          "statement": "The presence of UCNI markings, the choice of (b)(3) UCNI as the redaction citation, and the naming of Sandia as the image-enhancement laboratory are three facts about how DOE processed this incident.",
+          "year": 2026,
+          "type": "analysis"
+        }
+      ],
+      "related_cases": [
+        111,
+        109,
+        110,
+        44
+      ],
+      "related_persons": [
+        "hegseth-pete"
       ]
     }
   ],

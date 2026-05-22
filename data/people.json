@@ -3,7 +3,8 @@
     "version": "4.0",
     "last_updated": "2026-05-21",
     "add_command": "ADD_PERSON: name | role | bio | tags(comma separated) | source_url | emoji",
-    "total_people": 57
+    "total_people": 57,
+    "total": 61
   },
   "people": [
     {
@@ -1687,6 +1688,61 @@
           "title": "Pentagon OIG FOIA: Elizondo Complaint 2017–2019",
           "url": "https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/UFOsandUAPs/25-F-2554_Elizondo_OIG_Docs_2017-2019.pdf"
         }
+      ]
+    },
+    {
+      "id": "hegseth-pete",
+      "name": "Pete Hegseth",
+      "role": "US Secretary of War (Verteidigungsminister)",
+      "affiliation": "Department of War (ehem. Department of Defense)",
+      "nationality": "US-amerikanisch",
+      "born": "1980",
+      "status": "aktiv",
+      "credibility": "hoch",
+      "tags": [
+        "PURSUE",
+        "war.gov",
+        "Trump",
+        "Disclosure",
+        "militär"
+      ],
+      "bio": "Pete Hegseth ist seit Januar 2025 US Secretary of War (Verteidigungsminister) unter Präsident Donald Trump. Er ist der federführende Verantwortliche für das Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) und die Veröffentlichung aller UAP-Akten auf war.gov/ufo. Hegseth ordnete die Freigabe von Release 01 (8. Mai 2026) und Release 02 (22. Mai 2026) an und kündigte Release 03 an. Hintergrund: Fox News-Moderator, Army National Guard-Veteran (Iraq, Afghanistan), Princeton-Absolvent. Statement zu Release 02: 'The Department of War is in lockstep with President Trump to bring unprecedented transparency regarding our government's understanding of Unidentified Anomalous Phenomena. These files, hidden behind classifications, have long fueled justified speculation — and it's time the American people see it for themselves.'",
+      "key_statements": [
+        "These files, hidden behind classifications, have long fueled justified speculation — and it's time the American people see it for themselves. (Release 02, 22. Mai 2026)",
+        "The Department of War and our agency partners are actively working on the third release of UAP files, which will be announced in the near future. (22. Mai 2026)",
+        "Since the site's launch on May 8, 2026, WAR.GOV/UFO has received over 1 billion hits worldwide. (22. Mai 2026)"
+      ],
+      "connections": [
+        "trump-donald",
+        "luna-anna-paulina",
+        "aaro"
+      ]
+    },
+    {
+      "id": "luna-anna-paulina",
+      "name": "Rep. Anna Paulina Luna",
+      "role": "US-Kongressabgeordnete (Florida, R)",
+      "affiliation": "US House of Representatives",
+      "nationality": "US-amerikanisch",
+      "born": "1989",
+      "status": "aktiv",
+      "credibility": "hoch",
+      "tags": [
+        "Kongress",
+        "PURSUE",
+        "war.gov",
+        "Disclosure",
+        "AIM-9X"
+      ],
+      "bio": "Anna Paulina Luna ist republikanische Kongressabgeordnete aus Florida und eine der aktivsten UAP-Disclosure-Befürworterinnen im US-Kongress. Am 6. März 2026 forderte sie gemeinsam mit 7 weiteren Kongressmitgliedern die Freigabe von 51 UAP-Dokumenten vom Department of War und der Intelligence Community. Sie bestätigte öffentlich, dass beim Lake-Huron-Abschuss (12. Feb. 2023) eine AIM-9X Sidewinder-Rakete verwendet wurde. Mitglied des House Oversight Committee.",
+      "key_statements": [
+        "On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. (März 2026)",
+        "Bestätigung: Die beim Lake-Huron-Abschuss verwendete Waffe war eine AIM-9X Sidewinder-Rakete. (Mai 2026)"
+      ],
+      "connections": [
+        "hegseth-pete",
+        "burlison-eric",
+        "aaro"
       ]
     }
   ]

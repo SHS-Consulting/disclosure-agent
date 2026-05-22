@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": "4.0",
-    "last_updated": "2026-05-21",
-    "total": 104,
+    "last_updated": "2026-05-22",
+    "total": 114,
     "add_command": "ADD_CASE: title | region(usa/brazil/europe/russia/asia/australia/africa/space) | level(critical/high/medium/confirmed/historical) | date | location | description | source_url | tags(comma separated)",
     "total_cases": 103
   },
@@ -3263,6 +3263,238 @@
           "url": "https://www.youtube.com/shorts/6hOnJIBbXiA",
           "description": "Nahaufnahme: Zwei Humanoid-Figuren im Cockpit sichtbar"
         }
+      ]
+    },
+    {
+      "id": 105,
+      "title": "war.gov PURSUE Release 02 – F-16C schießt UAP über Lake Huron ab (12. Feb. 2023)",
+      "region": "USA",
+      "level": "BESTÄTIGT",
+      "date": "2023-02-12",
+      "location": "Lake Huron, Michigan, USA",
+      "score": 9.8,
+      "description": "Erstes öffentlich freigegebenes Video eines US-Kampfjets, der ein UAP abschießt. Ein F-16C Fighting Falcon der US Air National Guard feuert ein AIM-9X Sidewinder-Rakete auf ein unbekanntes Objekt über Lake Huron, Michigan. Das Objekt – rund oder rautenförmig mit gezacktem Heck – fragmentiert in einem radialen Muster, das auf ein Hochenergie-Ereignis hinweist. Das Video wurde ursprünglich von einem Nutzer auf ein klassifiziertes Netzwerk hochgeladen (Februar 2023) und nun im Rahmen von PURSUE Release 02 freigegeben. Kongressabgeordnete Anna Paulina Luna bestätigte die Verwendung eines AIM-9X Sidewinder. Das Wrack wurde nicht öffentlich geborgen. Kontext: Das Ereignis fiel zeitlich mit dem Abschuss des chinesischen Spionageballons zusammen (4. Feb. 2023), was zu erhöhter Alarmbereitschaft führte. AARO-Beschreibung: 'The footage appears to depict a kinetic interaction between two distinct areas of contrast, with the initial subject of the footage fragmenting in a radial displacement pattern that suggests a high-energy event.' Quelle: war.gov/UFO (Release 02, 22. Mai 2026), Daily Mail, Post Millennial, CBS News.",
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "video",
+        "AARO",
+        "PURSUE",
+        "war.gov",
+        "militär",
+        "abschuss",
+        "F-16",
+        "Lake Huron",
+        "2023",
+        "Release-02"
+      ]
+    },
+    {
+      "id": 106,
+      "title": "war.gov PURSUE Release 02 – Senior Intelligence Officer: Orange Orbs jagen Kampfjets (2025)",
+      "region": "USA",
+      "level": "ERSTZEUGNIS",
+      "date": "2025-01-01",
+      "location": "Westliche USA (undisclosed), Bergregion",
+      "score": 9.5,
+      "description": "Ein aktuell diensttuender Senior US Intelligence Officer schildert in einem 116-seitigen ODNI-Dokument eine Serie von UAP-Begegnungen über mehr als eine Stunde an Bord eines Militärhubschraubers (spätes 2025). Kernaussagen: (1) 'In the distance, we saw countless orange orbs swarming in all directions against the backdrop of the mountain. The display lasted several minutes before fading.' (2) Ein Objekt 'split into two and changed direction'. (3) Bodenteam per Funk: 'the object had risen from the ground, approached within ten feet of the helicopter, dropped below us, and then sped away.' (4) Zwei große Orbs flammten direkt neben dem Helikopter auf – 'oval-shaped, orange with a white or yellow center, and emitted light in all directions.' (5) Dieselben Orbs begannen anschließend, die zur Identifizierung entsandten Kampfjets zu 'jagen'. Abschluss: 'We were virtually speechless after these observations.' Quelle: ODNI-UAP-D001 (USPER Narrative Senior USIC), war.gov Release 02, 22. Mai 2026.",
+      "source_url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/ODNI-UAP-D001_USPER_Narrative_Senior_USIC.pdf",
+      "tags": [
+        "ODNI",
+        "PURSUE",
+        "war.gov",
+        "erstzeugnis",
+        "orbs",
+        "hubschrauber",
+        "2025",
+        "Release-02",
+        "orange-orbs"
+      ]
+    },
+    {
+      "id": 107,
+      "title": "war.gov PURSUE Release 02 – Apollo & Mercury Astronauten: 'Fireflies' und 'Snowflakes' im Orbit",
+      "region": "Weltraum",
+      "level": "NASA-ARCHIV",
+      "date": "1962-01-01",
+      "location": "Erdorbit / Mondorbit",
+      "score": 7.5,
+      "description": "7 Audioaufnahmen von NASA-Astronauten aus den Apollo- und Mercury-Missionen, in denen Beobachtungen unbekannter Objekte im Weltraum beschrieben werden. Astronauten berichten über Objekte, die als 'Fireflies' (Glühwürmchen) und 'Snowflakes' (Schneeflocken) beschrieben werden. NASA-Erklärung (nachträglich): 'The fireflies are attributable to frozen condensation separating from the spacecraft body. The white, green-hued appearance of this phenomenon results from sunlight reflecting off frozen condensation.' Historische Bedeutung: Diese Aufnahmen wurden jahrzehntelang nicht öffentlich zugänglich gemacht. Die Freigabe im Rahmen von PURSUE Release 02 (22. Mai 2026) ist die erste offizielle Veröffentlichung dieser Originalaufnahmen. Verbindung zu John Glenn (Mercury-Atlas 6, 1962), der als erster US-Astronaut die 'Fireflies' beschrieb. Quelle: war.gov/UFO (Release 02, Audio-Sektion), CBS News, Daily Mail.",
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "NASA",
+        "Apollo",
+        "Mercury",
+        "astronauten",
+        "weltraum",
+        "audio",
+        "PURSUE",
+        "war.gov",
+        "Release-02"
+      ]
+    },
+    {
+      "id": 108,
+      "title": "war.gov PURSUE Release 02 – Sphärisches UAP taucht aus dem Ozean auf (2022)",
+      "region": "Atlantik/Pazifik",
+      "level": "MILITÄR-VIDEO",
+      "date": "2022-01-01",
+      "location": "Undisclosed (nahe U-Boot-Operation)",
+      "score": 9.2,
+      "description": "Ein Video ohne angegebenen Standort zeigt mehrere sphärische Objekte, die in der Nähe eines U-Boots ins Wasser ein- und auftauchen (Unidentified Submerged Objects / USOs). Das Objekt taucht aus dem Ozean auf, schwebt kurz und verschwindet dann. Kontext: Unidentified Submerged Objects (USOs) sind ein bisher kaum dokumentiertes Phänomen. Dieses Video ist eines der ersten offiziell freigegebenen Dokumente, das USO-Aktivität in direkter Nähe eines US-Militär-U-Boots zeigt. Verbindung zu Fravor-Tic-Tac-Fall (2004): Fravor berichtete ebenfalls von einem Objekt, das aus dem Wasser auftauchte. Quelle: war.gov/UFO (Release 02, Video-Sektion), CBS News, Daily Mail.",
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "USO",
+        "u-boot",
+        "ozean",
+        "sphäre",
+        "video",
+        "PURSUE",
+        "war.gov",
+        "2022",
+        "Release-02",
+        "militär"
+      ]
+    },
+    {
+      "id": 109,
+      "title": "war.gov PURSUE Release 02 – AFSWP-Dokument: 209 UAP-Sichtungen New Mexico 1948–1950",
+      "region": "USA",
+      "level": "HISTORISCH-KLASSIFIZIERT",
+      "date": "1950-01-01",
+      "location": "New Mexico, USA (Militärbasen-Umgebung)",
+      "score": 9.4,
+      "description": "Ein 116-seitiges Dokument des Armed Forces Special Weapons Project (AFSWP) – dem Vorläufer der Defense Nuclear Agency – dokumentiert 209 Sichtungen von 'Green Orbs', 'Discs' und 'Fireballs' in der Nähe von Militärbasen in New Mexico zwischen 1948 und 1950. DoW-Beschreibung: 'This file contains 209 sightings of green orbs, discs, and fireballs reported near the military base. Witnesses reported unidentified anomalous phenomena (UAP) maneuvering, flying out of sight, disappearing, or exploding.' Historische Bedeutung: Das AFSWP war für die Verwaltung aller US-Atomwaffen zuständig. Die Konzentration von UAP-Sichtungen in der Nähe von Atomwaffen-Standorten (New Mexico = Trinity, Los Alamos, White Sands, Holloman AFB) bestätigt die Nuklear-UAP-Nexus-These. Verbindung zu Dr. Lincoln LaPaz (FBI 62-HQ-83894), der dieselben Sichtungen aus ziviler Perspektive dokumentierte. Quelle: war.gov/UFO (Release 02, AFSWP-Dokument), CBS News, Fox Baltimore.",
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "AFSWP",
+        "New Mexico",
+        "green-fireballs",
+        "nuklear",
+        "historisch",
+        "PURSUE",
+        "war.gov",
+        "1948",
+        "1950",
+        "Release-02",
+        "FOIA"
+      ]
+    },
+    {
+      "id": 110,
+      "title": "war.gov PURSUE Release 02 – CIA IIR: UAP über sowjetischem Atomwaffengelände Sary Shagan (Sommer 1973)",
+      "region": "UdSSR",
+      "level": "CIA-PRIMÄRQUELLE",
+      "date": "1973-08-01",
+      "location": "Sary Shagan Weapons Testing Range, Kasachstan, UdSSR",
+      "score": 9.0,
+      "description": "CIA Intelligence Information Report (IIR) FIRK-311/01638-77, verteilt am 20. Dezember 1977, Informationszeitraum November 1972 – November 1973. Ein ehemaliger sowjetischer Staatsbürger, der am Sary Shagan-Atomwaffentestgelände diente, berichtete während eines CIA-Debriefings über eine UAP-Sichtung. Originalzitat (Sektion 14): 'On one evening in late Summer 1973, Source observed an unidentified phenomenon at Site 7. While watching a sport competition between Canada and the USSR on television, he stepped outside for some air and observed an unidentified sharp (bright) green circular object or mass in the sky.' Geometrie: 'The object was situated west of the site at an angle of sighting of approximately 70 degrees.' Entwicklung: 'Within 10 to 15 seconds of observation, the green circle widened and within a brief period of time several green concentric circles formed around the mass. Within minutes the coloring disappeared. There was no sound.' Bedeutung: Das Dokument ist ein CIA-Direktorate-of-Operations-Bericht – kein UAP-Bericht, sondern ein HUMINT-Bericht über sowjetische Atomwaffen, in dem die UAP-Sichtung als regulärer Punkt der Quellenaussage aufgeführt wird. Verteilerliste: NSA, DIA, STATE, FBI, NPIC. Quelle: CIA-UAP-D001, war.gov Release 02, pursueindex.com.",
+      "source_url": "https://pursueindex.com/finds/cia-uap-d001-ussr-1973-iir",
+      "tags": [
+        "CIA",
+        "UdSSR",
+        "Sary-Shagan",
+        "nuklear",
+        "green-fireball",
+        "HUMINT",
+        "Kalter-Krieg",
+        "PURSUE",
+        "war.gov",
+        "1973",
+        "Release-02",
+        "FOIA"
+      ]
+    },
+    {
+      "id": 111,
+      "title": "war.gov PURSUE Release 02 – DOE/Pantex: UAP-Bericht über US-Atomwaffen-Montageanlage (UCNI-klassifiziert)",
+      "region": "USA",
+      "level": "DOE-KLASSIFIZIERT",
+      "date": "2010-01-01",
+      "location": "Pantex Plant, Carson County, Texas, USA",
+      "score": 9.6,
+      "description": "Zwei Seiten (Seiten 5–6) eines sechsseitigen Pantex Unidentified Object Incident Report, freigegeben als DOE-UAP-D001. Pantex ist die einzige US-Anlage zur Montage und Demontage von Atomwaffen (verwaltet von Consolidated Nuclear Security, LLC). Besonderheiten: (1) UCNI-Markierung (Unclassified Controlled Nuclear Information) – eine DOE-spezifische Kategorie für Informationen, deren unbefugte Weitergabe die nationale Sicherheit gefährden könnte. (2) Redaktion nach FOIA-Ausnahme (b)(3) mit UCNI als gesetzlicher Grundlage (Atomic Energy Act) – dieselbe Rechtsgrundlage, die für Atomwaffen-Designinformationen verwendet wird. (3) Sandia National Labs führte die Bildverbesserung durch ('Sandia National Labs Enhanced Images of the Object'). (4) Originalquelle: Bodenüberwachungsradar-Turm der Anlage. Die narrativen Seiten 1–4 wurden nicht freigegeben. Bedeutung: Eine UAP-Sichtung an der einzigen US-Atomwaffen-Montageanlage, die von Sandia (dem führenden US-Atomwaffen-Forschungslabor) analysiert wurde, ist einer der bedeutendsten Nuklear-UAP-Nachweise im System. Quelle: DOE-UAP-D001, war.gov Release 02, pursueindex.com.",
+      "source_url": "https://pursueindex.com/finds/doe-uap-d001-pantex-image",
+      "tags": [
+        "DOE",
+        "Pantex",
+        "Sandia",
+        "nuklear",
+        "UCNI",
+        "atomwaffen",
+        "PURSUE",
+        "war.gov",
+        "Release-02",
+        "FOIA",
+        "radar"
+      ]
+    },
+    {
+      "id": 112,
+      "title": "war.gov PURSUE Release 02 – James Tuck (Manhattan Project): UAP-Korrespondenz Los Alamos 1970er",
+      "region": "USA",
+      "level": "HISTORISCH-PRIMÄRQUELLE",
+      "date": "1970-12-16",
+      "location": "Los Alamos National Laboratory, New Mexico, USA",
+      "score": 8.8,
+      "description": "Vier Seiten persönlicher Korrespondenz von Dr. James L. Tuck – britischer Physiker, Manhattan-Project-Veteran unter Oppenheimer, Leiter von Project Sherwood (US-Kernfusionsforschung). DOE-UAP-D002. Inhalt: (1) Inbound-Brief eines ehemaligen Los Alamos Sicherheitsbeamten: Bestätigt Sichtungen von 'green lights weaving in and out of mountain peaks' bei Los Alamos 1948–1951 (21–23 Uhr, Jemez Mountains). Fünf Objekte in Formation, Flugrichtung Südost-Nordwest, 5–6 Zeugen. (2) Tucks eigener Brief vom 16. Dezember 1970 an die US Army Engineering School, Fort Belvoir: Anforderung der 'recipe for simulated atomic bomb demonstrations' zur Erforschung atmosphärischer Wirbel, wie im Condon Report beschrieben. (3) Ball-Lightning-Korrespondenz (1976): Tuck hatte einen eigenen Bericht über Kugelblitz verfasst und zirkulierte ihn in seinem Netzwerk. Bedeutung: Erstmalig dokumentiert, dass ein Manhattan-Project-Physiker der höchsten Sicherheitsstufe UAP als privates Forschungsinteresse verfolgte und aktiv Daten sammelte. Verbindung zu LaPaz-Green-Fireballs-Dokumentation (FBI 62-HQ-83894). Quelle: DOE-UAP-D002, war.gov Release 02, pursueindex.com.",
+      "source_url": "https://pursueindex.com/finds/doe-uap-d002-james-tuck-correspondence-1970s",
+      "tags": [
+        "DOE",
+        "Los-Alamos",
+        "Manhattan-Project",
+        "James-Tuck",
+        "green-fireballs",
+        "historisch",
+        "PURSUE",
+        "war.gov",
+        "1970",
+        "Release-02",
+        "Condon-Report"
+      ]
+    },
+    {
+      "id": 113,
+      "title": "war.gov PURSUE Release 02 – US Coast Guard Infrarot: UAP nahe Flugzeug (April 2024)",
+      "region": "USA",
+      "level": "MILITÄR-VIDEO",
+      "date": "2024-04-01",
+      "location": "Südöstliche USA (Küstengebiet)",
+      "score": 8.7,
+      "description": "Infrarot-Video eines US Coast Guard Sensors (April 2024), das ein Objekt zeigt, das neben einem Flugzeug über dem südöstlichen US-Küstengebiet fliegt. Das Objekt zeigt keine konventionellen Wärmesignaturen. Kontext: Der US Coast Guard betreibt maritime Überwachungssysteme entlang der gesamten US-Küste. Die Freigabe dieses Videos ist das erste Mal, dass ein Coast Guard UAP-Video offiziell veröffentlicht wurde. Quelle: war.gov/UFO (Release 02), Fox Baltimore, CBS News.",
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "Coast-Guard",
+        "infrarot",
+        "video",
+        "2024",
+        "PURSUE",
+        "war.gov",
+        "Release-02",
+        "militär"
+      ]
+    },
+    {
+      "id": 114,
+      "title": "war.gov PURSUE Release 02 – CENTCOM: UAPs über Persischem Golf und Ostchinesischem Meer (2018–2023)",
+      "region": "Naher Osten / Asien",
+      "level": "MILITÄR-VIDEO",
+      "date": "2019-10-01",
+      "location": "Persischer Golf / Ostchinesisches Meer / Afghanistan",
+      "score": 9.1,
+      "description": "Mehrere Videos aus dem Zuständigkeitsbereich des US Central Command (CENTCOM) zwischen 2018 und 2023: (1) UAPs in Formation über dem Persischen Golf (Oktober 2019) – mehrere sphärische Objekte in koordinierter Bewegung, aufgenommen von Militärflugzeug. (2) Leuchtende Sphären, die durch Wolken über Afghanistan schießen. (3) Mehrere schnell bewegende Objekte, die Militärflugzeuge über dem Persischen Golf, Ostchinesischen Meer und eingeschränktem US-Luftraum umschwärmen. Bedeutung: Die geografische Konzentration von UAP-Sichtungen in militärisch hochsensiblen Regionen (Persischer Golf = US-Flugzeugträger, Ostchinesisches Meer = Taiwan-Konfliktzone) entspricht dem Muster der Nuklear-UAP-Nexus-These. Quelle: war.gov/UFO (Release 02, CENTCOM-Videos), CBS News, Daily Mail.",
+      "source_url": "https://www.war.gov/ufo/",
+      "tags": [
+        "CENTCOM",
+        "Persischer-Golf",
+        "Ostchinesisches-Meer",
+        "Afghanistan",
+        "Formation",
+        "video",
+        "PURSUE",
+        "war.gov",
+        "2019",
+        "Release-02",
+        "militär"
       ]
     }
   ]
