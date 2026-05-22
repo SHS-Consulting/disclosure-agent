@@ -72,8 +72,8 @@ nav{position:sticky;top:0;z-index:100;background:rgba(3,2,10,.96);backdrop-filte
 .bt{height:3px;background:rgba(255,255,255,.05);border-radius:2px;overflow:hidden}
 .bf{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--vd),var(--v));transition:width 1.2s ease}
 
-.pcard{background:var(--bg3);border:1px solid var(--bd);border-radius:8px;padding:1rem;transition:all .25s;display:flex;gap:.75rem}
-.pcard:hover{border-color:var(--bdb)}
+.pcard{background:var(--bg3);border:1px solid var(--bd);border-radius:8px;padding:1rem;transition:all .25s;display:flex;gap:.75rem;cursor:pointer}
+.pcard:hover{border-color:var(--c);box-shadow:0 0 12px rgba(0,229,255,.12);transform:translateY(-1px)}
 .pavatar{width:46px;height:46px;border-radius:8px;background:linear-gradient(135deg,var(--vd),var(--vg));display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
 .pinfo{flex:1}
 .pname{font-family:'Orbitron',sans-serif;font-size:10px;font-weight:700;color:var(--t1);margin-bottom:2px}
@@ -163,6 +163,7 @@ footer a{color:var(--v);text-decoration:none}
     <li><a href="#" onclick="T('con')">Kongruenz</a></li>
     <li><a href="#" onclick="T('ai')">KI Agent</a></li>
   </ul>
+  <a href="https://pursueindex.com" target="_blank" rel="noopener" style="font-family:'Orbitron',sans-serif;font-size:9px;font-weight:700;color:#00e5ff;text-decoration:none;border:1px solid rgba(0,229,255,.45);border-radius:4px;padding:4px 10px;white-space:nowrap;letter-spacing:.5px;background:rgba(0,229,255,.07);transition:all .2s" onmouseover="this.style.background='rgba(0,229,255,.18)';this.style.borderColor='#00e5ff'" onmouseout="this.style.background='rgba(0,229,255,.07)';this.style.borderColor='rgba(0,229,255,.45)'">pursueindex.com ↗</a>
   <div class="nlive"><div class="ld"></div>LIVE <span id="live-date"></span></div>
 </nav>
 
@@ -219,6 +220,7 @@ footer a{color:var(--v);text-decoration:none}
   <button class="tbt" onclick="T('dl')">📥 Downloads</button>
   <button class="tbt" onclick="T('db')">❌ Widerlegt</button>
   <button class="tbt" onclick="T('st')">⭐ Stärkste</button>
+  <button class="tbt" onclick="T('cl')">📋 Updates</button>
 </div>
 
 <!-- EVIDENCE -->
@@ -540,6 +542,67 @@ footer a{color:var(--v);text-decoration:none}
 </div>
 </div>
 
+<!-- CHANGELOG -->
+<div id="tp-cl" class="tp">
+  <div style="margin-bottom:1.25rem">
+    <div style="font-family:'Orbitron',sans-serif;font-size:11px;letter-spacing:2px;color:var(--c);margin-bottom:.4rem">📋 RELEASE-CHRONOLOGIE · PENTAGON PURSUE ACT</div>
+    <div style="font-size:11px;color:var(--t3)">Alle Aktualisierungen des Disclosure Agent · <a href="https://pursueindex.com" target="_blank" style="color:#00e5ff;text-decoration:none">pursueindex.com ↗</a></div>
+  </div>
+
+  <!-- Release 02 -->
+  <div style="margin-bottom:1.5rem;border-left:3px solid #00e5ff;padding-left:1rem">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem">
+      <span style="background:linear-gradient(135deg,#00e5ff,#0099cc);color:#000;font-family:'Orbitron',sans-serif;font-size:9px;font-weight:900;padding:3px 10px;border-radius:4px">RELEASE 02</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#ffd700;font-weight:700">22. Mai 2026</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)">60 neue Akten · war.gov/ufo</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.5rem">
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">NASA Skylab 4</div><div style="font-size:9px;color:var(--t3)">1973 · Astronauten-Sichtung im Orbit</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">NASA Mercury Atlas 7/8/9</div><div style="font-size:9px;color:var(--t3)">1962–63 · Carpenter, Schirra, Cooper</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">NASA Gemini 7</div><div style="font-size:9px;color:var(--t3)">1965 · Borman &amp; Lovell, 2 Objekte</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">NASA Apollo 12 &amp; 17</div><div style="font-size:9px;color:var(--t3)">1969/72 · Conrad/Bean, Cernan/Schmitt</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">FBI September 2023</div><div style="font-size:9px;color:var(--t3)">Sichtung + Composite Sketch</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">COMETA Report 1999</div><div style="font-size:9px;color:var(--t3)">Frankreich · 13 Militäroffiziere</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">James Tuck (Manhattan Project)</div><div style="font-size:9px;color:var(--t3)">DOE · Los Alamos-Verbindung</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">INDOPACOM 2025</div><div style="font-size:9px;color:var(--t3)">DOW · Aktuelle Militärdokumente</div></div>
+    </div>
+    <div style="margin-top:.75rem;font-size:10px;color:var(--t2)">Neue Fälle: #115–#145 · 4 neue Astronauten-Profile (Borman, Conrad, Cernan, Lovell) · These #55 (NASA-Konsistenz) · Kongruenz-Suchfeld · Personen-Filter-Buttons · Netzwerk-Legende</div>
+  </div>
+
+  <!-- Release 01 -->
+  <div style="margin-bottom:1.5rem;border-left:3px solid #ffd700;padding-left:1rem">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem">
+      <span style="background:linear-gradient(135deg,#ffd700,#ff9900);color:#000;font-family:'Orbitron',sans-serif;font-size:9px;font-weight:900;padding:3px 10px;border-radius:4px">RELEASE 01</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#ffd700;font-weight:700">8. Mai 2026</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)">162 Akten · war.gov/ufo</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.5rem">
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">NASA Apollo 11 &amp; Mercury Atlas 6</div><div style="font-size:9px;color:var(--t3)">1962–69 · Glenn, Armstrong</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">FBI 57 Fotos (62-HQ-83894)</div><div style="font-size:9px;color:var(--t3)">Peyerl 1944 · Section 10</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">State Dept Kabel (5 Länder)</div><div style="font-size:9px;color:var(--t3)">Papua-NG, Kasachstan, Georgien, Turkmenistan, Mexiko</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">DOW CENTCOM 78 Videos</div><div style="font-size:9px;color:var(--t3)">2018–2024 · Militär-UAP-Footage</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">CIA Sary Shagan 1973</div><div style="font-size:9px;color:var(--t3)">Sowjetisches Atomtestgelände</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">DOE Pantex Imagery</div><div style="font-size:9px;color:var(--t3)">Nukleare Anlage · UAP-Korrelation</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">ODNI Senior Official</div><div style="font-size:9px;color:var(--t3)">116 Seiten · Orange Orbs</div></div>
+    </div>
+    <div style="margin-top:.75rem;font-size:10px;color:var(--t2)">Fälle #1–#114 · 61 Personen · 54 Kongruenz-Thesen · Timeline · Weltkarte · DIA FOIA · Operationen · KI Agent</div>
+  </div>
+
+  <!-- DIA FOIA -->
+  <div style="margin-bottom:1.5rem;border-left:3px solid #b39ddb;padding-left:1rem">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.4rem">
+      <span style="background:rgba(179,157,219,.2);color:#b39ddb;font-family:'Orbitron',sans-serif;font-size:9px;font-weight:900;padding:3px 10px;border-radius:4px;border:1px solid rgba(179,157,219,.4)">DIA FOIA</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#b39ddb;font-weight:700">2021</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)">5 BAASS/AAWSAP-Materialstudien</span>
+    </div>
+    <div style="font-size:11px;color:var(--t2)">DIA-FOIA-00089-2018 · Bragalia-Anfrage · Bigelow Aerospace · Nitinol-Analyse · Reverse-Engineering-Nachweis · 5 Geheimstudien zu UAP-Wrackteilen</div>
+  </div>
+
+  <div style="padding:.75rem 1rem;background:rgba(0,229,255,.05);border:1px solid rgba(0,229,255,.2);border-radius:6px;font-size:11px;color:var(--t2);text-align:center">
+    Vollständiger Akten-Index: <a href="https://pursueindex.com" target="_blank" style="color:#00e5ff;font-weight:700;text-decoration:none">pursueindex.com ↗</a> · Originaldokumente: <a href="https://www.war.gov/ufo/" target="_blank" style="color:#ff4444;text-decoration:none">war.gov/ufo ↗</a>
+  </div>
+</div>
+
 </div><!-- /wrap -->
 
 <footer>
@@ -637,13 +700,14 @@ function renderPeople(people, gridId) {
   const g = document.getElementById(gridId);
   if(!people||!people.length){g.innerHTML='<div class="loading">Keine Daten.</div>';return;}
   g.innerHTML = people.map(p => `
-    <div class="pcard" data-t="${(p.tags||[]).join(' ')} ${p.name} ${p.bio}">
+    <div class="pcard" data-t="${(p.tags||[]).join(' ')} ${p.name} ${p.bio}" onclick="openPersonModal('${p.id}')" style="cursor:pointer" title="Profil öffnen">
       <div class="pavatar">${p.emoji||'👤'}</div>
       <div class="pinfo">
         <div class="pname">${p.name}</div>
         <div class="prole">${p.role}</div>
         <div class="pbio">${p.bio}</div>
         <div class="ptags">${(p.tags||[]).map(t=>`<span class="ptag">${t}</span>`).join('')}</div>
+        <div style="margin-top:.4rem;font-size:9px;color:var(--c);font-family:'JetBrains Mono',monospace;opacity:.7">▶ Klicken für Fälle &amp; Thesen</div>
       </div>
     </div>`).join('');
 }
@@ -917,6 +981,7 @@ async function renderTab(id) {
       if(d) renderStrongest(d.cases, 'st-grid');
       break;
     }
+    case 'cl': break; // Changelog ist statisch
   }
 }
 function renderStrongest(cases, gridId) {
@@ -1501,6 +1566,86 @@ Wenn kein Treffer: "Kein Treffer gegen bestehende Thesen — Element für neue T
   }
 }
 
+// ── PERSONEN DETAIL MODAL
+function openPersonModal(personId) {
+  const people = DATA['people']?.people || [];
+  const cases = DATA['cases']?.cases || [];
+  const themes = DATA['con']?.themes || [];
+  const p = people.find(x => x.id === personId);
+  if(!p) return;
+
+  // Finde verknüpfte Fälle: Name oder ID in Falltext/Tags
+  const nameVariants = [p.name, p.id, ...(p.tags||[])].map(s => s.toLowerCase());
+  const relCases = cases.filter(c => {
+    const hay = (c.title + ' ' + c.description + ' ' + (c.tags||[]).join(' ')).toLowerCase();
+    return nameVariants.some(v => v.length > 3 && hay.includes(v));
+  }).slice(0, 12);
+
+  // Finde verknüpfte Kongruenz-Thesen
+  const relThemes = themes.filter(t => {
+    const hay = (t.title + ' ' + (t.summary||'') + ' ' + JSON.stringify(t.related_persons||[])).toLowerCase();
+    return nameVariants.some(v => v.length > 3 && hay.includes(v));
+  }).slice(0, 8);
+
+  const scoreColor = (s) => s >= 9.5 ? '#ff4444' : s >= 9.0 ? '#00e676' : s >= 8.0 ? '#00e5ff' : '#b39ddb';
+
+  const casesHtml = relCases.length ? relCases.map(c => `
+    <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px;cursor:pointer;transition:border-color .15s" onclick="closePersonModal();T('ev');setTimeout(()=>{const el=document.querySelector('[data-t*=\'${c.title.substring(0,20).replace(/'/g,'')}\']');if(el){el.scrollIntoView({behavior:'smooth',block:'center'});el.style.outline='2px solid #00e5ff';setTimeout(()=>el.style.outline='',2000);}},300)" onmouseover="this.style.borderColor='var(--c)'" onmouseout="this.style.borderColor='var(--bd)'">
+      <div style="font-size:11px;color:var(--t1);font-weight:600">${c.title}</div>
+      <div style="font-size:9px;color:var(--t3);margin-top:2px;font-family:'JetBrains Mono',monospace">${c.date||''} · ${c.location||''} ${c.score?'· Score '+c.score:''}</div>
+    </div>`).join('') : '<div style="color:var(--t3);font-size:11px">Keine direkt verknüpften Fälle gefunden.</div>';
+
+  const themesHtml = relThemes.length ? relThemes.map(t => `
+    <div style="padding:.4rem .7rem;background:rgba(179,157,219,.06);border:1px solid rgba(179,157,219,.2);border-radius:5px;display:flex;gap:.6rem;align-items:center">
+      <span style="font-size:11px;color:${scoreColor(t.score||0)};font-weight:700;flex-shrink:0">${t.score||'?'}</span>
+      <span style="font-size:10px;color:var(--t2)">${t.title}</span>
+    </div>`).join('') : '<div style="color:var(--t3);font-size:11px">Keine verknüpften Thesen gefunden.</div>';
+
+  const tagHtml = (p.tags||[]).map(t => `<span style="background:rgba(0,229,255,.1);color:#00e5ff;border:1px solid rgba(0,229,255,.25);border-radius:3px;padding:2px 8px;font-size:9px;font-family:'JetBrains Mono',monospace">${t}</span>`).join(' ');
+
+  document.getElementById('person-modal-body').innerHTML = `
+    <div style="display:flex;gap:1rem;align-items:flex-start;margin-bottom:1.25rem">
+      <div style="font-size:3rem;flex-shrink:0;line-height:1">${p.emoji||'👤'}</div>
+      <div style="flex:1">
+        <div style="font-family:'Orbitron',sans-serif;font-size:16px;font-weight:700;color:var(--t1);margin-bottom:.2rem">${p.name}</div>
+        <div style="font-size:11px;color:var(--c);font-family:'JetBrains Mono',monospace;margin-bottom:.5rem">${p.role}</div>
+        <div style="font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:.75rem">${p.bio}</div>
+        <div style="display:flex;flex-wrap:wrap;gap:.35rem">${tagHtml}</div>
+        ${p.source_url ? `<div style="margin-top:.6rem"><a href="${p.source_url}" target="_blank" style="font-size:10px;color:var(--c);text-decoration:none;font-family:'JetBrains Mono',monospace">→ Primärquelle ↗</a></div>` : ''}
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+      <div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:.6rem">📂 Verknüpfte Fälle (${relCases.length})</div>
+        <div style="display:flex;flex-direction:column;gap:.4rem">${casesHtml}</div>
+      </div>
+      <div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:.6rem">◈ Kongruenz-Thesen (${relThemes.length})</div>
+        <div style="display:flex;flex-direction:column;gap:.4rem">${themesHtml}</div>
+      </div>
+    </div>`;
+
+  document.getElementById('person-modal').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closePersonModal() {
+  document.getElementById('person-modal').style.display = 'none';
+  document.body.style.overflow = '';
+}
+
 </script>
+
+<!-- PERSONEN DETAIL MODAL -->
+<div id="person-modal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.85);backdrop-filter:blur(8px);align-items:center;justify-content:center;padding:1rem" onclick="if(event.target===this)closePersonModal()">
+  <div style="background:var(--bg2);border:1px solid rgba(0,229,255,.3);border-radius:12px;width:100%;max-width:820px;max-height:88vh;overflow-y:auto;position:relative">
+    <div style="position:sticky;top:0;background:var(--bg2);border-bottom:1px solid var(--bd);padding:.75rem 1rem;display:flex;justify-content:space-between;align-items:center;z-index:1">
+      <div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:var(--c)">PERSONEN PROFIL</div>
+      <button onclick="closePersonModal()" style="background:none;border:none;color:var(--t2);font-size:18px;cursor:pointer;padding:0 4px;line-height:1">&times;</button>
+    </div>
+    <div id="person-modal-body" style="padding:1.25rem"></div>
+  </div>
+</div>
+
 </body>
 </html>
