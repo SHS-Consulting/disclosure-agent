@@ -1059,7 +1059,7 @@ function filterConScore(mode, btn) {
   _applyConFilter();
 }
 function _applyConFilter() {
-  const cards = document.querySelectorAll('#con-grid .card');
+  const cards = document.querySelectorAll('#con-grid .cw');
   let visible = 0;
   cards.forEach(c => {
     const t = (c.dataset.t||'').toLowerCase();
