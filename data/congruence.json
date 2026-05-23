@@ -4,7 +4,7 @@
     "last_updated": "2026-05-22",
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
-    "total_themes": 55,
+    "total_themes": 56,
     "total_thesen": 50,
     "total": 54
   },
@@ -3083,6 +3083,49 @@
         "Pete Conrad",
         "Gene Cernan",
         "Harrison Schmitt"
+      ]
+    },
+    {
+      "id": "cia-secrecy-escalation-1953-2023",
+      "title": "CIA-Geheimhaltungs-Eskalation 1953–2023: Robertson Panel → BLUEBOOK → AATIP → Grusch",
+      "score": 9.3,
+      "max_temporal_gap_years": 70,
+      "summary": "Eine 70-jährige, lückenlos dokumentierte Geheimhaltungs-Eskalationslinie: (1) Robertson Panel Januar 1953: CIA beschließt bewusst Debunking-Strategie und Überwachung ziviler UFO-Gruppen (NICAP/APRO) — deklassifiziert 1975. (2) Project BLUEBOOK 1952–1969: 12.618 Fälle, 701 'unerklärt' — offiziell eingestellt, inoffizielle Programme weiterlaufen. (3) AATIP 2007–2012: Geheimes Pentagon-Programm unter Elizondo, 22 Mio. USD. Elizondo-Rücktritt 2017 mit Verweis auf 'existentielle Bedrohung'. (4) Grusch-Testimony Juli 2023: Unter Eid bestätigt geheime Bergungsprogramme, nicht-menschliche Intelligenz, Einschüchterung von Zeugen. Alle 4 Stufen durch offizielle Dokumente belegt. Jede Stufe eskaliert die Geheimhaltung gegenüber der vorherigen. Keyhoe hatte 1952 Recht.",
+      "sources": [
+        "Robertson Panel Report (deklassifiziert 1975, FAS.org)",
+        "Project BLUEBOOK Finalreport 1969 (NARA)",
+        "Elizondo-Rücktrittsbrief an SecDef Mattis (04.10.2017)",
+        "Grusch-Kongress-Testimony unter Eid (26.07.2023)",
+        "AARO Historical Record Report Vol.1 (2024)"
+      ],
+      "tags": [
+        "cia",
+        "robertson",
+        "bluebook",
+        "aatip",
+        "grusch",
+        "elizondo",
+        "geheimhaltung",
+        "eskalation",
+        "70-jahre",
+        "deklassifiziert",
+        "kongress",
+        "whistleblower",
+        "keyhoe",
+        "nicap"
+      ],
+      "significance": "Beweist strukturelle, institutionelle Geheimhaltung über 7 Jahrzehnte — nicht zufällig, sondern als bewusste Politik. Robertson Panel 1953 ist der Urknall aller späteren Vertuschungsprogramme.",
+      "related_cases": [
+        "robertson-panel-1953",
+        "dc-1952",
+        "elizondo-aatip-resignation",
+        "grusch-2023",
+        "aaro-declassification-paper-2025"
+      ],
+      "related_persons": [
+        "grusch",
+        "elizondo",
+        "keyhoe"
       ]
     }
   ],
