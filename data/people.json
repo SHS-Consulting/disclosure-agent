@@ -113,15 +113,29 @@
       "id": "hynek",
       "name": "J. Allen Hynek",
       "emoji": "🌟",
-      "role": "Astronom · Blue Book Berater · CE-Klassifikation",
-      "bio": "Began als Skeptiker. Erfand CE1–CE5-Klassifikation. Gründete CUFOS. Letzter Satz: 'Das Phänomen ist real, aber nicht das, was wir denken.' Spielberg ehrte ihn in Close Encounters (Cameo).",
+      "role": "Project Blue Book Wissenschaftlicher Berater · Astrophysiker · CUFOS-Gründer · CE-Klassifikation",
+      "bio": "Dr. Josef Allen Hynek (* 1. Mai 1910, † 27. April 1986) war US-amerikanischer Astrophysiker und einer der bedeutendsten Wendepunkte in der UAP-Geschichte. BLUE BOOK BERATER (1948–1969): Hynek wurde als skeptischer Wissenschaftler vom USAF engagiert, um UAP-Berichte zu debunken. Er erfand den Begriff 'Swamp Gas' (1966) für die Michigan-Sichtungen — und wurde dafür öffentlich verspottet. WANDEL ZUM ÜBERZEUGTEN: Nach 21 Jahren Aktenstudium und Zeugeninterviews kam Hynek zu dem Schluss, dass ein echter, unerklärter Phänomenbereich existiert. Er kritisierte Blue Book öffentlich als 'wissenschaftlichen Betrug'. CUFOS-GRÜNDUNG (1973): Gründete das Center for UFO Studies — erste seriöse wissenschaftliche UAP-Forschungsorganisation. KLASSIFIKATIONSSYSTEM: Entwickelte die 'Close Encounter'-Klassifikation: CE1 (Sichtung), CE2 (physische Spuren), CE3 (Kontakt mit Wesen) — heute weltweiter Standard. SPIELBERG-VERBINDUNG: Beriet Spielberg für 'Unheimliche Begegnung der dritten Art' (1977). Hatte einen Cameo-Auftritt im Film. Sagte später: 'Der Film ist näher an der Wahrheit als die Öffentlichkeit weiß.' ROBERTSON PANEL-KRITIK: War beim Robertson Panel 1953 (CIA-Debunking) dabei und kritisierte es später als politisch motiviert. VERMÄCHTNIS: Sein Wandel vom Skeptiker zum Überzeugten ist eines der stärksten Argumente für die Ernsthaftigkeit des Phänomens — er hatte 21 Jahre Zugang zu allen klassifizierten Daten.",
       "tags": [
-        "ce-klassifikation",
-        "cufos",
         "blue-book",
-        "skeptiker-konvertiert"
+        "wissenschaftler",
+        "berater",
+        "cufos",
+        "ce3k",
+        "spielberg",
+        "insider",
+        "wendepunkt",
+        "astrophysiker",
+        "soft-disclosure",
+        "swamp-gas",
+        "umdenker",
+        "robertson-panel"
       ],
-      "source_url": "https://en.wikipedia.org/wiki/J._Allen_Hynek"
+      "source_url": "https://en.wikipedia.org/wiki/J._Allen_Hynek",
+      "related_cases": [
+        "robertson-panel-1953",
+        "spielberg-ufos-close-encounters"
+      ],
+      "significance": "kritisch"
     },
     {
       "id": "bashar",

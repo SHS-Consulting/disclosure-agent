@@ -202,10 +202,39 @@ footer a{color:var(--v);text-decoration:none}
   </div>
 </a>
 
+<!-- Disclosure Day Countdown -->
+<div id="dd-countdown" style="margin-bottom:.6rem;padding:.55rem 1rem;background:linear-gradient(135deg,rgba(255,140,0,.1),rgba(255,80,80,.07));border:1px solid rgba(255,140,0,.4);border-radius:6px;display:flex;align-items:center;gap:.8rem;flex-wrap:wrap">
+  <span style="font-size:14px">🎬</span>
+  <div style="flex:1;min-width:180px">
+    <span style="font-family:'Orbitron',sans-serif;font-size:9px;font-weight:700;color:#ff8c00;letter-spacing:1.5px">SPIELBERG · DISCLOSURE DAY</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);margin-left:.6rem">Kinostart 11. Juni 2026 · "Mehr Wahrheit als Fiktion"</span>
+  </div>
+  <div id="dd-days" style="font-family:'Orbitron',sans-serif;font-size:13px;font-weight:900;color:#ff8c00;letter-spacing:1px;white-space:nowrap">... Tage</div>
+  <a href="https://pursueindex.com" target="_blank" style="font-family:'JetBrains Mono',monospace;font-size:8px;color:#ff8c00;text-decoration:none;border:1px solid rgba(255,140,0,.4);border-radius:3px;padding:2px 7px;white-space:nowrap">pursueindex.com ↗</a>
+</div>
+<script>
+(function(){
+  var target = new Date('2026-06-11T00:00:00');
+  function update(){
+    var now = new Date();
+    var diff = target - now;
+    var el = document.getElementById('dd-days');
+    if(!el) return;
+    if(diff <= 0){ el.textContent = '🎬 HEUTE'; return; }
+    var days = Math.floor(diff/86400000);
+    var hrs = Math.floor((diff%86400000)/3600000);
+    var mins = Math.floor((diff%3600000)/60000);
+    el.textContent = days + 'd ' + hrs + 'h ' + mins + 'm';
+  }
+  update();
+  setInterval(update, 30000);
+})();
+</script>
+
 <div class="alert">
   <span style="font-size:16px;flex-shrink:0">⚠️</span>
   <div><strong>BREAKING · Pentagon PURSUE Act · Release 01 (8. Mai) + Release 02 (22. Mai 2026) · 222 Akten freigegeben</strong>
-  <span>Release 01 (8. Mai): Erste 162 Akten — NASA Apollo/Mercury/Gemini/Skylab-Audio, FBI 57 Fotos, State Dept Kabel (5 Länder), DOW CENTCOM 78 Videos, CIA Sary Shagan 1973, DOE Pantex, ODNI 116 Seiten. · Release 02 (22. Mai): Weitere 60 Akten — NASA Skylab 4, Mercury Atlas 7/8/9, Gemini 7, Apollo 12/17, FBI 2023 Sichtung, COMETA 1999, James Tuck, INDOPACOM 2025. · DIA FOIA 2021: 5 BAASS/AAWSAP-Materialstudien. · 146 Fälle · 66 Personen · 59 Thesen. · Vollständiger Index: <a href="https://pursueindex.com" target="_blank" style="color:#00e5ff;font-weight:700;text-decoration:underline">pursueindex.com</a></span></div>
+  <span>Release 01 (8. Mai): Erste 162 Akten — NASA Apollo/Mercury/Gemini/Skylab-Audio, FBI 57 Fotos, State Dept Kabel (5 Länder), DOW CENTCOM 78 Videos, CIA Sary Shagan 1973, DOE Pantex, ODNI 116 Seiten. · Release 02 (22. Mai): Weitere 60 Akten — NASA Skylab 4, Mercury Atlas 7/8/9, Gemini 7, Apollo 12/17, FBI 2023 Sichtung, COMETA 1999, James Tuck, INDOPACOM 2025. · DIA FOIA 2021: 5 BAASS/AAWSAP-Materialstudien. · 146 Fälle · 67 Personen · 59 Thesen. · Vollständiger Index: <a href="https://pursueindex.com" target="_blank" style="color:#00e5ff;font-weight:700;text-decoration:underline">pursueindex.com</a></span></div>
 </div>
 
 <div class="tbts">
@@ -237,6 +266,7 @@ footer a{color:var(--v);text-decoration:none}
     <button class="rbtn" onclick="filterEvidenceTag('Nuklear',this)" style="border-color:rgba(255,100,100,.5);color:#ff6464;background:rgba(255,100,100,.07)">☢ Nuklear</button>
     <button class="rbtn" onclick="filterEvidenceTag('Materialanalyse',this)" style="border-color:rgba(80,220,160,.5);color:#50dca0;background:rgba(80,220,160,.07)">🔬 Material</button>
     <button class="rbtn" onclick="filterEvidenceTag('soft-disclosure',this)" style="border-color:rgba(255,176,32,.5);color:#ffb020;background:rgba(255,176,32,.07)">🎥 Hollywood</button>
+    <button class="rbtn" onclick="filterEvidenceTag('soft-disclosure',this)" style="border-color:rgba(255,140,0,.6);color:#ff8c00;background:rgba(255,140,0,.09)">🎬 Soft-Disclosure</button>
     <button class="rbtn" onclick="filterEvidenceTag('eisenhower',this)" style="border-color:rgba(100,200,255,.5);color:#64c8ff;background:rgba(100,200,255,.07)">🤝 Eisenhower</button>
     <button class="rbtn" onclick="filterEvidenceTag('dulce',this)" style="border-color:rgba(180,100,255,.5);color:#b464ff;background:rgba(180,100,255,.07)">🕳️ Dulce</button>
     <button class="rbtn" onclick="filterEvidenceTag('wissenschaft',this)" style="border-color:rgba(80,220,160,.5);color:#50dca0;background:rgba(80,220,160,.07)">🔭 Wissenschaft</button>
@@ -516,7 +546,7 @@ footer a{color:var(--v);text-decoration:none}
 <div class="aia"><img src="/manus-storage/logo_0d59b647.jpg" alt="KI Taskforce" onerror="this.parentNode.style.background='linear-gradient(135deg,#7c5cbf,#00e5ff)';this.remove()"></div>
 <div><div class="ain">DISCLOSURE AGENT PRO · KI Taskforce</div><div style="font-size:9px;color:var(--t3);font-family:'JetBrains Mono',monospace">Claude Sonnet · Vollkontext: Pentagon + DIA FOIA + Peyerl-Primäranalyse + Lazar + Bigelow + Brasilien + Skinwalker + Bashar + Steiner + Tesla + Ureinwohner + Council of Nine + 59 Kongruenz-Thesen + Greada Treaty + Eisenhower-Kontaktserie</div></div>
 </div>
-<div class="ams" id="ams"><div class="am"><strong>Disclosure Agent:</strong> v34 vollständig geladen. 146 Fälle · 66 Personen · 13 Operationen · 59 Kongruenz-Thesen. Ich kenne: DIA-FOIA-Paket (5 BAASS-Materialstudien), Nuklear-UAP-Nexus (Score 97), Hollywood-Disclosure-Vehikel (Score 91), Holloman-Kontaktserie (1955/1964), Malmstrom-Echo/Oscar-Flight (1967), Eisenhower-NHI-Kontaktserie (1954–1955), Greada Treaty, Geheimhaltungs-Eskalation (79 Jahre), Eric Davis Legacy Program, Steiner-Äther ↔ Tesla ↔ Bashar, Ureinwohner-Wissen (Lakota, Hopi, Dogon, Aborigines), New Mexico Cluster (Trinity/Roswell/Dulce/Holloman/Los Alamos im 300km-Radius), SOHO-UAP-Nexus (NASA-Datenzugangsbeschränkungen), Morpheus 'Transformation der Erde' (Burkhard Heim 12D + Anunnaki/Nibiru + Photonenring), Zecharia Sitchin (Anunnaki-Grundlagenwerk, 2 Mio. Bücher), Bob Lazar S-4 (Element-115/Moscovium), Phil Schneider Dulce-Kampf 1979, Anthony Bragalia (FOIA-Experte, DIA-Materialnachweis), Reverse-Engineering-Materialnachweis-These (Score 9.6: Roswell → Nitinol → AAWSA → AATIP → Grusch, 76-jährige Beweiskette), Kumburgaz-UAP-Serie 2007–2009 (TÜBİTAK-bestätigt, 7 unabhängige Analysen, Humanoid-Besatzung auf Video, 23 Ereignisse, Kongruenz-These #51: Humanoid-Besatzungsnachweis Score 9.2), war.gov PURSUE Release 01+02 (222 Dateien: NASA Apollo/Mercury/Gemini/Skylab-Audio, FBI 57 Fotos + September-2023-Sichtung, State Dept Kabel Papua-NG/Kasachstan/Georgien/Turkmenistan/Mexiko, DOW CENTCOM 78 Videos 2018-2024, DOW Historische Akten 1946-1950, Vandenberg AFB, INDOPACOM 2025, ODNI Senior Official 116-seitig, CIA Sary Shagan 1973, DOE Pantex Imagery, James Tuck Manhattan Project, COMETA Report 1999), Kongruenz-These #55: NASA-Astronauten-UAP-Konsistenz (Score 9.0: Mercury/Gemini/Apollo/Skylab 1961–1973, 6 Missionen, 8 Astronauten, 12 Jahre, alle durch PURSUE-Archiv bestätigt), Robertson Panel 1953 (CIA-Debunking-Strategie als direkte Folge Washington DC 1952 — deklassifiziert 1975, Beweis für bewusste Geheimhaltungsentscheidung), Donald Keyhoe (USMC-Major, erster öffentlicher Whistleblower 1952, NICAP-Direktor, vom Robertson Panel überwacht), Kongruenz-These #56: CIA-Geheimhaltungs-Eskalation 1953–2023 (Score 9.3: Robertson Panel → BLUEBOOK → AATIP → Grusch, 70-jährige lückenlose Dokumentation), Kongruenz-These #57: Nuklear-UAP-Nexus (Score 9.4: Malmstrom 1967 → Rendlesham 1980 → Minot 2007 → Grusch 2023, 56 Jahre, 3 Länder, Salas+Halt unter Eid, ICBMs deaktiviert), Kongruenz-These #58: Whistleblower-Schutz-Eskalation 2017–2023 (Score 9.1: Elizondo → UAPTF → AARO → Grusch-Schutz, 6 Jahre institutioneller Wandel, NDAA-Gesetze), Kongruenz-These #59: Hollywood-Soft-Disclosure-Nexus (Score 8.7: Spielberg CE3K 1977 → ET 1982 → Contact 1997 → Disclosure Day 2026, 49 Jahre, Hynek+CIA-Briefings, Ben Rich ET-Witz 1983), und den Direktzugriff auf die Peyerl-Akte aus Section 10. Frag alles — ich verbinde alle Ebenen.</div></div>
+<div class="ams" id="ams"><div class="am"><strong>Disclosure Agent:</strong> v34 vollständig geladen. 146 Fälle · 67 Personen · 13 Operationen · 59 Kongruenz-Thesen. Ich kenne: DIA-FOIA-Paket (5 BAASS-Materialstudien), Nuklear-UAP-Nexus (Score 97), Hollywood-Disclosure-Vehikel (Score 91), Holloman-Kontaktserie (1955/1964), Malmstrom-Echo/Oscar-Flight (1967), Eisenhower-NHI-Kontaktserie (1954–1955), Greada Treaty, Geheimhaltungs-Eskalation (79 Jahre), Eric Davis Legacy Program, Steiner-Äther ↔ Tesla ↔ Bashar, Ureinwohner-Wissen (Lakota, Hopi, Dogon, Aborigines), New Mexico Cluster (Trinity/Roswell/Dulce/Holloman/Los Alamos im 300km-Radius), SOHO-UAP-Nexus (NASA-Datenzugangsbeschränkungen), Morpheus 'Transformation der Erde' (Burkhard Heim 12D + Anunnaki/Nibiru + Photonenring), Zecharia Sitchin (Anunnaki-Grundlagenwerk, 2 Mio. Bücher), Bob Lazar S-4 (Element-115/Moscovium), Phil Schneider Dulce-Kampf 1979, Anthony Bragalia (FOIA-Experte, DIA-Materialnachweis), Reverse-Engineering-Materialnachweis-These (Score 9.6: Roswell → Nitinol → AAWSA → AATIP → Grusch, 76-jährige Beweiskette), Kumburgaz-UAP-Serie 2007–2009 (TÜBİTAK-bestätigt, 7 unabhängige Analysen, Humanoid-Besatzung auf Video, 23 Ereignisse, Kongruenz-These #51: Humanoid-Besatzungsnachweis Score 9.2), war.gov PURSUE Release 01+02 (222 Dateien: NASA Apollo/Mercury/Gemini/Skylab-Audio, FBI 57 Fotos + September-2023-Sichtung, State Dept Kabel Papua-NG/Kasachstan/Georgien/Turkmenistan/Mexiko, DOW CENTCOM 78 Videos 2018-2024, DOW Historische Akten 1946-1950, Vandenberg AFB, INDOPACOM 2025, ODNI Senior Official 116-seitig, CIA Sary Shagan 1973, DOE Pantex Imagery, James Tuck Manhattan Project, COMETA Report 1999), Kongruenz-These #55: NASA-Astronauten-UAP-Konsistenz (Score 9.0: Mercury/Gemini/Apollo/Skylab 1961–1973, 6 Missionen, 8 Astronauten, 12 Jahre, alle durch PURSUE-Archiv bestätigt), Robertson Panel 1953 (CIA-Debunking-Strategie als direkte Folge Washington DC 1952 — deklassifiziert 1975, Beweis für bewusste Geheimhaltungsentscheidung), Donald Keyhoe (USMC-Major, erster öffentlicher Whistleblower 1952, NICAP-Direktor, vom Robertson Panel überwacht), Kongruenz-These #56: CIA-Geheimhaltungs-Eskalation 1953–2023 (Score 9.3: Robertson Panel → BLUEBOOK → AATIP → Grusch, 70-jährige lückenlose Dokumentation), Kongruenz-These #57: Nuklear-UAP-Nexus (Score 9.4: Malmstrom 1967 → Rendlesham 1980 → Minot 2007 → Grusch 2023, 56 Jahre, 3 Länder, Salas+Halt unter Eid, ICBMs deaktiviert), Kongruenz-These #58: Whistleblower-Schutz-Eskalation 2017–2023 (Score 9.1: Elizondo → UAPTF → AARO → Grusch-Schutz, 6 Jahre institutioneller Wandel, NDAA-Gesetze), Kongruenz-These #59: Hollywood-Soft-Disclosure-Nexus (Score 8.7: Spielberg CE3K 1977 → ET 1982 → Contact 1997 → Disclosure Day 2026, 49 Jahre, Hynek+CIA-Briefings, Ben Rich ET-Witz 1983), und den Direktzugriff auf die Peyerl-Akte aus Section 10. Frag alles — ich verbinde alle Ebenen.</div></div>
 <div class="air"><input type="text" class="ai-inp" id="ai-inp" placeholder="z.B. Verbinde Steiner Äther mit Tesla Colorado Springs und Bashar Frequenz..." onkeydown="if(event.key==='Enter')sendAI()"><button class="ai-send" onclick="sendAI()">→</button></div>
 </div>
 
@@ -613,7 +643,7 @@ footer a{color:var(--v);text-decoration:none}
 </div>
 <p><a href="https://kitaskforce.com" target="_blank">kitaskforce.com</a> · <a href="https://sgp.kitaskforce.com" target="_blank">SEO GEO Pro</a> · <a href="https://moneyprint.kitaskforce.com" target="_blank">MoneyPrint</a> · SH Schmidt Consulting · Berlin-Adlershof<br>
 Data: war.gov/UFO · DIA FOIA-00089-2018 · NARA · FAB Brasil · AARO · Peyerl-Primäranalyse · 09.05.2026<br>
-<span style="font-size:9px">PWA PRO · 146 Fälle · 66 Personen · 59 Kongruenz-Thesen · war.gov PURSUE 222 Akten · Manus-deployable</span></p>
+<span style="font-size:9px">PWA PRO · 146 Fälle · 67 Personen · 59 Kongruenz-Thesen · war.gov PURSUE 222 Akten · Manus-deployable</span></p>
 </footer>
 </div><!-- /app -->
 
