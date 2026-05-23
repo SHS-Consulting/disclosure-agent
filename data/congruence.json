@@ -4,7 +4,7 @@
     "last_updated": "2026-05-22",
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
-    "total_themes": 57,
+    "total_themes": 59,
     "total_thesen": 50,
     "total": 54
   },
@@ -3172,6 +3172,88 @@
         "salas",
         "grusch",
         "elizondo"
+      ]
+    },
+    {
+      "id": "whistleblower-protection-escalation-2017-2023",
+      "title": "Whistleblower-Schutz-Eskalation 2017–2023: Elizondo → UAPTF → AARO → Grusch-Schutz",
+      "score": 9.1,
+      "max_temporal_gap_years": 6,
+      "summary": "In nur 6 Jahren entwickelte sich der institutionelle Umgang mit UAP-Whistleblowern von Strafverfolgung zu gesetzlichem Schutz: (1) 2017: Luis Elizondo tritt aus Protest zurück (AATIP), veröffentlicht Pentagon-Videos — keine Strafverfolgung, aber Einschüchterungsversuche. (2) 2020: UAPTF (UAP Task Force) durch Kongress mandatiert — erste offizielle Anerkennung. (3) 2022: NDAA Section 1683 — AARO gegründet, Whistleblower-Meldewege etabliert. (4) 2023: NDAA Section 1209 — Grusch erhält expliziten Kongress-Schutz vor Vergeltung. Grusch sagt unter Eid: Er wurde eingeschüchtert, aber der Schutz funktionierte. BEDEUTUNG: Erstmals in der Geschichte können UAP-Insider ohne Strafverfolgung aussagen. Dies ist ein institutioneller Wendepunkt — nicht zufällig, sondern durch Kongress-Druck erzwungen.",
+      "sources": [
+        "Elizondo-Rücktrittsbrief an SecDef Mattis (04.10.2017)",
+        "NDAA FY2021 Section 1603 — UAPTF Mandat",
+        "NDAA FY2023 Section 1683 — AARO Gründung",
+        "NDAA FY2024 Section 1209 — Whistleblower-Schutz für UAP-Insider",
+        "Grusch-Testimony unter Eid, US-Kongress (26.07.2023)"
+      ],
+      "tags": [
+        "elizondo",
+        "aatip",
+        "uaptf",
+        "aaro",
+        "grusch",
+        "whistleblower",
+        "kongress",
+        "ndaa",
+        "schutz",
+        "institutionell",
+        "6-jahre",
+        "wendepunkt",
+        "2017",
+        "2023",
+        "gesetzlich"
+      ],
+      "significance": "Beweist, dass die Disclosure nicht zufällig passiert, sondern durch systematischen Kongress-Druck erzwungen wird. Jede Stufe baut auf der vorherigen auf. Grusch wäre 1953 (Robertson Panel) ins Gefängnis gegangen — 2023 ist er geschützt.",
+      "related_cases": [
+        "elizondo-aatip-resignation",
+        "grusch-2023",
+        "aaro-declassification-paper-2025"
+      ],
+      "related_persons": [
+        "elizondo",
+        "grusch"
+      ]
+    },
+    {
+      "id": "hollywood-soft-disclosure-nexus",
+      "title": "Hollywood-Soft-Disclosure-Nexus: Spielberg → CE3K → ET → Contact → Disclosure Day (1977–2026)",
+      "score": 8.7,
+      "max_temporal_gap_years": 49,
+      "summary": "Über 49 Jahre zeigt Hollywood einen konsistenten Muster der Öffentlichkeitsvorbereitung auf Erstkontakt — mit nachweisbaren Verbindungen zu Regierungsberatern: (1) 1977 'Unheimliche Begegnung der dritten Art': Spielberg berät sich mit J. Allen Hynek (Project Blue Book Leiter) + laut Quellen CIA-Beratern. Hynek: 'Näher an der Wahrheit als bekannt.' (2) 1982 'E.T.': Spielbergs ET wird erfolgreichster Film aller Zeiten — Ben Rich beginnt exakt 1983 seinen 'ET home'-Witz bei Skunk Works-Vorträgen. (3) 1997 'Contact': Carl Sagan + Jodie Foster, SETI-Thematik, Regierungsgeheimhaltung. (4) 2026 'Disclosure Day': Spielberg bei SXSW: 'Mehr Wahrheit als Fiktion.' Kinostart 11. Juni 2026 — exakt während PURSUE Act Release 01+02. MUSTER: Jeder Film normalisiert Erstkontakt, reduziert Panik-Potential, bereitet Öffentlichkeit auf institutionelle Disclosure vor.",
+      "sources": [
+        "J. Allen Hynek Interviews zu CE3K (1977–1978)",
+        "Peter Merlin: Ben Rich 'ET home' Kontext (MUFON Journal 2010)",
+        "Spielberg SXSW Keynote März 2026 (Hollywood Reporter)",
+        "Spielberg Disclosure Day Ankündigung April 2026",
+        "Ben Rich Brief an John Andrews (1986, verifiziert)"
+      ],
+      "tags": [
+        "spielberg",
+        "hollywood",
+        "soft-disclosure",
+        "ce3k",
+        "et-film",
+        "contact",
+        "disclosure-day",
+        "hynek",
+        "ben-rich",
+        "öffentlichkeitsvorbereitung",
+        "49-jahre",
+        "muster",
+        "normalisierung",
+        "cia-briefing",
+        "2026"
+      ],
+      "significance": "Wenn Hollywood-Blockbuster zufällig wären, wäre die Konzentration auf UAP-Themen und die nachweisbaren Regierungsberater-Verbindungen statistisch unwahrscheinlich. Spielbergs 'Disclosure Day' 2026 — zeitgleich mit PURSUE Act — ist der vorläufige Höhepunkt.",
+      "related_cases": [
+        "spielberg-ufos-close-encounters",
+        "spielberg-disclosure-day-2026",
+        "ben-rich-skunkworks-et-home"
+      ],
+      "related_persons": [
+        "steven-spielberg",
+        "ben-rich"
       ]
     }
   ],
