@@ -4,7 +4,7 @@
     "last_updated": "2026-05-22",
     "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
     "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
-    "total_themes": 56,
+    "total_themes": 57,
     "total_thesen": 50,
     "total": 54
   },
@@ -3126,6 +3126,52 @@
         "grusch",
         "elizondo",
         "keyhoe"
+      ]
+    },
+    {
+      "id": "nuclear-uap-nexus-malmstrom-rendlesham",
+      "title": "Nuklear-UAP-Nexus: Malmstrom → Rendlesham → Minot → Grusch (1967–2023)",
+      "score": 9.4,
+      "max_temporal_gap_years": 56,
+      "summary": "Über 56 Jahre und 3 Länder zeigen UAP konsistent Interesse an Nuklearwaffen-Standorten: (1) Malmstrom AFB, Montana, März 1967: Minuteman-ICBMs gehen während UAP-Sichtung offline (Echo/Oscar Flight) — 10 Raketen gleichzeitig deaktiviert, Kapitän Robert Salas unter Eid. (2) Rendlesham Forest, Suffolk UK, Dezember 1980: UAP landet neben RAF Bentwaters (NATO-Nuklearwaffenlager), Lt. Col. Charles Halt Memo, Strahlenspuren im Boden. (3) Minot AFB, North Dakota, 2007: B-52 transportiert versehentlich 6 bewaffnete Nuklearsprengköpfe quer durch USA — UAP-Sichtungen im selben Zeitraum gemeldet. (4) Grusch-Testimony 2023: Unter Eid bestätigt UAP-Interesse an Nuklearanlagen als konsistentes Muster über Jahrzehnte. Alle 4 Fälle durch offizielle Dokumente, Zeugenaussagen unter Eid und FOIA-Material belegt.",
+      "sources": [
+        "Robert Salas Eid-Aussage vor Kongress (2010, 2023)",
+        "Lt. Col. Charles Halt Memo (13.01.1981, deklassifiziert)",
+        "FOIA: Malmstrom Echo/Oscar Flight Incident Reports (1967)",
+        "Grusch-Testimony unter Eid, US-Kongress (26.07.2023)",
+        "Minot AFB Nuklear-Incident Report (2007, teilweise deklassifiziert)"
+      ],
+      "tags": [
+        "nuklear",
+        "malmstrom",
+        "rendlesham",
+        "minot",
+        "icbm",
+        "minuteman",
+        "nato",
+        "salas",
+        "halt",
+        "grusch",
+        "deaktivierung",
+        "56-jahre",
+        "3-laender",
+        "eid-aussage",
+        "foia",
+        "militaer",
+        "waffen"
+      ],
+      "significance": "Stärkster Beleg für nicht-zufällige UAP-Aktivität: Nuklearwaffen-Standorte werden systematisch aufgesucht. Wenn UAP zufällig wären, wäre diese Konzentration statistisch unmöglich. Salas und Halt sagten beide unter Eid aus — Meineid wäre ein Bundesverbrechen.",
+      "related_cases": [
+        "malmstrom-echo-oscar-1967",
+        "rendlesham-1980",
+        "minot-2007",
+        "grusch-2023",
+        "nuclear-uap-nexus"
+      ],
+      "related_persons": [
+        "salas",
+        "grusch",
+        "elizondo"
       ]
     }
   ],
