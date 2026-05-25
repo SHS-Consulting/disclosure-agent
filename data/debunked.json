@@ -73,6 +73,46 @@
       "verdict": "TEILWEISE_WIDERLEGT",
       "confidence": 70,
       "description": "US Air Force bestätigte: Maryland ANG feuerte LUU-2 Leuchtraketen über Barry Goldwater Range. Erklärt: Stationäre Lichter in V-Formation über Phoenix (Phase 2). NICHT erklärt: Phase 1 — das massive stille V-förmige Objekt das sich 300 Meilen bewegte und Sterne verdunkelte. Gouverneur Symington war Phase-1-Zeuge."
+    },
+    {
+      "id": "robertson-panel-debunking",
+      "title": "Robertson Panel 1953 — CIA-Debunking-Strategie",
+      "verdict": "Politisch motivierte Geheimhaltung, kein wissenschaftlicher Befund",
+      "confidence": "hoch",
+      "description": "Im Januar 1953 versammelte die CIA fünf Wissenschaftler (darunter Luis Alvarez, späterer Nobelpreisträger) für 4 Tage, um UAP-Berichte zu bewerten. Ergebnis: Empfehlung zur aktiven Debunking-Kampagne, Überwachung ziviler UAP-Gruppen (NICAP, APRO) und Reduzierung öffentlicher Berichte. WIDERLEGUNG DER WIDERLEGUNG: Das Panel sichtete nur 15% der verfügbaren Berichte. J. Allen Hynek, der damals dabei war, kritisierte es später als 'politisch motiviert' und 'wissenschaftlich unzureichend'. Die Empfehlung zur Überwachung ziviler Gruppen wurde 1975 durch FOIA-Anfragen enthüllt und bestätigte, dass es um Geheimhaltung, nicht um Wissenschaft ging. FAZIT: Das Robertson Panel widerlegte keine UAP-Fälle — es empfahl, sie zu unterdrücken.",
+      "source_url": "https://www.cia.gov/readingroom/document/cia-rdp81r00560r000100010001-0"
+    },
+    {
+      "id": "swamp-gas-michigan-1966",
+      "title": "Swamp Gas 1966 — Hyneks berühmteste Fehleinschätzung",
+      "verdict": "Offiziell: Sumpfgas. Tatsächlich: Von Hynek selbst später widerrufen",
+      "confidence": "mittel",
+      "description": "Im März 1966 meldeten über 100 Zeugen in Michigan (Dexter, Hillsdale) leuchtende Objekte. USAF beauftragte Hynek mit der Untersuchung. Unter Zeitdruck und Mediendruck erklärte er die Sichtungen mit 'Sumpfgas' (Methangas aus Feuchtgebieten). ÖFFENTLICHE REAKTION: Massiver Spott und Empörung. Kongressabgeordneter Gerald Ford (später US-Präsident) forderte eine Kongress-Untersuchung — was direkt zum Condon Report führte. HYNEKS RÜCKZUG: Hynek selbst bezeichnete die Swamp-Gas-Erklärung später als 'größten Fehler meiner Karriere' und sagte, er habe sie unter Druck des USAF abgegeben. Dieser Vorfall war der Wendepunkt, der ihn vom Skeptiker zum Überzeugten machte. FAZIT: Swamp Gas war keine wissenschaftliche Erklärung — es war eine politische Notlösung.",
+      "source_url": "https://en.wikipedia.org/wiki/Swamp_gas_(UFO)"
+    },
+    {
+      "id": "project-mogul-roswell",
+      "title": "Project Mogul — Offizielle Roswell-Erklärung (1994)",
+      "verdict": "Offiziell: Wetterballon-Projekt. Umstritten: Zeitlicher Widerspruch, Zeugenaussagen",
+      "confidence": "niedrig",
+      "description": "1994 veröffentlichte das US Air Force den 'Roswell Report', der den Absturz 1947 mit Project Mogul erklärte — einem geheimen Programm zur Überwachung sowjetischer Atomtests mittels Hochaltitude-Ballons mit Schallsensoren. ARGUMENTE FÜR MOGUL: Mogul war real und geheim, erklärt warum USAF zunächst schwieg. Ballon-Trümmer ähneln Beschreibungen einiger Zeugen. ARGUMENTE DAGEGEN: Mogul-Ballons bestanden aus Standard-Wetterballon-Material — kein Zeuge beschrieb 'unzerstörbares' oder 'gedächtnismetallartiges' Material. Maj. Jesse Marcel Sr. (Erstuntersucher) bestand bis zu seinem Tod auf außergewöhnlichem Material. Mortician Glenn Dennis beschrieb kleine Körper — nicht durch Mogul erklärbar. 1997 folgte ein zweiter Report (Crash Test Dummies) für Körper-Berichte — diese Dummies wurden erst ab 1953 verwendet, 6 Jahre nach Roswell. FAZIT: Mogul erklärt Ballon-Trümmer, aber nicht alle Zeugenaussagen zu Material und Körpern.",
+      "source_url": "https://www.af.mil/News/Article-Display/Article/111030/the-roswell-report-case-closed/"
+    },
+    {
+      "id": "condon-report-1969",
+      "title": "Condon Report 1969 — Wissenschaftliche Studie oder voreingenommenes Ergebnis?",
+      "verdict": "Offiziell: Keine wissenschaftliche Grundlage für UAP-Forschung. Tatsächlich: Methodisch umstritten",
+      "confidence": "mittel",
+      "description": "1966 beauftragte die USAF die University of Colorado unter Dr. Edward Condon mit einer unabhängigen wissenschaftlichen UAP-Studie (Laufzeit 1966–1968, Kosten: 500.000 USD). ERGEBNIS: 'Weitere Untersuchungen von UAP-Berichten werden wahrscheinlich die Wissenschaft nicht voranbringen.' Project Blue Book wurde 1969 eingestellt. INTERNE KRITIK: Ein internes Memo von Projektkoordinator Robert Low (1966) wurde enthüllt: 'Der Trick wäre, es so aussehen zu lassen, als würden wir eine objektive Studie machen.' Hynek und andere Wissenschaftler kritisierten, dass 30% der untersuchten Fälle als 'unerklärlich' eingestuft wurden — was Condon im Vorwort ignorierte. AMERICAN INSTITUTE OF AERONAUTICS AND ASTRONAUTICS: Kritisierte den Report als 'unvollständig und methodisch mangelhaft'. FAZIT: Der Condon Report beendete die offizielle US-Forschung für 50 Jahre — trotz eines Drittels unerklärter Fälle in den eigenen Daten.",
+      "source_url": "https://en.wikipedia.org/wiki/Condon_Committee"
+    },
+    {
+      "id": "bob-lazar-s4-skepticism",
+      "title": "Bob Lazar — S-4 Rückwärts-Engineering: Fakten vs. Fälschung",
+      "verdict": "Teilweise verifiziert, teilweise nicht verifizierbar",
+      "confidence": "niedrig",
+      "description": "Bob Lazar behauptete ab 1989, am geheimen Standort S-4 (nahe Area 51) an 9 außerirdischen Raumschiffen gearbeitet zu haben. Antrieb: Element 115 (Moscovium). VERIFIZIERT: Lazars Beschreibung von Area 51 (damals offiziell nicht anerkannt) war präzise. Element 115 wurde 2003 synthetisiert — Lazar nannte es 1989. Arbeitgeber-Dokument (EG&G) wurde gefunden. NICHT VERIFIZIERBAR: Keine Zeugen für S-4-Arbeit. Universitätsabschlüsse (MIT, Caltech) nicht nachweisbar — Lazar sagt, Akten wurden gelöscht. Physikalische Beschreibungen des Antriebs widersprechen bekannter Physik. FAZIT: Lazar ist weder vollständig verifiziert noch vollständig widerlegt — ein klassischer Fall von 'nicht beweisbar, nicht widerlegbar'.",
+      "source_url": "https://en.wikipedia.org/wiki/Bob_Lazar"
     }
   ]
 }

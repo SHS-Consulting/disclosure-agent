@@ -3255,6 +3255,39 @@
         "steven-spielberg",
         "ben-rich"
       ]
+    },
+    {
+      "id": "hynek-ce-classification",
+      "title": "CE-Klassifikation als globaler Standard: Hynek 1972 → AARO 2023",
+      "score": 88,
+      "summary": "Ein einzelner Wissenschaftler prägte die globale UAP-Forschungssprache für 50 Jahre: J. Allen Hynek entwickelte 1972 die Close-Encounter-Klassifikation (CE1/CE2/CE3), die von GEPAN Frankreich (1977), COMETA (1999), NARCAP und schließlich AARO (2023) übernommen wurde. Die Tatsache, dass ein ehemaliger USAF-Skeptiker die Sprache schuf, die heute das Pentagon verwendet, ist ein starkes Kongruenz-Signal.",
+      "tags": [
+        "klassifikation",
+        "wissenschaft",
+        "hynek",
+        "gepan",
+        "cometa",
+        "aaro",
+        "ce1",
+        "ce2",
+        "ce3",
+        "standardisierung",
+        "institutionell"
+      ],
+      "sources": [
+        "Hynek, J.A. (1972): The UFO Experience: A Scientific Inquiry",
+        "GEPAN (1977): Note Technique No. 1, CNES Frankreich",
+        "COMETA Report (1999): UFOs and Defense: What Must We Be Prepared For?",
+        "AARO (2023): UAP Reporting Framework, US DoD"
+      ],
+      "related_cases": [
+        "robertson-panel-1953",
+        "spielberg-ufos-close-encounters"
+      ],
+      "related_people": [
+        "hynek",
+        "vallee"
+      ]
     }
   ],
   "_auto_detection": {
