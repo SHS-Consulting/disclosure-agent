@@ -1139,7 +1139,7 @@ async function renderTab(id) {
     }
     case 'st': {
       const d = await loadJSON('strongest','data/strongest.json');
-      if(d) renderStrongest(d.cases, 'st-grid');
+      if(d) renderStrongest(d.top10 || d.cases, 'st-grid');
       break;
     }
     case 'cl': break; // Changelog ist statisch
@@ -1148,24 +1148,30 @@ async function renderTab(id) {
 function renderStrongest(cases, gridId) {
   const g = document.getElementById(gridId);
   if(!cases||!cases.length){g.innerHTML='<div class="loading">Keine Einträge.</div>';return;}
-  const levelColor = s => s>=95?'#ff4444':s>=85?'#ffb020':s>=70?'#b39ddb':'#00e5ff';
-  const levelBg = s => s>=95?'rgba(255,68,68,.12)':s>=85?'rgba(255,176,32,.12)':s>=70?'rgba(179,157,219,.12)':'rgba(0,229,255,.08)';
-  const levelBorder = s => s>=95?'rgba(255,68,68,.3)':s>=85?'rgba(255,176,32,.3)':s>=70?'rgba(179,157,219,.3)':'rgba(0,229,255,.25)';
+  // score kann 0-10 (neu) oder 0-100 (alt) sein
+  const normScore = s => s > 10 ? s : s * 10;
+  const levelColor = s => s>=95?'#ff4444':s>=90?'#ff6432':s>=85?'#ffb020':s>=70?'#b39ddb':'#00e5ff';
+  const levelBg = s => s>=95?'rgba(255,68,68,.12)':s>=90?'rgba(255,100,50,.1)':s>=85?'rgba(255,176,32,.12)':s>=70?'rgba(179,157,219,.12)':'rgba(0,229,255,.08)';
+  const levelBorder = s => s>=95?'rgba(255,68,68,.3)':s>=90?'rgba(255,100,50,.25)':s>=85?'rgba(255,176,32,.3)':s>=70?'rgba(179,157,219,.3)':'rgba(0,229,255,.25)';
   const rankEmoji = i => ['🥇','🥈','🥉','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','🔟'][i]||`${i+1}.`;
   g.innerHTML = cases.map((c,i) => {
-    const sc = c.score||0;
+    const rawSc = c.score||0;
+    const sc = normScore(rawSc);
+    const displayScore = rawSc > 10 ? rawSc : (rawSc * 10).toFixed(0);
     const tags = (c.tags||[]).slice(0,4).map(t=>`<span class="ptag">${t}</span>`).join('');
-    const witnesses = c.witnesses&&c.witnesses.length ? `<div style="font-size:10px;color:var(--t3);margin-top:.3rem">👁 ${c.witnesses.slice(0,2).join(', ')}${c.witnesses.length>2?' +'+( c.witnesses.length-2)+' weitere':''}</div>` : '';
-    const connections = c.connections&&c.connections.length ? `<div style="font-size:10px;color:var(--t3);margin-top:.2rem">🔗 ${c.connections.slice(0,2).join(' · ')}</div>` : '';
+    const witnesses = c.witnesses&&c.witnesses.length ? `<div style="font-size:10px;color:var(--t3);margin-top:.3rem">👁 ${c.witnesses.slice(0,2).join(', ')}${c.witnesses.length>2?' +'+(c.witnesses.length-2)+' weitere':''}</div>` : '';
+    const connections = c.connections&&typeof c.connections==='number' ? `<div style="font-size:10px;color:var(--t3);margin-top:.2rem">🔗 ${c.connections} Verbindungen</div>` : (c.connections&&c.connections.length ? `<div style="font-size:10px;color:var(--t3);margin-top:.2rem">🔗 ${c.connections.slice(0,2).join(' · ')}</div>` : '');
+    const desc = c.summary || c.why_strongest || c.description || '';
+    const videoBtn = c.video_url ? `<a href="${c.video_url}" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="background:rgba(255,68,68,.15);color:#ff4444;padding:.3rem .7rem;border-radius:4px;font-size:9px;font-weight:700;text-decoration:none;border:1px solid rgba(255,68,68,.3)">▶ Video</a>` : '';
     return `
-    <div class="card" style="border-color:${levelBorder(sc)}">
+    <div class="card" style="border-color:${levelBorder(sc)};cursor:pointer" onclick="openCaseModal('${c.id}')">
       <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem">
         <span style="font-family:'Orbitron',sans-serif;font-size:18px">${rankEmoji(i)}</span>
-        <div class="lv" style="background:${levelBg(sc)};color:${levelColor(sc)};border:1px solid ${levelBorder(sc)};margin-bottom:0">${c.level||'KRITISCH'} &nbsp;${sc}/100</div>
+        <div class="lv" style="background:${levelBg(sc)};color:${levelColor(sc)};border:1px solid ${levelBorder(sc)};margin-bottom:0">${c.level||'KRITISCH'} &nbsp;${displayScore}/100</div>
         <div style="margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)">${c.date||''}</div>
       </div>
       <div class="ct">${c.title}</div>
-      <div class="cd">${(c.why_strongest||c.description||'').slice(0,220)}${(c.why_strongest||'').length>220?'...':''}</div>
+      <div class="cd">${desc.slice(0,220)}${desc.length>220?'...':''}</div>
       ${witnesses}${connections}
       <div style="margin-top:.5rem">
         <div class="bt" style="height:4px;margin-bottom:.4rem"><div class="bf" style="width:${sc}%;background:linear-gradient(90deg,${levelColor(sc)},#00e676)"></div></div>
@@ -1173,7 +1179,8 @@ function renderStrongest(cases, gridId) {
       <div style="display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;margin-top:.3rem">
         ${tags}
         <span style="margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3)">${c.location||''}</span>
-        ${c.source_url?`<a href="${c.source_url}" target="_blank" rel="noopener" class="csl">→ Quelle</a>`:''}
+        ${videoBtn}
+        ${c.source_url?`<a href="${c.source_url}" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="csl">→ Quelle</a>`:''}
       </div>
     </div>`;
   }).join('');
