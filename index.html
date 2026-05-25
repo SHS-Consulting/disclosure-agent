@@ -357,7 +357,66 @@ footer a{color:var(--v);text-decoration:none}
     <button class="rbtn" onclick="filterRegionDyn('space',this)">🌕 Weltraum</button>
     <button class="rbtn" onclick="filterRegionDyn('mideast',this)">🕌 Nahost</button>
   </div>
-  <div class="cg" id="ww-grid"><div class="loading">Lade Weltfälle...</div></div>
+  <!-- DOW CENTCOM HOTSPOT-KARTE -->
+  <div style="background:rgba(0,229,255,.04);border:1px solid rgba(0,229,255,.15);border-radius:8px;padding:1rem;margin-bottom:1rem">
+    <div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:#00e5ff;margin-bottom:.5rem">&#128205; DOW/CENTCOM UAP-HOTSPOTS &middot; 27 MISSION REPORTS &middot; PURSUE ACT DEKLASSIFIZIERT</div>
+    <div style="font-size:10px;color:var(--t3);margin-bottom:.75rem">Geografische Verteilung der 27 deklassifizierten DOW/CENTCOM-Berichte. Kreisgr&ouml;&szlig;e = Anzahl Berichte. Klick = Details.</div>
+    <div style="position:relative;width:100%;max-width:800px;margin:0 auto">
+      <svg viewBox="0 0 800 400" style="width:100%;background:rgba(0,0,0,.3);border-radius:6px;border:1px solid rgba(0,229,255,.1)" id="dow-map">
+        <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(0,229,255,0.05)" stroke-width="0.5"/></pattern></defs>
+        <rect width="800" height="400" fill="url(#grid)"/>
+        <text x="400" y="20" fill="rgba(0,229,255,0.3)" font-size="9" font-family="monospace" text-anchor="middle">NAHOST &middot; MITTELMEER &middot; INDOPAZIFIK &middot; CENTCOM-AOR</text>
+        <text x="320" y="180" fill="rgba(255,255,255,0.12)" font-size="9" font-family="monospace">ARABISCHER GOLF</text>
+        <text x="255" y="240" fill="rgba(255,255,255,0.12)" font-size="9" font-family="monospace">GOLF VON ADEN</text>
+        <text x="345" y="128" fill="rgba(255,255,255,0.12)" font-size="9" font-family="monospace">IRAK / SYRIEN</text>
+        <text x="170" y="108" fill="rgba(255,255,255,0.12)" font-size="9" font-family="monospace">GRIECHENLAND</text>
+        <text x="530" y="78" fill="rgba(255,255,255,0.12)" font-size="9" font-family="monospace">INDOPACOM</text>
+        <!-- Arabischer Golf: 6 Berichte -->
+        <circle cx="370" cy="195" r="22" fill="rgba(255,50,50,0.25)" stroke="#ff3232" stroke-width="1.5" style="cursor:pointer" onclick="showDOWDetail('arabian-gulf')"/>
+        <text x="370" y="191" fill="#ff6464" font-size="11" font-weight="bold" text-anchor="middle" font-family="monospace">6</text>
+        <text x="370" y="203" fill="rgba(255,255,255,0.7)" font-size="7" text-anchor="middle" font-family="monospace">ARAB.GOLF</text>
+        <!-- Golf von Aden: 3 Berichte -->
+        <circle cx="310" cy="258" r="16" fill="rgba(255,100,0,0.25)" stroke="#ff6400" stroke-width="1.5" style="cursor:pointer" onclick="showDOWDetail('gulf-aden')"/>
+        <text x="310" y="254" fill="#ff9632" font-size="10" font-weight="bold" text-anchor="middle" font-family="monospace">3</text>
+        <text x="310" y="265" fill="rgba(255,255,255,0.7)" font-size="7" text-anchor="middle" font-family="monospace">ADEN</text>
+        <!-- Irak: 3 Berichte -->
+        <circle cx="385" cy="145" r="16" fill="rgba(255,200,0,0.25)" stroke="#ffc800" stroke-width="1.5" style="cursor:pointer" onclick="showDOWDetail('iraq')"/>
+        <text x="385" y="141" fill="#ffd700" font-size="10" font-weight="bold" text-anchor="middle" font-family="monospace">3</text>
+        <text x="385" y="152" fill="rgba(255,255,255,0.7)" font-size="7" text-anchor="middle" font-family="monospace">IRAK</text>
+        <!-- Syrien: 3 Berichte -->
+        <circle cx="340" cy="118" r="16" fill="rgba(255,200,0,0.2)" stroke="#ffc800" stroke-width="1.5" style="cursor:pointer" onclick="showDOWDetail('syria')"/>
+        <text x="340" y="114" fill="#ffd700" font-size="10" font-weight="bold" text-anchor="middle" font-family="monospace">3</text>
+        <text x="340" y="125" fill="rgba(255,255,255,0.7)" font-size="7" text-anchor="middle" font-family="monospace">SYRIEN</text>
+        <!-- Griechenland: 3 Berichte -->
+        <circle cx="210" cy="108" r="16" fill="rgba(0,229,255,0.2)" stroke="#00e5ff" stroke-width="1.5" style="cursor:pointer" onclick="showDOWDetail('greece')"/>
+        <text x="210" y="104" fill="#00e5ff" font-size="10" font-weight="bold" text-anchor="middle" font-family="monospace">3</text>
+        <text x="210" y="115" fill="rgba(255,255,255,0.7)" font-size="7" text-anchor="middle" font-family="monospace">GRIECHEN.</text>
+        <!-- INDOPACOM: 2 Berichte -->
+        <circle cx="580" cy="170" r="13" fill="rgba(0,230,118,0.2)" stroke="#00e676" stroke-width="1.5" style="cursor:pointer" onclick="showDOWDetail('indopacom')"/>
+        <text x="580" y="166" fill="#00e676" font-size="10" font-weight="bold" text-anchor="middle" font-family="monospace">2</text>
+        <text x="580" y="177" fill="rgba(255,255,255,0.7)" font-size="7" text-anchor="middle" font-family="monospace">INDOPAC</text>
+        <!-- VAE: 2 Berichte -->
+        <circle cx="418" cy="212" r="13" fill="rgba(179,157,219,0.25)" stroke="#b39ddb" stroke-width="1.5" style="cursor:pointer" onclick="showDOWDetail('uae')"/>
+        <text x="418" y="208" fill="#b39ddb" font-size="10" font-weight="bold" text-anchor="middle" font-family="monospace">2</text>
+        <text x="418" y="219" fill="rgba(255,255,255,0.7)" font-size="7" text-anchor="middle" font-family="monospace">VAE</text>
+        <!-- Djibouti: 1 Bericht -->
+        <circle cx="295" cy="272" r="10" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.4)" stroke-width="1" style="cursor:pointer" onclick="showDOWDetail('djibouti')"/>
+        <text x="295" y="268" fill="rgba(255,255,255,0.7)" font-size="9" font-weight="bold" text-anchor="middle" font-family="monospace">1</text>
+        <text x="295" y="279" fill="rgba(255,255,255,0.5)" font-size="7" text-anchor="middle" font-family="monospace">DJIB.</text>
+        <!-- Iran: 1 Bericht -->
+        <circle cx="445" cy="158" r="10" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.4)" stroke-width="1" style="cursor:pointer" onclick="showDOWDetail('iran')"/>
+        <text x="445" y="154" fill="rgba(255,255,255,0.7)" font-size="9" font-weight="bold" text-anchor="middle" font-family="monospace">1</text>
+        <text x="445" y="165" fill="rgba(255,255,255,0.5)" font-size="7" text-anchor="middle" font-family="monospace">IRAN</text>
+        <!-- Legende -->
+        <text x="20" y="390" fill="rgba(255,255,255,0.3)" font-size="8" font-family="monospace">Kreisgr&ouml;&szlig;e = Anzahl Berichte &middot; Klick f&uuml;r Details &middot; 27 Berichte gesamt</text>
+        <circle cx="620" cy="386" r="6" fill="rgba(255,50,50,0.4)" stroke="#ff3232" stroke-width="1"/><text x="630" y="390" fill="rgba(255,255,255,0.4)" font-size="8" font-family="monospace">5+ Berichte</text>
+        <circle cx="690" cy="386" r="4" fill="rgba(255,200,0,0.3)" stroke="#ffc800" stroke-width="1"/><text x="698" y="390" fill="rgba(255,255,255,0.4)" font-size="8" font-family="monospace">2-4</text>
+        <circle cx="730" cy="386" r="3" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.4)" stroke-width="1"/><text x="738" y="390" fill="rgba(255,255,255,0.4)" font-size="8" font-family="monospace">1</text>
+      </svg>
+    </div>
+    <div id="dow-detail" style="display:none;margin-top:.75rem;padding:.75rem;background:rgba(0,0,0,.4);border:1px solid rgba(0,229,255,.2);border-radius:5px;font-size:11px;color:var(--t1);line-height:1.7"></div>
+  </div>
+  <div class="cg" id="ww-grid"><div class="loading">Lade Weltf&auml;lle...</div></div>
 </div>
 
 <!-- DIA DOCUMENTS -->
@@ -450,6 +509,56 @@ footer a{color:var(--v);text-decoration:none}
           <span style="color:var(--t3);font-size:11px">Offiziell · Kostenlos · Keine Anmeldung</span>
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- FBI-AKTE ZEITSTRAHL -->
+  <div style="background:rgba(255,68,68,.04);border:1px solid rgba(255,68,68,.2);border-radius:8px;padding:1.25rem">
+    <div style="font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:#ff4444;margin-bottom:.5rem">&#128269; FBI-AKTE 62-HQ-83894 &mdash; ZEITSTRAHL 1947&ndash;1955</div>
+    <div style="font-size:11px;color:var(--t2);margin-bottom:1rem">18 Sektionen/Serials &middot; Deklassifiziert via FOIA &middot; <a href="https://pursueindex.com" target="_blank" style="color:#00e5ff;text-decoration:none">pursueindex.com &#8599;</a></div>
+    <div style="position:relative;padding-left:2rem">
+      <!-- Zeitstrahl-Linie -->
+      <div style="position:absolute;left:.75rem;top:0;bottom:0;width:2px;background:linear-gradient(180deg,rgba(255,68,68,.6),rgba(255,68,68,.1))"></div>
+      <!-- Einträge -->
+      <div style="position:relative;margin-bottom:1rem;padding-left:.75rem">
+        <div style="position:absolute;left:-.5rem;top:.3rem;width:10px;height:10px;border-radius:50%;background:#ff4444;border:2px solid rgba(255,68,68,.4)"></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:#ff6464;font-weight:700">JULI 1947 &mdash; Roswell-Korrespondenz</div>
+        <div style="font-size:11px;color:var(--t1);font-weight:600;margin:.2rem 0">FBI-Memo: &quot;Fliegende Untertassen&quot; Erstbericht</div>
+        <div style="font-size:10px;color:var(--t2)">Direktor Hoover informiert &uuml;ber Army-Bergung. Memo von SA Hottel-Vorgänger. Klassifiziert als &quot;URGENT&quot;. Erste offizielle FBI-Dokumentation eines UAP-Ereignisses.</div>
+      </div>
+      <div style="position:relative;margin-bottom:1rem;padding-left:.75rem">
+        <div style="position:absolute;left:-.5rem;top:.3rem;width:10px;height:10px;border-radius:50%;background:#ff6400;border:2px solid rgba(255,100,0,.4)"></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:#ff9632;font-weight:700">1947&ndash;1948 &mdash; Serials 1&ndash;5</div>
+        <div style="font-size:11px;color:var(--t1);font-weight:600;margin:.2rem 0">Erste Sichtungsberichte &amp; Army-Kooperation</div>
+        <div style="font-size:10px;color:var(--t2)">FBI sammelt Zeugenberichte, koordiniert mit Army Air Force. Objekte: kreisförmig, silbern, lautlos, Hyperschall. Keine Erklärung möglich.</div>
+      </div>
+      <div style="position:relative;margin-bottom:1rem;padding-left:.75rem">
+        <div style="position:absolute;left:-.5rem;top:.3rem;width:10px;height:10px;border-radius:50%;background:#ffc800;border:2px solid rgba(255,200,0,.4)"></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:#ffd700;font-weight:700">22. MÄRZ 1950 &mdash; GUY HOTTEL MEMO</div>
+        <div style="font-size:11px;color:var(--t1);font-weight:600;margin:.2rem 0">3 geborgene Scheiben &middot; 3 Besatzungen &middot; New Mexico</div>
+        <div style="font-size:10px;color:var(--t2)">FBI Special Agent Guy Hottel an Direktor: &quot;Drei sogenannte fliegende Untertassen wurden in New Mexico geborgen. Jede war kreisförmig, 15 Meter Durchmesser. Jede enthielt 3 Körper menschlicher Form, aber nur 1 Meter groß, gekleidet in metallisches Gewebe.&quot; Bekanntestes FBI-UAP-Dokument.</div>
+      </div>
+      <div style="position:relative;margin-bottom:1rem;padding-left:.75rem">
+        <div style="position:absolute;left:-.5rem;top:.3rem;width:10px;height:10px;border-radius:50%;background:#00e5ff;border:2px solid rgba(0,229,255,.4)"></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:#00e5ff;font-weight:700">1952 &mdash; WASHINGTON DC FLOTTE</div>
+        <div style="font-size:11px;color:var(--t1);font-weight:600;margin:.2rem 0">FBI-Berichte zur DC-Flotte &middot; Radar + Piloten</div>
+        <div style="font-size:10px;color:var(--t2)">FBI dokumentiert die Ereignisse vom 19./26. Juli 1952. Koordination mit Pentagon. Serials 8&ndash;11 enthalten Zeugenaussagen der F-94-Piloten und Radar-Operatoren. Direkte Verbindung zum Robertson Panel 1953.</div>
+      </div>
+      <div style="position:relative;margin-bottom:1rem;padding-left:.75rem">
+        <div style="position:absolute;left:-.5rem;top:.3rem;width:10px;height:10px;border-radius:50%;background:#b39ddb;border:2px solid rgba(179,157,219,.4)"></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:#b39ddb;font-weight:700">1953&ndash;1955 &mdash; ROBERTSON PANEL FOLGE</div>
+        <div style="font-size:11px;color:var(--t1);font-weight:600;margin:.2rem 0">FBI reduziert UAP-Aktivität nach CIA-Druck</div>
+        <div style="font-size:10px;color:var(--t2)">Nach dem Robertson Panel (Jan. 1953) stellt FBI aktive UAP-Ermittlungen ein. Serials 12&ndash;18 zeigen rückläufige Aktivität. Letzter Eintrag 1955. Akte bleibt bis FOIA-Freigabe klassifiziert.</div>
+      </div>
+      <div style="position:relative;padding-left:.75rem">
+        <div style="position:absolute;left:-.5rem;top:.3rem;width:10px;height:10px;border-radius:50%;background:rgba(0,230,118,.8);border:2px solid rgba(0,230,118,.4)"></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:#00e676;font-weight:700">2023 &mdash; PURSUE ACT FREIGABE</div>
+        <div style="font-size:11px;color:var(--t1);font-weight:600;margin:.2rem 0">57 Fotos + September-2023-Sichtung deklassifiziert</div>
+        <div style="font-size:10px;color:var(--t2)">Im Rahmen des PURSUE Act werden 57 Fotos aus der Akte 62-HQ-83894 freigegeben. Zusätzlich: FBI-Bericht September 2023 mit Composite Sketch eines Zeugen. Verfügbar auf pursueindex.com.</div>
+      </div>
+    </div>
+    <div style="margin-top:1rem;display:flex;gap:.5rem">
+      <a href="https://pursueindex.com" target="_blank" style="background:rgba(255,68,68,.15);color:#ff4444;padding:.4rem 1rem;border-radius:5px;font-family:'Orbitron',sans-serif;font-size:9px;font-weight:700;text-decoration:none;border:1px solid rgba(255,68,68,.3)">&#8599; ORIGINALDOKUMENT</a>
     </div>
   </div>
 
@@ -561,6 +670,24 @@ footer a{color:var(--v);text-decoration:none}
   <div id="con-scan-progress" style="display:none;margin-top:.5rem;height:3px;border-radius:2px;background:rgba(0,230,118,.12);overflow:hidden"><div id="con-scan-bar" style="height:100%;width:0%;background:linear-gradient(90deg,#00e676,#00e5ff,#b39ddb);border-radius:2px;box-shadow:0 0 8px rgba(0,230,118,.8),0 0 16px rgba(0,229,255,.5);transition:width .3s ease"></div></div>
   <div id="con-scan-results" style="display:none;margin-top:.6rem;padding:.65rem;background:rgba(0,230,118,.06);border:1px solid rgba(0,230,118,.2);border-radius:4px;font-size:11px;color:var(--t2);line-height:1.7;white-space:pre-wrap"></div>
 </div>
+<div style="background:rgba(0,229,255,.05);border:1px solid rgba(0,229,255,.25);border-radius:6px;padding:.875rem;margin-bottom:1rem">
+  <div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:#00e5ff;margin-bottom:.5rem">📄 PURSUE-DOKUMENTE DIREKT BEFRAGEN</div>
+  <div style="font-size:11px;color:var(--t2);margin-bottom:.6rem">RAG-Suche direkt in den 222 deklassifizierten Pentagon-Akten via <a href="https://pursueindex.com" target="_blank" style="color:#00e5ff;text-decoration:none">pursueindex.com ↗</a> — Claude durchsucht den OCR-Text der Originaldokumente:</div>
+  <div style="display:flex;gap:.4rem;margin-bottom:.4rem">
+    <input type="text" id="pursue-chat-inp" class="ai-inp" placeholder="z.B. Was steht in den DOW Mission Reports über 90-Grad-Kurven?" onkeydown="if(event.key==='Enter')sendPursueChat()">
+    <button class="ai-send" onclick="sendPursueChat()" style="white-space:nowrap;padding:7px 14px;background:linear-gradient(135deg,#0099cc,#00e5ff)">📄 Suchen</button>
+  </div>
+  <div style="display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:.5rem">
+    <button class="qb" onclick="document.getElementById('pursue-chat-inp').value='Was steht in den DOW Mission Reports über 90-Grad-Kurven?';sendPursueChat()">90°-Kurven DOW</button>
+    <button class="qb" onclick="document.getElementById('pursue-chat-inp').value='Was sagen die NASA Apollo Debriefings über unidentifizierte Objekte?';sendPursueChat()">NASA Apollo UAP</button>
+    <button class="qb" onclick="document.getElementById('pursue-chat-inp').value='Was steht im FBI Guy Hottel Memo über fliegende Scheiben?';sendPursueChat()">FBI Hottel Memo</button>
+    <button class="qb" onclick="document.getElementById('pursue-chat-inp').value='Was berichten die State Department Kabel über UAP-Sichtungen?';sendPursueChat()">State Dept Kabel</button>
+    <button class="qb" onclick="document.getElementById('pursue-chat-inp').value='Was steht im COMETA Report über Extraterrestrial Hypothesis?';sendPursueChat()">COMETA ETH</button>
+  </div>
+  <div id="pursue-chat-result" style="display:none;margin-top:.6rem;padding:.75rem;background:rgba(0,229,255,.06);border:1px solid rgba(0,229,255,.2);border-radius:4px;font-size:11px;color:var(--t1);line-height:1.8;white-space:pre-wrap"></div>
+  <div id="pursue-chat-sources" style="display:none;margin-top:.4rem;font-size:9px;color:var(--t3)"></div>
+</div>
+
 <div style="background:var(--bg2);border:1px solid var(--bd);border-radius:6px;padding:1rem;margin-bottom:1rem">
 <div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:var(--v);margin-bottom:.6rem">⚡ SCHNELL-ANALYSEN</div>
 <div style="display:flex;gap:.4rem;flex-wrap:wrap">
@@ -1513,10 +1640,82 @@ async function sendAI(){
   }catch(e){removeThink();addA('Verbindungsfehler.');}
 }
 function qa(q){document.getElementById('ai-inp').value=q;sendAI();}
+
+// ── PURSUE-DOKUMENTE DIREKT BEFRAGEN (pursueindex.com RAG-API)
+async function sendPursueChat(){
+  const inp=document.getElementById('pursue-chat-inp');
+  const result=document.getElementById('pursue-chat-result');
+  const sources=document.getElementById('pursue-chat-sources');
+  const query=inp.value.trim();
+  if(!query)return;
+  const btn=document.querySelector('[onclick="sendPursueChat()"]');
+  if(btn){btn.disabled=true;btn.textContent='⏳ Suche...'}
+  result.style.display='block';
+  result.textContent='Durchsuche 222 Pentagon-Akten...';
+  sources.style.display='none';
+  try{
+    const r=await fetch('https://pursueindex.com/api/chat',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Origin':'https://pursueindex.com'},
+      body:JSON.stringify({query:query,history:[]})
+    });
+    if(!r.ok){result.textContent='Fehler: '+r.status+' '+r.statusText;return;}
+    const reader=r.body.getReader();
+    const decoder=new TextDecoder();
+    let fullText='';
+    let cardIds=[];
+    result.textContent='';
+    while(true){
+      const {done,value}=await reader.read();
+      if(done)break;
+      const chunk=decoder.decode(value,{stream:true});
+      const lines=chunk.split('\n');
+      for(const line of lines){
+        if(line.startsWith('data:')){
+          try{
+            const data=JSON.parse(line.slice(5).trim());
+            if(data.delta){fullText+=data.delta;result.textContent=fullText;result.scrollIntoView({behavior:'smooth',block:'nearest'});}
+            if(data.cards){cardIds=data.cards.map(c=>c.card_id||c.id||'').filter(Boolean);}
+          }catch(e){}
+        }
+      }
+    }
+    if(cardIds.length>0){
+      sources.style.display='block';
+      sources.innerHTML='📄 Quellen: '+cardIds.slice(0,5).map(id=>`<a href="https://pursueindex.com/card/${id}/" target="_blank" style="color:#00e5ff;text-decoration:none;margin-right:.5rem">${id.slice(0,8)}↗</a>`).join('');
+    }
+  }catch(e){
+    result.textContent='Verbindungsfehler: '+e.message;
+  }finally{
+    if(btn){btn.disabled=false;btn.textContent='📄 Suchen';}
+  }
+}
+
 function addU(t){const d=document.createElement('div');d.style.cssText='font-size:11px;line-height:1.6;color:var(--t1);margin-bottom:.4rem;padding:.5rem .75rem;background:rgba(179,157,219,.08);border-radius:4px;border-left:2px solid var(--v)';d.innerHTML=`<strong style="color:var(--vg)">Du:</strong> ${t}`;document.getElementById('ams').appendChild(d);}
 function addThink(){const d=document.createElement('div');d.id='thk';d.className='am';d.innerHTML='<strong>Disclosure Agent:</strong> <span style="color:var(--t3);font-family:\'JetBrains Mono\',monospace;font-size:9px">Analysiere ▋</span>';document.getElementById('ams').appendChild(d);d.scrollIntoView({behavior:'smooth'});}
 function removeThink(){const e=document.getElementById('thk');if(e)e.remove();}
 function addA(t){const d=document.createElement('div');d.className='am';d.innerHTML=`<strong>Disclosure Agent:</strong> ${t}`;document.getElementById('ams').appendChild(d);d.scrollIntoView({behavior:'smooth'});}
+
+// ── DOW CENTCOM HOTSPOT-KARTE
+const DOW_DETAILS = {
+  'arabian-gulf': {title:'Arabischer Golf', count:6, color:'#ff3232', reports:['DOW CENTCOM 2018–19 (78 Videos)', 'DOW CENTCOM 2020', 'DOW CENTCOM 2021–24', 'DOW Range Fouler 2021 (Golf von Aden/Arab. Golf)', 'DOW Arabian Gulf Mission Reports', 'DOW Unresolved Reports (Arab. Golf)'], desc:'6 Berichte aus dem Arabischen Golf — dichteste Konzentration aller CENTCOM-UAP-Sichtungen. Objekte zeigen 90°-Kurven, Hyperschall ohne Hitzesignatur, Tauchmaneuver. Alle durch PURSUE Act deklassifiziert.'},
+  'gulf-aden': {title:'Golf von Aden', count:3, color:'#ff6400', reports:['DOW Range Fouler 2021 (Golf von Aden)', 'DOW Golf von Aden Mission Reports', 'DOW Unresolved Reports (Aden)'], desc:'3 Berichte aus dem Golf von Aden — strategische Meeresenge zwischen Arabien und Afrika. Objekte tauchen aus dem Wasser auf und verschwinden wieder. Keine Radar-Signatur.'},
+  'iraq': {title:'Irak', count:3, color:'#ffc800', reports:['DOW CENTCOM Irak 2019', 'DOW Unresolved Reports (Irak)', 'DOW INDOPACOM 2025 (Irak-Referenz)'], desc:'3 Berichte aus dem Irak — Sichtungen über US-Militärbasen. Objekte verfolgen Konvois, reagieren auf Radar-Pings. Keine feindliche Identifikation möglich.'},
+  'syria': {title:'Syrien', count:3, color:'#ffc800', reports:['DOW CENTCOM Syrien 2018', 'DOW Unresolved Reports (Syrien)', 'DOW CENTCOM 2021–24 (Syrien)'], desc:'3 Berichte aus Syrien — Sichtungen über Konfliktgebiet. Objekte zeigen keine Zuordnung zu bekannten Akteuren (USA, Russland, Türkei, Iran). Verhalten: stationnär dann Hyperschall.'},
+  'greece': {title:'Griechenland', count:3, color:'#00e5ff', reports:['DOW Griechenland Mission Reports', 'DOW Unresolved Reports (Griechenland)', 'DOW CENTCOM Mittelmeer'], desc:'3 Berichte aus Griechenland — NATO-Gebiet, Mittelmeer. Sichtungen über Ägäis und griechischen Inseln. Besonderheit: Objekte tauchen aus dem Meer auf — USO-Verhalten (Underwater Submerged Object).'},
+  'indopacom': {title:'INDOPACOM', count:2, color:'#00e676', reports:['DOW INDOPACOM Email 2025', 'DOW INDOPACOM 2025'], desc:'2 Berichte aus dem Indo-Pazifik-Kommando — aktuellste PURSUE-Dokumente (2025). Sichtungen über Pazifik und Südchinesischem Meer. Strategische Relevanz: Taiwanstraße-Region.'},
+  'uae': {title:'Vereinigte Arabische Emirate', count:2, color:'#b39ddb', reports:['DOW UAE Mission Reports', 'DOW Arabian Gulf Mission Reports (VAE-Sektor)'], desc:'2 Berichte aus den VAE — Sichtungen über Abu Dhabi und Dubai. Objekte zeigen Interesse an Energieinfrastruktur (Erdöl-Plattformen). Keine Zuordnung möglich.'},
+  'djibouti': {title:'Dschibuti', count:1, color:'rgba(255,255,255,0.6)', reports:['DOW Dschibuti Mission Report'], desc:'1 Bericht aus Dschibuti — US-Militärbasis Camp Lemonnier. Sichtung über dem Roten Meer. Objekt: kugelrund, weiß, keine Flächen, keine Abgase.'},
+  'iran': {title:'Iran', count:1, color:'rgba(255,255,255,0.6)', reports:['DOW Unresolved Reports (Iran)'], desc:'1 Bericht mit Iran-Bezug — Sichtung nahe der iranischen Grenze. Klassifiziert als "unresolved" — keine Zuordnung zu iranischen Drohnen oder Militärgerät möglich.'}
+};
+function showDOWDetail(region){
+  const d=document.getElementById('dow-detail');
+  const info=DOW_DETAILS[region];
+  if(!info){d.style.display='none';return;}
+  d.style.display='block';
+  d.innerHTML=`<div style="font-family:'Orbitron',sans-serif;font-size:10px;color:${info.color};margin-bottom:.4rem">${info.title} — ${info.count} Berichte</div><div style="margin-bottom:.5rem;color:var(--t2)">${info.desc}</div><div style="font-size:10px;color:var(--t3)">${info.reports.map(r=>`• ${r}`).join('<br>')}</div><div style="margin-top:.5rem"><a href="https://pursueindex.com" target="_blank" style="color:#00e5ff;font-size:10px;text-decoration:none">Originaldokumente auf pursueindex.com ↗</a></div>`;
+  d.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
 
 // ── AUTONOMOUS CONGRUENCE SCANNER
 async function runCongruenceScan() {
