@@ -1881,5 +1881,25 @@
     ],
     "bio": "Christopher 'Kit' Green ist ein ehemaliger CIA-Analyst und Neurowissenschaftler der an der Schnittstelle von Geheimdienst und UAP-Forschung arbeitet. Laut Berichten von Jason Reza-Jorjani (via Lyn Buchanan) soll Green ein Programm entwickelt haben, um in DNA-Datenbanken (Ancestry.com, 23andMe) nach nicht-menschlichen oder Hybrid-Genmarkern zu suchen. Green ist bekannt für seine Arbeit zu biologischen Effekten von UAP-Begegnungen auf Zeugen — er behandelte angeblich Personen mit ungewöhnlichen Verletzungen nach UAP-Kontakt. Verbindung zu AATIP und Bigelow Aerospace. Avi Loeb (NewsNation, Mai 2026): 'Jemand könnte die Idee gehabt haben zu prüfen — aber kein wissenschaftlicher Nachweis.'",
     "source_url": "https://avi-loeb.medium.com/avi-loeb-comments-on-the-alien-dna-claims-29498f74d0ba"
+  },
+  {
+    "id": "max-rempel",
+    "name": "Dr. Max Myakishev-Rempel",
+    "emoji": "🧬",
+    "role": "Genetiker · DNA Resonance Research Foundation",
+    "tags": [
+      "wissenschaftler",
+      "dna",
+      "hybrid",
+      "autismus",
+      "genetik",
+      "neurodiversitaet"
+    ],
+    "bio": "Dr. Max Myakishev-Rempel ist Gründer und CEO der DNA Resonance Research Foundation in San Diego, Kalifornien. In seiner Studie vom Mai 2025 ('Preliminary evidence of traces of alien genetic manipulation in humans') analysierte er die DNA von 581 vollständigen Familien aus dem 1000 Genomes Project und identifizierte bei 2% nicht-elterliche DNA-Insertionen, die er als Hinweis auf extraterrestrische Genmanipulation interpretiert. Betroffene Kinder, geboren vor 1990 (also vor CRISPR), zeigen laut Rempel 'autistische Qualitäten' sowie erhöhte psychische, künstlerische und wissenschaftliche Fähigkeiten. Rempel hat eigene Forschungsgruppen für Entführungs-Erfahrene geleitet, Video-Interviews mit Abductees veröffentlicht und mehrere Bücher zu Alien-Hybridisierung publiziert (2011, 2023). Er verweist auf Zecharia Sitchin (Sumerian Tablets), John Mack (Harvard, 200+ Abductee-Interviews) und David Jacobs als Vorarbeiten. Seine Methode: Long-Read-Sequenzierung (10–20 Kilobasen) der repetitiven, nicht-proteinkodierenden DNA-Bereiche (55% des Genoms), die in Standard-Genotypisierungen übersehen werden. Er schätzt über 1 Million 'Telepathen' auf der Erde.",
+    "source_url": "https://www.researchgate.net/publication/392237093_Preliminary_evidence_of_traces_of_alien_genetic_manipulation_in_humans",
+    "linked_cases": [
+      "neurodiversity-alien-hybrid-2025",
+      "cia-dna-hybrid-program-2026"
+    ]
   }
 ]
