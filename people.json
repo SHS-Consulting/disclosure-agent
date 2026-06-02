@@ -1967,5 +1967,27 @@
       "dolly-safran-hybrid-pilot-gaia",
       "neurodiversity-alien-hybrid-2025"
     ]
+  },
+  {
+    "id": "steven-greer",
+    "name": "Dr. Steven Greer",
+    "emoji": "🌐",
+    "role": "CSETI-Gründer · Disclosure Project · CE-5-Protokoll · Buga Sphere Hauptvertreter",
+    "tags": [
+      "disclosure",
+      "cseti",
+      "ce5",
+      "whistleblower",
+      "artefakt",
+      "greer",
+      "anti-gravitation",
+      "kontrovers"
+    ],
+    "bio": "Dr. Steven Greer ist Notfallmediziner und Gründer des Center for the Study of Extraterrestrial Intelligence (CSETI, 1990) sowie des Disclosure Project (2001). Am 9. Mai 2001 organisierte er eine Pressekonferenz im National Press Club Washington D.C. mit über 20 ehemaligen Militär-, Regierungs- und Geheimdienstmitarbeitern, die unter Eid über UAP-Erfahrungen berichteten — eines der meistgesehenen Disclosure-Ereignisse vor dem Grusch-Hearing 2023. Er entwickelte das CE-5-Protokoll (Close Encounters of the 5th Kind): strukturierte Bewusstseinspraktiken zur aktiven Kontaktaufnahme mit NHI. Dokumentarfilme: 'Sirius' (2013, mit Atacama-Humanoid), 'Unacknowledged' (2017, Netflix), 'Close Encounters of the 5th Kind' (2020). Kontrovers: Kritiker werfen ihm vor, ungeprüfte Behauptungen zu verbreiten und Whistleblower zu instrumentalisieren. Befürworter sehen ihn als wichtigsten Katalysator für institutionelle Disclosure-Bemühungen. Zur Buga Sphere (2025): Greer beschreibt 'elektrogravitische Felder' als Hinweis auf Anti-Gravitations-Technologie, verbindet die 2,3 Hz EM-Emissionen mit UAP-Archivdaten und war bei Analysen mit Kongress-Abgeordnetem Eric Burlison anwesend. Verbindung zu Emery Smith: Greer ist im Sirius-Film (2013) mit Smith zusammen — beide untersuchten den Atacama-Humanoid.",
+    "source_url": "https://siriusdisclosure.com/",
+    "linked_cases": [
+      "buga-sphere-colombia-2025",
+      "emery-smith-secret-facilities-nm"
+    ]
   }
 ]
