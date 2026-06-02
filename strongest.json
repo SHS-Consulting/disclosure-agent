@@ -1,0 +1,319 @@
+{
+  "version": "3.0",
+  "generated": "2026-05-25",
+  "total_cases": 156,
+  "top10": [
+    {
+      "rank": 1,
+      "id": 105,
+      "title": "war.gov PURSUE Release 02 – F-16C schießt UAP über Lake Huron ab (12. Feb. 2023)",
+      "score": 9.8,
+      "level": "BESTÄTIGT",
+      "date": "2023-02-12",
+      "location": "Lake Huron, Michigan, USA",
+      "summary": "Erstes öffentlich freigegebenes Video eines US-Kampfjets, der ein UAP abschießt. Ein F-16C Fighting Falcon der US Air National Guard feuert ein AIM-9X Sidewinder-Rakete auf ein unbekanntes Objekt über",
+      "witnesses": [],
+      "tags": [
+        "video",
+        "AARO",
+        "PURSUE",
+        "war.gov",
+        "militär",
+        "abschuss",
+        "F-16",
+        "Lake Huron",
+        "2023",
+        "Release-02"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "video_url": "",
+      "connections": 0
+    },
+    {
+      "rank": 2,
+      "id": "143",
+      "title": "DOE Enhanced PANTEX Imagery – UAP über US-Atomwaffen-Montageanlage",
+      "score": 9.8,
+      "level": "Kritisch",
+      "date": "2020-2025",
+      "location": "Pantex Plant, Amarillo, Texas",
+      "summary": "DOE-UAP-D001: Enhanced PANTEX Imagery. Die Pantex Plant in Amarillo, Texas ist die einzige Anlage in den USA, die Atomwaffen montiert, demontiert und wartet. Erste offizielle US-Regierungsbestätigung ",
+      "witnesses": [
+        "DOE/NNSA Personal (geschwärzt)",
+        "Sandia National Laboratories Analysten"
+      ],
+      "tags": [
+        "DOE",
+        "Pantex",
+        "PURSUE",
+        "war.gov",
+        "Nuklear",
+        "Atomwaffen",
+        "Texas"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "video_url": "",
+      "connections": [
+        "Nuklear-UAP-Nexus",
+        "PURSUE Release 02"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "pentagon-gr-2023",
+      "title": "90°-Kurven bei 130 km/h — Griechenland 2023",
+      "score": 9.7,
+      "level": "critical",
+      "date": "Okt 2023",
+      "location": "Östliches Mittelmeer",
+      "summary": "Pentagon PR-49: IR-Video zeigt Objekt mit abrupten 90°-Kurven ohne Geschwindigkeitsverlust. Keine G-Kraft-Anzeichen, keine bekannte Antriebstechnologie. Metabunk: kein mundaner Erklärungsansatz.",
+      "witnesses": [],
+      "tags": [
+        "pentagon",
+        "ir",
+        "physik"
+      ],
+      "source_url": "https://www.war.gov/UFO/",
+      "video_url": "",
+      "connections": 0
+    },
+    {
+      "rank": 4,
+      "id": "kumburgaz-turkey-2007-2009",
+      "title": "Kumburgaz UFO-Serie 2007–2009 · Türkei · Humanoid-Besatzung auf Video · TÜBİTAK-bestätigt",
+      "score": 9.7,
+      "level": "critical",
+      "date": "2007–2009 (23 separate Ereignisse)",
+      "location": "Kumburgaz, Büyükçekmece, Istanbul, Türkei – Küste des Marmarameers",
+      "summary": "ZEUGE: Yalçın Yalman, Nachtwächter der Yeni-Kent-Wohnanlage, Kumburgaz. Filmte zwischen 2007 und 2009 auf 23 separaten Gelegenheiten unbekannte Objekte über dem Marmara-Meer. Kamera: Canon DM-GL1-A Mi",
+      "witnesses": [],
+      "tags": [
+        "Video",
+        "Wissenschaft",
+        "Zeugen",
+        "Humanoid",
+        "TUBITAK",
+        "SIRIUS",
+        "Marmara",
+        "Türkei",
+        "Besatzung",
+        "Analyse"
+      ],
+      "source_url": "http://turkeyufocase.blogspot.com/2011/04/turkey-ufo-sightings-were-series-of_16.html",
+      "video_url": "",
+      "connections": 0
+    },
+    {
+      "rank": 5,
+      "id": 111,
+      "title": "war.gov PURSUE Release 02 – DOE/Pantex: UAP-Bericht über US-Atomwaffen-Montageanlage (UCNI-klassifiziert)",
+      "score": 9.6,
+      "level": "DOE-KLASSIFIZIERT",
+      "date": "2010-01-01",
+      "location": "Pantex Plant, Carson County, Texas, USA",
+      "summary": "Zwei Seiten (Seiten 5–6) eines sechsseitigen Pantex Unidentified Object Incident Report, freigegeben als DOE-UAP-D001. Pantex ist die einzige US-Anlage zur Montage und Demontage von Atomwaffen (verwal",
+      "witnesses": [],
+      "tags": [
+        "DOE",
+        "Pantex",
+        "Sandia",
+        "nuklear",
+        "UCNI",
+        "atomwaffen",
+        "PURSUE",
+        "war.gov",
+        "Release-02",
+        "FOIA",
+        "radar"
+      ],
+      "source_url": "https://pursueindex.com/finds/doe-uap-d001-pantex-image",
+      "video_url": "",
+      "connections": 0
+    },
+    {
+      "rank": 6,
+      "id": "142",
+      "title": "CIA HUMINT-Bericht: UAP über sowjetischem Atomwaffentestgelände Sary Shagan (1973)",
+      "score": 9.6,
+      "level": "Kritisch",
+      "date": "1973-12-20",
+      "location": "Sary Shagan, Kasachstan (UdSSR)",
+      "summary": "CIA-UAP-D001: Intelligence Information Report, USSR, 20. Dezember 1973. CIA-HUMINT-Agent berichtet über UAP-Sichtungen über dem sowjetischen Atomwaffentestgelände Sary Shagan. Direkte Verbindung zur N",
+      "witnesses": [
+        "CIA HUMINT-Agent (Identität geschwärzt)"
+      ],
+      "tags": [
+        "CIA",
+        "UdSSR",
+        "Sowjetunion",
+        "PURSUE",
+        "war.gov",
+        "Nuklear",
+        "1973"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "video_url": "",
+      "connections": [
+        "Nuklear-UAP-Nexus",
+        "PURSUE Release 02"
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "wilson-davis-memo-2002",
+      "title": "Wilson-Davis-Memo – Admiral Wilson bestätigt geheimes UFO-Bergungsprogramm",
+      "score": 9.5,
+      "level": "KRITISCH",
+      "date": "16. Oktober 2002",
+      "location": "Las Vegas, Nevada, USA",
+      "summary": "Dr. Eric Davis dokumentierte ein Treffen mit Admiral Thomas Wilson (ehem. stellv. DIA-Direktor). Wilson berichtete, 1997 ein geheimes Reverse-Engineering-Programm für ein nicht-irdisches Flugobjekt be",
+      "witnesses": [
+        "Admiral Thomas Wilson",
+        "Dr. Eric W. Davis"
+      ],
+      "tags": [
+        "Wilson-Davis-Memo",
+        "DIA",
+        "Reverse Engineering",
+        "Geheimprogramm",
+        "Insider",
+        "Pentagon"
+      ],
+      "source_url": "https://www.theblackvault.com/documentarchive/the-wilson-davis-memo/",
+      "video_url": "",
+      "connections": 0
+    },
+    {
+      "rank": 8,
+      "id": "malmstrom-afb-1967-nuklear-uap",
+      "title": "Malmstrom AFB 1967 – 20 Minuteman-Raketen offline: Echo & Oscar Flight",
+      "score": 9.5,
+      "level": "KRITISCH",
+      "date": "1967-03-16",
+      "location": {
+        "country": "USA",
+        "region": "Montana",
+        "city": "Great Falls",
+        "site": "Malmstrom Air Force Base, 341st Strategic Missile Wing",
+        "coordinates": "47.4836° N, 109.3492° W",
+        "note": "Echo Flight (Hilger/Winifred) und Oscar Flight (Roy, MT) – beide 341st SMW"
+      },
+      "summary": "Einer der am besten dokumentierten Nuklear-UAP-Vorfälle: Im März 1967 gingen innerhalb von Sekunden alle 10 Minuteman-I-Raketen des Echo Flight (16. März) und kurz darauf alle 10 des Oscar Flight (24.",
+      "witnesses": [
+        {
+          "name": "Capt. Robert Salas",
+          "role": "USAF Missile Launch Officer, Oscar Flight, 341st SMW",
+          "testimony": "Persönlicher Augenzeugenbericht: Sicherheitswache meldet UAP über Fronttor, dann fallen alle 10 Minuteman-Raketen gleichzeitig aus. Zur Geheimhaltung verpflichtet, NDA unterzeichnet. Seit 1996 öffentlich, 3 Bücher, National Press Club 2010. Widerlegte Pentagon-EMP-Erklärung 2025.",
+          "credibility": "sehr hoch",
+          "public_statement": true,
+          "year": "1967/1996"
+        },
+        {
+          "name": "Col. Fred Meiwald",
+          "role": "USAF, Oscar-Flight-Kommandant",
+          "testimony": "Bestätigte Salas' Grundaussage. War im LCC als die Raketen ausfielen. Stimmte der Veröffentlichung seiner Informationen zu.",
+          "credibility": "sehr hoch",
+          "public_statement": true,
+          "year": "1967"
+        },
+        {
+          "name": "Col. Walt Figel (ret.)",
+          "role": "USAF, Echo-Flight-Kommandant",
+          "testimony": "Echo-Flight-Kommandant am 16. März 1967. Bestätigte, dass ein Sicherheitsposten ein UAP über einem Silo gemeldet hatte, als die Raketen ausfielen. Stimmte der Veröffentlichung zu.",
+          "credibility": "sehr hoch",
+          "public_statement": true,
+          "year": "1967"
+        },
+        {
+          "name": "Robert Hastings",
+          "role": "UFO-Forscher, Autor 'UFOs & Nukes' (2008), 30 Jahre Recherche",
+          "testimony": "Dokumentierte über 120 ähnliche UAP-Vorfälle an Nuklearstandorten weltweit. Organisierte National Press Club Pressekonferenz 2010 mit 7 USAF-Veteranen. CNN-Liveübertragung. Buch: 'UFOs & Nukes: The Secret Link Revealed' (2008).",
+          "credibility": "hoch",
+          "public_statement": true,
+          "year": "2008/2010"
+        }
+      ],
+      "tags": [
+        "nuklear",
+        "malmstrom",
+        "minuteman",
+        "1967",
+        "usa",
+        "salas",
+        "hastings",
+        "echo-flight",
+        "oscar-flight",
+        "foia-bestätigt"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Malmstrom_UFO_incident",
+      "video_url": "",
+      "connections": {
+        "people": [
+          "robert-salas",
+          "robert-hastings"
+        ],
+        "cases": [
+          "rendlesham-forest-1980",
+          "nuklear-uap-nexus-trinity-roswell"
+        ],
+        "operations": [
+          "aaro",
+          "project-blue-book"
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "id": 106,
+      "title": "war.gov PURSUE Release 02 – Senior Intelligence Officer: Orange Orbs jagen Kampfjets (2025)",
+      "score": 9.5,
+      "level": "ERSTZEUGNIS",
+      "date": "2025-01-01",
+      "location": "Westliche USA (undisclosed), Bergregion",
+      "summary": "Ein aktuell diensttuender Senior US Intelligence Officer schildert in einem 116-seitigen ODNI-Dokument eine Serie von UAP-Begegnungen über mehr als eine Stunde an Bord eines Militärhubschraubers (spät",
+      "witnesses": [],
+      "tags": [
+        "ODNI",
+        "PURSUE",
+        "war.gov",
+        "erstzeugnis",
+        "orbs",
+        "hubschrauber",
+        "2025",
+        "Release-02",
+        "orange-orbs"
+      ],
+      "source_url": "https://www.war.gov/medialink/ufo/052226/release_02/documents/ODNI-UAP-D001_USPER_Narrative_Senior_USIC.pdf",
+      "video_url": "",
+      "connections": 0
+    },
+    {
+      "rank": 10,
+      "id": "141",
+      "title": "ODNI Senior USIC Official – UAP-Zeugnis (Western US, 2025)",
+      "score": 9.5,
+      "level": "Kritisch",
+      "date": "2025",
+      "location": "Westliche USA",
+      "summary": "ODNI-UAP-D001: USPER Narrative eines hochrangigen USIC-Beamten (US Intelligence Community). Ein Senior-Geheimdienstbeamter beschreibt eine persönliche UAP-Begegnung im westlichen USA. Das 116-seitige ",
+      "witnesses": [
+        "Senior USIC Official (Identität geschwärzt)",
+        "US-Militärpiloten"
+      ],
+      "tags": [
+        "ODNI",
+        "PURSUE",
+        "war.gov",
+        "2025",
+        "Senior Official",
+        "Orange Orbs"
+      ],
+      "source_url": "https://www.war.gov/ufo/",
+      "video_url": "",
+      "connections": [
+        "PURSUE Release 02",
+        "AARO"
+      ]
+    }
+  ]
+}

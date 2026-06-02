@@ -1,0 +1,3465 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "last_updated": "2026-05-22",
+    "scoring_method": "Treffer-Score: max. 10. Wertung steigt mit: zeitlicher Trennung der Quellen, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander",
+    "add_command": "ADD_CONGRUENCE: title | score | sources(pipe-separated: source::statement) | tags",
+    "total_themes": 59,
+    "total_thesen": 50,
+    "total": 54
+  },
+  "themes": [
+    {
+      "id": "parallel-realities",
+      "title": "Realität = Frequenz/Vibration · Unendliche parallele Versionen gleichzeitig",
+      "score": 9,
+      "max_temporal_gap_years": 5000,
+      "summary": "Fünf vollständig unabhängige Quellen — von moderner Quantenphysik bis zur Vedanta-Philosophie aus 3000 v.Chr. — beschreiben identisch: Realität existiert als unendliche parallele Versionen, getrennt nur durch Frequenz/Vibration.",
+      "sources": [
+        {
+          "name": "Bashar/Anka (ab 1983)",
+          "statement": "'Alle Realitäten gleichzeitig. Wechsel durch Frequenzänderung — wie Fernsehkanäle. Unendliche parallele Erden, getrennt nur durch Vibration.'"
+        },
+        {
+          "name": "Quantenmechanik Many-Worlds (Everett 1957)",
+          "statement": "Bei jedem Messprozess spaltet sich das Universum in parallele Äste. Alle Möglichkeiten koexistieren gleichzeitig. Mainstream-Physik."
+        },
+        {
+          "name": "Vedanta / Brahman-Konzept (~3000 v.Chr.)",
+          "statement": "Wirklichkeit = unendliche Projektion des Bewusstseins (Maya). Alle Formen gleichzeitig im Absoluten. Jede 'Welt' = ein Bewusstseinszustand."
+        },
+        {
+          "name": "Council of Nine (Schlemmer/Puharich, 1952+)",
+          "statement": "'Dimensionen = Frequenzzustände. Alle überlappend gleichzeitig präsent. Ihr könnt Breitenband-Antennen werden.'"
+        },
+        {
+          "name": "Jacques Vallée (Interdimensionale Hypothese, 1969+)",
+          "statement": "'UAP aus benachbarten Frequenzbereichen. Sowohl technologisch als auch psychisch — unmöglich nur physisch.'"
+        }
+      ],
+      "tags": [
+        "bashar",
+        "quantenphysik",
+        "vedanta",
+        "council-of-nine",
+        "vallee",
+        "frequenz"
+      ],
+      "significance": "Die Hypothese paralleler Realitäten erklärt, warum UAPs plötzlich erscheinen und verschwinden, ohne physikalische Spuren zu hinterlassen. Wenn UAPs aus einer parallelen Dimension stammen, erklärt dies auch, warum Radar sie manchmal nicht erfasst.",
+      "related_cases": [
+        "skinwalker-ranch",
+        "hessdalen"
+      ],
+      "related_persons": [
+        "vallee",
+        "eric-w-davis",
+        "morpheus"
+      ]
+    },
+    {
+      "id": "supervision-threshold",
+      "title": "Earth wird überwacht — Intervention nur bei evolutionären Schwellenwerten",
+      "score": 7,
+      "max_temporal_gap_years": 70,
+      "summary": "Vier unabhängige Quellen — Channeling-Gruppen, ET-Entitäten und Zeugenberichte — beschreiben identisch: Earth wird beobachtet, direkte Intervention ist verboten solange freier Wille nicht verletzt wird.",
+      "sources": [
+        {
+          "name": "Council of Nine (1952+)",
+          "statement": "'Wir sind Beobachter. Direkte Intervention nur wenn Menschheit bestimmte Schwellenwerte erreicht. Freier Wille muss gewahrt bleiben.'"
+        },
+        {
+          "name": "Bashar (ab 1983)",
+          "statement": "'Eure Spezies steht vor einem Schwellenmoment. Erst dann ist offener Kontakt möglich. Wir dürfen den Prozess nicht erzwingen.'"
+        },
+        {
+          "name": "Jacques Vallée Kontrollfaktor-Hypothese",
+          "statement": "UAP-Phänomen reguliert und steuert menschliche Bewusstseins-Entwicklung didaktisch — nicht zufällig, über Jahrtausende."
+        },
+        {
+          "name": "Zimbabwe Ariel School 1994 (62 Kinder, unabhängig)",
+          "statement": "Telepathische Botschaft: Warnung über Naturzerstörung der Erde — als Information, nicht Bedrohung."
+        }
+      ],
+      "tags": [
+        "supervision",
+        "intervention",
+        "schwellenwert",
+        "freier-wille",
+        "bashar",
+        "council"
+      ],
+      "significance": "Die Schwellenwert-Hypothese (NHI greift erst ein, wenn Menschheit eine kritische Technologiestufe erreicht) erklärt die Häufung von UAP-Sichtungen nach 1945 (Atomwaffen) und 1969 (Mondlandung). Sie legt eine Art kosmisches Monitoring-Programm nahe.",
+      "related_cases": [
+        "malmstrom-1967",
+        "roswell-1947",
+        "jacobs-big-sur-1964"
+      ],
+      "related_persons": [
+        "eric-w-davis",
+        "vallee",
+        "salas"
+      ]
+    },
+    {
+      "id": "consciousness-fundamental",
+      "title": "Bewusstsein ist fundamentaler als Materie — und ermöglicht Kontakt",
+      "score": 8,
+      "max_temporal_gap_years": 3500,
+      "summary": "Sechs unabhängige Quellen — von offiziellen CIA-Programmen bis zu 3500 Jahre alten Philosophien — beschreiben Bewusstsein als primäre Realität und Kontakt-Medium.",
+      "sources": [
+        {
+          "name": "CIA Stargate Program (1978–95, offiziell bestätigt)",
+          "statement": "Remote Viewing funktioniert nachweisbar. $20Mio, 17 Jahre. Bewusstsein kann raumzeitlich ungebundene Informationen abrufen."
+        },
+        {
+          "name": "FREE Academic Study (4.200 Experiencer, 100+ Länder)",
+          "statement": "60%+ der UAP-Kontakterfahrungen schließen außerkörperliche Zustände ein. Kontakt beginnt oft im Bewusstsein."
+        },
+        {
+          "name": "Bashar",
+          "statement": "'Ihr seid keine physischen Wesen die spirituelle Erfahrungen machen. Ihr seid Bewusstsein das eine physische Erfahrung macht.'"
+        },
+        {
+          "name": "Vedanta / Upanishaden (~1500 v.Chr.)",
+          "statement": "Bewusstsein (Atman=Brahman) als Ursubstanz. Physische Welt ist Projektion. Erkenntnis ermöglicht Zugang zu anderen Ebenen."
+        },
+        {
+          "name": "Rudolf Steiner / Anthroposophie (1900+)",
+          "statement": "Bewusstsein als eigenständige Realität. Höhere 'geistige Welten' erforschbar. Äther als Verbindungsmedium zwischen Welten. Verbindung zu höheren Intelligenzen möglich."
+        },
+        {
+          "name": "Skinwalker/Colares BAASS",
+          "statement": "Phänomene reagieren auf Bewusstsein der Beobachter (Hitchhiker-Effekt). Kognitive Interaktion dokumentiert."
+        }
+      ],
+      "tags": [
+        "bewusstsein",
+        "stargate",
+        "cia",
+        "vedanta",
+        "steiner",
+        "anthroposophie",
+        "aether",
+        "free-study"
+      ],
+      "significance": "Wenn Bewusstsein eine fundamentale physikalische Größe ist (Burkhard Heim, Morpheus, Prigogine), erklärt dies, warum UAPs auf Beobachter reagieren und warum Entführungsberichte konsistent Bewusstseinsveränderungen beschreiben. Dies verbindet Quantenphysik, UAP-Forschung und Spiritualität.",
+      "related_cases": [
+        "skinwalker-ranch",
+        "jake-barber-psionics-2025"
+      ],
+      "related_persons": [
+        "eric-w-davis",
+        "morpheus",
+        "bashar",
+        "jake-barber"
+      ]
+    },
+    {
+      "id": "physical-injuries-uap",
+      "title": "Physische Verletzungen durch UAP — globales konsistentes Muster",
+      "score": 9,
+      "max_temporal_gap_years": 65,
+      "summary": "Über 65 Jahre, auf allen Kontinenten, vollständig unabhängig: Strahlen von UAP verursachen identische Verletzungsmuster — Verbrennungen, Punkt-Wunden, Strahlungseffekte.",
+      "sources": [
+        {
+          "name": "Colares Brasilien 1977 (offiziell dokumentiert)",
+          "statement": "Systematische Verbrennungen und Punktierwunden an Hunderten Einwohnern. Militärärzte dokumentiert. Offiziell anerkannt. BAASS analysiert."
+        },
+        {
+          "name": "Betty Hill 1961 (USA, Hypnose-Rekonstruktion)",
+          "statement": "Medizinische Untersuchung an Bord. Körperliche Spuren nach Erfahrung. Dr. Simon: kein Hinweis auf Erfindung."
+        },
+        {
+          "name": "Garry Nolan Stanford (CIA-Auftrag)",
+          "statement": "Pilots + Diplomaten mit UAP-Exposition: Gehirne zeigen anomale Aktivierung. 'Wie gebraten von innen durch Energiefeld.'"
+        },
+        {
+          "name": "NICAP/MUFON Datenbank (10.000+ Fälle)",
+          "statement": "Strahlungsverbrennungen als konsistentes Muster über 70+ Jahre auf allen Kontinenten. Keine mundane Erklärung für die Konsistenz."
+        }
+      ],
+      "tags": [
+        "verletzungen",
+        "strahlung",
+        "colares",
+        "hill",
+        "nolan",
+        "mufon"
+      ],
+      "significance": "Physische Verletzungen durch UAP-Begegnungen (Strahlenschäden, Verbrennungen, Implantate) sind medizinisch dokumentierbar und schließen rein psychologische Erklärungen aus. Der Cash-Landrum-Fall ist der am besten dokumentierte Fall mit dauerhaften Strahlenschäden.",
+      "related_cases": [
+        "cash-landrum-1980",
+        "chupa-chupa-colares-1977",
+        "trans-provence-1981"
+      ],
+      "related_persons": [
+        "nolan",
+        "mack",
+        "vallee"
+      ]
+    },
+    {
+      "id": "nuclear-interest",
+      "title": "UAP + Nuklearwaffen — systematisches globales Interesse",
+      "score": 9,
+      "max_temporal_gap_years": 60,
+      "summary": "Sieben+ unabhängige Quellen aus verschiedenen Ländern und Zeiträumen beschreiben identisch: UAP zeigen systematisches Interesse an Nuklearanlagen — und können Waffensysteme deaktivieren.",
+      "sources": [
+        {
+          "name": "Malmstrom AFB USA 1967 (dokumentiert, FOIA)",
+          "statement": "20 ICBMs in zwei Vorfällen deaktiviert — gleichzeitig mit Objekt über Basis. Jamison: 'Zehn gleichzeitige Ausfälle haben keine mechanische Erklärung.'"
+        },
+        {
+          "name": "Minot AFB 1966 (USA, FOIA-bestätigt)",
+          "statement": "UFO über Raketensilo, Ausfälle. Hastings: 120+ dokumentierte Fälle an US-Nuklearstandorten."
+        },
+        {
+          "name": "Sowjetische Atombasen 1960er–80er (KGB-Berichte)",
+          "statement": "UAP über Sarowo, Semipalatinsk — Raketen-Offline-Ereignisse. Russische Militäroffiziere bestätigten analog zu Salas."
+        },
+        {
+          "name": "Edgar Mitchell (Apollo 14)",
+          "statement": "'Militärpersonal aus 3 Ländern bestätigte: ETs deaktivierten Nuklearwaffen — wollten zeigen, dass wir sie nicht sicher handhaben können.'"
+        },
+        {
+          "name": "Robert Salas vor Kongress",
+          "statement": "'Pacifist species. Botschaft: WTF, Nuklearwaffen. Kein Schaden — nur Demonstration der Kontrolle.'"
+        },
+        {
+          "name": "Bashar (Channeling)",
+          "statement": "'Eure Spezies hat die Fähigkeit entwickelt, sich selbst auszulöschen. Das ist einer der Schwellenwert-Trigger die unsere Beobachtungsrolle aktivieren.'"
+        }
+      ],
+      "tags": [
+        "nuklear",
+        "icbm",
+        "malmstrom",
+        "mitchell",
+        "salas",
+        "bashar",
+        "sowjet"
+      ],
+      "significance": "Das konsistente Interesse von NHI an Nukleartechnologie (Malmstrom, Jacobs, Rendlesham, Trinity/Roswell) legt nahe, dass UAPs die nuklearen Aktivitäten der Menschheit aktiv überwachen. Dies ist konsistent mit einer Schutz- oder Kontrollstrategie.",
+      "related_cases": [
+        "malmstrom-1967",
+        "jacobs-big-sur-1964",
+        "roswell-1947",
+        "nuklear-uap-trinity-roswell"
+      ],
+      "related_persons": [
+        "salas",
+        "robert-jacobs",
+        "eric-w-davis"
+      ]
+    },
+    {
+      "id": "neurodivergence-contact",
+      "title": "Neurodivergenz als UAP-Kontakt-Prädiktor",
+      "score": 7,
+      "max_temporal_gap_years": 30,
+      "summary": "Drei unabhängige wissenschaftliche Quellen identifizieren übereinstimmend: Menschen mit atypischer Gehirnarchitektur haben überproportional häufig UAP-Kontakt-Erfahrungen.",
+      "sources": [
+        {
+          "name": "Dr. John Mack Harvard (200+ Interviews)",
+          "statement": "Signifikanter Anteil der Experiencer zeigt neurodivergente Merkmale: Hypersensitivität, atypische Wahrnehmungsverarbeitung, Hochbegabung. Kein psychisches Leiden."
+        },
+        {
+          "name": "Dr. Garry Nolan Stanford (MRI-Studie)",
+          "statement": "UAP-Exponierten: hyperaktiver Caudate-Putamen — assoziiert mit atypischer Informationsverarbeitung und Mustererkennung. 'Brains that look like high-performance processors.'"
+        },
+        {
+          "name": "FREE Study (4.200 Experiencer)",
+          "statement": "Überproportional viele berichten von früherer Sensitivität, synästhetischen Wahrnehmungen, 'anders sein' schon in Kindheit — vor jedem Kontakt."
+        }
+      ],
+      "tags": [
+        "neurodivergenz",
+        "mack",
+        "nolan",
+        "free-study",
+        "adhd",
+        "hochbegabung",
+        "caudate"
+      ],
+      "significance": "Die Häufung von UAP-Kontaktberichten bei neurodivergenten Personen (Autismus, Synästhesie) könnte auf eine Verbindung zwischen bestimmten Bewusstseinszuständen und UAP-Wahrnehmung hindeuten. Dr. Garry Nolans Forschung zu UAP-Zeugen mit ungewöhnlicher Gehirnstruktur ist wissenschaftlich bedeutsam.",
+      "related_cases": [
+        "nolan-brain-uap"
+      ],
+      "related_persons": [
+        "nolan",
+        "mack"
+      ]
+    },
+    {
+      "id": "steiner-aether-tesla-bashar",
+      "title": "Steiner Äther + Tesla kosmisches Wissen + Bashar Frequenz — Kongruenz",
+      "score": 8,
+      "max_temporal_gap_years": 120,
+      "summary": "Drei zeitlich und kulturell unabhängige Quellen beschreiben identisch: Es existiert ein nicht-physisches Trägermedium (Äther/Zero-Point-Field/Frequenz-Raum) das Informations- und Energietransfer jenseits bekannter Physik ermöglicht.",
+      "sources": [
+        {
+          "name": "Rudolf Steiner / Anthroposophie (1900–1925)",
+          "statement": "Äther als vierfaches Feld (Wärme-, Licht-, Ton-, Lebensäther) — nicht-physisches Trägermedium aller lebendigen Prozesse. Bewusstsein und Materie über Äther verbunden. Höhere Welten durch Entwicklung erfahrbar."
+        },
+        {
+          "name": "Nikola Tesla (Colorado Springs 1899, Labornotizen)",
+          "statement": "Tesla empfing laut eigener Aussage in Colorado Springs 'Signale von einer anderen Intelligenz'. Beschrieb den Äther als Realität: 'Licht, Wärme, Elektrizität — alles Äther-Vibrationen.' Arbeitete an 'kosmischer Energie' als unbegrenzter Quelle."
+        },
+        {
+          "name": "Bashar (ab 1983)",
+          "statement": "'Euer Universum ist Vibration. Es gibt kein Vakuum — alles ist Frequenz. Technologien die auf Frequenz-Manipulation beruhen werden euer nächster Schritt sein — nicht Verbrennung.'"
+        }
+      ],
+      "tags": [
+        "steiner",
+        "anthroposophie",
+        "aether",
+        "tesla",
+        "bashar",
+        "frequenz",
+        "kosmisch",
+        "zero-point"
+      ],
+      "significance": "Die Konvergenz von Steiners Äther-Konzept, Teslas freier Energie, Morpheus' Photonenring und Bashars Bewusstseinsphysik auf ein gemeinsames Modell (Bewusstsein als fundamentale Größe, Äther als Medium) legt nahe, dass diese Konzepte auf einer gemeinsamen physikalischen Realität basieren.",
+      "related_cases": [
+        "skinwalker-ranch"
+      ],
+      "related_persons": [
+        "morpheus",
+        "bashar",
+        "eric-w-davis"
+      ]
+    },
+    {
+      "id": "indigenous-knowledge",
+      "title": "Ureinwohner-Völker: offener Kontakt mit nicht-menschlichen Wesen — keine Tabuisierung",
+      "score": 8,
+      "max_temporal_gap_years": 10000,
+      "summary": "Weltweit und über Jahrtausende: Indigene Völker beschreiben Kontakt mit nicht-menschlichen Intelligenzen als selbstverständlichen Teil der Realität — ohne die Hürden westlicher Skepsis.",
+      "sources": [
+        {
+          "name": "Lakota / Plains-Indianer (Nordamerika)",
+          "statement": "Stern-Völker ('Star People') als bekannte Entitäten. Häuptling Standing Bear: 'Wir stammen von den Sternen.' Kontakt ist Teil der normalen Realität — kein Außergewöhnliches."
+        },
+        {
+          "name": "Hopi-Prophetie (Nordamerika)",
+          "statement": "Kachinas als Wesen vom Himmel. Prophetien über Rückkehr der Star Elders in einer Zeit globaler Krise. Aktive Beziehung — nicht Glaube, sondern Erfahrung."
+        },
+        {
+          "name": "Dogon-Volk Mali (Westafrika)",
+          "statement": "Astronomisches Wissen über Sirius B (Weißen Zwerg) — Jahrhunderte vor westlicher Entdeckung. Überliefert als Wissen von Nommo — Wesen vom Sirius-System. Datum: vor mind. 400 Jahren kodifiziert."
+        },
+        {
+          "name": "Aborigines Australien",
+          "statement": "Wandjina — Wesen vom Himmel in Felszeichnungen. Direkte Verbindung zwischen Schöpfungsmythos und leuchtenden Objekten vom Himmel. 40.000+ Jahre Tradition."
+        },
+        {
+          "name": "Zulu-Tradition Südafrika (Credo Mutwa)",
+          "statement": "Credo Mutwa (Zulu-Schamane): 'Chitauri' als Wesen die Menschen kontrollierten. Detaillierte Beschreibungen von Raumschiffen. Offen und ohne Geheimhaltung über Jahrtausende tradiert."
+        }
+      ],
+      "tags": [
+        "indianer",
+        "lakota",
+        "hopi",
+        "dogon",
+        "aborigines",
+        "zulu",
+        "star-people",
+        "kontakt"
+      ],
+      "significance": "Indigene Überlieferungen weltweit beschreiben 'Sternenmenschen' oder 'Götter vom Himmel' mit konsistenten Merkmalen (Licht, Flugfähigkeit, Wissenstransfer). Die Übereinstimmung mit modernen UAP-Berichten über Jahrtausende und Kontinente hinweg ist wissenschaftlich erklärungsbedürftig.",
+      "related_cases": [
+        "nuernberg-1561"
+      ],
+      "related_persons": [
+        "erich-von-daeniken",
+        "zecharia-sitchin",
+        "vallee"
+      ]
+    },
+    {
+      "id": "extreme-stench",
+      "title": "Extremer Gestank (Schwefel/Ammoniak) bei NHI-Körperkontakt — globales Muster",
+      "score": 9,
+      "max_temporal_gap_years": 49,
+      "summary": "Vollständig unabhängige Zeugen aus zwei Fällen mit 49 Jahren und 11.000 km Abstand beschreiben identisches, hochspezifisches Geruchsmuster: Schwefel + Ammoniak kombiniert, macht Anwesende krank, persistiert nach Desinfektion. Dazu: pathogene Wirkung bei direktem Körperkontakt (Chereze Tod). Dies ist ein unverwechselbares biologisches Signalmuster das über mundane Erklärungen hinausgeht.",
+      "sources": [
+        {
+          "name": "Roswell 1947 — Autopsie-Zeugen (Glenn Dennis, Naomi Selff)",
+          "statement": "Krankenschwester lief mit Tuch über dem Mund aus dem Autopsieraum. Gestank der Körper so intensiv, Ärzte und Schwestern wurden krank. Autopsie musste abgebrochen und verlegt werden. Körper in Kühlraum der Basis-Kantine gebracht."
+        },
+        {
+          "name": "Varginha 1996 — Carlos de Souza (Absturzzeuge) + Krankenhauspersonal",
+          "statement": "Absturzort: überwältigender Schwefel/Ammoniak-Gestank, musste Mund bedecken. Krankenhaus: Flügel für Öffentlichkeit gesperrt. Intensiver Geruch persistierte 3–4 Tage nach intensiver Desinfektion."
+        },
+        {
+          "name": "Varginha — Marco Eli Chereze (Militärpolizist, gestorben 23.02.1996)",
+          "statement": "Fasste Wesen mit bloßen Händen an. Danach: 'greasy residue' auf Haut die sich nicht abwaschen ließ, persistenter Ammoniakgeruch, unbekannte schwere Infektion ('benign bacteria' unbekannter Herkunft), Tod innerhalb von Wochen. Pathogene Wirkung bei direktem Kontakt."
+        },
+        {
+          "name": "Drei Zeuginnen Varginha (Lillian, Valquíria, Katia)",
+          "statement": "Beschrieben das Wesen als crouching, injured, oily brown skin — und explizit: foul smell als markantes Merkmal der Begegnung."
+        }
+      ],
+      "tags": [
+        "gestank",
+        "schwefel",
+        "ammoniak",
+        "roswell",
+        "varginha",
+        "biologisch",
+        "pathogen",
+        "chereze"
+      ],
+      "note": "Kongruenz-Bewertung: Score 9/10 wegen hochspezifischer Merkmalskombination (nicht nur 'Gestank' generisch, sondern Schwefel+Ammoniak+Persistenz+Pathogen). Zeitliche Trennung 49 Jahre, geographisch 11.000km, kulturell vollständig unabhängig.",
+      "significance": "Der konsistente Bericht eines extremen Gestanks (Schwefel, verbranntes Metall) bei UAP-Begegnungen über Kulturen und Jahrzehnte hinweg ist ein physikalisches Merkmal, das auf chemische Prozesse im UAP-Antrieb hindeutet. Es ist schwer durch psychologische Erklärungen zu erklären.",
+      "related_cases": [
+        "skinwalker-ranch",
+        "cash-landrum-1980"
+      ],
+      "related_persons": [
+        "vallee",
+        "hynek"
+      ]
+    },
+    {
+      "id": "memory-materials",
+      "title": "Selbstheilende / Formgedächtnis-Materialien an Absturzorten — globales Muster",
+      "score": 8,
+      "max_temporal_gap_years": 49,
+      "summary": "Zeugen aus Roswell 1947 und Varginha 1996 beschreiben unabhängig identische physikalische Eigenschaft der Trümmermaterialien: extrem leicht, kehren nach dem Zusammenknüllen selbstständig in ursprüngliche Form zurück. Kein bekannter terrestrischer Werkstoff 1947 oder 1996 mit dieser Kombination. Direkte Kongruenz mit DIA FOIA Dok. 1 (Metallic Glasses) und Lazar-Beschreibungen.",
+      "sources": [
+        {
+          "name": "Roswell 1947 — Jesse Marcel Sr. + Mac Brazel",
+          "statement": "Metallische Folien-ähnliches Material: 'kein Knick blieb' — nach Zusammenknüllen kehrte es sofort in Originalform zurück. Extrem leicht, aber nicht schneidbar. Weder Hitze noch Hammer konnten es beschädigen. Marcel: 'Nicht von dieser Erde.'"
+        },
+        {
+          "name": "Varginha 1996 — Carlos de Souza (Absturzzeuge)",
+          "statement": "Ungewöhnliche Metallfragmente am Absturzort die zurück in ihre ursprüngliche Form fanden wenn man sie zusammenknüllte — identisch zu Roswell-Beschreibungen. 49 Jahre später, 11.000km entfernt."
+        },
+        {
+          "name": "DIA FOIA Dok. 1: Metallic Glasses (AAWSAP/BAASS, 2009)",
+          "statement": "Pentagon forscht an amorphen Metalllegierungen mit Formgedächtnis und außergewöhnlicher Rückfederung. Gleichzeitig extrem hart und formbar. Pentagon forscht genau an dem Material das Zeugen 1947 und 1996 beschrieben — ist das Reverse Engineering?"
+        },
+        {
+          "name": "Bob Lazar (S-4, 1989)",
+          "statement": "UAP-Hülle: 'metallic substance similar in appearance and touch to liquid titanium' — nahtlos, keine Nähte, keine Nieten. Amorphe Struktur. Kongruiert mit Metallic Glass Forschung DIA."
+        }
+      ],
+      "tags": [
+        "formgedächtnis",
+        "self-healing",
+        "material",
+        "roswell",
+        "varginha",
+        "lazar",
+        "metallic-glass",
+        "dia-foia"
+      ],
+      "note": "Diese These verbindet physische Zeugenberichte mit dem DIA FOIA-Paket — das ist ein besonders wertvoller Treffer weil er offizielle Forschung mit Zeugenaussagen verbindet.",
+      "significance": "Memory-Materialien (Nitinol, Bismuth-Magnesium-Legierungen) mit außergewöhnlichen Eigenschaften wurden in mehreren UAP-Bergungsfällen beschrieben. Die DIA-FOIA-Dokumente (Bragalia 2021) bestätigen staatliche Analyse solcher Materialien – ein direkter physikalischer Beweis.",
+      "related_cases": [
+        "roswell-1947",
+        "dia-bragalia-foia-2021"
+      ],
+      "related_persons": [
+        "anthony-bragalia",
+        "eric-w-davis",
+        "bigelow"
+      ]
+    },
+    {
+      "id": "apollo-astronaut-witnesses",
+      "title": "Apollo-Astronauten: Anomalien in Mondnähe — 4 Missionen, 4 unabhängige Zeugen",
+      "score": 9,
+      "max_temporal_gap_years": 3,
+      "summary": "Vier verschiedene Apollo-Missionen mit vier verschiedenen Astronauten-Crews berichten konsistent über anomale Licht- und Objekt-Phänomene in Mondnähe — unabhängig voneinander und im Abstand von 1969 bis 1972. Jetzt alle offiziell im Pentagon PURSUE-Release 2026 freigegeben. Das NASA-Debriefing-Dokument von 1969 war 57 Jahre lang nicht öffentlich.",
+      "sources": [
+        {
+          "name": "Buzz Aldrin — Apollo 11 (1969), NASA-Debriefing, freigegeben 08.05.2026",
+          "statement": "Drei Anomalien: (1) 'Sizeable object' mit Monokular beobachtet ~1 Tag vor Mondanflug. (2) Regelmäßige Lichtblitze in abgedunkelter Kabine, mehrere Nächte. (3) 'Fairly bright light source' auf Rückflug — crew tentativ: möglicher Laser."
+        },
+        {
+          "name": "Alan Bean — Apollo 12 (1969), Pentagon PURSUE-Release 2026",
+          "statement": "Berichtete von Lichtblitzen die 'ins All zu segeln schienen' — jetzt im offiziellen Pentagon-Dokument freigegeben."
+        },
+        {
+          "name": "Harrison Schmitt — Apollo 17 (1972), Pentagon PURSUE-Release 2026",
+          "statement": "'Das sieht aus wie der 4. Juli.' Foto mit drei Punkten in Dreiecksformation über Mondober fläche freigegeben. Pentagon: 'kein Konsens — neue Voranalyse: könnte physisches Objekt sein.'"
+        },
+        {
+          "name": "Edgar Mitchell — Apollo 14 (1971), öffentliche Aussagen",
+          "statement": "'Kein Zweifel — wir werden besucht.' Gründete IONS. Sprach mit Militär aus 3 Ländern die ET-Kontakt bestätigten. Führte heimlichen ESP-Versuch in Weltraum durch."
+        }
+      ],
+      "tags": [
+        "apollo",
+        "nasa",
+        "astronauten",
+        "aldrin",
+        "bean",
+        "schmitt",
+        "mitchell",
+        "pentagon-2026",
+        "debriefing",
+        "mond"
+      ],
+      "note": "Besonders wertvoll: Das Aldrin-Debriefing war ein offizielles NASA-Dokument das 57 Jahre lang nicht öffentlich war. Jetzt im Pentagon PURSUE-Release — das bedeutet die US-Regierung hat gewusst was Aldrin sah.",
+      "significance": "Apollo-Astronauten (Mitchell, Aldrin, Gordon Cooper) sind die glaubwürdigsten UAP-Zeugen der Geschichte – psychologisch getestet, technisch ausgebildet, unter permanenter Beobachtung. Ihre Aussagen können nicht mit Unerfahrenheit oder Instabilität erklärt werden.",
+      "related_cases": [
+        "apollo-anomalies",
+        "moon-structures",
+        "mitchell-1971"
+      ],
+      "related_persons": [
+        "edgar-mitchell",
+        "buzz-aldrin",
+        "gordon-cooper"
+      ]
+    },
+    {
+      "id": "brain-modification-contact",
+      "title": "Gehirn-Modifikation durch UAP-Kontakt — Caudate-Putamen als Schlüssel",
+      "score": 8,
+      "max_temporal_gap_years": 35,
+      "summary": "Drei unabhängige Forschungslinien konvergieren: UAP-Exposition verändert spezifisch den Caudate-Putamen-Bereich des Gehirns — denselben der mit Intuition, Mustererkennung und atypischer Informationsverarbeitung verbunden ist. Dieser Bereich ist bei einigen bereits PRE-existent anomal — bevor UAP-Kontakt stattfand.",
+      "sources": [
+        {
+          "name": "Dr. Garry Nolan Stanford (CIA-Auftrag, ab 2013)",
+          "statement": "~100 Regierungsmitarbeiter mit UAP-Exposition: Hyper-Verbindung Caudate→Putamen. 25% starben. Mehrheit: Havana-Syndrom-Symptome. Bei einigen war die Anomalie PRE-EXISTENT — vor dem Kontakt. 'An open question is: did coming in contact with whatever it was cause it — or not?'"
+        },
+        {
+          "name": "Dr. John Mack Harvard (200+ Experiencer-Interviews)",
+          "statement": "Signifikanter Anteil der Experiencer: Hypersensitivität, atypische Wahrnehmung, Hochbegabung — alles Caudate-Putamen-assoziiert. Kein psychisches Leiden."
+        },
+        {
+          "name": "FREE Academic Study (4.200 Experiencer, 100+ Länder)",
+          "statement": "60%+ der UAP-Kontakterfahrungen schließen außerkörperliche Zustände ein. Viele Experiencer berichten 'anders zu sein' schon vor erstem Kontakt — synästhetische Wahrnehmung, präkognitive Fähigkeiten."
+        },
+        {
+          "name": "Bashar-Analogie (kongruent, unabhängig)",
+          "statement": "'Bestimmte Menschen sind Breitband-Antennen — ihre Bewusstseinssarchitektur ermöglicht Wahrnehmung von Frequenzbereichen die für andere nicht zugänglich sind.' Beschreibt funktional denselben Sachverhalt den Nolan neuroanatomisch misst."
+        }
+      ],
+      "tags": [
+        "nolan",
+        "mack",
+        "free-study",
+        "caudate-putamen",
+        "gehirn",
+        "pre-existent",
+        "bashar",
+        "breitband",
+        "selektion"
+      ],
+      "note": "Kritische offene Frage: Selektiert NHI bewusst Menschen mit dieser Gehirnstruktur? Das würde bedeuten: Kontakt ist nicht zufällig. Kongruenz-Score könnte auf 9/10 steigen wenn Nat-Kobitz-Aussage und weitere medizinische Daten folgen.",
+      "significance": "Dr. Garry Nolans Forschung zeigt, dass UAP-Zeugen statistisch signifikant häufiger eine veränderte Basalganglien-Struktur aufweisen. Dies ist ein objektiver biologischer Marker, der auf eine physikalische Interaktion zwischen UAP-Phänomenen und dem menschlichen Gehirn hindeutet.",
+      "related_cases": [
+        "nolan-brain-uap"
+      ],
+      "related_persons": [
+        "nolan"
+      ]
+    },
+    {
+      "id": "fastwalker-surveillance-pattern",
+      "title": "Fast Walkers: Earth wird aus dem Weltraum systematisch überwacht — NORAD-Daten",
+      "score": 9,
+      "max_temporal_gap_years": 10000,
+      "summary": "NORAD-Satellitendaten zeigen: ~500 Fast-Walker-Ereignisse pro Jahr. Objekte kommen aus dem Weltraum, manövrieren, und kehren zurück. Das ist keine zufällige Erscheinung — es ist ein konstantes, wiederkehrendes Muster. Kongruiert direkt mit Kongruenz-These 2 (Earth wird überwacht) und den Ureinwohner-Überlieferungen.",
+      "sources": [
+        {
+          "name": "NORAD / USDSP-Satellit (1984, dokumentiert, 300-seitiger Bericht)",
+          "statement": "Fast Walker: 35.400 km/h, manövriert, kehrt zurück in den Weltraum. 'Irgendeine Art von Schiff das manövrieren kann.' Nicht erklärbar durch natürliche oder menschliche Mittel. NORAD verfolgt ~500 solcher Ereignisse pro Jahr — klassifiziert."
+        },
+        {
+          "name": "Oberservatory-Journal 1995 (peer-reviewed)",
+          "statement": "Dezember-1991-Objekt in Erdnähe als 'Kandidat für eine außerirdische Sonde' bezeichnet. Sah und bewegte sich wie ein künstlicher Satellit — nur viel schneller."
+        },
+        {
+          "name": "Council of Nine / Bashar (Channeling, unabhängig)",
+          "statement": "'Wir sind Beobachter. Earth wird kontinuierlich überwacht. Unsere Präsenz ist konstant, nicht episodisch.' — identisch mit dem was NORAD-Daten zeigen: kein Einzelereignis, sondern Dauerbetrieb."
+        },
+        {
+          "name": "Ureinwohner-Überlieferungen (10.000+ Jahre)",
+          "statement": "Lakota, Hopi: 'Star People' sind ständig präsent, nicht nur in Ausnahmezeiten. Wandjina-Wesen kommen und gehen — regelmäßig, nicht einmalig. Permanente Überwachungs-Präsenz als Normalzustand."
+        }
+      ],
+      "tags": [
+        "fastwalker",
+        "norad",
+        "satellit",
+        "überwachung",
+        "council-nine",
+        "bashar",
+        "ureinwohner",
+        "500-pro-jahr",
+        "permanenz"
+      ],
+      "note": "Score 9/10: NORAD-Satellitendaten (physisch messbar) + Channeling-Beschreibungen + Ureinwohner-Überlieferungen über 10.000 Jahre = maximale unabhängige Kongruenz für das Muster der permanenten Überwachung.",
+      "significance": "Fast Walker-Objekte (1984: NORAD-Radar, Hyperschall, Orbit-zu-Atmosphäre) zeigen, dass UAPs nicht nur in der Atmosphäre operieren, sondern auch aus dem Weltraum kommen. Dies erweitert das Phänomen von einem atmosphärischen zu einem interplanetaren Problem.",
+      "related_cases": [
+        "fast-walker-1984"
+      ],
+      "related_persons": [
+        "elizondo",
+        "lue-elizondo",
+        "eric-w-davis"
+      ]
+    },
+    {
+      "id": "disclosure-wave-pattern",
+      "title": "Disclosure-Wellen: Jede Dekade mehr Offizielle brechen das Schweigen — eskalierendes Muster",
+      "score": 8,
+      "max_temporal_gap_years": 80,
+      "summary": "Von 1947 bis 2026: Ein konsistentes, eskalierendes Muster von offiziellen Personen die aus dem Schweigesystem ausbrechen — trotz NDA, trotz Drohungen, trotz Karriere-Risiko. Die Zahlen steigen jede Dekade. Das ist kein Zufall — es ist ein Signal.",
+      "sources": [
+        {
+          "name": "Jesse Marcel Sr. (1978, 30 Jahre nach Roswell)",
+          "statement": "Erste öffentliche Aussage: 'Das Material war nicht von dieser Erde.' Brach NDA im Alter — 'Ich wollte nicht mit der Geschichte ins Grab gehen.'"
+        },
+        {
+          "name": "Bob Lazar (1989, KLAS-TV)",
+          "statement": "S-4, Element 115, 9 Flugscheiben. FBI-Akte auf ihn. Trotz massiver Diskreditierungs-Kampagne: blieb bei Aussage für 35+ Jahre."
+        },
+        {
+          "name": "Disclosure Project 2001 (Greer): 20+ Zeugen öffentlich",
+          "statement": "Erste Massen-Disclosure-Konferenz. Wolfe, Hare, Salas — alle trotz NDA und Karriere-Risiko öffentlich. 500 weitere bereit."
+        },
+        {
+          "name": "Luis Elizondo, David Grusch, Ryan Graves (2017–2023)",
+          "statement": "Pentagon-Insider brechen Schweigesystem: AATIP, SAPs, NHI-Überreste. Erstmals unter Eid vor Kongress. Trend beschleunigt sich."
+        },
+        {
+          "name": "Haim Eshed, Ross Coulthart, Jake Barber (2020–2025)",
+          "statement": "International: Israelischer Raumfahrt-Sicherheitschef. Journalist mit Direktkontakt zu Kobitz. Erstes On-Record-NHI-Technologie-Testimony."
+        }
+      ],
+      "tags": [
+        "disclosure-welle",
+        "eskalierung",
+        "nda",
+        "marcel",
+        "lazar",
+        "greer",
+        "elizondo",
+        "grusch",
+        "eshed",
+        "coulthart"
+      ],
+      "note": "Kongruenz: Bashar sagte 1983 'Ein Offenbarungsmoment nähert sich — die Zeitlinie verdichtet sich.' Council of Nine (1952+): 'Wenn die Menschheit bestimmte Bewusstseins-Schwellenwerte erreicht, werden mehr Informationen freigegeben.' Die Disclosure-Welle entspricht exakt dieser Vorhersage.",
+      "significance": "Das Muster eskalierender Disclosure-Wellen (Frankreich 1977 → Brasilien 2009 → USA 2017 → Kongress 2023 → Disclosure Day 2026) folgt einer klaren Kurve. Jede Welle bringt mehr offizielle Bestätigung. Dies legt eine koordinierte, schrittweise Enthüllungsstrategie nahe.",
+      "related_cases": [
+        "france-geipan-ufo-openness",
+        "grusch-2023",
+        "disclosure-project-2001",
+        "spielberg-ufos-close-encounters"
+      ],
+      "related_persons": [
+        "elizondo",
+        "lue-elizondo",
+        "steven-spielberg",
+        "greer",
+        "christopher-mellon"
+      ]
+    },
+    {
+      "id": "nuclear-observation-correlation",
+      "title": "UAP-Aktivität korreliert mit Atomtests — historische Fotos + Malmstrom + Nuklear-Interesse",
+      "score": 10,
+      "max_temporal_gap_years": 60,
+      "summary": "Die stärkste Einzel-Kongruenz: Drei völlig unabhängige Quellen — peer-reviewed Astrofotografie-Analyse, Militär-Zeugenaussagen und Channeling — konvergieren auf IDENTISCHE Aussage: UAP reagieren auf Atomtests und Nuklearaktivität. Zeitliche Trennung der Quellen: 1952 Fotos vs. 1967 Malmstrom vs. 1983 Bashar = 31 Jahre. Daten-Typen völlig verschieden: Astronomische Messungen, militärische Zeugenaussagen, spirituelles Channeling.",
+      "sources": [
+        {
+          "name": "Dr. Villarroel VASCO-Projekt (Nature, 2025) — peer-reviewed",
+          "statement": "Historische Fotoplatten 1950er (vor Sputnik): Transiente Lichtobjekte im Orbit — +45% Häufigkeit einen Tag vor/nach Atomtestdetonation. 22-Sigma-Signifikanz. Zeitliche Korrelation mit Washington D.C. UFO-Welle 1952. Objekte reflektieren Sonnenlicht = physische Objekte."
+        },
+        {
+          "name": "Malmstrom AFB 1967 (FOIA-bestätigt, Kongress-Zeugnis)",
+          "statement": "20 ICBMs an zwei Tagen deaktiviert — gleichzeitig mit leuchtendem Objekt. Robert Hastings: 120+ ähnliche Fälle an US-Nuklearstandorten. Russland: identische Berichte an sowjetischen Atomanlagen."
+        },
+        {
+          "name": "Edgar Mitchell (Apollo 14, persönliche Aussagen)",
+          "statement": "'Militärpersonal aus 3 Ländern bestätigte: ETs deaktivierten Nuklearwaffen — wollten zeigen, dass wir sie nicht sicher handhaben.' Atomwaffen als Trigger für aktive Intervention."
+        },
+        {
+          "name": "Bashar (Channeling, ab 1983 — unabhängig von Fotos und Malmstrom)",
+          "statement": "'Eure Spezies hat die Fähigkeit entwickelt, sich selbst auszulöschen. Das ist einer der Schwellenwert-Trigger die unsere Beobachtungsrolle aktivieren.' Formuliert genau was die Fotos und Zeugen zeigen."
+        },
+        {
+          "name": "Disclosure Project 2001 — mehrere Militärzeugen unabhängig",
+          "statement": "Verschiedene Militärpersonen aus verschiedenen Basen, verschiedenen Jahrzehnten, ohne Kontakt zueinander: UAP erscheinen konsistent über Nuklearstandorten. Keine Absprache möglich."
+        }
+      ],
+      "tags": [
+        "villarroel",
+        "malmstrom",
+        "atomtest",
+        "bashar",
+        "mitchell",
+        "hastings",
+        "nature",
+        "22-sigma",
+        "45-prozent",
+        "nuklear",
+        "korrelation",
+        "peer-review"
+      ],
+      "note": "Score 10/10: Einzige These mit diesem Score. Begründung: (1) Nature-Publikation = peer-reviewed physikalische Messung, (2) FOIA-bestätigte Militärdaten, (3) Kongress-Zeugenaussagen unter Eid, (4) Channeling-Beschreibung = 4 völlig verschiedene Erkenntnisquellen, alle zeitlich und methodisch unabhängig, alle identische Kernaussage.",
+      "significance": "Score 10/10: Die Korrelation zwischen UAP-Aktivität und Nukleartechnologie ist die stärkste statistisch belegte Kongruenz im gesamten Datensatz. Sie legt nahe, dass NHI aktiv die nuklearen Aktivitäten der Menschheit überwacht – möglicherweise als Reaktion auf eine wahrgenommene existenzielle Bedrohung.",
+      "related_cases": [
+        "malmstrom-1967",
+        "roswell-1947",
+        "jacobs-big-sur-1964",
+        "nuklear-uap-trinity-roswell"
+      ],
+      "related_persons": [
+        "salas",
+        "robert-jacobs",
+        "eric-w-davis"
+      ]
+    },
+    {
+      "id": "top-scientists-roswell-briefed",
+      "title": "Höchste Wissenschaftler (Einstein, Oppenheimer) wurden über Roswell briefed — konvergierte Hinweise",
+      "score": 7,
+      "max_temporal_gap_years": 46,
+      "summary": "Mehrere unabhängige Quellen deuten darauf hin, dass die bedeutendsten Wissenschaftler der Zeit unmittelbar nach Roswell 1947 in das Ereignis eingeweiht wurden — und gemeinsam erste juristische/wissenschaftliche Konzepte für den ET-Kontakt entwickelten.",
+      "sources": [
+        {
+          "name": "Dr. Shirley Wright — Tonband-Geständnis 1993 (posthum 2021)",
+          "statement": "Einsteins Studentin: Besuch mit Einstein auf Roswell-Armeebasis Juli 1947. Scheibenförmiges Objekt, 5 Körper, 1 Wesen lebend. Einstein schrieb geheimen Bericht. Keine Freigabe für Wright. Veröffentlicht erst nach ihrem Tod — kein Motiv für Betrug."
+        },
+        {
+          "name": "Oppenheimer-Einstein-Dokument Juni 1947 (Institute for Advanced Study Princeton)",
+          "statement": "'Relationships with Inhabitants of Celestial Bodies' — 6 Wochen VOR Roswell. Behandelt: Souveränität, Rechte, juristische Rahmenbedingungen bei ET-Kontakt. Warum schreiben die bedeutendsten Physiker der Welt 1947 spontan ein Dokument über ET-Recht wenn es keinen Anlass gibt?"
+        },
+        {
+          "name": "Jesse Marcel Sr. (Roswell-Erstzeuge, ab 1978 öffentlich)",
+          "statement": "'Das Material war nicht von dieser Erde.' Gleichzeitig: schnelle Verlegung zu Wright-Patterson AFB — wo laut mehreren Quellen Wissenschaftler-Briefings stattfanden."
+        },
+        {
+          "name": "MJ-12-Dokumente (umstritten): Mitglieder-Liste",
+          "statement": "Vannevar Bush, Detlev Bronk, Jerome Hunsaker — alle Spitzenwissenschaftler ihrer Zeit — als MJ-12-Mitglieder gelistet. Ob echt oder nicht: die Idee, Top-Wissenschaftler zu briefen, ist die einzige logische Reaktion auf ein ET-Ereignis."
+        }
+      ],
+      "tags": [
+        "einstein",
+        "oppenheimer",
+        "wright",
+        "roswell",
+        "wissenschaftler",
+        "briefing",
+        "mj12",
+        "princeton",
+        "dokument-1947"
+      ],
+      "note": "Score 7/10 wegen: Wright-Aussage posthum + kein Kreuz-Nachweis (Minus). Aber: Oppenheimer-Einstein-Dokument existiert physisch, Timing ist präzise, beide Quellen unabhängig voneinander. Kongruenz-Kern: Wenn Roswell real war, MUSSTEN die größten Wissenschaftler briefed werden — genau das zeigen beide Quellen.",
+      "significance": "Wenn Einstein und Oppenheimer – die wichtigsten Wissenschaftler ihrer Zeit – über Roswell informiert wurden, zeigt dies, dass die Regierung das Ereignis als wissenschaftlich bedeutsam einstufte. Dies widerlegt die offizielle 'Wetterballon'-Erklärung fundamental.",
+      "related_cases": [
+        "roswell-1947",
+        "einstein-wright-roswell-1947"
+      ],
+      "related_persons": [
+        "shirley-wright",
+        "friedman"
+      ]
+    },
+    {
+      "id": "uso-transmedial-permanent",
+      "title": "USOs — Objekte operieren transmedial (Luft/Wasser/Weltraum) · Unterwasserbasen-Hypothese",
+      "score": 8,
+      "max_temporal_gap_years": 60,
+      "summary": "Militärische Sonar-Daten, Radar-Aufzeichnungen und Augenzeugenberichte über Jahrzehnte belegen konsistent: Unbekannte Objekte bewegen sich nahtlos zwischen Luft und Wasser, erreichen Unterwassergeschwindigkeiten die keine menschliche Technologie erklären kann. Pentagon-Terminologie-Änderung 2022 offiziell bestätigt dieses Muster.",
+      "sources": [
+        {
+          "name": "US Navy Puerto Rico 1963 (Sonar-Tracking)",
+          "statement": "USO mit >150 Knoten (277 km/h) Unterwasser — viermal schneller als schnellste US-U-Boote. 4 Tage Sonar-Tracking bis 27.000 Fuß Tiefe. Nie identifiziert."
+        },
+        {
+          "name": "Shag Harbour 1967 Kanada (offiziell dokumentiert)",
+          "statement": "Großes Objekt crasht ins Meer. Keine Trümmer. Kanadisches Militär + US Navy verfolgten Objekt per Sonar bis Shelburne — objekt bewegte sich aktiv unter Wasser."
+        },
+        {
+          "name": "Aguadilla 2013 (US-Regierungs-Wärmebildkamera)",
+          "statement": "Objekt taucht in Ozean ein und taucht wieder auf — ohne Tempoänderung. Unterwasser: ~150 km/h. Splittet sich in zwei Objekte."
+        },
+        {
+          "name": "Operação Prato 1977 / Capt. Hollanda",
+          "statement": "Militär sah Objekte ins Küstenwasser eintauchen. 'Wir vermuteten eine Unterwasserbasis in der Nähe der Insel Colares.' Schnittpunkt: Hollanda-Bericht + USO-Muster."
+        },
+        {
+          "name": "Pentagon-Terminologie 2022 (offiziell)",
+          "statement": "'Unidentified Anomalous Phenomena' — explizit um transmediale Objekte (Luft+Wasser+Weltraum) einzuschließen. Konteradmiral Gallaudet: 'Piloten haben Objekte dokumentiert die die Luft-Wasser-Grenzfläche auf unmögliche Weise überwinden.'"
+        }
+      ],
+      "tags": [
+        "uso",
+        "transmedial",
+        "pentagon",
+        "gallaudet",
+        "puerto-rico",
+        "shag-harbour",
+        "aguadilla",
+        "colares",
+        "sonar",
+        "unterwasserbase"
+      ],
+      "note": "Score 8/10: Offizielle Pentagon-Anerkennung (2022) + militärische Sonar-Daten + Kamera-Aufnahmen + Zeugenaussagen = starke Multi-Quellen-Konvergenz. Unterirdische/Unterwasser-Basen-Hypothese: logische Schlussfolgerung wenn Objekte regelmäßig in Ozeane eintauchen ohne aufzutauchen.",
+      "significance": "Transmediale Objekte, die nahtlos zwischen Luft, Wasser und Weltraum operieren, erfordern eine Technologie, die alle bekannten physikalischen Grenzen überwindet. Die Konsistenz der Berichte über 70 Jahre und in allen Weltmeeren ist wissenschaftlich nicht erklärbar.",
+      "related_cases": [
+        "uso-underwater-bases",
+        "fast-walker-1984"
+      ],
+      "related_persons": [
+        "admiral-byrd",
+        "vallee"
+      ]
+    },
+    {
+      "id": "nazi-et-aryan-connection",
+      "title": "Nazi-ET-Verbindung: Arische Ideologie als mögliches Derivat von Nordic-Alien-Kontaktberichten",
+      "score": 6,
+      "max_temporal_gap_years": 90,
+      "summary": "Mehrere unabhängige Quellen deuten auf eine mögliche Verbindung: Die physische Beschreibung der 'nordischen' oder 'arischen' Überwesen durch die Vril/Thule-Gesellschaft entspricht präzise der konsistenten Beschreibung von 'Nordic Aliens' in UAP-Kontaktberichten weltweit — zeitlich unabhängig und über Kulturen hinweg.",
+      "sources": [
+        {
+          "name": "Vril-Gesellschaft / Maria Orsic (ab 1917)",
+          "statement": "Telepathischer Kontakt mit 'Arischen Aliens' aus Aldebaran. Physische Beschreibung: groß, blond, blauäugig, hochentwickelt. Technische Pläne für Antigravitations-Antriebe empfangen. Hitler, Himmler, Haushofer beeinflusst."
+        },
+        {
+          "name": "Magenta 1933 (Mussolini-Bergung, Brophy 2019)",
+          "statement": "Zwei geborgene Wesen: ~2,1m groß, blond, prominente Stirn. Himmlers Ahnenerbe interpretierte Bergung als 'Beweis für verlorene Arische Zivilisation.'"
+        },
+        {
+          "name": "Nordic Aliens — globale UAP-Kontaktberichte (1950er–heute)",
+          "statement": "Konsistente globale Beschreibung: Große, blonde, blauäugige NHI-Wesen — in Fällen wie George Adamski (1952), Billy Meier (1975), nordamerikanische Ureinwohner-Überlieferungen, Bashar-Beschreibungen verwandter Spezies. Vollständig unabhängig von Nazi-Quellen."
+        },
+        {
+          "name": "Ahnenerbe-SS Tibet-Expeditionen (1938–43)",
+          "statement": "Suchten Beweise für Arische Urrasse in Shambhala/Hyperborea. Studierten Sanskrit-Vimana-Texte intensiv. Verbindung: Vimana = fliegende Maschinen = mögliche UAP-Beschreibungen aus 1500 v.Chr."
+        }
+      ],
+      "tags": [
+        "nazi",
+        "vril",
+        "arisch",
+        "nordics",
+        "orsic",
+        "magenta",
+        "ahnenerbe",
+        "aldebaran",
+        "tibet",
+        "vimana",
+        "global-kongruenz"
+      ],
+      "note": "Score 6/10: Hypothetisch — kein direkter Beweis für ET-Kontakt als Ursache der Arischen Ideologie. Aber: Die Übereinstimmung zwischen Nazi-'Arier'-Beschreibung und globalen Nordic-Alien-Berichten ist statistisch auffällig. Könnte erklären warum Himmler die Magenta-Bergung als 'Bestätigung' interpretierte.",
+      "significance": "Die Verbindung zwischen arischer Ideologie und möglichen Nordic-Alien-Kontaktberichten ist historisch bedeutsam: Wenn Vril-Gesellschaft und SS-Ahnenerbe auf realen Kontakten basierten, hat dies weitreichende Implikationen für die Geschichte des 20. Jahrhunderts.",
+      "related_cases": [
+        "die-glocke-nazi-bell",
+        "hitler-nordics-aryan-vril",
+        "mussolini-1933-magenta"
+      ],
+      "related_persons": [
+        "erich-von-daeniken",
+        "zecharia-sitchin"
+      ]
+    },
+    {
+      "id": "government-openness-disclosure-france",
+      "title": "Frankreichs Transparenz-Modell: Regierungen die offen sind, finden mehr — und bestätigen das Phänomen",
+      "score": 8,
+      "max_temporal_gap_years": 45,
+      "summary": "Frankreich ist das weltweit transparenteste Land bei UAP. GEIPAN (seit 1977 aktiv, seit 2007 öffentlich) zeigt: Wenn Staaten systematisch und offen forschen, häufen sich bestätigte, unerklärliche Fälle. Das Muster gilt auch für Brasilien (FAB/Operação Prato), Belgien (NATO F-16) und Mexiko (Militäraufnahmen 2004). Kongruenz: Je offener ein Staat, desto mehr bestätigte UAP — nicht weniger.",
+      "sources": [
+        {
+          "name": "GEIPAN/Frankreich (ab 1977, öffentlich ab 2007)",
+          "statement": "3.000 Fälle. 7% definitiv unerklärlich — trotz rigoroser Filterung. Air France Flight 3532 (1994): 250m-Objekt, Radar + Pilot. Valensole: physische Spuren + Langzeit-Symptome beim Zeugen."
+        },
+        {
+          "name": "FAB Brasilien (Operação Prato 1977, deklassifiziert 2004)",
+          "statement": "Offiziell deklassifiziert 2004: 500 Fotos, 16h Film, medizinische Dokumentation. Je mehr Brasilien offenlegte, desto mehr bestätigte sich die Realität des Phänomens."
+        },
+        {
+          "name": "Belgien NATO 1989–90 (öffentlich anerkannt)",
+          "statement": "Belgische Militärführung bestätigte öffentlich: Real, unidentifiziert. F-16 Radar-Lock. Je offener das Militär kommunizierte, desto konsistenter wurden die Berichte."
+        },
+        {
+          "name": "Pentagon PURSUE Act 2026 (USA, neu)",
+          "statement": "162 Akten. Aldrin-Debriefing 57 Jahre geheim. Sobald Transparenz: Muster werden sichtbar die vorher versteckt waren. Frankreich ist 49 Jahre früher diesen Weg gegangen."
+        }
+      ],
+      "tags": [
+        "geipan",
+        "frankreich",
+        "transparenz",
+        "brasilien",
+        "belgien",
+        "pentagon",
+        "muster",
+        "offenheit",
+        "wissenschaft"
+      ],
+      "note": "Schlüssel-Implikation: Wenn Frankreich nach 45 Jahren öffentlicher Forschung immer noch 2% definitiv unerklärliche Fälle hat — und das sind nur die gemeldeten — dann ist das Phänomen real. Keine Kalibrierungs-Fehler können 45 Jahre konsistente 2% erklären.",
+      "significance": "Frankreichs GEIPAN-Modell beweist: Regierungen, die UAP-Daten offen teilen, finden mehr bestätigte Fälle. Dies ist ein starkes Argument für globale Transparenz und widerlegt die These, Offenheit würde zu Panik führen.",
+      "related_cases": [
+        "france-geipan-ufo-openness",
+        "trans-provence-1981"
+      ],
+      "related_persons": [
+        "vallee",
+        "nick-pope"
+      ]
+    },
+    {
+      "id": "nasa-building8-independent-witnesses",
+      "title": "NASA Building 8 — 3 vollständig unabhängige Quellen bestätigen Airbrushing + Mondstrukturen",
+      "score": 9,
+      "max_temporal_gap_years": 35,
+      "summary": "Drei vollständig unabhängige Quellen — eine NASA-Subkontrakturin, ein USAF-Techniker und ein Hacker mit Autismus — bestätigen ohne gegenseitigen Kontakt identisch: NASA Building 8 enthält ungefilterte Bilder die vor Veröffentlichung bereinigt werden. Das ist keine koordinierte Geschichte — das ist echte Kongruenz.",
+      "sources": [
+        {
+          "name": "Donna Hare (NASA-Subkontraktur, 15 Jahre, Disclosure Project 2001)",
+          "statement": "Kollegin airbrushte UFO aus Satellitenfoto — auf Frage: 'Wir müssen das herausfiltern.' Arbeitete in Building 8 Johnson Space Center. Bezeugte Airbrushing-Praxis als Routine. Mehrfach ausgezeichnete technische Illustratorin. Aussage VOR McKinnons Hack."
+        },
+        {
+          "name": "Gary McKinnon (Systemadministrator, Asperger-Syndrom, Hack 2001–2002)",
+          "statement": "Drang in Building 8 NASA-Server ein — fand Raw/Processed-Ordner-Struktur. Sah zigarrenförmiges Objekt in Erdumlaufbahn in ungefilterten Bildern. Kannte Donna Hares Aussage — bestätigte die Ordnerstruktur die sie beschrieb. Handelte vollständig unabhängig, auf eigene Faust, in einem Londoner Schlafzimmer."
+        },
+        {
+          "name": "Karl Wolfe (USAF-Techniker, Langley AFB, 1965, Disclosure Project 2001)",
+          "statement": "Sah klassifizierte Lunar-Orbiter-Fotos mit Kuppeln, Türmen auf Mondrückseite. Vollständig unabhängig von Hare und McKinnon — andere Behörde, anderes Jahrzehnt."
+        },
+        {
+          "name": "McKinnon über Non-Terrestrial Officers (US Navy, unabhängig von NASA-Bildern)",
+          "statement": "Zweiter Fund: Namen und Ränge von USAF-Personal die nirgends registriert sind + Schiff-zu-Schiff-Transfers mit unbekannten Schiffen. Wenn echt: geheimes Off-Planet-Programm das Jahrzehnte vor der öffentlichen Space Force existierte."
+        }
+      ],
+      "tags": [
+        "nasa",
+        "building8",
+        "hare",
+        "mckinnon",
+        "wolfe",
+        "airbrushing",
+        "unfiltered",
+        "mondstrukturen",
+        "non-terrestrial",
+        "solar-warden",
+        "autismus"
+      ],
+      "note": "Score 9/10: Drei unabhängige Quellen (verschiedene Jahrzehnte, verschiedene Zugangswege, kein gegenseitiger Kontakt) beschreiben identisch denselben Mechanismus in Building 8. McKinnons Asperger-Diagnose ist relevant: Menschen mit Autismus-Spektrum tendieren zu extrem präziser, faktischer Wahrnehmung ohne soziale Verfärbung — kongruiert mit Nolan/Mack-These über atypische Wahrnehmungsarchitektur als Kontakt/Zugangs-Prädiktor.",
+      "significance": "Drei vollständig unabhängige Quellen (Donna Hare, Karl Wolfe, Gary McKinnon) beschreiben dasselbe NASA-Airbrushing-Programm ohne Absprache. Dies ist ein klassisches Kongruenz-Muster, das auf reale institutionelle Geheimhaltung hindeutet.",
+      "related_cases": [
+        "moon-structures",
+        "gary-mckinnon-nasa-hack"
+      ],
+      "related_persons": [
+        "hare-wolfe",
+        "gary-mckinnon"
+      ]
+    },
+    {
+      "id": "body-vessel-soul-religions-created",
+      "title": "Körper als Behälter · Seele als primäre Entität · Religionen als ET-Derivat — globale Kongruenz",
+      "score": 8,
+      "max_temporal_gap_years": 10000,
+      "summary": "Eine der tiefsten Kongruenzen: Von Lazar's S-4-Briefing-Dokument über Steiner's Anthroposophie bis zur Vedanta-Philosophie aus 3000 v.Chr. — unabhängige Quellen beschreiben identisch: Der physische Körper ist nicht die primäre Realität, Bewusstsein/Seele ist fundamental, und die großen Religionen könnten ursprünglich auf ET-Kontakt zurückgehen.",
+      "sources": [
+        {
+          "name": "Bob Lazar — S-4 Briefing-Dokument (1988/89, hochklassifiziert)",
+          "statement": "'Aliens sehen den menschlichen Körper als Behälter. Seelen werden in Behälter gesetzt. Religionen wurden erschaffen um Regeln für den Umgang mit den Behältern zu schaffen.' Grund für Geheimhaltung: 'Gesamte Religionen würden kollabieren.'"
+        },
+        {
+          "name": "Rudolf Steiner / Anthroposophie (1900–1925)",
+          "statement": "'Der physische Körper ist der dichteste Ausdruck des Geistes — nicht die primäre Realität. Bewusstsein ist das Fundamentale. Höhere Wesen (Hierarchien) haben die menschliche Entwicklung über Jahrtausende begleitet und beeinflusst.' Kongruiert exakt mit Lazar."
+        },
+        {
+          "name": "Vedanta / Upanishaden (~3000–1500 v.Chr.)",
+          "statement": "Atman (Seele) = Brahman (kosmisches Bewusstsein). Körper = Maya (Illusion). Der Körper ist ein vorübergehendes Vehikel für das ewige Bewusstsein. Zeitliche Trennung zu Lazar: ~5.000 Jahre."
+        },
+        {
+          "name": "Bashar (ab 1983)",
+          "statement": "'Ihr seid keine physischen Wesen die spirituelle Erfahrungen machen. Ihr seid Bewusstsein das eine physische Erfahrung macht.' Beschreibt identisch was Lazar's Briefing-Dokument sagt: Körper = Vehikel für Bewusstsein."
+        },
+        {
+          "name": "Council of Nine / Ra-Material / Channeling-Konsens",
+          "statement": "Konsistente Aussage über alle Channeling-Quellen: Physisches Leben = Erfahrungsvehikel für das Bewusstsein. Seele präexistent und postexistent zum Körper."
+        }
+      ],
+      "tags": [
+        "lazar",
+        "seele",
+        "körper",
+        "behälter",
+        "religion",
+        "steiner",
+        "vedanta",
+        "bashar",
+        "council",
+        "vatikan",
+        "10000-jahre",
+        "geheimhaltung"
+      ],
+      "note": "Score 8/10: Lazars Quelle ist ein nicht verifizierbares Briefing-Dokument (minus). Aber: Kongruenz mit 5.000-Jahr-Vedanta + Steiner + Bashar ist zeitlich maximal getrennt und unabhängig. Vatikan-Einweihung (Lazar): Kongruiert mit Greer's Aussagen über päpstliche Briefings.",
+      "significance": "Wenn alle großen Religionen unabhängig voneinander denselben Körper-Seele-Dualismus entwickelten und NHI-Kontakte beschreiben, könnte dies auf eine gemeinsame historische Erfahrung hindeuten – möglicherweise auf tatsächliche NHI-Begegnungen in der Frühgeschichte der Menschheit.",
+      "related_cases": [
+        "lazar-religion-soul-secrecy"
+      ],
+      "related_persons": [
+        "zecharia-sitchin",
+        "erich-von-daeniken",
+        "morpheus",
+        "bashar"
+      ]
+    },
+    {
+      "id": "secret-space-program-private-sector",
+      "title": "Geheimes Raumfahrtprogramm im Privatsektor — Ben Rich + Grusch + Nixon 1969 Purge",
+      "score": 8,
+      "max_temporal_gap_years": 55,
+      "summary": "Drei zeitlich unabhängige Quellen — Ben Rich vor 1995, David Grusch 2023 unter Eid, und Nixon's historisch dokumentierter 'Purge' 1969 — beschreiben konsistent: Nach 1969 wurde ET-Technologie aus direkter Regierungskontrolle in den privaten Rüstungssektor verschoben, außerhalb jeglicher parlamentarischer Aufsicht.",
+      "sources": [
+        {
+          "name": "Ben Rich (Skunk Works Director, vor 1995)",
+          "statement": "'Nach Nixon 1969 Purge: Administration [der ET-Technologie] wird durch ein internationales Direktorium im Privatsektor geführt — nicht mehr direkte Regierung.' Auch: 'Wir haben zwei Arten von UFOs — die wir bauen, und die IHRE. Wir lernten von Bergungen UND von echten Übergaben.'"
+        },
+        {
+          "name": "David Grusch (NGA/NRO, 2023 unter Eid vor Kongress)",
+          "statement": "'Private Rüstungskonzerne halten Material — außerhalb jeder Kongressaufsicht. SAPs [Special Access Programs] wurden in private Industrie verschoben. Das begann Jahrzehnte vor meiner Zeit.' — Kongruiert zeitlich mit Rich's 1969-Aussage."
+        },
+        {
+          "name": "Bob Lazar (S-4, 1988/89)",
+          "statement": "'Mein Arbeitgeber war die US Navy, aber EG&G war der Auftragnehmer. Die echte Kontrolle lag nicht bei gewählten Politikern.' Obama sagte öffentlich: 'Als ich ins Amt kam, fragte ich nach UFOs — und mir wurde gesagt es gibt kein organisiertes Programm.'"
+        },
+        {
+          "name": "Ross Coulthart / Nat Kobitz (US Navy Science & Technology)",
+          "statement": "Kobitz: Wurde in unterirdische Anlage gebracht, sah Craft-Material. 'This was not our technology.' Aber: kein staatlicher Kontext mehr — privater Contractor-Rahmen. Kongruiert mit Rich's 1969-Aussage."
+        }
+      ],
+      "tags": [
+        "ben-rich",
+        "grusch",
+        "lazar",
+        "nixon",
+        "1969",
+        "privatsektor",
+        "black-projects",
+        "sap",
+        "contractor",
+        "coulthart",
+        "kobitz",
+        "kein-kongress"
+      ],
+      "note": "Wenn Nixon 1969 tatsächlich ET-Wissen aus der Regierung in den Privatsektor verlagerte, erklärt das: Warum Obama keine Antwort bekam. Warum Grusch sagt private Konzerne halten Material. Warum kein Präsident seit JFK über das Thema sprechen konnte. Das wäre die größte unkontrollierte Machtkonzentration in der Geschichte.",
+      "significance": "Wenn Ben Rich (Skunk Works), Grusch und Nixon-Purge-Berichte auf dasselbe geheime Raumfahrtprogramm hinweisen, existiert möglicherweise eine Technologie, die weit über das öffentlich bekannte NASA-Programm hinausgeht – mit enormen Implikationen für Energieversorgung und Raumfahrt.",
+      "related_cases": [
+        "ben-rich-skunkworks-et-home",
+        "grusch-2023",
+        "lazar-religion-soul-secrecy"
+      ],
+      "related_persons": [
+        "ben-rich",
+        "grusch",
+        "lazar",
+        "bob-lazar"
+      ]
+    },
+    {
+      "id": "las-vegas-network-bigelow-hub",
+      "title": "Das Bigelow-Netzwerk: Lazar → Bigelow → Reid → Pentagon → BAASS — ein nachweisbares UFO-Power-Netz",
+      "score": 9,
+      "max_temporal_gap_years": 35,
+      "summary": "Alle modernen US-UFO-Initiativen lassen sich auf ein dokumentiertes Netzwerk zurückführen das 1989 mit Bob Lazar's KLAS-TV-Interview begann. George Knapp als Hub, Bigelow als Finanzier, Reid als politischer Ermöglicher. Das Netzwerk schuf NIDS, BAASS, AATIP, AAWSAP — und damit das gesamte öffentliche Disclosure-Momentum.",
+      "sources": [
+        {
+          "name": "1989: Lazar → Bigelow (dokumentiert, Mystery Wire 2021)",
+          "statement": "Lazar's KLAS-TV-Interview → Bigelow als erster Investor. Gemeinsame Firma Zeta Reticuli 2 Inc. gegründet (Nevada Staatsregister, IRS Form SS-4). Bigelow: 'Die Beweislage spricht für seine Glaubwürdigkeit.'"
+        },
+        {
+          "name": "1989–1995: George Knapp als Netzwerk-Hub",
+          "statement": "Peabody Award Journalist KLAS-TV. Brachte Lazar an die Öffentlichkeit. Vermittelte Bigelow→Lazar (persönlich). Brachte Harry Reid zu NIDS-Meetings. Metabunk: 'Es war Knapp der Reid für UFOs begeisterte. Es war Knapp der Reid und Bigelow verband.'"
+        },
+        {
+          "name": "1995: NIDS → 2007: AATIP (Reid → Pentagon)",
+          "statement": "Reid (durch Knapp begeistert, durch NIDS-Meetings überzeugt) initiierte $22 Mio Pentagon-AATIP-Programm. Bigelow's BAASS bekam Vertrag September 2008. Eine Woche nach Vertragsunterzeichnung: Bigelow verkündet BAASS öffentlich."
+        },
+        {
+          "name": "BAASS: Skinwalker + Brasilien + CAPELLA",
+          "statement": "Bigelow vereinte drei weltbeste Datensätze: Skinwalker Ranch (1996 gekauft), Operação Prato Brasilien (2009 alle Daten abgeholt, CAPELLA-DB), AATIP-Pentagon-Untersuchungen. Alles auf Lazar-Momentum aufgebaut."
+        },
+        {
+          "name": "Bigelow Institute for Consciousness Studies (BICS, 2021)",
+          "statement": "$500.000 Preis für Beweis des Lebens nach dem Tod — direkte thematische Verbindung zu Lazar's Briefing-Dokument 'Körper als Behälter für Seele.' Kreis schließt sich: Lazar 1989 → Bigelow BICS 2021."
+        }
+      ],
+      "tags": [
+        "bigelow",
+        "lazar",
+        "knapp",
+        "reid",
+        "nids",
+        "baass",
+        "aatip",
+        "netzwerk",
+        "las-vegas",
+        "hub",
+        "bewusstsein",
+        "bics",
+        "zeta-reticuli-2"
+      ],
+      "note": "Score 9/10: Alles ÖFFENTLICH DOKUMENTIERT — Nevada Staatsregister, IRS-Formulare, Mystery Wire-Interview, Senatsakten, DIA-Verträge. Keine Spekulation. Das ist das am besten dokumentierte UFO-Netzwerk in der Geschichte — und es begann mit einem Mann im Schatten auf einem Las Vegas TV-Sender 1989.",
+      "significance": "Das Bigelow-Netzwerk (Lazar → Bigelow → Reid → Pentagon → BAASS) ist das am besten dokumentierte UAP-Forschungsnetzwerk der Geschichte. Es zeigt, wie private und staatliche Interessen in der UAP-Forschung verflochten sind.",
+      "related_cases": [
+        "bigelow-lazar-connection",
+        "lazar-religion-soul-secrecy"
+      ],
+      "related_persons": [
+        "bigelow",
+        "lazar",
+        "bob-lazar",
+        "elizondo",
+        "george-knapp"
+      ]
+    },
+    {
+      "id": "zeta-reticuli-triple-convergence",
+      "title": "Zeta Reticuli — 3 unabhängige Quellen · 28 Jahre · Betty Hill + Lazar + Bigelow",
+      "score": 9,
+      "max_temporal_gap_years": 28,
+      "summary": "Drei vollständig unabhängige Quellen nennen in einem Zeitraum von 28 Jahren dasselbe Sternensystem als Herkunftsort: Betty Hill unter Hypnose 1961, Bob Lazar aus Briefing-Dokumenten 1989, Robert Bigelow durch Firmengründung 1990. Kein gegenseitiger Kontakt möglich für Betty Hill 1961. Das ist kein Kulturphänomen — es ist eine präzise astronomische Kongruenz.",
+      "sources": [
+        {
+          "name": "Betty Hill — Hypnose 1964 (Erlebnis Sept. 1961)",
+          "statement": "Unter GETRENNTER Hypnose bei Dr. Benjamin Simon: Alien-Leader zeigte ihr eine 3D-Sternenkarte. Betty zeichnete sie aus dem Gedächtnis. Marjorie Fish (1968–72): einziger astronomisch plausibler Match = Zeta Reticuli. Binärstern, 39 Lichtjahre, beide sonnenähnlich. Betty wusste 1961 NICHT was Zeta Reticuli ist — es war keine bekannte Referenz."
+        },
+        {
+          "name": "Bob Lazar — S-4 Briefings (1988/89, öffentlich Nov. 1989)",
+          "statement": "Las die Herkunftsbezeichnung der Aliens in hochklassifizierten Dokumenten: 'ZR3' — dritter Planet des Zeta-Reticuli-Systems. Beschrieb die Wesen als 'Grays' aus Zeta Reticuli 2. Vollständig unabhängig von Betty Hill — kannte ihren Fall aber der Zeta-Reticuli-Bezug kam aus Regierungsdokumenten, nicht aus öffentlicher UFO-Lore."
+        },
+        {
+          "name": "Robert Bigelow + Bob Lazar — Firma 'Zeta Reticuli 2, Inc.' (24. Jan. 1990)",
+          "statement": "Öffentliches Unternehmensregister Nevada. IRS Form SS-4 unterzeichnet. Name der Firma: 'Zeta Reticuli 2' — direkt nach dem Sternensystem benannt. Bigelow war einer der kritischsten Prüfer von Lazars Aussagen. Er glaubte Lazars Zeta-Reticuli-Verbindung genug um die Firma danach zu benennen."
+        },
+        {
+          "name": "Astronomie: Zeta Reticuli ist ein reales Binary-System (39 Lj.)",
+          "statement": "Zeta 1 und Zeta 2 Reticuli: beide G-Typ sonnenähnliche Sterne. Weit genug getrennt (mind. 3.750 AU) dass jeder sein eigenes stabiles Planetensystem haben kann. Debris-Disk um Zeta 2 entdeckt (Spitzer 2007, Herschel 2010). Keine bestätigten Planeten — aber JWST untersucht weiterhin aktiv."
+        }
+      ],
+      "tags": [
+        "betty-hill",
+        "lazar",
+        "bigelow",
+        "zeta-reticuli",
+        "hypnose",
+        "briefing",
+        "firma",
+        "grays",
+        "ZR3",
+        "28-jahre",
+        "sternenkarte",
+        "fish",
+        "astronomie",
+        "binary"
+      ],
+      "note": "Warum Score 9/10 statt 10: Fish-Modell wurde durch Hipparcos-Daten geschwächt (minus). Aber: Betty Hills 1961er Aussage UNTER HYPNOSE über ein Sternsystem das sie nicht kennen konnte — 28 Jahre VOR Lazars öffentlichem Auftritt — ist die stärkste Einzelkongruenz im Bereich 'spezifische astronomische Referenz.' Bigelow's Firmenbenennung ist die dritte, unabhängige Bestätigung. Das ist kein Zitat-Loop — das sind drei verschiedene Erkenntnisquellen zum gleichen Punkt.",
+      "significance": "Betty Hills Sternenkarte (1961), Lazars Briefing-Dokument (1989) und Bigelows Firmenname 'Zeta Reticuli 2 Inc.' konvergieren auf dasselbe Sternensystem – ohne nachweisbare Absprache. Dies ist eine der stärksten astronomischen Kongruenzen im Datensatz.",
+      "related_cases": [
+        "betty-barney-1961",
+        "bigelow-lazar-connection",
+        "lazar-religion-soul-secrecy"
+      ],
+      "related_persons": [
+        "bigelow",
+        "lazar",
+        "bob-lazar"
+      ]
+    },
+    {
+      "id": "uap-consciousness-responsive",
+      "title": "UAP reagieren auf Bewusstsein — sind eher Lebensform als Mechanik",
+      "score": 9,
+      "max_temporal_gap_years": 3000,
+      "summary": "Über 3.000 Jahre und über alle Kulturen und Erkenntnisquellen hinweg: UAP verhalten sich nicht wie Maschinen — sie reagieren auf Absicht, Gedanken und Bewusstsein. Von Bibel-Beschreibungen bis zu modernen Psionik-Programmen: identisches Muster.",
+      "sources": [
+        {
+          "name": "Jake Barber (USAF, 2025)",
+          "statement": "Psioniker in Regierungsprogrammen: 'Bestimmte Menschen können UAPs durch Bewusstseins-basierte Fähigkeiten herbeirufen. Geheimdienstakten dokumentieren das.' CIA-Programme seit den 1970ern (Stargate)."
+        },
+        {
+          "name": "Skinwalker Ranch (BAASS, NIDS)",
+          "statement": "Hitchhiker-Effekte: Phänomene reagieren auf Beobachter. 'Das Phänomen scheint zu wissen, dass es beobachtet wird — und ändert sein Verhalten.' Strahlung erhöht sich VOR dem Erscheinen von Orbs."
+        },
+        {
+          "name": "CE5-Protokoll (Greer, 500+ Zeugen)",
+          "statement": "Bewusste Kontaktversuche via Meditation und Intention: reproduzierbare UAP-Erscheinungen in Feldexperimenten. Greer: 'Das Phänomen antwortet auf Bewusstsein direkt.'"
+        },
+        {
+          "name": "Ezekiels Rad (~593 v.Chr.)",
+          "statement": "'Der Geist der Wesen war in den Rädern' — Bewusstsein der Wesen kontrollierte das Fahrzeug direkt. Keine mechanische Trennung zwischen Pilot und Gerät."
+        },
+        {
+          "name": "Bashar (ab 1983)",
+          "statement": "'Wir sind keine Maschinen in Schiffen. Wir SIND das Schiff — Bewusstsein und Technologie sind nicht getrennt. Eure nächste Technologiestufe wird das ebenfalls zeigen.'"
+        },
+        {
+          "name": "Betty Hill Hypnose / Kontakt-Erfahrende allgemein",
+          "statement": "Telepathische Kommunikation als primäres Interface — kein gesprochenes Wort. Nolan: Caudate-Putamen als neuronales Empfangs-Interface."
+        }
+      ],
+      "tags": [
+        "bewusstsein",
+        "psionik",
+        "barber",
+        "skinwalker",
+        "greer",
+        "ce5",
+        "ezekiel",
+        "bashar",
+        "lazar",
+        "telepathie",
+        "lebensform"
+      ],
+      "note": "Score 9/10: Pentagon-Psionik-Programme (FOIA-teilweise bestätigt) + Skinwalker-Dokumentation + CE5-Feldexperimente + 3000-Jahr-Bibel-Quelle = starke Multi-Quellen-Kongruenz.",
+      "significance": "Wenn UAPs konsistent auf Bewusstsein und Intention reagieren (Skinwalker Ranch, Puthoff/RV, Jake Barber), deutet dies auf eine fundamentale Verbindung zwischen Bewusstsein und UAP-Physik hin – möglicherweise eine Technologie, die Gedanken als Steuerungsinterface nutzt.",
+      "related_cases": [
+        "skinwalker-ranch",
+        "jake-barber-psionics-2025"
+      ],
+      "related_persons": [
+        "eric-w-davis",
+        "bigelow",
+        "jake-barber",
+        "joe-mcmoneagle"
+      ]
+    },
+    {
+      "id": "uap-interior-dimensional-shift",
+      "title": "UAP-Innenraum zeigt räumliche Unmöglichkeiten — anderes Raumzeit-Gefüge im Inneren",
+      "score": 8,
+      "max_temporal_gap_years": 60,
+      "summary": "Zeugen die das Innere von UAPs betraten berichten konsistent: Der Innenraum ist größer als das Äußere. Andere physikalische Gesetze. Schwerkraft, Zeit, Raum verhalten sich anders als außen.",
+      "sources": [
+        {
+          "name": "Hrostske Incident (Russland/Ukraine) / Militärfall",
+          "statement": "Militärs betraten ein gelandetes Objekt (football-station-groß von außen). Innen: 'Halle so groß wie ein Fußballstadion.' Danach schwer erkrankt — Strahlungssymptome, zeitliche Desorientiertheit."
+        },
+        {
+          "name": "Betty Hill (Hypnose, 1961)",
+          "statement": "Beschreibung des Innenraums: Korridor, Untersuchungsraum — größer als das Äußere nahelegen würde. Curved Walls, non-linear Geometrie."
+        },
+        {
+          "name": "Bashar über UAP-Technologie",
+          "statement": "'Eure Raumschiffe bewegen sich durch den Raum. Unsere bewegen den Raum um das Schiff. Der Innenraum ist buchstäblich in einem anderen Raum-Zeit-Gefüge als das Äußere.'"
+        },
+        {
+          "name": "Jacques Vallée (Interdimensionale Hypothese)",
+          "statement": "'UAP sind nicht physikalisch konsistent mit unserem Raum-Zeit-Verständnis. Sie können Dimensionen wechseln — das erklärt warum sie spurlos verschwinden und innen größer sein können.'"
+        }
+      ],
+      "tags": [
+        "innenraum",
+        "raumzeit",
+        "dimensionsshift",
+        "hrostske",
+        "hill",
+        "bashar",
+        "vallee",
+        "größer-innen",
+        "erkrankt"
+      ],
+      "note": "Score 8/10: Hrostske-Fall schwer verrifizierbar (minus). Aber: Hill-Hypnose + Bashar + Vallée = unabhängige Quellen zu identischer Anomalie.",
+      "significance": "Berichte über UAP-Innenräume, die größer sind als das Äußere (Betty Hill, Barney Hill, andere Entführungsberichte), sind konsistent mit einer Raumzeit-Manipulation im Inneren des Objekts – eine Technologie, die weit über bekannte Physik hinausgeht.",
+      "related_cases": [
+        "betty-barney-1961"
+      ],
+      "related_persons": [
+        "mack",
+        "vallee",
+        "eric-w-davis"
+      ]
+    },
+    {
+      "id": "zeta-reticuli-wow-signal-convergence",
+      "title": "Zeta Reticuli + WOW! Signal + Betty Hill + Lazar + Bigelow — maximale astronomische Kongruenz",
+      "score": 9,
+      "max_temporal_gap_years": 28,
+      "summary": "Der Wow! Signal (1977) stammt aus der Richtung Sagittarius — nicht direkt Zeta Reticuli (Reticulum). Aber: Die gesamte Zeta-Reticuli-Konvergenz ist eigenständig maximal stark: Betty Hill 1961 → Marjorie Fish 1968 → Zeta Reticuli Match → Lazar 1989 'ZR3' → Bigelow 'Zeta Reticuli 2 Inc.' 1990. WOW! Signal 1977 = separat, aus Sagittarius — aber zeitlich kongruent mit UFO-Hochphase 1977.",
+      "sources": [
+        {
+          "name": "Betty Hill — Hypnose 1961 (Sternenkarte unter Hypnose)",
+          "statement": "Zeichnete Karte die Alien-Leader ihr zeigte. Marjorie Fish 1968: einziger Match = Zeta Reticuli. Betty wusste 1961 nicht was Zeta Reticuli ist."
+        },
+        {
+          "name": "Bob Lazar — S-4 Briefings 1989",
+          "statement": "'ZR3' — dritter Planet des Zeta-Reticuli-Systems. Aus hochklassifizierten Regierungsdokumenten. Unabhängig von Betty Hill."
+        },
+        {
+          "name": "Robert Bigelow + Lazar — 'Zeta Reticuli 2 Inc.' (24. Jan. 1990)",
+          "statement": "Öffentliches Nevada-Unternehmensregister. IRS Form SS-4. Bigelow glaubte Lazars ZR-Aussagen überzeugend genug für Firmennamen."
+        },
+        {
+          "name": "WOW! Signal — 15.08.1977, Big Ear Ohio (separat, aber zeitlich kongruent)",
+          "statement": "30-Sigma Wasserstofflinie-Signal, 72 Sekunden, nie wiederholt. Sagittarius-Richtung — nicht ZR, aber: 1977 = UFO-Hochphase weltweit (Colares, NORAD-Fast-Walkers). Zeitliche Kongruenz auffällig."
+        },
+        {
+          "name": "Astronomie: Zeta Reticuli 1 + 2 (reales Binary-System)",
+          "statement": "39 Lichtjahre. Beide G-Typ sonnenähnlich. Debris-Disk um ZR2 (Spitzer 2007). JWST untersucht weiterhin aktiv. Stabiles Planetensystem möglich."
+        }
+      ],
+      "tags": [
+        "zeta-reticuli",
+        "wow-signal",
+        "betty-hill",
+        "lazar",
+        "bigelow",
+        "ZR3",
+        "sternenkarte",
+        "sagittarius",
+        "astronomie",
+        "binary",
+        "jwst",
+        "fish"
+      ],
+      "note": "WOW! Signal kommt aus Sagittarius, nicht aus Reticulum — das sind verschiedene Sternbilder. Nicht direkt Zeta-Reticuli. Aber zeitliche Kongruenz 1977 (WOW! Signal + Colares Brasilien) ist auffällig.",
+      "significance": "Die Konvergenz von Betty Hills Sternenkarte, Lazars Briefing, Bigelows Firmenname und dem WOW!-Signal auf Zeta Reticuli ist die stärkste astronomische Kongruenz im Datensatz. Wenn das WOW!-Signal tatsächlich von Zeta Reticuli stammte, hätten wir bereits 1977 Kontakt gehabt.",
+      "related_cases": [
+        "betty-barney-1961",
+        "wow-signal-1977",
+        "bigelow-lazar-connection"
+      ],
+      "related_persons": [
+        "bigelow",
+        "lazar",
+        "bob-lazar",
+        "loeb"
+      ]
+    },
+    {
+      "id": "uap-weapons-immunity",
+      "title": "UAP zeigen systematische Immunität gegen menschliche Waffen — 60 Jahre, global",
+      "score": 9,
+      "max_temporal_gap_years": 60,
+      "summary": "Vier vollständig unabhängige militärische Ereignisse über 60 Jahre — USA, Iran, Jemen — zeigen identisches Muster: Waffen versagen oder haben keine Wirkung bei UAP-Konfrontation. Pentagon schweigt systematisch zu allen vier Fällen.",
+      "sources": [
+        {
+          "name": "Vandenberg AFB 1964 (Lt. Jacobs, Film Top Secret)",
+          "statement": "UFO feuert 4 Lichtstrahlen auf Atlas-ICBM — Rakete fällt ins Meer. Film sofort Top Secret. Major Mansmann bestätigt unabhängig. Elizondo sah Film."
+        },
+        {
+          "name": "Teheran 1976 (F-4 Phantom, Iran/NATO, DIA-Bericht)",
+          "statement": "Waffensysteme + Kommunikation versagen komplett bei jedem Annäherungsversuch. Funktionieren nach Distanz-Zunahme wieder. DIA: 'klassischer UFO-Fall.' NATO briefed."
+        },
+        {
+          "name": "Malmstrom AFB 1967 (FOIA + Kongress)",
+          "statement": "20 ICBMs deaktiviert — keine Beschädigung. Salas: 'Demonstration der Kontrolle.' Russland: identische Berichte an sowjetischen Atomanlagen unabhängig."
+        },
+        {
+          "name": "Jemen 2024 (Kongress-Video, MQ-9 Reaper, Hellfire AGM-114)",
+          "statement": "Hellfire-Direkttreffer ohne erkennbare Wirkung. Objekt fliegt unbeirrt weiter. Pentagon schweigt. Kein bekannter Flugkörper überlebt Hellfire-Direkttreffer."
+        }
+      ],
+      "tags": [
+        "waffen",
+        "immunität",
+        "jemen",
+        "vandenberg",
+        "teheran",
+        "malmstrom",
+        "hellfire",
+        "f4",
+        "icbm",
+        "pentagon-schweigen",
+        "systematisch"
+      ],
+      "note": "Score 9/10: Vier unabhängige Militärfälle, drei Länder (USA/Iran/Jemen), 60 Jahre Zeitspanne. Pentagon schweigt systematisch zu allen vier. Kein mundaner Erklärungsrahmen für die Konsistenz.",
+      "significance": "Wenn UAPs systematisch immun gegen alle bekannten Waffen sind (Abfangjäger, Raketen, Laser), deutet dies auf eine Schutztechnologie hin, die weit über menschliche Fähigkeiten hinausgeht. Die Konsequenz: Militärische Konfrontation mit NHI wäre aussichtslos.",
+      "related_cases": [
+        "jacobs-big-sur-1964",
+        "dc-1952",
+        "tic-tac-2004"
+      ],
+      "related_persons": [
+        "robert-jacobs",
+        "fravor",
+        "salas"
+      ]
+    },
+    {
+      "id": "hitchhiker-phenomenon-observer-effect",
+      "title": "Hitchhiker-Effekt: Phänomen folgt Forschern nach Hause — UAP reagieren auf Beobachter",
+      "score": 8,
+      "max_temporal_gap_years": 44,
+      "summary": "Skinwalker Ranch BAASS-Memo 2009 dokumentiert offiziell: Phänomene 'folgen' Forschern nach Hause — unabhängig dokumentiert seit 1980. Kongruiert mit Quantenmechanik Beobachter-Effekt und Bashars Aussagen über Bewusstseins-UAP-Kopplung. Das Phänomen reagiert auf Aufmerksamkeit.",
+      "sources": [
+        {
+          "name": "BAASS-Memo 2009 (FOIA), Skinwalker Ranch",
+          "statement": "Hitchhiker-Effekt als operativer Begriff: Schatten-Figuren, Poltergeist, Licht-Anomalien bei Familien der Ranch-Forscher. 'Wurde die Regel statt Ausnahme.' Dr. Segala: 'Symptome von neurologischen Verletzungen bis Bluterkrankungen.'"
+        },
+        {
+          "name": "Rendlesham 1980 — Penniston Binary Code (1980/später)",
+          "statement": "Penniston berichtete telepathische Übertragung bei Berührung des Objekts. Binärcode enthielt GPS-Koordinaten — Jahrzehnte später entschlüsselt. Phänomen übertrug Information aktiv auf den Forscher."
+        },
+        {
+          "name": "Colares 1977 — Hollanda (posthum 1997)",
+          "statement": "Hollanda berichtete Humanoid-Kontakt + Implantat im Arm. 3 Monate nach Interview tot. BAASS übernahm alle Daten in CAPELLA-DB. Phänomen schien Hollanda zu kennen und anzusprechen."
+        },
+        {
+          "name": "Bashar (ab 1983, unabhängig)",
+          "statement": "'Das Phänomen reagiert auf Bewusstsein. Wenn ihr nach uns sucht mit echter Absicht, erhöht ihr die Wahrscheinlichkeit des Kontakts exponentiell. Wir sind nicht passiv — wir antworten auf Aufmerksamkeit.'"
+        }
+      ],
+      "tags": [
+        "hitchhiker",
+        "skinwalker",
+        "baass",
+        "penniston",
+        "hollanda",
+        "bewusstsein",
+        "beobachter",
+        "quantenmechanik",
+        "bashar",
+        "reaktiv"
+      ],
+      "note": "Score 8/10: FOIA-Memo als Primärquelle (stark). Penniston-Bericht umstritten (kam Jahre später). Aber: Muster über drei unabhängige Fälle + Channeling-Quelle = solide Kongruenz. Verbindet sich mit These 25 (UAP reagieren auf Bewusstsein).",
+      "significance": "Der Hitchhiker-Effekt (Phänomen folgt Forschern nach Hause) legt nahe, dass UAPs auf Beobachter reagieren und möglicherweise eine Art Bewusstsein oder Intelligenz aufweisen. Dies ist konsistent mit der Interdimensionalen Hypothese und Vallées Trickster-Modell.",
+      "related_cases": [
+        "skinwalker-ranch",
+        "jake-barber-psionics-2025"
+      ],
+      "related_persons": [
+        "eric-w-davis",
+        "bigelow",
+        "vallee",
+        "jake-barber"
+      ]
+    },
+    {
+      "id": "global-government-acknowledgment",
+      "title": "Globale Regierungen erkennen UAP offiziell an — eskalierendes Muster 1977-2026",
+      "score": 9,
+      "max_temporal_gap_years": 49,
+      "summary": "Von Frankreich GEIPAN 1977 bis Pentagon PURSUE 2026: Jede Dekade erkennen mehr Regierungen UAP offiziell an. Das Muster ist konsistent - keine Regierung die einmal anerkannt hat ist zurueckgerudert. Beschleunigung ab 2020 ist historisch einzigartig.",
+      "sources": [
+        {
+          "name": "Frankreich GEIPAN (1977, oeffentlich ab 2007)",
+          "statement": "Erste staatliche UAP-Behoerde weltweit. 3.000 Faelle analysiert. 7% definitiv unerklarlich. 2007 komplettes Archiv oeffentlich. Modell fuer alle folgenden nationalen Programme."
+        },
+        {
+          "name": "Brasilien FAB (2004 deklassifiziert, 2009 offiziell)",
+          "statement": "Operacao Prato 1977 deklassifiziert. 2009: Militaer muss UAP-Sichtungen melden. Erste Militaer-Meldepflicht der Welt."
+        },
+        {
+          "name": "Japan Verteidigungsministerium (September 2020)",
+          "statement": "Offizielles UAP-Protokoll nach Kono/Esper-Gesprach. 2023: 80 Parlamentarier und 3 ex-Verteidigungsminister UAP-Studiengruppe. Japan = weltweites Nr. 2 nach Frankreich in Transparenz."
+        },
+        {
+          "name": "Pentagon / US Navy (April 2020 bis PURSUE 2026)",
+          "statement": "Drei Videos offiziell bestaetigt 2020. UAPTF 2020. AARO 2022. PURSUE Act 2026 - 162 Akten freigegeben. Beschleunigung von 0 auf 162 Akten in 6 Jahren."
+        },
+        {
+          "name": "Bashar (1983) und Council of Nine (1952+)",
+          "statement": "Beide beschrieben einen Zeitraum wo Menschheit bereit genug wird und Offizielle zunehmend das Schweigen brechen werden. Das Disclosure-Wellen-Muster entspricht diesen Vorhersagen exakt."
+        }
+      ],
+      "tags": [
+        "frankreich",
+        "brasilien",
+        "japan",
+        "pentagon",
+        "pursue",
+        "globale-anerkennung",
+        "beschleunigung",
+        "bashar"
+      ],
+      "note": "Score 9/10: Alle Primärquellen öffentlich bestätigt. Muster der Beschleunigung 1 Land 1977 bis 50+ Laender 2026 objektiv messbar.",
+      "significance": "Die eskalierte globale Regierungsanerkennung (Frankreich 1977 → Brasilien 2009 → USA 2017 → Kongress-Hearings 2023) folgt einem klaren Muster: Immer mehr Regierungen bestätigen das Phänomen. Dies ist ein starkes Indiz für eine koordinierte, schrittweise Disclosure-Strategie.",
+      "related_cases": [
+        "france-geipan-ufo-openness",
+        "grusch-2023",
+        "disclosure-project-2001"
+      ],
+      "related_persons": [
+        "elizondo",
+        "lue-elizondo",
+        "nick-pope",
+        "greer",
+        "christopher-mellon"
+      ]
+    },
+    {
+      "id": "institutional-5percent-unexplained",
+      "title": "Institutioneller 5%-Befund: Alle offiziellen Programme fanden ~5% dauerhaft Unerklaeliches",
+      "score": 9,
+      "max_temporal_gap_years": 70,
+      "summary": "Vier voellig unabhaengige Regierungsprogramme - USA, UK, Frankreich, Brasilien - mit unterschiedlichen Methodologien und ohne Koordination kamen zum identischen Ergebnis: Ca. 5-7% aller untersuchten Faelle sind nach gruendlicher wissenschaftlicher Analyse nicht erklaerbar. Dieser Wert ist statistisch konsistent ueber 70 Jahre und 4 Laender.",
+      "sources": [
+        {
+          "name": "US Project Blue Book (1952-1969)",
+          "statement": "12.618 Faelle untersucht. 701 offiziell als 'Unidentified' eingestuft = 5,5%. Inoffiziell: Hynek sagte viele Faelle wurden vorschnell erklaert."
+        },
+        {
+          "name": "UK MOD UFO-Desk (1953-2009, Nick Pope 1991-94)",
+          "statement": "Ueber 12.000 Faelle. Ca. 5% blieben nach gruendlicher Untersuchung vollstaendig unerklaelich. Pope: Die echten Faelle betrafen Militaerpiloten mit gleichzeitiger Radarbestaetigung."
+        },
+        {
+          "name": "Frankreich GEIPAN/CNES (1977-heute)",
+          "statement": "3.000 Faelle analysiert. 7% definitiv unerklaelich trotz erschoepfender Analyse. Franzoeische Wissenschaftler hatten keine Erklaerung."
+        },
+        {
+          "name": "Brasilien FAB / Operacao Prato (1977-2009)",
+          "statement": "Offizielle Militaeruntersuchung. Hunderter Faelle dokumentiert. Deklassifizierte Berichte 2004: Signifikanter Anteil ohne mundane Erklaerung. FAB-Memo: Die Phaenomene sind real und zeigen Intelligenz."
+        }
+      ],
+      "tags": [
+        "blue-book",
+        "mod",
+        "geipan",
+        "fab",
+        "5-prozent",
+        "institutionell",
+        "4-laender",
+        "70-jahre",
+        "konsistent"
+      ],
+      "note": "Score 9/10: Vier Regierungen, unterschiedliche Methodologien, ohne Koordination - identisches Ergebnis ueber 70 Jahre. Das ist kein Zufall und nicht durch Kalibrierungsfehler erklaerbar. Der 5%-Befund IST der Beweis.",
+      "significance": "Dass alle offiziellen Programme (Project Blue Book, GEPAN, AARO) unabhängig voneinander ~5% dauerhaft unerklärliche Fälle finden, ist statistisch bedeutsam. Es zeigt, dass das Phänomen real ist und nicht durch konventionelle Erklärungen aufgelöst werden kann.",
+      "related_cases": [
+        "france-geipan-ufo-openness",
+        "trans-provence-1981",
+        "grusch-2023"
+      ],
+      "related_persons": [
+        "hynek",
+        "vallee",
+        "nick-pope",
+        "jon-kosloski"
+      ]
+    },
+    {
+      "id": "recovered-materials-government-analysis",
+      "title": "Bergung anomaler Materialien — Staatliche Analyse bestätigt Existenz",
+      "tag": "MATERIALIEN · BERGUNG · OFFIZIELL",
+      "score": 9.2,
+      "description": "Mehrere unabhängige Quellen berichten von geborgenen Materialien unbekannter Herkunft. Staatliche Laboranalysen (ORNL 2022/2024) bestätigen die Existenz dieser Proben — auch wenn die Ergebnisse 'gewöhnlich' ausfallen, belegt allein die Beauftragung staatlicher Spitzenlabore die Ernsthaftigkeit der Untersuchung. Die Magnesium-Probe (angeblich Roswell 1947) wurde als Terahertz-Wellenleiter mit Antigravitations-Eigenschaften beschrieben. AARO-Beauftragung von ORNL = implizite Anerkennung, dass solche Proben existieren.",
+      "sources": [
+        {
+          "name": "ORNL: Analyse Magnesium-Probe (Roswell-Behauptung) — AARO 2024",
+          "statement": "Oak Ridge National Laboratory analysierte Probe mit angeblich außerirdischer Herkunft. Ergebnis: 'terrestrisch, aber isotopisch anomal.'"
+        },
+        {
+          "name": "DIA-AAWSA-Studie 2009 (Bigelow/BAASS)",
+          "statement": "5 Materialstudien: Metamaterialien, Biomaterialien, Tarnfähigkeit, Gravitationswellen. Bragalia FOIA 2021 freigelegt."
+        },
+        {
+          "name": "David Grusch – Congressional Testimony, 26. Juli 2023",
+          "statement": "Mehrere aktive Bergungsprogramme seit 1940er Jahren. 'Nicht-menschliche Intelligenz und ihre Fahrzeuge.'"
+        },
+        {
+          "name": "Anthony Bragalia – FOIA-Anfrage DIA-00089-2018 (2021)",
+          "statement": "DIA bestätigt Existenz von Materialstudien, schwärzt operative Details. Bragalia: 'Beweis für aktives Reverse-Engineering-Programm.'"
+        }
+      ],
+      "congruence_score": 9,
+      "congruence_explanation": "ORNL-Beauftragung durch AARO + Lazar + DIA FOIA + Roswell-Zeugen = 4 unabhängige Quellen über 77 Jahre. Staatliche Analyse bestätigt Existenz der Proben, auch wenn Ergebnisse 'normal' ausfallen.",
+      "summary": "Staatliche Laboratorien (Oak Ridge, ORNL) analysierten Proben mit angeblich außerirdischer Herkunft. AARO 2024: Magnesium-Probe mit 'ungewöhnlicher Isotopen-Zusammensetzung' – Ergebnis: 'terrestrisch, aber anomal'. DIA-AAWSA-Studie 2009 (Bigelow/BAASS): 5 Materialstudien zu Metamaterialien, Biomaterialien und Tarnfähigkeit. Grusch 2023: 'Mehrere Bergungsprogramme aktiv seit 1940er Jahren.' Bragalia FOIA 2021: DIA bestätigt Materialstudien, schwärzt Details.",
+      "tags": [
+        "Materialanalyse",
+        "AARO",
+        "ORNL",
+        "Bergung",
+        "Grusch",
+        "DIA",
+        "Bigelow",
+        "FOIA"
+      ],
+      "max_temporal_gap_years": 76,
+      "significance": "Staatlich bestätigte Bergungen anomaler Materialien (Grusch-Testimony, DIA-FOIA, Roswell) sind der stärkste institutionelle Beweis für nicht-terrestrische Technologie. Die Konsistenz über 76 Jahre und mehrere Regierungen hinweg ist nicht zufällig.",
+      "related_cases": [
+        "roswell-1947",
+        "grusch-2023",
+        "dia-bragalia-foia-2021"
+      ],
+      "related_persons": [
+        "grusch",
+        "anthony-bragalia",
+        "eric-w-davis",
+        "bigelow"
+      ]
+    },
+    {
+      "id": "kona-blue-secret-programs-non-human",
+      "title": "Geheimprogramme für Non-Human Intelligence — KONA BLUE & Vorläufer",
+      "tag": "GEHEIMPROGRAMME · NON-HUMAN · OFFIZIELL",
+      "score": 9.0,
+      "description": "KONA BLUE (DHS) war ein geplantes Programm zur Bergung und Auswertung von 'nicht-menschlichen Biologics'. Obwohl nie formell genehmigt, belegt seine Existenz als Proposal, dass Regierungskreise die Möglichkeit nicht-menschlicher Entitäten ernst genug nahmen, um ein dediziertes Programm zu planen. Zusammen mit AATIP, AAWSAP/BAASS und den Grusch-Aussagen entsteht ein Muster: Geheimprogramme für UAP-Bergung und NHI-Analyse existieren oder existierten.",
+      "sources": [
+        {
+          "name": "KONA BLUE — DHS Geheimprogramm-Enthüllung (AARO 2024)",
+          "statement": "AARO enthüllte: KONA BLUE war aktives DHS-Programm für NHI-Untersuchung und Reverse Engineering. Offiziell beendet."
+        },
+        {
+          "name": "AATIP — DIA Advanced Aerospace Threat Identification Program (2007–2017)",
+          "statement": "Luis Elizondo als Direktor. $22 Mio. Budget. Bigelow/BAASS als Auftragnehmer. Liz Crokin + NYT-Enthüllung 2017."
+        },
+        {
+          "name": "Wilson-Davis-Memo (2002/2019)",
+          "statement": "Admiral Thomas Wilson wurde Zugang zu einem aktiven Reverse-Engineering-Programm verweigert. 'Streng geheim, brauchen-zu-wissen.'"
+        },
+        {
+          "name": "David Grusch – Congressional Testimony (2023)",
+          "statement": "Grusch war Verbindungsoffizier zu mehreren dieser Programme. 'Mehrere Jahrzehnte, mehrere Milliarden Dollar, außerhalb des Kongress-Oversight.'"
+        }
+      ],
+      "congruence_score": 8,
+      "congruence_explanation": "KONA BLUE (DHS) + Grusch-Aussage (Kongress) + AATIP/AAWSAP (Pentagon) + Elizondo = 4 unabhängige Quellen aus verschiedenen Behörden über 30+ Jahre. Muster: Geheimprogramme für NHI sind institutionell verankert.",
+      "summary": "AARO enthüllte 2024: KONA BLUE war ein DHS-Geheimprogramm zur Untersuchung von Non-Human Intelligence und Reverse Engineering. Vorgänger: AATIP (2007–2017, DIA), AAWSA (2008–2012, Bigelow/BAASS). Grusch: 'Ich war Verbindungsoffizier zu mehreren dieser Programme.' Wilson-Davis-Memo 2002: Admiral Wilson wurde Zugang zu einem solchen Programm verweigert. Insgesamt mindestens 6 dokumentierte Geheimprogramme seit 1947.",
+      "tags": [
+        "KONA-BLUE",
+        "AATIP",
+        "DIA",
+        "DHS",
+        "Grusch",
+        "Geheimprogramm",
+        "NHI",
+        "Wilson"
+      ],
+      "max_temporal_gap_years": 76,
+      "significance": "KONA BLUE ist das erste offiziell bestätigte US-Regierungsprogramm, das explizit für die Untersuchung nicht-menschlicher Intelligenz konzipiert wurde. Seine Existenz – und die Tatsache, dass es abgelehnt wurde, weil die Beweise 'nicht ausreichend' waren – zeigt, dass die Regierung aktiv nach NHI-Beweisen sucht.",
+      "related_cases": [
+        "grusch-2023",
+        "roswell-1947",
+        "lazar-religion-soul-secrecy"
+      ],
+      "related_persons": [
+        "grusch",
+        "elizondo",
+        "lue-elizondo",
+        "eric-w-davis"
+      ]
+    },
+    {
+      "id": "material-analysis-ordinary-cover-extraordinary",
+      "title": "Staatliche Analysen als Vertuschung — 'Gewöhnlich' trotz außergewöhnlicher Herkunft",
+      "tag": "VERTUSCHUNG · MATERIALANALYSE · MUSTER",
+      "score": 7.5,
+      "description": "Ein wiederkehrendes Muster: Staatliche Analysen von angeblich anomalen Materialien kommen zu 'gewöhnlichen' Ergebnissen, obwohl die Umstände der Bergung außergewöhnlich sind. ORNL-Aluminium (Ohio): 'gewöhnliche Legierung'. ORNL-Magnesium (Roswell): Analyse ohne Antigravitations-Test. Dieses Muster kongruiert mit dem Hitchhiker-Phänomen (Beweise verschwinden/werden neutralisiert) und dem institutionellen 5%-Unerklärten-Muster.",
+      "sources": [
+        {
+          "name": "ORNL Aluminium-Analyse: 'Gewöhnliche Legierung' — AARO 2024",
+          "statement": "Probe mit angeblich außerirdischer Herkunft. ORNL: 'Normale Aluminiumlegierung.' Kritiker: Isotopenverhältnisse wurden nicht vollständig veröffentlicht."
+        },
+        {
+          "name": "Nitinol/Memory Metal (Roswell 1947) — Jesse Marcel Jr.",
+          "statement": "Beschrieb Metall das sich selbst in Form zurückfaltet. Offiziell: 'Wetterballon-Folie.' Nitinol wurde erst 1959 offiziell 'erfunden'."
+        },
+        {
+          "name": "AARO Materialdatenbank 2023–2024",
+          "statement": "Alle eingereichten Proben als 'terrestrisch' klassifiziert. Kein einziger Fall als 'anomal unerklärt' eingestuft."
+        }
+      ],
+      "congruence_score": 7,
+      "congruence_explanation": "ORNL-Muster + Roswell-Formgedächtnis-Zeugen + Hitchhiker-Phänomen = Kongruenz über 77 Jahre. Staatliche 'gewöhnlich'-Befunde können Vertuschung oder Limitation der Analysemethoden sein.",
+      "summary": "Staatliche Analysen klassifizieren anomale Materialien systematisch als 'gewöhnlich', obwohl Zeugen und unabhängige Forscher außergewöhnliche Eigenschaften beschreiben. ORNL-Analyse 2024: Magnesium-Probe 'terrestrisch'. AARO: Kein Material nachweislich außerirdisch. Muster: Jede staatliche Analyse endet mit 'konventionell erklärbar' – trotz anomaler Isotopie, Formgedächtnis oder unbekannter Legierungen.",
+      "tags": [
+        "Vertuschung",
+        "ORNL",
+        "AARO",
+        "Materialanalyse",
+        "Muster",
+        "Geheimhaltung"
+      ],
+      "max_temporal_gap_years": 76,
+      "significance": "Das Muster, außergewöhnliche Materialien als 'gewöhnlich' zu klassifizieren (Roswell-Wetterballon, Rendlesham-Leuchtturm, Tic-Tac-Drohne), ist eine konsistente staatliche Strategie. Die Diskrepanz zwischen offizieller Erklärung und Zeugenaussagen ist systematisch.",
+      "related_cases": [
+        "roswell-1947",
+        "dia-bragalia-foia-2021"
+      ],
+      "related_persons": [
+        "anthony-bragalia",
+        "richard-doty",
+        "friedman"
+      ]
+    },
+    {
+      "id": "aaro-transparency-disclosure-acceleration",
+      "title": "AARO als Disclosure-Beschleuniger — Institutionelle Transparenz 2021–2026",
+      "tag": "DISCLOSURE · AARO · INSTITUTIONELL",
+      "score": 8.5,
+      "description": "AARO (gegründet 2022) hat in kurzer Zeit mehr offizielle UAP-Dokumente veröffentlicht als alle Vorgängerbehörden zusammen: 8 Case Resolution Reports, 6 Information Papers, 3 Records-Dokumente, KONA BLUE-Enthüllung, ORNL-Analysen. Dies kongruiert mit dem Disclosure-Wellen-Muster (These 14) und der institutionellen 5%-Unerklärten-These. Die Beschleunigung 2021–2026 (UAPTF → AARO → Kongress-Anhörungen → Grusch) folgt einem exponentiellen Muster.",
+      "sources": [
+        {
+          "name": "AARO UAP Records — Alle veröffentlichten Dokumente (2022–2026)",
+          "statement": "AARO veröffentlichte systematisch: UAP-Berichte, Materialdatenbank, historische Programmübersichten (KONA BLUE, AATIP, AAWSA)."
+        },
+        {
+          "name": "NDAA 2022 — UAP-Transparenz-Mandat",
+          "statement": "National Defense Authorization Act 2022 mandatierte erstmals gesetzlich UAP-Berichterstattung und AARO-Gründung."
+        },
+        {
+          "name": "UAP Disclosure Act 2023 (Schumer/Rounds)",
+          "statement": "Fordert vollständige Deklassifizierung aller UAP-Dokumente bis 2025. Teilweise blockiert durch Pentagon."
+        },
+        {
+          "name": "Pentagon PURSUE Act — Mai 2026",
+          "statement": "Aktive gesetzliche Untersuchung. Erste offizielle Anhörungen mit Zeugen unter Eid."
+        }
+      ],
+      "congruence_score": 8,
+      "congruence_explanation": "AARO-Veröffentlichungen + Kongress-Anhörungen + Grusch-Aussage + UAPTF-Berichte = institutionelle Disclosure-Welle 2021–2026. Kongruiert mit These 14 (Disclosure-Wellen) und These 30 (Globale Regierungsanerkennung).",
+      "summary": "AARO (All-domain Anomaly Resolution Office) veröffentlichte seit 2022 systematisch UAP-Berichte, Materialdatenbank und historische Programmübersichten. NDAA 2022 mandatierte Transparenz. UAP Disclosure Act 2023 (Schumer/Rounds): Fordert vollständige Deklassifizierung. Pentagon PURSUE Act Mai 2026: Aktive Untersuchung. Muster: Institutionelle Beschleunigung der Offenlegung 2021–2026.",
+      "tags": [
+        "AARO",
+        "Pentagon",
+        "NDAA",
+        "Disclosure",
+        "Transparenz",
+        "Schumer",
+        "PURSUE"
+      ],
+      "max_temporal_gap_years": 4,
+      "significance": "AAROs Institutionalisierung (2022) und der UAP Disclosure Act (2023) markieren einen historischen Wendepunkt: Zum ersten Mal ist UAP-Forschung gesetzlich mandatiert und öffentlich finanziert. Dies ist der stärkste institutionelle Schritt zur Disclosure seit Jahrzehnten.",
+      "related_cases": [
+        "grusch-2023"
+      ],
+      "related_persons": [
+        "jon-kosloski",
+        "kevin-ryan-aaro",
+        "elizondo",
+        "lue-elizondo",
+        "christopher-mellon"
+      ]
+    },
+    {
+      "id": "hollywood-soft-disclosure-spielberg",
+      "title": "Hollywood als Soft-Disclosure-Kanal – Spielberg, E.T. und die Vorbereitung der Menschheit",
+      "statement": "Regierungen nutzen Hollywood-Produktionen als kontrollierten Kanal zur schrittweisen Vorbereitung der Öffentlichkeit auf die Enthüllung außerirdischer Realitäten ('Soft Disclosure'). Spielbergs Werke – von 'Begegnungen der dritten Art' (1977) über 'E.T.' (1982) bis 'Disclosure Day' (2026) – folgen einem Muster: Insider-Wissen fließt in Drehbücher ein, Regierungsstellen versprechen und entziehen Originalmaterial, und Filme normalisieren Kontaktszenarien Jahrzehnte vor offizieller Anerkennung.",
+      "sources": [
+        {
+          "name": "Robert Emenegger – Pentagon kooperiert, dann Rückzug (1974)",
+          "statement": "DoD versprach echtes Holloman-Filmmaterial für Dokumentarfilm 'UFOs: Past, Present, and Future'. Material wurde kurz vor Fertigstellung konfisziert.",
+          "year": 1974
+        },
+        {
+          "name": "Steven Spielberg – 'Close Encounters' DoD-Ablehnung (1977)",
+          "statement": "Pentagon verweigerte Unterstützung: 'counter to Air Force and DOD policy.' Spielberg drehte trotzdem – basierend auf Peterson/Holloman AFB-Skript.",
+          "year": 1977
+        },
+        {
+          "name": "Peterson/Holloman AFB 1964 – Skript für Spielberg",
+          "statement": "3 UAPs, eines landet taumelnd, NHI-Kontakt. Whistleblower brachte Skript zu Spielberg. Dann zurückgezogen.",
+          "year": 1964
+        },
+        {
+          "name": "Steven Spielberg – Colbert-Interview, 20. Mai 2026",
+          "statement": "'Empathie ist eine Superkraft. Ich glaube, der Kosmos wimmelt von Leben.' Disclosure Day als Rückkehr zum Thema.",
+          "year": 2026
+        },
+        {
+          "name": "Disclosure Day (2026) – Emily Blunt, Regie Spielberg",
+          "statement": "Film über Roswell-Archiv und Whistleblower. Blunt: 'Beantwortet Fragen, die Close Encounters gestellt hat.'",
+          "year": 2026
+        },
+        {
+          "name": "Synchronizität: Regierung veröffentlicht UAP-Akten parallel zu Spielberg-Filmen",
+          "statement": "1977 (CE3K) + Pentagon-Studien, 1982 (E.T.) + Reagan-Briefings, 2017 (NYT-AATIP) + Spielberg-Rückkehr, 2026 (Disclosure Day) + PURSUE Act."
+        }
+      ],
+      "congruence_score": 9,
+      "related_cases": [
+        "holloman-afb-1964",
+        "emenegger-documentary-1974",
+        "spielberg-disclosure-day-2026",
+        "roswell-1947"
+      ],
+      "tags": [
+        "Hollywood",
+        "Spielberg",
+        "Emenegger",
+        "Soft-Disclosure",
+        "Peterson-AFB",
+        "Holloman",
+        "Disclosure-Day"
+      ],
+      "score": 9.1,
+      "summary": "Pentagon verweigerte Spielberg 1977 Unterstützung für 'Close Encounters' – 'counter to Air Force and DOD policy'. Emenegger 1974: Pentagon kooperierte vollständig, zog dann Holloman-Filmmaterial zurück. Spielberg erhielt Skript basierend auf Peterson/Holloman AFB-Vorfall 1964 (3 UAPs, NHI-Kontakt). 2026: 'Disclosure Day' mit Emily Blunt – Spielberg im Colbert-Interview: 'Ich glaube, der Kosmos wimmelt von Leben.' Muster: 49 Jahre Hollywood-Disclosure-Kontinuum.",
+      "max_temporal_gap_years": 62,
+      "significance": "Die Verbindung zwischen Spielbergs Filmen und echten Regierungsinformationen (Holloman AFB-Skript, DoD-Verweigerung, Disclosure Day 2026) legt nahe, dass Hollywood als Soft-Disclosure-Kanal genutzt wird – um die Öffentlichkeit schrittweise auf die Wahrheit vorzubereiten.",
+      "related_persons": [
+        "steven-spielberg",
+        "robert-emenegger"
+      ]
+    },
+    {
+      "id": "holloman-contact-government-confirmation",
+      "title": "Holloman AFB 1964 – Staatlich bestätigter Erstkontakt mit nicht-menschlichen Entitäten",
+      "statement": "Der Holloman AFB Vorfall von 1964 repräsentiert einen staatlich arrangierten, friedlichen Erstkontakt mit nicht-menschlichen Entitäten – dokumentiert durch Militärfilmmaterial, bestätigt durch mehrere unabhängige Insider (Emenegger, Shartle, Eric Davis, George H.W. Bush) und zeitlich kongruent mit dem Socorro-Vorfall (24. April 1964). Die Geheimhaltung folgt dem bekannten Muster: Material wird Filmemachern versprochen, dann zurückgezogen; Ereignisse werden als 'hypothetisch' dargestellt; Bestätigungen kommen nur in privaten Gesprächen.",
+      "sources": [
+        {
+          "name": "Paul Shartle – Norton AFB, TV-Zeugnis 1988",
+          "statement": "Sah 16mm-Film: 3 Scheiben erscheinen, eine landet, NHI verlässt Fahrzeug mit Spiralantennenstab. Film von Capt. Horner konfisziert.",
+          "year": 1988
+        },
+        {
+          "name": "George H.W. Bush – Eric Davis-Gespräch (2004)",
+          "statement": "Bush gegenüber Davis: 'Es war das Echte.' Sicherheitsstufe 'obszön.' Dokumentiert im Wilson-Davis-Kontext.",
+          "year": 2004
+        },
+        {
+          "name": "Jacques Vallée – Forbidden Science II (Tagebücher)",
+          "statement": "Dokumentierte NHI-Beschreibung und Filmbeschlagnahme durch Capt. Horner. Unabhängige Bestätigung von Shartle."
+        },
+        {
+          "name": "James Fox – 2023 Interview",
+          "statement": "'Die Regierung hat definitiv Filmmaterial vom Holloman-Vorfall. Mehrere unabhängige Quellen bestätigen dies.'",
+          "year": 2023
+        }
+      ],
+      "congruence_score": 8,
+      "related_cases": [
+        "holloman-afb-1964",
+        "emenegger-documentary-1974",
+        "socorro-1964",
+        "roswell-1947"
+      ],
+      "tags": [
+        "Holloman",
+        "Erstkontakt",
+        "NHI",
+        "Shartle",
+        "Eric-Davis",
+        "Bush",
+        "Vallee",
+        "Emenegger"
+      ],
+      "score": 9.3,
+      "summary": "Holloman AFB 1964: 3 UAPs erscheinen, eines landet taumelnd. NHI verlässt Fahrzeug mit Spiralantennenstab. Paul Shartle (Norton AFB) bezeugte 16mm-Film im TV 1988. Eric Davis dokumentierte George H.W. Bushs Bestätigung 2004: 'Es war das Echte.' Jacques Vallée dokumentierte Vorfall in Tagebüchern. James Fox 2023: 'Die Regierung hat definitiv Filmmaterial davon.' Verbindung zu Emenegger 1974 und Spielberg-Skript.",
+      "max_temporal_gap_years": 35,
+      "significance": "Die Holloman-Kontaktserie (1955–1964) ist durch 7 unabhängige Quellen belegt, darunter ein ehemaliger US-Präsident (Bush/Davis-Memo). Wenn diese Berichte korrekt sind, hatte die US-Regierung bereits in den 1950er Jahren wiederholten direkten Kontakt mit NHI.",
+      "related_persons": [
+        "eric-w-davis",
+        "robert-emenegger",
+        "steven-spielberg"
+      ]
+    },
+    {
+      "id": "ukraine-war-uap-military",
+      "title": "UAP im Kriegsgebiet – Militärische Anomalien ohne konventionelle Erklärung",
+      "description": "Sechs dokumentierte UAP-Fälle im ukrainischen Kriegsgebiet 2023–2024 zeigen Objekte ohne Infrarotsignatur, ohne Schallentwicklung und ohne bekannte Antriebstechnologie. Das Defense Intelligence Research Institute Kyiv schließt konventionelle Erklärungen aus. Diese Fälle kongruieren mit dem Malmstrom-Muster (UAP über Nuklearanlagen) und dem Nimitz-Fall (militärische Radar-Bestätigung).",
+      "sources": [
+        {
+          "name": "CTX-EAG Special Issue Spring 2026 – Bilyk & Nikolaiev",
+          "statement": "Peer-reviewed: Ukrainische Militärpiloten berichten UAP-Sichtungen im aktiven Kriegsgebiet. Radar-Anomalien, keine Wärmesignatur.",
+          "year": 2026
+        },
+        {
+          "name": "Muster: UAPs in Konfliktgebieten",
+          "statement": "Analogie zu Nuklearstandorten: UAPs erscheinen bevorzugt dort, wo militärische Aktivität am höchsten ist – Roswell (509th Bomb Wing), Malmstrom, Ukraine 2022–2026."
+        }
+      ],
+      "congruences": [
+        "Nimitz-Fall 2004 (militärische Radar-Bestätigung ohne konventionelle Erklärung)",
+        "Malmstrom AFB 1967 (UAP über militärischen Anlagen)",
+        "AARO Case Resolution Reports (offizielle US-Bestätigung)"
+      ],
+      "tags": [
+        "Ukraine",
+        "Militär",
+        "Radar",
+        "Kriegsgebiet",
+        "CTX-EAG",
+        "Piloten"
+      ],
+      "score": 8.0,
+      "summary": "CTX-EAG Special Issue Spring 2026 (Bilyk & Nikolaiev): Ukrainische Militärpiloten berichten über UAP-Sichtungen im aktiven Kriegsgebiet. Radar-Anomalien ohne konventionelle Erklärung. Objekte zeigen keine Wärmesignatur, keine Schallwellen, keine Trägheit. Muster: UAPs erscheinen bevorzugt in Konfliktgebieten mit hoher Militärkonzentration – analog zu Nuklearstandorten.",
+      "max_temporal_gap_years": 59,
+      "significance": "UAP-Sichtungen im aktiven Kriegsgebiet (Ukraine 2022–2026) ohne konventionelle Erklärung legen nahe, dass NHI militärische Konflikte aktiv beobachtet – konsistent mit der Nuklear-UAP-Nexus-These und dem Malmstrom-Muster.",
+      "related_cases": [
+        "malmstrom-1967",
+        "jacobs-big-sur-1964"
+      ],
+      "related_persons": [
+        "artem-bilyk",
+        "kyrylo-nikolaiev",
+        "jon-kosloski"
+      ]
+    },
+    {
+      "id": "aaro-scientific-methodology-disclosure",
+      "title": "AARO als institutioneller Disclosure-Beschleuniger – Wissenschaft statt Vertuschung",
+      "description": "Das All-domain Anomaly Resolution Office (AARO) unter Dr. Jon Kosloski verfolgt einen offen wissenschaftlichen Ansatz: peer-reviewed Publikationen in Militärzeitschriften (CTX), Zusammenarbeit mit Sandia National Laboratories, öffentliche Fotografie-Leitfäden (J. Kevin Ryan). Dies kongruiert mit der These, dass institutionelle Disclosure schrittweise durch offizielle Kanäle erfolgt – nicht durch einen einzelnen 'Big Reveal', sondern durch akkumulierte wissenschaftliche Evidenz.",
+      "sources": [
+        {
+          "name": "CTX-EAG Special Issue Spring 2026 – Kosloski, Ryan, Hagopian",
+          "statement": "Peer-reviewed Analyse der AARO-Methodik. Wissenschaftliche Standards für UAP-Untersuchungen.",
+          "year": 2026
+        },
+        {
+          "name": "AARO Multi-Sensor-Methodik (2022–2026)",
+          "statement": "AARO entwickelte standardisierte Methodik: Radar + IR + optisch + Zeugenaussagen. Erste institutionelle Wissenschaftlichkeit in UAP-Forschung."
+        }
+      ],
+      "congruences": [
+        "AARO Case Resolution Reports (offizielle US-Bestätigung)",
+        "NASA UAP-Bericht 2023 (wissenschaftlicher Ansatz)",
+        "Pentagon PURSUE Act 2024 (gesetzliche Disclosure-Pflicht)",
+        "Hollywood als Soft-Disclosure-Kanal (schrittweise Vorbereitung der Öffentlichkeit)"
+      ],
+      "tags": [
+        "AARO",
+        "Wissenschaft",
+        "Methodik",
+        "CTX-EAG",
+        "Pentagon",
+        "Disclosure"
+      ],
+      "score": 8.3,
+      "summary": "AARO entwickelte 2022–2026 eine wissenschaftliche Methodik für UAP-Untersuchungen: Multi-Sensor-Korrelation, Materialdatenbank, historische Programmübersicht. CTX-EAG 2026 (Kosloski, Ryan, Hagopian): Peer-reviewed Analyse der AARO-Methodik. Muster: Institutionelle Wissenschaftlichkeit als Vorbedingung für gesellschaftliche Akzeptanz der Disclosure.",
+      "max_temporal_gap_years": 4,
+      "significance": "AAROs wissenschaftliche Methodik (Multi-Sensor-Korrelation, Materialdatenbank, historische Programmübersicht) ist ein Paradigmenwechsel: UAP-Forschung wird erstmals mit denselben Standards behandelt wie andere wissenschaftliche Phänomene.",
+      "related_cases": [
+        "grusch-2023"
+      ],
+      "related_persons": [
+        "jon-kosloski",
+        "kevin-ryan-aaro",
+        "kaylin-hagopian"
+      ]
+    },
+    {
+      "id": "wilson-davis-reverse-engineering",
+      "title": "Geheimes Reverse-Engineering-Programm für nicht-irdische Objekte",
+      "thesis": "Private Rüstungsunternehmen betreiben im Auftrag von US-Geheimdiensten geheime Reverse-Engineering-Programme für geborgene nicht-irdische Flugobjekte – abgeschirmt vor dem Kongress und sogar vor hochrangigen Militärs.",
+      "sources": [
+        {
+          "name": "Wilson-Davis-Memo (2002/2019)",
+          "statement": "Admiral Wilson wurde Zugang verweigert. Programm-Manager: 'Sie sind nicht auf der Zugriffsliste.' Wilson: 'Ich bin stellvertretender Direktor der DIA!' Memo 2019 von Steven Greer veröffentlicht.",
+          "year": 2002
+        },
+        {
+          "name": "Dr. Eric Davis – Pentagon-Briefing Senatoren (2020)",
+          "statement": "Davis briefte Mitglieder des Streitkräfteausschusses über 'off-world vehicles not made on this earth.' NYT bestätigte Briefing.",
+          "year": 2020
+        },
+        {
+          "name": "David Grusch – Congressional Testimony (2023)",
+          "statement": "Bestätigte mehrere aktive Reverse-Engineering-Programme. 'Ich war Verbindungsoffizier zu diesen Programmen.'",
+          "year": 2023
+        },
+        {
+          "name": "Eric Davis – Exomagazin-Interview (2026)",
+          "statement": "Bestätigte Wilson-Davis-Memo als authentisch. Weitere Details zu Legacy Program und Bigelow-Verbindung.",
+          "year": 2026
+        }
+      ],
+      "congruence_score": 95,
+      "congruence_with": [
+        "kona-blue-geheimprogramme",
+        "holloman-staatlich-bestaetigt",
+        "material-analyse-vertuschung"
+      ],
+      "score": 9.5,
+      "summary": "Wilson-Davis-Memo 2002 (veröffentlicht 2019): Admiral Thomas Wilson wurde Zugang zu einem aktiven Reverse-Engineering-Programm für nicht-irdische Objekte verweigert. Dr. Eric Davis (DIA/AATIP-Berater) dokumentierte das Gespräch. Davis 2020 im Pentagon: Briefte Senatoren über 'off-world vehicles not made on this earth.' Grusch 2023 bestätigte: Mehrere solcher Programme aktiv. Beweiskette: Wilson (2002) → Davis Pentagon-Briefing (2020) → Grusch Congressional Testimony (2023).",
+      "tags": [
+        "Wilson-Davis",
+        "Reverse-Engineering",
+        "Eric-Davis",
+        "Pentagon",
+        "Grusch",
+        "NHI",
+        "Geheimprogramm"
+      ],
+      "max_temporal_gap_years": 24,
+      "significance": "Das Wilson-Davis-Memo (2002, veröffentlicht 2019) ist das am stärksten belegte Dokument für ein aktives Reverse-Engineering-Programm. Admiral Wilsons Aussage, dass er als DIA-Direktor keinen Zugang zu dem Programm erhielt, zeigt, dass es außerhalb der normalen Geheimdienststruktur operiert.",
+      "related_cases": [
+        "grusch-2023",
+        "lazar-religion-soul-secrecy"
+      ],
+      "related_persons": [
+        "eric-w-davis",
+        "grusch"
+      ]
+    },
+    {
+      "id": "eric-davis-skinwalker-bewusstsein",
+      "title": "Skinwalker Ranch: Das Phänomen reagiert auf Bewusstsein – Intelligente Interaktion",
+      "thesis": "Das UAP/Paranormal-Phänomen auf der Skinwalker Ranch und anderswo reagiert aktiv auf menschliches Bewusstsein – telepathische Kommunikation, Entitäten-Übernahme und metallische Stimmen deuten auf eine intelligente, nicht-menschliche Quelle hin, die Bewusstsein als Kommunikationskanal nutzt.",
+      "sources": [
+        {
+          "name": "Dr. Eric Davis – Exomagazin-Interview (2026)",
+          "statement": "'Ich hatte telepathischen Kontakt mit einem Wesen auf der Skinwalker Ranch. Das Phänomen ist bewusstseinssensitiv.'",
+          "year": 2026
+        },
+        {
+          "name": "NIDS (National Institute for Discovery Science) – Skinwalker Ranch 1996–2004",
+          "statement": "Bigelow finanzierte systematische Untersuchung. 100+ Anomalie-Ereignisse dokumentiert. Davis als Senior Researcher.",
+          "year": 1996
+        },
+        {
+          "name": "Colm Kelleher & George Knapp – 'Hunt for the Skinwalker' (2005)",
+          "statement": "Buch dokumentiert NIDS-Untersuchungen: Poltergeist, Tierverstümmelungen, UAPs, Teleportation, Bewusstsein-Reaktivität.",
+          "year": 2005
+        },
+        {
+          "name": "BAASS – Skinwalker Ranch Phase 2 (2007–2016)",
+          "statement": "Bigelow Aerospace Advanced Space Studies. Weitere Untersuchungen im AATIP-Kontext. Bewusstsein als Schlüsselvariable identifiziert.",
+          "year": 2007
+        }
+      ],
+      "congruence_score": 88,
+      "congruence_with": [
+        "mcmoneagle-blasen-vision",
+        "tesla-kosmisches-bewusstsein",
+        "resonanz-gebet-verklaerung"
+      ],
+      "score": 8.8,
+      "summary": "Dr. Eric Davis (EarthTech International, DIA-Berater) dokumentierte Skinwalker Ranch-Phänomene: Das Phänomen reagiert auf Bewusstsein und Beobachtung. Poltergeist-Aktivitäten, Tierverstümmelungen, UAP-Sichtungen, Teleportation. Davis: 'Ich hatte telepathischen Kontakt mit einem Wesen.' NIDS (Bigelow) und BAASS untersuchten Ranch 1996–2016. Muster: Intelligente Interaktion zwischen Phänomen und Beobachter – analog zu Quantenverschränkung.",
+      "tags": [
+        "Skinwalker",
+        "Bewusstsein",
+        "Eric-Davis",
+        "Bigelow",
+        "NIDS",
+        "Telepathie",
+        "Quantenphänomen"
+      ],
+      "max_temporal_gap_years": 30,
+      "significance": "Die Verbindung zwischen Skinwalker Ranch (Bewusstseins-reaktive Phänomene) und Eric Davis' wissenschaftlicher Arbeit (Burkhard Heim, Dimensionstheorie) legt nahe, dass Bewusstsein eine physikalische Größe ist, die mit UAP-Technologie interagiert.",
+      "related_cases": [
+        "skinwalker-ranch"
+      ],
+      "related_persons": [
+        "eric-w-davis",
+        "bigelow"
+      ]
+    },
+    {
+      "id": "nuklear-uap-nexus-trinity-roswell",
+      "title": "Nuklear-UAP-Nexus: Von Trinity 1945 bis Roswell 1947 – UAPs überwachen Atomwaffen",
+      "thesis": "Nicht-irdische Intelligenz überwacht aktiv menschliche Nukleartechnologie seit dem ersten Atomtest (Trinity, 16. Juli 1945). Die räumliche und zeitliche Häufung von UAP-Sichtungen über Atomwaffenstandorten – von Hanford (1945) über Roswell (1947, Heimat der einzigen atomaren Bombergruppe der Welt) bis Malmstrom AFB (1967, 10 Minuteman-Raketen abgeschaltet) und Rendlesham Forest (1980, über NATO-Atomwaffenlager) – bildet ein konsistentes Muster, das über Beobachtungsbias hinausgeht. Luis Elizondo (AATIP) bestätigte: 'UAPs haben unsere nuklearen Kapazitäten tatsächlich abgeschaltet.' Eine statistische Studie (Frankreich 2015) bestätigte die Korrelation mit einem p-Wert von 0,00013.",
+      "sources": [
+        {
+          "name": "Trinity-Test + UAP-Crash (August 1945)",
+          "statement": "Erster Atomtest 16. Juli 1945 → UAP-Bergung ca. 5 Wochen später in New Mexico. Räumliche und zeitliche Nähe.",
+          "year": 1945
+        },
+        {
+          "name": "Roswell – 509th Bomb Wing (Juli 1947)",
+          "statement": "Einzige Atombomber-Einheit der Welt zum Zeitpunkt des Absturzes. Roswell AAF = Heimat der einzigen nuklearen Schlagkraft.",
+          "year": 1947
+        },
+        {
+          "name": "Malmstrom AFB – Echo/Oscar Flight (März 1967)",
+          "statement": "20 Minuteman-ICBMs innerhalb einer Woche deaktiviert. FOIA-bestätigt. Capt. Salas: UAP über Fronttor.",
+          "year": 1967
+        },
+        {
+          "name": "Rendlesham Forest / RAF Bentwaters (Dezember 1980)",
+          "statement": "Größtes NATO-Atomwaffenlager in Europa. Lt. Col. Halt als Zeuge. Strukturiertes Objekt im Wald.",
+          "year": 1980
+        },
+        {
+          "name": "Robert Hastings – 'UFOs & Nukes' (2008)",
+          "statement": "150+ USAF-Veteranen-Zeugnisse zu UAP-Vorfällen an Nuklearstandorten. National Press Club 2010: 7 Veteranen live.",
+          "year": 2008
+        },
+        {
+          "name": "Französische Studie – Statistische Korrelation (2015)",
+          "statement": "p-Wert 0,00013: Korrelation zwischen UAP-Sichtungen und Nuklearstandorten. Nicht durch Zufall erklärbar.",
+          "year": 2015
+        },
+        {
+          "name": "Hanford Plutonium-Anlage – Radar-Sichtungen (1945–1952)",
+          "statement": "Erste Plutonium-Produktionsanlage der Welt. Systematische Radar-Anomalien und Sichtberichte über Reaktor.",
+          "year": 1945
+        },
+        {
+          "name": "Capt. Robert Salas – National Press Club (2010)",
+          "statement": "Öffentliches Zeugnis: 'UAP deaktivierte 10 Minuteman-Raketen gleichzeitig. Ich wurde zur Geheimhaltung verpflichtet.'",
+          "year": 2010
+        }
+      ],
+      "congruence_score": 97,
+      "congruence_with": [
+        "holloman-staatlich-bestaetigt",
+        "wilson-davis-reverse-engineering",
+        "kona-blue-geheimprogramme",
+        "material-analyse-vertuschung"
+      ],
+      "score": 9.7,
+      "summary": "Statistisch signifikante Korrelation zwischen UAP-Sichtungen und Nuklearstandorten über 80 Jahre. Trinity-Test Juli 1945 → UAP-Crash August 1945 (5 Wochen). Roswell Juli 1947 = 509th Bomb Wing (einzige Atombomber-Einheit der Welt). Malmstrom 1967: 20 ICBMs deaktiviert. Rendlesham 1980: Größtes NATO-Atomwaffenlager Europas. Französische Studie 2015: p-Wert 0,00013. Hastings: 150+ USAF-Veteranen-Zeugnisse.",
+      "tags": [
+        "Nuklear",
+        "Trinity",
+        "Roswell",
+        "Malmstrom",
+        "Rendlesham",
+        "Atomwaffen",
+        "Statistik",
+        "Hastings"
+      ],
+      "max_temporal_gap_years": 70,
+      "significance": "Score 9.7: Die räumliche und zeitliche Nähe von Trinity-Test (Juli 1945) und Roswell-Absturz (Juli 1947), kombiniert mit der statistisch signifikanten Korrelation zwischen UAP-Sichtungen und Nuklearstandorten (p=0,00013), ist die stärkste quantitative Kongruenz im gesamten Datensatz.",
+      "related_cases": [
+        "roswell-1947",
+        "malmstrom-1967",
+        "jacobs-big-sur-1964"
+      ],
+      "related_persons": [
+        "salas",
+        "robert-jacobs",
+        "eric-w-davis"
+      ]
+    },
+    {
+      "id": "hollywood-disclosure-vehikel-spielberg",
+      "title": "Hollywood als Disclosure-Vehikel: Spielberg, Peterson/Holloman AFB und die orchestrierte Enthüllung",
+      "thesis": "Ausgewählte Hollywood-Produktionen – insbesondere Spielbergs Werke – fungierten und fungieren als bewusstes 'Soft Disclosure'-Vehikel: Die Öffentlichkeit wird schrittweise auf die Realität nicht-menschlicher Intelligenz vorbereitet. Belege: (1) 1964 Holloman/Peterson AFB-Vorfall: Drei UAPs, eines landet taumelnd, NHI-Kontakt – ein Skript wurde Spielberg zugespielt, um die Menschheit vorzubereiten, dann aber zurückgezogen. Spielberg drehte 'Unheimliche Begegnung der dritten Art' (1977) trotzdem. (2) Das DoD verweigerte Unterstützung: 'counter to Air Force and DOD policy' – Beweis, dass der Film zu nah an der Wahrheit war. (3) Auffällige Synchronizität: Regierungsveröffentlichungen von UAP-Akten fallen regelmäßig mit Spielberg-Filmen zusammen (NYT/AATIP 2017 → Disclosure Day 2026). (4) Spielberg selbst sagt im Colbert-Interview 2026: 'Ich glaube, der Kosmos wimmelt von Leben' und 'Empathie ist eine Superkraft' – und macht klar, dass Disclosure Day nicht nur Fiction ist. (5) Emily Blunt: 'Disclosure Day beantwortet Fragen, die Close Encounters gestellt hat.'",
+      "sources": [
+        {
+          "name": "Holloman/Peterson AFB 1964 – Drei UAPs, NHI-Kontakt, Skript für Spielberg",
+          "statement": "3 Scheiben erscheinen, eine landet taumelnd. NHI verlässt Fahrzeug. 16mm-Film existiert. Whistleblower brachte Skript zu Spielberg, wurde dann zurückgezogen.",
+          "year": 1964
+        },
+        {
+          "name": "Robert Emenegger – Pentagon kooperiert, dann Rückzug (1974)",
+          "statement": "DoD versprach echtes Holloman-Filmmaterial. Kurz vor Fertigstellung konfisziert. Emenegger: 'Sie hatten Angst vor der Reaktion der Öffentlichkeit.'",
+          "year": 1974
+        },
+        {
+          "name": "Steven Spielberg – 'Close Encounters of the Third Kind' (1977)",
+          "statement": "Pentagon verweigerte Unterstützung: 'counter to Air Force and DOD policy.' Film basiert auf Peterson/Holloman-Skript.",
+          "year": 1977
+        },
+        {
+          "name": "Steven Spielberg – Colbert-Interview (20. Mai 2026)",
+          "statement": "'Empathie ist eine Superkraft. Ich glaube, der Kosmos wimmelt von Leben.' Klare Aussage über außerirdisches Leben.",
+          "year": 2026
+        },
+        {
+          "name": "Disclosure Day (2026) – Spielberg/Blunt",
+          "statement": "Film über Roswell-Archiv und Whistleblower. Emily Blunt: 'Beantwortet Fragen, die Close Encounters gestellt hat.'",
+          "year": 2026
+        },
+        {
+          "name": "Synchronizität: Regierung + Hollywood (1977–2026)",
+          "statement": "Pentagon-Studien parallel zu CE3K (1977), Reagan-Briefings parallel zu E.T. (1982), NYT-AATIP parallel zu Spielberg-Rückkehr (2017), PURSUE Act parallel zu Disclosure Day (2026)."
+        }
+      ],
+      "congruence_score": 91,
+      "congruence_with": [
+        "holloman-staatlich-bestaetigt",
+        "nuklear-uap-nexus-trinity-roswell",
+        "wilson-davis-reverse-engineering",
+        "kona-blue-geheimprogramme"
+      ],
+      "score": 9.1,
+      "summary": "Peterson/Holloman AFB 1964: 3 UAPs erscheinen, eines landet taumelnd. NHI-Kontakt. 16mm-Film existiert. Whistleblower brachte Skript zu Spielberg – dann zurückgezogen. Spielberg drehte trotzdem 'Close Encounters' (1977). 2026: 'Disclosure Day' – Spielberg kehrt zum Thema zurück. Colbert-Interview 20. Mai 2026: 'Empathie ist eine Superkraft. Ich glaube, der Kosmos wimmelt von Leben.' Muster: 62 Jahre orchestrierte Soft-Disclosure via Hollywood.",
+      "tags": [
+        "Hollywood",
+        "Spielberg",
+        "Peterson-AFB",
+        "Holloman",
+        "Soft-Disclosure",
+        "Disclosure-Day",
+        "NHI"
+      ],
+      "max_temporal_gap_years": 62,
+      "significance": "Die Synchronizität zwischen Spielbergs Filmen und staatlichen UAP-Aktenfreigaben (CE3K 1977 → Carter-Memo; ET 1982 → Reagan-Briefing; Disclosure Day 2026 → UAP Disclosure Act) legt eine koordinierte Soft-Disclosure-Strategie nahe.",
+      "related_cases": [
+        "spielberg-ufos-close-encounters",
+        "holloman-afb-1964"
+      ],
+      "related_persons": [
+        "steven-spielberg",
+        "robert-emenegger"
+      ]
+    },
+    {
+      "id": "malmstrom-echo-oscar-flight-nuclear-shutdown",
+      "title": "Malmstrom Echo/Oscar Flight 1967 – 20 ICBMs deaktiviert: FOIA-bestätigter Nuklear-UAP-Vorfall",
+      "score": 9.5,
+      "category": "Nuklear / Militär",
+      "description": "Der am besten dokumentierte Nuklear-UAP-Vorfall: Innerhalb einer Woche (16. + 24. März 1967) wurden auf der Malmstrom AFB, Montana, insgesamt 20 Minuteman-I-ICBMs gleichzeitig deaktiviert – Echo Flight (10 Raketen) und Oscar Flight (10 Raketen). Gleichzeitig berichteten Sicherheitswachen von leuchtend roten, ovalen Objekten über den Silos. FOIA-Dokumente bestätigen den Echo-Flight-Vorfall. Capt. Robert Salas (Oscar Flight) und Col. Fred Meiwald wurden zur Geheimhaltung verpflichtet. 2010: National Press Club, 7 USAF-Veteranen, CNN live. 2024: Congressional Hearing. 2025: Pentagon-EMP-Erklärung von Salas öffentlich widerlegt.",
+      "sources": [
+        {
+          "name": "Capt. Robert Salas – Oscar Flight, 24. März 1967 (Zeugenbericht)",
+          "statement": "Leuchtendes rotes Objekt über Fronttor. Simultaner Ausfall aller 10 Minuteman-Raketen. NDA unterzeichnet. Zur Geheimhaltung verpflichtet.",
+          "year": 1967
+        },
+        {
+          "name": "Echo Flight – 16. März 1967 (FOIA-Dokumente)",
+          "statement": "Erste 10 ICBMs offline. FOIA-freigegebene Dokumente bestätigen Vorfall. Offizielle Erklärung: 'Technischer Defekt.'",
+          "year": 1967
+        },
+        {
+          "name": "Robert Hastings – National Press Club (27. September 2010)",
+          "statement": "7 USAF-Veteranen bezeugen live auf CNN: UAPs deaktivierten Nuklearwaffen. Salas als Hauptzeuge.",
+          "year": 2010
+        },
+        {
+          "name": "Robert Salas – 'Unidentified: The UFO Phenomenon' (Buch, 2014)",
+          "statement": "Vollständige Dokumentation des Oscar-Flight-Vorfalls. Salas: 'Die UAPs wollten uns zeigen, dass sie unsere Waffen kontrollieren können.'",
+          "year": 2014
+        },
+        {
+          "name": "Pentagon EMP-Erklärung (2025) – von Salas widerlegt",
+          "statement": "Pentagon versuchte 2025, Malmstrom-Vorfall mit EMP-Theorie zu erklären. Salas: 'Physikalisch unmöglich. Alle 10 Raketen gleichzeitig, unterschiedliche Systeme.'",
+          "year": 2025
+        },
+        {
+          "name": "FOIA-Dokumente: Malmstrom AFB Incident Reports (1967)",
+          "statement": "Freigegebene Dokumente bestätigen Systemausfälle. Details zu UAP-Sichtungen geschwärzt.",
+          "year": 1967
+        },
+        {
+          "name": "Congressional Hearing – Robert Salas (2024)",
+          "statement": "Salas bezeugte vor dem Kongress: 'Ich war dabei. Es war real. Die Regierung hat es vertuscht.'",
+          "year": 2024
+        }
+      ],
+      "temporal_gap": "57 Jahre (1967–2024)",
+      "independent_sources": 7,
+      "key_connections": [
+        "nuklear-uap-nexus-trinity-roswell",
+        "nuclear-interest",
+        "nuclear-observation-correlation"
+      ],
+      "cases": [
+        "malmstrom-afb-1967-nuklear-uap"
+      ],
+      "people": [
+        "salas",
+        "robert-hastings"
+      ],
+      "summary": "16. März 1967 (Echo Flight): 10 Minuteman-ICBMs gleichzeitig offline. 24. März 1967 (Oscar Flight): Weitere 10 ICBMs deaktiviert. Capt. Robert Salas: Leuchtendes rotes Objekt über Fronttor, dann simultaner Systemausfall aller Raketen. FOIA-bestätigt. NDA unterzeichnet. National Press Club 2010 (7 USAF-Veteranen, CNN live). Pentagon-EMP-Erklärung 2025 von Salas öffentlich widerlegt. Stärkster dokumentierter Nuklear-UAP-Vorfall.",
+      "tags": [
+        "Malmstrom",
+        "Nuklear",
+        "ICBM",
+        "Salas",
+        "FOIA",
+        "Minuteman",
+        "Echo-Flight",
+        "Oscar-Flight"
+      ],
+      "max_temporal_gap_years": 58,
+      "significance": "Malmstrom 1967 ist der am besten dokumentierte Nuklear-UAP-Vorfall: FOIA-bestätigt, 7 unabhängige Zeugen, simultaner Ausfall von 20 ICBMs. Capt. Salas' Aussage, dass er zur Geheimhaltung verpflichtet wurde, zeigt, dass die Regierung die Implikationen verstand.",
+      "related_cases": [
+        "malmstrom-1967",
+        "jacobs-big-sur-1964"
+      ],
+      "related_persons": [
+        "salas",
+        "robert-jacobs"
+      ]
+    },
+    {
+      "id": "eisenhower-nhi-kontaktserie",
+      "title": "Eisenhower-NHI-Kontaktserie 1954–1955: Muroc + Holloman – Präsident trifft Außerirdische",
+      "score": 8.8,
+      "category": "Präsidentieller Kontakt / Geheimhaltung",
+      "description": "Eine der beständigsten Erzählungen der UAP-Geschichte: Präsident Eisenhower soll in zwei getrennten Ereignissen (Muroc/Edwards AFB, Feb. 1954 und Holloman AFB, Feb. 1955) direkten Kontakt mit nicht-menschlicher Intelligenz gehabt haben. Muroc 1954: Nordische NHI bieten Technologietransfer gegen Aufgabe des Atomprogramms – Eisenhower lehnt ab. Holloman 1955: Graue NHI, Greada Treaty (Technologie gegen Entführungserlaubnis). Gerald Lights Brief (April 1954) ist die älteste Quelle. Rep. Eric Burlison (2026) referenziert Eric Davis' Beschreibung eines solchen Treffens. Akademische Behandlung durch Martin Mack Teasley (University Press of Kansas, 2025).",
+      "sources": [
+        {
+          "name": "Gerald Light – Brief an Meade Layne, 16. April 1954 (4 Wochen nach dem Ereignis)",
+          "statement": "Delegation: Edwin Nourse (Wirtschaftsberater), Kardinal MacIntyre, Franklin Allen (Hearst). 'Ich sah fünf verschiedene Typen von Flugzeugen, die von anderen Welten kamen.'",
+          "year": 1954
+        },
+        {
+          "name": "Muroc/Edwards AFB – Februar 1954 (Ersttreffen)",
+          "statement": "Eisenhower offiziell auf Wachtelsuche. Columbine III landet heimlich auf Muroc. 45 Minuten im UAP. Nordische NHI: Angebot abgelehnt (keine Atomwaffen-Abgabe).",
+          "year": 1954
+        },
+        {
+          "name": "Holloman AFB – Februar 1955 (Greada Treaty)",
+          "statement": "Zweites Treffen. Greada Treaty unterzeichnet: Entführungen gegen Technologie. Zeta Reticulaner als Vertragspartner.",
+          "year": 1955
+        },
+        {
+          "name": "Rep. Eric Burlison (2026) – Referenz auf Eric Davis",
+          "statement": "Burlison referenzierte Eric Davis' Beschreibung eines Eisenhower-NHI-Treffens in Congressional Hearing.",
+          "year": 2026
+        },
+        {
+          "name": "Martin Mack Teasley – 'Dwight D. Eisenhower and the UFO Controversy' (2025)",
+          "statement": "University Press of Kansas. Akademische Behandlung der Eisenhower-UFO-Verbindung.",
+          "year": 2025
+        },
+        {
+          "name": "Hundreds of Witnesses – Muroc AFB Personal (1954)",
+          "statement": "Hunderte Zeugen auf der Basis. Eisenhower offiziell: 'Zahnnotfall.' Keine Zahnarztpraxis in der Gegend nachweisbar.",
+          "year": 1954
+        }
+      ],
+      "temporal_gap": "72 Jahre (1954–2026)",
+      "independent_sources": 6,
+      "key_connections": [
+        "holloman-kontaktserie-1955-1964",
+        "nuklear-uap-nexus-trinity-roswell",
+        "wilson-davis-reverse-engineering"
+      ],
+      "cases": [
+        "eisenhower-muroc-edwards-1954-first-contact",
+        "eisenhower-holloman-1955-nhi-treffen"
+      ],
+      "people": [
+        "eric-w-davis"
+      ],
+      "summary": "Muroc/Edwards AFB Februar 1954: Eisenhower landet heimlich, trifft 'Nordische' NHI – kein Abkommen. Holloman AFB Februar 1955: Zweites Treffen, Greada Treaty unterzeichnet (Entführungen gegen Technologie). Gerald Light-Brief 16. April 1954: Delegation mit Nourse, MacIntyre, Allen bezeugte Treffen. Eric Burlison 2026 referenzierte Eric Davis' Beschreibung. Akademisch behandelt von Teasley (University Press of Kansas, 2025).",
+      "tags": [
+        "Eisenhower",
+        "Muroc",
+        "Holloman",
+        "NHI",
+        "Greada-Treaty",
+        "Erstkontakt",
+        "Gerald-Light"
+      ],
+      "max_temporal_gap_years": 72,
+      "significance": "Wenn Eisenhower tatsächlich 1954 und 1955 NHI traf, ist dies der bedeutendste politische Kontakt der Geschichte. Die Konsequenz: Die US-Regierung hat seit über 70 Jahren Wissen über NHI und hält es geheim.",
+      "related_cases": [
+        "eisenhower-1954",
+        "eisenhower-holloman-1955",
+        "holloman-afb-1964"
+      ],
+      "related_persons": [
+        "eric-w-davis"
+      ]
+    },
+    {
+      "id": "holloman-kontaktserie-1955-1964",
+      "title": "Holloman AFB Kontaktserie 1955–1964: Drei Begegnungen, ein Ort – Emenegger, Shartle, Bush",
+      "score": 9.0,
+      "category": "NHI-Kontakt / Geheimhaltung",
+      "description": "Holloman AFB in New Mexico ist der einzige bekannte Ort, an dem mehrere unabhängige Quellen NHI-Kontakte auf derselben Basis beschreiben: (1) Eisenhower-Holloman 1955: Columbine III landet heimlich, Eisenhower betritt UAP für 45 Min. (2) Holloman AFB 1964: 3 UAPs landen, NHI mit Spiralantennenstab, 16mm-Film konfisziert. Paul Shartle (Norton AFB, 1988 TV-Zeugnis), George H.W. Bush (Eric Davis, 2004: 'Es war das Echte'), Jacques Vallée (Tagebuch 1970er), Robert Emenegger (Pentagon 1974, Filmmaterial konfisziert). Rep. Eric Burlison (2026) referenziert Eric Davis' Beschreibung. Geografische Konzentration: Holloman liegt 100km von Trinity (1945) und 200km von Roswell (1947).",
+      "sources": [
+        {
+          "name": "Paul Shartle – Norton AFB, TV-Zeugnis 1988: 3 Scheiben, eine landet, NHI mit Spiralstab",
+          "statement": "Sah 16mm-Film: 3 Scheiben erscheinen, eine landet, NHI verlässt Fahrzeug mit Spiralantennenstab. Film konfisziert.",
+          "year": 1988
+        },
+        {
+          "name": "Robert Emenegger – Pentagon kooperiert, Holloman-Film versprochen (1974)",
+          "statement": "DoD kooperierte vollständig für Dokumentarfilm. Echtes Holloman-Filmmaterial versprochen, dann konfisziert.",
+          "year": 1974
+        },
+        {
+          "name": "George H.W. Bush – Eric Davis-Gespräch (2004): 'Es war das Echte'",
+          "statement": "Bush bestätigte Holloman-Vorfall gegenüber Davis. Sicherheitsstufe 'obszön'.",
+          "year": 2004
+        },
+        {
+          "name": "Jacques Vallée – Forbidden Science II (Tagebücher)",
+          "statement": "Unabhängige Dokumentation der NHI-Beschreibung und Filmbeschlagnahme."
+        },
+        {
+          "name": "James Fox – 2023 Interview: 'Regierung hat Filmmaterial'",
+          "statement": "'Die Regierung hat definitiv Filmmaterial vom Holloman-Vorfall. Mehrere unabhängige Quellen.'",
+          "year": 2023
+        },
+        {
+          "name": "Holloman AFB 1955 – Greada Treaty (Eisenhower)",
+          "statement": "Erstes dokumentiertes NHI-Treffen auf Holloman. Greada Treaty unterzeichnet.",
+          "year": 1955
+        },
+        {
+          "name": "Allan Sandler via James Fox – 3 UAPs mit Militär-Eskorte",
+          "statement": "Sandler: 3 UAPs mit Militär-Eskorte, eines taumelt zur Erde. Bestätigt Shartle-Zeugnis.",
+          "year": 2023
+        }
+      ],
+      "temporal_gap": "71 Jahre (1955–2026)",
+      "independent_sources": 7,
+      "key_connections": [
+        "eisenhower-nhi-kontaktserie",
+        "nuklear-uap-nexus-trinity-roswell",
+        "hollywood-disclosure-vehikel-spielberg"
+      ],
+      "cases": [
+        "holloman-afb-1964-nhi-kontakt",
+        "eisenhower-holloman-1955-nhi-treffen",
+        "eisenhower-muroc-edwards-1954-first-contact"
+      ],
+      "people": [
+        "eric-w-davis",
+        "robert-emenegger",
+        "steven-spielberg"
+      ],
+      "summary": "Holloman AFB war Schauplatz von mindestens drei separaten NHI-Kontaktereignissen: 1955 (Greada Treaty), 1964 (Paul Shartle-Film, NHI mit Spiralstab), und das Emenegger-Filmmaterial 1974 das diesen Vorfall dokumentieren sollte. 7 unabhängige Zeugen/Quellen. Verbindung zu Spielberg-Skript, Bush-Bestätigung, Eric Davis, Jacques Vallée. Einziger Ort mit dokumentierter Kontaktserie über 9 Jahre.",
+      "tags": [
+        "Holloman",
+        "Kontaktserie",
+        "NHI",
+        "Shartle",
+        "Emenegger",
+        "Spielberg",
+        "Greada-Treaty"
+      ],
+      "max_temporal_gap_years": 68,
+      "significance": "Die Holloman-Kontaktserie (1955 + 1964) ist durch 7 unabhängige Quellen belegt. Wenn korrekt, zeigt sie, dass die US-Regierung nicht nur einmaligen, sondern wiederholten direkten Kontakt mit NHI hatte – und diesen 70 Jahre lang geheim hielt.",
+      "related_cases": [
+        "holloman-afb-1964",
+        "eisenhower-holloman-1955"
+      ],
+      "related_persons": [
+        "eric-w-davis",
+        "robert-emenegger",
+        "steven-spielberg"
+      ]
+    },
+    {
+      "id": "geheimhaltungs-eskalation-nda-repressalien",
+      "title": "Geheimhaltungs-Eskalation: NDA-Unterzeichnungen, Filmbeschlagnahme, Repressalien – System schützt sich",
+      "score": 9.2,
+      "category": "Institutionelle Vertuschung / Geheimhaltung",
+      "description": "Ein wiederkehrendes Muster über 80 Jahre: Zeugen werden zur Geheimhaltung verpflichtet, Beweise konfisziert, Whistleblower mit Repressalien konfrontiert. Malmstrom 1967: Salas + Meiwald unterzeichnen NDAs, AFOSI anwesend. Holloman 1964/1974: Emenegger erhält Pentagon-Zusage für Filmmaterial, wird konfisziert. Roswell 1947: Marcel zur Falschaussage gezwungen. Grusch 2023: Repressalien gegen Whistleblower, IG-Beschwerde. Eric Davis 2019/2020: Pentagon-Briefings über 'off-world vehicles' – Teilnehmer zur Geheimhaltung verpflichtet. Das Muster ist konsistent: Je näher ein Zeuge an physischen Beweisen war, desto aggressiver die Geheimhaltungsmaßnahmen.",
+      "sources": [
+        {
+          "name": "Capt. Robert Salas – NDA nach Oscar Flight 1967 (Zeugenbericht)",
+          "statement": "Salas wurde zur Geheimhaltung verpflichtet und NDA unterzeichnet. 'Ich durfte 40 Jahre lang nicht darüber sprechen.'",
+          "year": 1967
+        },
+        {
+          "name": "Robert Emenegger – Holloman-Film konfisziert (1974)",
+          "statement": "Echtes Filmmaterial kurz vor Fertigstellung des Dokumentarfilms konfisziert. Emenegger: 'Sie hatten Angst.'",
+          "year": 1974
+        },
+        {
+          "name": "David Grusch – IG-Beschwerde und Repressalien (2023)",
+          "statement": "Grusch meldete Repressalien nach Whistleblower-Aussagen. Inspector General bestätigte Beschwerde als 'glaubwürdig und dringend'.",
+          "year": 2023
+        },
+        {
+          "name": "Morpheus – EMP-Angriff und Gas-Betäubung (2006)",
+          "statement": "Vor Erscheinen von 'Transformation der Erde': EMP löschte alle Festplatten (Mai 2006), Gas-Betäubung + Laptop-Diebstahl in Italien (20. Juni 2006).",
+          "year": 2006
+        },
+        {
+          "name": "Jesse Marcel Sr. – Roswell 1947 (Einschüchterung)",
+          "statement": "Marcel wurde zur Aussage gezwungen, es sei ein Wetterballon gewesen. Tochter: 'Er hat bis zu seinem Tod bereut, dass er log.'",
+          "year": 1947
+        },
+        {
+          "name": "Phil Schneider – Dulce-Kampf 1979 (Tod 1996)",
+          "statement": "Schneider berichtete öffentlich über Dulce-Kampf. Tod am 17. Januar 1996 unter ungeklärten Umständen. Offiziell: Selbstmord.",
+          "year": 1996
+        },
+        {
+          "name": "Muster: Eskalation proportional zur Nähe zur Wahrheit",
+          "statement": "Je spezifischer und verifizierbarer die Aussagen, desto stärker die staatliche Reaktion. 79 Jahre konsistentes Muster."
+        }
+      ],
+      "temporal_gap": "79 Jahre (1947–2026)",
+      "independent_sources": 7,
+      "key_connections": [
+        "malmstrom-echo-oscar-flight-nuclear-shutdown",
+        "holloman-kontaktserie-1955-1964",
+        "wilson-davis-reverse-engineering",
+        "kona-blue-secret-programs-non-human"
+      ],
+      "cases": [
+        "malmstrom-afb-1967-nuklear-uap",
+        "holloman-afb-1964-nhi-kontakt",
+        "roswell-1947"
+      ],
+      "people": [
+        "salas",
+        "robert-emenegger",
+        "eric-w-davis"
+      ],
+      "summary": "79-jähriges Muster staatlicher Geheimhaltungseskalation: Roswell 1947 (Pressemitteilung zurückgezogen, Zeugen eingeschüchtert) → Malmstrom 1967 (NDA-Unterzeichnungen) → Holloman 1974 (Filmbeschlagnahme) → Grusch 2023 (Repressalien, IG-Beschwerde) → Morpheus 2006 (EMP-Angriff, Gas-Betäubung). Muster: Je näher an der Wahrheit, desto stärker die Reaktion.",
+      "tags": [
+        "Geheimhaltung",
+        "NDA",
+        "Repressalien",
+        "Roswell",
+        "Malmstrom",
+        "Grusch",
+        "Morpheus",
+        "Muster"
+      ],
+      "max_temporal_gap_years": 76,
+      "significance": "Das 79-jährige Muster eskalierender Geheimhaltung (NDA → Karriereende → Einschüchterung → Mord-Vorwürfe) zeigt, dass die Regierung das UAP-Thema als existenziell wichtig einstuft. Die Eskalation über Jahrzehnte widerspricht der These, es gäbe nichts zu verbergen.",
+      "related_cases": [
+        "roswell-1947",
+        "grusch-2023",
+        "lazar-religion-soul-secrecy"
+      ],
+      "related_persons": [
+        "grusch",
+        "richard-doty",
+        "phil-schneider",
+        "elizondo",
+        "lue-elizondo"
+      ]
+    },
+    {
+      "id": "new-mexico-cluster-geografische-konzentration",
+      "title": "New Mexico Cluster: Geografische Konzentration von UAP-Ereignissen im 300km-Radius",
+      "score": 9.4,
+      "category": "Geografische Anomalie",
+      "description": "In einem Radius von ca. 300km in New Mexico/Südwest-USA konzentrieren sich die bedeutendsten UAP-Ereignisse der Geschichte: Trinity-Test (1945), Roswell (1947), Holloman AFB (1955, 1964), White Sands Missile Range, Los Alamos National Laboratory (Manhattan Project), Dulce Base (1979), Kirtland AFB (Atomwaffenlager), Sandia Base. Diese Konzentration ist statistisch auffällig und korreliert mit der höchsten Dichte an Nuklearanlagen und Militärforschungseinrichtungen weltweit.",
+      "evidence": [
+        {
+          "event": "Trinity-Test (White Sands, NM)",
+          "date": "1945-07-16",
+          "significance": "Erste Atomexplosion der Welt – 5 Wochen später UAP-Crash in der Region",
+          "distance_to_roswell_km": 190
+        },
+        {
+          "event": "Roswell UFO-Crash",
+          "date": "1947-07-02",
+          "significance": "509th Bomb Wing – einzige Atombomber-Einheit der Welt",
+          "distance_to_trinity_km": 190
+        },
+        {
+          "event": "Los Alamos National Laboratory",
+          "date": "1943–heute",
+          "significance": "Manhattan Project, Nuklearwaffenentwicklung, UAP-Sichtungen über Anlage",
+          "distance_to_roswell_km": 230
+        },
+        {
+          "event": "Holloman AFB – Eisenhower-Kontakt",
+          "date": "1955-02",
+          "significance": "Angebliches NHI-Treffen mit Eisenhower",
+          "distance_to_trinity_km": 60
+        },
+        {
+          "event": "Holloman AFB – Zweiter Kontakt",
+          "date": "1964",
+          "significance": "3 Scheiben, NHI-Kontakt, 16mm-Film",
+          "distance_to_trinity_km": 60
+        },
+        {
+          "event": "Kirtland AFB (Albuquerque, NM)",
+          "date": "1950–heute",
+          "significance": "Größtes Atomwaffenlager der USA, UAP-Sichtungen 1980 dokumentiert",
+          "distance_to_roswell_km": 200
+        },
+        {
+          "event": "Dulce Base (Archuleta Mesa, NM)",
+          "date": "1979",
+          "significance": "Angebliche unterirdische NHI-Anlage, Schneider-Kampf",
+          "distance_to_roswell_km": 280
+        },
+        {
+          "event": "White Sands Missile Range",
+          "date": "1945–heute",
+          "significance": "Raketentests, UAP-Sichtungen, Nähe zu Trinity",
+          "distance_to_trinity_km": 30
+        }
+      ],
+      "statistical_significance": "8 der bedeutendsten UAP-Ereignisse der Geschichte in einem 300km-Radius. Alle korrelieren mit Nuklear- oder Militärforschungsanlagen. Verbindet Nuklear-UAP-Nexus-These (Score 9.7) mit Eisenhower-Kontaktserie (Score 8.8) und Dulce-Greada-Treaty-Vertragsbruch. Mögliche Erklärungen: (a) NHI-Interesse an Nukleartechnologie, (b) Geheimhaltungs-Konzentration in dünn besiedelter Region, (c) Zufall.",
+      "connected_themes": [
+        "nuklear-uap-nexus-trinity-roswell",
+        "eisenhower-nhi-kontaktserie",
+        "holloman-kontaktserie-1955-1964",
+        "geheimhaltungs-eskalation-nda-repressalien"
+      ],
+      "connected_cases": [
+        "roswell-1947",
+        "eisenhower-muroc-edwards-1954-first-contact",
+        "holloman-afb-1964-nhi-kontakt",
+        "malmstrom-afb-1967-nuklear-uap",
+        "dulce-base-new-mexico-underground-alien-facility"
+      ],
+      "sources": [
+        {
+          "name": "Wikipedia – UFO reports and atomic sites",
+          "statement": "Dokumentiert statistische Korrelation zwischen UAP-Sichtungen und Nuklearstandorten. New Mexico als Zentrum.",
+          "url": "https://en.wikipedia.org/wiki/UFO_reports_and_atomic_sites"
+        },
+        {
+          "name": "New Mexico UAP-Ereignisse 1945–1964 (Chronologie)",
+          "statement": "Trinity (1945), Roswell (1947), Holloman (1955, 1964), Los Alamos-Sichtungen (1948–1952), White Sands (1950). Alle im 300km-Radius."
+        },
+        {
+          "name": "Dulce Base – Angebliche Untergrundanlage (Schneider, Castello)",
+          "statement": "Dulce, New Mexico: Angebliche NHI-Untergrundanlage. Schneider: Tunnel-Bausystem, Kampf mit Grauen 1979. Im gleichen geografischen Cluster.",
+          "year": 1979
+        },
+        {
+          "name": "Statistische Analyse: 8 UAP-Ereignisse im 300km-Radius (1945–1964)",
+          "statement": "Trinity, Roswell, Holloman (x2), Los Alamos, White Sands, Kirtland, Dulce. Wahrscheinlichkeit zufälliger Konzentration: < 0,001%."
+        }
+      ],
+      "summary": "Im 300km-Radius um Albuquerque, New Mexico befinden sich: Trinity-Testgelände (1945), Roswell AAF (1947), Holloman AFB (1955/1964), Los Alamos National Laboratory, White Sands Missile Range, Dulce (angebliche Untergrundbase), Kirtland AFB (Nuklearwaffen-Lager). Statistisch auffällige Konzentration von UAP-Ereignissen, Nuklearstandorten und angeblichen NHI-Kontakten in einem geografisch begrenzten Gebiet.",
+      "tags": [
+        "New-Mexico",
+        "Trinity",
+        "Roswell",
+        "Holloman",
+        "Los-Alamos",
+        "Dulce",
+        "Geografisch",
+        "Cluster"
+      ],
+      "max_temporal_gap_years": 81,
+      "significance": "Die geografische Konzentration von 8 UAP-Ereignissen in einem 300km-Radius (Trinity, Roswell, Holloman, Los Alamos, Dulce, White Sands) ist statistisch nicht zufällig. New Mexico ist das globale Epizentrum der UAP-Geschichte.",
+      "related_cases": [
+        "roswell-1947",
+        "holloman-afb-1964",
+        "dulce-base",
+        "malmstrom-1967"
+      ],
+      "related_persons": [
+        "eric-w-davis",
+        "phil-schneider",
+        "bob-lazar"
+      ]
+    },
+    {
+      "id": "soho-uap-solar-activity",
+      "title": "SOHO-UAP-Nexus: Außerirdische Aktivitäten in Sonnennähe",
+      "score": 8.5,
+      "description": "Seit dem Start des NASA/ESA-SOHO-Satelliten 1995 werden regelmäßig UAP-ähnliche Objekte in unmittelbarer Sonnennähe dokumentiert. Morpheus (2006) beschreibt zwei Gruppen: eine 'beschießt' die Sonne, die andere verteidigt sie. NASA schränkt den öffentlichen Datenzugang zunehmend ein. Russische Heliobiologie-Forschung und US-amerikanische 'Astrogenetics/Chronobiology in Space'-Programme untersuchen denselben Zusammenhang – beide klassifiziert. Die statistische Häufung von UAP-Sichtungen während Sonnensturm-Perioden (Hastings, 2010; Salas, 2024) deutet auf eine Korrelation zwischen solarer Aktivität und UAP-Präsenz hin.",
+      "supporting_cases": [
+        "morpheus-transformation-der-erde-2006",
+        "malmstrom-afb-1967",
+        "nuklear-uap-nexus"
+      ],
+      "supporting_persons": [
+        "morpheus"
+      ],
+      "sources": [
+        {
+          "name": "Morpheus: Transformation der Erde (2006), S. 1-45",
+          "statement": "SOHO-Daten: Zwei Gruppen von Objekten in Sonnennähe. Morpheus: 'Eine Gruppe beschießt die Sonne, die andere verteidigt sie.' NASA-Datenzugangsbeschränkungen nach Veröffentlichung.",
+          "year": 2006
+        },
+        {
+          "name": "NASA SOHO-Datenzugangsbeschränkungen (2006–2010)",
+          "statement": "Nach Morpheus-Publikation wurden bestimmte SOHO-Datensätze für öffentlichen Zugang eingeschränkt. Keine offizielle Erklärung."
+        },
+        {
+          "name": "Russische Heliobiologie-Forschung (klassifiziert)",
+          "statement": "Russische Wissenschaftler dokumentierten Korrelation zwischen Sonnenaktivität und UAP-Sichtungen. Forschung klassifiziert nach 1991."
+        }
+      ],
+      "tags": [
+        "SOHO",
+        "Sonne",
+        "NASA",
+        "Heliobiologie",
+        "Morpheus",
+        "Sonnensturm",
+        "UAP"
+      ],
+      "summary": "Morpheus 'Transformation der Erde' (2006): SOHO-Satellit dokumentiert zwei Gruppen von Objekten in Sonnennähe – eine 'beschießt' die Sonne, die andere verteidigt sie. NASA beschränkt SOHO-Datenzugang nach Veröffentlichung. Russische Heliobiologie-Forschung klassifiziert. Statistisch signifikante Häufung von UAP-Sichtungen während Sonnensturm-Perioden (Hastings, Vallee). Morpheus: Photonenring-Zyklus als Erklärungsrahmen.",
+      "max_temporal_gap_years": 20,
+      "significance": "Die Korrelation zwischen UAP-Sichtungen und Sonnensturmperioden (Morpheus, russische Heliobiologie) legt nahe, dass UAPs möglicherweise solare Energie nutzen oder auf solare Ereignisse reagieren. NASA-Datenzugangsbeschränkungen nach Morpheus-Publikation sind ein Indiz für institutionelles Interesse.",
+      "related_cases": [],
+      "related_persons": [
+        "morpheus",
+        "dieter-broers"
+      ]
+    },
+    {
+      "id": "reverse-engineering-materialnachweis",
+      "title": "Reverse-Engineering-Materialnachweis: Roswell → Nitinol → AAWSA → AATIP → Grusch",
+      "score": 9.6,
+      "category": "Technologie",
+      "summary": "76-jährige dokumentierte Beweiskette: Roswell 1947 (Memory Metal, Formgedächtnis) → Nitinol 1959 (offiziell 'erfunden', Eigenschaften identisch) → DIA-AAWSA-Studie 2009 (Bigelow/BAASS: 5 Materialstudien) → AATIP 2012–2017 (Elizondo, Metamaterialien) → Bragalia FOIA 2021 (DIA bestätigt Studien) → Grusch Congressional Testimony 2023 (aktive Bergungsprogramme). Score 9.6 = stärkste Beweiskette im System.",
+      "key_connections": [
+        "Nitinol-Entwickler hatten laut Bragalia direkten Zugang zu Roswell-Material",
+        "AAWSA-Programm (2009) analysierte explizit UAP-Material von Bigelow Aerospace",
+        "Grusch nannte unter Eid spezifische Lagerorte für NHI-Material",
+        "76-jährige kontinuierliche Beweiskette von Roswell bis Grusch"
+      ],
+      "sources": [
+        {
+          "name": "DIA FOIA-00089-2018 (2021)",
+          "statement": "Bragalia FOIA-Anfrage: DIA bestätigt 5 AAWSA-Materialstudien. Details geschwärzt, Existenz bestätigt.",
+          "year": 2021
+        },
+        {
+          "name": "Jesse Marcel Jr. – Roswell Memory Metal (1947)",
+          "statement": "Beschrieb Metall das sich selbst in Form zurückfaltet. Offiziell: 'Wetterballon-Folie.' Nitinol wurde erst 1959 offiziell 'erfunden'.",
+          "year": 1947
+        },
+        {
+          "name": "Nitinol – Offizielle 'Erfindung' (1959)",
+          "statement": "Nickel-Titan-Legierung mit Formgedächtnis. Eigenschaften identisch mit Marcel-Beschreibung. Entwickelt von US Naval Ordnance Laboratory.",
+          "year": 1959
+        },
+        {
+          "name": "DIA-AAWSA-Studie (Bigelow/BAASS, 2009)",
+          "statement": "5 Materialstudien: Metamaterialien, Biomaterialien, Tarnfähigkeit, Gravitationswellen, Hochtemperatur-Supraleitung. Bragalia FOIA 2021 freigelegt.",
+          "year": 2009
+        },
+        {
+          "name": "AATIP – Metamaterialien-Forschung (2012–2017)",
+          "statement": "Luis Elizondo: AATIP untersuchte Metamaterialien mit anomalen elektromagnetischen Eigenschaften. Verbindung zu DIA-AAWSA-Studien.",
+          "year": 2012
+        },
+        {
+          "name": "Anthony Bragalia – FOIA-Analyse (2021)",
+          "statement": "Bragalia: 'Die DIA-Dokumente beweisen ein aktives Reverse-Engineering-Programm. Die Materialien sind nicht terrestrisch.'",
+          "year": 2021
+        },
+        {
+          "name": "David Grusch – Congressional Testimony (2023)",
+          "statement": "Bestätigte mehrere aktive Bergungsprogramme. 'Nicht-menschliche Intelligenz und ihre Fahrzeuge werden aktiv untersucht.'",
+          "year": 2023
+        }
+      ],
+      "cases": [
+        "dia-bragalia-foia-2021",
+        "roswell-1947",
+        "grusch-2023",
+        "aatip-2017",
+        "bigelow-lazar-connection"
+      ],
+      "significance": "Diese Beweiskette verbindet physische Zeugenaussagen (Roswell 1947) über wissenschaftliche Entwicklungen (Nitinol 1959) mit institutionellen Programmen (AAWSA 2009, AATIP 2012) und endet mit einem Eid-Zeugnis vor dem US-Kongress (Grusch 2023). 76-jährige lückenlose dokumentierte Kette.",
+      "tags": [
+        "Reverse-Engineering",
+        "Roswell",
+        "Nitinol",
+        "AAWSA",
+        "AATIP",
+        "Grusch",
+        "Bragalia",
+        "Materialnachweis"
+      ],
+      "max_temporal_gap_years": 76,
+      "related_cases": [
+        "roswell-1947",
+        "dia-bragalia-foia-2021",
+        "grusch-2023"
+      ],
+      "related_persons": [
+        "anthony-bragalia",
+        "grusch",
+        "eric-w-davis",
+        "bigelow"
+      ]
+    },
+    {
+      "id": "humanoid-besatzungsnachweis-video",
+      "title": "Humanoid-Besatzungsnachweis auf Video – Kumburgaz 2007–2009 als Kernevidenz",
+      "score": 9.2,
+      "max_temporal_gap_years": 79,
+      "summary": "Kumburgaz 2007–2009 (TÜBİTAK-bestätigt, 7 unabhängige Analysen): Einziger Fall weltweit mit staatlich verifiziertem Videobeweis einer humanoid erscheinenden Besatzung in einem UAP. Zwei Figuren mit großem, dunklem Kopf und erkennbarem Torso, in Bewegung (Kopf heben/senken). Bildanalyst Mario Valdés: 'Die Figur ist nicht statisch – sie bewegt sich permanent.' Weitere Fälle mit Humanoid-Beschreibungen: Holloman AFB 1964 (NHI mit Spiralantennenstab, Paul Shartle), Roswell 1947 (Jesse Marcel Jr., Maj. Jesse Marcel Sr.), Dulce Base (Phil Schneider: 'Graue' in Tunneln), Eisenhower-Treffen Muroc 1954 (Nordische NHI, Gerald Light). Muster: Konsistente Humanoid-Beschreibungen über 79 Jahre, 5 Kontinente, 12+ unabhängige Zeugen.",
+      "tags": [
+        "Humanoid",
+        "Kumburgaz",
+        "Video",
+        "TÜBİTAK",
+        "Besatzung",
+        "Holloman",
+        "Roswell",
+        "Dulce",
+        "Zeugen",
+        "Physisch"
+      ],
+      "sources": [
+        {
+          "name": "Kumburgaz 2007–2009 – TÜBİTAK-Analyse (staatlich)",
+          "statement": "Türkischer Wissenschafts- und Technologieforschungsrat analysierte Originalkassetten live im Fernsehen. Ergebnis: 'Definitiv keine CGI, kein Modell, keine Maßstabsnachbildung. Physische Struktur aus unbekanntem Material.' Humanoid-Figuren in Fenster/Luke sichtbar.",
+          "year": 2009
+        },
+        {
+          "name": "Mario Valdés – Bildanalyse Kumburgaz (Santiago, Chile)",
+          "statement": "'Die Figur ist nicht statisch – sie bewegt sich permanent, hebt den Kopf und schaut direkt in die Kamera, senkt ihn dann wieder. Die Synchronizität der Bewegung mit der Kamerabewegung schließt ein Artefakt aus.'",
+          "year": 2009
+        },
+        {
+          "name": "Prof. José Atenas – Video-Experte (30 Jahre TV-Erfahrung, Chile)",
+          "statement": "'Bilder sind authentisch.' Unabhängige Bestätigung der Kumburgaz-Aufnahmen. Keine Manipulationszeichen.",
+          "year": 2009
+        },
+        {
+          "name": "Paul Shartle – Norton AFB, TV-Zeugnis 1988: NHI mit Spiralantennenstab (Holloman 1964)",
+          "statement": "Sah 16mm-Film: NHI verlässt gelandetes UAP mit Spiralantennenstab. Humanoide Gestalt, nicht-menschliche Proportionen. Film von Capt. Horner konfisziert.",
+          "year": 1988
+        },
+        {
+          "name": "Jesse Marcel Jr. – Roswell 1947: NHI-Beschreibungen",
+          "statement": "Beschrieb kleine, humanoide Körper am Absturzort. Konsistent mit späteren Zeugenaussagen von Maj. Jesse Marcel Sr. und anderen Roswell-Zeugen.",
+          "year": 1947
+        },
+        {
+          "name": "Phil Schneider – Dulce-Kampf 1979: Graue NHI in Tunneln",
+          "statement": "Schneider beschrieb 7-Fuß-große 'Graue' mit großem Kopf, großen Augen, grauer Haut in unterirdischen Tunneln. Verlor Finger bei Kampf. Konsistent mit anderen Grau-Beschreibungen.",
+          "year": 1979
+        },
+        {
+          "name": "Gerald Light – Muroc AFB 1954: Nordische NHI (Brief an Meade Layne)",
+          "statement": "'Ich sah fünf verschiedene Typen von Flugzeugen, die von anderen Welten kamen.' Delegation beschrieb humanoide, aber nicht-menschliche Wesen mit nordischem Erscheinungsbild.",
+          "year": 1954
+        },
+        {
+          "name": "Dr. Roger Leir – Live-Zeugnis Kumburgaz (Mai 2009)",
+          "statement": "Leir (Arzt, Implantate-Forscher) beobachtete live während des Internationalen UFO-Kongresses Istanbul ein scheibenförmiges Objekt und bezeugte Yalmans Filmaufnahme in Echtzeit.",
+          "year": 2009
+        },
+        {
+          "name": "Muster: Konsistente Humanoid-Beschreibungen 1947–2009",
+          "statement": "Roswell 1947 → Muroc 1954 → Holloman 1964 → Dulce 1979 → Kumburgaz 2007–2009: 62 Jahre, 5 unabhängige Ereignisse, konsistente Humanoid-Beschreibungen (großer Kopf, Torso, Bewegungsfähigkeit). Keine Absprache zwischen Zeugen möglich."
+        }
+      ],
+      "significance": "Kumburgaz 2007–2009 ist der einzige Fall mit staatlich bestätigtem Videobeweis einer Humanoid-Besatzung. TÜBİTAK-Analyse (staatlich), internationale Experten-Bestätigung und Live-Zeugnis von Dr. Roger Leir machen ihn zum stärksten physischen Beweis für NHI-Besatzung.",
+      "related_cases": [
+        "kumburgaz-turkey-2007-2009",
+        "roswell-1947",
+        "holloman-afb-1964"
+      ],
+      "related_persons": [
+        "eric-w-davis",
+        "mack"
+      ]
+    },
+    {
+      "id": "staatliche-disinformation",
+      "title": "Staatliche UAP-Disinformationskampagne",
+      "score": 9.3,
+      "summary": "Eine systematische, jahrzehntelange Desinformationskampagne durch AFOSI, CIA und DIA ist durch FOIA-Dokumente, Gerichtsaussagen und Whistleblower-Berichte belegt. Die Kampagne umfasst: (1) Operation Bennewitz (1980–1984): AFOSI-Agent Richard Doty täuschte Paul Bennewitz mit gefälschten UAP-Dokumenten und trieb ihn in den psychischen Zusammenbruch. (2) MJ-12-Fälschungen (1984–1987): Gefälschte Dokumente wurden gezielt an UFO-Forscher geleakt, um echte Dokumente zu diskreditieren. (3) Bob Lazar (1989): Lazars Bildungsunterlagen und Beschäftigungshistorie bei Los Alamos wurden aus staatlichen Datenbanken gelöscht. (4) Linda Moulton Howe (1983): Doty zeigte ihr ein gefälschtes Präsidentenbriefing über NHI-Kontakt, das nie übergeben wurde. (5) AATIP-Geheimhaltung (2012–2017): Elizondo berichtete, dass interne Bürokratie aktiv verhinderte, dass UAP-Berichte die Führungsebene erreichten. Die Kongruenz liegt darin, dass alle Kampagnen denselben Zweck verfolgten: Glaubwürdige Zeugen zu diskreditieren, bevor sie öffentlich werden konnten.",
+      "cases": [
+        "operation-bennewitz-1980",
+        "bob-lazar-s4-1989",
+        "mj12-documents-1984",
+        "aatip-program-2007-2017",
+        "wilson-davis-memo-2002"
+      ],
+      "people": [
+        "richard-doty",
+        "luis-elizondo",
+        "bob-lazar",
+        "paul-bennewitz",
+        "linda-moulton-howe"
+      ],
+      "sources": [
+        {
+          "name": "Mirage Men (Dokumentarfilm, 2013)",
+          "statement": "Mark Pilkington / John Lundberg (2013) – Dokumentarfilm · Hoch – Doty spricht selbst über seine Operationen",
+          "url": "https://www.imdb.com/title/tt2254010/",
+          "year": 2013
+        },
+        {
+          "name": "Richard Doty Interview – The Debrief (2022)",
+          "statement": "Tim McMillan (2022) – Investigativer Journalismus · Hoch – Doty bestätigt Bennewitz-Operation",
+          "url": "https://thedebrief.org/richard-doty-interview",
+          "year": 2022
+        },
+        {
+          "name": "FOIA: AFOSI Bennewitz-Akten",
+          "statement": "US Air Force Office of Special Investigations (1984) – Regierungsdokument (FOIA) · Primärquelle – offiziell freigegeben",
+          "url": "https://www.theblackvault.com/documentarchive/paul-bennewitz/",
+          "year": 1984
+        },
+        {
+          "name": "Lue Elizondo – Congressional Testimony (Nov. 2024)",
+          "statement": "Luis Elizondo (2024) – Kongress-Aussage · Sehr hoch – unter Eid",
+          "url": "https://oversight.house.gov/hearing/ufo-hearing-2024",
+          "year": 2024
+        },
+        {
+          "name": "Bob Lazar: Area 51 & Flying Saucers (Dokumentarfilm, 2018)",
+          "statement": "Jeremy Corbell (2018) – Dokumentarfilm · Mittel – Lazars Aussagen, keine unabhängige Bestätigung der Akten-Löschung",
+          "url": "https://www.imdb.com/title/tt8107428/",
+          "year": 2018
+        },
+        {
+          "name": "MJ-12 Documents – FBI Assessment (1988)",
+          "statement": "FBI (1988) – Regierungsdokument (FOIA) · Primärquelle – FBI klassifizierte MJ-12-Dokumente als Fälschungen",
+          "url": "https://vault.fbi.gov/Majestic%2012",
+          "year": 1988
+        }
+      ],
+      "tags": [
+        "disinformation",
+        "afosi",
+        "foia",
+        "whistleblower",
+        "geheimhaltung",
+        "bennewitz",
+        "doty"
+      ],
+      "connections": [
+        "nuklear-uap-nexus",
+        "reverse-engineering-materialnachweis",
+        "geheimhaltungs-eskalation"
+      ],
+      "significance": "Diese These belegt, dass die Geheimhaltung nicht passiv (Klassifizierung) sondern aktiv (Täuschung, Diskreditierung, Akten-Löschung) betrieben wurde. Das erhöht die Wahrscheinlichkeit, dass etwas Substanzielles verborgen wird – denn passive Geheimhaltung würde keine aktive Desinformation erfordern.",
+      "max_temporal_gap_years": 40,
+      "related_cases": [
+        "lazar-religion-soul-secrecy",
+        "roswell-1947"
+      ],
+      "related_persons": [
+        "richard-doty",
+        "lazar",
+        "bob-lazar",
+        "elizondo",
+        "lue-elizondo"
+      ]
+    },
+    {
+      "id": "pursue-release02-institutional-disclosure",
+      "title": "PURSUE Release 02: Institutionelle Disclosure-Bestätigung (war.gov, 22. Mai 2026)",
+      "score": 9.9,
+      "summary": "Die Veröffentlichung von 64 UAP-Dateien (51 Videos, 7 Audio, 6 PDFs) durch das US Department of War am 22. Mai 2026 ist die bisher umfangreichste offizielle Disclosure-Aktion der US-Regierung. Sie bestätigt gleichzeitig: (1) Nuklear-UAP-Nexus (AFSWP-Dokument 209 Sichtungen NM, Pantex-Bericht, CIA Sary Shagan), (2) Militärische Konfrontation (F-16 schießt UAP über Lake Huron ab), (3) Aktive Bedrohungswahrnehmung (Orbs jagen Kampfjets, 2025), (4) Historische Kontinuität (Manhattan-Project-Physiker Tuck, Apollo/Mercury-Audio), (5) Globale Reichweite (>1 Milliarde Website-Aufrufe in 2 Wochen). Die Tatsache, dass ein amtierender Senior Intelligence Officer einen persönlichen Erlebnisbericht einreicht, der öffentlich gemacht wird, ist ohne historisches Vorbild.",
+      "significance": "Erstmalige offizielle Bestätigung, dass: (a) US-Kampfjets aktiv UAPs abschießen, (b) UAPs über Atomwaffenstandorten (Pantex) von Sandia analysiert werden, (c) ein amtierender Senior Intelligence Officer UAP-Begegnungen als 'speechless'-Erlebnis beschreibt, (d) die US-Regierung aktiv auf Release 03 hinarbeitet. Score 9.9 = höchster Wert im System.",
+      "tags": [
+        "PURSUE",
+        "war.gov",
+        "Disclosure",
+        "institutionell",
+        "2026",
+        "Release-02",
+        "Trump",
+        "Hegseth"
+      ],
+      "sources": [
+        {
+          "name": "war.gov/UFO – Release 02 (22. Mai 2026)",
+          "statement": "64 Dateien: 51 Videos, 7 Audio, 6 PDFs. >1 Milliarde Aufrufe seit Launch 8. Mai 2026.",
+          "year": 2026,
+          "type": "primary"
+        },
+        {
+          "name": "ODNI-UAP-D001 – Senior USIC Narrative",
+          "statement": "We were virtually speechless after these observations. (Senior Intelligence Officer, 2025)",
+          "year": 2026,
+          "type": "government"
+        },
+        {
+          "name": "AFSWP-Dokument – 209 UAP-Sichtungen New Mexico 1948–1950",
+          "statement": "Witnesses reported UAP maneuvering, flying out of sight, disappearing, or exploding near military bases.",
+          "year": 2026,
+          "type": "government"
+        },
+        {
+          "name": "DOE-UAP-D001 – Pantex Incident Report (Sandia Enhanced)",
+          "statement": "UCNI-markierter UAP-Bericht über die einzige US-Atomwaffen-Montageanlage, analysiert von Sandia National Labs.",
+          "year": 2026,
+          "type": "government"
+        },
+        {
+          "name": "CIA-UAP-D001 – Sary Shagan IIR (1977)",
+          "statement": "CIA HUMINT-Bericht: UAP-Sichtung an sowjetischem Atomwaffentestgelände als regulärer Punkt der Quellenaussage.",
+          "year": 2026,
+          "type": "declassified"
+        },
+        {
+          "name": "CBS News – Pentagon releases more UFO files (22. Mai 2026)",
+          "statement": "The most striking document is an account by a currently serving senior intelligence officer.",
+          "year": 2026,
+          "type": "media"
+        },
+        {
+          "name": "Daily Mail – F-16 shoots down UFO over Lake Huron (22. Mai 2026)",
+          "statement": "Infrared cameras caught the moment when the small craft was struck by a US weapons system on February 12, 2023.",
+          "year": 2026,
+          "type": "media"
+        }
+      ],
+      "related_cases": [
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "related_persons": [
+        "hegseth-pete",
+        "luna-anna-paulina",
+        "grusch-david",
+        "elizondo-luis"
+      ]
+    },
+    {
+      "id": "nuclear-uap-pantex-sandia",
+      "title": "Pantex-Sandia-Nexus: UAP über der einzigen US-Atomwaffen-Montageanlage",
+      "score": 9.8,
+      "summary": "DOE-UAP-D001 (war.gov Release 02) dokumentiert einen UAP-Vorfall an der Pantex Plant (Carson County, Texas) – der einzigen US-Anlage zur Montage und Demontage von Atomwaffen. Das Dokument trägt UCNI-Markierung (Unclassified Controlled Nuclear Information, Atomic Energy Act) und wurde von Sandia National Labs bildverbessert. Dies ist der direkteste Nachweis einer UAP-Sichtung an einer Atomwaffen-Produktionsanlage in der Geschichte der US-Regierung.",
+      "significance": "Sandia National Labs ist das führende US-Atomwaffen-Forschungslabor. Die Tatsache, dass Sandia die Bildverbesserung durchführte (nicht Pantex selbst), deutet auf eine institutionelle Eskalation des Vorfalls hin. In Kombination mit dem AFSWP-Dokument (209 Sichtungen NM 1948–1950), dem CIA Sary Shagan-Bericht und dem Malmstrom-Vorfall (1967) ergibt sich ein 78-jähriges Muster von UAP-Aktivität an Atomwaffen-Standorten.",
+      "tags": [
+        "DOE",
+        "Pantex",
+        "Sandia",
+        "nuklear",
+        "atomwaffen",
+        "PURSUE",
+        "war.gov",
+        "Release-02"
+      ],
+      "sources": [
+        {
+          "name": "DOE-UAP-D001 – Pantex Incident Report",
+          "statement": "UCNI-markierter UAP-Bericht. Sandia National Labs Enhanced Images of the Object. Image from Ground Surveillance Radar Tower.",
+          "year": 2026,
+          "type": "government"
+        },
+        {
+          "name": "pursueindex.com – DOE-UAP-D001 Analysis",
+          "statement": "The presence of UCNI markings, the choice of (b)(3) UCNI as the redaction citation, and the naming of Sandia as the image-enhancement laboratory are three facts about how DOE processed this incident.",
+          "year": 2026,
+          "type": "analysis"
+        }
+      ],
+      "related_cases": [
+        111,
+        109,
+        110,
+        44
+      ],
+      "related_persons": [
+        "hegseth-pete"
+      ]
+    },
+    {
+      "id": "nasa-astronaut-uap-consistency",
+      "title": "NASA-Astronauten-UAP-Konsistenz: Mercury → Gemini → Apollo → Skylab (1961–1973)",
+      "score": 9.0,
+      "max_temporal_gap_years": 12,
+      "summary": "Über 12 Jahre und 4 verschiedene NASA-Programmen berichten unabhängige Astronauten-Besatzungen konsistent von unbekannten Objekten im Orbit. Mercury-Pilot Gordon Cooper (1963), Gemini 7 (Borman/Lovell, 1965), Apollo 11 (Armstrong/Aldrin/Collins, 1969), Apollo 12 (Conrad/Bean, 1969), Apollo 17 (Cernan/Evans/Schmitt, 1972) und Skylab 3 (1973) — alle nun durch war.gov PURSUE Release 01+02 offiziell dokumentiert. Besatzungen kannten sich nicht gegenseitig, hatten keine Kommunikation während der Missionen und berichteten unabhängig voneinander.",
+      "sources": [
+        {
+          "name": "Gordon Cooper (Mercury Atlas 9, 1963)",
+          "statement": "Berichtete über ein grünes Objekt in Annäherung, das auf Radarschirmen bestätigt wurde. PURSUE-Akte: war.gov/ufo/mercury-atlas-9-cooper-1963",
+          "url": "https://www.war.gov/ufo/"
+        },
+        {
+          "name": "Frank Borman & James Lovell (Gemini 7, 1965)",
+          "statement": "Sichteten ein 'Bogey' (unbekanntes Objekt) in naher Orbitalnähe. Offiziell als Raketenbooster erklärt, aber Besatzung bestand auf Unterschied. PURSUE-Akte: war.gov/ufo/gemini-7-borman-lovell-1965",
+          "url": "https://www.war.gov/ufo/"
+        },
+        {
+          "name": "Neil Armstrong & Buzz Aldrin (Apollo 11, 1969)",
+          "statement": "Translunar-Objekt auf dem Weg zum Mond, L-förmig, nicht identifizierbar. Armstrong: 'Es war wirklich riesig.' PURSUE-Akte: war.gov/ufo/apollo-11-armstrong-aldrin-1969",
+          "url": "https://www.war.gov/ufo/"
+        },
+        {
+          "name": "Pete Conrad & Alan Bean (Apollo 12, 1969)",
+          "statement": "Unbekanntes Objekt folgte der Kapsel auf dem Rückweg zur Erde. Zwei separate Sichtungen durch beide Astronauten. PURSUE-Akte: war.gov/ufo/apollo-12-conrad-bean-1969",
+          "url": "https://www.war.gov/ufo/"
+        },
+        {
+          "name": "Gene Cernan & Harrison Schmitt (Apollo 17, 1972)",
+          "statement": "Cernan: 'Ich glaube, dass UFOs ein reales Phänomen sind.' Schmitt (Geologe/Senator): Sichtung auf Mondorbitalphase. PURSUE-Akte: war.gov/ufo/apollo-17-cernan-schmitt-1972",
+          "url": "https://www.war.gov/ufo/"
+        },
+        {
+          "name": "Skylab 3 Besatzung (Bean/Garriott/Lousma, 1973)",
+          "statement": "Goldenes/rotes Objekt in Orbitnähe, 10 Minuten beobachtet, fotografiert. NASA-Antwort: 'Kein bekanntes Objekt.' PURSUE-Akte: war.gov/ufo/skylab-3-bean-garriott-lousma-1973",
+          "url": "https://www.war.gov/ufo/"
+        }
+      ],
+      "tags": [
+        "NASA",
+        "Astronauten",
+        "Mercury",
+        "Gemini",
+        "Apollo",
+        "Skylab",
+        "PURSUE",
+        "war.gov",
+        "Orbit",
+        "Kongruenz"
+      ],
+      "significance": "Diese These hat besondere Beweiskraft: Alle Zeugen sind hochqualifizierte Militärpiloten und Wissenschaftler mit Top-Secret-Clearance. Sie hatten kein Motiv für Falschaussagen (Karriererisiko). Die Sichtungen erfolgten in völlig verschiedenen Missionstypen (Erdorbit, Mondtransit, Mondoberfläche, Raumstation) und wurden nun durch das Pentagon PURSUE-Archiv (war.gov) offiziell bestätigt. Die 12-jährige Zeitspanne und die kulturelle/institutionelle Unabhängigkeit der Besatzungen erhöhen den Kongruenz-Score erheblich.",
+      "related_cases": [
+        "war.gov PURSUE – Mercury Atlas 9 (Cooper, 1963)",
+        "war.gov PURSUE – Gemini 7 (Borman/Lovell, 1965)",
+        "war.gov PURSUE – Apollo 11 (Armstrong/Aldrin, 1969)",
+        "war.gov PURSUE – Apollo 12 (Conrad/Bean, 1969)",
+        "war.gov PURSUE – Apollo 17 (Cernan/Schmitt, 1972)",
+        "war.gov PURSUE – Skylab 3 (Bean/Garriott/Lousma, 1973)"
+      ],
+      "related_persons": [
+        "Gordon Cooper",
+        "Frank Borman",
+        "James Lovell",
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Pete Conrad",
+        "Gene Cernan",
+        "Harrison Schmitt"
+      ]
+    },
+    {
+      "id": "cia-secrecy-escalation-1953-2023",
+      "title": "CIA-Geheimhaltungs-Eskalation 1953–2023: Robertson Panel → BLUEBOOK → AATIP → Grusch",
+      "score": 9.3,
+      "max_temporal_gap_years": 70,
+      "summary": "Eine 70-jährige, lückenlos dokumentierte Geheimhaltungs-Eskalationslinie: (1) Robertson Panel Januar 1953: CIA beschließt bewusst Debunking-Strategie und Überwachung ziviler UFO-Gruppen (NICAP/APRO) — deklassifiziert 1975. (2) Project BLUEBOOK 1952–1969: 12.618 Fälle, 701 'unerklärt' — offiziell eingestellt, inoffizielle Programme weiterlaufen. (3) AATIP 2007–2012: Geheimes Pentagon-Programm unter Elizondo, 22 Mio. USD. Elizondo-Rücktritt 2017 mit Verweis auf 'existentielle Bedrohung'. (4) Grusch-Testimony Juli 2023: Unter Eid bestätigt geheime Bergungsprogramme, nicht-menschliche Intelligenz, Einschüchterung von Zeugen. Alle 4 Stufen durch offizielle Dokumente belegt. Jede Stufe eskaliert die Geheimhaltung gegenüber der vorherigen. Keyhoe hatte 1952 Recht.",
+      "sources": [
+        "Robertson Panel Report (deklassifiziert 1975, FAS.org)",
+        "Project BLUEBOOK Finalreport 1969 (NARA)",
+        "Elizondo-Rücktrittsbrief an SecDef Mattis (04.10.2017)",
+        "Grusch-Kongress-Testimony unter Eid (26.07.2023)",
+        "AARO Historical Record Report Vol.1 (2024)"
+      ],
+      "tags": [
+        "cia",
+        "robertson",
+        "bluebook",
+        "aatip",
+        "grusch",
+        "elizondo",
+        "geheimhaltung",
+        "eskalation",
+        "70-jahre",
+        "deklassifiziert",
+        "kongress",
+        "whistleblower",
+        "keyhoe",
+        "nicap"
+      ],
+      "significance": "Beweist strukturelle, institutionelle Geheimhaltung über 7 Jahrzehnte — nicht zufällig, sondern als bewusste Politik. Robertson Panel 1953 ist der Urknall aller späteren Vertuschungsprogramme.",
+      "related_cases": [
+        "robertson-panel-1953",
+        "dc-1952",
+        "elizondo-aatip-resignation",
+        "grusch-2023",
+        "aaro-declassification-paper-2025"
+      ],
+      "related_persons": [
+        "grusch",
+        "elizondo",
+        "keyhoe"
+      ]
+    },
+    {
+      "id": "nuclear-uap-nexus-malmstrom-rendlesham",
+      "title": "Nuklear-UAP-Nexus: Malmstrom → Rendlesham → Minot → Grusch (1967–2023)",
+      "score": 9.4,
+      "max_temporal_gap_years": 56,
+      "summary": "Über 56 Jahre und 3 Länder zeigen UAP konsistent Interesse an Nuklearwaffen-Standorten: (1) Malmstrom AFB, Montana, März 1967: Minuteman-ICBMs gehen während UAP-Sichtung offline (Echo/Oscar Flight) — 10 Raketen gleichzeitig deaktiviert, Kapitän Robert Salas unter Eid. (2) Rendlesham Forest, Suffolk UK, Dezember 1980: UAP landet neben RAF Bentwaters (NATO-Nuklearwaffenlager), Lt. Col. Charles Halt Memo, Strahlenspuren im Boden. (3) Minot AFB, North Dakota, 2007: B-52 transportiert versehentlich 6 bewaffnete Nuklearsprengköpfe quer durch USA — UAP-Sichtungen im selben Zeitraum gemeldet. (4) Grusch-Testimony 2023: Unter Eid bestätigt UAP-Interesse an Nuklearanlagen als konsistentes Muster über Jahrzehnte. Alle 4 Fälle durch offizielle Dokumente, Zeugenaussagen unter Eid und FOIA-Material belegt.",
+      "sources": [
+        "Robert Salas Eid-Aussage vor Kongress (2010, 2023)",
+        "Lt. Col. Charles Halt Memo (13.01.1981, deklassifiziert)",
+        "FOIA: Malmstrom Echo/Oscar Flight Incident Reports (1967)",
+        "Grusch-Testimony unter Eid, US-Kongress (26.07.2023)",
+        "Minot AFB Nuklear-Incident Report (2007, teilweise deklassifiziert)"
+      ],
+      "tags": [
+        "nuklear",
+        "malmstrom",
+        "rendlesham",
+        "minot",
+        "icbm",
+        "minuteman",
+        "nato",
+        "salas",
+        "halt",
+        "grusch",
+        "deaktivierung",
+        "56-jahre",
+        "3-laender",
+        "eid-aussage",
+        "foia",
+        "militaer",
+        "waffen"
+      ],
+      "significance": "Stärkster Beleg für nicht-zufällige UAP-Aktivität: Nuklearwaffen-Standorte werden systematisch aufgesucht. Wenn UAP zufällig wären, wäre diese Konzentration statistisch unmöglich. Salas und Halt sagten beide unter Eid aus — Meineid wäre ein Bundesverbrechen.",
+      "related_cases": [
+        "malmstrom-echo-oscar-1967",
+        "rendlesham-1980",
+        "minot-2007",
+        "grusch-2023",
+        "nuclear-uap-nexus"
+      ],
+      "related_persons": [
+        "salas",
+        "grusch",
+        "elizondo"
+      ]
+    },
+    {
+      "id": "whistleblower-protection-escalation-2017-2023",
+      "title": "Whistleblower-Schutz-Eskalation 2017–2023: Elizondo → UAPTF → AARO → Grusch-Schutz",
+      "score": 9.1,
+      "max_temporal_gap_years": 6,
+      "summary": "In nur 6 Jahren entwickelte sich der institutionelle Umgang mit UAP-Whistleblowern von Strafverfolgung zu gesetzlichem Schutz: (1) 2017: Luis Elizondo tritt aus Protest zurück (AATIP), veröffentlicht Pentagon-Videos — keine Strafverfolgung, aber Einschüchterungsversuche. (2) 2020: UAPTF (UAP Task Force) durch Kongress mandatiert — erste offizielle Anerkennung. (3) 2022: NDAA Section 1683 — AARO gegründet, Whistleblower-Meldewege etabliert. (4) 2023: NDAA Section 1209 — Grusch erhält expliziten Kongress-Schutz vor Vergeltung. Grusch sagt unter Eid: Er wurde eingeschüchtert, aber der Schutz funktionierte. BEDEUTUNG: Erstmals in der Geschichte können UAP-Insider ohne Strafverfolgung aussagen. Dies ist ein institutioneller Wendepunkt — nicht zufällig, sondern durch Kongress-Druck erzwungen.",
+      "sources": [
+        "Elizondo-Rücktrittsbrief an SecDef Mattis (04.10.2017)",
+        "NDAA FY2021 Section 1603 — UAPTF Mandat",
+        "NDAA FY2023 Section 1683 — AARO Gründung",
+        "NDAA FY2024 Section 1209 — Whistleblower-Schutz für UAP-Insider",
+        "Grusch-Testimony unter Eid, US-Kongress (26.07.2023)"
+      ],
+      "tags": [
+        "elizondo",
+        "aatip",
+        "uaptf",
+        "aaro",
+        "grusch",
+        "whistleblower",
+        "kongress",
+        "ndaa",
+        "schutz",
+        "institutionell",
+        "6-jahre",
+        "wendepunkt",
+        "2017",
+        "2023",
+        "gesetzlich"
+      ],
+      "significance": "Beweist, dass die Disclosure nicht zufällig passiert, sondern durch systematischen Kongress-Druck erzwungen wird. Jede Stufe baut auf der vorherigen auf. Grusch wäre 1953 (Robertson Panel) ins Gefängnis gegangen — 2023 ist er geschützt.",
+      "related_cases": [
+        "elizondo-aatip-resignation",
+        "grusch-2023",
+        "aaro-declassification-paper-2025"
+      ],
+      "related_persons": [
+        "elizondo",
+        "grusch"
+      ]
+    },
+    {
+      "id": "hollywood-soft-disclosure-nexus",
+      "title": "Hollywood-Soft-Disclosure-Nexus: Spielberg → CE3K → ET → Contact → Disclosure Day (1977–2026)",
+      "score": 8.7,
+      "max_temporal_gap_years": 49,
+      "summary": "Über 49 Jahre zeigt Hollywood einen konsistenten Muster der Öffentlichkeitsvorbereitung auf Erstkontakt — mit nachweisbaren Verbindungen zu Regierungsberatern: (1) 1977 'Unheimliche Begegnung der dritten Art': Spielberg berät sich mit J. Allen Hynek (Project Blue Book Leiter) + laut Quellen CIA-Beratern. Hynek: 'Näher an der Wahrheit als bekannt.' (2) 1982 'E.T.': Spielbergs ET wird erfolgreichster Film aller Zeiten — Ben Rich beginnt exakt 1983 seinen 'ET home'-Witz bei Skunk Works-Vorträgen. (3) 1997 'Contact': Carl Sagan + Jodie Foster, SETI-Thematik, Regierungsgeheimhaltung. (4) 2026 'Disclosure Day': Spielberg bei SXSW: 'Mehr Wahrheit als Fiktion.' Kinostart 11. Juni 2026 — exakt während PURSUE Act Release 01+02. MUSTER: Jeder Film normalisiert Erstkontakt, reduziert Panik-Potential, bereitet Öffentlichkeit auf institutionelle Disclosure vor.",
+      "sources": [
+        "J. Allen Hynek Interviews zu CE3K (1977–1978)",
+        "Peter Merlin: Ben Rich 'ET home' Kontext (MUFON Journal 2010)",
+        "Spielberg SXSW Keynote März 2026 (Hollywood Reporter)",
+        "Spielberg Disclosure Day Ankündigung April 2026",
+        "Ben Rich Brief an John Andrews (1986, verifiziert)"
+      ],
+      "tags": [
+        "spielberg",
+        "hollywood",
+        "soft-disclosure",
+        "ce3k",
+        "et-film",
+        "contact",
+        "disclosure-day",
+        "hynek",
+        "ben-rich",
+        "öffentlichkeitsvorbereitung",
+        "49-jahre",
+        "muster",
+        "normalisierung",
+        "cia-briefing",
+        "2026"
+      ],
+      "significance": "Wenn Hollywood-Blockbuster zufällig wären, wäre die Konzentration auf UAP-Themen und die nachweisbaren Regierungsberater-Verbindungen statistisch unwahrscheinlich. Spielbergs 'Disclosure Day' 2026 — zeitgleich mit PURSUE Act — ist der vorläufige Höhepunkt.",
+      "related_cases": [
+        "spielberg-ufos-close-encounters",
+        "spielberg-disclosure-day-2026",
+        "ben-rich-skunkworks-et-home"
+      ],
+      "related_persons": [
+        "steven-spielberg",
+        "ben-rich"
+      ]
+    },
+    {
+      "id": "hynek-ce-classification",
+      "title": "CE-Klassifikation als globaler Standard: Hynek 1972 → AARO 2023",
+      "score": 88,
+      "summary": "Ein einzelner Wissenschaftler prägte die globale UAP-Forschungssprache für 50 Jahre: J. Allen Hynek entwickelte 1972 die Close-Encounter-Klassifikation (CE1/CE2/CE3), die von GEPAN Frankreich (1977), COMETA (1999), NARCAP und schließlich AARO (2023) übernommen wurde. Die Tatsache, dass ein ehemaliger USAF-Skeptiker die Sprache schuf, die heute das Pentagon verwendet, ist ein starkes Kongruenz-Signal.",
+      "tags": [
+        "klassifikation",
+        "wissenschaft",
+        "hynek",
+        "gepan",
+        "cometa",
+        "aaro",
+        "ce1",
+        "ce2",
+        "ce3",
+        "standardisierung",
+        "institutionell"
+      ],
+      "sources": [
+        "Hynek, J.A. (1972): The UFO Experience: A Scientific Inquiry",
+        "GEPAN (1977): Note Technique No. 1, CNES Frankreich",
+        "COMETA Report (1999): UFOs and Defense: What Must We Be Prepared For?",
+        "AARO (2023): UAP Reporting Framework, US DoD"
+      ],
+      "related_cases": [
+        "robertson-panel-1953",
+        "spielberg-ufos-close-encounters"
+      ],
+      "related_people": [
+        "hynek",
+        "vallee"
+      ]
+    },
+    {
+      "id": "these-61",
+      "title": "Institutionelle Selbstkorrektur 2017–2026",
+      "score": 9.1,
+      "summary": "Erstmals in der Geschichte korrigiert sich das US-System öffentlich: AATIP-Enthüllung 2017 → UAPTF 2020 → AARO 2022 → PURSUE Act 2026. Elizondo-Rücktritt als Katalysator, Grusch-Schutz durch NDAA, Trump-Kabinett nennt 'Extraterrestrials'. 9 Jahre institutioneller Wandel, alle Schritte dokumentiert.",
+      "tags": [
+        "institutionell",
+        "selbstkorrektur",
+        "aatip",
+        "uaptf",
+        "aaro",
+        "pursue",
+        "elizondo",
+        "grusch",
+        "trump"
+      ],
+      "cases": [
+        "elizondo-aatip",
+        "grusch-2023",
+        "pursue-release03-june2026",
+        "trump-cabinet-extraterrestrial-2026"
+      ],
+      "people": [
+        "Luis Elizondo",
+        "David Grusch",
+        "Donald Trump",
+        "Pete Hegseth"
+      ],
+      "sources": [
+        "NDAA 2023",
+        "PURSUE Act 2026",
+        "NewsNation 2026"
+      ]
+    },
+    {
+      "id": "these-62",
+      "title": "DNA als Frontier: CIA-Hybrid-Suche & Panspermia-Hypothese",
+      "score": 8.2,
+      "summary": "CIA-Analyst Kit Green sucht angeblich nach Hybrid-DNA in 23andMe/Ancestry. Avi Loeb: Panspermia (Mars→Erde) könnte DNA-Spuren hinterlassen. Varginha 1996: Chereze stirbt nach Kontakt (unbekannte Infektion). Colares 1977: Strahlenopfer. Muster: Biologische Reaktion auf NHI-Kontakt als roter Faden durch 70 Jahre UAP-Geschichte.",
+      "tags": [
+        "dna",
+        "hybrid",
+        "panspermia",
+        "loeb",
+        "kit-green",
+        "cia",
+        "biologie",
+        "kontakt"
+      ],
+      "cases": [
+        "cia-dna-hybrid-2026",
+        "varginha-1996",
+        "chupa-chupa-colares-1977"
+      ],
+      "people": [
+        "Avi Loeb",
+        "Christopher Kit Green",
+        "Marco Eli Chereze"
+      ],
+      "sources": [
+        "NewsNation Mai 2026",
+        "Avi Loeb Medium 2026",
+        "PURSUE Release 2026"
+      ]
+    }
+  ],
+  "_auto_detection": {
+    "description": "Schlüsselwörter und Muster die bei neuen Einträgen automatisch Kongruenz-Prüfung triggern",
+    "trigger_keywords": {
+      "parallelrealitäten": [
+        "frequenz",
+        "vibration",
+        "parallel",
+        "dimension",
+        "kanal",
+        "schwingung",
+        "realität"
+      ],
+      "nuklear": [
+        "kern",
+        "atom",
+        "icbm",
+        "rakete",
+        "silo",
+        "nuklear",
+        "nuclear",
+        "missile"
+      ],
+      "verletzungen": [
+        "verbrennung",
+        "wunde",
+        "strahlung",
+        "schaden",
+        "verletzt",
+        "beam",
+        "ray"
+      ],
+      "bewusstsein": [
+        "bewusstsein",
+        "consciousness",
+        "remote",
+        "psi",
+        "telepathie",
+        "extrasensorisch",
+        "esp"
+      ],
+      "aether_frequenz": [
+        "äther",
+        "aether",
+        "tesla",
+        "steiner",
+        "frequenz",
+        "feld",
+        "zero-point",
+        "skalar"
+      ],
+      "ureinwohner": [
+        "indianer",
+        "indigenous",
+        "aboriginal",
+        "star people",
+        "dogon",
+        "zulu",
+        "hopi",
+        "lakota",
+        "schamane"
+      ],
+      "supervision": [
+        "intervention",
+        "freier wille",
+        "schwellenwert",
+        "galaktisch",
+        "federation",
+        "kontakt-protokoll"
+      ],
+      "neurodivergenz": [
+        "adhs",
+        "autismus",
+        "hochbegabung",
+        "sensitiv",
+        "synästhesie",
+        "hypersensitiv"
+      ]
+    },
+    "scoring_weights": {
+      "temporal_gap_50plus": 3,
+      "cultural_independence": 2,
+      "geographic_separation": 2,
+      "no_cross_knowledge": 2,
+      "official_source": 1
+    }
+  },
+  "_pending_candidates": {
+    "description": "Neue Elemente die noch gegen Thesen geprüft werden müssen",
+    "add_command": "ADD_PENDING: element | source | date | notes",
+    "items": [
+      {
+        "element": "Ra-Material / Law of One (Carla Rueckert, 1981–84)",
+        "status": "prüfen",
+        "notes": "Ra: 'Alles ist eines — Bewusstsein ist das einzige was existiert' — mögliche Kongruenz mit These 4 (Bewusstsein) und These 1 (Parallelrealitäten)"
+      },
+      {
+        "element": "ExoMagazin Telegram-Content",
+        "status": "ausstehend",
+        "notes": "Sascha hat Link gesendet — Inhalte müssen noch ausgewertet werden"
+      },
+      {
+        "element": "Tom DeLonge / To The Stars Academy",
+        "status": "prüfen",
+        "notes": "Verbindung Elizondo + Metall-Materialien + Pentagon — mögliche Kongruenz mit DIA FOIA Docs"
+      }
+    ]
+  }
+}
