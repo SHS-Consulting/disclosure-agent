@@ -2108,6 +2108,75 @@
         "hal-puthoff",
         "russell-targ"
       ]
+    },
+    {
+      "id": "andrija-puharich",
+      "name": "Andrija Puharich",
+      "role": "Arzt, Parapsychologe, CIA-finanzierter Forscher / The Nine",
+      "nationality": "US",
+      "status": "verstorben",
+      "birth": "19. Februar 1918, Chicago, Illinois",
+      "death": "3. Januar 1995, Dobson, North Carolina",
+      "credibility": 5.5,
+      "category": "forscher",
+      "tags": [
+        "cia",
+        "the-nine",
+        "uri-geller",
+        "remote-viewing",
+        "parapsychologie",
+        "tesla",
+        "elf-wellen",
+        "kontrovers"
+      ],
+      "summary": "Dr. Andrija Puharich (bürgerlicher Name: Henry Karel Puharić) war Arzt, Parapsychologe und Erfinder mit über 50 Patenten. Von 1953–1955 diente er als Captain im Army Medical Corps in Edgewood Arsenal, Maryland, wo er engen Kontakt zu CIA, Pentagon und Naval Intelligence hatte. Er ist bekannt als der Mann, der Uri Geller in die USA brachte und ihn als echten Psychiker bestätigte. Bereits 1952 kontaktierte der hinduistische Mystiker Dhundiraj G. Vinod in einer Trance-Sitzung bei Puharich eine Gruppe von Entitäten, die sich 'The Nine' nannten — neun kosmische Wesen, die angeblich die Menschheit lenken. Puharich baute um dieses Konzept das 'Lab Nine' auf seinem Anwesen in Ossining, NY. 1978 brannte das Labor unter mysteriösen Umständen ab, und Puharich floh nach Mexiko mit der Behauptung, die CIA verfolge ihn. Er behauptete, Geller sei Botschafter des Raumschiffs 'Spectra', 53.000 Lichtjahre entfernt. Geller distanzierte sich später von diesen Behauptungen. Puharich forschte auch zu Teslas ELF-Wellen als Bewusstseinskontrolle und behauptete, die Sowjets setzten Tesla-basierte Waffen ein.",
+      "key_claims": [
+        "1952: Dhundiraj G. Vinod kontaktiert in Trance 'The Nine' — neun kosmische Entitäten, die die Menschheit lenken",
+        "1953–1955: Edgewood Arsenal — direkter Kontakt zu CIA, Pentagon, Naval Intelligence",
+        "1971: Uri Geller als echter Psychiker bestätigt — Hypnose-Sitzungen, Geller behauptet Botschafter von Raumschiff 'Spectra'",
+        "1974: Biographie 'Uri: A Journal of the Mystery of Uri Geller' — Geller als Auserwählter der Menschheit",
+        "Lab Nine, Ossining NY: Trance-Sitzungen mit The Nine, Greta Woodrew und anderen",
+        "1978: Lab Nine brennt ab — Puharich flieht nach Mexiko, behauptet CIA-Verfolgung",
+        "Tesla-ELF-Wellen als sowjetische Bewaffnung (Legionärskrankheit, Erdbeben, Klimastörungen)",
+        "50+ Patente, inkl. Hörgeräte und Wasseraufspaltungs-Apparat"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Andrija Puharich",
+          "url": "https://en.wikipedia.org/wiki/Andrija_Puharich",
+          "year": 2024
+        },
+        {
+          "title": "Puharich: Uri — A Journal of the Mystery of Uri Geller (Anchor Press, 1974)",
+          "url": "https://www.scribd.com/document/129636903/Uri-Andrija-Puharich",
+          "year": 1974
+        },
+        {
+          "title": "CIA Reading Room: Panel of Scientists — Psychic Healing (Puharich, Chair)",
+          "url": "https://www.cia.gov/readingroom/docs/CIA-RDP96-00787R000100190001-2.pdf",
+          "year": 1985
+        },
+        {
+          "title": "Reddit r/lawofone: CIA-Funded Doctor Reportedly Contacted by Alien Council",
+          "url": "https://www.reddit.com/r/lawofone/comments/1t4cbnk/ciafunded_doctor_reportedly_contacted_by_alien/",
+          "year": 2025
+        },
+        {
+          "title": "Spotify: Dr. Andrija Puharich Part I — The Spookiest Bastard in America",
+          "url": "https://open.spotify.com/episode/0GgIfe0N0Uqmepg7w6c6w0",
+          "year": 2023
+        }
+      ],
+      "linked_cases": [
+        "cia-stargate-project"
+      ],
+      "linked_theses": [
+        "these-66-psychische-faehigkeiten-nhi"
+      ],
+      "linked_persons": [
+        "uri-geller",
+        "ingo-swann"
+      ]
     }
   ]
 }
