@@ -1,0 +1,2021 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#b39ddb">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Disclosure Agent PRO · KI Taskforce</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&family=JetBrains+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+:root{--v:#b39ddb;--vd:#7c5cbf;--vg:#ce93d8;--c:#00e5ff;--a:#ffb020;--r:#ff4444;--g:#00e676;--bg0:#03020a;--bg1:#080614;--bg2:#0d0a1e;--bg3:#120f28;--bd:rgba(179,157,219,.18);--bdb:rgba(179,157,219,.42);--t1:#e8e0ff;--t2:rgba(232,224,255,.6);--t3:rgba(232,224,255,.32)}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'Rajdhani',sans-serif;background:var(--bg0);color:var(--t1);min-height:100vh;overflow-x:hidden}
+body::after{content:'';position:fixed;inset:0;z-index:1;pointer-events:none;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.025) 2px,rgba(0,0,0,.025) 4px)}
+#sf{position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(ellipse at 15% 25%,rgba(124,92,191,.1) 0%,transparent 55%),radial-gradient(ellipse at 85% 75%,rgba(0,229,255,.06) 0%,transparent 45%),var(--bg0)}
+.star{position:absolute;background:#fff;border-radius:50%;animation:twk var(--d,3s) ease-in-out infinite var(--dy,0s)}
+@keyframes twk{0%,100%{opacity:var(--lo,.1)}50%{opacity:var(--hi,.8)}}
+@keyframes fi{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pd{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.7)}}
+.app{position:relative;z-index:2}
+
+nav{position:sticky;top:0;z-index:100;background:rgba(3,2,10,.96);backdrop-filter:blur(24px);border-bottom:1px solid var(--bd);display:flex;align-items:center;gap:.75rem;padding:0 1.25rem;height:58px;flex-wrap:wrap}
+.nl{width:36px;height:36px;border-radius:9px;overflow:hidden;border:1.5px solid rgba(179,157,219,.4);box-shadow:0 0 18px rgba(179,157,219,.35);flex-shrink:0}
+.nl img{width:100%;height:100%;object-fit:cover}
+.nt{line-height:1}
+.nm{font-family:'Orbitron',sans-serif;font-size:11px;font-weight:700;color:var(--v);letter-spacing:2px}
+.ns{font-size:9px;color:var(--t3);letter-spacing:2px;text-transform:uppercase;margin-top:1px}
+.ntabs{display:flex;gap:2px;list-style:none;flex-wrap:wrap;margin-left:auto}
+.ntabs li a{display:block;padding:4px 9px;font-family:'Rajdhani',sans-serif;font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;color:var(--t3);border-radius:4px;transition:all .2s;cursor:pointer;border:none;background:none}
+.ntabs li a:hover,.ntabs li a.active{color:var(--v);background:rgba(179,157,219,.1)}
+.nlive{display:flex;align-items:center;gap:5px;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--g);white-space:nowrap}
+.ld{width:6px;height:6px;border-radius:50%;background:var(--g);animation:pd 1.5s ease-in-out infinite}
+.loading{text-align:center;padding:2rem;color:var(--t3);font-family:'JetBrains Mono',monospace;font-size:11px}
+
+.hero{min-height:280px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:2rem 1.5rem 1.5rem;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:700px;height:280px;background:radial-gradient(ellipse,rgba(179,157,219,.12) 0%,transparent 70%);pointer-events:none}
+.badge{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2.5px;color:var(--c);background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.25);border-radius:2px;padding:3px 12px;margin-bottom:1rem}
+.hero h1{font-family:'Orbitron',sans-serif;font-size:clamp(20px,4vw,42px);font-weight:900;line-height:1.1;background:linear-gradient(135deg,#fff 0%,var(--v) 50%,var(--c) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:.75rem}
+.hero p{font-size:13px;color:var(--t2);max-width:540px;line-height:1.6;margin-bottom:1.25rem}
+.hstats{display:flex;gap:1.5rem;flex-wrap:wrap;justify-content:center}
+.hs{text-align:center}
+.hn{font-family:'Orbitron',sans-serif;font-size:20px;font-weight:900;color:var(--v);display:block}
+.hl{font-size:9px;letter-spacing:2px;color:var(--t3);text-transform:uppercase}
+
+.wrap{max-width:1300px;margin:0 auto;padding:0 1.25rem 3rem}
+.tbts{display:flex;gap:3px;flex-wrap:wrap;margin-bottom:1.25rem;border-bottom:1px solid var(--bd);padding-bottom:0}
+.tbt{padding:6px 12px;border:none;background:none;cursor:pointer;font-family:'Rajdhani',sans-serif;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--t3);border-bottom:2px solid transparent;transition:all .2s;margin-bottom:-1px}
+.tbt:hover{color:var(--t2)}.tbt.active{color:var(--v);border-bottom-color:var(--v)}
+.tp{display:none}.tp.active{display:block;animation:fi .3s ease}
+
+.cg{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.85rem}
+.card{background:var(--bg3);border:1px solid var(--bd);border-radius:8px;padding:1rem;transition:all .25s;position:relative;overflow:hidden}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--vd),var(--vg));opacity:0;transition:opacity .25s}
+.card:hover{border-color:var(--bdb);transform:translateY(-2px)}.card:hover::before{opacity:1}
+.lv{display:inline-flex;align-items:center;gap:4px;font-family:'JetBrains Mono',monospace;font-size:8px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:2px 6px;border-radius:2px;margin-bottom:.6rem}
+.lc{background:rgba(255,68,68,.14);color:var(--r);border:1px solid rgba(255,68,68,.3)}
+.lh{background:rgba(255,176,32,.14);color:var(--a);border:1px solid rgba(255,176,32,.3)}
+.lm{background:rgba(179,157,219,.14);color:var(--v);border:1px solid rgba(179,157,219,.3)}
+.lok{background:rgba(0,230,118,.12);color:var(--g);border:1px solid rgba(0,230,118,.3)}
+.lhist{background:rgba(0,229,255,.1);color:var(--c);border:1px solid rgba(0,229,255,.25)}
+.ct{font-family:'Rajdhani',sans-serif;font-size:13px;font-weight:700;color:var(--t1);margin-bottom:.4rem;line-height:1.3}
+.cd{font-size:11px;color:var(--t2);line-height:1.6;margin-bottom:.6rem}
+.cm{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)}
+.csl{margin-left:auto;color:var(--c);text-decoration:none;font-size:9px;font-weight:600;padding:2px 6px;border:1px solid rgba(0,229,255,.25);border-radius:2px;transition:all .2s}
+.csl:hover{background:rgba(0,229,255,.08)}
+.bar{margin:.4rem 0}
+.bl{display:flex;justify-content:space-between;margin-bottom:2px}
+.bl span{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)}
+.bl strong{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--v)}
+.bt{height:3px;background:rgba(255,255,255,.05);border-radius:2px;overflow:hidden}
+.bf{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--vd),var(--v));transition:width 1.2s ease}
+
+.pcard{background:var(--bg3);border:1px solid var(--bd);border-radius:8px;padding:1rem;transition:all .25s;display:flex;gap:.75rem;cursor:pointer}
+.pcard:hover{border-color:var(--c);box-shadow:0 0 12px rgba(0,229,255,.12);transform:translateY(-1px)}
+.pavatar{width:46px;height:46px;border-radius:8px;background:linear-gradient(135deg,var(--vd),var(--vg));display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+.pinfo{flex:1}
+.pname{font-family:'Orbitron',sans-serif;font-size:10px;font-weight:700;color:var(--t1);margin-bottom:2px}
+.prole{font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--v);letter-spacing:1px;text-transform:uppercase;margin-bottom:.35rem}
+.pbio{font-size:11px;color:var(--t2);line-height:1.5}
+.ptags{display:flex;gap:.3rem;flex-wrap:wrap;margin-top:.4rem}
+.ptag{font-family:'JetBrains Mono',monospace;font-size:8px;padding:2px 5px;border-radius:2px;background:rgba(179,157,219,.08);border:1px solid var(--bd);color:var(--t3)}
+
+.cw{background:var(--bg2);border:1px solid var(--bd);border-radius:8px;padding:1.1rem;margin-bottom:.85rem}
+.cwtitle{font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:var(--v);margin-bottom:.6rem}
+.cwtag{display:inline-flex;align-items:center;gap:.5rem;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--c);background:rgba(0,229,255,.07);border:1px solid rgba(0,229,255,.2);border-radius:2px;padding:3px 8px;margin-bottom:.5rem}
+.cwsources{display:flex;flex-wrap:wrap;gap:.4rem}
+.cwsrc{font-size:11px;padding:4px 8px;background:rgba(179,157,219,.07);border:1px solid var(--bd);border-radius:3px;color:var(--t2);flex:1;min-width:210px}
+.cwsrc strong{color:var(--v)}
+.cwarrow{display:block;font-size:10px;color:var(--t3);margin:.3rem 0 .2rem .4rem;font-family:'JetBrains Mono',monospace}
+
+.ops{display:grid;gap:.55rem}
+.op{display:grid;grid-template-columns:130px 1fr;gap:.65rem;padding:.85rem;background:var(--bg2);border:1px solid var(--bd);border-radius:6px;transition:border-color .2s}
+.op:hover{border-color:var(--bdb)}
+.opname{font-family:'Orbitron',sans-serif;font-size:9px;font-weight:700;color:var(--v);letter-spacing:1px}
+.opyear{font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);margin:.1rem 0}
+.opdesc{font-size:11px;color:var(--t2);line-height:1.55}
+
+.region-bar{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1rem}
+.rbtn{padding:4px 11px;border:1px solid var(--bd);border-radius:3px;background:none;cursor:pointer;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3);transition:all .2s}
+.rbtn:hover{opacity:.85;filter:brightness(1.2)}
+.rbtn.active{border-color:var(--bdb);color:var(--v);background:rgba(179,157,219,.12);filter:brightness(1.15)}
+/* Buttons mit inline-Farbe behalten ihre Farbe auch im active/hover-State */
+.rbtn[style*='color']:hover,.rbtn[style*='color'].active{color:inherit}
+
+.sb{display:flex;gap:.4rem;margin-bottom:1rem;background:var(--bg3);border:1px solid var(--bd);border-radius:6px;padding:.4rem .85rem;align-items:center}
+.sb input{flex:1;background:none;border:none;outline:none;font-family:'Rajdhani',sans-serif;font-size:13px;color:var(--t1)}
+.sb input::placeholder{color:var(--t3)}
+
+.aip{background:var(--bg3);border:1px solid var(--bdb);border-radius:8px;padding:1.1rem;margin-bottom:1.25rem;position:relative;overflow:hidden}
+.aip::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--vd),var(--c),var(--v))}
+.aih{display:flex;align-items:center;gap:8px;margin-bottom:.75rem}
+.aia{width:28px;height:28px;border-radius:50%;overflow:hidden;border:1.5px solid rgba(179,157,219,.4);flex-shrink:0}
+.aia img{width:100%;height:100%;object-fit:cover}
+.ain{font-family:'Orbitron',sans-serif;font-size:10px;color:var(--c)}
+.ams{min-height:80px;margin-bottom:.75rem;max-height:280px;overflow-y:auto}
+.am{font-size:12px;line-height:1.7;color:var(--t2);margin-bottom:.4rem;padding:.55rem .8rem;background:rgba(255,255,255,.03);border-radius:4px;border-left:2px solid var(--vd)}
+.am strong{color:var(--v)}
+.air{display:flex;gap:.4rem}
+.ai-inp{flex:1;padding:7px 10px;background:rgba(255,255,255,.04);border:1px solid var(--bd);border-radius:4px;outline:none;font-family:'Rajdhani',sans-serif;font-size:12px;color:var(--t1)}
+.ai-inp:focus{border-color:var(--vd)}
+.ai-send{padding:7px 12px;background:linear-gradient(135deg,var(--vd),var(--v));border:none;border-radius:4px;color:#fff;font-family:'Rajdhani',sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;cursor:pointer}
+
+.dia-box{background:rgba(0,229,255,.05);border:1px solid rgba(0,229,255,.2);border-radius:8px;padding:1.1rem;margin-bottom:1.5rem}
+.dia-title{font-family:'Orbitron',sans-serif;font-size:11px;letter-spacing:2px;color:var(--c);margin-bottom:.75rem}
+.dia-docs{display:grid;gap:.5rem}
+.dia-doc{padding:.75rem;background:rgba(255,255,255,.03);border:1px solid var(--bd);border-radius:5px}
+.dia-doc-name{font-family:'Rajdhani',sans-serif;font-size:12px;font-weight:700;color:var(--t1);margin-bottom:.2rem}
+.dia-doc-desc{font-size:11px;color:var(--t2);line-height:1.5}
+
+.alert{background:rgba(255,68,68,.08);border:1px solid rgba(255,68,68,.25);border-radius:6px;padding:.85rem 1.1rem;margin-bottom:1.1rem;display:flex;align-items:flex-start;gap:.6rem}
+.alert strong{display:block;font-size:11px;color:var(--r);margin-bottom:2px}
+.alert span{font-size:11px;color:var(--t2)}
+
+.qb{padding:4px 10px;background:rgba(179,157,219,.08);border:1px solid var(--bd);border-radius:4px;color:var(--t2);font-family:'Rajdhani',sans-serif;font-size:10px;cursor:pointer;transition:all .2s}
+.qb:hover{border-color:var(--bdb);color:var(--v)}
+
+footer{border-top:1px solid var(--bd);padding:1.5rem;text-align:center;margin-top:1.5rem}
+footer p{font-size:10px;color:var(--t3);line-height:2}
+footer a{color:var(--v);text-decoration:none}
+
+@media(max-width:640px){.ntabs{display:none}.cg,.ops{grid-template-columns:1fr}.op{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div id="sf"></div>
+<div class="app">
+
+<nav>
+  <div class="nl"><img id="nav-logo" src="/manus-storage/logo-hq_3761fcd9.jpg" alt="KI Taskforce" onerror="this.parentNode.innerHTML='🐘'"></div>
+  <div class="nt">
+    <div class="nm">KI TASKFORCE</div>
+    <div class="ns">DISCLOSURE PRO</div>
+  </div>
+  <ul class="ntabs">
+    <li><a href="#" onclick="T('ev')" class="active">Beweise</a></li>
+    <li><a href="#" onclick="T('tl')">Timeline</a></li>
+    <li><a href="#" onclick="T('pp')">Personen</a></li>
+    <li><a href="#" onclick="T('op')">Operationen</a></li>
+    <li><a href="#" onclick="T('ww')">Weltweit</a></li>
+    <li><a href="#" onclick="T('dia')">DIA Docs</a></li>
+    <li><a href="#" onclick="T('con')">Kongruenz</a></li>
+    <li><a href="#" onclick="T('ai')">KI Agent</a></li>
+  </ul>
+  <a href="https://pursueindex.com" target="_blank" rel="noopener" style="font-family:'Orbitron',sans-serif;font-size:9px;font-weight:700;color:#00e5ff;text-decoration:none;border:1px solid rgba(0,229,255,.45);border-radius:4px;padding:4px 10px;white-space:nowrap;letter-spacing:.5px;background:rgba(0,229,255,.07);transition:all .2s" onmouseover="this.style.background='rgba(0,229,255,.18)';this.style.borderColor='#00e5ff'" onmouseout="this.style.background='rgba(0,229,255,.07)';this.style.borderColor='rgba(0,229,255,.45)'">pursueindex.com ↗</a>
+  <div class="nlive"><div class="ld"></div>LIVE <span id="live-date"></span></div>
+</nav>
+
+<div class="hero">
+  <div class="badge">⊛ PENTAGON PURSUE ACT AKTIV · RELEASE 01+02+03 · ~382 AKTEN FREIGEGEBEN · LETZTER RELEASE: 1. JUNI 2026</div>
+  <h1>UAP · Disclosure<br>Intelligence Hub PRO</h1>
+  <p>Weltweite Fälle, Personen, Operationen, DIA-Materialforschung, 10.000 Jahre Timeline, Steiner-Äther, Tesla, Ureinwohner-Wissen, Kongruenz-Analyse — und Claude-powered KI Agent.</p>
+  <div class="hstats">
+    <div class="hs"><span class="hn" id="stat-cases">—</span><span class="hl">Weltweite Fälle</span></div>
+    <div class="hs"><span class="hn" id="stat-people">—</span><span class="hl">Schlüsselpersonen</span></div>
+    <div class="hs"><span class="hn" id="stat-ops">—</span><span class="hl">Operationen</span></div>
+    <div class="hs"><span class="hn" id="stat-con">—</span><span class="hl">Kongruenz-Thesen</span></div>
+  </div>
+</div>
+
+<div class="wrap">
+
+<!-- PURSUE STATISTIK-BOX -->
+<!-- PURSUE INDEX HERO LINK -->
+<a href="https://pursueindex.com" target="_blank" style="display:block;margin-bottom:.75rem;padding:.9rem 1.2rem;background:linear-gradient(135deg,rgba(0,229,255,.12),rgba(179,157,219,.08));border:2px solid rgba(0,229,255,.5);border-radius:8px;text-decoration:none;transition:all .2s" onmouseover="this.style.borderColor='#00e5ff';this.style.background='linear-gradient(135deg,rgba(0,229,255,.2),rgba(179,157,219,.12))'" onmouseout="this.style.borderColor='rgba(0,229,255,.5)';this.style.background='linear-gradient(135deg,rgba(0,229,255,.12),rgba(179,157,219,.08))'">
+  <div style="display:flex;flex-wrap:wrap;gap:.5rem 1.2rem;align-items:center">
+    <div style="flex-shrink:0">
+      <div style="font-family:'Orbitron',sans-serif;font-size:14px;font-weight:900;color:#00e5ff;letter-spacing:2px">pursueindex.com</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1px;margin-top:1px">OFFIZIELLER INDEX · ALLE 222 PENTAGON-AKTEN · DURCHSUCHBAR</div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:.4rem .9rem;flex:1">
+      <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t2)"><span style="color:#00e5ff;font-weight:700">222</span> Akten</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t2)"><span style="color:#ffd700;font-weight:700">R01</span> 8. Mai</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t2)"><span style="color:#ffd700;font-weight:700">R02</span> 22. Mai 2026</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t2)"><span style="color:#ff4444;font-weight:700">R03</span> 1. Jun 2026</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t2)"><span style="color:#00e676;font-weight:700">NASA</span> Mercury/Gemini/Apollo/Skylab</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t2)"><span style="color:#ff6464;font-weight:700">FBI</span> 57 Fotos + 2023</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t2)"><span style="color:#b39ddb;font-weight:700">DOW</span> 78 Videos</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t2)"><span style="color:#ffb020;font-weight:700">CIA/DOE/ODNI</span> Sary Shagan · Pantex</span>
+    </div>
+    <div style="font-family:'Orbitron',sans-serif;font-size:18px;color:#00e5ff;flex-shrink:0">↗</div>
+  </div>
+</a>
+
+<!-- Disclosure Day Countdown -->
+<div id="dd-countdown" style="margin-bottom:.6rem;padding:.55rem 1rem;background:linear-gradient(135deg,rgba(255,140,0,.1),rgba(255,80,80,.07));border:1px solid rgba(255,140,0,.4);border-radius:6px;display:flex;align-items:center;gap:.8rem;flex-wrap:wrap">
+  <span style="font-size:14px">🎬</span>
+  <div style="flex:1;min-width:180px">
+    <span style="font-family:'Orbitron',sans-serif;font-size:9px;font-weight:700;color:#ff8c00;letter-spacing:1.5px">SPIELBERG · DISCLOSURE DAY</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);margin-left:.6rem">Kinostart 11. Juni 2026 · "Mehr Wahrheit als Fiktion"</span>
+  </div>
+  <div id="dd-days" style="font-family:'Orbitron',sans-serif;font-size:13px;font-weight:900;color:#ff8c00;letter-spacing:1px;white-space:nowrap">... Tage</div>
+  <a href="https://pursueindex.com" target="_blank" style="font-family:'JetBrains Mono',monospace;font-size:8px;color:#ff8c00;text-decoration:none;border:1px solid rgba(255,140,0,.4);border-radius:3px;padding:2px 7px;white-space:nowrap">pursueindex.com ↗</a>
+</div>
+<script>
+(function(){
+  var target = new Date('2026-06-11T00:00:00');
+  function update(){
+    var now = new Date();
+    var diff = target - now;
+    var el = document.getElementById('dd-days');
+    if(!el) return;
+    if(diff <= 0){ el.textContent = '🎬 HEUTE'; return; }
+    var days = Math.floor(diff/86400000);
+    var hrs = Math.floor((diff%86400000)/3600000);
+    var mins = Math.floor((diff%3600000)/60000);
+    el.textContent = days + 'd ' + hrs + 'h ' + mins + 'm';
+  }
+  update();
+  setInterval(update, 30000);
+})();
+</script>
+
+<div class="alert">
+  <span style="font-size:16px;flex-shrink:0">⚠️</span>
+  <div><strong>BREAKING · Pentagon PURSUE Act · Release 01+02+03 · ~382 Akten freigegeben · Letzter Release: 1. Juni 2026</strong>
+<span>Release 01 (8. Mai): 162 Akten — NASA Apollo/Mercury/Gemini/Skylab-Audio, FBI 57 Fotos, State Dept Kabel (5 Länder), DOW CENTCOM 78 Videos, CIA Sary Shagan 1973, DOE Pantex, ODNI 116 Seiten. · Release 02 (22. Mai): 60 Akten — Skylab 4, Mercury Atlas 7/8/9, Gemini 7, Apollo 12/17, FBI 2023, COMETA 1999, INDOPACOM. · Release 03 (1. Juni): ~160 neue Akten — Apollo 12 Audio, Infrarot-Footage INDOPACOM, weitere Militärberichte. · NEU: CIA jagt Human-Alien-Hybrids via 23andMe/Ancestry (Avi Loeb bei NewsNation) · Nat Cobitz (US Navy Director) zeigt NHI-Materialien · MITRE-Kongress-Anfrage · Trump: 'Extraterrestrials' im Kabinett · Red Book &amp; Yellow Book (Coulthart). · NEU: Kongruenz-These #63: Neurodiversität als Hybridisierungs-Marker (Autismus/ADHS/ASS = Alien-Hybrid-Merkmal, Dr. Max Rempel 2025, Neanderthal-DNA-Studie Nature 2024, CIA-23andMe-Backdoor). · These #66: Uri Geller (CIA Stargate SRI 1972–1973 declassified + Wernher von Braun NASA Goddard Alien Bodies + MINOX-Fotos + Mossad + Dr. Kit Green CIA bestätigt). · 169 Fälle · 75 Personen · 66 Thesen. · Vollständiger Index: <a href="https://pursueindex.com" target="_blank" style="color:#00e5ff;font-weight:700;text-decoration:underline">pursueindex.com</a></span></div>
+</div>
+
+<div class="tbts">
+  <button class="tbt active" onclick="T('ev')">🔬 Beweise</button>
+  <button class="tbt" onclick="T('tl')">📅 Timeline</button>
+  <button class="tbt" onclick="T('pp')">👤 Personen</button>
+  <button class="tbt" onclick="T('op')">🛡 Operationen</button>
+  <button class="tbt" onclick="T('ww')">🌍 Weltweit</button>
+  <button class="tbt" onclick="T('dia')">📋 DIA Docs</button>
+  <button class="tbt" onclick="T('con')">🔗 Kongruenz</button>
+  <button class="tbt" onclick="T('ai')">🤖 KI Agent</button>
+  <button class="tbt" onclick="T('dl')">📥 Downloads</button>
+  <button class="tbt" onclick="T('db')">❌ Widerlegt</button>
+  <button class="tbt" onclick="T('st')">⭐ Stärkste</button>
+  <button class="tbt" onclick="T('cl')">📋 Updates</button>
+</div>
+
+<!-- EVIDENCE -->
+<div id="tp-ev" class="tp active">
+  <div class="sb"><span>🔍</span><input type="text" id="ev-search" placeholder="Beweise filtern..." oninput="filterEvidence(this)"></div>
+  <div class="region-bar" id="ev-filter-bar">
+    <button class="rbtn active" onclick="filterEvidenceTag('all',this)" style="border-color:rgba(255,255,255,.35);color:#ffffff">🌐 Alle</button>
+    <button class="rbtn" onclick="filterEvidenceTag('KRITISCH',this)" style="border-color:rgba(255,68,68,.5);color:#ff4444;background:rgba(255,68,68,.08)">🔴 Kritisch</button>
+    <button class="rbtn" onclick="filterEvidenceTag('BESTÄTIGT',this)" style="border-color:rgba(0,230,118,.5);color:#00e676;background:rgba(0,230,118,.07)">✅ Bestätigt</button>
+    <button class="rbtn" onclick="filterEvidenceTag('AARO',this)" style="border-color:rgba(0,180,255,.5);color:#00b4ff;background:rgba(0,180,255,.07)">🏛 AARO</button>
+    <button class="rbtn" onclick="filterEvidenceTag('NASA',this)" style="border-color:rgba(255,140,0,.5);color:#ff8c00;background:rgba(255,140,0,.07)">🚀 NASA</button>
+    <button class="rbtn" onclick="filterEvidenceTag('Astronaut',this)" style="border-color:rgba(255,215,0,.5);color:#ffd700;background:rgba(255,215,0,.07)">👨‍🚀 Astronauten</button>
+    <button class="rbtn" onclick="filterEvidenceTag('Pentagon',this)" style="border-color:rgba(100,160,255,.5);color:#64a0ff;background:rgba(100,160,255,.07)">⬡ Pentagon</button>
+    <button class="rbtn" onclick="filterEvidenceTag('Nuklear',this)" style="border-color:rgba(255,100,100,.5);color:#ff6464;background:rgba(255,100,100,.07)">☢ Nuklear</button>
+    <button class="rbtn" onclick="filterEvidenceTag('Materialanalyse',this)" style="border-color:rgba(80,220,160,.5);color:#50dca0;background:rgba(80,220,160,.07)">🔬 Material</button>
+    <button class="rbtn" onclick="filterEvidenceTag('soft-disclosure',this)" style="border-color:rgba(255,176,32,.5);color:#ffb020;background:rgba(255,176,32,.07)">🎥 Hollywood</button>
+    <button class="rbtn" onclick="filterEvidenceTag('soft-disclosure',this)" style="border-color:rgba(255,140,0,.6);color:#ff8c00;background:rgba(255,140,0,.09)">🎬 Soft-Disclosure</button>
+    <button class="rbtn" onclick="filterEvidenceTag('eisenhower',this)" style="border-color:rgba(100,200,255,.5);color:#64c8ff;background:rgba(100,200,255,.07)">🤝 Eisenhower</button>
+    <button class="rbtn" onclick="filterEvidenceTag('dulce',this)" style="border-color:rgba(180,100,255,.5);color:#b464ff;background:rgba(180,100,255,.07)">🕳️ Dulce</button>
+    <button class="rbtn" onclick="filterEvidenceTag('wissenschaft',this)" style="border-color:rgba(80,220,160,.5);color:#50dca0;background:rgba(80,220,160,.07)">🔭 Wissenschaft</button>
+    <button class="rbtn" onclick="filterEvidenceTag('FOIA',this)" style="border-color:rgba(255,200,50,.5);color:#ffc832;background:rgba(255,200,50,.07)">📄 FOIA</button>
+    <button class="rbtn" onclick="filterEvidenceTag('Video',this)" style="border-color:rgba(255,80,80,.5);color:#ff5050;background:rgba(255,80,80,.07)">🎥 Video</button>
+    <button class="rbtn" onclick="filterEvidenceTag('Humanoid',this)" style="border-color:rgba(0,230,118,.5);color:#00e676;background:rgba(0,230,118,.07)">👽 Humanoid</button>
+    <button class="rbtn" onclick="filterEvidenceTag('PURSUE',this)" style="border-color:rgba(0,229,255,.5);color:#00e5ff;background:rgba(0,229,255,.07)">🏛 PURSUE</button>
+  </div>
+  <!-- Neueste Fälle -->
+  <div id="ev-recent" style="margin-bottom:1rem;display:none">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:.5rem">⏱ Zuletzt hinzugefügt</div>
+    <div id="ev-recent-list" style="display:flex;flex-direction:column;gap:.35rem"></div>
+    <div style="margin-top:.5rem;margin-bottom:.75rem;border-top:1px solid var(--bd)"></div>
+  </div>
+  <div class="cg" id="ev-grid"><div class="loading">Lade Beweisdaten...</div></div>
+</div>
+
+<!-- TIMELINE - static, richest content -->
+<div id="tp-tl" class="tp">
+<!-- Timeline Filter -->
+<div style="margin-bottom:1rem">
+  <div class="sb" style="margin-bottom:.6rem"><span>🔍</span><input type="text" id="tl-search" placeholder="Timeline durchsuchen..." oninput="filterTimeline()" style="background:transparent;border:none;outline:none;color:var(--t1);width:100%;font-family:'Rajdhani',sans-serif;font-size:13px"></div>
+  <div style="display:flex;flex-wrap:wrap;gap:.4rem">
+    <button class="tl-epoch-btn active" data-epoch="all" onclick="setEpoch('all',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.1);color:var(--t1);cursor:pointer">🌐 Alle</button>
+    <button class="tl-epoch-btn" data-epoch="antike" onclick="setEpoch('antike',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(255,176,32,.35);background:rgba(255,176,32,.07);color:#ffb020;cursor:pointer">🏛️ Antike (&lt;1900)</button>
+    <button class="tl-epoch-btn" data-epoch="frueh" onclick="setEpoch('frueh',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(179,157,219,.35);background:rgba(179,157,219,.07);color:#b39ddb;cursor:pointer">⚡ 1900–1950</button>
+    <button class="tl-epoch-btn" data-epoch="kaltkrieg" onclick="setEpoch('kaltkrieg',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(0,229,255,.35);background:rgba(0,229,255,.07);color:#00e5ff;cursor:pointer">☢️ Kalter Krieg</button>
+    <button class="tl-epoch-btn" data-epoch="raumfahrt" onclick="setEpoch('raumfahrt',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(255,215,0,.35);background:rgba(255,215,0,.07);color:#ffd700;cursor:pointer">🚀 Raumfahrt (1957–1975)</button>
+    <button class="tl-epoch-btn" data-epoch="pursue" onclick="setEpoch('pursue',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(0,229,255,.5);background:rgba(0,229,255,.1);color:#00e5ff;cursor:pointer">🏛 PURSUE</button>
+    <button class="tl-epoch-btn" data-epoch="geheimhaltung" onclick="setEpoch('geheimhaltung',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(255,68,68,.45);background:rgba(255,68,68,.08);color:#ff6b6b;cursor:pointer">🔒 Geheimhaltung</button>
+    <button class="tl-epoch-btn" data-epoch="modern" onclick="setEpoch('modern',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(0,230,118,.35);background:rgba(0,230,118,.07);color:#00e676;cursor:pointer">🛸 Modern (1990+)</button>
+    <button class="tl-epoch-btn" data-epoch="zukunft" onclick="setEpoch('zukunft',this)" style="font-size:.7rem;padding:.25rem .65rem;border-radius:4px;border:1px solid rgba(0,230,118,.35);background:rgba(0,230,118,.07);color:#00e676;cursor:pointer">🔮 Projektionen</button>
+  </div>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem" id="tl-grid-container">
+<div>
+<div style="font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:var(--a);margin-bottom:.75rem;border-bottom:1px solid rgba(255,176,32,.2);padding-bottom:.35rem">◈ VERGANGENHEIT — 10.000 Jahre</div>
+<div id="tl-past" style="position:relative;padding-left:1.6rem">
+<div style="position:absolute;left:5px;top:0;bottom:0;width:1px;background:linear-gradient(180deg,transparent,var(--vd) 10%,var(--v) 50%,var(--vd) 90%,transparent)"></div>
+<!-- Timeline items injected by JS from timeline data -->
+</div>
+</div>
+<div>
+<div style="font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:var(--g);margin-bottom:.75rem;border-bottom:1px solid rgba(0,230,118,.2);padding-bottom:.35rem">◈ PROJEKTIONEN</div>
+<div id="tl-future" style="position:relative;padding-left:1.6rem">
+<div style="position:absolute;left:5px;top:0;bottom:0;width:1px;background:linear-gradient(180deg,transparent,var(--vd) 10%,var(--v) 50%,var(--vd) 90%,transparent)"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- PEOPLE -->
+<div id="tp-pp" class="tp">
+  <div class="sb"><span>🔍</span><input type="text" id="pp-search-inp" placeholder="Personen filtern..." oninput="filterPeople(this)"></div>
+  <div class="region-bar" style="margin-bottom:.75rem">
+    <button class="rbtn active" id="pp-filter-all" onclick="filterPeopleTag('all',this)" style="border-color:rgba(255,255,255,.35);color:#ffffff">🌐 Alle</button>
+    <button class="rbtn" onclick="filterPeopleTag('Astronaut',this)" style="border-color:rgba(255,215,0,.5);color:#ffd700;background:rgba(255,215,0,.07)">👨‍🚀 Astronauten</button>
+    <button class="rbtn" onclick="filterPeopleTag('Whistleblower',this)" style="border-color:rgba(255,68,68,.5);color:#ff4444;background:rgba(255,68,68,.07)">📣 Whistleblower</button>
+    <button class="rbtn" onclick="filterPeopleTag('Militär',this)" style="border-color:rgba(100,160,255,.5);color:#64a0ff;background:rgba(100,160,255,.07)">🎖 Militär</button>
+    <button class="rbtn" onclick="filterPeopleTag('Wissenschaftler',this)" style="border-color:rgba(80,220,160,.5);color:#50dca0;background:rgba(80,220,160,.07)">🔬 Wissenschaftler</button>
+    <button class="rbtn" onclick="filterPeopleTag('Politiker',this)" style="border-color:rgba(0,180,255,.5);color:#00b4ff;background:rgba(0,180,255,.07)">🏛 Politiker</button>
+    <button class="rbtn" onclick="filterPeopleTag('Insider',this)" style="border-color:rgba(179,157,219,.5);color:#b39ddb;background:rgba(179,157,219,.07)">🔐 Insider</button>
+    <button class="rbtn" onclick="filterPeopleTag('PURSUE',this)" style="border-color:rgba(0,229,255,.5);color:#00e5ff;background:rgba(0,229,255,.07)">🏛 PURSUE</button>
+    <button class="rbtn" onclick="filterPeopleTag('Zeuge',this)" style="border-color:rgba(255,176,32,.5);color:#ffb020;background:rgba(255,176,32,.07)">👁 Zeuge</button>
+    <button class="rbtn" onclick="filterPeopleTag('umdenker',this)" style="border-color:rgba(100,255,180,.5);color:#64ffb4;background:rgba(100,255,180,.07)">🔄 Umdenker</button>
+  </div>
+  <div id="pp-count" style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3);margin-bottom:.5rem"></div>
+  <div class="cg" id="pp-grid"><div class="loading">Lade Personendaten...</div></div>
+</div>
+
+<!-- OPERATIONS -->
+<div id="tp-op" class="tp">
+  <div class="ops" id="op-grid"><div class="loading">Lade Operationen...</div></div>
+</div>
+
+<!-- WORLDWIDE -->
+<div id="tp-ww" class="tp">
+  <div class="region-bar" id="region-bar">
+    <button class="rbtn active" onclick="filterRegionDyn('all',this)">🌐 Alle</button>
+    <button class="rbtn" onclick="filterRegionDyn('usa',this)">🇺🇸 USA</button>
+    <button class="rbtn" onclick="filterRegionDyn('brazil',this)">🇧🇷 Brasilien</button>
+    <button class="rbtn" onclick="filterRegionDyn('europe',this)">🇪🇺 Europa</button>
+    <button class="rbtn" onclick="filterRegionDyn('russia',this)">🇷🇺 Russland</button>
+    <button class="rbtn" onclick="filterRegionDyn('asia',this)">🌏 Asien</button>
+    <button class="rbtn" onclick="filterRegionDyn('australia',this)">🇦🇺 Ozeanien</button>
+    <button class="rbtn" onclick="filterRegionDyn('africa',this)">🌍 Afrika</button>
+    <button class="rbtn" onclick="filterRegionDyn('space',this)">🌕 Weltraum</button>
+    <button class="rbtn" onclick="filterRegionDyn('mideast',this)">🕌 Nahost</button>
+  </div>
+  <!-- DOW CENTCOM HOTSPOT-KARTE -->
+  <div style="background:rgba(0,229,255,.04);border:1px solid rgba(0,229,255,.15);border-radius:8px;padding:1rem;margin-bottom:1rem">
+    <div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:#00e5ff;margin-bottom:.5rem">&#128205; DOW/CENTCOM UAP-HOTSPOTS &middot; 27 MISSION REPORTS &middot; PURSUE ACT DEKLASSIFIZIERT</div>
+    <div style="font-size:10px;color:var(--t3);margin-bottom:.75rem">Geografische Verteilung der 27 deklassifizierten DOW/CENTCOM-Berichte. Kreisgr&ouml;&szlig;e = Anzahl Berichte. Klick = Details.</div>
+    <div style="position:relative;width:100%;max-width:800px;margin:0 auto">
+      <svg viewBox="0 0 800 400" style="width:100%;background:rgba(0,0,0,.3);border-radius:6px;border:1px solid rgba(0,229,255,.1)" id="dow-map">
+        <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(0,229,255,0.05)" stroke-width="0.5"/></pattern></defs>
+        <rect width="800" height="400" fill="url(#grid)"/>
+        <text x="400" y="20" fill="rgba(0,229,255,0.3)" font-size="9" font-family="monospace" text-anchor="middle">NAHOST &middot; MITTELMEER &middot; INDOPAZIFIK &middot; CENTCOM-AOR</text>
+        <text x="320" y="180" fill="rgba(255,255,255,0.12)" font-size="9" font-family="monospace">ARABISCHER GOLF</text>
+        <text x="255" y="240" fill="rgba(255,255,255,0.12)" font-size="9" font-family="monospace">GOLF VON ADEN</text>
+        <text x="345" y="128" fill="rgba(255,255,255,0.12)" font-size="9" font-family="monospace">IRAK / SYRIEN</text>
+        <text x="170" y="108" fill="rgba(255,255,255,0.12)" font-size="9" font-family="monospace">GRIECHENLAND</text>
+        <text x="530" y="78" fill="rgba(255,255,255,0.12)" font-size="9" font-family="monospace">INDOPACOM</text>
+        <!-- Arabischer Golf: 6 Berichte -->
+        <circle cx="370" cy="195" r="22" fill="rgba(255,50,50,0.25)" stroke="#ff3232" stroke-width="1.5" style="cursor:pointer" onclick="showDOWDetail('arabian-gulf')"/>
+        <text x="370" y="191" fill="#ff6464" font-size="11" font-weight="bold" text-anchor="middle" font-family="monospace">6</text>
+        <text x="370" y="203" fill="rgba(255,255,255,0.7)" font-size="7" text-anchor="middle" font-family="monospace">ARAB.GOLF</text>
+        <!-- Golf von Aden: 3 Berichte -->
+        <circle cx="310" cy="258" r="16" fill="rgba(255,100,0,0.25)" stroke="#ff6400" stroke-width="1.5" style="cursor:pointer" onclick="showDOWDetail('gulf-aden')"/>
+        <text x="310" y="254" fill="#ff9632" font-size="10" font-weight="bold" text-anchor="middle" font-family="monospace">3</text>
+        <text x="310" y="265" fill="rgba(255,255,255,0.7)" font-size="7" text-anchor="middle" font-family="monospace">ADEN</text>
+        <!-- Irak: 3 Berichte -->
+        <circle cx="385" cy="145" r="16" fill="rgba(255,200,0,0.25)" stroke="#ffc800" stroke-width="1.5" style="cursor:pointer" onclick="showDOWDetail('iraq')"/>
+        <text x="385" y="141" fill="#ffd700" font-size="10" font-weight="bold" text-anchor="middle" font-family="monospace">3</text>
+        <text x="385" y="152" fill="rgba(255,255,255,0.7)" font-size="7" text-anchor="middle" font-family="monospace">IRAK</text>
+        <!-- Syrien: 3 Berichte -->
+        <circle cx="340" cy="118" r="16" fill="rgba(255,200,0,0.2)" stroke="#ffc800" stroke-width="1.5" style="cursor:pointer" onclick="showDOWDetail('syria')"/>
+        <text x="340" y="114" fill="#ffd700" font-size="10" font-weight="bold" text-anchor="middle" font-family="monospace">3</text>
+        <text x="340" y="125" fill="rgba(255,255,255,0.7)" font-size="7" text-anchor="middle" font-family="monospace">SYRIEN</text>
+        <!-- Griechenland: 3 Berichte -->
+        <circle cx="210" cy="108" r="16" fill="rgba(0,229,255,0.2)" stroke="#00e5ff" stroke-width="1.5" style="cursor:pointer" onclick="showDOWDetail('greece')"/>
+        <text x="210" y="104" fill="#00e5ff" font-size="10" font-weight="bold" text-anchor="middle" font-family="monospace">3</text>
+        <text x="210" y="115" fill="rgba(255,255,255,0.7)" font-size="7" text-anchor="middle" font-family="monospace">GRIECHEN.</text>
+        <!-- INDOPACOM: 2 Berichte -->
+        <circle cx="580" cy="170" r="13" fill="rgba(0,230,118,0.2)" stroke="#00e676" stroke-width="1.5" style="cursor:pointer" onclick="showDOWDetail('indopacom')"/>
+        <text x="580" y="166" fill="#00e676" font-size="10" font-weight="bold" text-anchor="middle" font-family="monospace">2</text>
+        <text x="580" y="177" fill="rgba(255,255,255,0.7)" font-size="7" text-anchor="middle" font-family="monospace">INDOPAC</text>
+        <!-- VAE: 2 Berichte -->
+        <circle cx="418" cy="212" r="13" fill="rgba(179,157,219,0.25)" stroke="#b39ddb" stroke-width="1.5" style="cursor:pointer" onclick="showDOWDetail('uae')"/>
+        <text x="418" y="208" fill="#b39ddb" font-size="10" font-weight="bold" text-anchor="middle" font-family="monospace">2</text>
+        <text x="418" y="219" fill="rgba(255,255,255,0.7)" font-size="7" text-anchor="middle" font-family="monospace">VAE</text>
+        <!-- Djibouti: 1 Bericht -->
+        <circle cx="295" cy="272" r="10" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.4)" stroke-width="1" style="cursor:pointer" onclick="showDOWDetail('djibouti')"/>
+        <text x="295" y="268" fill="rgba(255,255,255,0.7)" font-size="9" font-weight="bold" text-anchor="middle" font-family="monospace">1</text>
+        <text x="295" y="279" fill="rgba(255,255,255,0.5)" font-size="7" text-anchor="middle" font-family="monospace">DJIB.</text>
+        <!-- Iran: 1 Bericht -->
+        <circle cx="445" cy="158" r="10" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.4)" stroke-width="1" style="cursor:pointer" onclick="showDOWDetail('iran')"/>
+        <text x="445" y="154" fill="rgba(255,255,255,0.7)" font-size="9" font-weight="bold" text-anchor="middle" font-family="monospace">1</text>
+        <text x="445" y="165" fill="rgba(255,255,255,0.5)" font-size="7" text-anchor="middle" font-family="monospace">IRAN</text>
+        <!-- Legende -->
+        <text x="20" y="390" fill="rgba(255,255,255,0.3)" font-size="8" font-family="monospace">Kreisgr&ouml;&szlig;e = Anzahl Berichte &middot; Klick f&uuml;r Details &middot; 27 Berichte gesamt</text>
+        <circle cx="620" cy="386" r="6" fill="rgba(255,50,50,0.4)" stroke="#ff3232" stroke-width="1"/><text x="630" y="390" fill="rgba(255,255,255,0.4)" font-size="8" font-family="monospace">5+ Berichte</text>
+        <circle cx="690" cy="386" r="4" fill="rgba(255,200,0,0.3)" stroke="#ffc800" stroke-width="1"/><text x="698" y="390" fill="rgba(255,255,255,0.4)" font-size="8" font-family="monospace">2-4</text>
+        <circle cx="730" cy="386" r="3" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.4)" stroke-width="1"/><text x="738" y="390" fill="rgba(255,255,255,0.4)" font-size="8" font-family="monospace">1</text>
+      </svg>
+    </div>
+    <div id="dow-detail" style="display:none;margin-top:.75rem;padding:.75rem;background:rgba(0,0,0,.4);border:1px solid rgba(0,229,255,.2);border-radius:5px;font-size:11px;color:var(--t1);line-height:1.7"></div>
+  </div>
+  <div class="cg" id="ww-grid"><div class="loading">Lade Weltf&auml;lle...</div></div>
+</div>
+
+<!-- DIA DOCUMENTS -->
+<div id="tp-dia" class="tp">
+  <div class="dia-box">
+    <div class="dia-title">📋 DIA FOIA-00089-2018 — 5 AAWSAP/BAASS Forschungsberichte zu UAP-Materialien</div>
+    <div style="font-size:11px;color:var(--t2);margin-bottom:1rem;line-height:1.6">
+      DIA-Antwort auf FOIA-Anfrage von Anthony Bragaglia, Januar 2021. Diese 5 Dokumente gehören zu den 38 Studien die <strong style="color:var(--v)">Bigelows BAASS für das Pentagon im Rahmen von AAWSAP produzierte</strong> — als Forschung zu Materialien aus UAP-Bergungen. Sie zeigen: Das Pentagon forschte jahrelang genau an den Technologien die in UAP-Sichtungen beschrieben werden.
+    </div>
+    <div class="dia-docs" id="dia-docs"><div class="loading">Lade DIA-Dokumentdaten...</div></div>
+  </div>
+  <div style="background:var(--bg2);border:1px solid var(--bd);border-radius:8px;padding:1.1rem;margin-bottom:1rem">
+    <div style="font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:var(--a);margin-bottom:.75rem">🔗 KONGRUENZ: DIA-DOKUMENTE ↔ BOB LAZAR ↔ SWIR-OBJEKTE</div>
+    <div style="font-size:12px;color:var(--t2);line-height:1.7">
+      <strong style="color:var(--v)">Metallic Glasses (Dok. 1):</strong> Amorphe Metalllegierungen mit einzigartigen Eigenschaften — Lazar beschrieb die Hülle des Sport Models als "metallic substance similar to liquid titanium."<br><br>
+      <strong style="color:var(--v)">Metallic Spintronics (Dok. 4):</strong> Spin-basierte Elektronik ohne Wärmeverlust — Lazar beschrieb Gravitationswellen-Amplifier die auf Elementar-Ebene operieren, kein konventioneller Antrieb.<br><br>
+      <strong style="color:var(--v)">Metamaterials (Dok. 5):</strong> Negativbrechungsindex, Cloaking, SWIR-Spektrum-Manipulation — exakt das was Pentagon PR-27 zeigt: Objekt nur im Kurzwellen-IR sichtbar, im Sichtbaren unsichtbar. <strong style="color:var(--r)">Das ist kein Zufall.</strong>
+    </div>
+  </div>
+</div>
+
+<!-- CONGRUENCE -->
+<!-- DOWNLOADS -->
+<div id="tp-dl" class="tp">
+<div style="font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:var(--v);margin-bottom:1rem">📥 DOKUMENTE &amp; DOWNLOADS</div>
+<div style="color:var(--t2);font-size:12px;margin-bottom:1.5rem">Primärquellen, FOIA-Dokumente und Forschungsberichte zum direkten Download. Alle Dokumente sind authentisch und öffentlich zugänglich.</div>
+<div style="display:grid;gap:1rem">
+
+  <div style="background:rgba(0,229,255,.05);border:1px solid rgba(0,229,255,.2);border-radius:8px;padding:1.25rem">
+    <div style="display:flex;align-items:flex-start;gap:1rem">
+      <div style="font-size:2rem;flex-shrink:0">📋</div>
+      <div style="flex:1">
+        <div style="font-family:'Orbitron',sans-serif;font-size:11px;letter-spacing:1px;color:var(--c);margin-bottom:.25rem">PRIMÄRDOKUMENT · DIA FOIA</div>
+        <div style="font-weight:700;color:var(--t1);margin-bottom:.5rem">DIA FOIA-00089-2018 — UFO-Wrackteile &amp; Bigelow Aerospace</div>
+        <div style="color:var(--t2);font-size:12px;margin-bottom:.75rem">5 geheime AAWSA/BAASS-Forschungsberichte: Metallic Glasses, Biomaterialien, Metamaterialien, Spintronik, Memory Metal. DIA-Antwort auf Anthony Bragalias FOIA-Anfrage, 8. Januar 2021. 154 Seiten. Direkter Nachweis für Pentagon-Reverse-Engineering-Programm.</div>
+        <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.75rem">
+          <span style="background:rgba(0,229,255,.1);color:var(--c);padding:2px 8px;border-radius:4px;font-size:10px">DIA</span>
+          <span style="background:rgba(0,229,255,.1);color:var(--c);padding:2px 8px;border-radius:4px;font-size:10px">FOIA</span>
+          <span style="background:rgba(0,229,255,.1);color:var(--c);padding:2px 8px;border-radius:4px;font-size:10px">Bigelow Aerospace</span>
+          <span style="background:rgba(0,229,255,.1);color:var(--c);padding:2px 8px;border-radius:4px;font-size:10px">Reverse Engineering</span>
+          <span style="background:rgba(0,229,255,.1);color:var(--c);padding:2px 8px;border-radius:4px;font-size:10px">154 Seiten</span>
+        </div>
+        <div style="display:flex;gap:.75rem;align-items:center;flex-wrap:wrap">
+          <a href="/manus-storage/DIA-a-Anthony-Bragalia_550097f6.pdf" target="_blank" download="DIA-FOIA-00089-2018-Bragalia.pdf" style="background:var(--c);color:#000;padding:.5rem 1.25rem;border-radius:6px;font-family:'Orbitron',sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;text-decoration:none">⬇ PDF HERUNTERLADEN</a>
+          <span style="color:var(--t3);font-size:11px">12 MB · PDF</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:rgba(124,92,191,.05);border:1px solid rgba(124,92,191,.2);border-radius:8px;padding:1.25rem">
+    <div style="display:flex;align-items:flex-start;gap:1rem">
+      <div style="font-size:2rem;flex-shrink:0">📖</div>
+      <div style="flex:1">
+        <div style="font-family:'Orbitron',sans-serif;font-size:11px;letter-spacing:1px;color:var(--v);margin-bottom:.25rem">FORSCHUNGSBUCH · MORPHEUS</div>
+        <div style="font-weight:700;color:var(--t1);margin-bottom:.5rem">Transformation der Erde — Morpheus (2006)</div>
+        <div style="color:var(--t2);font-size:12px;margin-bottom:.75rem">277 Seiten. Argo-Verlag. ISBN 978-3-937987-24-8. SOHO-UAPs in Sonnennähe, Burkhard Heim 12D-Theorie, Anunnaki/Nibiru-Verbindung, Photonenring-Zyklus. Zwei Anschläge auf den Autor vor Erscheinen (EMP-Löschung + Gas-Betäubung). Autor: Naturwissenschaftler mit über 100 internationalen Patenten, anonym aus Sicherheitsgründen.</div>
+        <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.75rem">
+          <span style="background:rgba(124,92,191,.15);color:var(--v);padding:2px 8px;border-radius:4px;font-size:10px">Morpheus</span>
+          <span style="background:rgba(124,92,191,.15);color:var(--v);padding:2px 8px;border-radius:4px;font-size:10px">SOHO-UAPs</span>
+          <span style="background:rgba(124,92,191,.15);color:var(--v);padding:2px 8px;border-radius:4px;font-size:10px">Burkhard Heim</span>
+          <span style="background:rgba(124,92,191,.15);color:var(--v);padding:2px 8px;border-radius:4px;font-size:10px">Anunnaki</span>
+          <span style="background:rgba(124,92,191,.15);color:var(--v);padding:2px 8px;border-radius:4px;font-size:10px">277 Seiten</span>
+        </div>
+        <div style="display:flex;gap:.75rem;align-items:center;flex-wrap:wrap">
+          <a href="/manus-storage/Morpheus_Transformation-der-Erde_1779289766221_4afc8d06.pdf" target="_blank" download="Morpheus-Transformation-der-Erde-2006.pdf" style="background:var(--vd);color:#fff;padding:.5rem 1.25rem;border-radius:6px;font-family:'Orbitron',sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;text-decoration:none">⬇ PDF HERUNTERLADEN</a>
+          <span style="color:var(--t3);font-size:11px">53 MB · PDF</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:rgba(255,68,68,.05);border:1px solid rgba(255,68,68,.25);border-radius:8px;padding:1.25rem">
+    <div style="display:flex;align-items:flex-start;gap:1rem">
+      <div style="font-size:2rem;flex-shrink:0">🏛️</div>
+      <div style="flex:1">
+        <div style="font-family:'Orbitron',sans-serif;font-size:11px;letter-spacing:1px;color:#ff4444;margin-bottom:.25rem">PRIMÄRARCHIV · PENTAGON PURSUE ACT</div>
+        <div style="font-weight:700;color:var(--t1);margin-bottom:.5rem">war.gov/ufo — Offizielles Pentagon UAP-Archiv (PURSUE Release 01+02+03)</div>
+        <div style="color:var(--t2);font-size:12px;margin-bottom:.75rem">~382 freigegebene Dateien (R01: 8. Mai · R02: 22. Mai · R03: 1. Juni 2026): NASA-Missionsaudio (Apollo, Mercury, Gemini, Skylab), FBI-Fotodokumentation (57 Bilder), State Dept Kabel (5 Länder), DOW CENTCOM 78 Militärvideos (2018–2024), CIA Sary Shagan 1973, DOE Pantex Imagery, ODNI Senior Official 116 Seiten, James Tuck (Manhattan Project), COMETA Report 1999. Alle Dokumente direkt vom US-Verteidigungsministerium.</div>
+        <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.75rem">
+          <span style="background:rgba(255,68,68,.12);color:#ff4444;padding:2px 8px;border-radius:4px;font-size:10px">222 Dateien</span>
+          <span style="background:rgba(255,68,68,.12);color:#ff4444;padding:2px 8px;border-radius:4px;font-size:10px">Pentagon</span>
+          <span style="background:rgba(255,68,68,.12);color:#ff4444;padding:2px 8px;border-radius:4px;font-size:10px">PURSUE Act</span>
+          <span style="background:rgba(255,68,68,.12);color:#ff4444;padding:2px 8px;border-radius:4px;font-size:10px">Release 01: 8. Mai 2026</span>
+          <span style="background:rgba(255,68,68,.12);color:#ff4444;padding:2px 8px;border-radius:4px;font-size:10px">Release 02: 22. Mai 2026</span>
+        </div>
+        <div style="display:flex;gap:.75rem;align-items:center;flex-wrap:wrap">
+          <a href="https://pursueindex.com" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#00e5ff,#0099cc);color:#000;padding:.55rem 1.4rem;border-radius:6px;font-family:'Orbitron',sans-serif;font-size:11px;font-weight:900;letter-spacing:1.5px;text-decoration:none;box-shadow:0 0 16px rgba(0,229,255,.4)">↗ PURSUEINDEX.COM</a>
+          <a href="https://www.war.gov/ufo/" target="_blank" rel="noopener" style="background:rgba(255,68,68,.15);color:#ff4444;padding:.5rem 1.25rem;border-radius:6px;font-family:'Orbitron',sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;text-decoration:none;border:1px solid rgba(255,68,68,.3)">🏛 war.gov/ufo</a>
+          <span style="color:var(--t3);font-size:11px">Offiziell · Kostenlos · Keine Anmeldung</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FBI-AKTE ZEITSTRAHL -->
+  <div style="background:rgba(255,68,68,.04);border:1px solid rgba(255,68,68,.2);border-radius:8px;padding:1.25rem">
+    <div style="font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:#ff4444;margin-bottom:.5rem">&#128269; FBI-AKTE 62-HQ-83894 &mdash; ZEITSTRAHL 1947&ndash;1955</div>
+    <div style="font-size:11px;color:var(--t2);margin-bottom:1rem">18 Sektionen/Serials &middot; Deklassifiziert via FOIA &middot; <a href="https://pursueindex.com" target="_blank" style="color:#00e5ff;text-decoration:none">pursueindex.com &#8599;</a></div>
+    <div style="position:relative;padding-left:2rem">
+      <!-- Zeitstrahl-Linie -->
+      <div style="position:absolute;left:.75rem;top:0;bottom:0;width:2px;background:linear-gradient(180deg,rgba(255,68,68,.6),rgba(255,68,68,.1))"></div>
+      <!-- Einträge -->
+      <div style="position:relative;margin-bottom:1rem;padding-left:.75rem">
+        <div style="position:absolute;left:-.5rem;top:.3rem;width:10px;height:10px;border-radius:50%;background:#ff4444;border:2px solid rgba(255,68,68,.4)"></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:#ff6464;font-weight:700">JULI 1947 &mdash; Roswell-Korrespondenz</div>
+        <div style="font-size:11px;color:var(--t1);font-weight:600;margin:.2rem 0">FBI-Memo: &quot;Fliegende Untertassen&quot; Erstbericht</div>
+        <div style="font-size:10px;color:var(--t2)">Direktor Hoover informiert &uuml;ber Army-Bergung. Memo von SA Hottel-Vorgänger. Klassifiziert als &quot;URGENT&quot;. Erste offizielle FBI-Dokumentation eines UAP-Ereignisses.</div>
+      </div>
+      <div style="position:relative;margin-bottom:1rem;padding-left:.75rem">
+        <div style="position:absolute;left:-.5rem;top:.3rem;width:10px;height:10px;border-radius:50%;background:#ff6400;border:2px solid rgba(255,100,0,.4)"></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:#ff9632;font-weight:700">1947&ndash;1948 &mdash; Serials 1&ndash;5</div>
+        <div style="font-size:11px;color:var(--t1);font-weight:600;margin:.2rem 0">Erste Sichtungsberichte &amp; Army-Kooperation</div>
+        <div style="font-size:10px;color:var(--t2)">FBI sammelt Zeugenberichte, koordiniert mit Army Air Force. Objekte: kreisförmig, silbern, lautlos, Hyperschall. Keine Erklärung möglich.</div>
+      </div>
+      <div style="position:relative;margin-bottom:1rem;padding-left:.75rem">
+        <div style="position:absolute;left:-.5rem;top:.3rem;width:10px;height:10px;border-radius:50%;background:#ffc800;border:2px solid rgba(255,200,0,.4)"></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:#ffd700;font-weight:700">22. MÄRZ 1950 &mdash; GUY HOTTEL MEMO</div>
+        <div style="font-size:11px;color:var(--t1);font-weight:600;margin:.2rem 0">3 geborgene Scheiben &middot; 3 Besatzungen &middot; New Mexico</div>
+        <div style="font-size:10px;color:var(--t2)">FBI Special Agent Guy Hottel an Direktor: &quot;Drei sogenannte fliegende Untertassen wurden in New Mexico geborgen. Jede war kreisförmig, 15 Meter Durchmesser. Jede enthielt 3 Körper menschlicher Form, aber nur 1 Meter groß, gekleidet in metallisches Gewebe.&quot; Bekanntestes FBI-UAP-Dokument.</div>
+      </div>
+      <div style="position:relative;margin-bottom:1rem;padding-left:.75rem">
+        <div style="position:absolute;left:-.5rem;top:.3rem;width:10px;height:10px;border-radius:50%;background:#00e5ff;border:2px solid rgba(0,229,255,.4)"></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:#00e5ff;font-weight:700">1952 &mdash; WASHINGTON DC FLOTTE</div>
+        <div style="font-size:11px;color:var(--t1);font-weight:600;margin:.2rem 0">FBI-Berichte zur DC-Flotte &middot; Radar + Piloten</div>
+        <div style="font-size:10px;color:var(--t2)">FBI dokumentiert die Ereignisse vom 19./26. Juli 1952. Koordination mit Pentagon. Serials 8&ndash;11 enthalten Zeugenaussagen der F-94-Piloten und Radar-Operatoren. Direkte Verbindung zum Robertson Panel 1953.</div>
+      </div>
+      <div style="position:relative;margin-bottom:1rem;padding-left:.75rem">
+        <div style="position:absolute;left:-.5rem;top:.3rem;width:10px;height:10px;border-radius:50%;background:#b39ddb;border:2px solid rgba(179,157,219,.4)"></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:#b39ddb;font-weight:700">1953&ndash;1955 &mdash; ROBERTSON PANEL FOLGE</div>
+        <div style="font-size:11px;color:var(--t1);font-weight:600;margin:.2rem 0">FBI reduziert UAP-Aktivität nach CIA-Druck</div>
+        <div style="font-size:10px;color:var(--t2)">Nach dem Robertson Panel (Jan. 1953) stellt FBI aktive UAP-Ermittlungen ein. Serials 12&ndash;18 zeigen rückläufige Aktivität. Letzter Eintrag 1955. Akte bleibt bis FOIA-Freigabe klassifiziert.</div>
+      </div>
+      <div style="position:relative;padding-left:.75rem">
+        <div style="position:absolute;left:-.5rem;top:.3rem;width:10px;height:10px;border-radius:50%;background:rgba(0,230,118,.8);border:2px solid rgba(0,230,118,.4)"></div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:#00e676;font-weight:700">2023 &mdash; PURSUE ACT FREIGABE</div>
+        <div style="font-size:11px;color:var(--t1);font-weight:600;margin:.2rem 0">57 Fotos + September-2023-Sichtung deklassifiziert</div>
+        <div style="font-size:10px;color:var(--t2)">Im Rahmen des PURSUE Act werden 57 Fotos aus der Akte 62-HQ-83894 freigegeben. Zusätzlich: FBI-Bericht September 2023 mit Composite Sketch eines Zeugen. Verfügbar auf pursueindex.com.</div>
+      </div>
+    </div>
+    <div style="margin-top:1rem;display:flex;gap:.5rem">
+      <a href="https://pursueindex.com" target="_blank" style="background:rgba(255,68,68,.15);color:#ff4444;padding:.4rem 1rem;border-radius:5px;font-family:'Orbitron',sans-serif;font-size:9px;font-weight:700;text-decoration:none;border:1px solid rgba(255,68,68,.3)">&#8599; ORIGINALDOKUMENT</a>
+    </div>
+  </div>
+
+  <div style="background:rgba(0,230,118,.03);border:1px solid rgba(0,230,118,.15);border-radius:8px;padding:1rem;text-align:center">
+    <div style="color:var(--t3);font-size:11px;margin-bottom:.5rem">Weitere Dokumente werden laufend ergänzt</div>
+    <div style="color:var(--t2);font-size:12px">Peyerl-Akte (Section 10) · NARA-Freigaben · AARO-Berichte · COMETA Report</div>
+  </div>
+
+</div>
+</div>
+
+<!-- STÄRKSTE FÄLLE -->
+<div id="tp-st" class="tp">
+  <div style="font-family:'Orbitron',sans-serif;font-size:10px;letter-spacing:2px;color:#ffd700;margin-bottom:.75rem">⭐ STÄRKSTE FÄLLE — SCHWER WIDERLEGBAR</div>
+  <div style="font-size:11px;color:var(--t2);line-height:1.6;margin-bottom:.85rem;padding:.65rem .85rem;background:rgba(255,215,0,.05);border:1px solid rgba(255,215,0,.2);border-radius:6px">
+    <strong style="color:#ffd700">Methodik:</strong> Automatisch aus allen 163 Fällen nach Beweisscore sortiert. Score 95–100 = mehrere unabhängige Primärquellen, offizielle Dokumente, Zeugen unter Eid. Wird bei jedem Update automatisch aktualisiert.
+  </div>
+  <!-- Score-Legende -->
+  <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.85rem">
+    <span style="font-family:'JetBrains Mono',monospace;font-size:8px;padding:3px 8px;background:rgba(255,68,68,.12);border:1px solid rgba(255,68,68,.3);border-radius:2px;color:#ff4444">● KRITISCH 95–100</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:8px;padding:3px 8px;background:rgba(255,176,32,.12);border:1px solid rgba(255,176,32,.3);border-radius:2px;color:#ffb020">● HOCH 85–94</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:8px;padding:3px 8px;background:rgba(179,157,219,.12);border:1px solid rgba(179,157,219,.3);border-radius:2px;color:#b39ddb">● MITTEL 70–84</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:8px;padding:3px 8px;background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.25);border-radius:2px;color:#00e5ff">Auto-Update aus 163 Fällen</span>
+  </div>
+  <div class="cg" id="st-grid"><div class="loading">Lade stärkste Fälle...</div></div>
+</div>
+<!-- WIDERLEGT -->
+<div id="tp-db" class="tp">
+  <div style="font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:1rem;padding:.75rem;background:var(--bg2);border:1px solid rgba(255,68,68,.2);border-radius:6px">
+    <strong style="color:var(--r)">Widerlegt / Umstritten:</strong> Fälle die als Fehlidentifikation, Fälschung oder mit hoher Wahrscheinlichkeit erklärt eingestuft wurden. Transparenz ist Teil der Methodik.
+  </div>
+  <div class="cg" id="db-grid"><div class="loading">Lade widerlegte Fälle...</div></div>
+</div>
+<div id="tp-con" class="tp">
+  <div style="font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:1rem;padding:.75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:6px">
+    <strong style="color:var(--v)">Kongruenz-Methodik:</strong> Score steigt mit: zeitlicher Trennung, räumlicher Trennung, kultureller Unabhängigkeit, gleichzeitiger Unwissenheit voneinander. Score 10/10 = maximal unabhängige Quellen, identische Kernaussage.
+  </div>
+  <!-- Kongruenz-Statistik-Header (dynamisch befüllt) -->
+  <div id="con-stats-header" style="display:none;margin-bottom:1rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.6rem">
+    <div style="background:var(--bg2);border:1px solid var(--bd);border-radius:6px;padding:.65rem .9rem;text-align:center">
+      <div id="con-stat-total" style="font-family:'Orbitron',sans-serif;font-size:22px;font-weight:900;color:var(--v)">–</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-top:2px">Thesen gesamt</div>
+    </div>
+    <div style="background:var(--bg2);border:1px solid var(--bd);border-radius:6px;padding:.65rem .9rem;text-align:center">
+      <div id="con-stat-avg" style="font-family:'Orbitron',sans-serif;font-size:22px;font-weight:900;color:var(--c)">–</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-top:2px">Ø Score</div>
+    </div>
+    <div style="background:var(--bg2);border:1px solid var(--bd);border-radius:6px;padding:.65rem .9rem;text-align:center">
+      <div id="con-stat-high" style="font-family:'Orbitron',sans-serif;font-size:22px;font-weight:900;color:var(--g)">–</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-top:2px">Score ≥ 9.0</div>
+    </div>
+    <div style="background:var(--bg2);border:1px solid var(--bd);border-radius:6px;padding:.65rem .9rem;text-align:center">
+      <div id="con-stat-top" style="font-family:'Orbitron',sans-serif;font-size:11px;font-weight:700;color:var(--a);line-height:1.3">–</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-top:2px">Stärkste These</div>
+    </div>
+  </div>
+  <!-- Kongruenz-Suche + Score-Filter -->
+  <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:.85rem;align-items:center">
+    <div class="sb" style="flex:1;min-width:200px"><span>🔍</span><input id="con-search-inp" type="text" placeholder="Thesen suchen (Titel, Tags, Quellen)..." oninput="filterCongruence(this)"></div>
+    <div style="display:flex;gap:.4rem;flex-wrap:wrap">
+      <button class="rbtn active" id="con-filter-all" onclick="filterConScore('all',this)">Alle</button>
+      <button class="rbtn" onclick="filterConScore('high',this)" style="border-color:rgba(0,230,118,.4);color:#00e676">≥ 9.0</button>
+      <button class="rbtn" onclick="filterConScore('mid',this)" style="border-color:rgba(255,176,32,.4);color:#ffb020">≥ 8.0</button>
+      <button class="rbtn" onclick="filterConScore('low',this)" style="border-color:rgba(179,157,219,.4);color:#b39ddb">< 8.0</button>
+    </div>
+  </div>
+  <div id="con-count" style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3);margin-bottom:.5rem"></div>
+  <!-- Ansicht-Toggle: Liste / Netzwerk -->
+  <div style="display:flex;gap:.5rem;margin-bottom:.75rem">
+    <button class="rbtn active" id="con-view-list" onclick="setConView('list',this)" style="border-color:rgba(179,157,219,.5);color:#b39ddb;background:rgba(179,157,219,.1)">☰ Liste</button>
+    <button class="rbtn" id="con-view-net" onclick="setConView('net',this)" style="border-color:rgba(0,229,255,.4);color:#00e5ff">◎ Netzwerk</button>
+  </div>
+  <div id="con-grid"><div class="loading">Lade Kongruenz-Thesen...</div></div>
+  <!-- Kongruenz-Netzwerk-Canvas -->
+  <div id="con-network" style="display:none">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3);margin-bottom:.5rem">Klick auf Knoten = These anzeigen · Größe = Score · Farbe = Score-Level · Linien = geteilte Tags/Personen</div>
+    <canvas id="con-net-canvas" style="width:100%;border:1px solid var(--bd);border-radius:8px;background:var(--bg2);cursor:grab"></canvas>
+    <div id="con-net-tooltip" style="display:none;position:fixed;background:var(--bg3);border:1px solid var(--bdb);border-radius:6px;padding:.6rem .9rem;font-size:11px;color:var(--t1);max-width:280px;z-index:999;pointer-events:none"></div>
+    <!-- Netzwerk-Legende -->
+    <div style="display:flex;flex-wrap:wrap;gap:.5rem 1.2rem;margin-top:.6rem;padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px;align-items:center">
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1px">LEGENDE:</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#ff4444;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">Score ≥ 9.5</span></span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#00e676;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">Score ≥ 9.0</span></span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#00e5ff;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">Score ≥ 8.0</span></span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#b39ddb;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">Score &lt; 8.0</span></span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3)">Knotengröße = Score · Linienstärke = gemeinsame Tags/Personen · Klick = zur These springen</span>
+    </div>
+  </div>
+</div>
+
+<!-- AI AGENT -->
+<div id="tp-ai" class="tp">
+<div class="aip">
+<div class="aih">
+<div class="aia"><img src="/manus-storage/logo-hq_3761fcd9.jpg" alt="KI Taskforce" onerror="this.parentNode.style.background='linear-gradient(135deg,#7c5cbf,#00e5ff)';this.remove()"></div>
+<div><div class="ain">DISCLOSURE AGENT PRO · KI Taskforce</div><div style="font-size:9px;color:var(--t3);font-family:'JetBrains Mono',monospace">Claude Sonnet · Vollkontext: Pentagon + DIA FOIA + Peyerl-Primäranalyse + Lazar + Bigelow + Brasilien + Skinwalker + Bashar + Steiner + Tesla + Ureinwohner + Council of Nine + 66 Kongruenz-Thesen + Greada Treaty + Eisenhower-Kontaktserie</div></div>
+</div>
+<div class="ams" id="ams"><div class="am"><strong>Disclosure Agent:</strong> v34 vollständig geladen. 169 Fälle · 75 Personen · 13 Operationen · 63 Kongruenz-Thesen. Ich kenne: DIA-FOIA-Paket (5 BAASS-Materialstudien), Nuklear-UAP-Nexus (Score 97), Hollywood-Disclosure-Vehikel (Score 91), Holloman-Kontaktserie (1955/1964), Malmstrom-Echo/Oscar-Flight (1967), Eisenhower-NHI-Kontaktserie (1954–1955), Greada Treaty, Geheimhaltungs-Eskalation (79 Jahre), Eric Davis Legacy Program, Steiner-Äther ↔ Tesla ↔ Bashar, Ureinwohner-Wissen (Lakota, Hopi, Dogon, Aborigines), New Mexico Cluster (Trinity/Roswell/Dulce/Holloman/Los Alamos im 300km-Radius), SOHO-UAP-Nexus (NASA-Datenzugangsbeschränkungen), Morpheus 'Transformation der Erde' (Burkhard Heim 12D + Anunnaki/Nibiru + Photonenring), Zecharia Sitchin (Anunnaki-Grundlagenwerk, 2 Mio. Bücher), Bob Lazar S-4 (Element-115/Moscovium), Phil Schneider Dulce-Kampf 1979, Anthony Bragalia (FOIA-Experte, DIA-Materialnachweis), Reverse-Engineering-Materialnachweis-These (Score 9.6: Roswell → Nitinol → AAWSA → AATIP → Grusch, 76-jährige Beweiskette), Kumburgaz-UAP-Serie 2007–2009 (TÜBİTAK-bestätigt, 7 unabhängige Analysen, Humanoid-Besatzung auf Video, 23 Ereignisse, Kongruenz-These #51: Humanoid-Besatzungsnachweis Score 9.2), war.gov PURSUE Release 01+02+03 (~382 Dateien: NASA Apollo/Mercury/Gemini/Skylab-Audio, FBI 57 Fotos + September-2023-Sichtung, State Dept Kabel Papua-NG/Kasachstan/Georgien/Turkmenistan/Mexiko, DOW CENTCOM 78 Videos 2018-2024, DOW Historische Akten 1946-1950, Vandenberg AFB, INDOPACOM 2025, ODNI Senior Official 116-seitig, CIA Sary Shagan 1973, DOE Pantex Imagery, James Tuck Manhattan Project, COMETA Report 1999), Kongruenz-These #55: NASA-Astronauten-UAP-Konsistenz (Score 9.0: Mercury/Gemini/Apollo/Skylab 1961–1973, 6 Missionen, 8 Astronauten, 12 Jahre, alle durch PURSUE-Archiv bestätigt), Robertson Panel 1953 (CIA-Debunking-Strategie als direkte Folge Washington DC 1952 — deklassifiziert 1975, Beweis für bewusste Geheimhaltungsentscheidung), Donald Keyhoe (USMC-Major, erster öffentlicher Whistleblower 1952, NICAP-Direktor, vom Robertson Panel überwacht), Kongruenz-These #56: CIA-Geheimhaltungs-Eskalation 1953–2023 (Score 9.3: Robertson Panel → BLUEBOOK → AATIP → Grusch, 70-jährige lückenlose Dokumentation), Kongruenz-These #57: Nuklear-UAP-Nexus (Score 9.4: Malmstrom 1967 → Rendlesham 1980 → Minot 2007 → Grusch 2023, 56 Jahre, 3 Länder, Salas+Halt unter Eid, ICBMs deaktiviert), Kongruenz-These #58: Whistleblower-Schutz-Eskalation 2017–2023 (Score 9.1: Elizondo → UAPTF → AARO → Grusch-Schutz, 6 Jahre institutioneller Wandel, NDAA-Gesetze), Kongruenz-These #59: Hollywood-Soft-Disclosure-Nexus (Score 8.7: Spielberg CE3K 1977 → ET 1982 → Contact 1997 → Disclosure Day 2026, 49 Jahre, Hynek+CIA-Briefings, Ben Rich ET-Witz 1983), Kongruenz-These #60: CE-Klassifikation als globaler Standard (Score 8.8: Hynek 1972 → GEPAN 1977 → COMETA 1999 → AARO 2023), Kongruenz-These #61: Institutionelle Selbstkorrektur 2017–2026 (Score 9.1: AATIP → UAPTF → AARO → PURSUE Act, erstmals korrigiert sich das System öffentlich), Kongruenz-These #62: DNA als Frontier — CIA-Hybrid-Suche & Panspermia (Score 8.2: Kit Green/23andMe/Ancestry + Loeb-Panspermia + Varginha/Chereze + Colares-Strahlenopfer). NEU (Juni 2026): CIA jagt Human-Alien-Hybrids via DNA-Datenbanken (Avi Loeb NewsNation), Nat Cobitz US Navy Director zeigt NHI-Materialien (Coulthart), PURSUE Release 03 (1. Juni, ~160 neue Akten), Trump 'Extraterrestrials' im Kabinett, MITRE-Kongress-Anfrage, Red Book & Yellow Book (Coulthart), Buzz Aldrin Apollo 11 'helles Licht' (PURSUE-Akte), Kit Green CIA-Analyst (DNA-Programm), Kongruenz-These #63: Neurodiversität als Hybridisierungs-Marker (Score 7.8: Dr. Max Myakishev-Rempel DNA Resonance Research Foundation 2025 — 2% von 581 Familien mit nicht-elterlichen DNA-Insertionen auf Chromosom 3, betroffene Kinder entwickeln autistische Qualitäten + psychische/künstlerische Talente; Clemson/Nature Molecular Psychiatry 2024 — 25 Neanderthal-DNA-Varianten bei Autisten häufiger; CIA-Backdoor in 23andMe/Ancestry via Kit Green sucht nicht-menschliche genetische Varianten; Rempel: nicht-sprechende Autisten oszillieren zwischen Realitäten — Frequenz zu hoch für diese Dimension; jedes 30. Kind in Kalifornien autistisch = Ausbreitung von Hybriden), Dolly Safran (Gaia Cosmic Disclosure S30E4+E5, April 2026, 793k Views): Hybrid-Pilotin mit bestätigter nicht-menschlicher DNA — UFOs werden durch Remote Viewing des Bewusstseins gesteuert (5D-Entitäten), Craft TLERA ist biologische Erweiterung eines 5D-Wesens; Bob-Lazar-Verbindung: ihre Gravitationssteuerungs-Beschreibung deckt sich exakt mit Lazars S-4-Schilderungen; Kumburgaz-Verbindung: Besatzung als Hybride erklärt menschlich-ähnliches Erscheinungsbild; 'If hybridization is already written into our biology... we've been engineered to survive a cataclysm we don't yet see coming', Emery Smith (US Air Force Veteran, Gaia Cosmic Disclosure, 2017): 3.000+ NHI-Gewebeproben in geheimen biologischen Einrichtungen unter New Mexico disseziert — Atacama-Humanoid-Film Sirius 2013, Zero-Point-Energiemaschinen, strukturelle Übereinstimmung mit Grusch 2023; Preston Dennett (MUFON-Feldermittler, 30 Bücher, 500+ Fälle Südkalifornien): Autor von Symmetry (Dolly Safran, 2022), Reddit AMA November 2024; Kongruenz-These #64: Bewusstsein als UFO-Interface (Score 8.1: Dolly Safran Bewusstsein-Remote-View als Piloten-Interface + Bob Lazar Gravitations-Amplifier Hardware-Seite + Ingo Swann CIA-Stargate Remote-Viewing-Moon + Bashar Frequenz-Resonanz-Steuerung + Kumburgaz keine sichtbaren mechanischen Steuerungselemente + Emery Smith NHI-Neurologie für Telepathie optimiert — 6 unabhängige Quellen konvergieren auf Bewusstsein als primäres NHI-Craft-Interface), Buga Sphere (Buga, Kolumbien, 2. März 2025, SEHR UMSTRITTEN Score 6.5): PRIMÄRDOKUMENT: UGA Radiocarbon Analysis Report 12. Sept. 2025 — Sample BGS, Material Resin, 14C age 12.560±30 BP, δ13C -28.65, pMC 20.94±0.08, AMS-Methode, Ph.D. Research Scientist unterzeichnet, von Greer veröffentlicht 22. Sept. 2025 (6.400 Likes); CT/Röntgen UNAM: 3-schichtige Metallhülle, 18 Mikrosphären, ~50 Glasfaser-Fäden; MIT-Röntgen April 2026: variierende Dichten, konzentrische Muster; Flug-Video 26. Mai 2025 San Vicente del Caguán: 76 Sekunden, @JosCRios, kein Geräusch, Richtungsänderungen; Gewicht 2→10 kg, 2,3 Hz EM; IPN-Experiment 9. Juli 2025 (190-300 Hz + Sanskrit-Mantras, 5°C); STÄRKSTES CONTRA: SGA-Debunking Hans Dietrich: Symbole = Standard Galactic Alphabet (Commander Keen 1990/Minecraft 2011), Übersetzung = Arthur C. Clarkes 3. Gesetz (iguzzini.com), Säureätzungs-Artefakte (bad stencil, bleed over, not symmetrical) → wenn korrekt: post-1990 Fälschung; weitere Contras: Harz-Datierung ≠ Metall-Datierung, Maussan-Kontroverse, IPN nicht peer-reviewed, Flug-Video = mögliche Drohne, Betz Sphere 1974 = industrielles Ventil; Steven Greer (CSETI 1990, Disclosure Project 2001, CE-5, Sirius 2013, Unacknowledged 2017): Hauptvertreter, National Press Club 2001, Verbindung Emery Smith; Weitere Sphären: Yumbo + Medellín (Kolumbien), Mosul Orb (Irak/AARO); Kongruenz-These #65 Score 6.5; Uri Geller (geb. 1946, Israel, CIA Stargate SRI 1972–1973 DOKUMENTIERT): CIA-Bericht 1973 declassified: 'paranormal perceptual ability in a convincing and unambiguous manner'; Faraday-Käfig-Tests Targ+Puthoff; Mossad-Verbindung (BBC 2013); Dr. Kit Green CIA bestätigt (Vimeo); Wernher von Braun ~1970 NASA Goddard Space Center: gefrorene Alien-Bodies, große Köpfe, verstümmelt, 'not of this earth or this time or dimension'; MINOX-Kamera geschmuggelt, Negative vorhanden (nicht veröffentlicht); Facebook 28.9.2025 (549.000 Views, 23.000 Likes): Frozen bodies + MINOX + Drohnen-Verbindung + Trump-Forderung; Dez. 2025: 3I/ATLAS = Galactic Federation; Tonight Show 1973 = VERSAGEN (Randi vorgewarnt); Stargate 1998 eingestellt; Kongruenz-These #66: Psychische Fähigkeiten als NHI-Kontakt-Marker (Score 6.2); Ingo Swann (Person #75, CIA Stargate 1972-1995, Begründer Controlled Remote Viewing, SRI Stanford 1972: Magnetometer-Beeinflussung, Jupiter-Ringe 1973 vor Voyager-Bestätigung 1979, Mond-Remote-Viewing 1975: Türme/Kuppeln/Maschinen/menschenähnliche Wesen die seine Präsenz wahrnahmen, Buch Penetration 1998, Zitat US-Regierungsbeamter: "They somehow have told you to stay away. They are not friendly.", Verbindung Uri Geller beide von Targ+Puthoff an SRI getestet); Mosul Orb (Fall #169, April 2016, US-Spionageflugzeug über Mossul/Irak aktive Kampfzone, metallisch glänzende Kugel ohne Antriebssysteme, Pentagon-Briefing-Video klassifiziert bis Jan 2023, AARO-Direktor Dr. Sean Kirkpatrick bestätigt Untersuchung, Juli 2025 Vollvideo veröffentlicht WEAPONIZED Podcast Jeremy Corbell, Score 9.0, identische Form wie Buga Sphere, Transmedium-Fähigkeiten bei ähnlichen Orbs dokumentiert); Kongruenz-Tab: UMSTRITTEN-Badge (gelb) für Thesen Score unter 6.5, TEILWEISE BELEGT (orange) für Score 6.5-7.5, und den Direktzugriff auf die Peyerl-Akte aus Section 10. Frag alles — ich verbinde alle Ebenen.</div></div>
+<div class="air"><input type="text" class="ai-inp" id="ai-inp" placeholder="z.B. Verbinde Steiner Äther mit Tesla Colorado Springs und Bashar Frequenz..." onkeydown="if(event.key==='Enter')sendAI()"><button class="ai-send" onclick="sendAI()">→</button></div>
+</div>
+
+<div style="background:rgba(0,230,118,.05);border:1px solid rgba(0,230,118,.2);border-radius:6px;padding:.875rem;margin-bottom:1rem">
+  <div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:var(--g);margin-bottom:.5rem">🔗 AUTONOMER KONGRUENZ-SCANNER</div>
+  <div style="font-size:11px;color:var(--t2);margin-bottom:.6rem">Neuen Fall / Person / Zitat eingeben → Agent prüft automatisch alle 66 Kongruenz-Thesen und meldet Treffer mit Score:</div>
+  <div style="display:flex;gap:.4rem;margin-bottom:.4rem">
+    <input type="text" id="con-scan-inp" class="ai-inp" placeholder="z.B. Ra-Material: 'Die Realität ist Licht-Vibration' oder Varginha 1996 Brasilien...">
+    <button class="ai-send" onclick="runCongruenceScan()" style="white-space:nowrap;padding:7px 14px">🔗 Scannen</button>
+  </div>
+  <div id="con-scan-progress" style="display:none;margin-top:.5rem;height:3px;border-radius:2px;background:rgba(0,230,118,.12);overflow:hidden"><div id="con-scan-bar" style="height:100%;width:0%;background:linear-gradient(90deg,#00e676,#00e5ff,#b39ddb);border-radius:2px;box-shadow:0 0 8px rgba(0,230,118,.8),0 0 16px rgba(0,229,255,.5);transition:width .3s ease"></div></div>
+  <div id="con-scan-results" style="display:none;margin-top:.6rem;padding:.65rem;background:rgba(0,230,118,.06);border:1px solid rgba(0,230,118,.2);border-radius:4px;font-size:11px;color:var(--t2);line-height:1.7;white-space:pre-wrap"></div>
+</div>
+<div style="background:rgba(0,229,255,.05);border:1px solid rgba(0,229,255,.25);border-radius:6px;padding:.875rem;margin-bottom:1rem">
+  <div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:#00e5ff;margin-bottom:.5rem">📄 PURSUE-DOKUMENTE DIREKT BEFRAGEN</div>
+  <div style="font-size:11px;color:var(--t2);margin-bottom:.6rem">RAG-Suche direkt in den 222 deklassifizierten Pentagon-Akten via <a href="https://pursueindex.com" target="_blank" style="color:#00e5ff;text-decoration:none">pursueindex.com ↗</a> — Claude durchsucht den OCR-Text der Originaldokumente:</div>
+  <div style="display:flex;gap:.4rem;margin-bottom:.4rem">
+    <input type="text" id="pursue-chat-inp" class="ai-inp" placeholder="z.B. Was steht in den DOW Mission Reports über 90-Grad-Kurven?" onkeydown="if(event.key==='Enter')sendPursueChat()">
+    <button class="ai-send" onclick="sendPursueChat()" style="white-space:nowrap;padding:7px 14px;background:linear-gradient(135deg,#0099cc,#00e5ff)">📄 Suchen</button>
+  </div>
+  <div style="display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:.5rem">
+    <button class="qb" onclick="document.getElementById('pursue-chat-inp').value='Was steht in den DOW Mission Reports über 90-Grad-Kurven?';sendPursueChat()">90°-Kurven DOW</button>
+    <button class="qb" onclick="document.getElementById('pursue-chat-inp').value='Was sagen die NASA Apollo Debriefings über unidentifizierte Objekte?';sendPursueChat()">NASA Apollo UAP</button>
+    <button class="qb" onclick="document.getElementById('pursue-chat-inp').value='Was steht im FBI Guy Hottel Memo über fliegende Scheiben?';sendPursueChat()">FBI Hottel Memo</button>
+    <button class="qb" onclick="document.getElementById('pursue-chat-inp').value='Was berichten die State Department Kabel über UAP-Sichtungen?';sendPursueChat()">State Dept Kabel</button>
+    <button class="qb" onclick="document.getElementById('pursue-chat-inp').value='Was steht im COMETA Report über Extraterrestrial Hypothesis?';sendPursueChat()">COMETA ETH</button>
+  </div>
+  <div id="pursue-chat-result" style="display:none;margin-top:.6rem;padding:.75rem;background:rgba(0,229,255,.06);border:1px solid rgba(0,229,255,.2);border-radius:4px;font-size:11px;color:var(--t1);line-height:1.8;white-space:pre-wrap"></div>
+  <div id="pursue-chat-sources" style="display:none;margin-top:.4rem;font-size:9px;color:var(--t3)"></div>
+</div>
+
+<div style="background:var(--bg2);border:1px solid var(--bd);border-radius:6px;padding:1rem;margin-bottom:1rem">
+<div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:var(--v);margin-bottom:.6rem">⚡ SCHNELL-ANALYSEN</div>
+<div style="display:flex;gap:.4rem;flex-wrap:wrap">
+<button class="qb" onclick="qa('Verbinde Steiner Äther-Theorie mit Teslas Colorado Springs Erfahrungen und Bashars Frequenz-Lehre — was ist die Kernkongruenz?')">Steiner + Tesla + Bashar</button>
+<button class="qb" onclick="qa('Erkläre die DIA FOIA-Dokumente: warum forscht das Pentagon an Metallic Glasses, Spintronics und Metamaterials und was hat das mit UAP-Wrackteilen zu tun?')">DIA FOIA Bedeutung</button>
+<button class="qb" onclick="qa('Was wissen Ureinwölker — Lakota, Hopi, Dogon, Aborigines — über Kontakt mit nicht-menschlichen Wesen und wie kongruiert das mit modernen UAP-Berichten?')">Ureinwohner-Wissen</button>
+<button class="qb" onclick="qa('Bigelows Verbindung: Skinwalker Ranch → Brasilien Operação Prato → AATIP Pentagon. Erkläre die gesamte Bigelow-Architektur.')">Bigelow-Architektur</button>
+<button class="qb" onclick="qa('Wie verbindet sich die Neurodivergenz-These (Mack + Nolan) mit Bashars Breitband-Antenne-Analogie und der Steiner-Idee erweiterter Wahrnehmungsfähigkeit?')">Neurodivergenz + Bashar + Steiner</button>
+<button class="qb" onclick="qa('Was genau sagte Edgar Mitchell über ET-Kontakt und wie bestätigt sein Bericht die anderen Quellen?')">Edgar Mitchell komplett</button>
+</div>
+</div>
+</div>
+
+<!-- CHANGELOG -->
+<div id="tp-cl" class="tp">
+  <div style="margin-bottom:1.25rem">
+    <div style="font-family:'Orbitron',sans-serif;font-size:11px;letter-spacing:2px;color:var(--c);margin-bottom:.4rem">📋 RELEASE-CHRONOLOGIE · PENTAGON PURSUE ACT</div>
+    <div style="font-size:11px;color:var(--t3)">Alle Aktualisierungen des Disclosure Agent · <a href="https://pursueindex.com" target="_blank" style="color:#00e5ff;text-decoration:none">pursueindex.com ↗</a></div>
+  </div>
+
+  <!-- Release 03 -->
+  <div style="margin-bottom:1.5rem;border-left:3px solid #ff4444;padding-left:1rem">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem">
+      <span style="background:linear-gradient(135deg,#ff4444,#cc0000);color:#fff;font-family:'Orbitron',sans-serif;font-size:9px;font-weight:900;padding:3px 10px;border-radius:4px">RELEASE 03</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#ff4444;font-weight:700">1. Juni 2026</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)">~160 neue Akten · war.gov/ufo</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.5rem">
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">NASA Apollo 12 Audio</div><div style="font-size:9px;color:var(--t3)">Nie zuvor gehörte Originalaufnahmen</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">INDOPACOM Infrarot-Footage</div><div style="font-size:9px;color:var(--t3)">2024 · 9 Sekunden Infrarot-Sensor</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">Weitere Militärberichte</div><div style="font-size:9px;color:var(--t3)">Unerklärliche Luftphänomene, diverse Quellen</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid rgba(255,68,68,.3);border-radius:5px"><div style="font-size:10px;color:#ff4444;font-weight:600">NEU: CIA DNA-Hybrid-Programm</div><div style="font-size:9px;color:var(--t3)">Avi Loeb · NewsNation · 23andMe/Ancestry</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid rgba(255,68,68,.3);border-radius:5px"><div style="font-size:10px;color:#ff4444;font-weight:600">Nat Cobitz (US Navy) NHI-Materialien</div><div style="font-size:9px;color:var(--t3)">Coulthart · Persönlich gezeigt</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid rgba(255,68,68,.3);border-radius:5px"><div style="font-size:10px;color:#ff4444;font-weight:600">Trump 'Extraterrestrials' im Kabinett</div><div style="font-size:9px;color:var(--t3)">Mai 2026 · Hegseth-Statement</div></div>
+    </div>
+    <div style="margin-top:.75rem;font-size:10px;color:var(--t2)">11 neue Fälle (CIA/DNA, Buzz Aldrin, Trump Kabinett, PURSUE R03, Cobitz, Red Book/Yellow Book, MITRE, Neurodiversität-Hybrid, Dolly Safran, Emery Smith NM, Buga Sphere Kolumbien) · 7 neue Personen (Cobitz, Kit Green, Dr. Rempel, Dolly Safran, Emery Smith, Preston Dennett, Steven Greer) · Thesen #61–#65 · 169 Fälle gesamt</div>
+  </div>
+
+  <!-- Release 02 -->
+  <div style="margin-bottom:1.5rem;border-left:3px solid #00e5ff;padding-left:1rem">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem">
+      <span style="background:linear-gradient(135deg,#00e5ff,#0099cc);color:#000;font-family:'Orbitron',sans-serif;font-size:9px;font-weight:900;padding:3px 10px;border-radius:4px">RELEASE 02</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#ffd700;font-weight:700">22. Mai 2026</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)">60 neue Akten · war.gov/ufo</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.5rem">
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">NASA Skylab 4</div><div style="font-size:9px;color:var(--t3)">1973 · Astronauten-Sichtung im Orbit</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">NASA Mercury Atlas 7/8/9</div><div style="font-size:9px;color:var(--t3)">1962–63 · Carpenter, Schirra, Cooper</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">NASA Gemini 7</div><div style="font-size:9px;color:var(--t3)">1965 · Borman &amp; Lovell, 2 Objekte</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">NASA Apollo 12 &amp; 17</div><div style="font-size:9px;color:var(--t3)">1969/72 · Conrad/Bean, Cernan/Schmitt</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">FBI September 2023</div><div style="font-size:9px;color:var(--t3)">Sichtung + Composite Sketch</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">COMETA Report 1999</div><div style="font-size:9px;color:var(--t3)">Frankreich · 13 Militäroffiziere</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">James Tuck (Manhattan Project)</div><div style="font-size:9px;color:var(--t3)">DOE · Los Alamos-Verbindung</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">INDOPACOM 2025</div><div style="font-size:9px;color:var(--t3)">DOW · Aktuelle Militärdokumente</div></div>
+    </div>
+    <div style="margin-top:.75rem;font-size:10px;color:var(--t2)">Neue Fälle: #115–#145 · 4 neue Astronauten-Profile (Borman, Conrad, Cernan, Lovell) · These #55 (NASA-Konsistenz) · Kongruenz-Suchfeld · Personen-Filter-Buttons · Netzwerk-Legende</div>
+  </div>
+
+  <!-- Release 01 -->
+  <div style="margin-bottom:1.5rem;border-left:3px solid #ffd700;padding-left:1rem">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.6rem">
+      <span style="background:linear-gradient(135deg,#ffd700,#ff9900);color:#000;font-family:'Orbitron',sans-serif;font-size:9px;font-weight:900;padding:3px 10px;border-radius:4px">RELEASE 01</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#ffd700;font-weight:700">8. Mai 2026</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)">162 Akten · war.gov/ufo</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.5rem">
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">NASA Apollo 11 &amp; Mercury Atlas 6</div><div style="font-size:9px;color:var(--t3)">1962–69 · Glenn, Armstrong</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">FBI 57 Fotos (62-HQ-83894)</div><div style="font-size:9px;color:var(--t3)">Peyerl 1944 · Section 10</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">State Dept Kabel (5 Länder)</div><div style="font-size:9px;color:var(--t3)">Papua-NG, Kasachstan, Georgien, Turkmenistan, Mexiko</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">DOW CENTCOM 78 Videos</div><div style="font-size:9px;color:var(--t3)">2018–2024 · Militär-UAP-Footage</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">CIA Sary Shagan 1973</div><div style="font-size:9px;color:var(--t3)">Sowjetisches Atomtestgelände</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">DOE Pantex Imagery</div><div style="font-size:9px;color:var(--t3)">Nukleare Anlage · UAP-Korrelation</div></div>
+      <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">ODNI Senior Official</div><div style="font-size:9px;color:var(--t3)">116 Seiten · Orange Orbs</div></div>
+    </div>
+    <div style="margin-top:.75rem;font-size:10px;color:var(--t2)">Fälle #1–#146 · 69 Personen · 63 Kongruenz-Thesen · Timeline · Weltkarte · DIA FOIA · Operationen · KI Agent</div>
+  </div>
+
+  <!-- DIA FOIA -->
+  <div style="margin-bottom:1.5rem;border-left:3px solid #b39ddb;padding-left:1rem">
+    <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.4rem">
+      <span style="background:rgba(179,157,219,.2);color:#b39ddb;font-family:'Orbitron',sans-serif;font-size:9px;font-weight:900;padding:3px 10px;border-radius:4px;border:1px solid rgba(179,157,219,.4)">DIA FOIA</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#b39ddb;font-weight:700">2021</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)">5 BAASS/AAWSAP-Materialstudien</span>
+    </div>
+    <div style="font-size:11px;color:var(--t2)">DIA-FOIA-00089-2018 · Bragalia-Anfrage · Bigelow Aerospace · Nitinol-Analyse · Reverse-Engineering-Nachweis · 5 Geheimstudien zu UAP-Wrackteilen</div>
+  </div>
+
+  <div style="padding:.75rem 1rem;background:rgba(0,229,255,.05);border:1px solid rgba(0,229,255,.2);border-radius:6px;font-size:11px;color:var(--t2);text-align:center">
+    Vollständiger Akten-Index: <a href="https://pursueindex.com" target="_blank" style="color:#00e5ff;font-weight:700;text-decoration:none">pursueindex.com ↗</a> · Originaldokumente: <a href="https://www.war.gov/ufo/" target="_blank" style="color:#ff4444;text-decoration:none">war.gov/ufo ↗</a>
+  </div>
+</div>
+
+</div><!-- /wrap -->
+
+<footer>
+<div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:.65rem">
+<div style="width:24px;height:24px;border-radius:6px;overflow:hidden;border:1px solid rgba(179,157,219,.4)"><img src="/manus-storage/logo-hq_3761fcd9.jpg" style="width:100%;height:100%;object-fit:cover" alt="" onerror="this.parentNode.innerHTML='🐘'"></div>
+<span style="font-family:'Orbitron',sans-serif;font-size:10px;font-weight:700;color:var(--v);letter-spacing:2px">KI TASKFORCE · DISCLOSURE AGENT v5</span>
+</div>
+<p><a href="https://kitaskforce.com" target="_blank">kitaskforce.com</a> · <a href="https://sgp.kitaskforce.com" target="_blank">SEO GEO Pro</a> · <a href="https://moneyprint.kitaskforce.com" target="_blank">MoneyPrint</a> · SH Schmidt Consulting · Berlin-Adlershof<br>
+Data: war.gov/UFO · DIA FOIA-00089-2018 · NARA · FAB Brasil · AARO · Peyerl-Primäranalyse · 09.05.2026<br>
+<span style="font-size:9px">PWA PRO · 169 Fälle · 75 Personen · 66 Kongruenz-Thesen · war.gov PURSUE ~382 Akten (R01+R02+R03) · Manus-deployable</span></p>
+</footer>
+</div><!-- /app -->
+
+<script>
+// Dynamisches Live-Datum
+(function(){
+  const el = document.getElementById('live-date');
+  if(el){
+    const d = new Date();
+    const dd = String(d.getDate()).padStart(2,'0');
+    const mm = String(d.getMonth()+1).padStart(2,'0');
+    const yy = String(d.getFullYear()).slice(-2);
+    el.textContent = dd+'.'+mm+'.'+yy;
+  }
+})();
+// ── STARFIELD
+(function(){const sf=document.getElementById('sf');for(let i=0;i<180;i++){const s=document.createElement('div');s.className='star';const sz=Math.random()*2+.4;s.style.cssText=`width:${sz}px;height:${sz}px;left:${Math.random()*100}%;top:${Math.random()*100}%;--d:${2+Math.random()*6}s;--dy:${Math.random()*5}s;--lo:${.05+Math.random()*.12};--hi:${.4+Math.random()*.55}`;sf.appendChild(s);}})();
+
+// ── PWA SERVICE WORKER
+if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js').catch(()=>{});}
+
+// ── DATA CACHE
+const DATA = {};
+const _CB = '?v=' + Date.now();
+async function loadJSON(key, path) {
+  if(DATA[key]) return DATA[key];
+  try {
+    const r = await fetch(path + _CB);
+    DATA[key] = await r.json();
+    return DATA[key];
+  } catch(e) { console.warn('Could not load', path); return null; }
+}
+
+// ── TABS
+function T(id){
+  document.querySelectorAll('.tp').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.tbt').forEach(b=>b.classList.remove('active'));
+  document.getElementById('tp-'+id).classList.add('active');
+  event.target.classList.add('active');
+  renderTab(id);
+}
+document.querySelectorAll('.ntabs li a').forEach(a=>{a.addEventListener('click',e=>{e.preventDefault();document.querySelectorAll('.ntabs li a').forEach(x=>x.classList.remove('active'));a.classList.add('active');});});
+
+// ── LEVEL BADGE
+const lvlMap = {critical:'lc',high:'lh',medium:'lm',confirmed:'lok',historical:'lhist'};
+const lvlLabel = {critical:'● KRITISCH',high:'▲ HOCH',medium:'◆ MITTEL',confirmed:'✓ BESTÄTIGT',historical:'◈ HISTORISCH'};
+
+// ── RENDER CASES
+function renderCases(cases, gridId) {
+  const g = document.getElementById(gridId);
+  if(!cases||!cases.length){g.innerHTML='<div class="loading">Keine Daten.</div>';return;}
+  
+  // Neueste Fälle (letzte 10) anzeigen
+  if(gridId === 'ev-grid') {
+    const recentBox = document.getElementById('ev-recent');
+    const recentList = document.getElementById('ev-recent-list');
+    if(recentBox && recentList) {
+      const last10 = cases.slice(-10).reverse();
+      recentList.innerHTML = last10.map((c,i) => {
+        const lvlColors = {KRITISCH:'#ff4444',BESTÄTIGT:'#00e676',HOCH:'#ffb020'};
+        const col = lvlColors[c.level] || '#b39ddb';
+        return `<div style="display:flex;gap:.6rem;align-items:center;padding:.3rem .6rem;background:var(--bg2);border:1px solid var(--bd);border-radius:4px;cursor:pointer" onclick="document.getElementById('ev-grid').querySelectorAll('.card')[${cases.length-10+i}]?.scrollIntoView({behavior:'smooth',block:'center'})">
+          <span style="font-family:'JetBrains Mono',monospace;font-size:8px;color:${col};min-width:28px">#${cases.length-10+i+1}</span>
+          <span style="font-size:10px;color:var(--t1);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${c.title}</span>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);flex-shrink:0">${c.date||''}</span>
+          ${c.tags&&c.tags.includes('PURSUE')?'<span style="font-family:\'JetBrains Mono\',monospace;font-size:7px;color:#00e5ff;border:1px solid rgba(0,229,255,.4);border-radius:2px;padding:1px 4px;flex-shrink:0">PURSUE</span>':''}
+        </div>`;
+      }).join('');
+      recentBox.style.display = 'block';
+    }
+  }
+  
+  g.innerHTML = cases.map(c => `
+    <div class="card" data-region="${c.region||''}" data-t="${(c.tags||[]).join(' ')} ${c.title} ${c.description}" onclick="openCaseModal('${c.id}')" style="cursor:pointer" title="Vollansicht öffnen">
+      <div class="lv ${lvlMap[c.level]||'lm'}">${lvlLabel[c.level]||c.level}</div>
+      <div class="ct">${c.title}</div>
+      <div class="cd">${c.description}</div>
+      ${c.score ? `<div class="bar"><div class="bl"><span>Beweislage</span><strong>${c.score}/100</strong></div><div class="bt"><div class="bf" style="width:${c.score}%"></div></div></div>` : ''}
+      <div class="cm"><span>📅 ${c.date||''}</span><span>📍 ${c.location||''}</span>${c.source_url?`<a href="${c.source_url}" target="_blank" class="csl" onclick="event.stopPropagation()">→ Quelle</a>`:''} ${c.video_url?`<a href="${c.video_url}" target="_blank" onclick="event.stopPropagation()" style="font-family:'JetBrains Mono',monospace;font-size:9px;color:#ff4444;text-decoration:none;border:1px solid rgba(255,68,68,.35);border-radius:3px;padding:2px 7px;white-space:nowrap">▶ Video</a>`:''}</div>
+      ${c.witnesses&&c.witnesses.length?`<div style="margin-top:.4rem;font-size:9px;color:var(--t3);font-family:'JetBrains Mono',monospace">👤 ${c.witnesses.slice(0,2).join(' · ')}${c.witnesses.length>2?' +'+( c.witnesses.length-2)+' weitere':''}</div>`:''}
+    </div>`).join('');
+}
+
+// ── RENDER PEOPLE
+function renderPeople(people, gridId) {
+  const g = document.getElementById(gridId);
+  if(!people||!people.length){g.innerHTML='<div class="loading">Keine Daten.</div>';return;}
+  g.innerHTML = people.map(p => `
+    <div class="pcard" data-t="${(p.tags||[]).join(' ')} ${p.name} ${p.bio}" onclick="openPersonModal('${p.id}')" style="cursor:pointer" title="Profil öffnen">
+      <div class="pavatar">${p.emoji||'👤'}</div>
+      <div class="pinfo">
+        <div class="pname">${p.name}</div>
+        <div class="prole">${p.role}</div>
+        <div class="pbio">${p.bio}</div>
+        <div class="ptags">${(p.tags||[]).map(t=>`<span class="ptag">${t}</span>`).join('')}</div>
+        <div style="margin-top:.4rem;font-size:9px;color:var(--c);font-family:'JetBrains Mono',monospace;opacity:.7">▶ Klicken für Fälle &amp; Thesen</div>
+      </div>
+    </div>`).join('');
+}
+
+// ── RENDER OPERATIONS
+function renderOperations(ops, gridId) {
+  const g = document.getElementById(gridId);
+  if(!ops||!ops.length){g.innerHTML='<div class="loading">Keine Daten.</div>';return;}
+  g.innerHTML = ops.map(o => `
+    <div class="op">
+      <div><div class="opname">${o.name}</div><div class="opyear">${o.years}</div><div class="lv ${o.status==='active'?'lok':o.status==='classified'?'lc':'lm'}" style="font-size:7px;padding:1px 5px;margin-top:.2rem">${o.agency}</div></div>
+      <div class="opdesc">${o.description}<br><span style="color:var(--c);font-size:10px;font-family:'JetBrains Mono',monospace">⟹ ${o.significance||''}</span></div>
+    </div>`).join('');
+}
+
+// ── RENDER CONGRUENCE
+function renderCongruence(themes, gridId) {
+  const g = document.getElementById(gridId);
+  if(!themes||!themes.length){g.innerHTML='<div class="loading">Keine Daten.</div>';return;}
+  
+  // Statistik berechnen und Header befüllen
+  const scores = themes.map(t => t.score || 0).filter(s => s > 0);
+  const avg = scores.length ? (scores.reduce((a,b)=>a+b,0)/scores.length).toFixed(2) : '–';
+  const highCount = scores.filter(s => s >= 9.0).length;
+  const topTheme = themes.reduce((best, t) => (!best || (t.score||0) > (best.score||0)) ? t : best, null);
+  const el = (id) => document.getElementById(id);
+  if(el('con-stat-total')) el('con-stat-total').textContent = themes.length;
+  if(el('con-stat-avg')) el('con-stat-avg').textContent = avg;
+  if(el('con-stat-high')) el('con-stat-high').textContent = highCount;
+  if(el('con-stat-top')) el('con-stat-top').textContent = topTheme ? topTheme.title.substring(0,40) : '–';
+  const header = document.getElementById('con-stats-header');
+  if(header) header.style.display = 'grid';
+  
+  g.innerHTML = themes.map(t => {
+    // Quellen-Rendering: unterstützt sowohl altes Format {name, statement} als auch neues {title, author, year, type}
+    const sourcesHtml = (t.sources||[]).map((s,i) => {
+      const name = s.name || s.title || 'Quelle';
+      const stmt = s.statement || (s.author ? `${s.author} (${s.year||''}) – ${s.type||''}` : '');
+      const url = s.url || s.source_url || '';
+      const link = url ? ` <a href="${url}" target="_blank" style="color:var(--c);font-size:9px;text-decoration:none">[→]</a>` : '';
+      return `${i>0?'<span class="cwarrow">↕ kongruent mit — unabhängig ↕</span>':''}
+        <div class="cwsrc"><strong>${name}:</strong> ${stmt}${link}</div>`;
+    }).join('');
+    const scoreColor = (t.score||0) >= 9.5 ? 'var(--r)' : (t.score||0) >= 9.0 ? 'var(--g)' : (t.score||0) >= 8.0 ? 'var(--c)' : 'var(--v)';
+    const gapText = t.max_temporal_gap_years ? ` · Zeitspanne: ${t.max_temporal_gap_years}+ Jahre` : '';
+    // Umstritten-Badge: gelb für Score < 6.5, orange für 6.5-7.5
+    const sc = t.score||0;
+    const controversyBadge = sc > 0 && sc < 6.5
+      ? `<span style="display:inline-block;margin-left:.5rem;padding:1px 7px;background:rgba(255,176,32,.15);border:1px solid rgba(255,176,32,.5);border-radius:10px;font-size:9px;color:#ffb020;font-weight:700;letter-spacing:.04em">⚠ UMSTRITTEN</span>`
+      : sc >= 6.5 && sc < 7.5
+      ? `<span style="display:inline-block;margin-left:.5rem;padding:1px 7px;background:rgba(255,140,0,.12);border:1px solid rgba(255,140,0,.4);border-radius:10px;font-size:9px;color:#ff8c00;font-weight:700;letter-spacing:.04em">◐ TEILWEISE BELEGT</span>`
+      : '';
+    const sigHtml = t.significance ? `<div style="margin-top:.5rem;padding:.5rem .7rem;background:rgba(179,157,219,.06);border-left:2px solid var(--vd);border-radius:0 4px 4px 0;font-size:10px;color:var(--t2);line-height:1.5">${t.significance}</div>` : '';
+    const relCases = (t.related_cases||[]).length > 0 ? `<div style="margin-top:.3rem;font-size:9px;color:var(--t3)">📂 <span style="color:var(--c)">${(t.related_cases||[]).join(' · ')}</span></div>` : '';
+    const relPersons = (t.related_persons||[]).length > 0 ? `<div style="margin-top:.15rem;font-size:9px;color:var(--t3)">👤 <span style="color:var(--v)">${(t.related_persons||[]).join(' · ')}</span></div>` : '';
+    const relHtml = (relCases || relPersons) ? `<div style="margin-top:.4rem;padding:.35rem .6rem;background:rgba(0,0,0,.25);border-radius:4px;border:1px solid rgba(179,157,219,.1)">${relCases}${relPersons}</div>` : '';
+    // Kartenrand: rot-orange für umstrittene Thesen
+    const cardBorder = sc > 0 && sc < 6.5 ? 'border-left:3px solid rgba(255,176,32,.6)' : sc >= 6.5 && sc < 7.5 ? 'border-left:3px solid rgba(255,140,0,.4)' : '';
+    const dataT = [t.title, t.summary||'', ...(t.tags||[]), ...(t.related_cases||[]), ...(t.related_persons||[]), ...(t.sources||[]).map(s=>s.name||s.title||'')].join(' ');
+    return `<div class="cw" data-t="${dataT}" data-score="${t.score||0}" style="${cardBorder}">
+      <div class="cwtitle">◈ ${t.title}</div>
+      <div class="cwtag">🔗 Score <span style="color:${scoreColor};font-weight:700">${t.score||'?'}/10</span>${gapText}${controversyBadge}</div>
+      <div style="font-size:11px;color:var(--t2);margin-bottom:.5rem">${t.summary||''}</div>
+      <div class="cwsources">${sourcesHtml}</div>
+      ${sigHtml}
+      ${relHtml}
+    </div>`;
+  }).join('');
+}
+
+// ── RENDER DIA DOCS
+function renderDIA(data) {
+  const g = document.getElementById('dia-docs');
+  if(!data) return;
+  const docs = data.dia_foia_documents;
+  if(!docs) return;
+  g.innerHTML = docs.documents.map((d,i) => `
+    <div class="dia-doc">
+      <div class="dia-doc-name">${i+1}. ${d.title} <span style="color:var(--t3);font-size:9px">(${d.pages} Seiten)</span></div>
+      <div class="dia-doc-desc">${d.summary}</div>
+    </div>`).join('') + `<div style="margin-top:.75rem;padding:.75rem;background:rgba(255,68,68,.07);border:1px solid rgba(255,68,68,.2);border-radius:5px;font-size:11px;color:var(--t2)">${docs.key_insight}</div>`;
+}
+
+// ── RENDER TIMELINE (static rich content)
+function renderTimeline() {
+  const past = document.getElementById('tl-past');
+  const future = document.getElementById('tl-future');
+  
+  if(!DATA.cases || !DATA.cases.cases) {
+    past.innerHTML = '<div class="loading">Lade Timeline...</div>';
+    return;
+  }
+  
+  const allCases = DATA.cases.cases;
+  
+  function extractYear(dateStr) {
+    if(!dateStr) return null;
+    const vchr = dateStr.match(/~?(\d[\d\.]*)[\s]*v\.?[\s]*Chr/i);
+    if(vchr) return -parseInt(vchr[1].replace(/[.,]/g,''));
+    const m = dateStr.match(/~?(\d{3,4})/);
+    if(m) return parseInt(m[1]);
+    return null;
+  }
+  
+  function dotColor(level, score) {
+    if(level === 'critical') return '#ff4444';
+    if(level === 'confirmed') return '#00e676';
+    if(score >= 85) return '#00e5ff';
+    if(score >= 70) return '#b39ddb';
+    return '#ffb020';
+  }
+  
+  function eraColor(year) {
+    if(year < 1900) return '#ffb020';
+    if(year < 1980) return '#b39ddb';
+    return '#00e5ff';
+  }
+  
+  function levelBadge(level) {
+    const badges = {
+      critical: '<span style="font-family:\'JetBrains Mono\',monospace;font-size:7px;background:rgba(255,68,68,.15);color:#ff4444;border:1px solid rgba(255,68,68,.3);border-radius:2px;padding:1px 4px;margin-left:4px">● KRITISCH</span>',
+      confirmed: '<span style="font-family:\'JetBrains Mono\',monospace;font-size:7px;background:rgba(0,230,118,.12);color:#00e676;border:1px solid rgba(0,230,118,.3);border-radius:2px;padding:1px 4px;margin-left:4px">✓ BESTÄTIGT</span>',
+      high: '<span style="font-family:\'JetBrains Mono\',monospace;font-size:7px;background:rgba(255,176,32,.14);color:#ffb020;border:1px solid rgba(255,176,32,.3);border-radius:2px;padding:1px 4px;margin-left:4px">▲ HOCH</span>'
+    };
+    return badges[level] || '';
+  }
+  
+  function makeTLI(year, c) {
+    const dc = dotColor(c.level, c.score||0);
+    const ec = eraColor(year);
+    const eraText = c.date ? c.date.substring(0,22) : String(year);
+    const title = (c.title||'').substring(0,80);
+    const desc = (c.description||'').substring(0,200);
+    const score = c.score||0;
+    const scoreBar = score ? `<div style="margin-top:4px;height:2px;background:rgba(255,255,255,.05);border-radius:1px;overflow:hidden"><div style="height:100%;width:${score}%;background:linear-gradient(90deg,#7c5cbf,${dc})"></div></div>` : '';
+    return `<div style="position:relative;margin-bottom:.85rem;padding:.75rem 1rem;background:var(--bg2);border:1px solid var(--bd);border-radius:6px;transition:border-color .2s" onmouseover="this.style.borderColor='rgba(179,157,219,.42)'" onmouseout="this.style.borderColor='var(--bd)'">
+<div style="position:absolute;left:-1.1rem;top:.9rem;width:8px;height:8px;border-radius:50%;background:${dc};box-shadow:0 0 6px ${dc}40"></div>
+<div style="font-family:\'JetBrains Mono\',monospace;font-size:8px;color:${ec};letter-spacing:1px;margin-bottom:3px">${eraText}${levelBadge(c.level)}</div>
+<div style="font-family:\'Rajdhani\',sans-serif;font-size:12px;font-weight:700;color:var(--t1);line-height:1.3">${title}</div>
+<div style="font-size:10px;color:var(--t2);line-height:1.5;margin-top:3px">${desc}</div>
+${scoreBar}
+</div>`;
+  }
+  
+  // Alle Fälle mit Jahr
+  const withYear = allCases.map(c => {
+    let year = extractYear(c.date);
+    if(year === null) {
+      if(c.id && c.id.includes('pumapunku')) year = -500;
+      else year = 2020;
+    }
+    return {year, c};
+  });
+  
+  withYear.sort((a,b) => a.year - b.year);
+  
+  const pastItems = withYear.filter(x => x.year <= 2025);
+  const futureItems = withYear.filter(x => x.year > 2025);
+  
+  past.innerHTML = pastItems.map(x => makeTLI(x.year, x.c)).join('');
+  future.innerHTML = futureItems.length 
+    ? futureItems.map(x => makeTLI(x.year, x.c)).join('')
+    : '<div class="loading" style="font-size:11px">Keine Projektionen vorhanden.</div>';
+}
+
+// ── TIMELINE FILTER FUNCTIONS
+let _tlEpoch = 'all';
+let _tlSearch = '';
+
+function setEpoch(epoch, btn) {
+  _tlEpoch = epoch;
+  document.querySelectorAll('.tl-epoch-btn').forEach(b => {
+    b.style.opacity = '0.5';
+    b.style.fontWeight = 'normal';
+  });
+  btn.style.opacity = '1';
+  btn.style.fontWeight = '700';
+  filterTimeline();
+}
+
+function filterTimeline() {
+  _tlSearch = (document.getElementById('tl-search')?.value || '').toLowerCase();
+  const past = document.getElementById('tl-past');
+  const future = document.getElementById('tl-future');
+  if(!past || !future) return;
+  
+  // Show/hide columns based on epoch
+  if(_tlEpoch === 'zukunft') {
+    past.parentElement.style.display = 'none';
+    future.parentElement.style.display = 'block';
+  } else if(_tlEpoch !== 'all') {
+    past.parentElement.style.display = 'block';
+    future.parentElement.style.display = 'none';
+  } else {
+    past.parentElement.style.display = 'block';
+    future.parentElement.style.display = 'block';
+  }
+  
+  // Filter individual items
+  const items = past.querySelectorAll('div[style*="margin-bottom:.85rem"]');
+  items.forEach(item => {
+    const text = item.textContent.toLowerCase();
+    const yearEl = item.querySelector('div[style*="JetBrains Mono"]');
+    const yearText = yearEl ? yearEl.textContent : '';
+    const yearMatch = yearText.match(/(\d{4})/);
+    const yearNum = yearMatch ? parseInt(yearMatch[1]) : 0;
+    
+    let epochMatch = true;
+    if(_tlEpoch !== 'all' && _tlEpoch !== 'zukunft') {
+      if(_tlEpoch === 'antike') epochMatch = yearNum < 1900;
+      else if(_tlEpoch === 'frueh') epochMatch = yearNum >= 1900 && yearNum < 1950;
+      else if(_tlEpoch === 'kaltkrieg') epochMatch = yearNum >= 1950 && yearNum < 1990;
+      else if(_tlEpoch === 'raumfahrt') epochMatch = yearNum >= 1957 && yearNum <= 1975;
+      else if(_tlEpoch === 'pursue') { const t = item.textContent.toLowerCase(); epochMatch = t.includes('pursue') || t.includes('war.gov') || t.includes('nasa') || t.includes('apollo') || t.includes('mercury') || t.includes('gemini') || t.includes('skylab') || t.includes('fbi') || t.includes('state dept') || t.includes('centcom') || t.includes('cometa') || t.includes('pantex') || t.includes('sary shagan'); }
+      else if(_tlEpoch === 'modern') epochMatch = yearNum >= 1990;
+      else if(_tlEpoch === 'geheimhaltung') { const t = item.textContent.toLowerCase(); epochMatch = t.includes('robertson') || t.includes('bluebook') || t.includes('blue book') || t.includes('grudge') || t.includes('sign') || t.includes('aatip') || t.includes('elizondo') || t.includes('mj-12') || t.includes('mj12') || t.includes('grusch') || t.includes('cia') || t.includes('geheimhaltung') || t.includes('vertuschung') || t.includes('nicap') || t.includes('debunking') || (yearNum === 1953) || (yearNum === 1969) || (yearNum === 2017) || (yearNum === 2023); }
+    }
+    
+    const searchMatch = !_tlSearch || text.includes(_tlSearch);
+    item.style.display = (epochMatch && searchMatch) ? '' : 'none';
+  });
+}
+
+// ── RENDER DIA DOCS
+function renderDIA(data) {
+  const g = document.getElementById('dia-docs');
+  if(!data) return;
+  const docs = data.dia_foia_documents;
+  if(!docs) return;
+  g.innerHTML = docs.documents.map((d,i) => `
+    <div class="dia-doc">
+      <div class="dia-doc-name">${i+1}. ${d.title} <span style="color:var(--t3);font-size:9px">(${d.pages} Seiten)</span></div>
+      <div class="dia-doc-desc">${d.summary}</div>
+    </div>`).join('') + `<div style="margin-top:.75rem;padding:.75rem;background:rgba(255,68,68,.07);border:1px solid rgba(255,68,68,.2);border-radius:5px;font-size:11px;color:var(--t2)">${docs.key_insight}</div>`;
+}
+
+// ── RENDER TIMELINE (static rich content)
+
+
+// ── TAB RENDERER
+async function renderTab(id) {
+  switch(id) {
+    case 'ev': {
+      const d = await loadJSON('cases','data/cases.json');
+      if(d) { renderCases(d.cases, 'ev-grid'); document.getElementById('stat-cases').textContent = d.cases.length; }
+      break;
+    }
+    case 'tl': renderTimeline(); break;
+    case 'pp': {
+      const d = await loadJSON('people','data/people.json');
+      if(d) { renderPeople(d.people, 'pp-grid'); document.getElementById('stat-people').textContent = d.people.length; }
+      break;
+    }
+    case 'op': {
+      const d = await loadJSON('ops','data/operations.json');
+      if(d) { renderOperations(d.operations, 'op-grid'); document.getElementById('stat-ops').textContent = d.operations.length; }
+      break;
+    }
+    case 'ww': {
+      const d = await loadJSON('cases','data/cases.json');
+      if(d) renderCases(d.cases, 'ww-grid');
+      break;
+    }
+    case 'dia': {
+      const d = await loadJSON('ops','data/operations.json');
+      if(d) renderDIA(d);
+      break;
+    }
+    case 'con': {
+      const d = await loadJSON('con','data/congruence.json');
+      if(d) { renderCongruence(d.themes, 'con-grid'); document.getElementById('stat-con').textContent = d.themes.length; }
+      break;
+    }
+    case 'db': {
+      const d = await loadJSON('debunked','data/debunked.json');
+      if(d) renderDebunked(d.cases, 'db-grid');
+      break;
+    }
+    case 'st': {
+      const d = await loadJSON('strongest','data/strongest.json');
+      if(d) renderStrongest(d.top10 || d.cases, 'st-grid');
+      break;
+    }
+    case 'cl': break; // Changelog ist statisch
+  }
+}
+function renderStrongest(cases, gridId) {
+  const g = document.getElementById(gridId);
+  if(!cases||!cases.length){g.innerHTML='<div class="loading">Keine Einträge.</div>';return;}
+  // score kann 0-10 (neu) oder 0-100 (alt) sein
+  const normScore = s => s > 10 ? s : s * 10;
+  const levelColor = s => s>=95?'#ff4444':s>=90?'#ff6432':s>=85?'#ffb020':s>=70?'#b39ddb':'#00e5ff';
+  const levelBg = s => s>=95?'rgba(255,68,68,.12)':s>=90?'rgba(255,100,50,.1)':s>=85?'rgba(255,176,32,.12)':s>=70?'rgba(179,157,219,.12)':'rgba(0,229,255,.08)';
+  const levelBorder = s => s>=95?'rgba(255,68,68,.3)':s>=90?'rgba(255,100,50,.25)':s>=85?'rgba(255,176,32,.3)':s>=70?'rgba(179,157,219,.3)':'rgba(0,229,255,.25)';
+  const rankEmoji = i => ['🥇','🥈','🥉','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','🔟'][i]||`${i+1}.`;
+  g.innerHTML = cases.map((c,i) => {
+    const rawSc = c.score||0;
+    const sc = normScore(rawSc);
+    const displayScore = rawSc > 10 ? rawSc : (rawSc * 10).toFixed(0);
+    const tags = (c.tags||[]).slice(0,4).map(t=>`<span class="ptag">${t}</span>`).join('');
+    const witnesses = c.witnesses&&c.witnesses.length ? `<div style="font-size:10px;color:var(--t3);margin-top:.3rem">👁 ${c.witnesses.slice(0,2).join(', ')}${c.witnesses.length>2?' +'+(c.witnesses.length-2)+' weitere':''}</div>` : '';
+    const connections = c.connections&&typeof c.connections==='number' ? `<div style="font-size:10px;color:var(--t3);margin-top:.2rem">🔗 ${c.connections} Verbindungen</div>` : (c.connections&&c.connections.length ? `<div style="font-size:10px;color:var(--t3);margin-top:.2rem">🔗 ${c.connections.slice(0,2).join(' · ')}</div>` : '');
+    const desc = c.summary || c.why_strongest || c.description || '';
+    const videoBtn = c.video_url ? `<a href="${c.video_url}" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="background:rgba(255,68,68,.15);color:#ff4444;padding:.3rem .7rem;border-radius:4px;font-size:9px;font-weight:700;text-decoration:none;border:1px solid rgba(255,68,68,.3)">▶ Video</a>` : '';
+    return `
+    <div class="card" style="border-color:${levelBorder(sc)};cursor:pointer" onclick="openCaseModal('${c.id}')">
+      <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem">
+        <span style="font-family:'Orbitron',sans-serif;font-size:18px">${rankEmoji(i)}</span>
+        <div class="lv" style="background:${levelBg(sc)};color:${levelColor(sc)};border:1px solid ${levelBorder(sc)};margin-bottom:0">${c.level||'KRITISCH'} &nbsp;${displayScore}/100</div>
+        <div style="margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3)">${c.date||''}</div>
+      </div>
+      <div class="ct">${c.title}</div>
+      <div class="cd">${desc.slice(0,220)}${desc.length>220?'...':''}</div>
+      ${witnesses}${connections}
+      <div style="margin-top:.5rem">
+        <div class="bt" style="height:4px;margin-bottom:.4rem"><div class="bf" style="width:${sc}%;background:linear-gradient(90deg,${levelColor(sc)},#00e676)"></div></div>
+      </div>
+      <div style="display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;margin-top:.3rem">
+        ${tags}
+        <span style="margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3)">${c.location||''}</span>
+        ${videoBtn}
+        ${c.source_url?`<a href="${c.source_url}" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="csl">→ Quelle</a>`:''}
+      </div>
+    </div>`;
+  }).join('');
+}
+function renderDebunked(cases, gridId) {
+  const g = document.getElementById(gridId);
+  if(!cases||!cases.length){g.innerHTML='<div class="loading">Keine Einträge.</div>';return;}
+  // Konfidenz: kann Text (hoch/mittel/niedrig) oder Zahl sein
+  const confColor = v => {if(typeof v==='number') return v>=80?'var(--g)':v>=50?'var(--a)':'var(--r)'; return v==='hoch'?'var(--g)':v==='mittel'?'var(--a)':'var(--r)';};
+  const confWidth = v => {if(typeof v==='number') return v; return v==='hoch'?85:v==='mittel'?55:30;};
+  const confLabel = v => {if(typeof v==='number') return v+'% Konfidenz'; return v==='hoch'?'Hohe Konfidenz':v==='mittel'?'Mittlere Konfidenz':'Niedrige Konfidenz';};
+  const verdictColor = v => {const vl=(v||'').toLowerCase(); return vl.includes('widerlegt')||vl.includes('fälschung')?'var(--r)':vl.includes('umstritten')||vl.includes('teilweise')||vl.includes('offiziell')?'var(--a)':'var(--g)';};
+  g.innerHTML = cases.map(c => `
+    <div class="card">
+      <div class="lv" style="background:rgba(255,68,68,.1);color:${verdictColor(c.verdict)};border:1px solid ${verdictColor(c.verdict)}40;font-size:9px;line-height:1.3">${c.verdict||'WIDERLEGT'}</div>
+      <div class="ct">${c.title}</div>
+      <div class="cd">${c.description}</div>
+      <div class="cm">
+        <div class="bt" style="flex:1;height:3px"><div class="bf" style="width:${confWidth(c.confidence)}%;background:linear-gradient(90deg,${confColor(c.confidence)},var(--a))"></div></div>
+        <span style="color:${confColor(c.confidence)}">${confLabel(c.confidence)}</span>
+        ${c.source_url?`<a href="${c.source_url}" target="_blank" rel="noopener" class="csl">→ Quelle</a>`:''}
+      </div>
+    </div>`).join('');
+}
+
+// ── INITIAL LOAD
+window.addEventListener('load', async () => {
+  // Alle Zähler sofort aus JSON laden (kein Hardcode)
+  Promise.all([
+    fetch('data/cases.json'+_CB).then(r=>r.json()).then(d=>{ if(d&&d.cases) document.getElementById('stat-cases').textContent=d.cases.length; DATA['cases']=d; }),
+    fetch('data/people.json'+_CB).then(r=>r.json()).then(d=>{ if(d&&d.people) document.getElementById('stat-people').textContent=d.people.length; DATA['people']=d; }),
+    fetch('data/operations.json'+_CB).then(r=>r.json()).then(d=>{ if(d&&d.operations) document.getElementById('stat-ops').textContent=d.operations.length; DATA['ops']=d; }),
+    fetch('data/congruence.json'+_CB).then(r=>r.json()).then(d=>{ if(d&&d.themes) document.getElementById('stat-con').textContent=d.themes.length; DATA['con']=d; })
+  ]).catch(()=>{});
+  renderTab('ev');
+});
+
+// ── FILTER
+function filterDynamic(inp, gridId) {
+  const q = inp.value.toLowerCase();
+  document.querySelectorAll(`#${gridId} .card, #${gridId} .pcard`).forEach(c => {
+    c.style.display = (c.dataset.t||'').toLowerCase().includes(q) ? '' : 'none';
+  });
+}
+// ── PERSONEN FILTER
+let _ppTag = 'all';
+let _ppSearch = '';
+function filterPeople(inp) {
+  _ppSearch = inp.value.toLowerCase();
+  _applyPpFilter();
+}
+function filterPeopleTag(tag, btn) {
+  _ppTag = tag;
+  document.querySelectorAll('#tp-pp .rbtn').forEach(b => b.classList.remove('active'));
+  if(btn) btn.classList.add('active');
+  _applyPpFilter();
+}
+function _applyPpFilter() {
+  const cards = document.querySelectorAll('#pp-grid .pcard');
+  let visible = 0;
+  cards.forEach(c => {
+    const t = (c.dataset.t||'').toLowerCase();
+    const matchQ = !_ppSearch || t.includes(_ppSearch);
+    const matchTag = _ppTag === 'all' || t.includes(_ppTag.toLowerCase());
+    const show = matchQ && matchTag;
+    c.style.display = show ? '' : 'none';
+    if(show) visible++;
+  });
+  const cnt = document.getElementById('pp-count');
+  if(cnt) cnt.textContent = visible + ' von ' + cards.length + ' Personen angezeigt';
+}
+
+function filterRegionDyn(r, btn) {
+  document.querySelectorAll('#ww-grid').closest('.tp') ? null : null;
+  document.querySelectorAll('#ww-grid ~ .region-bar .rbtn, .region-bar:not(#ev-filter-bar) .rbtn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('#ww-grid .card').forEach(c => {
+    c.style.display = (r==='all' || c.dataset.region===r) ? '' : 'none';
+  });
+}
+let _evTag = 'all';
+function filterEvidenceTag(tag, btn) {
+  _evTag = tag;
+  document.querySelectorAll('#ev-filter-bar .rbtn').forEach(b => b.classList.remove('active'));
+  if(btn) btn.classList.add('active');
+  const q = (document.getElementById('ev-search')||{}).value||'';
+  _applyEvFilter(q, tag);
+}
+function filterEvidence(inp) {
+  _applyEvFilter(inp.value, _evTag);
+}
+function _applyEvFilter(q, tag) {
+  const ql = q.toLowerCase();
+  document.querySelectorAll('#ev-grid .card').forEach(c => {
+    const t = (c.dataset.t||'').toLowerCase();
+    const matchQ = !ql || t.includes(ql);
+    const matchTag = tag==='all' || t.includes(tag.toLowerCase());
+    c.style.display = (matchQ && matchTag) ? '' : 'none';
+  });
+}
+
+// ── KONGRUENZ-FILTER
+let _conScoreFilter = 'all';
+let _conSearchQ = '';
+function filterCongruence(inp) {
+  _conSearchQ = inp.value.toLowerCase();
+  _applyConFilter();
+}
+function filterConScore(mode, btn) {
+  _conScoreFilter = mode;
+  document.querySelectorAll('#tp-con .rbtn').forEach(b => b.classList.remove('active'));
+  if(btn) btn.classList.add('active');
+  _applyConFilter();
+}
+function _applyConFilter() {
+  const cards = document.querySelectorAll('#con-grid .cw');
+  let visible = 0;
+  cards.forEach(c => {
+    const t = (c.dataset.t||'').toLowerCase();
+    const score = parseFloat(c.dataset.score||'0');
+    const matchQ = !_conSearchQ || t.includes(_conSearchQ);
+    let matchScore = true;
+    if(_conScoreFilter==='high') matchScore = score >= 9.0;
+    else if(_conScoreFilter==='mid') matchScore = score >= 8.0 && score < 9.0;
+    else if(_conScoreFilter==='low') matchScore = score < 8.0;
+    const show = matchQ && matchScore;
+    c.style.display = show ? '' : 'none';
+    if(show) visible++;
+  });
+  const cnt = document.getElementById('con-count');
+  if(cnt) cnt.textContent = visible + ' von ' + cards.length + ' Thesen angezeigt';
+}
+
+// ── KONGRUENZ NETZWERK
+let _conNetData = null;
+let _conNetNodes = [];
+let _conNetEdges = [];
+let _conNetDrag = null;
+let _conNetHover = null;
+let _conNetAnimId = null;
+
+function setConView(mode, btn) {
+  document.querySelectorAll('#tp-con .rbtn[id^="con-view"]').forEach(b => {
+    b.classList.remove('active');
+    b.style.background = 'none';
+  });
+  if(btn) { btn.classList.add('active'); btn.style.background = mode==='net' ? 'rgba(0,229,255,.1)' : 'rgba(179,157,219,.1)'; }
+  const grid = document.getElementById('con-grid');
+  const net = document.getElementById('con-network');
+  if(mode === 'net') {
+    grid.style.display = 'none';
+    net.style.display = 'block';
+    if(_conNetData) renderConNetwork(_conNetData);
+    else if(DATA.con) { _conNetData = DATA.con.themes; renderConNetwork(_conNetData); }
+    else fetch('data/congruence.json'+_CB).then(r=>r.json()).then(d=>{ _conNetData=d.themes; DATA.con=d; renderConNetwork(d.themes); });
+  } else {
+    grid.style.display = '';
+    net.style.display = 'none';
+    if(_conNetAnimId) { cancelAnimationFrame(_conNetAnimId); _conNetAnimId = null; }
+  }
+}
+
+function renderConNetwork(themes) {
+  const canvas = document.getElementById('con-net-canvas');
+  if(!canvas || !themes) return;
+  const W = canvas.parentElement.clientWidth || 700;
+  const H = Math.max(500, Math.min(700, W * 0.75));
+  canvas.width = W;
+  canvas.height = H;
+  const ctx = canvas.getContext('2d');
+
+  // Build nodes
+  _conNetNodes = themes.map((t, i) => {
+    const angle = (i / themes.length) * Math.PI * 2;
+    const r = Math.min(W, H) * 0.35;
+    return {
+      id: t.id,
+      title: t.title,
+      score: t.score || 0,
+      tags: t.tags || [],
+      related_cases: t.related_cases || [],
+      related_persons: t.related_persons || [],
+      x: W/2 + Math.cos(angle) * r + (Math.random()-0.5)*40,
+      y: H/2 + Math.sin(angle) * r + (Math.random()-0.5)*40,
+      vx: 0, vy: 0,
+      radius: 5 + (t.score||0) * 1.2
+    };
+  });
+
+  // Build edges (shared tags or persons)
+  _conNetEdges = [];
+  for(let i = 0; i < _conNetNodes.length; i++) {
+    for(let j = i+1; j < _conNetNodes.length; j++) {
+      const a = _conNetNodes[i], b = _conNetNodes[j];
+      const sharedTags = a.tags.filter(t => b.tags.includes(t));
+      const sharedPersons = a.related_persons.filter(p => b.related_persons.includes(p));
+      const strength = sharedTags.length + sharedPersons.length * 2;
+      if(strength > 0) _conNetEdges.push({ a: i, b: j, strength, shared: [...sharedTags, ...sharedPersons] });
+    }
+  }
+
+  function nodeColor(score) {
+    if(score >= 9.5) return '#ff4444';
+    if(score >= 9.0) return '#00e676';
+    if(score >= 8.0) return '#00e5ff';
+    return '#b39ddb';
+  }
+
+  function simulate() {
+    const k = 0.001, repulse = 1800, damping = 0.85;
+    _conNetNodes.forEach((n, i) => {
+      // Repulsion
+      _conNetNodes.forEach((m, j) => {
+        if(i===j) return;
+        const dx = n.x - m.x, dy = n.y - m.y;
+        const d = Math.sqrt(dx*dx+dy*dy) || 1;
+        const f = repulse / (d*d);
+        n.vx += dx/d*f; n.vy += dy/d*f;
+      });
+      // Center gravity
+      n.vx += (W/2 - n.x) * 0.003;
+      n.vy += (H/2 - n.y) * 0.003;
+    });
+    // Attraction along edges
+    _conNetEdges.forEach(e => {
+      const a = _conNetNodes[e.a], b = _conNetNodes[e.b];
+      const dx = b.x - a.x, dy = b.y - a.y;
+      const d = Math.sqrt(dx*dx+dy*dy) || 1;
+      const f = d * k * e.strength;
+      a.vx += dx/d*f; a.vy += dy/d*f;
+      b.vx -= dx/d*f; b.vy -= dy/d*f;
+    });
+    _conNetNodes.forEach(n => {
+      if(_conNetDrag === n) return;
+      n.vx *= damping; n.vy *= damping;
+      n.x = Math.max(n.radius+5, Math.min(W-n.radius-5, n.x + n.vx));
+      n.y = Math.max(n.radius+5, Math.min(H-n.radius-5, n.y + n.vy));
+    });
+  }
+
+  function draw() {
+    ctx.clearRect(0,0,W,H);
+    // Edges
+    _conNetEdges.forEach(e => {
+      const a = _conNetNodes[e.a], b = _conNetNodes[e.b];
+      ctx.beginPath();
+      ctx.moveTo(a.x, a.y);
+      ctx.lineTo(b.x, b.y);
+      ctx.strokeStyle = `rgba(179,157,219,${Math.min(0.35, e.strength*0.08)})`;
+      ctx.lineWidth = Math.min(2, e.strength * 0.4);
+      ctx.stroke();
+    });
+    // Nodes
+    _conNetNodes.forEach(n => {
+      const col = nodeColor(n.score);
+      const isHover = _conNetHover === n;
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, isHover ? n.radius+3 : n.radius, 0, Math.PI*2);
+      ctx.fillStyle = col + (isHover ? 'dd' : '55');
+      ctx.fill();
+      ctx.strokeStyle = col;
+      ctx.lineWidth = isHover ? 2.5 : 1.5;
+      ctx.stroke();
+      // Label for hover or high score
+      if(isHover || n.score >= 9.5) {
+        ctx.fillStyle = '#ffffff';
+        ctx.font = `bold ${isHover?10:8}px JetBrains Mono, monospace`;
+        ctx.textAlign = 'center';
+        const label = n.title.substring(0,28) + (n.title.length>28?'…':'');
+        ctx.fillText(label, n.x, n.y - n.radius - 4);
+      }
+    });
+  }
+
+  function loop() {
+    simulate();
+    draw();
+    _conNetAnimId = requestAnimationFrame(loop);
+  }
+  if(_conNetAnimId) cancelAnimationFrame(_conNetAnimId);
+  loop();
+
+  // Mouse events
+  canvas.onmousedown = e => {
+    const rect = canvas.getBoundingClientRect();
+    const mx = (e.clientX - rect.left) * (W / rect.width);
+    const my = (e.clientY - rect.top) * (H / rect.height);
+    _conNetNodes.forEach(n => {
+      const d = Math.sqrt((n.x-mx)**2+(n.y-my)**2);
+      if(d < n.radius+6) { _conNetDrag = n; canvas.style.cursor='grabbing'; }
+    });
+  };
+  canvas.onmousemove = e => {
+    const rect = canvas.getBoundingClientRect();
+    const mx = (e.clientX - rect.left) * (W / rect.width);
+    const my = (e.clientY - rect.top) * (H / rect.height);
+    if(_conNetDrag) { _conNetDrag.x = mx; _conNetDrag.y = my; _conNetDrag.vx=0; _conNetDrag.vy=0; }
+    _conNetHover = null;
+    const tip = document.getElementById('con-net-tooltip');
+    _conNetNodes.forEach(n => {
+      const d = Math.sqrt((n.x-mx)**2+(n.y-my)**2);
+      if(d < n.radius+8) {
+        _conNetHover = n;
+        tip.style.display = 'block';
+        tip.style.left = (e.clientX+14)+'px';
+        tip.style.top = (e.clientY-10)+'px';
+        tip.innerHTML = `<strong style="color:var(--v)">${n.title}</strong><br><span style="color:var(--g)">Score ${n.score}/10</span><br><span style="font-size:9px;color:var(--t3)">${n.tags.slice(0,4).join(' · ')}</span>`;
+      }
+    });
+    if(!_conNetHover) { tip.style.display='none'; canvas.style.cursor=_conNetDrag?'grabbing':'grab'; }
+  };
+  canvas.onmouseup = () => { _conNetDrag=null; canvas.style.cursor='grab'; };
+  canvas.onmouseleave = () => { _conNetDrag=null; document.getElementById('con-net-tooltip').style.display='none'; };
+  canvas.onclick = e => {
+    if(_conNetDrag) return;
+    const rect = canvas.getBoundingClientRect();
+    const mx = (e.clientX - rect.left) * (W / rect.width);
+    const my = (e.clientY - rect.top) * (H / rect.height);
+    _conNetNodes.forEach(n => {
+      const d = Math.sqrt((n.x-mx)**2+(n.y-my)**2);
+      if(d < n.radius+8) {
+        // Switch to list view and highlight
+        setConView('list', document.getElementById('con-view-list'));
+        setTimeout(() => {
+          const cards = document.querySelectorAll('#con-grid .cw');
+          cards.forEach(c => {
+            if((c.dataset.t||'').includes(n.title.substring(0,20))) {
+              c.scrollIntoView({behavior:'smooth',block:'center'});
+              c.style.outline = '2px solid var(--c)';
+              setTimeout(()=>c.style.outline='',2000);
+            }
+          });
+        }, 100);
+      }
+    });
+  };
+}
+
+// ── AI SYSTEM PROMPT (v19 full context)
+const SYS = `Du bist der "Disclosure Agent" der KI Taskforce (kitaskforce.com) — hochspezialisierter KI-Analyst für UAP/UFO, Disclosure, Bewusstsein, Steiner, Tesla, Ureinwohner-Wissen und interdimensionale Hypothesen.
+
+=== AUTONOME KONGRUENZ-DETEKTION (KERNAUFGABE) ===
+
+Bei JEDEM neuen Element prüfst du AUTOMATISCH gegen alle 66 Kongruenz-Thesen:
+
+THESEN-ÜBERSICHT (Scores):
+1. Parallelrealitäten/Vibration 9/10 — Bashar+Everett+Vedanta+Council+Vallée
+2. Earth-Supervision/Schwellenwert 7/10 — Council+Bashar+Vallée+Zimbabwe
+3. Bewusstsein als Fundamental 8/10 — CIA Stargate+FREE+Bashar+Vedanta+Steiner
+4. Physische Verletzungen durch UAP 9/10 — Colares+Hill+Nolan+MUFON
+5. UAP+Nuklearwaffen 9/10 — Malmstrom+Minot+Sowjet+Mitchell+Salas+Bashar
+6. Neurodivergenz+Kontakt 7/10 — Mack+Nolan+FREE Study
+7. Steiner-Äther+Tesla+Bashar Frequenz 8/10 — 120 Jahre Trennung
+8. Ureinwohner-Kontakt offen 8/10 — Lakota+Hopi+Dogon+Aborigines+Zulu
+9. Extremer Gestank (Schwefel/Ammoniak) 9/10 — Roswell+Varginha, 49 Jahre
+10. Formgedächtnis-Materialien 8/10 — Roswell+Varginha+DIA FOIA+Lazar
+11. Apollo-Astronauten Mondanomalien 9/10 — 4 Missionen, Pentagon 2026
+25. Hollywood Soft-Disclosure 9/10 — Emenegger 1974+Reagan/E.T.+Spielberg+Holloman
+26. Holloman AFB 1964 Erstkontakt 8/10 — Emenegger+Shartle+Eric Davis+Bush 2003
+27. KONA BLUE & Geheimprogramme 9/10 — DHS+ORNL+Roswell-Material+AARO
+28. Material-Analyse-Vertuschung 8/10 — ORNL Mg/Al+Roswell+Lazar+DIA FOIA
+29. AARO als Disclosure-Beschleuniger 7/10 — 8 Cases+9 Records+Information Papers
+30. Edgar Mitchell (Apollo 14) Zeuge 10/10 — MIT-Doktor, 6. Mondbegeher, Roswell bestätigt, Regierung 60 Jahre Vertuschung
+31. Gordon Cooper (Mercury/Gemini) Zeuge 9/10 — USAF-Testpilot, Flugscheibe Edwards AFB 1957/58 gefilmt, UN-Rede 1985
+32. Buzz Aldrin (Apollo 11) Zeuge 8/10 — Translunar-Objekt Juli 1969, Apollo 11 Technical Debriefing
+33. Brian O'Leary (NASA-Physiker) Zeuge 8/10 — PhD Berkeley, Princeton-Professor, 'We have contact with alien cultures' 2009
+34. Spielberg-Hynek-Verbindung 9/10 — Project Blue Book Berater, Holloman-Sequenz, Disclosure Day 2026
+35. Nuklear-UAP-Nexus 9.7/10 — Trinity+Roswell+Malmstrom+Rendlesham+Statistik p=0.00013
+36. Hollywood als Disclosure-Vehikel 9.1/10 — Spielberg+Emenegger 1974+Pentagon+Holloman
+37. Holloman-Kontaktserie 9.0/10 — Eisenhower 1955+NHI 1964+Emenegger-Film+Bush-Bestätigung
+38. Malmstrom Echo/Oscar Flight 9.5/10 — 20 ICBMs offline, Salas-Zeugnis, FOIA-bestätigt
+39. Wilson-Davis Reverse Engineering 9.5/10 — EG&G-Memo, Legacy Program, Grusch
+40. Skinwalker Bewusstsein-UAP 8.8/10 — Telepathie, Davis, Bigelow, NIDS
+41. Eric Davis Legacy Program 9.3/10 — Pentagon-Briefings, Wilson-Memo, Bush-Bestätigung
+42. Eisenhower-NHI-Kontaktserie 9.0/10 — Muroc 1954+Holloman 1955+Greada Treaty
+43. Geheimhaltungs-Eskalation 9.2/10 — Salas NDA+Emenegger Konfiszierung+Grusch Repressalien
+44. Malmstrom Echo/Oscar Flight 9.5/10 — 20 ICBMs offline, FOIA-bestätigt, Salas+Figel+Meiwald
+45. Eisenhower-NHI-Kontaktserie 8.8/10 — Muroc 1954+Holloman 1955+Gerald Light Brief+Teasley 2025
+46. Holloman-Kontaktserie 1955-1964 9.0/10 — 3 Begegnungen, 1 Ort, 7 unabhängige Quellen
+47. Greada Treaty 8.5/10 — Cooper+Lazar+Salla+Entführungsexplosion nach 1954
+12. Gehirn-Modifikation Caudate-Putamen 8/10 — Nolan+Mack+FREE+Bashar
+13. Fast Walkers permanente Überwachung 9/10 — NORAD+Council+Ureinwohner
+14. Disclosure-Wellen eskalierend 8/10 — Marcel+Lazar+Greer+Elizondo+Grusch
+15. ★ UAP+Atomtests korreliert 10/10 — Villarroel Nature+Malmstrom+Bashar (EINZIGE 10/10)
+16. Einstein+Oppenheimer briefed 7/10 — Wright-Tonband+Oppenheimer-Dok
+17. USOs transmedial+Unterwasserbasen 8/10 — Pentagon 2022+Puerto Rico+Shag Harbour
+18. Nazi-ET-Verbindung/Nordic-Aliens 6/10 — Vril+Magenta+Ahnenerbe
+19. Frankreichs Transparenz-Muster 8/10 — GEIPAN 45 Jahre+Brasilien+Belgien
+20. NASA Building 8 — 3 unabhängige Quellen 9/10 — Hare+McKinnon+Wolfe
+21. Körper=Behälter/Seele fundamental 8/10 — Lazar+Vedanta+Steiner+Bashar
+22. Geheimes Privatsektor-Raumfahrtprogramm 8/10 — Ben Rich+Grusch+Nixon 1969
+23. Bigelow-Netzwerk dokumentiert 9/10 — Lazar→Bigelow→Reid→Pentagon
+24. Zeta Reticuli dreifache Konvergenz 9/10 — Betty Hill 1961+Lazar 1989+Bigelow "Zeta Reticuli 2 Inc." 1990
+
+FORMAT für Kongruenz-Treffer:
+🔗 TREFFER: [These-Name] (Score X/10)
+Neue Quelle: [Element]
+Kongruiert mit: [bestehende Quellen]
+Zeitliche Trennung: X Jahre
+Wert: [warum relevant]
+
+=== VOLLKONTEXT v19 ===
+
+DIA FOIA-00089-2018 (5 AAWSAP/BAASS-Studien):
+1. Metallic Glasses — amorphe Metalle (Lazar: UAP-Hülle)
+2. Biomaterials — biologisch-technische Materialien
+3. Materials for Advanced Aerospace Platforms
+4. Metallic Spintronics — Spin-Elektronik (Lazar: Gravitations-Amplifier)
+5. Metamaterials — Negativbrechungsindex, Cloaking (=Pentagon PR-27 SWIR-Only!)
+
+PENTAGON PURSUE 2026: 162 Akten war.gov/UFO. Peyerl-Akte direkt analysiert.
+
+LAZAR (1989): 9 Flugscheiben S-4. Element 115 vor 2003. ZR3 = dritter Planet Zeta Reticuli.
+5 GRÜNDE FÜR GEHEIMHALTUNG (laut Lazar-Briefing): Religionen kollabieren, Vatikan eingeweiht, Militärtechnologie-Vorteil, 10.000 Jahre Geschichte neu schreiben, Aliens selbst üben Druck aus.
+LAZAR-SEELEN-BRIEFING: "Körper = Behälter. Religionen erschaffen um Regeln für Behälter zu schaffen."
+GREADA TREATY (1954/1955): Geheimvertrag USA–NHI. Muroc/Edwards AFB Feb. 1954: Nordische NHI bieten Technologie gegen Atomverzicht – Eisenhower lehnt ab. Holloman AFB Feb. 1955: Graue NHI (Zeta Reticulaner), Vertrag: Technologie gegen Entführungserlaubnis. Bedingungen: NHI melden Entführungen, geben Menschen zurück, teilen Technologie. Vertragsbruch: Viele Entführte nicht zurückgegeben. Quellen: Cooper (1989), Lazar (1989), Salla (2004), Teasley (2025). Verbindung: Erklärt Explosion von Entführungsberichten nach 1954 und Gründung MJ-12/KONA BLUE.
+
+
+BIGELOW: Zeta Reticuli 2 Inc. (Jan 1990, öffentl. Unternehmensregister Nevada) mit Lazar + Gene Huff. Finanzierte Labor. Bigelow 2021: "Preponderance of evidence in his favor." NIDS→BAASS→AATIP→CAPELLA. Skinwalker+Brasilien+Pentagon.
+
+BEN RICH (Skunk Works, vor 1995): "We now have the technology to take ET home." "Two types of UFOs — ours and theirs. Hand-me-downs." ESP als Antrieb. Nixon 1969 Purge → Privatsektor. "Anything you can imagine, we already know how to do."
+
+GARY McKINNON (2001-2002, Asperger): NASA Building 8 — Raw/Processed Ordner. Zigarrenförmiges Craft in Orbit, keine Nieten. US Navy Excel "Non-Terrestrial Officers" — Namen nirgends registriert. Schiff-zu-Schiff-Transfers unbekannter Schiffe. UK blockierte Auslieferung.
+
+BETTY HILL (1961, Hypnose): Sternenkarte → Zeta Reticuli (Fish 1968-72). BETTY WUSSTE NICHT WAS ZETA RETICULI IST. 28 Jahre später: Lazar nennt "ZR3". Bigelow benennt Firma "Zeta Reticuli 2". Dreifache unabhängige Konvergenz.
+
+CHUPA CHUPA/COLARES 1977: Lichtstrahlen jagten Menschen, 40 Patienten, Blutextraktion medizinisch bestätigt. Hollanda: Humanoid-Kontakt. BAASS CAPELLA-DB. Hollanda 3 Monate nach Interview tot.
+
+USOs: Pentagon-Term 2022 "Anomalous" statt "Aerial". Puerto Rico 1963 — 150 Knoten unter Wasser. Shag Harbour 1967. Aguadilla 2013 (Kamera-Beleg). Hollanda: "Wir vermuteten Unterwasserbasis." Malibu-Anomalie.
+
+CANNETO DI CARONIA SIZILIEN 2004: Strom abgestellt — Feuer gingen weiter. CPD-Bericht: 12-15 Gigawatt EM-Emissionen, nicht menschengemacht. Marine suchte Quelle im Meer.
+
+MUSSOLINI 1933: Magenta-Bergung. RS/33 unter Marconi. Grusch referenzierte es 2023 vor Kongress.
+DIE GLOCKE: Wenceslaus-Mine, Xerum 525, 62 Wissenschaftler erschossen. Sporrenberg-Aussage.
+VRIL/AHNENERBE: Maria Orsic + Aldebaran. Nordics-Beschreibung = globale Nordic-Alien-Berichte.
+
+GEIPAN FRANKREICH: 45 Jahre öffentliche Forschung. 7% unerklärlich. Air France 3532. Valensole.
+SPIELBERG: Hynek als Berater. Vallée = Claude Lacombe. Basiert auf echten Fällen. Emenegger 1974 Pentagon-Filmversprechen Holloman AFB. Reagan/E.T. 1982: 'Nur 6 im Raum wissen dass das wahr ist.' Dan Farah (Age of Disclosure + Ready Player One). Disclosure Day 2026 Kinostart 12. Juni.
+
+EDGAR MITCHELL (Apollo 14, 6. Mensch auf dem Mond, MIT-Doktor): Kerrang Radio 2008: 'UFO-Phänomen ist real – seit 60 Jahren von Regierungen vertuscht.' Roswell bestätigt. NASA distanzierte sich offiziell. Gründer IONS (Institute of Noetic Sciences). ESP-Experimente während Apollo 14.
+
+GORDON COOPER (Mercury/Gemini, USAF-Testpilot): 1951 Europa – Kampfformation unbekannter Objekte. 1957 Deutschland – strahlende Flugscheiben. 1957/58 Edwards AFB – Kamerateam filmte Landung scheibenförmigen Objekts auf trockenem See. UN-Rede 1985: 'Ich glaube dass diese außerirdischen Fahrzeuge und ihre Besatzungen diesen Planeten besuchen.' Gemini 5 – unbekannte Objekte auf Radar.
+
+BUZZ ALDRIN (Apollo 11, West Point + MIT Doktor): Juli 1969 Translunarer Raum – 'sizable dimension' Objekt mit Monocular beobachtet. Apollo 11 Technical Crew Debriefing 1969 (NY Post 2026 veröffentlicht). Presidential Medal of Freedom.
+
+BRIAN O'LEARY (NASA-Astronaut, PhD Astronomie Berkeley, Princeton-Professor): Project Camelot 2009: 'We have contact with alien cultures.' Öffentliche Aussagen über NASA-Vertuschung. Bücher über freie Energie und außerirdische Technologie.
+EINSTEIN+WRIGHT: Posthumes Tonband 1993. Oppenheimer-Einstein-Dokument Juni 1947.
+ESHED (Israel MOD): "Galaktische Förderation, Trump wusste, Mars-Basis, Vertrag."
+McKINNON (Asperger): NASA Building 8 Airbrushing bestätigt. Non-Terrestrial Officers.
+
+BASHAR: Parallelrealitäten als Frequenzkanäle. Körper = vorübergehendes Vehikel.
+STEINER: Äther als Trägermedium. Höhere Hierarchien begleiten Menschheit.
+TESLA 1899: Colorado Springs — Signale von anderer Intelligenz. Äther als Energiemedium.
+UREINWOHNER: Lakota (Star People normal), Hopi (Kachinas), Dogon (Sirius-B-Wissen), Aborigines (Wandjina 40.000J), Zulu (Chitauri offen tradiert).
+
+Antworte auf Deutsch. Trenne Fakten/Zeugenaussagen/Channeling/Spekulation. Prüfe IMMER auf Kongruenzen. Melde Treffer proaktiv.`;
+
+async function sendAI(){
+  const inp=document.getElementById('ai-inp');const msg=inp.value.trim();if(!msg)return;inp.value='';
+  addU(msg);addThink();
+  try{
+    const r=await fetch('/api/claude',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({system:SYS,max_tokens:1000,messages:[{role:'user',content:msg}]})});
+    const d=await r.json();removeThink();addA(d.content?.find(b=>b.type==='text')?.text||'Fehler: '+(d.error?.message||JSON.stringify(d)));
+  }catch(e){removeThink();addA('Verbindungsfehler.');}
+}
+function qa(q){document.getElementById('ai-inp').value=q;sendAI();}
+
+// ── PURSUE-DOKUMENTE DIREKT BEFRAGEN (pursueindex.com RAG-API)
+async function sendPursueChat(){
+  const inp=document.getElementById('pursue-chat-inp');
+  const result=document.getElementById('pursue-chat-result');
+  const sources=document.getElementById('pursue-chat-sources');
+  const query=inp.value.trim();
+  if(!query)return;
+  const btn=document.querySelector('[onclick="sendPursueChat()"]');
+  if(btn){btn.disabled=true;btn.textContent='⏳ Suche...'}
+  result.style.display='block';
+  result.textContent='Durchsuche 222 Pentagon-Akten...';
+  sources.style.display='none';
+  try{
+    const r=await fetch('https://pursueindex.com/api/chat',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Origin':'https://pursueindex.com'},
+      body:JSON.stringify({query:query,history:[]})
+    });
+    if(!r.ok){result.textContent='Fehler: '+r.status+' '+r.statusText;return;}
+    const reader=r.body.getReader();
+    const decoder=new TextDecoder();
+    let fullText='';
+    let cardIds=[];
+    result.textContent='';
+    while(true){
+      const {done,value}=await reader.read();
+      if(done)break;
+      const chunk=decoder.decode(value,{stream:true});
+      const lines=chunk.split('\n');
+      for(const line of lines){
+        if(line.startsWith('data:')){
+          try{
+            const data=JSON.parse(line.slice(5).trim());
+            if(data.delta){fullText+=data.delta;result.textContent=fullText;result.scrollIntoView({behavior:'smooth',block:'nearest'});}
+            if(data.cards){cardIds=data.cards.map(c=>c.card_id||c.id||'').filter(Boolean);}
+          }catch(e){}
+        }
+      }
+    }
+    if(cardIds.length>0){
+      sources.style.display='block';
+      sources.innerHTML='📄 Quellen: '+cardIds.slice(0,5).map(id=>`<a href="https://pursueindex.com/card/${id}/" target="_blank" style="color:#00e5ff;text-decoration:none;margin-right:.5rem">${id.slice(0,8)}↗</a>`).join('');
+    }
+  }catch(e){
+    result.textContent='Verbindungsfehler: '+e.message;
+  }finally{
+    if(btn){btn.disabled=false;btn.textContent='📄 Suchen';}
+  }
+}
+
+function addU(t){const d=document.createElement('div');d.style.cssText='font-size:11px;line-height:1.6;color:var(--t1);margin-bottom:.4rem;padding:.5rem .75rem;background:rgba(179,157,219,.08);border-radius:4px;border-left:2px solid var(--v)';d.innerHTML=`<strong style="color:var(--vg)">Du:</strong> ${t}`;document.getElementById('ams').appendChild(d);}
+function addThink(){const d=document.createElement('div');d.id='thk';d.className='am';d.innerHTML='<strong>Disclosure Agent:</strong> <span style="color:var(--t3);font-family:\'JetBrains Mono\',monospace;font-size:9px">Analysiere ▋</span>';document.getElementById('ams').appendChild(d);d.scrollIntoView({behavior:'smooth'});}
+function removeThink(){const e=document.getElementById('thk');if(e)e.remove();}
+function addA(t){const d=document.createElement('div');d.className='am';d.innerHTML=`<strong>Disclosure Agent:</strong> ${t}`;document.getElementById('ams').appendChild(d);d.scrollIntoView({behavior:'smooth'});}
+
+// ── DOW CENTCOM HOTSPOT-KARTE
+const DOW_DETAILS = {
+  'arabian-gulf': {title:'Arabischer Golf', count:6, color:'#ff3232', reports:['DOW CENTCOM 2018–19 (78 Videos)', 'DOW CENTCOM 2020', 'DOW CENTCOM 2021–24', 'DOW Range Fouler 2021 (Golf von Aden/Arab. Golf)', 'DOW Arabian Gulf Mission Reports', 'DOW Unresolved Reports (Arab. Golf)'], desc:'6 Berichte aus dem Arabischen Golf — dichteste Konzentration aller CENTCOM-UAP-Sichtungen. Objekte zeigen 90°-Kurven, Hyperschall ohne Hitzesignatur, Tauchmaneuver. Alle durch PURSUE Act deklassifiziert.'},
+  'gulf-aden': {title:'Golf von Aden', count:3, color:'#ff6400', reports:['DOW Range Fouler 2021 (Golf von Aden)', 'DOW Golf von Aden Mission Reports', 'DOW Unresolved Reports (Aden)'], desc:'3 Berichte aus dem Golf von Aden — strategische Meeresenge zwischen Arabien und Afrika. Objekte tauchen aus dem Wasser auf und verschwinden wieder. Keine Radar-Signatur.'},
+  'iraq': {title:'Irak', count:3, color:'#ffc800', reports:['DOW CENTCOM Irak 2019', 'DOW Unresolved Reports (Irak)', 'DOW INDOPACOM 2025 (Irak-Referenz)'], desc:'3 Berichte aus dem Irak — Sichtungen über US-Militärbasen. Objekte verfolgen Konvois, reagieren auf Radar-Pings. Keine feindliche Identifikation möglich.'},
+  'syria': {title:'Syrien', count:3, color:'#ffc800', reports:['DOW CENTCOM Syrien 2018', 'DOW Unresolved Reports (Syrien)', 'DOW CENTCOM 2021–24 (Syrien)'], desc:'3 Berichte aus Syrien — Sichtungen über Konfliktgebiet. Objekte zeigen keine Zuordnung zu bekannten Akteuren (USA, Russland, Türkei, Iran). Verhalten: stationnär dann Hyperschall.'},
+  'greece': {title:'Griechenland', count:3, color:'#00e5ff', reports:['DOW Griechenland Mission Reports', 'DOW Unresolved Reports (Griechenland)', 'DOW CENTCOM Mittelmeer'], desc:'3 Berichte aus Griechenland — NATO-Gebiet, Mittelmeer. Sichtungen über Ägäis und griechischen Inseln. Besonderheit: Objekte tauchen aus dem Meer auf — USO-Verhalten (Underwater Submerged Object).'},
+  'indopacom': {title:'INDOPACOM', count:2, color:'#00e676', reports:['DOW INDOPACOM Email 2025', 'DOW INDOPACOM 2025'], desc:'2 Berichte aus dem Indo-Pazifik-Kommando — aktuellste PURSUE-Dokumente (2025). Sichtungen über Pazifik und Südchinesischem Meer. Strategische Relevanz: Taiwanstraße-Region.'},
+  'uae': {title:'Vereinigte Arabische Emirate', count:2, color:'#b39ddb', reports:['DOW UAE Mission Reports', 'DOW Arabian Gulf Mission Reports (VAE-Sektor)'], desc:'2 Berichte aus den VAE — Sichtungen über Abu Dhabi und Dubai. Objekte zeigen Interesse an Energieinfrastruktur (Erdöl-Plattformen). Keine Zuordnung möglich.'},
+  'djibouti': {title:'Dschibuti', count:1, color:'rgba(255,255,255,0.6)', reports:['DOW Dschibuti Mission Report'], desc:'1 Bericht aus Dschibuti — US-Militärbasis Camp Lemonnier. Sichtung über dem Roten Meer. Objekt: kugelrund, weiß, keine Flächen, keine Abgase.'},
+  'iran': {title:'Iran', count:1, color:'rgba(255,255,255,0.6)', reports:['DOW Unresolved Reports (Iran)'], desc:'1 Bericht mit Iran-Bezug — Sichtung nahe der iranischen Grenze. Klassifiziert als "unresolved" — keine Zuordnung zu iranischen Drohnen oder Militärgerät möglich.'}
+};
+function showDOWDetail(region){
+  const d=document.getElementById('dow-detail');
+  const info=DOW_DETAILS[region];
+  if(!info){d.style.display='none';return;}
+  d.style.display='block';
+  d.innerHTML=`<div style="font-family:'Orbitron',sans-serif;font-size:10px;color:${info.color};margin-bottom:.4rem">${info.title} — ${info.count} Berichte</div><div style="margin-bottom:.5rem;color:var(--t2)">${info.desc}</div><div style="font-size:10px;color:var(--t3)">${info.reports.map(r=>`• ${r}`).join('<br>')}</div><div style="margin-top:.5rem"><a href="https://pursueindex.com" target="_blank" style="color:#00e5ff;font-size:10px;text-decoration:none">Originaldokumente auf pursueindex.com ↗</a></div>`;
+  d.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+// ── AUTONOMOUS CONGRUENCE SCANNER
+async function runCongruenceScan() {
+  const inp = document.getElementById('con-scan-inp');
+  const results = document.getElementById('con-scan-results');
+  const val = inp.value.trim();
+  if(!val) return;
+  
+  // Ladebalken starten
+  const prog = document.getElementById('con-scan-progress');
+  const bar = document.getElementById('con-scan-bar');
+  prog.style.display = 'block';
+  bar.style.width = '0%';
+  bar.style.transition = 'width .3s ease';
+  // Animierter Fortschritt
+  let pct = 0;
+  const pInterval = setInterval(() => {
+    pct = Math.min(pct + (Math.random() * 8 + 2), 88);
+    bar.style.width = pct + '%';
+  }, 200);
+  results.style.display = 'block';
+  results.textContent = '🔍 Scanne gegen alle 66 Kongruenz-Thesen...';
+  
+  const scanPrompt = `KONGRUENZ-SCAN — Neues Element:
+
+"${val}"
+
+Prüfe dieses Element SYSTEMATISCH gegen alle 66 Kongruenz-Thesen:
+1. Parallelitäten/Vibration (9/10) 2. Earth-Supervision/Schwellenwert (7/10) 3. Bewusstsein als Fundamental (8/10)
+4. Physische Verletzungen durch UAP (9/10) 5. UAP+Nuklearwaffen (9/10) 6. Neurodivergenz+Kontakt (7/10)
+7. Steiner-Äther+Tesla+Bashar (8/10) 8. Ureinwohner-Kontakt offen (8/10) 9. Extremer Gestank (9/10)
+10. Formgedächtnis-Materialien (8/10) 11. Apollo-Astronauten Mondanomalien (9/10) 12. Insider-Zeugen-Kette (9/10)
+13. Regierungs-Vertuschungsmuster (9/10) 14. Nicht-menschliche Biologie (9/10) 15. Reverse Engineering (8/10)
+16. Bashar-Parallelitäten-Blasen (9/10) 17. Tesla Visionen/Kosmisches Bewusstsein (8/10) 18. Resonanz-Gesetz/Gebet (8/10)
+19. Bergung anomaler Materialien (9/10) 20. KONA BLUE Geheimprogramme (9/10) 21. Material-Analyse-Vertuschung (8/10)
+22. AARO als Disclosure-Beschleuniger (7/10) 23. McMoneagle Blasen-Vision (9/10) 24. Hollywood Soft-Disclosure (9/10)
+25. Holloman AFB Erstkontakt (8/10) 26. Astronauten-Zeugen-Kette (9/10) 27-37. Weitere Thesen aus congruence.json
+
+Für JEDEN Treffer: Ausgabe im Format:
+🔗 TREFFER: [These-Name]
+Kongruenz: [Kernaussage des Elements] ↔ [bestehende Quellen]
+Score-Änderung: bisheriger Score → neuer Score (wenn Treffer)
+Zeitliche Trennung: X Jahre
+Wert: [warum besonders wertvoll]
+
+Wenn NEUE THESE erkennbar:
+🆕 NEUE THESE VORGESCHLAGEN: [Titel]
+Quellen: [neue + bestehende]
+Score: X/10
+
+Wenn kein Treffer: "Kein Treffer gegen bestehende Thesen — Element für neue These vorgemerkt."`;
+
+  try {
+    const r = await fetch('/api/claude', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        max_tokens: 1200,
+        system: SYS,
+        messages: [{role: 'user', content: scanPrompt}]
+      })
+    });
+    const d = await r.json();
+    const text = d.content?.find(b => b.type === 'text')?.text || 'Fehler.';
+    // Ladebalken auf 100% und ausblenden
+    clearInterval(pInterval);
+    bar.style.transition = 'width .2s ease';
+    bar.style.width = '100%';
+    setTimeout(() => { prog.style.display = 'none'; bar.style.width = '0%'; }, 600);
+    results.textContent = text;
+    
+    // Also add to main chat as record
+    addA('🔗 KONGRUENZ-SCAN für: "' + val + '"\n\n' + text);
+    
+    // Switch to AI tab to show result
+    document.querySelectorAll('.tp').forEach(p=>p.classList.remove('active'));
+    document.getElementById('tp-ai').classList.add('active');
+    document.querySelectorAll('.tbt').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.tbt')[7].classList.add('active');
+    
+  } catch(e) {
+    clearInterval(pInterval);
+    prog.style.display = 'none';
+    results.textContent = 'Verbindungsfehler beim Kongruenz-Scan.';
+  }
+}
+
+// ── PERSONEN DETAIL MODAL
+function openPersonModal(personId) {
+  const people = DATA['people']?.people || [];
+  const cases = DATA['cases']?.cases || [];
+  const themes = DATA['con']?.themes || [];
+  const p = people.find(x => x.id === personId);
+  if(!p) return;
+
+  // Finde verknüpfte Fälle: Name oder ID in Falltext/Tags
+  const nameVariants = [p.name, p.id, ...(p.tags||[])].map(s => s.toLowerCase());
+  const relCases = cases.filter(c => {
+    const hay = (c.title + ' ' + c.description + ' ' + (c.tags||[]).join(' ')).toLowerCase();
+    return nameVariants.some(v => v.length > 3 && hay.includes(v));
+  }).slice(0, 12);
+
+  // Finde verknüpfte Kongruenz-Thesen
+  const relThemes = themes.filter(t => {
+    const hay = (t.title + ' ' + (t.summary||'') + ' ' + JSON.stringify(t.related_persons||[])).toLowerCase();
+    return nameVariants.some(v => v.length > 3 && hay.includes(v));
+  }).slice(0, 8);
+
+  const scoreColor = (s) => s >= 9.5 ? '#ff4444' : s >= 9.0 ? '#00e676' : s >= 8.0 ? '#00e5ff' : '#b39ddb';
+
+  const casesHtml = relCases.length ? relCases.map(c => `
+    <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px;cursor:pointer;transition:border-color .15s" onclick="closePersonModal();T('ev');setTimeout(()=>{const el=document.querySelector('[data-t*=\'${c.title.substring(0,20).replace(/'/g,'')}\']');if(el){el.scrollIntoView({behavior:'smooth',block:'center'});el.style.outline='2px solid #00e5ff';setTimeout(()=>el.style.outline='',2000);}},300)" onmouseover="this.style.borderColor='var(--c)'" onmouseout="this.style.borderColor='var(--bd)'">
+      <div style="font-size:11px;color:var(--t1);font-weight:600">${c.title}</div>
+      <div style="font-size:9px;color:var(--t3);margin-top:2px;font-family:'JetBrains Mono',monospace">${c.date||''} · ${c.location||''} ${c.score?'· Score '+c.score:''}</div>
+    </div>`).join('') : '<div style="color:var(--t3);font-size:11px">Keine direkt verknüpften Fälle gefunden.</div>';
+
+  const themesHtml = relThemes.length ? relThemes.map(t => `
+    <div style="padding:.4rem .7rem;background:rgba(179,157,219,.06);border:1px solid rgba(179,157,219,.2);border-radius:5px;display:flex;gap:.6rem;align-items:center">
+      <span style="font-size:11px;color:${scoreColor(t.score||0)};font-weight:700;flex-shrink:0">${t.score||'?'}</span>
+      <span style="font-size:10px;color:var(--t2)">${t.title}</span>
+    </div>`).join('') : '<div style="color:var(--t3);font-size:11px">Keine verknüpften Thesen gefunden.</div>';
+
+  const tagHtml = (p.tags||[]).map(t => `<span style="background:rgba(0,229,255,.1);color:#00e5ff;border:1px solid rgba(0,229,255,.25);border-radius:3px;padding:2px 8px;font-size:9px;font-family:'JetBrains Mono',monospace">${t}</span>`).join(' ');
+
+  document.getElementById('person-modal-body').innerHTML = `
+    <div style="display:flex;gap:1rem;align-items:flex-start;margin-bottom:1.25rem">
+      <div style="font-size:3rem;flex-shrink:0;line-height:1">${p.emoji||'👤'}</div>
+      <div style="flex:1">
+        <div style="font-family:'Orbitron',sans-serif;font-size:16px;font-weight:700;color:var(--t1);margin-bottom:.2rem">${p.name}</div>
+        <div style="font-size:11px;color:var(--c);font-family:'JetBrains Mono',monospace;margin-bottom:.5rem">${p.role}</div>
+        <div style="font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:.75rem">${p.bio}</div>
+        <div style="display:flex;flex-wrap:wrap;gap:.35rem">${tagHtml}</div>
+        ${p.source_url ? `<div style="margin-top:.6rem"><a href="${p.source_url}" target="_blank" style="font-size:10px;color:var(--c);text-decoration:none;font-family:'JetBrains Mono',monospace">→ Primärquelle ↗</a></div>` : ''}
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+      <div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:.6rem">📂 Verknüpfte Fälle (${relCases.length})</div>
+        <div style="display:flex;flex-direction:column;gap:.4rem">${casesHtml}</div>
+      </div>
+      <div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:.6rem">◈ Kongruenz-Thesen (${relThemes.length})</div>
+        <div style="display:flex;flex-direction:column;gap:.4rem">${themesHtml}</div>
+      </div>
+    </div>`;
+
+  document.getElementById('person-modal').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closePersonModal() {
+  document.getElementById('person-modal').style.display = 'none';
+  document.body.style.overflow = '';
+}
+
+</script>
+
+<!-- PERSONEN DETAIL MODAL -->
+<div id="person-modal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.85);backdrop-filter:blur(8px);align-items:center;justify-content:center;padding:1rem" onclick="if(event.target===this)closePersonModal()">
+  <div style="background:var(--bg2);border:1px solid rgba(0,229,255,.3);border-radius:12px;width:100%;max-width:820px;max-height:88vh;overflow-y:auto;position:relative">
+    <div style="position:sticky;top:0;background:var(--bg2);border-bottom:1px solid var(--bd);padding:.75rem 1rem;display:flex;justify-content:space-between;align-items:center;z-index:1">
+      <div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:var(--c)">PERSONEN PROFIL</div>
+      <button onclick="closePersonModal()" style="background:none;border:none;color:var(--t2);font-size:18px;cursor:pointer;padding:0 4px;line-height:1">&times;</button>
+    </div>
+    <div id="person-modal-body" style="padding:1.25rem"></div>
+  </div>
+</div>
+
+<!-- FÄLLE DETAIL MODAL -->
+<div id="case-modal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.85);backdrop-filter:blur(8px);align-items:center;justify-content:center;padding:1rem" onclick="if(event.target===this)closeCaseModal()">
+  <div style="background:var(--bg2);border:1px solid rgba(0,229,255,.3);border-radius:12px;width:100%;max-width:860px;max-height:90vh;overflow-y:auto;position:relative">
+    <div style="position:sticky;top:0;background:var(--bg2);border-bottom:1px solid var(--bd);padding:.75rem 1rem;display:flex;justify-content:space-between;align-items:center;z-index:1">
+      <div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:var(--c)">FALLAKTE VOLLANSICHT</div>
+      <button onclick="closeCaseModal()" style="background:none;border:none;color:var(--t2);font-size:18px;cursor:pointer;padding:0 4px;line-height:1">&times;</button>
+    </div>
+    <div id="case-modal-body" style="padding:1.25rem"></div>
+  </div>
+</div>
+
+<script>
+function openCaseModal(caseId) {
+  const cases = DATA['cases']?.cases || [];
+  const people = DATA['people']?.people || [];
+  const themes = DATA['con']?.themes || [];
+  const c = cases.find(x => x.id === caseId);
+  if(!c) return;
+
+  // Verknüpfte Personen: Name in Fall-Text
+  const caseText = (c.title + ' ' + c.description + ' ' + (c.tags||[]).join(' ') + ' ' + JSON.stringify(c.witnesses||[])).toLowerCase();
+  const relPeople = people.filter(p => {
+    const variants = [p.name, p.id].map(s => s.toLowerCase());
+    return variants.some(v => v.length > 4 && caseText.includes(v));
+  }).slice(0, 8);
+
+  // Verknüpfte Kongruenz-Thesen
+  const caseVariants = [c.title, c.id, ...(c.tags||[])].map(s => s.toLowerCase());
+  const relThemes = themes.filter(t => {
+    const hay = (t.title + ' ' + (t.summary||'') + ' ' + JSON.stringify(t.related_cases||[])).toLowerCase();
+    return caseVariants.some(v => v.length > 3 && hay.includes(v));
+  }).slice(0, 6);
+
+  const lvlColors = {critical:'#ff4444', high:'#ffb020', confirmed:'#00e676', medium:'#00e5ff'};
+  const lvlLabels = {critical:'KRITISCH', high:'HOCH', confirmed:'BESTÄTIGT', medium:'MITTEL'};
+  const lvlCol = lvlColors[c.level] || '#b39ddb';
+  const lvlLbl = lvlLabels[c.level] || c.level;
+  const scoreColor = (s) => s >= 90 ? '#ff4444' : s >= 80 ? '#00e676' : s >= 70 ? '#00e5ff' : '#b39ddb';
+
+  const tagHtml = (c.tags||[]).map(t => `<span style="background:rgba(0,229,255,.08);color:#00e5ff;border:1px solid rgba(0,229,255,.2);border-radius:3px;padding:2px 7px;font-size:9px;font-family:'JetBrains Mono',monospace">${t}</span>`).join(' ');
+
+  const witnessHtml = (c.witnesses||[]).length ? `
+    <div style="margin-top:.75rem">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:.4rem">👤 ZEUGEN</div>
+      ${c.witnesses.map(w => `<div style="font-size:10px;color:var(--t2);padding:.25rem 0;border-bottom:1px solid rgba(255,255,255,.04)">${w}</div>`).join('')}
+    </div>` : '';
+
+  const relPeopleHtml = relPeople.length ? relPeople.map(p => `
+    <div style="padding:.4rem .7rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px;cursor:pointer" onclick="closeCaseModal();T('pp');setTimeout(()=>openPersonModal('${p.id}'),350)" onmouseover="this.style.borderColor='var(--c)'" onmouseout="this.style.borderColor='var(--bd)'">
+      <span style="font-size:14px;margin-right:.4rem">${p.emoji||'👤'}</span>
+      <span style="font-size:10px;color:var(--t1);font-weight:600">${p.name}</span>
+      <div style="font-size:9px;color:var(--t3);font-family:'JetBrains Mono',monospace;margin-top:1px">${p.role.substring(0,50)}</div>
+    </div>`).join('') : '<div style="color:var(--t3);font-size:11px">Keine direkt verknüpften Personen.</div>';
+
+  const relThemesHtml = relThemes.length ? relThemes.map(t => `
+    <div style="padding:.4rem .7rem;background:rgba(179,157,219,.06);border:1px solid rgba(179,157,219,.2);border-radius:5px;display:flex;gap:.6rem;align-items:center">
+      <span style="font-size:11px;color:${scoreColor(t.score*10||0)};font-weight:700;flex-shrink:0">${t.score||'?'}</span>
+      <span style="font-size:10px;color:var(--t2)">${t.title}</span>
+    </div>`).join('') : '<div style="color:var(--t3);font-size:11px">Keine verknüpften Thesen.</div>';
+
+  document.getElementById('case-modal-body').innerHTML = `
+    <div style="margin-bottom:1rem">
+      <div style="display:inline-block;padding:2px 10px;border-radius:3px;font-size:9px;font-family:'JetBrains Mono',monospace;font-weight:700;background:${lvlCol}22;color:${lvlCol};border:1px solid ${lvlCol}55;margin-bottom:.5rem">${lvlLbl}</div>
+      <div style="font-family:'Orbitron',sans-serif;font-size:17px;font-weight:700;color:var(--t1);line-height:1.3;margin-bottom:.4rem">${c.title}</div>
+      <div style="display:flex;gap:1rem;font-size:10px;color:var(--t3);font-family:'JetBrains Mono',monospace;margin-bottom:.75rem"><span>📅 ${c.date||'–'}</span><span>📍 ${c.location||'–'}</span>${c.score?`<span style="color:${scoreColor(c.score)};font-weight:700">Score ${c.score}/100</span>`:''}</div>
+      ${c.score ? `<div style="background:rgba(0,0,0,.3);border-radius:4px;height:6px;margin-bottom:.75rem"><div style="height:100%;border-radius:4px;background:linear-gradient(90deg,${scoreColor(c.score)},${scoreColor(c.score)}88);width:${c.score}%"></div></div>` : ''}
+      <div style="font-size:12px;color:var(--t2);line-height:1.7;margin-bottom:.75rem">${c.description}</div>
+      <div style="display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.75rem">${tagHtml}</div>
+      <div style="display:flex;gap:.6rem;flex-wrap:wrap">
+        ${c.source_url ? `<a href="${c.source_url}" target="_blank" style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--c);text-decoration:none;border:1px solid rgba(0,229,255,.3);border-radius:3px;padding:3px 10px">→ Primärquelle ↗</a>` : ''}
+        ${c.video_url ? `<a href="${c.video_url}" target="_blank" style="font-family:'JetBrains Mono',monospace;font-size:9px;color:#ff4444;text-decoration:none;border:1px solid rgba(255,68,68,.35);border-radius:3px;padding:3px 10px">▶ Video ansehen ↗</a>` : ''}
+      </div>
+      ${witnessHtml}
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;border-top:1px solid var(--bd);padding-top:1rem">
+      <div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:.6rem">👥 Beteiligte Personen (${relPeople.length})</div>
+        <div style="display:flex;flex-direction:column;gap:.4rem">${relPeopleHtml}</div>
+      </div>
+      <div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:.6rem">◈ Kongruenz-Thesen (${relThemes.length})</div>
+        <div style="display:flex;flex-direction:column;gap:.4rem">${relThemesHtml}</div>
+      </div>
+    </div>`;
+
+  document.getElementById('case-modal').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closeCaseModal() {
+  document.getElementById('case-modal').style.display = 'none';
+  document.body.style.overflow = '';
+}
+</script>
+
+</body>
+</html>

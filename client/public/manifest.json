@@ -5,11 +5,13 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#03020a",
-  "theme_color": "#b39ddb",
+  "theme_color": "#03020a",
   "orientation": "portrait-primary",
   "icons": [
-    {"src": "/manus-storage/icon-192_91c03b59.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
-    {"src": "/manus-storage/icon-512_947f3ae8.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+    {"src": "/favicon-32.png", "sizes": "32x32", "type": "image/png"},
+    {"src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"},
+    {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
   ],
   "categories": ["education", "news", "reference"],
   "lang": "de-DE"
