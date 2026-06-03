@@ -2177,6 +2177,58 @@
         "uri-geller",
         "ingo-swann"
       ]
+    },
+    {
+      "id": "diane-powell",
+      "number": 77,
+      "name": "Dr. Diane Hennacy Powell",
+      "emoji": "🧠",
+      "role": "Psychiaterin / Telepathie-Forscherin",
+      "affiliation": "Johns Hopkins University (Ausbildung) · Oregon Health & Science University · Medford OR",
+      "nationality": "US-amerikanisch",
+      "born": "~1960",
+      "active": "1990–heute",
+      "bio": "Johns Hopkins-ausgebildete Psychiaterin und Neurowissenschaftlerin, die seit den 1990er Jahren ESP, Savantismus und Telepathie bei autistischen Kindern erforscht. Autorin von 'The ESP Enigma: The Scientific Case for Psychic Phenomena' (2009). Wissenschaftliche Begleitforschung zu den Telepathy Tapes (2024). Reiste weltweit, um nicht-sprechende Autisten zu untersuchen, die scheinbar Gedanken lesen können. Ihr Letterboard-Experiment mit Haley (Dreieck-Test) wurde viral.",
+      "key_claims": [
+        "ESP ist möglicherweise eine Savant-Fähigkeit — ähnlich wie Inselbegabungen bei Autismus",
+        "Nicht-sprechende Autisten können Gedanken lesen (Letterboard-Experimente mit verblindeten Karten)",
+        "Telepathie und Savantismus könnten denselben neurobiologischen Ursprung haben",
+        "Verbindung zu These #63: Neurodiversität als möglicher Hybridisierungs-Marker"
+      ],
+      "publications": [
+        "The ESP Enigma: The Scientific Case for Psychic Phenomena (2009, Walker & Company)",
+        "Telepathy Tapes Podcast — wissenschaftliche Beraterin (2024)"
+      ],
+      "connections": [
+        "Ky Dickens (Telepathy Tapes Podcast)",
+        "Diane Hennacy Powell Foundation",
+        "American Psychiatric Association",
+        "Verbindung zu Dr. Max Rempel (These #63)"
+      ],
+      "controversy": "ASHA (American Speech-Language-Hearing Association) kritisiert Letterboard-Methode als nicht-unabhängige Kommunikation. Studie nicht peer-reviewed. OPB-Artikel Mai 2025: Wissenschaft nicht abschließend geklärt.",
+      "tags": [
+        "psychiatrie",
+        "telepathie",
+        "autismus",
+        "esp",
+        "savantismus",
+        "neurodiversitaet",
+        "wissenschaft"
+      ],
+      "linked_cases": [
+        "telepathy-tapes-2024",
+        "neurodiversitaet-hybrid-marker"
+      ],
+      "linked_theses": [
+        "these-063",
+        "these-066"
+      ],
+      "sources": [
+        "https://www.opb.org/article/2025/05/04/medford-psychiatrist-autism-telepathy/",
+        "https://drdianehennacy.com/books/the-esp-enigma/"
+      ],
+      "added": "2026-06-04",
+      "release": "R04"
     }
   ]
 }
