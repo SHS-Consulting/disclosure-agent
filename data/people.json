@@ -1,11 +1,4 @@
 {
-  "_meta": {
-    "version": "4.0",
-    "last_updated": "2026-05-21",
-    "add_command": "ADD_PERSON: name | role | bio | tags(comma separated) | source_url | emoji",
-    "total_people": 57,
-    "total": 61
-  },
   "people": [
     {
       "id": "grusch",
@@ -1857,6 +1850,653 @@
         "umdenker"
       ],
       "source_url": "https://youtu.be/4-MbGYAv7Cg"
+    },
+    {
+      "id": "nat-cobitz",
+      "name": "Nat Cobitz",
+      "role": "Ehemaliger Director of Science, Technology and Development, US Navy",
+      "nationality": "USA",
+      "tags": [
+        "navy",
+        "whistleblower",
+        "nhi",
+        "materialien",
+        "umdenker",
+        "insider"
+      ],
+      "bio": "Nat Cobitz war Director of Science, Technology and Development der US Navy — einer der ranghöchsten Wissenschaftler im amerikanischen Militärapparat. In persönlichen Gesprächen mit Investigativjournalist Ross Coulthart berichtete er, dass ihm Materialien gezeigt wurden, die von nicht-menschlichen Fahrzeugen (Non-Human Craft) geborgen worden seien. Cobitz beschrieb diesen Moment als persönliche Überzeugung: Das Phänomen ist real. Coulthart nannte Cobitz' Aussage 'die Geschichte, die mich persönlich überzeugt hat' — ein hochrangiger Navy-Wissenschaftler ohne Motiv zur Übertreibung. Cobitz ist einer der glaubwürdigsten Insider-Zeugen für Crash-Retrieval-Programme neben David Grusch.",
+      "source_url": "https://www.newsnationnow.com/podcasts-newsnation/ross-coulthart-qa-alien-hybrids-disclosure-day-and-a-secret-that-changed-things-reality-check/"
+    },
+    {
+      "id": "kit-green",
+      "name": "Christopher 'Kit' Green",
+      "role": "CIA-Analyst, Neurowissenschaftler, UAP-Forscher",
+      "nationality": "USA",
+      "tags": [
+        "cia",
+        "analyst",
+        "dna",
+        "hybrid",
+        "insider",
+        "neurowissenschaft"
+      ],
+      "bio": "Christopher 'Kit' Green ist ein ehemaliger CIA-Analyst und Neurowissenschaftler der an der Schnittstelle von Geheimdienst und UAP-Forschung arbeitet. Laut Berichten von Jason Reza-Jorjani (via Lyn Buchanan) soll Green ein Programm entwickelt haben, um in DNA-Datenbanken (Ancestry.com, 23andMe) nach nicht-menschlichen oder Hybrid-Genmarkern zu suchen. Green ist bekannt für seine Arbeit zu biologischen Effekten von UAP-Begegnungen auf Zeugen — er behandelte angeblich Personen mit ungewöhnlichen Verletzungen nach UAP-Kontakt. Verbindung zu AATIP und Bigelow Aerospace. Avi Loeb (NewsNation, Mai 2026): 'Jemand könnte die Idee gehabt haben zu prüfen — aber kein wissenschaftlicher Nachweis.'",
+      "source_url": "https://avi-loeb.medium.com/avi-loeb-comments-on-the-alien-dna-claims-29498f74d0ba"
+    },
+    {
+      "id": "max-rempel",
+      "name": "Dr. Max Myakishev-Rempel",
+      "emoji": "🧬",
+      "role": "Genetiker · DNA Resonance Research Foundation",
+      "tags": [
+        "wissenschaftler",
+        "dna",
+        "hybrid",
+        "autismus",
+        "genetik",
+        "neurodiversitaet"
+      ],
+      "bio": "Dr. Max Myakishev-Rempel ist Gründer und CEO der DNA Resonance Research Foundation in San Diego, Kalifornien. In seiner Studie vom Mai 2025 ('Preliminary evidence of traces of alien genetic manipulation in humans') analysierte er die DNA von 581 vollständigen Familien aus dem 1000 Genomes Project und identifizierte bei 2% nicht-elterliche DNA-Insertionen, die er als Hinweis auf extraterrestrische Genmanipulation interpretiert. Betroffene Kinder, geboren vor 1990 (also vor CRISPR), zeigen laut Rempel 'autistische Qualitäten' sowie erhöhte psychische, künstlerische und wissenschaftliche Fähigkeiten. Rempel hat eigene Forschungsgruppen für Entführungs-Erfahrene geleitet, Video-Interviews mit Abductees veröffentlicht und mehrere Bücher zu Alien-Hybridisierung publiziert (2011, 2023). Er verweist auf Zecharia Sitchin (Sumerian Tablets), John Mack (Harvard, 200+ Abductee-Interviews) und David Jacobs als Vorarbeiten. Seine Methode: Long-Read-Sequenzierung (10–20 Kilobasen) der repetitiven, nicht-proteinkodierenden DNA-Bereiche (55% des Genoms), die in Standard-Genotypisierungen übersehen werden. Er schätzt über 1 Million 'Telepathen' auf der Erde.",
+      "source_url": "https://www.researchgate.net/publication/392237093_Preliminary_evidence_of_traces_of_alien_genetic_manipulation_in_humans",
+      "linked_cases": [
+        "neurodiversity-alien-hybrid-2025",
+        "cia-dna-hybrid-program-2026"
+      ]
+    },
+    {
+      "id": "dolly-safran",
+      "name": "Dolly Safran",
+      "emoji": "🛸",
+      "role": "Generational Contactee · Hybrid-Pilotin · Gaia Cosmic Disclosure",
+      "tags": [
+        "hybrid",
+        "pilot",
+        "contactee",
+        "dna",
+        "bewusstsein",
+        "5d",
+        "tall-grey",
+        "gaia"
+      ],
+      "bio": "Dolly Safran ist eine 'Generational Contactee' — ihre Blutlinie wird laut eigener Aussage seit Generationen von nicht-menschlichen Intelligenzen überwacht. Ihr medizinischer DNA-Test ergab nicht-menschliche genetische Sequenzen in ihren Chromosomen (bestätigt in Gaia: Cosmic Disclosure S30E4 'Generational Contactee: Hybrid DNA Confirmed', April 2026). Im Alter von 14 Jahren wurde sie 'gevettet', mit einem Implant versehen und in ein interdimensionales Piloten-Programm aufgenommen. Sie beschreibt eine große Tall Grey namens 'Mama', die sie als Familie aufzog. Das Craft (TLERA) ist kein mechanisches Fahrzeug, sondern eine biologische Erweiterung eines 5D-Wesens — gesteuert durch Remote Viewing des Bewusstseins. Ihre Beschreibung der Gravitationssteuerung deckt sich exakt mit Bob Lazars Schilderungen der S-4-Crafts (1989), jedoch aus der Piloten-Perspektive. Sie ist Co-Autorin des Buches 'Symmetry' mit Forscher Preston Dennett. Ihr Gaia-Video erzielte 793.000 Facebook-Views (April 2026).",
+      "source_url": "https://www.gaia.com/video/generational-contactee-hybrid-dna-confirmed",
+      "linked_cases": [
+        "dolly-safran-hybrid-pilot-gaia",
+        "neurodiversity-alien-hybrid-2025",
+        "kumburgaz-2007"
+      ]
+    },
+    {
+      "id": "emery-smith",
+      "name": "Emery Smith",
+      "emoji": "🔬",
+      "role": "US Air Force Veteran · Exobiologe · Gaia Cosmic Disclosure Host · NHI-Autopsien",
+      "tags": [
+        "insider",
+        "militaer",
+        "autopsie",
+        "nhi",
+        "gaia",
+        "new-mexico",
+        "zero-point",
+        "biologie"
+      ],
+      "bio": "Emery Smith ist ein US Air Force Veteran und ehemaliger chirurgischer Techniker, der behauptet, in geheimen biologischen Einrichtungen tief unter der New-Mexico-Wüste gearbeitet zu haben. Er war zunächst als 'Paul' bekannt, bevor er öffentlich auftrat. Laut eigener Aussage dissezierte er über 3.000 verschiedene nicht-menschliche Gewebeproben und Körper in diesen Einrichtungen. Er ist im Dokumentarfilm 'Sirius' (2013) zu sehen, wo er den Atacama-Humanoid-Körper untersucht. Auf Gaia moderiert er Cosmic Disclosure und ist in zahlreichen Episoden als Insider aufgetreten. Er berichtet von Zero-Point-Energiemaschinen, die die 'Powers that be' am meisten beunruhigen. In einem Podcast-Interview (Jeff Mara, November 2025) beschrieb er detailliert Alien-Autopsien und seine Arbeit in geheimen Testprogrammen. Er ist Gastgeber für Dolly Safran in Cosmic Disclosure S30E4+E5 ('Generational Contactee: Hybrid DNA Confirmed', April 2026). Verbindung zu Grusch: Beide beschreiben ähnliche geheime Bergungsprogramme für NHI-Material.",
+      "source_url": "https://www.gaia.com/video/secret-testing-programs-emery-smith",
+      "linked_cases": [
+        "dolly-safran-hybrid-pilot-gaia",
+        "emery-smith-secret-facilities-nm"
+      ]
+    },
+    {
+      "id": "preston-dennett",
+      "name": "Preston Dennett",
+      "emoji": "📚",
+      "role": "UFO-Forscher · MUFON-Feldermittler · Autor (30 Bücher) · Symmetry / Dolly Safran",
+      "tags": [
+        "forscher",
+        "mufon",
+        "autor",
+        "contactee",
+        "hybrid",
+        "california",
+        "onboard"
+      ],
+      "bio": "Preston Dennett ist ein US-amerikanischer UFO-Forscher, MUFON-Feldermittler und Autor von 30 Büchern sowie über 100 Artikeln zu UFOs und paranormalen Phänomenen. Er begann 1986 als Skeptiker, als er entdeckte, dass seine Familie, Freunde und Kollegen dramatische unerklärliche Begegnungen hatten. Seitdem hat er Hunderte von Zeugen interviewt. Seine Bücher sind mehrfache Amazon-UFO-Bestseller und wurden in Deutsch, Französisch, Portugiesisch, Russisch und Isländisch übersetzt. Er ist MUFON-Feldermittler und hat in zahlreichen Radio- und TV-Programmen mitgewirkt (Coast-to-Coast, Art Bell, History Channel Ancient Aliens, UFO Hunters). Sein bekanntestes Werk: 'Symmetry: A True UFO Adventure' (Blue Giant Books, 2022) — das Buch über Dolly Safran, eine generational Contactee und Hybrid-Pilotin. Er hat über 500 UFO-Fälle in Südkalifornien dokumentiert (UFOs over California, Schiffer 2005; UFOs over Topanga Canyon, Llewellyn 1999). Auf Reddit AMA (November 2024): 'Contactee Dolly Safran has stated unequivocally that it is not ET doing this, but...' — Dennett betont die Komplexität der Hybridisierungs-Frage. Weitere Werke: The Healing Power of UFOs (2019), Onboard UFO Encounters (2020), Humanoid and High Strangeness (2023).",
+      "source_url": "https://www.reddit.com/r/UFOs/comments/1gy2sg9/im_preston_dennett_ufo_researcher_author_ready/",
+      "linked_cases": [
+        "dolly-safran-hybrid-pilot-gaia",
+        "neurodiversity-alien-hybrid-2025"
+      ]
+    },
+    {
+      "id": "steven-greer",
+      "name": "Dr. Steven Greer",
+      "emoji": "🌐",
+      "role": "CSETI-Gründer · Disclosure Project · CE-5-Protokoll · Buga Sphere Hauptvertreter",
+      "tags": [
+        "disclosure",
+        "cseti",
+        "ce5",
+        "whistleblower",
+        "artefakt",
+        "greer",
+        "anti-gravitation",
+        "kontrovers"
+      ],
+      "bio": "Dr. Steven Greer ist Notfallmediziner und Gründer des Center for the Study of Extraterrestrial Intelligence (CSETI, 1990) sowie des Disclosure Project (2001). Am 9. Mai 2001 organisierte er eine Pressekonferenz im National Press Club Washington D.C. mit über 20 ehemaligen Militär-, Regierungs- und Geheimdienstmitarbeitern, die unter Eid über UAP-Erfahrungen berichteten — eines der meistgesehenen Disclosure-Ereignisse vor dem Grusch-Hearing 2023. Er entwickelte das CE-5-Protokoll (Close Encounters of the 5th Kind): strukturierte Bewusstseinspraktiken zur aktiven Kontaktaufnahme mit NHI. Dokumentarfilme: 'Sirius' (2013, mit Atacama-Humanoid), 'Unacknowledged' (2017, Netflix), 'Close Encounters of the 5th Kind' (2020). Kontrovers: Kritiker werfen ihm vor, ungeprüfte Behauptungen zu verbreiten und Whistleblower zu instrumentalisieren. Befürworter sehen ihn als wichtigsten Katalysator für institutionelle Disclosure-Bemühungen. Zur Buga Sphere (2025): Greer beschreibt 'elektrogravitische Felder' als Hinweis auf Anti-Gravitations-Technologie, verbindet die 2,3 Hz EM-Emissionen mit UAP-Archivdaten und war bei Analysen mit Kongress-Abgeordnetem Eric Burlison anwesend. Verbindung zu Emery Smith: Greer ist im Sirius-Film (2013) mit Smith zusammen — beide untersuchten den Atacama-Humanoid.",
+      "source_url": "https://siriusdisclosure.com/",
+      "linked_cases": [
+        "buga-sphere-colombia-2025",
+        "emery-smith-secret-facilities-nm"
+      ]
+    },
+    {
+      "id": "uri-geller",
+      "name": "Uri Geller",
+      "role": "CIA-Stargate-Testperson, Psychic Spy (Mossad/CIA), Whistleblower (NASA Alien Bodies)",
+      "affiliation": "CIA Stargate Program (SRI 1972–1973), Mossad (Israel), CSETI (Greer), Galactic Federation (Eigenaussage)",
+      "credibility": 6.8,
+      "description": "Uri Geller (* 20. Dezember 1946, Tel Aviv) ist einer der bekanntesten und umstrittensten Persönlichkeiten in der Disclosure-Bewegung. Weltberühmt als 'Löffelbieger', aber mit nachgewiesener CIA-Verbindung und explosiven Aussagen zu NASA-Alien-Bodies. \n\n=== BIOGRAPHIE ===\nAufgewachsen in Tel Aviv und Zypern. Mutter betrieb ein Hotel als Mossad-Safe-House. Erste bezahlte Arbeit: Botengänge für Mossad-Agenten als 13-Jähriger (1 Pfund/Auftrag). IDF Fallschirmjäger-Brigade, verwundet im Sechstagekrieg 1967. Ab 1969: Bühnenprogramm mit Löffelbiegen, Telepathie, Uhren-Reparatur durch Gedankenkraft. 1972: Internationale Bekanntheit, CIA-Kontakt über Andrija Puharich. \n\n=== CIA STARGATE PROGRAM (SRI 1972–1973) ===\nStanford Research Institute (SRI), Menlo Park, Kalifornien. Physiker Russell Targ und Harold Puthoff (CIA-Vertrag) testeten Geller 8 Tage in einem Faraday-Käfig (elektromagnetisch abgeschirmt). Methode: Forscher wählten zufällige Wörter aus dem Wörterbuch, zeichneten sie auf — Geller sollte ohne Sichtkontakt dieselben Bilder zeichnen. Ergebnisse: 'Firecracker' → Geller zeichnete Zylinder mit Funken. 'Bunch of grapes' → Geller zeichnete exakt eine Weintraube. CIA-Abschlussbericht 1973 (declassified 2017): 'Geller has demonstrated his paranormal perceptual ability in a convincing and unambiguous manner.' Wahrscheinlichkeit zufälliger Übereinstimmungen: 1 zu 1.000.000. Veröffentlicht in Nature (1974): Targ & Puthoff. KRITIK: David Marks & Richard Kammann (1980): Shipi Strang (Gellers Freund) war im Labor anwesend, mögliche Cue-Weitergabe. Nature-Editors 1974: 'Weak in design and presentation.' Marks 1986 in Nature: 'Geller has no psychic ability whatsoever — very clever magician.' Tonight Show (1973): Geller produzierte NICHTS auf Live-TV (James Randi hatte vorgewarnt). Stargate-Programm 1998 eingestellt: 'Never provided an adequate basis for actionable intelligence.' \n\n=== MOSSAD-VERBINDUNG (BBC-Dokumentation 2013) ===\nBBC-Dokumentation 'The Secret Life of Uri Geller — Psychic Spy?' (Regisseur Vikram Jayanti, 2013). Behauptungen: CIA-Arbeit (Mexico City: Floppy-Disks russischer Agenten löschen), Mossad-Operationen (Operation Entebbe 1976: 100 Geiseln Uganda), Irak: Gedankliche Beeinflussung bei Nuklear-Deal-Unterzeichnung, NYPD-Zusammenarbeit, Mexikanisches Finanzministerium. Geller selbst: 'I did many things for the CIA.' Dr. Kit Green (ehem. CIA-Analyst): Bestätigt CIA-Tests auf Vimeo-Video (https://vimeo.com/221014781). \n\n=== WERNHER VON BRAUN + NASA ALIEN BODIES (1970/2025) ===\nGellers Kernaussage (mehrfach wiederholt, zuletzt Facebook-Video 28. Sept. 2025, 549.000 Views): Wernher von Braun (NASA, Raketenpionier) nahm Geller ca. 1970 mit zu einer unterirdischen Einrichtung am NASA Goddard Space Flight Center (Maryland). Dort: Gefrorene Körper kleiner, verstümmelter Wesen — 'very clearly either not of this earth, or not of this time or dimension.' Große Köpfe, sahen 'wie uns' aus. Von Braun erklärte: Die Trümmer stammten von einem abgestürzten UFO. MINOX-Kamera: Geller schmuggelte eine MINOX-Miniaturkamera in den Kühlraum. 'I still have the negatives!!!' — Warum keine Veröffentlichung? 'There are several reasons (some of which I cannot reveal)' + 'In these days of easily produced AI images, many people would immediately dismiss them.' Dezember 2025 (Irish Star): Wiederholt Aussage zu NASA Goddard Space Center, verbindet Alien-Bodies mit 3I/ATLAS-Komet und 'Galactic Federation'. Februar 2026 (Reddit r/UFOs): Nennt South Korea als weiteren Standort (korrigiert von North Korea). Mai 2026 (Facebook): 'HOLY CRAP IS COMING — the new UFO files prove what I already KNEW — NASA LIED TO THE WORLD.' \n\n=== 3I/ATLAS AUSSAGEN (Dezember 2025) ===\nIrish Star / Daily Star (17. Dezember 2025): 'The Galactic Federation is very real and I want to believe that whatever is on board 3I/ATLAS is part of it.' 'Perhaps they are already here — we just don't know.' 'These aliens come in peace. Humans are on the brink of self-destruction because everyone's building nuclear bombs. The only thing that can save us are extraterrestrials.' 'When it passes by they will give us something — a gift that could save us.' \n\n=== GESAMTBEWERTUNG ===\nPRO: Echte CIA-Stargate-Dokumente bestätigen Tests (declassified 2017), Dr. Kit Green (CIA) bestätigt Verbindung, IDF-Veteran (Sechstagekrieg), Mossad-Mutter-Verbindung plausibel, MINOX-Fotos: unbewiesen aber spezifische Behauptung. CONTRA: Tonight Show 1973 = totales Versagen, Marks/Kammann: Betrugsvorwurf, Stargate 1998 eingestellt ('no actionable intelligence'), Galactic Federation / Spectra-Alien-Aussagen = nicht verifizierbar, MINOX-Fotos werden seit 50+ Jahren nicht veröffentlicht. FAZIT: Geller ist die einzige Person, die sowohl CIA-Verbindung (dokumentiert) als auch persönliche Alien-Bodies-Aussage (mit Wernher von Braun) kombiniert. Die CIA-Dokumente sind real. Die Alien-Bodies-Aussage bleibt unbewiesen.",
+      "linked_cases": [
+        "uri-geller-cia-stargate-nasa-bodies"
+      ],
+      "linked_themes": [
+        "these-66"
+      ],
+      "sources": [
+        {
+          "label": "CIA Stargate Declassified Documents (2017)",
+          "url": "https://www.cia.gov/readingroom/docs/CIA-RDP96-00787R000700110003-2.pdf"
+        },
+        {
+          "label": "Nature (1974): Targ & Puthoff — Geller SRI Tests",
+          "url": "https://www.nature.com/articles/251602a0"
+        },
+        {
+          "label": "BBC Documentary: The Secret Life of Uri Geller — Psychic Spy? (2013)",
+          "url": "https://www.bbc.co.uk/programmes/b037k0c5"
+        },
+        {
+          "label": "Dr. Kit Green (CIA) on Uri Geller's CIA Tests (Vimeo)",
+          "url": "https://vimeo.com/221014781"
+        },
+        {
+          "label": "Facebook-Video: Frozen bodies, recovered craft & mysterious drones (28. Sept. 2025, 549k Views)",
+          "url": "https://www.facebook.com/theurigeller/videos/2160655421097035/"
+        },
+        {
+          "label": "Irish Star: Uri Geller claims 3I/ATLAS aliens already on Earth (17. Dez. 2025)",
+          "url": "https://www.irishstar.com/news/us-news/uri-geller-atlas-aliens-space-36417035"
+        },
+        {
+          "label": "SPYSCAPE: Uri Geller — What the CIA Studies Reveal About Mossad's Secret Weapon",
+          "url": "https://spyscape.com/article/uri-geller-what-the-cia-studies-reveal-about-mossads-secret-weapon"
+        },
+        {
+          "label": "MA Chronicle: The CIA Tested Psychic Spies for 22 Years (Mai 2026)",
+          "url": "https://machronicle.com/the-cia-tested-psychic-spies-for-22-years-they-worked-down-the-street/"
+        }
+      ]
+    },
+    {
+      "id": "ingo-swann",
+      "name": "Ingo Swann",
+      "role": "CIA Stargate Hauptversuchsperson / Begründer Remote Viewing",
+      "nationality": "US",
+      "status": "verstorben",
+      "birth": "14. September 1933, Telluride, Colorado",
+      "death": "31. Januar 2013, New York City",
+      "credibility": 8.0,
+      "category": "whistleblower",
+      "tags": [
+        "cia",
+        "stargate",
+        "remote-viewing",
+        "psychisch",
+        "mond",
+        "nhi-kontakt"
+      ],
+      "summary": "Ingo Swann gilt als Begründer des Controlled Remote Viewing (CRV) und war die zentrale Versuchsperson im CIA-Stargate-Programm (1972–1995). Er prägte den Begriff 'Remote Viewing' und entwickelte das Koordinaten-RV-Protokoll. 1972 beeinflusste er nachweislich ein Magnetometer an der Stanford Research University (SRI). 1973 beschrieb er Jupiter-Ringe — bestätigt durch Voyager 1979. 1975 wurde er verblindet zu einer geheimen Untergrundanlage geflogen und aufgefordert, den Mond zu 'besichtigen'. Er beschrieb Türme, Maschinen, Kuppeln und menschenähnliche Wesen, die seine Präsenz wahrnehmen konnten. In seinem Buch 'Penetration' (1998) schildert er diese Erlebnisse und berichtet, ein US-Regierungsbeamter habe ihm gesagt: 'They somehow have told you to stay away. That's why you are resorting to psychic perceptions. They are not friendly, are they?'",
+      "key_claims": [
+        "Begründer des Controlled Remote Viewing (CRV) — Protokoll für CIA-Stargate",
+        "1972: Magnetometer-Beeinflussung an SRI, Stanford (CIA-Bericht: 'Variations never seen before or after')",
+        "1973: Jupiter-Ringe-Beschreibung vor Voyager-Bestätigung 1979",
+        "1975: Geheime Mondmission — Türme, Kuppeln, Maschinen, menschenähnliche Wesen",
+        "Wesen erkannten seine psychische Präsenz: 'Two of them pointed in my direction'",
+        "US-Regierungsbeamter: 'They have told you to stay away. They are not friendly'",
+        "Buch 'Penetration' (1998): vollständige Dokumentation der Mondmission",
+        "Direkte Verbindung zu Uri Geller — beide von Targ/Puthoff an SRI getestet"
+      ],
+      "sources": [
+        {
+          "title": "CIA Stargate Project — declassified documents",
+          "url": "https://www.cia.gov/readingroom/collection/stargate",
+          "year": 1995
+        },
+        {
+          "title": "Ingo Swann: Penetration (Ingo Swann Books, 1998)",
+          "url": "https://amzn.to/45EPoyX",
+          "year": 1998
+        },
+        {
+          "title": "Nature: Information transmission under conditions of sensory shielding (Targ/Puthoff, 1974)",
+          "url": "https://www.nature.com/articles/252602a0",
+          "year": 1974
+        },
+        {
+          "title": "BroBible: Secret CIA Program Claimed Aliens Found on Dark Side of Moon (Mai 2026)",
+          "url": "https://brobible.com/culture/article/cia-program-aliens-dark-side-moon/",
+          "year": 2026
+        },
+        {
+          "title": "Wikipedia: Ingo Swann",
+          "url": "https://en.wikipedia.org/wiki/Ingo_Swann",
+          "year": 2024
+        }
+      ],
+      "linked_cases": [
+        "cia-stargate-project",
+        "mosul-orb-iraq-2016"
+      ],
+      "linked_theses": [
+        "these-64-bewusstsein-ufo-interface",
+        "these-66-psychische-faehigkeiten-nhi"
+      ],
+      "linked_persons": [
+        "uri-geller",
+        "hal-puthoff",
+        "russell-targ"
+      ]
+    },
+    {
+      "id": "andrija-puharich",
+      "name": "Andrija Puharich",
+      "role": "Arzt, Parapsychologe, CIA-finanzierter Forscher / The Nine",
+      "nationality": "US",
+      "status": "verstorben",
+      "birth": "19. Februar 1918, Chicago, Illinois",
+      "death": "3. Januar 1995, Dobson, North Carolina",
+      "credibility": 5.5,
+      "category": "forscher",
+      "tags": [
+        "cia",
+        "the-nine",
+        "uri-geller",
+        "remote-viewing",
+        "parapsychologie",
+        "tesla",
+        "elf-wellen",
+        "kontrovers"
+      ],
+      "summary": "Dr. Andrija Puharich (bürgerlicher Name: Henry Karel Puharić) war Arzt, Parapsychologe und Erfinder mit über 50 Patenten. Von 1953–1955 diente er als Captain im Army Medical Corps in Edgewood Arsenal, Maryland, wo er engen Kontakt zu CIA, Pentagon und Naval Intelligence hatte. Er ist bekannt als der Mann, der Uri Geller in die USA brachte und ihn als echten Psychiker bestätigte. Bereits 1952 kontaktierte der hinduistische Mystiker Dhundiraj G. Vinod in einer Trance-Sitzung bei Puharich eine Gruppe von Entitäten, die sich 'The Nine' nannten — neun kosmische Wesen, die angeblich die Menschheit lenken. Puharich baute um dieses Konzept das 'Lab Nine' auf seinem Anwesen in Ossining, NY. 1978 brannte das Labor unter mysteriösen Umständen ab, und Puharich floh nach Mexiko mit der Behauptung, die CIA verfolge ihn. Er behauptete, Geller sei Botschafter des Raumschiffs 'Spectra', 53.000 Lichtjahre entfernt. Geller distanzierte sich später von diesen Behauptungen. Puharich forschte auch zu Teslas ELF-Wellen als Bewusstseinskontrolle und behauptete, die Sowjets setzten Tesla-basierte Waffen ein.",
+      "key_claims": [
+        "1952: Dhundiraj G. Vinod kontaktiert in Trance 'The Nine' — neun kosmische Entitäten, die die Menschheit lenken",
+        "1953–1955: Edgewood Arsenal — direkter Kontakt zu CIA, Pentagon, Naval Intelligence",
+        "1971: Uri Geller als echter Psychiker bestätigt — Hypnose-Sitzungen, Geller behauptet Botschafter von Raumschiff 'Spectra'",
+        "1974: Biographie 'Uri: A Journal of the Mystery of Uri Geller' — Geller als Auserwählter der Menschheit",
+        "Lab Nine, Ossining NY: Trance-Sitzungen mit The Nine, Greta Woodrew und anderen",
+        "1978: Lab Nine brennt ab — Puharich flieht nach Mexiko, behauptet CIA-Verfolgung",
+        "Tesla-ELF-Wellen als sowjetische Bewaffnung (Legionärskrankheit, Erdbeben, Klimastörungen)",
+        "50+ Patente, inkl. Hörgeräte und Wasseraufspaltungs-Apparat"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia: Andrija Puharich",
+          "url": "https://en.wikipedia.org/wiki/Andrija_Puharich",
+          "year": 2024
+        },
+        {
+          "title": "Puharich: Uri — A Journal of the Mystery of Uri Geller (Anchor Press, 1974)",
+          "url": "https://www.scribd.com/document/129636903/Uri-Andrija-Puharich",
+          "year": 1974
+        },
+        {
+          "title": "CIA Reading Room: Panel of Scientists — Psychic Healing (Puharich, Chair)",
+          "url": "https://www.cia.gov/readingroom/docs/CIA-RDP96-00787R000100190001-2.pdf",
+          "year": 1985
+        },
+        {
+          "title": "Reddit r/lawofone: CIA-Funded Doctor Reportedly Contacted by Alien Council",
+          "url": "https://www.reddit.com/r/lawofone/comments/1t4cbnk/ciafunded_doctor_reportedly_contacted_by_alien/",
+          "year": 2025
+        },
+        {
+          "title": "Spotify: Dr. Andrija Puharich Part I — The Spookiest Bastard in America",
+          "url": "https://open.spotify.com/episode/0GgIfe0N0Uqmepg7w6c6w0",
+          "year": 2023
+        }
+      ],
+      "linked_cases": [
+        "cia-stargate-project"
+      ],
+      "linked_theses": [
+        "these-66-psychische-faehigkeiten-nhi"
+      ],
+      "linked_persons": [
+        "uri-geller",
+        "ingo-swann"
+      ]
+    },
+    {
+      "id": "diane-powell",
+      "number": 77,
+      "name": "Dr. Diane Hennacy Powell",
+      "emoji": "🧠",
+      "role": "Psychiaterin / Telepathie-Forscherin",
+      "affiliation": "Johns Hopkins University (Ausbildung) · Oregon Health & Science University · Medford OR",
+      "nationality": "US-amerikanisch",
+      "born": "~1960",
+      "active": "1990–heute",
+      "bio": "Johns Hopkins-ausgebildete Psychiaterin und Neurowissenschaftlerin, die seit den 1990er Jahren ESP, Savantismus und Telepathie bei autistischen Kindern erforscht. Autorin von 'The ESP Enigma: The Scientific Case for Psychic Phenomena' (2009). Wissenschaftliche Begleitforschung zu den Telepathy Tapes (2024). Reiste weltweit, um nicht-sprechende Autisten zu untersuchen, die scheinbar Gedanken lesen können. Ihr Letterboard-Experiment mit Haley (Dreieck-Test) wurde viral.",
+      "key_claims": [
+        "ESP ist möglicherweise eine Savant-Fähigkeit — ähnlich wie Inselbegabungen bei Autismus",
+        "Nicht-sprechende Autisten können Gedanken lesen (Letterboard-Experimente mit verblindeten Karten)",
+        "Telepathie und Savantismus könnten denselben neurobiologischen Ursprung haben",
+        "Verbindung zu These #63: Neurodiversität als möglicher Hybridisierungs-Marker"
+      ],
+      "publications": [
+        "The ESP Enigma: The Scientific Case for Psychic Phenomena (2009, Walker & Company)",
+        "Telepathy Tapes Podcast — wissenschaftliche Beraterin (2024)"
+      ],
+      "connections": [
+        "Ky Dickens (Telepathy Tapes Podcast)",
+        "Diane Hennacy Powell Foundation",
+        "American Psychiatric Association",
+        "Verbindung zu Dr. Max Rempel (These #63)"
+      ],
+      "controversy": "ASHA (American Speech-Language-Hearing Association) kritisiert Letterboard-Methode als nicht-unabhängige Kommunikation. Studie nicht peer-reviewed. OPB-Artikel Mai 2025: Wissenschaft nicht abschließend geklärt.",
+      "tags": [
+        "psychiatrie",
+        "telepathie",
+        "autismus",
+        "esp",
+        "savantismus",
+        "neurodiversitaet",
+        "wissenschaft"
+      ],
+      "linked_cases": [
+        "telepathy-tapes-2024",
+        "neurodiversitaet-hybrid-marker"
+      ],
+      "linked_theses": [
+        "these-063",
+        "these-066"
+      ],
+      "sources": [
+        "https://www.opb.org/article/2025/05/04/medford-psychiatrist-autism-telepathy/",
+        "https://drdianehennacy.com/books/the-esp-enigma/"
+      ],
+      "added": "2026-06-04",
+      "release": "R04"
+    },
+    {
+      "id": "nancy-ann-tappe",
+      "name": "Nancy Ann Tappe",
+      "role": "Parapsychologin / Begründerin Indigo-Kinder-Konzept",
+      "nationality": "US",
+      "born": "1931",
+      "died": "2012",
+      "affiliation": "Unabhängig, San Diego CA",
+      "credibility_score": 5.5,
+      "tags": [
+        "indigo-kinder",
+        "aura",
+        "neurodiversitaet",
+        "hybrid",
+        "parapsychologie"
+      ],
+      "key_claims": [
+        "Beobachtete ab Ende der 1960er Jahre Kinder mit indigofarbener Aura",
+        "1982: 'Understanding Your Life Thru Color' — erste Dokumentation des Konzepts",
+        "Unterschied 4 Typen von Indigo-Kindern: Humanist, Konzeptuell, Künstler, Interdimensional",
+        "Interdimensionale Indigo-Kinder: Kontakt mit anderen Dimensionen, oft als ADHS/Autismus fehldiagnostiziert",
+        "Synästhesie als Grundlage ihrer Aura-Wahrnehmung (wissenschaftlich dokumentiertes Phänomen)"
+      ],
+      "connections": [
+        "lee-carroll",
+        "jan-tober",
+        "mary-rodwell"
+      ],
+      "linked_cases": [
+        "indigo-kinder-konzept-1970er"
+      ],
+      "linked_theses": [
+        "these-63-neurodiversitaet-hybrid",
+        "these-68-indigo-sternenkinder-hybride"
+      ],
+      "sources": [
+        "Nancy Ann Tappe: Understanding Your Life Thru Color (1982/1986)",
+        "Lee Carroll & Jan Tober: The Indigo Children (1998)",
+        "Wikipedia: Indigo children"
+      ]
+    },
+    {
+      "id": "lee-carroll",
+      "name": "Lee Carroll",
+      "role": "Autor / Channeler (Kryon) / Popularisierer Indigo-Kinder",
+      "nationality": "US",
+      "born": "1945",
+      "affiliation": "Kryon Writings Inc.",
+      "credibility_score": 5.2,
+      "tags": [
+        "indigo-kinder",
+        "channeling",
+        "kryon",
+        "neurodiversitaet",
+        "hybrid"
+      ],
+      "key_claims": [
+        "1998: 'The Indigo Children: The New Kids Have Arrived' (mit Jan Tober) — Bestseller, 500.000+ Exemplare",
+        "Channelt seit 1989 'Kryon' — eine magnetische Dienstentität, die Menschheitsevolution beschreibt",
+        "Indigo-Kinder = neue Evolutionsstufe mit verändertem DNA-Muster (12-Strang-DNA)",
+        "ADHS und Autismus = Fehldiagnosen für Indigo-Eigenschaften",
+        "2002: Erste internationale Indigo-Kinder-Konferenz in Hawaii (600 Teilnehmer)"
+      ],
+      "connections": [
+        "nancy-ann-tappe",
+        "jan-tober",
+        "dolores-cannon"
+      ],
+      "linked_cases": [
+        "indigo-kinder-konzept-1970er",
+        "kryon-channeling-1989"
+      ],
+      "linked_theses": [
+        "these-63-neurodiversitaet-hybrid",
+        "these-68-indigo-sternenkinder-hybride"
+      ],
+      "sources": [
+        "Lee Carroll & Jan Tober: The Indigo Children (1998, Hay House)",
+        "Kryon.com — offizielle Website",
+        "Wikipedia: Indigo children"
+      ]
+    },
+    {
+      "id": "mary-rodwell",
+      "name": "Mary Rodwell",
+      "role": "Hypnotherapeutin / ACERN-Gründerin / Starseed-Forscherin",
+      "nationality": "AU",
+      "born": "1952",
+      "affiliation": "ACERN (Australian Close Encounter Resource Network)",
+      "credibility_score": 6.0,
+      "tags": [
+        "starseed",
+        "indigo-kinder",
+        "autismus",
+        "adhs",
+        "hybrid",
+        "nhi-kontakt",
+        "regression"
+      ],
+      "key_claims": [
+        "2010: 'Awakening: How Extraterrestrial Contact Can Transform Your Life'",
+        "2016: 'The New Human: Awakening to Our Cosmic Heritage' — 3.000+ Klientenfälle",
+        "Asperger, ADHS, Autismus und Dyslexie = Merkmale von Starseed/Indigo-Kindern mit NHI-Kontakt",
+        "Kinder berichten von Sternsprachen, Lichtwesenbesuchen und Erinnerungen an andere Planeten",
+        "Glaubt an genetisches Upgrade-Programm von NHI: Homo sapiens → Homo noeticus",
+        "Co-Gründerin: Dr. Edgar Mitchell Foundation for Research into Extraterrestrial Encounters (FREE)",
+        "Oxford University Debate 2006: Vertrat ET-Kontakt-These",
+        "Verbindung zu Diane Powell (Telepathy Tapes) und Dr. Rempel (DNA-Studie)"
+      ],
+      "connections": [
+        "diane-powell",
+        "max-rempel",
+        "dolores-cannon",
+        "barbara-lamb"
+      ],
+      "linked_cases": [
+        "indigo-kinder-konzept-1970er",
+        "telepathy-tapes-2024",
+        "neurodiversitaet-hybrid-programm"
+      ],
+      "linked_theses": [
+        "diese-63-neurodiversitaet-hybrid",
+        "these-64-bewusstsein-ufo-interface",
+        "these-68-indigo-sternenkinder-hybride"
+      ],
+      "sources": [
+        "Mary Rodwell: The New Human (2016, New Mind Publishers)",
+        "ACERN: acern.com.au",
+        "Spreaker Podcast: Mary Rodwell - Indigo Children Starseeds Autism (Feb 2024)",
+        "FREE Foundation: experiencer.org"
+      ]
+    },
+    {
+      "id": "phyllis-schlemmer",
+      "name": "Phyllis V. Schlemmer",
+      "role": "Medium / Channelerin",
+      "nationality": "US-amerikanisch",
+      "born": "1925",
+      "died": "2013",
+      "category": "Kontaktee / Medium",
+      "credibility_score": 5.5,
+      "status": "verstorben",
+      "summary": "Hauptmedium des Council of Nine (The Nine) über 20 Jahre (1974–1992). Channelte Botschaften von 9 kosmischen Entitäten, die sich als Schöpfer der Menschheit bezeichneten. Zusammenarbeit mit Andrija Puharich, Gene Roddenberry, Uri Geller, Sir John Whitmore und James Hurtak in Lab Nine.",
+      "key_claims": [
+        "The Nine: Rat von 9 kosmischen Entitäten (Atum, Tom, etc.) — Schöpfer der Menschheit",
+        "Erde ist 'The Only Planet of Choice' — einziger Planet mit freiem Willen im Universum",
+        "NHI-Kontakt via Trance-Channeling über 20 Jahre dokumentiert",
+        "Gene Roddenberry nahm an Sessions teil — Star Trek als NHI-Botschaft",
+        "Menschheit steht vor kosmischer Transformation und Erstkontakt"
+      ],
+      "evidence": [
+        "Buch: 'The Only Planet of Choice' (1993, Gateway Books, 400+ Seiten Transkripte)",
+        "20 Jahre Sitzungsprotokolle mit internationalen Forschern",
+        "Teilnehmer: Gene Roddenberry, Sir John Whitmore, David Hemery (Olympia-Goldmedaille)",
+        "Andrija Puharich dokumentierte alle Sessions (CIA-finanziert)",
+        "Verbindung zu CIA-Stargate-Programm über Puharich"
+      ],
+      "controversies": [
+        "Keine wissenschaftliche Überprüfbarkeit der Channeling-Inhalte",
+        "Puharich später als CIA-Asset identifiziert — Manipulation möglich",
+        "The Nine Inhalte stark beeinflusst von Teilnehmer-Erwartungen",
+        "Keine unabhängige Verifikation der kosmischen Entitäten"
+      ],
+      "connections": [
+        "andrija-puharich",
+        "uri-geller",
+        "ingo-swann"
+      ],
+      "linked_cases": [
+        "lab-nine-council-of-nine-1974"
+      ],
+      "linked_theses": [
+        "these-67-the-nine-council-of-nine"
+      ],
+      "sources": [
+        {
+          "title": "The Only Planet of Choice (1993)",
+          "url": "https://www.amazon.com/Only-Planet-Choice-Essential-Briefings/dp/1858600235",
+          "type": "book"
+        },
+        {
+          "title": "Council of Nine — SourceWatch",
+          "url": "https://www.sourcewatch.org/index.php/Council_of_Nine",
+          "type": "research"
+        },
+        {
+          "title": "Reddit r/UFOs: The Only Planet of Choice Discussion",
+          "url": "https://www.reddit.com/r/UFOs/comments/1hizx3x/",
+          "type": "community"
+        }
+      ],
+      "tags": [
+        "the-nine",
+        "channeling",
+        "lab-nine",
+        "council-of-nine",
+        "gene-roddenberry",
+        "puharich",
+        "kosmische-entitaeten"
+      ]
+    },
+    {
+      "id": "james-randi",
+      "name": "James 'The Amazing' Randi",
+      "role": "Skeptiker / Debunker / Magier",
+      "nationality": "Kanadisch-amerikanisch",
+      "born": "1928-08-07",
+      "died": "2020-10-20",
+      "category": "Skeptiker / Debunker",
+      "credibility_score": 8.5,
+      "status": "verstorben",
+      "summary": "Kanadisch-amerikanischer Bühnenzauberer und wissenschaftlicher Skeptiker. Gründer der James Randi Educational Foundation (JREF) und des 1-Million-Dollar-Paranormal-Challenge. Bekanntester Kritiker von Uri Geller — arrangierte Gellers Tonight-Show-Versagen 1973 mit Johnny Carson. Mitgründer des Committee for Skeptical Inquiry (CSI).",
+      "key_claims": [
+        "Uri Geller ist ein Betrüger der Standard-Zaubertricks verwendet — kein echtes Paranormales",
+        "Alle paranormalen Phänomene sind erklärbar durch Trickbetrug oder Selbsttäuschung",
+        "1-Million-Dollar-Challenge: Kein einziger Bewerber konnte paranormale Fähigkeiten beweisen",
+        "Peter Popoff (Wunderheilungen) als Betrüger entlarvt — Ohrhörer für 'göttliche Botschaften'",
+        "Wissenschaftliche Methodik ist der einzige zuverlässige Weg zur Wahrheitsfindung"
+      ],
+      "evidence": [
+        "Tonight Show 1973: Geller scheiterte an Randis vorbereiteten Props — live vor Millionen",
+        "JREF 1-Million-Dollar-Challenge (1964–2015): 1.000+ Bewerber, kein einziger bestanden",
+        "Peter Popoff Entlarvung (1986): Radio-Frequenz-Empfänger im Ohr bewiesen",
+        "10 Bücher: 'Flim-Flam!' (1982), 'The Truth About Uri Geller' (1982)",
+        "Nova-Dokumentation 'Secrets of the Psychics' (PBS) — Geller-Debunking dokumentiert"
+      ],
+      "controversies": [
+        "Senator Claiborne Pell: Glaubte Randi sei selbst ein Psychiker der es nicht zugeben will",
+        "Gellers Karriere florierte trotz Debunking — CIA-Dokumente bestätigen echte Tests",
+        "Randi-Methodik: Skeptiker-Bias kann echte Phänomene ausblenden",
+        "Ingo Swann und Pat Price bestanden CIA-Tests die Randi nicht replizieren konnte",
+        "Randi selbst: 'Ich bin ein Betrüger' — aber manche glaubten er nutze echte Kräfte"
+      ],
+      "connections": [
+        "uri-geller",
+        "ingo-swann"
+      ],
+      "linked_cases": [],
+      "linked_theses": [
+        "these-66-psychische-faehigkeiten-nhi-kontakt"
+      ],
+      "sources": [
+        {
+          "title": "James Randi — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Randi",
+          "type": "reference"
+        },
+        {
+          "title": "The Truth About Uri Geller (1982)",
+          "url": "https://en.wikipedia.org/wiki/James_Randi",
+          "type": "book"
+        },
+        {
+          "title": "Nova: Secrets of the Psychics (PBS)",
+          "url": "https://en.wikipedia.org/wiki/James_Randi",
+          "type": "documentary"
+        }
+      ],
+      "tags": [
+        "skeptiker",
+        "debunker",
+        "uri-geller",
+        "jref",
+        "paranormal-challenge",
+        "tonight-show",
+        "peter-popoff"
+      ]
     }
   ]
 }
