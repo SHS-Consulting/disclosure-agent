@@ -376,21 +376,6 @@
       "source_url": "https://hangar1publishing.com/blogs/ufos-uaps-and-aliens/apollo-mission-ufos"
     },
     {
-      "id": "vallee",
-      "name": "Jacques Vallée",
-      "emoji": "🔭",
-      "role": "Astrophysiker · Interdimensionale Hypothese",
-      "bio": "Blue-Book-Berater. ARPAnet-Pionier. Interdimensionale Hypothese: UAP aus benachbarten Dimensionen. 'Sowohl technologisch als auch psychisch.' Kontrollfaktor-Hypothese: Phänomen reguliert Bewusstsein didaktisch.",
-      "tags": [
-        "interdimensional",
-        "blue-book",
-        "kontrollfaktor",
-        "arpanet",
-        "umdenker"
-      ],
-      "source_url": "https://en.wikipedia.org/wiki/Jacques_Vall%C3%A9e"
-    },
-    {
       "id": "loeb",
       "name": "Prof. Avi Loeb",
       "emoji": "🏛",
@@ -834,7 +819,8 @@
       "source_label": "The Guardian (25. Juli 2008)",
       "birth_year": 1930,
       "death_year": 2016,
-      "nationality": "USA"
+      "nationality": "USA",
+      "emoji": "👤"
     },
     {
       "id": "gordon-cooper",
@@ -936,7 +922,9 @@
         "Regierung",
         "Wissenschaft",
         "Offiziell"
-      ]
+      ],
+      "bio": "Dr. Jon Kosloski ist seit 2023 Direktor des All-domain Anomaly Resolution Office (AARO). Er übernahm das Amt von Dr. Sean Kirkpatrick. Kosloski hat einen wissenschaftlichen Hintergrund in Physik und Ingenieurwesen und betont den datengetriebenen, wissenschaftlichen Ansatz von AARO. Unter seiner Führung hat AARO über 1.600 UAP-Berichte erhalten und ausgewertet.",
+      "emoji": "👤"
     },
     {
       "id": "kevin-ryan-aaro",
@@ -961,7 +949,9 @@
         "Forensik",
         "Methodik",
         "Offiziell"
-      ]
+      ],
+      "bio": "J. Kevin Ryan ist ein pensionierter Special Agent der US Air Force mit über 37 Jahren kombiniertem Militär- und Zivildienst. Er schloss seine Bundeskarriere als Chief of Operations des AARO ab. Ryan ist Autor des offiziellen AARO-Leitfadens zur forensischen UAP-Fotografie (CTX Spring 2026), einem US-Regierungsdokument ohne Copyright-Schutz.",
+      "emoji": "👤"
     },
     {
       "id": "artem-bilyk",
@@ -985,7 +975,9 @@
         "Wissenschaft",
         "Radar",
         "Wärmebild"
-      ]
+      ],
+      "bio": "Dr. Artem Bilyk ist Forscher am Defense Intelligence Research Institute in Kyiv. Er dokumentierte zusammen mit Dr. Kyrylo Nikolaiev sechs UAP-Fälle aus dem ukrainischen Kriegsgebiet 2023–2024. Die Fälle wurden im CTX-EAG Special Issue Spring 2026 der Naval Postgraduate School veröffentlicht.",
+      "emoji": "🔬"
     },
     {
       "id": "kaylin-hagopian",
@@ -1009,7 +1001,9 @@
         "Pentagon",
         "Wissenschaft",
         "Sensor"
-      ]
+      ],
+      "bio": "Kaylin Hagopian ist Forscherin an den Sandia National Laboratories. Sie entwickelte zusammen mit Dr. Joshua Shank ein Event-Based-Sensor-System zur Echtzeit-UAP-Erkennung im Auftrag des US-Verteidigungsministeriums. Das System reagiert auf Helligkeitsänderungen mit Mikrosekunden-Auflösung.",
+      "emoji": "🏛️"
     },
     {
       "id": "kyrylo-nikolaiev",
@@ -1031,7 +1025,9 @@
         "Militär",
         "Wissenschaft",
         "Radar"
-      ]
+      ],
+      "bio": "Dr. Kyrylo Nikolaiev ist Forscher am Defense Intelligence Research Institute in Kyiv. Er dokumentierte zusammen mit Dr. Artem Bilyk sechs UAP-Fälle aus dem ukrainischen Kriegsgebiet 2023–2024 für das CTX-EAG Special Issue Spring 2026.",
+      "emoji": "🔬"
     },
     {
       "id": "eric-w-davis",
@@ -1067,7 +1063,8 @@
         "George H.W. Bush (Holloman AFB Briefing)"
       ],
       "source_url": "https://nymag.com/intelligencer/2020/07/ufo-report-pentagon-has-off-world-vehicles-not-from-earth.html",
-      "source_label": "New York Magazine – Pentagon-Briefing 2020"
+      "source_label": "New York Magazine – Pentagon-Briefing 2020",
+      "emoji": "🏛️"
     },
     {
       "id": "steven-spielberg",
@@ -1153,7 +1150,8 @@
           "name": "Holloman AFB 1964 – Alamogordo Non-Human Entity Incident",
           "url": "https://2ndlifemediaalamogordo.town.news/g/alamogordo-nm/n/353012/alamogordo-non-human-entity-and-1964-holloman-afb-alien-encounter-fact"
         }
-      ]
+      ],
+      "emoji": "🎬"
     },
     {
       "id": "robert-emenegger",
@@ -1229,7 +1227,8 @@
           "name": "Robbie Graham – Mysterious Universe: 'When the Government Gave Hollywood Footage of a Real Alien Landing'",
           "url": "https://mysteriousuniverse.org/2019/01/when-the-government-gave-hollywood-footage-of-a-real-alien-landing/"
         }
-      ]
+      ],
+      "emoji": "🎬"
     },
     {
       "id": "phil-schneider",
@@ -1601,7 +1600,8 @@
           "result": "Roswell-bezogene Dokumente aus den 1940er/50er Jahren",
           "date": "2018"
         }
-      ]
+      ],
+      "emoji": "📰"
     },
     {
       "id": "richard-doty",
@@ -1735,7 +1735,8 @@
         "trump-donald",
         "luna-anna-paulina",
         "aaro"
-      ]
+      ],
+      "emoji": "👤"
     },
     {
       "id": "luna-anna-paulina",
@@ -1762,7 +1763,8 @@
         "hegseth-pete",
         "burlison-eric",
         "aaro"
-      ]
+      ],
+      "emoji": "👤"
     },
     {
       "id": "frank-borman",
@@ -1865,7 +1867,8 @@
         "insider"
       ],
       "bio": "Nat Cobitz war Director of Science, Technology and Development der US Navy — einer der ranghöchsten Wissenschaftler im amerikanischen Militärapparat. In persönlichen Gesprächen mit Investigativjournalist Ross Coulthart berichtete er, dass ihm Materialien gezeigt wurden, die von nicht-menschlichen Fahrzeugen (Non-Human Craft) geborgen worden seien. Cobitz beschrieb diesen Moment als persönliche Überzeugung: Das Phänomen ist real. Coulthart nannte Cobitz' Aussage 'die Geschichte, die mich persönlich überzeugt hat' — ein hochrangiger Navy-Wissenschaftler ohne Motiv zur Übertreibung. Cobitz ist einer der glaubwürdigsten Insider-Zeugen für Crash-Retrieval-Programme neben David Grusch.",
-      "source_url": "https://www.newsnationnow.com/podcasts-newsnation/ross-coulthart-qa-alien-hybrids-disclosure-day-and-a-secret-that-changed-things-reality-check/"
+      "source_url": "https://www.newsnationnow.com/podcasts-newsnation/ross-coulthart-qa-alien-hybrids-disclosure-day-and-a-secret-that-changed-things-reality-check/",
+      "emoji": "🎖️"
     },
     {
       "id": "kit-green",
@@ -1881,7 +1884,8 @@
         "neurowissenschaft"
       ],
       "bio": "Christopher 'Kit' Green ist ein ehemaliger CIA-Analyst und Neurowissenschaftler der an der Schnittstelle von Geheimdienst und UAP-Forschung arbeitet. Laut Berichten von Jason Reza-Jorjani (via Lyn Buchanan) soll Green ein Programm entwickelt haben, um in DNA-Datenbanken (Ancestry.com, 23andMe) nach nicht-menschlichen oder Hybrid-Genmarkern zu suchen. Green ist bekannt für seine Arbeit zu biologischen Effekten von UAP-Begegnungen auf Zeugen — er behandelte angeblich Personen mit ungewöhnlichen Verletzungen nach UAP-Kontakt. Verbindung zu AATIP und Bigelow Aerospace. Avi Loeb (NewsNation, Mai 2026): 'Jemand könnte die Idee gehabt haben zu prüfen — aber kein wissenschaftlicher Nachweis.'",
-      "source_url": "https://avi-loeb.medium.com/avi-loeb-comments-on-the-alien-dna-claims-29498f74d0ba"
+      "source_url": "https://avi-loeb.medium.com/avi-loeb-comments-on-the-alien-dna-claims-29498f74d0ba",
+      "emoji": "🔬"
     },
     {
       "id": "max-rempel",
@@ -2037,7 +2041,9 @@
           "label": "MA Chronicle: The CIA Tested Psychic Spies for 22 Years (Mai 2026)",
           "url": "https://machronicle.com/the-cia-tested-psychic-spies-for-22-years-they-worked-down-the-street/"
         }
-      ]
+      ],
+      "bio": "Uri Geller (* 20. Dezember 1946, Tel Aviv) ist einer der bekanntesten und umstrittensten Persönlichkeiten in der Disclosure-Bewegung. Weltberühmt als 'Löffelbieger', aber mit nachgewiesener CIA-Verbindung und explosiven Aussagen zu NASA-Alien-Bodies. \n\n=== BIOGRAPHIE ===\nAufgewachsen in Tel Aviv und Zypern. Mutter betrieb ein Hotel als Mossad-Safe-House. Erste bezahlte Arbeit: Botengänge für Mossad-Agenten als 13-Jähriger (1 Pfund/Auftrag). IDF Fallschirmjäger-Brigade, verwundet im Sechstagekrieg 1967. Ab 1969: Bühnenprogramm mit Löffelbiegen, Telepathie, Uhren-Reparatur durch Gedankenkraft. 1972: Internationale Bekanntheit, CIA-Kontakt über Andrija Puharich. \n\n=== CIA STARGATE PROGRAM (SRI 1972–1973) ===\nStanford Research Institute (SRI), Menlo Park, Kalifornien. Physiker Russell Targ und Harold Puthoff (CIA-Vertrag) testeten Geller 8 Tage in einem Faraday-Käfig (elektromagnetisch abgeschirmt). Methode: Forscher wählten zufällige Wörter aus dem Wörterbuch, zeichneten sie auf — Geller sollte ohne Sichtkontakt dieselben Bilder zeichnen. Ergebnisse: 'Firecracker' → Geller zeichnete Zylinder mit Funken. 'Bunch of grapes' → Geller zeichnete exakt eine Weintraube. CIA-Abschlussbericht 1973 (declassified 2017): 'Geller has demonstrated his paranormal perceptual ability in a convincing and unambiguous manner.' Wahrscheinlichkeit zufälliger Übereinstimmungen: 1 zu 1.000.000. Veröffentlicht in Nature (1974): Targ & Puthoff. KRITIK: David Marks & Richard Kammann (1980): Shipi Strang (Gellers Freund) war im Labor anwesend, mögliche Cue-Weitergabe. Nature-Editors 1974: 'Weak in design and presentation.' Marks 1986 in Nature: 'Geller has no psychic ability whatsoever — very clever magician.' Tonight Show (1973): Geller produzierte NICHTS auf Live-TV (James Randi hatte vorgewarnt). Stargate-Programm 1998 eingestellt: 'Never provided an adequate basis for actionable intelligence.' \n\n=== MOSSAD-VERBINDUNG (BBC-Dokumentation 2013) ===\nBBC-Dokumentation 'The Secret Life of Uri Geller — Psychic Spy?' (Regisseur Vikram Jayanti, 2013). Behauptungen: CIA-Arbeit (Mexico City: Floppy-Disks russischer Agenten löschen), Mossad-Operationen (Operation Entebbe 1976: 100 Geiseln Uganda), Irak: Gedankliche Beeinflussung bei Nuklear-Deal-Unterzeichnung, NYPD-Zusammenarbeit, Mexikanisches Finanzministerium. Geller selbst: 'I did many things for the CIA.' Dr. Kit Green (ehem. CIA-Analyst): Bestätigt CIA-Tests auf Vimeo-Video (https://vimeo.com/221014781). \n\n=== WERNHER VON BRAUN + NASA ALIEN BODIES (1970/2025) ===\nGellers Kernaussage (mehrfach wiederholt, zuletzt Facebook-Video 28. Sept. 2025, 549.000 Views): Wernher von Braun (NASA, Raketenpionier) nahm Geller ca. 1970 mit zu einer unterirdischen Einrichtung am NASA Goddard Space Flight Center (Maryland). Dort: Gefrorene Körper kleiner, verstümmelter Wesen — 'very clearly either not of this earth, or not of this time or dimension.' Große Köpfe, sahen 'wie uns' aus. Von Braun erklärte: Die Trümmer stammten von einem abgestürzten UFO. MINOX-Kamera: Geller schmuggelte eine MINOX-Miniaturkamera in den Kühlraum. 'I still have the negatives!!!' — Warum keine Veröffentlichung? 'There are several reasons (some of which I cannot reveal)' + 'In these days of easily produced AI images, many people would immediately dismiss them.' Dezember 2025 (Irish Star): Wiederholt Aussage zu NASA Goddard Space Center, verbindet Alien-Bodies mit 3I/ATLAS-Komet und 'Galactic Federation'. Februar 2026 (Reddit r/UFOs): Nennt South Korea als weiteren Standort (korrigiert von North Korea). Mai 2026 (Facebook): 'HOLY CRAP IS COMING — the new UFO files prove what I already KNEW — NASA LIED TO THE WORLD.' \n\n=== 3I/ATLAS AUSSAGEN (Dezember 2025) ===\nIrish Star / Daily Star (17. Dezember 2025): 'The Galactic Federation is very real and I want to believe that whatever is on board 3I/ATLAS is part of it.' 'Perhaps they are already here — we just don't know.' 'These aliens come in peace. Humans are on the brink of self-destruction because everyone's building nuclear bombs. The only thing that can save us are extraterrestrials.' 'When it passes by they will give us something — a gift that could save us.' \n\n=== GESAMTBEWERTUNG ===\nPRO: Echte CIA-Stargate-Dokumente bestätigen Tests (declassified 2017), Dr. Kit Green (CIA) bestätigt Verbindung, IDF-Veteran (Sechstagekrieg), Mossad-Mutter-Verbindung plausibel, MINOX-Fotos: unbewiesen aber spezifische Behauptung. CONTRA: Tonight Show 1973 = totales Versagen, Marks/Kammann: Betrugsvorwurf, Stargate 1998 eingestellt ('no actionable intelligence'), Galactic Federation / Spectra-Alien-Aussagen = nicht verifizierbar, MINOX-Fotos werden seit 50+ Jahren nicht veröffentlicht. FAZIT: Geller ist die einzige Person, die sowohl CIA-Verbindung (dokumentiert) als auch persönliche Alien-Bodies-Aussage (mit Wernher von Braun) kombiniert. Die CIA-Dokumente sind real. Die Alien-Bodies-Aussage bleibt unbewiesen.",
+      "emoji": "🔔"
     },
     {
       "id": "ingo-swann",
@@ -2107,7 +2113,9 @@
         "uri-geller",
         "hal-puthoff",
         "russell-targ"
-      ]
+      ],
+      "bio": "Ingo Swann gilt als Begründer des Controlled Remote Viewing (CRV) und war die zentrale Versuchsperson im CIA-Stargate-Programm (1972–1995). Er prägte den Begriff 'Remote Viewing' und entwickelte das Koordinaten-RV-Protokoll. 1972 beeinflusste er nachweislich ein Magnetometer an der Stanford Research University (SRI). 1973 beschrieb er Jupiter-Ringe — bestätigt durch Voyager 1979. 1975 wurde er verblindet zu einer geheimen Untergrundanlage geflogen und aufgefordert, den Mond zu 'besichtigen'. Er beschrieb Türme, Maschinen, Kuppeln und menschenähnliche Wesen, die seine Präsenz wahrnehmen konnten. In seinem Buch 'Penetration' (1998) schildert er diese Erlebnisse und berichtet, ein US-Regierungsbeamter habe ihm gesagt: 'They somehow have told you to stay away. That's why you are resorting to psychic perceptions. They are not friendly, are they?'",
+      "emoji": "🔔"
     },
     {
       "id": "andrija-puharich",
@@ -2176,7 +2184,9 @@
       "linked_persons": [
         "uri-geller",
         "ingo-swann"
-      ]
+      ],
+      "bio": "Dr. Andrija Puharich (bürgerlicher Name: Henry Karel Puharić) war Arzt, Parapsychologe und Erfinder mit über 50 Patenten. Von 1953–1955 diente er als Captain im Army Medical Corps in Edgewood Arsenal, Maryland, wo er engen Kontakt zu CIA, Pentagon und Naval Intelligence hatte. Er ist bekannt als der Mann, der Uri Geller in die USA brachte und ihn als echten Psychiker bestätigte. Bereits 1952 kontaktierte der hinduistische Mystiker Dhundiraj G. Vinod in einer Trance-Sitzung bei Puharich eine Gruppe von Entitäten, die sich 'The Nine' nannten — neun kosmische Wesen, die angeblich die Menschheit lenken. Puharich baute um dieses Konzept das 'Lab Nine' auf seinem Anwesen in Ossining, NY. 1978 brannte das Labor unter mysteriösen Umständen ab, und Puharich floh nach Mexiko mit der Behauptung, die CIA verfolge ihn. Er behauptete, Geller sei Botschafter des Raumschiffs 'Spectra', 53.000 Lichtjahre entfernt. Geller distanzierte sich später von diesen Behauptungen. Puharich forschte auch zu Teslas ELF-Wellen als Bewusstseinskontrolle und behauptete, die Sowjets setzten Tesla-basierte Waffen ein.",
+      "emoji": "🔬"
     },
     {
       "id": "diane-powell",
@@ -2269,7 +2279,9 @@
         "Nancy Ann Tappe: Understanding Your Life Thru Color (1982/1986)",
         "Lee Carroll & Jan Tober: The Indigo Children (1998)",
         "Wikipedia: Indigo children"
-      ]
+      ],
+      "bio": "Parapsychologin / Begründerin Indigo-Kinder-Konzept",
+      "emoji": "👤"
     },
     {
       "id": "lee-carroll",
@@ -2310,7 +2322,9 @@
         "Lee Carroll & Jan Tober: The Indigo Children (1998, Hay House)",
         "Kryon.com — offizielle Website",
         "Wikipedia: Indigo children"
-      ]
+      ],
+      "bio": "Autor / Channeler (Kryon) / Popularisierer Indigo-Kinder",
+      "emoji": "📚"
     },
     {
       "id": "mary-rodwell",
@@ -2360,7 +2374,9 @@
         "ACERN: acern.com.au",
         "Spreaker Podcast: Mary Rodwell - Indigo Children Starseeds Autism (Feb 2024)",
         "FREE Foundation: experiencer.org"
-      ]
+      ],
+      "bio": "Hypnotherapeutin / ACERN-Gründerin / Starseed-Forscherin",
+      "emoji": "🔬"
     },
     {
       "id": "phyllis-schlemmer",
@@ -2429,7 +2445,9 @@
         "gene-roddenberry",
         "puharich",
         "kosmische-entitaeten"
-      ]
+      ],
+      "bio": "Hauptmedium des Council of Nine (The Nine) über 20 Jahre (1974–1992). Channelte Botschaften von 9 kosmischen Entitäten, die sich als Schöpfer der Menschheit bezeichneten. Zusammenarbeit mit Andrija Puharich, Gene Roddenberry, Uri Geller, Sir John Whitmore und James Hurtak in Lab Nine.",
+      "emoji": "🔮"
     },
     {
       "id": "james-randi",
@@ -2496,7 +2514,9 @@
         "paranormal-challenge",
         "tonight-show",
         "peter-popoff"
-      ]
+      ],
+      "bio": "Kanadisch-amerikanischer Bühnenzauberer und wissenschaftlicher Skeptiker. Gründer der James Randi Educational Foundation (JREF) und des 1-Million-Dollar-Paranormal-Challenge. Bekanntester Kritiker von Uri Geller — arrangierte Gellers Tonight-Show-Versagen 1973 mit Johnny Carson. Mitgründer des Committee for Skeptical Inquiry (CSI).",
+      "emoji": "👤"
     },
     {
       "id": "carlos-diaz",
@@ -2553,7 +2573,9 @@
         "ebe-award",
         "tepoztlan",
         "massenzeugnis"
-      ]
+      ],
+      "bio": "Mexikanischer Fotograf aus Tepoztlán, der ab 1981 über mehr als ein Jahrzehnt Kontakte zu orangefarbenen, organisch wirkenden Lichtobjekten ('Ships of Light') dokumentierte. Seine Fotos wurden von Dr. Robert Nathan (NASA JPL) und Prof. Victor Escobedo (Universität Guadalajara) analysiert — keine Fälschung nachweisbar. Über 12.000 Bewohner Tepoztláns berichteten von denselben Phänomenen. Zweifacher EBE Award Winner (Best Picture). Gilt als einer der wichtigsten Kontaktfälle Lateinamerikas.",
+      "emoji": "👤"
     },
     {
       "id": "stephen-bassett",
@@ -2607,57 +2629,9 @@
         "paradigm-research",
         "aktivist",
         "truth-embargo"
-      ]
-    },
-    {
-      "id": "nat-cobitz",
-      "name": "Nat Cobitz",
-      "role": "Ehemaliger Director of Science, Technology and Development, US Navy",
-      "nationality": "Amerikanisch",
-      "born": "ca. 1940",
-      "died": null,
-      "category": "Militär / Regierung",
-      "credibility_score": 8.0,
-      "status": "verstorben (ca. 2010er)",
-      "summary": "Ehemaliger Director of Science, Technology and Development der US Navy. Beschrieb gegenüber Investigativjournalist Ross Coulthart, dass er geborgene nicht-menschliche Handwerkszeug-Materialien gezeigt bekam. Coulthart bezeichnete Cobitz' Aussagen als das, was ihn persönlich davon überzeugte, dass das UAP-Phänomen real ist. Hochrangige Quelle aus dem Militär-Wissenschaftsbereich.",
-      "key_claims": [
-        "Wurde geborgene nicht-menschliche Handwerkszeug-Materialien (NHI craft materials) gezeigt",
-        "Bestätigte gegenüber Coulthart: USA hat mehrere außerirdische Objekte geborgen",
-        "Erwähnte Roswell-Incident als Teil der Bergungsgeschichte"
       ],
-      "evidence": [
-        "Direkte Aussage gegenüber Ross Coulthart (NewsNation Reality Check Podcast, Mai 2026)",
-        "Position: Director of Science, Technology and Development, US Navy — höchste Glaubwürdigkeit",
-        "Coulthart: 'Seine Aussagen überzeugten mich persönlich von der Realität des Phänomens'"
-      ],
-      "controversies": [
-        "Keine öffentliche schriftliche Aussage unter Eid",
-        "Cobitz ist verstorben — keine Möglichkeit zur Nachfrage",
-        "Nur über Coulthart als Vermittler bekannt"
-      ],
-      "connections": [
-        "Ross Coulthart (NewsNation, Reality Check Podcast)",
-        "US Navy Science & Technology",
-        "Roswell Incident (angebliche Verbindung)"
-      ],
-      "linked_cases": [
-        "pursue-release-01-2026"
-      ],
-      "linked_theses": [
-        "these-70-nhi-material-recovery"
-      ],
-      "sources": [
-        "NewsNation Reality Check Podcast: Ross Coulthart Q&A (29. Mai 2026)",
-        "Spotify: Reality Check with Ross Coulthart — Nat Cobitz Episode"
-      ],
-      "tags": [
-        "navy",
-        "nhi-material",
-        "bergung",
-        "coulthart",
-        "militaer",
-        "hochrangig"
-      ]
+      "bio": "Erster registrierter UFO-Lobbyist der USA. Gründer der Paradigm Research Group (PRG, 1996). Prägte den Begriff 'Disclosure' als politisches Konzept und lobbyiert seit fast 30 Jahren im US-Kongress für UAP-Transparenz. Physik-Ausbildung. Koordinierte die Capitol-Pressekonferenz vom 9. Juni 2026 gemeinsam mit James Fox, David Grusch und mehreren Kongressabgeordneten.",
+      "emoji": "👤"
     },
     {
       "id": "dan-farah",
@@ -2707,7 +2681,9 @@
         "reverse-engineering",
         "pursue",
         "aktivist"
-      ]
+      ],
+      "bio": "Amerikanischer Dokumentarfilmer und UAP-Researcher. Regisseur von 'The Age of Disclosure' (2025), der ersten großen UAP-Dokumentation nach den AARO-Hearings. Positioniert, dass USA und andere Nationen außerirdische Technologie geborgen haben und in einem Wettlauf um Reverse Engineering stehen. Beschreibt die aktuelle Situation als 'den größten Moment in der Geschichte der Menschheit'.",
+      "emoji": "🎬"
     },
     {
       "id": "leslie-kean",
@@ -2769,7 +2745,9 @@
         "disclosure",
         "capitol-2026",
         "nhi-bergung"
-      ]
+      ],
+      "bio": "Amerikanische Investigativjournalistin und New-York-Times-Bestsellerautorin. Co-Autorin des bahnbrechenden NYT-Artikels vom 16. Dezember 2017 ('Glowing Auras and Black Money'), der die Existenz des geheimen Pentagon-Programms AATIP enthüllte und die moderne Disclosure-Bewegung auslöste. Co-Autorin des Debrief-Artikels vom 5. Juni 2023, der David Gruschs Whistleblower-Aussagen über NHI-Bergungsprogramme erstmals veröffentlichte. Moderiert die Capitol-Pressekonferenz am 9. Juni 2026. Enkelin von Congressman Robert Kean, Nichte von NJ-Gouverneur Thomas Kean.",
+      "emoji": "📰"
     },
     {
       "id": "james-fox",
@@ -2827,7 +2805,9 @@
         "joe-rogan",
         "capitol-2026",
         "disclosure"
-      ]
+      ],
+      "bio": "Englisch-amerikanischer Dokumentarfilmer, der seit 1997 UAP-Dokumentationen produziert. Bekannt für 'Out of the Blue' (2003), 'The Phenomenon' (2020) und 'Moment of Contact' (2022, Varginha/Brasilien). 'The Phenomenon' gilt als beste UAP-Dokumentation aller Zeiten und enthält erstmals Aussagen aktiver Regierungsbeamter. Dreifacher Joe-Rogan-Gast. Moderiert die Capitol-Pressekonferenz am 9. Juni 2026 gemeinsam mit Leslie Kean. Neues Projekt: 'The Program' (2024).",
+      "emoji": "🎬"
     },
     {
       "id": "jay-stratton",
@@ -2893,7 +2873,38 @@
         "nuklear",
         "hochrangig",
         "2026"
-      ]
+      ],
+      "bio": "Zentralfigur der modernen US-Regierungsuntersuchung von UAP und nicht-menschlichem intelligentem Leben. Mitgründer des AAWSAP (Advanced Aerospace Weapon System Applications Program) — dem ersten offiziellen US-Regierungsprogramm zur UAP-Untersuchung seit Project Blue Book. Gründer und Leiter der UAPTF (Unidentified Aerial Phenomena Task Force), der ersten gesamtstaatlichen UAP-Untersuchung. Ausgezeichnet mit dem National Intelligence Meritorious Unit Citation (höchste Auszeichnung für eine Einheit im Intelligence-Bereich) und dem DIA Director's Award. Memoir 'Out of the Shadows' erscheint Oktober 2026 (HarperCollins). Arbeitet weiterhin eng mit White House, DNI und Department of War zusammen.",
+      "emoji": "🏛️"
+    },
+    {
+      "id": "ralph-blumenthal",
+      "name": "Ralph Blumenthal",
+      "emoji": "📰",
+      "role": "Investigativjournalist, NYT (1964–2009), Autor",
+      "nationality": "US-amerikanisch",
+      "born": "1938",
+      "affiliation": "New York Times, The Debrief",
+      "credibility": 9.0,
+      "category": "Journalismus",
+      "tags": [
+        "Journalist",
+        "NYT",
+        "Disclosure",
+        "Grusch",
+        "Kean"
+      ],
+      "bio": "45 Jahre NYT-Journalist (1964–2009). Co-Autor des bahnbrechenden NYT-Artikels vom 16. Dezember 2017 ('2 Navy Airmen and an Object That Accelerated Like Nothing I've Ever Seen') zusammen mit Leslie Kean und Helene Cooper — enthüllte das geheime AATIP-Programm und löste die moderne Disclosure-Bewegung aus. Am 5. Juni 2023 Co-Autor des Debrief-Artikels mit Leslie Kean, der David Gruschs Aussagen über NHI-Bergungsprogramme erstmals veröffentlichte. Buch 'The Believer: Alien Encounters, Hard Science, and the Passion of John Mack' (2021) über Harvard-Psychiater John Mack. Kinderbuch 'UFOhs! Mysteries in the Sky' (2023). Verbindungen: Leslie Kean, Helene Cooper, David Grusch, John Mack, Harry Reid.",
+      "linked_cases": [
+        "nyt-aatip-artikel-2017",
+        "grusch-debrief-2023"
+      ],
+      "linked_themes": [
+        "journalismus-disclosure",
+        "nhi-bergung"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Ralph_Blumenthal",
+      "region": "usa"
     }
   ]
 }
