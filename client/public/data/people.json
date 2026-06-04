@@ -2229,6 +2229,138 @@
       ],
       "added": "2026-06-04",
       "release": "R04"
+    },
+    {
+      "id": "nancy-ann-tappe",
+      "name": "Nancy Ann Tappe",
+      "role": "Parapsychologin / Begründerin Indigo-Kinder-Konzept",
+      "nationality": "US",
+      "born": "1931",
+      "died": "2012",
+      "affiliation": "Unabhängig, San Diego CA",
+      "credibility_score": 5.5,
+      "tags": [
+        "indigo-kinder",
+        "aura",
+        "neurodiversitaet",
+        "hybrid",
+        "parapsychologie"
+      ],
+      "key_claims": [
+        "Beobachtete ab Ende der 1960er Jahre Kinder mit indigofarbener Aura",
+        "1982: 'Understanding Your Life Thru Color' — erste Dokumentation des Konzepts",
+        "Unterschied 4 Typen von Indigo-Kindern: Humanist, Konzeptuell, Künstler, Interdimensional",
+        "Interdimensionale Indigo-Kinder: Kontakt mit anderen Dimensionen, oft als ADHS/Autismus fehldiagnostiziert",
+        "Synästhesie als Grundlage ihrer Aura-Wahrnehmung (wissenschaftlich dokumentiertes Phänomen)"
+      ],
+      "connections": [
+        "lee-carroll",
+        "jan-tober",
+        "mary-rodwell"
+      ],
+      "linked_cases": [
+        "indigo-kinder-konzept-1970er"
+      ],
+      "linked_theses": [
+        "these-63-neurodiversitaet-hybrid",
+        "these-68-indigo-sternenkinder-hybride"
+      ],
+      "sources": [
+        "Nancy Ann Tappe: Understanding Your Life Thru Color (1982/1986)",
+        "Lee Carroll & Jan Tober: The Indigo Children (1998)",
+        "Wikipedia: Indigo children"
+      ]
+    },
+    {
+      "id": "lee-carroll",
+      "name": "Lee Carroll",
+      "role": "Autor / Channeler (Kryon) / Popularisierer Indigo-Kinder",
+      "nationality": "US",
+      "born": "1945",
+      "affiliation": "Kryon Writings Inc.",
+      "credibility_score": 5.2,
+      "tags": [
+        "indigo-kinder",
+        "channeling",
+        "kryon",
+        "neurodiversitaet",
+        "hybrid"
+      ],
+      "key_claims": [
+        "1998: 'The Indigo Children: The New Kids Have Arrived' (mit Jan Tober) — Bestseller, 500.000+ Exemplare",
+        "Channelt seit 1989 'Kryon' — eine magnetische Dienstentität, die Menschheitsevolution beschreibt",
+        "Indigo-Kinder = neue Evolutionsstufe mit verändertem DNA-Muster (12-Strang-DNA)",
+        "ADHS und Autismus = Fehldiagnosen für Indigo-Eigenschaften",
+        "2002: Erste internationale Indigo-Kinder-Konferenz in Hawaii (600 Teilnehmer)"
+      ],
+      "connections": [
+        "nancy-ann-tappe",
+        "jan-tober",
+        "dolores-cannon"
+      ],
+      "linked_cases": [
+        "indigo-kinder-konzept-1970er",
+        "kryon-channeling-1989"
+      ],
+      "linked_theses": [
+        "these-63-neurodiversitaet-hybrid",
+        "these-68-indigo-sternenkinder-hybride"
+      ],
+      "sources": [
+        "Lee Carroll & Jan Tober: The Indigo Children (1998, Hay House)",
+        "Kryon.com — offizielle Website",
+        "Wikipedia: Indigo children"
+      ]
+    },
+    {
+      "id": "mary-rodwell",
+      "name": "Mary Rodwell",
+      "role": "Hypnotherapeutin / ACERN-Gründerin / Starseed-Forscherin",
+      "nationality": "AU",
+      "born": "1952",
+      "affiliation": "ACERN (Australian Close Encounter Resource Network)",
+      "credibility_score": 6.0,
+      "tags": [
+        "starseed",
+        "indigo-kinder",
+        "autismus",
+        "adhs",
+        "hybrid",
+        "nhi-kontakt",
+        "regression"
+      ],
+      "key_claims": [
+        "2010: 'Awakening: How Extraterrestrial Contact Can Transform Your Life'",
+        "2016: 'The New Human: Awakening to Our Cosmic Heritage' — 3.000+ Klientenfälle",
+        "Asperger, ADHS, Autismus und Dyslexie = Merkmale von Starseed/Indigo-Kindern mit NHI-Kontakt",
+        "Kinder berichten von Sternsprachen, Lichtwesenbesuchen und Erinnerungen an andere Planeten",
+        "Glaubt an genetisches Upgrade-Programm von NHI: Homo sapiens → Homo noeticus",
+        "Co-Gründerin: Dr. Edgar Mitchell Foundation for Research into Extraterrestrial Encounters (FREE)",
+        "Oxford University Debate 2006: Vertrat ET-Kontakt-These",
+        "Verbindung zu Diane Powell (Telepathy Tapes) und Dr. Rempel (DNA-Studie)"
+      ],
+      "connections": [
+        "diane-powell",
+        "max-rempel",
+        "dolores-cannon",
+        "barbara-lamb"
+      ],
+      "linked_cases": [
+        "indigo-kinder-konzept-1970er",
+        "telepathy-tapes-2024",
+        "neurodiversitaet-hybrid-programm"
+      ],
+      "linked_theses": [
+        "diese-63-neurodiversitaet-hybrid",
+        "these-64-bewusstsein-ufo-interface",
+        "these-68-indigo-sternenkinder-hybride"
+      ],
+      "sources": [
+        "Mary Rodwell: The New Human (2016, New Mind Publishers)",
+        "ACERN: acern.com.au",
+        "Spreaker Podcast: Mary Rodwell - Indigo Children Starseeds Autism (Feb 2024)",
+        "FREE Foundation: experiencer.org"
+      ]
     }
   ]
 }

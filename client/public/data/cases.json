@@ -5337,6 +5337,139 @@
         "these-64-bewusstsein-ufo-interface",
         "these-66-psychische-faehigkeiten-nhi"
       ]
+    },
+    {
+      "id": "indigo-kinder-konzept-1970er",
+      "title": "Indigo-Kinder-Konzept",
+      "date": "1970-01-01",
+      "location": "San Diego, USA",
+      "country": "US",
+      "lat": 32.7157,
+      "lng": -117.1611,
+      "category": "Hybride",
+      "subcategory": "Neurodiversität",
+      "score": 5.8,
+      "status": "UMSTRITTEN",
+      "tags": [
+        "indigo-kinder",
+        "neurodiversitaet",
+        "adhs",
+        "autismus",
+        "hybrid",
+        "aura",
+        "evolution"
+      ],
+      "summary": "Nancy Ann Tappe beobachtet ab Ende der 1960er Jahre Kinder mit indigofarbener Aura. 1982 publiziert sie das Konzept. 1998 popularisieren Lee Carroll & Jan Tober es mit 500.000+ verkauften Exemplaren. Das Konzept beschreibt eine neue Menschheitsgeneration mit außergewöhnlichen Fähigkeiten — oft identisch mit ADHS/Autismus-Merkmalen.",
+      "details": "Das Indigo-Kinder-Konzept entstand aus Nancy Ann Tappes Synästhesie-Erfahrungen: Sie behauptete, Auren sehen zu können, und beobachtete ab den späten 1960ern eine neue Farbe — Indigo — bei Kindern. 1998 erschien 'The Indigo Children' von Lee Carroll & Jan Tober (Hay House), das zum Bestseller wurde. Das Buch verknüpfte ADHS-Diagnosen mit spiritueller Überlegenheit. 2002: Erste internationale Konferenz in Hawaii (600 Teilnehmer). Folgekonzepte: Kristallkinder (Autismus-Spektrum, telepathisch), Regenbogenkinder (post-2000, vollständig NHI-Seelen), Sternenkinder/Starseeds (extraterrestrischer Ursprung). Wissenschaftliche Kritik: Russell Barkley (Forer-Effekt), Robert Todd Carroll (Pseudowissenschaft), Mitzi Waltz (Gefahr für autistische Kinder durch Verweigerung medizinischer Behandlung). Pro-Argumente: Tappe hatte echte Synästhesie (neurologisch dokumentiert), Konzept entstand unabhängig von Kommerzialisierung, Überschneidung mit Savant-Syndrom und Hochbegabung.",
+      "witnesses": [
+        "Nancy Ann Tappe",
+        "Lee Carroll",
+        "Jan Tober"
+      ],
+      "sources": [
+        "Nancy Ann Tappe: Understanding Your Life Thru Color (1982)",
+        "Lee Carroll & Jan Tober: The Indigo Children (1998, Hay House)",
+        "Wikipedia: Indigo children",
+        "Nova Religio: Sarah W. Whedon (2009) — Social Construction of Indigo Children",
+        "Mitzi Waltz: Crystal Children and Autism (2009)"
+      ],
+      "linked_persons": [
+        "nancy-ann-tappe",
+        "lee-carroll",
+        "mary-rodwell",
+        "dolores-cannon"
+      ],
+      "linked_theses": [
+        "these-63-neurodiversitaet-hybrid",
+        "these-68-indigo-sternenkinder-hybride"
+      ]
+    },
+    {
+      "id": "neanderthal-dna-autism-clemson-2024",
+      "title": "Neanderthal-DNA & Autismus — Clemson/Loyola Studie",
+      "date": "2024-06-17",
+      "location": "Clemson University, South Carolina, USA",
+      "country": "US",
+      "lat": 34.6834,
+      "lng": -82.8374,
+      "category": "Wissenschaft",
+      "subcategory": "Genetik",
+      "score": 8.5,
+      "status": "PEER-REVIEWED",
+      "tags": [
+        "neanderthal",
+        "dna",
+        "autismus",
+        "genetik",
+        "hybridisierung",
+        "wissenschaft"
+      ],
+      "summary": "Peer-reviewed Studie in Nature: Molecular Psychiatry (Mai 2024): 25 Neanderthal-DNA-Varianten (SNPs) bei Autisten signifikant häufiger als in der Normalbevölkerung. Erste wissenschaftliche Evidenz für Neanderthal-DNA als Autismus-Suszeptibilitätsfaktor.",
+      "details": "Forscher Rini Pauly, F. Alex Feltus (Clemson) und Emily Casanova (Loyola New Orleans) analysierten Daten aus SPARK (Simons Foundation), GTEx und 1000 Genomes Project. 2.388 autistische Individuen vs. ethnisch gematchte Kontrollgruppen. Ergebnis: Seltene Neanderthal-Varianten signifikant in Autisten angereichert. 25 spezifische SNPs identifiziert, die mit Gehirnentwicklung zusammenhängen. Besonders: Erhöhte Konnektivität in visuellen Verarbeitungsnetzwerken (Stärke bei Autisten) + reduzierte Konnektivität im Default Mode Network (soziales Netzwerk) — beides auch bei Populationen mit hohem Neanderthal-DNA-Anteil. Fazit: 'Neanderthal-DNA plays a significant role in autism susceptibility across major populations.' Wichtig: Nicht mehr Neanderthal-DNA insgesamt, sondern spezifische seltene Varianten. Verbindung zu Dr. Rempel (2025): Rempel interpretiert dies als Beleg für extraterrestrische DNA-Insertion.",
+      "witnesses": [
+        "Dr. F. Alex Feltus (Clemson)",
+        "Dr. Emily Casanova (Loyola)",
+        "Rini Pauly (PhD-Kandidatin)"
+      ],
+      "sources": [
+        "Pauly R et al.: Enrichment of a subset of Neanderthal polymorphisms in autistic probands and siblings. Nature Molecular Psychiatry, 2024. DOI: 10.1038/s41380-024-02593-7",
+        "Clemson University News: Study implicates Neanderthal DNA in autism susceptibility (17. Juni 2024)",
+        "PMC11541192"
+      ],
+      "linked_persons": [
+        "max-rempel",
+        "mary-rodwell"
+      ],
+      "linked_theses": [
+        "these-63-neurodiversitaet-hybrid",
+        "these-68-indigo-sternenkinder-hybride"
+      ]
+    },
+    {
+      "id": "mary-rodwell-new-human-2016",
+      "title": "Mary Rodwell: The New Human — 3.000+ Starseed-Kontaktfälle",
+      "date": "2016-01-01",
+      "location": "Perth, Australien",
+      "country": "AU",
+      "lat": -31.9505,
+      "lng": 115.8605,
+      "category": "Forschung",
+      "subcategory": "Hybride / Starseed",
+      "score": 6.2,
+      "status": "UMSTRITTEN",
+      "tags": [
+        "starseed",
+        "indigo-kinder",
+        "autismus",
+        "adhs",
+        "hybrid",
+        "nhi-kontakt",
+        "regression",
+        "new-human"
+      ],
+      "summary": "Mary Rodwell dokumentiert in 'The New Human' (2016) über 3.000 Klientenfälle von Menschen mit NHI-Kontakt. Kinder mit Autismus, ADHS, Asperger und Dyslexie beschreiben Sternsprachen, Lichtwesenbesuche und Erinnerungen an andere Planeten. Rodwell interpretiert dies als genetisches Upgrade-Programm von NHI.",
+      "details": "Mary Rodwell (ACERN, Australien) arbeitet seit 1994 mit Menschen, die NHI-Kontakt berichten. Ihre Datenbank umfasst über 3.000 Fälle aus 30+ Ländern. Kernbefunde: (1) Kinder mit Autismus-Spektrum berichten überproportional häufig von NHI-Kontakt. (2) Viele beschreiben 'Sternsprachen' — spontan gesprochene oder geschriebene Sprachen, die keiner bekannten Sprache entsprechen. (3) Erinnerungen an Leben auf anderen Planeten vor der Geburt. (4) Erhöhte Telepathie und Empathie-Fähigkeiten. Rodwell glaubt an ein NHI-Programm zur Erschaffung von 'Homo noeticus' — einer neuen Menschheitsform mit erweitertem Bewusstsein. Verbindung zu Dr. Edgar Mitchell Foundation for Research into Extraterrestrial Encounters (FREE). Kritik: Keine kontrollierten Studien, Regression-Therapie als Methode umstritten, Confirmation Bias.",
+      "witnesses": [
+        "Mary Rodwell",
+        "3.000+ Klienten (anonym)"
+      ],
+      "sources": [
+        "Mary Rodwell: The New Human: Awakening to Our Cosmic Heritage (2016, New Mind Publishers)",
+        "ACERN: acern.com.au",
+        "FREE Foundation: experiencer.org",
+        "Spreaker: Mary Rodwell - Indigo Children Starseeds Autism (Feb 2024)"
+      ],
+      "linked_persons": [
+        "mary-rodwell",
+        "diane-powell",
+        "dolores-cannon",
+        "barbara-lamb"
+      ],
+      "linked_theses": [
+        "diese-63-neurodiversitaet-hybrid",
+        "these-64-bewusstsein-ufo-interface",
+        "these-68-indigo-sternenkinder-hybride"
+      ]
     }
   ]
 }
