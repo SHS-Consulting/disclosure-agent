@@ -2905,6 +2905,33 @@
       ],
       "source_url": "https://en.wikipedia.org/wiki/Ralph_Blumenthal",
       "region": "usa"
+    },
+    {
+      "id": "helene-cooper",
+      "name": "Helene Cooper",
+      "emoji": "📰",
+      "role": "Pentagon-Korrespondentin, New York Times",
+      "nationality": "US-amerikanisch (geb. Liberia)",
+      "born": "1966",
+      "affiliation": "New York Times",
+      "credibility": 9.0,
+      "category": "Journalismus",
+      "tags": [
+        "Journalist",
+        "NYT",
+        "Pentagon",
+        "Disclosure",
+        "AATIP"
+      ],
+      "bio": "Pentagon-Korrespondentin der New York Times. Co-Autorin des bahnbrechenden NYT-Artikels vom 16. Dezember 2017 ('2 Navy Airmen and an Object That Accelerated Like Nothing I've Ever Seen') zusammen mit Leslie Kean und Ralph Blumenthal — enthüllte das geheime AATIP-Programm und löste die moderne Disclosure-Bewegung aus. Pulitzer-Preisträgerin (2015, Ebola-Berichterstattung). Autorin von 'The House at Sugar Beach' (2008, Memoir über Liberia) und 'Madame President: The Extraordinary, True (And Evolving) Story of Women in Politics' (2017). Jahrzehntelange Pentagon-Erfahrung ermöglichte ihr Zugang zu AATIP-Quellen. Verbindungen: Leslie Kean, Ralph Blumenthal, Luis Elizondo, Harry Reid.",
+      "linked_cases": [
+        "nyt-aatip-artikel-2017"
+      ],
+      "linked_themes": [
+        "journalismus-disclosure"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Helene_Cooper",
+      "region": "usa"
     }
   ]
 }
