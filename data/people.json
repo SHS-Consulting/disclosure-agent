@@ -2497,6 +2497,217 @@
         "tonight-show",
         "peter-popoff"
       ]
+    },
+    {
+      "id": "carlos-diaz",
+      "name": "Carlos Díaz",
+      "role": "Kontaktperson / Fotograf",
+      "nationality": "Mexikanisch",
+      "born": "1955",
+      "died": null,
+      "category": "Kontaktperson / Zeuge",
+      "credibility_score": 7.0,
+      "status": "lebend",
+      "summary": "Mexikanischer Fotograf aus Tepoztlán, der ab 1981 über mehr als ein Jahrzehnt Kontakte zu orangefarbenen, organisch wirkenden Lichtobjekten ('Ships of Light') dokumentierte. Seine Fotos wurden von Dr. Robert Nathan (NASA JPL) und Prof. Victor Escobedo (Universität Guadalajara) analysiert — keine Fälschung nachweisbar. Über 12.000 Bewohner Tepoztláns berichteten von denselben Phänomenen. Zweifacher EBE Award Winner (Best Picture). Gilt als einer der wichtigsten Kontaktfälle Lateinamerikas.",
+      "key_claims": [
+        "Erstkontakt 23. März 1981, Ajusco National Forest, Mexiko",
+        "Orangefarbene, organisch wirkende Lichtobjekte — keine metallische Struktur",
+        "Über 12 Jahre Kontaktserie, Fotos und Filmaufnahmen",
+        "Beschreibt Innenraum des Objekts und Kommunikation mit Insassen",
+        "Tepoztlán als UAP-Hotspot: 12.000 Zeugen bestätigen ähnliche Sichtungen"
+      ],
+      "evidence": [
+        "NASA JPL Analyse (Dr. Robert Nathan): keine Doppelbelichtung, keine Manipulation",
+        "Universität Guadalajara (Prof. Victor Escobedo): Fotos authentisch",
+        "Massenzeugnis: >12.000 Einwohner Tepoztláns sahen dasselbe Phänomen",
+        "Dokumentation 'Ships of Light' — 2-Time EBE Award Winner",
+        "Jaime Maussan Untersuchung: Originalfolien analysiert, keine Fälschung"
+      ],
+      "controversies": [
+        "Hoax-Vorwürfe (Rense.com): Stativ angeblich von Aliens geliehen",
+        "Kein unabhängiges Peer-Review der Laboranalysen",
+        "Jaime Maussan als Investigator — später durch Nazca-Mumien-Kontroverse belastet"
+      ],
+      "connections": [
+        "Jaime Maussan (Investigator)",
+        "UFOTV / UFO Central (Dokumentation 'Ships of Light')",
+        "Tepoztlán UAP-Hotspot (Mexiko)"
+      ],
+      "linked_cases": [
+        "carlos-diaz-ships-of-light-1981"
+      ],
+      "linked_theses": [
+        "these-32-kontaktpersonen-netzwerk"
+      ],
+      "sources": [
+        "UFOTV: Ships Of Light: The Carlos Diaz UFO Experience (2024)",
+        "NASA JPL Analyse — Dr. Robert Nathan",
+        "UFO Evidence: Carlos Diaz Case Is Not A Hoax (ufoevidence.org)"
+      ],
+      "tags": [
+        "kontakt",
+        "fotografie",
+        "mexiko",
+        "ships-of-light",
+        "organisch",
+        "ebe-award",
+        "tepoztlan",
+        "massenzeugnis"
+      ]
+    },
+    {
+      "id": "stephen-bassett",
+      "name": "Stephen Bassett",
+      "role": "UAP-Lobbyist / Politischer Aktivist",
+      "nationality": "Amerikanisch",
+      "born": "1947",
+      "died": null,
+      "category": "Forscher / Aktivist",
+      "credibility_score": 6.5,
+      "status": "lebend",
+      "summary": "Erster registrierter UFO-Lobbyist der USA. Gründer der Paradigm Research Group (PRG, 1996). Prägte den Begriff 'Disclosure' als politisches Konzept und lobbyiert seit fast 30 Jahren im US-Kongress für UAP-Transparenz. Physik-Ausbildung. Koordinierte die Capitol-Pressekonferenz vom 9. Juni 2026 gemeinsam mit James Fox, David Grusch und mehreren Kongressabgeordneten.",
+      "key_claims": [
+        "Regierung hält seit 1947 Informationen über außerirdisches Leben zurück ('Truth Embargo')",
+        "Disclosure ist ein politischer Prozess, kein einzelnes Ereignis",
+        "Paradigm Research Group dokumentiert >9.000 Medieneinträge seit 2017",
+        "Fordert: Staatsoberhaupt soll öffentlich Existenz nicht-menschlichen Lebens bestätigen"
+      ],
+      "evidence": [
+        "Registrierter Lobbyist (OpenSecrets.org, seit 1998)",
+        "Koordination Capitol-Pressekonferenz 9. Juni 2026 (Grusch, Fox, Burlison, Luna, Moskowitz)",
+        "Paradigm Research Group: dokumentierte Lobbying-Aktivitäten seit 1996"
+      ],
+      "controversies": [
+        "Kein direkter Zeuge — rein politischer Aktivist",
+        "Kritik: übertreibt Gewissheit über Regierungswissen",
+        "Aliens.gov (3. Juni 2026) ist eine Immigrations-Website — NICHT UAP-bezogen"
+      ],
+      "connections": [
+        "James Fox (Dokumentarfilmer, 'The Phenomenon')",
+        "David Grusch (Whistleblower)",
+        "Rep. Tim Burchett, Rep. Anna Paulina Luna, Rep. Jared Moskowitz",
+        "Leslie Kean (Investigativjournalistin)"
+      ],
+      "linked_cases": [
+        "pursue-release-01-2026",
+        "pursue-release-02-2026"
+      ],
+      "linked_theses": [
+        "these-69-pursue-transparenz-2026"
+      ],
+      "sources": [
+        "OpenSecrets.org: Stephen G Bassett Lobbying Profile",
+        "El País: Secrets, UFOs, and smokescreens (31. Mai 2026)",
+        "PRNewswire: Push for UAP Transparency (28. Mai 2026)"
+      ],
+      "tags": [
+        "lobbyist",
+        "disclosure",
+        "kongress",
+        "paradigm-research",
+        "aktivist",
+        "truth-embargo"
+      ]
+    },
+    {
+      "id": "nat-cobitz",
+      "name": "Nat Cobitz",
+      "role": "Ehemaliger Director of Science, Technology and Development, US Navy",
+      "nationality": "Amerikanisch",
+      "born": "ca. 1940",
+      "died": null,
+      "category": "Militär / Regierung",
+      "credibility_score": 8.0,
+      "status": "verstorben (ca. 2010er)",
+      "summary": "Ehemaliger Director of Science, Technology and Development der US Navy. Beschrieb gegenüber Investigativjournalist Ross Coulthart, dass er geborgene nicht-menschliche Handwerkszeug-Materialien gezeigt bekam. Coulthart bezeichnete Cobitz' Aussagen als das, was ihn persönlich davon überzeugte, dass das UAP-Phänomen real ist. Hochrangige Quelle aus dem Militär-Wissenschaftsbereich.",
+      "key_claims": [
+        "Wurde geborgene nicht-menschliche Handwerkszeug-Materialien (NHI craft materials) gezeigt",
+        "Bestätigte gegenüber Coulthart: USA hat mehrere außerirdische Objekte geborgen",
+        "Erwähnte Roswell-Incident als Teil der Bergungsgeschichte"
+      ],
+      "evidence": [
+        "Direkte Aussage gegenüber Ross Coulthart (NewsNation Reality Check Podcast, Mai 2026)",
+        "Position: Director of Science, Technology and Development, US Navy — höchste Glaubwürdigkeit",
+        "Coulthart: 'Seine Aussagen überzeugten mich persönlich von der Realität des Phänomens'"
+      ],
+      "controversies": [
+        "Keine öffentliche schriftliche Aussage unter Eid",
+        "Cobitz ist verstorben — keine Möglichkeit zur Nachfrage",
+        "Nur über Coulthart als Vermittler bekannt"
+      ],
+      "connections": [
+        "Ross Coulthart (NewsNation, Reality Check Podcast)",
+        "US Navy Science & Technology",
+        "Roswell Incident (angebliche Verbindung)"
+      ],
+      "linked_cases": [
+        "pursue-release-01-2026"
+      ],
+      "linked_theses": [
+        "these-70-nhi-material-recovery"
+      ],
+      "sources": [
+        "NewsNation Reality Check Podcast: Ross Coulthart Q&A (29. Mai 2026)",
+        "Spotify: Reality Check with Ross Coulthart — Nat Cobitz Episode"
+      ],
+      "tags": [
+        "navy",
+        "nhi-material",
+        "bergung",
+        "coulthart",
+        "militaer",
+        "hochrangig"
+      ]
+    },
+    {
+      "id": "dan-farah",
+      "name": "Dan Farah",
+      "role": "Dokumentarfilmer / UAP-Researcher",
+      "nationality": "Amerikanisch",
+      "born": "ca. 1970",
+      "died": null,
+      "category": "Forscher / Aktivist",
+      "credibility_score": 5.5,
+      "status": "lebend",
+      "summary": "Amerikanischer Dokumentarfilmer und UAP-Researcher. Regisseur von 'The Age of Disclosure' (2025), der ersten großen UAP-Dokumentation nach den AARO-Hearings. Positioniert, dass USA und andere Nationen außerirdische Technologie geborgen haben und in einem Wettlauf um Reverse Engineering stehen. Beschreibt die aktuelle Situation als 'den größten Moment in der Geschichte der Menschheit'.",
+      "key_claims": [
+        "USA und andere Nationen haben außerirdische Technologie geborgen",
+        "Wettlauf um Reverse Engineering läuft bereits",
+        "Aktuelle PURSUE-Releases 'kratzen kaum an der Oberfläche'",
+        "Disclosure ist ein Prozess, der sich über das gesamte Jahr 2026 erstrecken wird"
+      ],
+      "evidence": [
+        "Dokumentation 'The Age of Disclosure' (2025) — Interviews mit Elizondo, Grusch, Corbell",
+        "NewsNation Elizabeth Vargas Reports (23. Mai 2026)"
+      ],
+      "controversies": [
+        "Keine eigenen direkten Beweise — aggregiert Aussagen anderer",
+        "Kommerzielles Interesse an Disclosure-Narrativ"
+      ],
+      "connections": [
+        "Luis Elizondo",
+        "David Grusch",
+        "Jeremy Corbell",
+        "NewsNation",
+        "PURSUE-Prozess"
+      ],
+      "linked_cases": [
+        "pursue-release-02-2026"
+      ],
+      "linked_theses": [
+        "these-69-pursue-transparenz-2026"
+      ],
+      "sources": [
+        "NewsNation: UFO videos show 'we're not the apex predator anymore' (23. Mai 2026)",
+        "The Age of Disclosure Documentary (2025)"
+      ],
+      "tags": [
+        "dokumentarfilm",
+        "age-of-disclosure",
+        "reverse-engineering",
+        "pursue",
+        "aktivist"
+      ]
     }
   ]
 }

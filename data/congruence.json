@@ -3780,6 +3780,99 @@
         "these-64-bewusstsein-ufo-interface",
         "these-66-psychische-faehigkeiten-nhi"
       ]
+    },
+    {
+      "id": "these-69-pursue-transparenz-2026",
+      "number": 69,
+      "title": "PURSUE-Transparenz-Prozess 2026: Erste echte Massenfreigabe in der US-Geschichte",
+      "subtitle": "Trump Executive Order → PURSUE Portal → Rollende Freigaben — Tipping Point erreicht",
+      "score": 8.5,
+      "status": "BELEGT",
+      "category": "Politik / Regierung / Disclosure",
+      "tags": [
+        "pursue",
+        "trump",
+        "pentagon",
+        "massenfreigabe",
+        "disclosure",
+        "kongress",
+        "2026",
+        "historisch"
+      ],
+      "summary": "Erstmals in der US-Geschichte ordnet ein Präsident die systematische Freigabe von UAP-Dokumenten an. Das PURSUE-Portal (Presidential Unsealing and Reporting System for UAP Encounters) bündelt Freigaben von DoW, ODNI, DOE, NASA, FBI und CIA. Über 1 Milliarde Nutzer haben war.gov/UFO besucht. Biparteiische Kongressabgeordnete, Whistleblower und Investigativjournalisten konvergieren auf denselben Punkt: Die Regierung weiß mehr, als sie freigibt.",
+      "max_temporal_gap_years": 79,
+      "key_evidence": [
+        "PURSUE Release 01 (8. Mai 2026): 162 Dateien — FBI-Akten, NASA-Fotos, Militärberichte",
+        "PURSUE Release 02 (22. Mai 2026): 51 Militärvideos, Senior Intelligence Officer Bericht",
+        "Über 1 Milliarde Nutzer auf war.gov/UFO",
+        "Biparteiische Capitol-Pressekonferenz 9. Juni 2026 (Grusch, Burlison, Luna, Moskowitz)",
+        "Kongress forderte 46 spezifische Videos — Deadline abgelaufen, keine freigegeben",
+        "Corbell: White House kontaktierte ihn für Disclosure-Beratung"
+      ],
+      "connected_people": [
+        "luis-elizondo",
+        "david-grusch",
+        "stephen-bassett",
+        "jeremy-corbell",
+        "ross-coulthart",
+        "dan-farah"
+      ],
+      "connected_cases": [
+        "pursue-release-01-2026",
+        "pursue-release-02-2026",
+        "sleeping-dog-corbell-2026",
+        "capitol-uap-pressekonferenz-juni-2026"
+      ],
+      "sources": [
+        "war.gov/UFO (offizielle Quelle)",
+        "CBS News: Pentagon releases more UFO files (22. Mai 2026)",
+        "PRNewswire: Push for UAP Transparency (28. Mai 2026)",
+        "El País: Secrets, UFOs, and smokescreens (31. Mai 2026)"
+      ]
+    },
+    {
+      "id": "these-70-nhi-material-recovery",
+      "number": 70,
+      "title": "NHI-Material-Bergung: Mehrere unabhängige Quellen bestätigen geborgene nicht-menschliche Technologie",
+      "subtitle": "Grusch (Eid) + Cobitz (Navy) + Elizondo (Pentagon) + Coulthart (Journalist) — 4 konvergierende Quellebenen",
+      "score": 8.0,
+      "status": "TEILWEISE BELEGT",
+      "category": "Bergung / NHI-Technologie / Whistleblower",
+      "tags": [
+        "nhi-material",
+        "bergung",
+        "reverse-engineering",
+        "grusch",
+        "cobitz",
+        "elizondo",
+        "coulthart",
+        "whistleblower"
+      ],
+      "summary": "Vier unabhängige Quellebenen konvergieren auf die These, dass die USA geborgene nicht-menschliche Technologie besitzen: (1) David Grusch unter Eid vor dem Kongress 2023, (2) Nat Cobitz (Director of Science, US Navy) gegenüber Coulthart, (3) Luis Elizondo (Pentagon-Insider) über 'covert retrieval programs', (4) Ross Coulthart (Investigativjournalist) mit Quellen aus dem Militär-Industriekomplex. Elizondo: 'treasure trove of data' in PURSUE Release 02. Coulthart: 'Regierung hat nie direkt die Frage nach geborgener NHI-Technologie beantwortet.'",
+      "max_temporal_gap_years": 79,
+      "key_evidence": [
+        "David Grusch unter Eid (Kongress 2023): Pentagon hält NHI-Teile und 'nonhuman remains'",
+        "Nat Cobitz (Director of Science, US Navy): wurde NHI-Material gezeigt",
+        "Luis Elizondo (Pentagon-Insider): bestätigt 'covert retrieval programs'",
+        "PURSUE Release 02: Video zeigt sphärische Objekte, die bei U-Boot ins Wasser tauchen",
+        "Sleeping Dog (2026): angebliches Insider-Video aus Liste der 46 zurückgehaltenen Videos"
+      ],
+      "connected_people": [
+        "david-grusch",
+        "nat-cobitz",
+        "luis-elizondo",
+        "ross-coulthart"
+      ],
+      "connected_cases": [
+        "pursue-release-02-2026",
+        "sleeping-dog-corbell-2026",
+        "capitol-uap-pressekonferenz-juni-2026"
+      ],
+      "sources": [
+        "NewsNation Reality Check Podcast: Ross Coulthart Q&A (29. Mai 2026)",
+        "Congressional Hearing: David Grusch Testimony (2023)",
+        "NewsNation: UFO videos show 'we're not the apex predator anymore' (23. Mai 2026)"
+      ]
     }
   ],
   "_auto_detection": {
