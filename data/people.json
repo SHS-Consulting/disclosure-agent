@@ -2708,6 +2708,192 @@
         "pursue",
         "aktivist"
       ]
+    },
+    {
+      "id": "leslie-kean",
+      "name": "Leslie Kean",
+      "role": "Investigativjournalistin / Autorin",
+      "nationality": "Amerikanisch",
+      "born": "ca. 1960",
+      "died": null,
+      "category": "Journalist / Forscher",
+      "credibility_score": 9.0,
+      "status": "lebend",
+      "summary": "Amerikanische Investigativjournalistin und New-York-Times-Bestsellerautorin. Co-Autorin des bahnbrechenden NYT-Artikels vom 16. Dezember 2017 ('Glowing Auras and Black Money'), der die Existenz des geheimen Pentagon-Programms AATIP enthüllte und die moderne Disclosure-Bewegung auslöste. Co-Autorin des Debrief-Artikels vom 5. Juni 2023, der David Gruschs Whistleblower-Aussagen über NHI-Bergungsprogramme erstmals veröffentlichte. Moderiert die Capitol-Pressekonferenz am 9. Juni 2026. Enkelin von Congressman Robert Kean, Nichte von NJ-Gouverneur Thomas Kean.",
+      "key_claims": [
+        "NYT 16. Dezember 2017: Pentagon hat $22,5 Mio. für geheimes UAP-Programm AATIP ausgegeben",
+        "The Debrief 5. Juni 2023: USA hat NHI-Fahrzeuge und 'nonhuman remains' geborgen (Grusch)",
+        "Buch 'UFOs: Generals, Pilots and Government Officials Go on the Record' (2010, NYT-Bestseller)",
+        "Buch 'Surviving Death' (2017): Journalistische Untersuchung von Nahtoderfahrungen",
+        "Moderiert Capitol UAP-Pressekonferenz 9. Juni 2026"
+      ],
+      "evidence": [
+        "NYT-Artikel 16. Dez. 2017 (mit Helene Cooper, Ralph Blumenthal): Enthüllte AATIP — löste moderne Disclosure-Bewegung aus",
+        "The Debrief 5. Juni 2023 (mit Ralph Blumenthal): Erste Veröffentlichung von Gruschs NHI-Aussagen",
+        "NYT-Bestseller 2010: 10 Jahre Recherche, Interviews mit Generälen, Piloten, Regierungsbeamten",
+        "UFODATA-Mitglied: wissenschaftliche UAP-Datenerhebung"
+      ],
+      "controversies": [
+        "Keine direkten Sichtungen — rein journalistische Tätigkeit",
+        "Kritik: zu unkritisch gegenüber Quellen wie Grusch"
+      ],
+      "connections": [
+        "Ralph Blumenthal (NYT Co-Autor)",
+        "Helene Cooper (NYT Co-Autorin)",
+        "David Grusch (Whistleblower, Debrief 2023)",
+        "James Fox (Capitol Pressekonferenz 9. Juni 2026)",
+        "Luis Elizondo (AATIP-Direktor)",
+        "Harry Reid (Senator, AATIP-Förderer)"
+      ],
+      "linked_cases": [
+        "aatip-pentagon-2007-2012",
+        "capitol-uap-pressekonferenz-juni-2026",
+        "pursue-release-01-2026"
+      ],
+      "linked_theses": [
+        "these-69-pursue-transparenz-2026"
+      ],
+      "sources": [
+        "NYT: Glowing Auras and Black Money (16. Dez. 2017)",
+        "The Debrief: Intelligence Officials Say U.S. Has Retrieved Craft of Non-Human Origin (5. Juni 2023)",
+        "Wikipedia: Leslie Kean",
+        "Penguin Random House: UFOs: Generals, Pilots and Government Officials Go on the Record (2010)"
+      ],
+      "tags": [
+        "journalist",
+        "nyt",
+        "aatip",
+        "grusch",
+        "debrief",
+        "bestseller",
+        "disclosure",
+        "capitol-2026",
+        "nhi-bergung"
+      ]
+    },
+    {
+      "id": "james-fox",
+      "name": "James C. Fox",
+      "role": "Dokumentarfilmer / UAP-Researcher",
+      "nationality": "Englisch-amerikanisch",
+      "born": "1968-04-25",
+      "died": null,
+      "category": "Forscher / Aktivist",
+      "credibility_score": 7.5,
+      "status": "lebend",
+      "summary": "Englisch-amerikanischer Dokumentarfilmer, der seit 1997 UAP-Dokumentationen produziert. Bekannt für 'Out of the Blue' (2003), 'The Phenomenon' (2020) und 'Moment of Contact' (2022, Varginha/Brasilien). 'The Phenomenon' gilt als beste UAP-Dokumentation aller Zeiten und enthält erstmals Aussagen aktiver Regierungsbeamter. Dreifacher Joe-Rogan-Gast. Moderiert die Capitol-Pressekonferenz am 9. Juni 2026 gemeinsam mit Leslie Kean. Neues Projekt: 'The Program' (2024).",
+      "key_claims": [
+        "'The Phenomenon' (2020): Erste Dokumentation mit Aussagen aktiver US-Regierungsbeamter über UAP",
+        "'Moment of Contact' (2022): Varginha/Brasilien 1996 — Zeugenbefragungen, Arzt beschreibt Kontakt mit geborgener NHI-Entität",
+        "'The Program' (2024): Untersuchung geheimer Regierungsprogramme zur UAP-Bergung",
+        "Moderiert Capitol UAP-Pressekonferenz 9. Juni 2026"
+      ],
+      "evidence": [
+        "'The Phenomenon' (2020): Rotten Tomatoes 100%, Aussagen von John Podesta, Fife Symington, Michio Kaku",
+        "'Moment of Contact' (2022): Neurochirurg beschreibt direkten Kontakt mit geborgener NHI-Entität in Varginha",
+        "Joe Rogan Experience: 3 Auftritte (Dez. 2020 mit Jacques Vallée, Apr. 2023, Dez. 2024)",
+        "Capitol Pressekonferenz 9. Juni 2026: Mitorganisator"
+      ],
+      "controversies": [
+        "Kein direkter Zeuge — aggregiert Aussagen anderer",
+        "Varginha-Dokumentation: einige Zeugen später widersprüchlich"
+      ],
+      "connections": [
+        "Leslie Kean (Capitol Pressekonferenz 9. Juni 2026)",
+        "Jacques Vallée (Joe Rogan 2020)",
+        "David Grusch (The Program 2024)",
+        "Luis Elizondo",
+        "Dan Farah (The Age of Disclosure)"
+      ],
+      "linked_cases": [
+        "varginha-brasilien-1996",
+        "capitol-uap-pressekonferenz-juni-2026"
+      ],
+      "linked_theses": [
+        "these-69-pursue-transparenz-2026"
+      ],
+      "sources": [
+        "Wikipedia: James Fox (filmmaker)",
+        "IMDB: The Phenomenon (2020), Moment of Contact (2022), The Program (2024)",
+        "The Guardian: 'It's not a question of belief' (7. Okt. 2020)",
+        "Hollywood Reporter: New UFO Doc 'The Program' Set"
+      ],
+      "tags": [
+        "dokumentarfilm",
+        "the-phenomenon",
+        "moment-of-contact",
+        "varginha",
+        "the-program",
+        "joe-rogan",
+        "capitol-2026",
+        "disclosure"
+      ]
+    },
+    {
+      "id": "jay-stratton",
+      "name": "Jay Stratton",
+      "role": "Ehemaliger Senior UAP-Investigator, DIA / AAWSAP / UAPTF",
+      "nationality": "Amerikanisch",
+      "born": "ca. 1970",
+      "died": null,
+      "category": "Militär / Regierung",
+      "credibility_score": 9.5,
+      "status": "lebend",
+      "summary": "Zentralfigur der modernen US-Regierungsuntersuchung von UAP und nicht-menschlichem intelligentem Leben. Mitgründer des AAWSAP (Advanced Aerospace Weapon System Applications Program) — dem ersten offiziellen US-Regierungsprogramm zur UAP-Untersuchung seit Project Blue Book. Gründer und Leiter der UAPTF (Unidentified Aerial Phenomena Task Force), der ersten gesamtstaatlichen UAP-Untersuchung. Ausgezeichnet mit dem National Intelligence Meritorious Unit Citation (höchste Auszeichnung für eine Einheit im Intelligence-Bereich) und dem DIA Director's Award. Memoir 'Out of the Shadows' erscheint Oktober 2026 (HarperCollins). Arbeitet weiterhin eng mit White House, DNI und Department of War zusammen.",
+      "key_claims": [
+        "Entdeckte 80-jährige Vertuschung der Existenz nicht-menschlichen intelligenten Lebens",
+        "UAP-Vorfälle über Nuklearwaffen-Standorten dokumentiert",
+        "Kämpfte gegen 'mächtige Gatekeeper' im Intelligence-Bereich",
+        "Memoir: 'Die USA sind nicht allein im Universum' — erstmals öffentlich bestätigt",
+        "Arbeitet weiterhin mit White House, DNI und DoW zur Identifizierung aller Beweise"
+      ],
+      "evidence": [
+        "AAWSAP-Mitgründer: erstes offizielles US-UAP-Programm seit Project Blue Book",
+        "UAPTF-Gründer und -Leiter: erste gesamtstaatliche UAP-Untersuchung",
+        "National Intelligence Meritorious Unit Citation (Oktober 2024): höchste Einheitsauszeichnung im Intelligence-Bereich",
+        "DIA Director's Award",
+        "Memoir 'Out of the Shadows' (HarperCollins, Oktober 2026): 16 Jahre Ersthand-Erfahrungen",
+        "Dan Farah (The Age of Disclosure) sicherte Film-/TV-Rechte für Scripted Series"
+      ],
+      "controversies": [
+        "Memoir noch nicht erschienen (Oktober 2026) — Inhalte noch nicht vollständig verifizierbar",
+        "Keine öffentliche Aussage unter Eid vor Kongress (bisher)"
+      ],
+      "connections": [
+        "Dan Farah (The Age of Disclosure — Film-/TV-Rechte für Memoir)",
+        "White House (aktive Zusammenarbeit)",
+        "Director of National Intelligence (aktive Zusammenarbeit)",
+        "Department of War (aktive Zusammenarbeit)",
+        "AAWSAP / UAPTF / DIA",
+        "Luis Elizondo (AATIP-Verbindung)"
+      ],
+      "linked_cases": [
+        "pursue-release-01-2026",
+        "pursue-release-02-2026"
+      ],
+      "linked_theses": [
+        "these-69-pursue-transparenz-2026",
+        "these-70-nhi-material-recovery"
+      ],
+      "sources": [
+        "Hollywood Reporter: Jay Stratton Memoir Out of the Shadows (4. Juni 2026)",
+        "HarperCollins: Out of the Shadows — Preorder (Oktober 2026)",
+        "The Age of Disclosure Documentary (2025) — Stratton als Hauptfigur",
+        "National Intelligence Meritorious Unit Citation (Oktober 2024)"
+      ],
+      "tags": [
+        "aawsap",
+        "uaptf",
+        "dia",
+        "nhi",
+        "80-jahre-vertuschung",
+        "memoir",
+        "white-house",
+        "dni",
+        "nuklear",
+        "hochrangig",
+        "2026"
+      ]
     }
   ]
 }

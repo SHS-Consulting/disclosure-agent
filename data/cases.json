@@ -5734,6 +5734,114 @@
         "2026",
         "biparteiisch"
       ]
+    },
+    {
+      "id": "pursue-release-03-geplant-2026",
+      "title": "PURSUE Release 03: Dritte Tranche UAP-Freigabe (geplant ~12. Juni 2026)",
+      "date": "2026-06-12",
+      "location": "Washington D.C., USA",
+      "category": "Regierung / Offizielle Dokumente",
+      "credibility_score": 8.0,
+      "status": "AUSSTEHEND",
+      "summary": "Das Department of War kündigte in der Pressemitteilung zu Release 02 (22. Mai 2026) an: 'Wir arbeiten aktiv an der dritten Freigabe von UAP-Dateien, die in naher Zukunft angekündigt wird.' Gerüchten zufolge (Reddit r/aliens, X-Post) soll Release 03 am 12. Juni 2026 erscheinen — zeitgleich mit Steven Spielbergs Film 'Disclosure Day' (Universal Pictures, 12. Juni 2026). Prediction Markets (Lines.com): 77% Wahrscheinlichkeit für Release vor 30. Juni 2026. Inhalt unbekannt, aber erwartet werden weitere Militärvideos und möglicherweise erstmals Dokumente über Bergungsprogramme.",
+      "key_facts": [
+        "Offiziell angekündigt in DoW Pressemitteilung zu Release 02 (22. Mai 2026)",
+        "Gerücht: Erscheinungsdatum 12. Juni 2026 (zeitgleich mit Spielbergs 'Disclosure Day')",
+        "Prediction Markets: 77% Wahrscheinlichkeit für Release vor 30. Juni 2026",
+        "Erwarteter Inhalt: weitere Militärvideos, möglicherweise Bergungsprogramm-Dokumente",
+        "Jay Stratton arbeitet weiterhin mit DoW zur Identifizierung aller Beweise"
+      ],
+      "evidence_quality": "Ausstehend — noch nicht veröffentlicht",
+      "witnesses": [
+        "Department of War",
+        "Sean Parnell (Pentagon Spokesman)",
+        "Jay Stratton (aktive Zusammenarbeit)"
+      ],
+      "connections": [
+        "PURSUE-Prozess",
+        "Jay Stratton",
+        "Disclosure Day (Spielberg-Film)",
+        "Capitol Pressekonferenz 9. Juni 2026"
+      ],
+      "linked_people": [
+        "jay-stratton",
+        "david-grusch",
+        "luis-elizondo"
+      ],
+      "linked_theses": [
+        "these-69-pursue-transparenz-2026"
+      ],
+      "sources": [
+        "war.gov: DoW Pressemitteilung Release 02 (22. Mai 2026)",
+        "Reddit r/aliens: RUMOR: Next UFO Files Drop June 12th (28. Mai 2026)",
+        "Lines.com: Trump declassifies new UFO files by...? (Prediction Market)"
+      ],
+      "tags": [
+        "pursue",
+        "release-03",
+        "ausstehend",
+        "pentagon",
+        "2026",
+        "spielberg",
+        "disclosure-day",
+        "jay-stratton"
+      ]
+    },
+    {
+      "id": "jay-stratton-out-of-shadows-memoir-2026",
+      "title": "Jay Stratton: 'Out of the Shadows' — 16 Jahre UAP-Untersuchung, 80-jährige Vertuschung (Oktober 2026)",
+      "date": "2026-10-13",
+      "location": "USA",
+      "category": "Whistleblower / Memoir",
+      "credibility_score": 9.5,
+      "status": "AUSSTEHEND",
+      "summary": "Memoir von Jay Stratton, der zentralen Figur der modernen US-Regierungsuntersuchung von UAP. Stratton co-gründete AAWSAP (erstes offizielles US-UAP-Programm seit Project Blue Book) und gründete die UAPTF (erste gesamtstaatliche UAP-Untersuchung). Das Memoir beschreibt eine 80-jährige Vertuschung der Existenz nicht-menschlichen intelligenten Lebens, UAP-Vorfälle über Nuklearwaffen-Standorten und den Kampf gegen 'mächtige Gatekeeper'. Dan Farah (The Age of Disclosure) sicherte Film-/TV-Rechte für eine Scripted Series. Erscheint 13. Oktober 2026 bei HarperCollins/William Morrow.",
+      "key_facts": [
+        "Stratton: 16 Jahre UAP-Untersuchung für US-Regierung (DIA, AAWSAP, UAPTF)",
+        "Entdeckte 80-jährige Vertuschung der Existenz nicht-menschlichen intelligenten Lebens",
+        "UAP-Vorfälle über Nuklearwaffen-Standorten dokumentiert",
+        "National Intelligence Meritorious Unit Citation (Oktober 2024)",
+        "Dan Farah sicherte Film-/TV-Rechte — Scripted Series in Entwicklung",
+        "Stratton arbeitet weiterhin mit White House, DNI und DoW zusammen"
+      ],
+      "evidence_quality": "Sehr hoch erwartet — 16 Jahre Ersthand-Erfahrungen, höchste Auszeichnungen",
+      "witnesses": [
+        "Jay Stratton (Autor, ehemaliger DIA/AAWSAP/UAPTF)"
+      ],
+      "connections": [
+        "Dan Farah (The Age of Disclosure)",
+        "White House",
+        "DNI",
+        "Department of War",
+        "Luis Elizondo",
+        "PURSUE-Prozess"
+      ],
+      "linked_people": [
+        "jay-stratton",
+        "dan-farah",
+        "luis-elizondo"
+      ],
+      "linked_theses": [
+        "these-69-pursue-transparenz-2026",
+        "these-70-nhi-material-recovery"
+      ],
+      "sources": [
+        "Hollywood Reporter: Jay Stratton Memoir Out of the Shadows (4. Juni 2026)",
+        "HarperCollins/William Morrow: Out of the Shadows (Preorder, Oktober 2026)",
+        "The Age of Disclosure Documentary (2025)"
+      ],
+      "tags": [
+        "stratton",
+        "memoir",
+        "aawsap",
+        "uaptf",
+        "80-jahre-vertuschung",
+        "nhi",
+        "nuklear",
+        "harpercolins",
+        "2026",
+        "scripted-series"
+      ]
     }
   ]
 }
