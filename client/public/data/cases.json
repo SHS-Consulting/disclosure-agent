@@ -1461,7 +1461,7 @@
       "id": "aaro-al-taqaddum-2017",
       "title": "Al Taqaddum Objekt — Irak 2017",
       "region": "Naher Osten",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "date": "2017-10-23",
       "location": "Al Taqaddum Air Base, Irak",
       "score": 62,
@@ -1480,7 +1480,7 @@
       "id": "aaro-mt-etna-2018",
       "title": "Mt. Etna Objekt — Sizilien 2018",
       "region": "Europa",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "date": "2018-12",
       "location": "Mittelmeer, südlich Sizilien, Italien",
       "score": 58,
@@ -1500,7 +1500,7 @@
       "id": "aaro-puerto-rico-2013",
       "title": "Puerto Rico Objekte — Aguadilla 2013",
       "region": "Karibik",
-      "level": "KRITISCH",
+      "level": "critical",
       "date": "2013-04-26",
       "location": "Rafael Hernandez Airport, Aguadilla, Puerto Rico",
       "score": 78,
@@ -1519,7 +1519,7 @@
       "id": "aaro-gofast-2015",
       "title": "GoFast — Atlantik 2015",
       "region": "Nordamerika",
-      "level": "KRITISCH",
+      "level": "critical",
       "date": "2015-01",
       "location": "Atlantischer Ozean, Küste Florida, USA",
       "score": 82,
@@ -1540,7 +1540,7 @@
       "id": "aaro-eglin-uap-2023",
       "title": "Eglin UAP — Trainingsbereich USA 2023",
       "region": "Nordamerika",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "date": "2023",
       "location": "Eglin Air Force Base Trainingsbereich, USA",
       "score": 55,
@@ -1558,7 +1558,7 @@
       "id": "aaro-atmospheric-wake-2022-23",
       "title": "Atmospheric Wake Objekte — Naher Osten / Mittelmeer 2022–2023",
       "region": "Naher Osten",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "date": "2022/2023",
       "location": "Naher Osten und Mittelmeer",
       "score": 60,
@@ -1577,7 +1577,7 @@
       "id": "aaro-southeast-asia-triangles-2023",
       "title": "Südostasien Dreiecke — Formation 2023",
       "region": "Asien",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "date": "2023",
       "location": "Südostasien",
       "score": 65,
@@ -1596,7 +1596,7 @@
       "id": "aaro-western-us-2021",
       "title": "Western US Objekte — Lichter in Formation 2021",
       "region": "Nordamerika",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "date": "2021",
       "location": "Westliche USA",
       "score": 58,
@@ -1615,7 +1615,7 @@
       "id": "aaro-nara-uap-records",
       "title": "NARA UAP-Akten — Nationale Archivdatenbank",
       "region": "Nordamerika",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "date": "2023-2026",
       "location": "Washington D.C., USA",
       "score": 70,
@@ -1634,7 +1634,7 @@
       "id": "aaro-nasa-uap-study-2023",
       "title": "NASA UAP Independent Study — Abschlussbericht 2023",
       "region": "Nordamerika",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "date": "2023-09-14",
       "location": "Washington D.C., USA",
       "score": 75,
@@ -1653,7 +1653,7 @@
       "id": "aaro-kona-blue-dhs",
       "title": "KONA BLUE — DHS Geheimprogramm-Enthüllung",
       "region": "Nordamerika",
-      "level": "KRITISCH",
+      "level": "critical",
       "date": "2024",
       "location": "USA",
       "score": 88,
@@ -1673,7 +1673,7 @@
       "id": "aaro-ornl-aluminum-2024",
       "title": "ORNL Analyse — Aluminium-Probe (Ohio, 1990er)",
       "region": "Nordamerika",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "date": "2024",
       "location": "Oak Ridge, Tennessee, USA",
       "score": 65,
@@ -1693,7 +1693,7 @@
       "id": "aaro-ornl-metallic-mg-alloy-2024",
       "title": "ORNL Analyse — Magnesium-Legierung (angeblich Roswell 1947)",
       "region": "Nordamerika",
-      "level": "KRITISCH",
+      "level": "critical",
       "date": "2024-04",
       "location": "Oak Ridge, Tennessee, USA",
       "score": 85,
@@ -1714,7 +1714,7 @@
       "id": "aaro-declassification-paper-2025",
       "title": "AARO Declassification — Informationspapier 2025",
       "region": "Nordamerika",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "date": "2025",
       "location": "Washington D.C., USA",
       "score": 68,
@@ -1732,7 +1732,7 @@
       "id": "aaro-starlink-flaring-uap-2025",
       "title": "Starlink Satellite Flaring — UAP-Verwechslungen",
       "region": "Global",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "date": "2025-04-22",
       "location": "Global",
       "score": 55,
@@ -1751,7 +1751,7 @@
       "id": "aaro-forced-perspective-parallax-2024",
       "title": "Forced Perspective & Parallax — UAP-Fehlwahrnehmungen",
       "region": "Global",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "date": "2024",
       "location": "Global",
       "score": 50,
@@ -1770,7 +1770,7 @@
       "id": "aaro-uap-workshop-2025",
       "title": "AARO UAP Workshop — Narrative Data & Analysis 2025",
       "region": "Nordamerika",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "date": "2025-08",
       "location": "USA",
       "score": 72,
@@ -1823,7 +1823,7 @@
       ],
       "region": "Nordamerika",
       "status": "unverified_classified",
-      "level": "KRITISCH",
+      "level": "critical",
       "score": 9.4,
       "description": "Holloman AFB, New Mexico: Drei UAPs landen auf dem Gelände. Paul Shartle (Norton AFB) bezeugte 16mm-Film: NHI verlässt Scheibe mit Spiralantennenstab. George H.W. Bush bestätigte gegenüber Eric Davis: 'Es war das Echte.' Film von Capt. Horner konfisziert."
     },
@@ -1861,7 +1861,7 @@
       ],
       "region": "Nordamerika",
       "status": "documented",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "score": 8.7,
       "description": "Robert Emenegger und Allan Sandler erhielten Pentagon-Genehmigung für Dokumentarfilm 'UFOs: Past, Present and Future'. DoD versprach echtes Holloman-Filmmaterial, zog es kurz vor Fertigstellung zurück. Col. William Coleman genehmigte ursprüngliche Nutzung."
     },
@@ -1906,7 +1906,7 @@
       ],
       "region": "Nordamerika",
       "status": "documented",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "score": 78,
       "description": "Steven Spielberg kündigt Mai 2026 seinen neuen Film 'Disclosure Day' an (Kinostart 11. Juni 2026). Bei SXSW März 2026 sagte Spielberg: 'Ich habe eine starke Vermutung, dass wir nicht allein sind.' Und: 'Dieser Film ist mehr Wahrheit als Fiktion.' HINTERGRUND: Spielberg beriet sich bereits 1976/77 für 'Unheimliche Begegnung der dritten Art' mit J. Allen Hynek (Project Blue Book Leiter) — und laut mehreren Quellen auch mit CIA-Beratern. Die Handlung von CE3K (1977) zeigt freundlichen Erstkontakt mit Regierungswissen — Hynek sagte später, der Film sei 'näher an der Wahrheit als die Öffentlichkeit weiß'. BEN RICH-SPIELBERG-VERBINDUNG: Rich begann seinen 'ET home'-Witz exakt 1983 — dem Jahr, in dem Spielbergs ET der erfolgreichste Film aller Zeiten wurde. Rich nutzte Spielbergs kulturellen Fingerabdruck als Deckmantel für seine Aussagen. DISCLOSURE DAY (2026): Spielberg sagt, der Film behandle die 'soziologischen und emotionalen Auswirkungen einer Disclosure' — nicht Fiktion, sondern Vorbereitung der Öffentlichkeit. Timing: Exakt während PURSUE Act Release 01+02 (Mai 2026). Zufall oder koordiniert?"
     },
@@ -1948,7 +1948,7 @@
       "region": "Nordamerika",
       "status": "documented",
       "credibility_note": "Höchstdekorierter Zeuge in der UAP-Geschichte: MIT-Doktor, NASA-Astronaut, 6. Mensch auf dem Mond, 9-Stunden-Mondspaziergang (Rekord mit Alan Shepard). Akademische und militärische Qualifikationen auf höchstem Niveau.",
-      "level": "KRITISCH",
+      "level": "critical",
       "score": 9.1,
       "description": "Dr. Edgar Mitchell, Apollo 14-Astronaut und 6. Mensch auf dem Mond, erklärte 2008 in Kerrang Radio: 'Wir werden von Außerirdischen besucht.' Mitchell berichtete von Roswell-Insider-Briefings durch NASA-Veteranen und beschrieb NHI als 'kleine Menschen mit großen Köpfen'."
     },
@@ -1974,7 +1974,7 @@
       "source": "UN-Rede Gordon Cooper 1985 / ufologie.patrickgross.org",
       "source_url": "https://en.wikipedia.org/wiki/Gordon_Cooper",
       "significance": "Höchstdekorierter USAF-Zeuge: Mercury- und Gemini-Astronaut, Testpilot, Luft- und Raumfahrtingenieur. Drei unabhängige Sichtungen über 6 Jahre. Kamerateam-Dokumentation konfisziert.",
-      "level": "KRITISCH",
+      "level": "critical",
       "score": 9.0,
       "region": "Nordamerika",
       "description": "Col. Gordon Cooper, Mercury- und Gemini-Astronaut, bezeugte UAP-Sichtungen über Edwards AFB 1957 (Filmaufnahmen) und UN-Zeugnis 1985. Cooper: 'Außerirdische Raumschiffe sind real. Ich habe sie selbst gesehen.' Filmaufnahmen von Edwards AFB wurden von der Air Force konfisziert."
@@ -2001,7 +2001,7 @@
       "source": "Apollo 11 Technical Crew Debriefing 1969 / NY Post (2026)",
       "source_url": "https://en.wikipedia.org/wiki/Buzz_Aldrin",
       "significance": "Erstmals öffentlich bestätigte UAP-Sichtung während der historischen Mondlandungsmission. Aldrin: West Point + MIT Doktor in Astronautik, Presidential Medal of Freedom.",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "score": 8.3,
       "region": "Weltraum",
       "description": "Buzz Aldrin beobachtete während Apollo 11 auf dem Weg zum Mond ein L-förmiges Objekt. Aldrin: 'Es war kein Teil der Rakete. Wir wussten nicht, was es war.' NASA-Kommunikation über Objekt dokumentiert. Aldrin bestätigte Sichtung in mehreren späteren Interviews."
@@ -2027,7 +2027,7 @@
       "source": "Project Camelot Interview (2009)",
       "source_url": "https://en.wikipedia.org/wiki/Brian_O%27Leary",
       "significance": "NASA-Astronaut, PhD Astronomie (Berkeley), Princeton-Physikprofessor – einer der akademisch höchstqualifizierten Whistleblower. Direkte Aussage über Kontakt mit außerirdischen Kulturen.",
-      "level": "KRITISCH",
+      "level": "critical",
       "score": 8.8,
       "region": "Nordamerika",
       "description": "Dr. Brian O'Leary, NASA-Astronaut (Apollo-Programm) und Princeton-Physikprofessor, erklärte 2009: 'We have contact with alien cultures.' O'Leary beschrieb geheime Regierungsprogramme und freie Energietechnologie. PhD Astronomie UC Berkeley."
@@ -2059,7 +2059,7 @@
       "source_url": "https://www.aaro.mil",
       "source_name": "CTX-EAG Special Issue Spring 2026, Naval Postgraduate School",
       "status": "Bestätigt",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "score": 8.0,
       "region": "Nordamerika",
       "description": "Dr. Jon Kosloski, AARO-Direktor, bestätigte beim CTX-EAG Symposium 2026 wissenschaftlichen UAP-Ansatz. AARO analysiert 1.600+ Fälle, 3% bleiben ungeklärt. Pentagon PURSUE Act Mai 2026 verpflichtet zur systematischen Offenlegung."
@@ -2096,7 +2096,7 @@
       "source_url": "https://nps.edu/web/ecco/uap-special-ctx-issue",
       "source_name": "CTX-EAG Special Issue Spring 2026 – Bilyk & Nikolaiev, Defense Intelligence Research Institute Kyiv",
       "status": "Bestätigt",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "score": 8.5,
       "region": "Europa",
       "description": "Dr. Artem Bilyk und Dr. Kyrylo Nikolaiev (Defense Intelligence Research Institute Kyiv) dokumentierten UAP-Sichtungen im ukrainischen Kriegsgebiet 2023–2024. Radar + Wärmebild-Bestätigung. Objekte zeigten keine Wärmesignatur trotz hoher Geschwindigkeit."
@@ -2130,7 +2130,7 @@
       "source_url": "https://nps.edu/web/ecco/uap-special-ctx-issue",
       "source_name": "CTX-EAG Special Issue Spring 2026 – Hagopian & Shank, Sandia National Laboratories",
       "status": "Bestätigt",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "score": 7.8,
       "region": "Nordamerika",
       "description": "Kaylin Hagopian und Dr. Joshua Shank (Sandia National Laboratories) präsentierten Event-Based Sensing-Technologie zur UAP-Erkennung beim CTX-EAG Symposium 2026. Technologie ermöglicht Hochgeschwindigkeits-Tracking ohne Bewegungsunschärfe."
@@ -2163,7 +2163,7 @@
       "source_url": "https://nps.edu/web/ecco/uap-special-ctx-issue",
       "source_name": "CTX-EAG Special Issue Spring 2026 – J. Kevin Ryan, USAF Ret. / AARO",
       "status": "Bestätigt",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "score": 7.5,
       "region": "Nordamerika",
       "description": "J. Kevin Ryan (ehem. AARO Chief of Operations) präsentierte forensischen UAP-Fotografie-Leitfaden beim CTX-EAG Symposium 2026. Standardisierte Methodik für Bürger-UAP-Dokumentation. Ziel: Verwertbare Beweise für AARO-Analyse."
@@ -2194,7 +2194,7 @@
       ],
       "source_url": "https://en.wikipedia.org/wiki/Skinwalker_Ranch",
       "source_label": "Exomagazin – Dr. Eric Davis Interview Teil 1, April 2026",
-      "level": "KRITISCH",
+      "level": "critical",
       "score": 8.6,
       "region": "Nordamerika",
       "description": "Dr. Eric Davis (DIA-Berater, EarthTech International) berichtete von telepathischem Kontakt auf der Skinwalker Ranch während NIDS-Forschungsaufenthalt. Burkhard Heim 12D-Theorie als physikalische Grundlage für Bewusstseinsfelder. AAWSAP-Programm finanzierte Folgeforschung."
@@ -2227,7 +2227,7 @@
       ],
       "source_url": "https://www.theblackvault.com/documentarchive/the-wilson-davis-memo/",
       "source_label": "Scribd – Wilson-Davis-Memo Einführungsguide",
-      "level": "KRITISCH",
+      "level": "critical",
       "score": 9.5,
       "region": "Nordamerika",
       "description": "Dr. Eric Davis dokumentierte Treffen mit Admiral Thomas Wilson (ehem. stellv. DIA-Direktor) in Las Vegas. Wilson bestätigte: Geheimes Reverse-Engineering-Programm existiert, er wurde als DIA-Direktor nicht eingeweiht. 15-seitiges Memo 2019 durch Steven Greer öffentlich gemacht."
@@ -2259,7 +2259,7 @@
       ],
       "source_url": "https://www.nytimes.com/2020/07/23/us/politics/pentagon-ufo-crash-materials.html",
       "source_label": "New York Magazine – 'Off-World Vehicles Not Made on This Earth', Juli 2020",
-      "level": "KRITISCH",
+      "level": "critical",
       "score": 9.3,
       "region": "Nordamerika",
       "description": "Dr. Eric Davis gab geheime Briefings an Senate Armed Services Committee (Okt. 2019) und Senate Intelligence Committee (März 2020). NYT berichtete: Davis erklärte Senatoren, dass 'off-world vehicles not made on this earth' geborgen wurden. Höchste Geheimhaltungsstufe."
@@ -2292,7 +2292,7 @@
       ],
       "source_url": "https://en.wikipedia.org/wiki/Eric_W._Davis",
       "source_label": "NY Post – 'President Bush knew of 1964 alien contact', November 2025",
-      "level": "KRITISCH",
+      "level": "critical",
       "score": 9.0,
       "region": "Nordamerika",
       "description": "Dr. Eric Davis berichtete von Gesprächen mit Ex-Präsident George H.W. Bush (2003) über Holloman AFB 1964. Bush bestätigte: 'Es war das Echte. Die Sicherheitsstufe ist obszön.' Bush war CIA-Direktor 1976–1977 und hatte Zugang zu UAP-Programmen."
@@ -2488,7 +2488,7 @@
           "type": "Interview-Zusammenfassung"
         }
       ],
-      "level": "KRITISCH",
+      "level": "critical",
       "score": 9.4,
       "region": "Nordamerika",
       "description": "Holloman AFB, New Mexico, April 1964: Drei UAPs landen auf dem Militärgelände. Eine Scheibe landet taumelnd. NHI verlässt Fahrzeug mit Spiralantennenstab. 8 unabhängige Zeugen: Paul Shartle, George H.W. Bush, Jacques Vallée, Robert Emenegger, Allan Sandler, Col. William Coleman, Dr. Eric Davis, James Fox. Film von Capt. Horner konfisziert.",
@@ -2626,7 +2626,7 @@
           "type": "Kongress-Referenz"
         }
       ],
-      "level": "KRITISCH",
+      "level": "critical",
       "score": 9.5,
       "region": "Nordamerika",
       "description": "Malmstrom AFB, Montana, März 1967: Echo Flight (10 Minuteman-ICBMs) und Oscar Flight (10 ICBMs) werden innerhalb einer Woche deaktiviert. Capt. Robert Salas (Oscar Flight): Leuchtendes rotes Objekt über Fronttor, dann simultaner Ausfall aller 10 Raketen. FOIA-bestätigt. National Press Club 2010.",
@@ -2741,7 +2741,7 @@
           "type": "Sekundärquelle"
         }
       ],
-      "level": "KRITISCH",
+      "level": "critical",
       "score": 8.8,
       "region": "Nordamerika",
       "description": "Holloman AFB, New Mexico, Februar 1955: Präsident Eisenhower landet heimlich auf Holloman AFB, offiziell auf Wachtelsuche. 45 Minuten im UAP. Hunderte Zeugen. Zweites NHI-Treffen nach Muroc 1954. Robert Emenegger und Allan Sandler bestätigten Vorfall in Dokumentarfilm-Recherche.",
@@ -2865,7 +2865,7 @@
           "type": "Community-Diskussion"
         }
       ],
-      "level": "KRITISCH",
+      "level": "critical",
       "score": 8.9,
       "region": "Nordamerika",
       "description": "Muroc/Edwards AFB, Kalifornien, Februar 1954: Präsident Eisenhower trifft Nordische NHI. Delegation: Edwin Nourse (Wirtschaftsberater), Kardinal MacIntyre, Franklin Allen. NHI-Angebot abgelehnt (Atomwaffen-Bedingung). Greada Treaty-Ursprung. Gerald Lights Brief 16. April 1954 dokumentiert Ereignis.",
@@ -2996,7 +2996,7 @@
           "type": "Zeugenbericht"
         }
       ],
-      "level": "KRITISCH",
+      "level": "critical",
       "score": 7.8,
       "region": "Nordamerika",
       "description": "Dulce, New Mexico: Angebliche unterirdische Basis mit 7 Ebenen (Ebene 6–7: genetische Experimente, Entführte). Phil Schneider überlebte 1979 Kampf mit Grauen in Tunneln. Thomas Castello (Sicherheitschef): Beschreibung der Einrichtung. Greada-Treaty-Vertragsbruch. Paul Bennewitz dokumentierte UAP-Aktivität.",
@@ -3100,7 +3100,7 @@
         }
       ],
       "congruence_score": 8.2,
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "score": 8.2,
       "region": "Europa",
       "description": "Morpheus (Pseudonym, >100 Patente): 'Transformation der Erde' (2006, Argo-Verlag). SOHO-UAPs in Sonnennähe, Burkhard Heim 12D-Theorie, Anunnaki/Nibiru-Verbindung, Photonenring-Zyklus. Zwei Anschläge vor Erscheinen: EMP-Löschung (Mai 2006) + Gas-Betäubung Italien (Juni 2006).",
@@ -3277,7 +3277,7 @@
         "grusch-2023"
       ],
       "significance": "Dieses FOIA-Dokument ist einer der stärksten indirekten Beweise für ein aktives Reverse-Engineering-Programm der US-Regierung. Die DIA bestätigte nicht nur die Existenz von UAP-Material bei Bigelow Aerospace, sondern veröffentlichte 5 technische Studien, die zeigen, welche Materialklassen analysiert wurden. Die Verbindung zwischen Nitinol/Memory Metal und Roswell-Zeugenbeschreibungen, sowie die Metamaterial-Tarnkappen-Verbindung zu UAP-Sichtungen, macht dieses Dokument zu einem Schlüsselstück im Puzzle der Disclosure-Geschichte.",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "score": 9.2,
       "region": "Nordamerika",
       "description": "DIA FOIA-00089-2018: Anthony Bragalia erzwang Freigabe von 154 Seiten in 5 technischen AAWSA-Studien über UAP-Materialforschung bei Bigelow Aerospace. Metallic Glasses, Biomaterialien, Metamaterialien, Spintronik, Memory Metal (Nitinol/Roswell-Verbindung). DIA-Antwort 8. Januar 2021.",
@@ -3327,7 +3327,7 @@
       "id": 105,
       "title": "war.gov PURSUE Release 02 – F-16C schießt UAP über Lake Huron ab (12. Feb. 2023)",
       "region": "USA",
-      "level": "BESTÄTIGT",
+      "level": "confirmed",
       "date": "2023-02-12",
       "location": "Lake Huron, Michigan, USA",
       "score": 9.8,
@@ -3350,7 +3350,7 @@
       "id": 106,
       "title": "war.gov PURSUE Release 02 – Senior Intelligence Officer: Orange Orbs jagen Kampfjets (2025)",
       "region": "USA",
-      "level": "ERSTZEUGNIS",
+      "level": "high",
       "date": "2025-01-01",
       "location": "Westliche USA (undisclosed), Bergregion",
       "score": 9.5,
@@ -3372,7 +3372,7 @@
       "id": 107,
       "title": "war.gov PURSUE Release 02 – Apollo & Mercury Astronauten: 'Fireflies' und 'Snowflakes' im Orbit",
       "region": "Weltraum",
-      "level": "NASA-ARCHIV",
+      "level": "high",
       "date": "1962-01-01",
       "location": "Erdorbit / Mondorbit",
       "score": 7.5,
@@ -3394,7 +3394,7 @@
       "id": 108,
       "title": "war.gov PURSUE Release 02 – Sphärisches UAP taucht aus dem Ozean auf (2022)",
       "region": "Atlantik/Pazifik",
-      "level": "MILITÄR-VIDEO",
+      "level": "confirmed",
       "date": "2022-01-01",
       "location": "Undisclosed (nahe U-Boot-Operation)",
       "score": 9.2,
@@ -3417,7 +3417,7 @@
       "id": 109,
       "title": "war.gov PURSUE Release 02 – AFSWP-Dokument: 209 UAP-Sichtungen New Mexico 1948–1950",
       "region": "USA",
-      "level": "HISTORISCH-KLASSIFIZIERT",
+      "level": "historical",
       "date": "1950-01-01",
       "location": "New Mexico, USA (Militärbasen-Umgebung)",
       "score": 9.4,
@@ -3441,7 +3441,7 @@
       "id": 110,
       "title": "war.gov PURSUE Release 02 – CIA IIR: UAP über sowjetischem Atomwaffengelände Sary Shagan (Sommer 1973)",
       "region": "UdSSR",
-      "level": "CIA-PRIMÄRQUELLE",
+      "level": "critical",
       "date": "1973-08-01",
       "location": "Sary Shagan Weapons Testing Range, Kasachstan, UdSSR",
       "score": 9.0,
@@ -3466,7 +3466,7 @@
       "id": 111,
       "title": "war.gov PURSUE Release 02 – DOE/Pantex: UAP-Bericht über US-Atomwaffen-Montageanlage (UCNI-klassifiziert)",
       "region": "USA",
-      "level": "DOE-KLASSIFIZIERT",
+      "level": "critical",
       "date": "2010-01-01",
       "location": "Pantex Plant, Carson County, Texas, USA",
       "score": 9.6,
@@ -3490,7 +3490,7 @@
       "id": 112,
       "title": "war.gov PURSUE Release 02 – James Tuck (Manhattan Project): UAP-Korrespondenz Los Alamos 1970er",
       "region": "USA",
-      "level": "HISTORISCH-PRIMÄRQUELLE",
+      "level": "historical",
       "date": "1970-12-16",
       "location": "Los Alamos National Laboratory, New Mexico, USA",
       "score": 8.8,
@@ -3514,7 +3514,7 @@
       "id": 113,
       "title": "war.gov PURSUE Release 02 – US Coast Guard Infrarot: UAP nahe Flugzeug (April 2024)",
       "region": "USA",
-      "level": "MILITÄR-VIDEO",
+      "level": "confirmed",
       "date": "2024-04-01",
       "location": "Südöstliche USA (Küstengebiet)",
       "score": 8.7,
@@ -3535,7 +3535,7 @@
       "id": 114,
       "title": "war.gov PURSUE Release 02 – CENTCOM: UAPs über Persischem Golf und Ostchinesischem Meer (2018–2023)",
       "region": "Naher Osten / Asien",
-      "level": "MILITÄR-VIDEO",
+      "level": "confirmed",
       "date": "2019-10-01",
       "location": "Persischer Golf / Ostchinesisches Meer / Afghanistan",
       "score": 9.1,
@@ -3562,7 +3562,7 @@
       "location": "Erdorbit / Mondmission",
       "region": "USA",
       "category": "Astronauten-Zeugnis",
-      "level": "Hoch",
+      "level": "high",
       "score": 8.5,
       "description": "Apollo 12 Astronauten berichten über UAP-Sichtungen. 6 NASA-Dokumente freigegeben: Transkript, medizinisches Debriefing, 5 Bildmaterial-Einträge. Pete Conrad: Unbekannte Objekte begleiten die Kapsel auf dem Weg zum Mond. 7 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
       "witnesses": [
@@ -3595,7 +3595,7 @@
       "location": "Erdorbit / Mondmission",
       "region": "USA",
       "category": "Astronauten-Zeugnis",
-      "level": "Hoch",
+      "level": "high",
       "score": 7.5,
       "description": "Weitere NASA-UAP-Dokumente aus dem PURSUE-Archiv. 1 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
       "witnesses": [
@@ -3626,7 +3626,7 @@
       "location": "Erdorbit / Mondmission",
       "region": "USA",
       "category": "Astronauten-Zeugnis",
-      "level": "Hoch",
+      "level": "high",
       "score": 8.7,
       "description": "Apollo 17 – letzte bemannte Mondmission. 4 NASA-Dokumente freigegeben: Transkript, Crew-Debriefing, technisches Debriefing, Audio-Excerpt (7. Dez. 1972). Crew diskutiert unbekannte Lichter im Mondorbit. 5 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
       "witnesses": [
@@ -3659,7 +3659,7 @@
       "location": "Erdorbit / Mondmission",
       "region": "USA",
       "category": "Astronauten-Zeugnis",
-      "level": "Kritisch",
+      "level": "critical",
       "score": 9.2,
       "description": "Gemini 7 Transkript und Audio-Excerpt freigegeben. Frank Borman: \"Wir haben ein Bogey bei 10 Uhr hoch.\" NASA-Kontrolle bestätigt auf Radar. 2 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
       "witnesses": [
@@ -3691,7 +3691,7 @@
       "location": "Erdorbit / Mondmission",
       "region": "USA",
       "category": "Astronauten-Zeugnis",
-      "level": "Kritisch",
+      "level": "critical",
       "score": 9.0,
       "description": "Apollo 11 – erste Mondlandung. Technisches Crew-Debriefing freigegeben. Neil Armstrong und Buzz Aldrin berichten über unbekannte Objekte. Buzz Aldrin später: \"Es gab etwas da draußen, das uns begleitete.\" 1 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
       "witnesses": [
@@ -3724,7 +3724,7 @@
       "location": "Erdorbit / Mondmission",
       "region": "USA",
       "category": "Astronauten-Zeugnis",
-      "level": "Hoch",
+      "level": "high",
       "score": 7.8,
       "description": "Skylab Technisches Crew-Debriefing 1973 freigegeben. Crew berichtet über unbekannte Objekte und Lichter rund um die Raumstation. 1 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
       "witnesses": [
@@ -3757,7 +3757,7 @@
       "location": "Erdorbit / Mondmission",
       "region": "USA",
       "category": "Astronauten-Zeugnis",
-      "level": "Kritisch",
+      "level": "critical",
       "score": 9.1,
       "description": "Mercury Atlas 9 \"Faith 7\" – Gordon Cooper. Zwei Audio-Excerpts (15. Mai 1963). Cooper berichtet über leuchtendes grünes Objekt. Bestätigt von Tracking-Stationen in Perth, Australien. 2 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
       "witnesses": [
@@ -3788,7 +3788,7 @@
       "location": "Erdorbit / Mondmission",
       "region": "USA",
       "category": "Astronauten-Zeugnis",
-      "level": "Hoch",
+      "level": "high",
       "score": 7.5,
       "description": "Mercury Atlas 8 \"Sigma 7\" – Wally Schirra. Audio-Excerpt (3. Oktober 1962) freigegeben. 1 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
       "witnesses": [
@@ -3819,7 +3819,7 @@
       "location": "Erdorbit / Mondmission",
       "region": "USA",
       "category": "Astronauten-Zeugnis",
-      "level": "Hoch",
+      "level": "high",
       "score": 7.5,
       "description": "Mercury Atlas 7 \"Aurora 7\" – Scott Carpenter. Audio-Excerpt (24. Mai 1962) freigegeben. 1 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
       "witnesses": [
@@ -3850,7 +3850,7 @@
       "location": "Erdorbit / Mondmission",
       "region": "USA",
       "category": "Astronauten-Zeugnis",
-      "level": "Hoch",
+      "level": "high",
       "score": 7.2,
       "description": "Mercury-Redstone 4 \"Liberty Bell 7\" – Gus Grissom. Audio-Excerpt (21. Juli 1961). Früheste NASA-UAP-Aufzeichnung im PURSUE-Archiv. 1 Dokument(e) im PURSUE-Archiv freigegeben (war.gov/ufo).",
       "witnesses": [
@@ -3881,7 +3881,7 @@
       "location": "USA (verschiedene)",
       "region": "USA",
       "category": "Behördendokument",
-      "level": "Hoch",
+      "level": "high",
       "score": 8.8,
       "description": "Das FBI hat im Rahmen von PURSUE Release 01 (8. Mai 2026) insgesamt 8 Bilddateien (FBI Photo A001–A008) und 24 PDF-Dokumente (FBI Photo B001–B024) freigegeben. Diese umfassen historische UAP-Fotografien, Zeugenaussagen und Untersuchungsberichte aus dem FBI-Archiv. Viele Dokumente stammen aus dem berühmten FBI-Aktenbestand 62-HQ-83894 (Project Blue Book-Verbindungen). Einige Dokumente sind teilweise geschwärzt.",
       "witnesses": [
@@ -3915,7 +3915,7 @@
       "location": "USA (geschwärzt)",
       "region": "USA",
       "category": "Zeugenbericht",
-      "level": "Hoch",
+      "level": "high",
       "score": 8.5,
       "description": "Das FBI hat 4 Dokumente zu einer UAP-Sichtung vom September 2023 freigegeben: Composite Sketch (Phantombild), Serial 003, Serial 004 und Serial 005. Ein USPER (US Person) beschreibt eine Begegnung mit einem unbekannten Flugobjekt. Ort und Identität geschwärzt.",
       "witnesses": [
@@ -3947,7 +3947,7 @@
       "location": "Unbekannt",
       "region": "Unbekannt",
       "category": "Diplomatisches Dokument",
-      "level": "Hoch",
+      "level": "high",
       "score": 8.2,
       "description": "Diplomatisches Kabel über UAP-Sichtung. Im Rahmen von PURSUE Release 01 (8. Mai 2026) freigegeben. Zeigt globale Reichweite der UAP-Dokumentation durch US-Auslandsvertretungen.",
       "witnesses": [
@@ -3978,7 +3978,7 @@
       "location": "Unbekannt",
       "region": "Unbekannt",
       "category": "Diplomatisches Dokument",
-      "level": "Hoch",
+      "level": "high",
       "score": 8.2,
       "description": "Diplomatisches Kabel über UAP-Sichtung. Im Rahmen von PURSUE Release 01 (8. Mai 2026) freigegeben. Zeigt globale Reichweite der UAP-Dokumentation durch US-Auslandsvertretungen.",
       "witnesses": [
@@ -4009,7 +4009,7 @@
       "location": "Papua-Neuguinea",
       "region": "Papua-Neuguinea",
       "category": "Diplomatisches Dokument",
-      "level": "Hoch",
+      "level": "high",
       "score": 8.2,
       "description": "Diplomatisches Kabel (28. Jan. 1985). US-Botschaft berichtet über UAP-Sichtung. Im Rahmen von PURSUE Release 01 (8. Mai 2026) freigegeben. Zeigt globale Reichweite der UAP-Dokumentation durch US-Auslandsvertretungen.",
       "witnesses": [
@@ -4040,7 +4040,7 @@
       "location": "Kasachstan",
       "region": "Kasachstan",
       "category": "Diplomatisches Dokument",
-      "level": "Hoch",
+      "level": "high",
       "score": 8.2,
       "description": "Diplomatisches Kabel (31. Jan. 1994). Nach dem Ende der Sowjetunion – UAP über ehemaligem sowjetischen Territorium. Im Rahmen von PURSUE Release 01 (8. Mai 2026) freigegeben. Zeigt globale Reichweite der UAP-Dokumentation durch US-Auslandsvertretungen.",
       "witnesses": [
@@ -4071,7 +4071,7 @@
       "location": "Georgien",
       "region": "Georgien",
       "category": "Diplomatisches Dokument",
-      "level": "Hoch",
+      "level": "high",
       "score": 8.2,
       "description": "Diplomatisches Kabel aus Tiflis (30. Okt. 2001). UAP im Südkaukasus. Im Rahmen von PURSUE Release 01 (8. Mai 2026) freigegeben. Zeigt globale Reichweite der UAP-Dokumentation durch US-Auslandsvertretungen.",
       "witnesses": [
@@ -4102,7 +4102,7 @@
       "location": "Turkmenistan",
       "region": "Turkmenistan",
       "category": "Diplomatisches Dokument",
-      "level": "Hoch",
+      "level": "high",
       "score": 8.2,
       "description": "Diplomatisches Kabel aus Aschgabat (5. Nov. 2004). UAP in Zentralasien. Im Rahmen von PURSUE Release 01 (8. Mai 2026) freigegeben. Zeigt globale Reichweite der UAP-Dokumentation durch US-Auslandsvertretungen.",
       "witnesses": [
@@ -4133,7 +4133,7 @@
       "location": "Mexiko",
       "region": "Mexiko",
       "category": "Diplomatisches Dokument",
-      "level": "Hoch",
+      "level": "high",
       "score": 8.2,
       "description": "Diplomatisches Kabel aus Mexiko (16. Sept. 2003). UAP-Sichtung. Im Rahmen von PURSUE Release 01 (8. Mai 2026) freigegeben. Zeigt globale Reichweite der UAP-Dokumentation durch US-Auslandsvertretungen.",
       "witnesses": [
@@ -4164,7 +4164,7 @@
       "location": "Persischer Golf, Arabisches Meer, Straße von Hormuz",
       "region": "Naher Osten",
       "category": "Militärisches Dokument",
-      "level": "Kritisch",
+      "level": "critical",
       "score": 9.3,
       "description": "Das US-Verteidigungsministerium hat im Rahmen von PURSUE Release 02 (22. Mai 2026) insgesamt 20 Militär-Videos aus dem Jahr 2020 freigegeben. Die Videos zeigen UAP-Sichtungen durch US-Streitkräfte im CENTCOM-Bereich. Callsigns sind geschwärzt. Die Objekte zeigen keine Wärmesignatur, keine Schallwellen und keine konventionelle Antriebstechnologie. Mehrere Videos zeigen UAPs in Formation oder mit sofortiger Beschleunigung.",
       "witnesses": [
@@ -4200,7 +4200,7 @@
       "location": "Syrien, Irak, Iran, Griechenland, VAE, Dschibuti",
       "region": "Naher Osten",
       "category": "Militärisches Dokument",
-      "level": "Kritisch",
+      "level": "critical",
       "score": 9.4,
       "description": "Das US-Verteidigungsministerium hat im Rahmen von PURSUE Release 02 21 Militär-Videos aus 2021–2024 freigegeben. Besonders bedeutsam: DOW-UAP-PR050 zeigt 4 UAPs in Formation über dem Iran (26. Aug. 2022). DOW-UAP-PR051 zeigt sofortige Beschleunigung über Syrien. Die Häufung von UAP-Sichtungen in aktiven Konfliktgebieten ist statistisch signifikant (CTX-EAG Report 2026).",
       "witnesses": [
@@ -4237,7 +4237,7 @@
       "location": "Persischer Golf, Ostküste USA",
       "region": "Naher Osten / USA",
       "category": "Militärisches Dokument",
-      "level": "Kritisch",
+      "level": "critical",
       "score": 9.2,
       "description": "Das US-Verteidigungsministerium hat 3 Militär-Videos aus 2018–2019 freigegeben. Darunter: DOW-UAP-PR096 (HH11 03 July 2018 UAPs), DOW-UAP-PR097/PR099 (Hi-Res: Observes UAP on 25SEP19), DOW-UAP-PR086 (UAP from Dec 2019 East Coast). Die East-Coast-Sichtung vom Dezember 2019 ergänzt die bekannten Nimitz/Roosevelt-Vorfälle.",
       "witnesses": [
@@ -4273,7 +4273,7 @@
       "location": "CENTCOM-Bereich (geschwärzt)",
       "region": "Naher Osten",
       "category": "Militärisches Dokument",
-      "level": "Hoch",
+      "level": "high",
       "score": 8.8,
       "description": "34 weitere Militär-Videos aus dem CENTCOM-Bereich ohne genaues Datum. Alle zeigen UAP-Sichtungen durch US-Streitkräfte.",
       "witnesses": [
@@ -4304,7 +4304,7 @@
       "location": "USA (verschiedene)",
       "region": "USA",
       "category": "Historisches Dokument",
-      "level": "Kritisch",
+      "level": "critical",
       "score": 9.1,
       "description": "Das US-Verteidigungsministerium hat im Rahmen von PURSUE Release 01 (8. Mai 2026) 1 historische UFO-Dokumente aus den Jahren 1946–1950 freigegeben. Darunter: 18_100754_ General 1946-7_Vol_2 (30. Dez. 1947 – kurz nach Roswell), 18_6369445_General_1948_Vol_1 (15. Juni 1948), 342_HS1-416511228_319.1 Flying Discs 1949, 38_143685 Incident Summaries 1-233. Die 233 Incident Summaries dokumentieren UFO-Sichtungen unmittelbar nach Roswell.",
       "witnesses": [
@@ -4343,7 +4343,7 @@
       "location": "Vandenberg AFB, Kalifornien",
       "region": "USA",
       "category": "Militärisches Dokument",
-      "level": "Hoch",
+      "level": "high",
       "score": 8.6,
       "description": "DOW-UAP-D049: Launch Summary von Vandenberg AFB (2000). Vandenberg AFB ist der Hauptstartplatz für US-Militärsatelliten und ballistische Raketen. UAP-Sichtung während eines Raketenstarts – direkte Verbindung zur Nuklear-UAP-Nexus-These.",
       "witnesses": [
@@ -4375,7 +4375,7 @@
       "location": "Indo-Pazifik",
       "region": "Asien-Pazifik",
       "category": "Militärisches Dokument",
-      "level": "Kritisch",
+      "level": "critical",
       "score": 9.0,
       "description": "DOW-UAP-D050: E-Mail-Korrespondenz aus dem INDOPACOM (Indo-Pacific Command), April 2025. Das INDOPACOM ist das größte US-Militärkommando. Die Freigabe einer aktuellen 2025-Korrespondenz deutet auf erhöhte UAP-Aktivität im Indo-Pazifik hin.",
       "witnesses": [
@@ -4406,7 +4406,7 @@
       "location": "Westliche USA",
       "region": "USA",
       "category": "Geheimdienstdokument",
-      "level": "Kritisch",
+      "level": "critical",
       "score": 9.5,
       "description": "ODNI-UAP-D001: USPER Narrative eines hochrangigen USIC-Beamten (US Intelligence Community). Ein Senior-Geheimdienstbeamter beschreibt eine persönliche UAP-Begegnung im westlichen USA. Das 116-seitige Dokument enthält Beschreibungen von Orange Orbs, die US-Kampfjets jagten.",
       "witnesses": [
@@ -4439,7 +4439,7 @@
       "location": "Sary Shagan, Kasachstan (UdSSR)",
       "region": "Zentralasien",
       "category": "Geheimdienstdokument",
-      "level": "Kritisch",
+      "level": "critical",
       "score": 9.6,
       "description": "CIA-UAP-D001: Intelligence Information Report, USSR, 20. Dezember 1973. CIA-HUMINT-Agent berichtet über UAP-Sichtungen über dem sowjetischen Atomwaffentestgelände Sary Shagan. Direkte Verbindung zur Nuklear-UAP-Nexus-These.",
       "witnesses": [
@@ -4471,7 +4471,7 @@
       "location": "Pantex Plant, Amarillo, Texas",
       "region": "USA",
       "category": "Geheimdienstdokument",
-      "level": "Kritisch",
+      "level": "critical",
       "score": 9.8,
       "description": "DOE-UAP-D001: Enhanced PANTEX Imagery. Die Pantex Plant in Amarillo, Texas ist die einzige Anlage in den USA, die Atomwaffen montiert, demontiert und wartet. Erste offizielle US-Regierungsbestätigung von UAP-Aktivität über einer aktiven Atomwaffen-Montageanlage.",
       "witnesses": [
@@ -4505,7 +4505,7 @@
       "location": "Los Alamos, New Mexico",
       "region": "USA",
       "category": "Historisches Dokument",
-      "level": "Kritisch",
+      "level": "critical",
       "score": 9.4,
       "description": "DOE-UAP-D002/D003: James Tuck Korrespondenz. Dr. James Tuck war ein britischer Physiker, der am Manhattan-Projekt und an der Entwicklung der Wasserstoffbombe in Los Alamos beteiligt war. Er sammelte privat UAP-Daten in der Umgebung von Los Alamos. Direkter Beweis für das Interesse von Manhattan-Projekt-Wissenschaftlern an UAPs.",
       "witnesses": [
@@ -4539,7 +4539,7 @@
       "location": "Frankreich / International",
       "region": "Europa",
       "category": "Wissenschaftliches Dokument",
-      "level": "Kritisch",
+      "level": "critical",
       "score": 9.3,
       "description": "255_413270_UFOs_and_Defense_What_Should_we_Prepare_For: Freigegeben im Rahmen von PURSUE Release 01 (8. Mai 2026). Der berühmte COMETA-Report (1999) – 90-seitiger Bericht von 13 hochrangigen französischen Militär- und Geheimdienstoffizieren (u.a. General Bernard Norlain, IHEDN). Schlussfolgerung: UAPs sind real, könnten außerirdischen Ursprungs sein und stellen eine strategische Herausforderung für die Verteidigung dar.",
       "witnesses": [
@@ -4622,7 +4622,7 @@
         "wissenschaftlich"
       ],
       "score": 88,
-      "level": "KRITISCH",
+      "level": "critical",
       "sources": "https://www.war.gov/medialink/ufo/release_1/",
       "witnesses": [
         "Eugene Cernan",
@@ -4630,7 +4630,8 @@
         "Ronald Evans"
       ],
       "pursue_card": "63c47bad",
-      "pursue_url": "https://pursueindex.com/card/63c47bad/"
+      "pursue_url": "https://pursueindex.com/card/63c47bad/",
+      "region": "usa"
     },
     {
       "id": "pursue-148",
@@ -4647,7 +4648,7 @@
         "Sensor"
       ],
       "score": 85,
-      "level": "HOCH",
+      "level": "high",
       "sources": "https://www.war.gov/medialink/ufo/release_1/",
       "witnesses": [
         "Skylab-Besatzung",
@@ -4656,7 +4657,8 @@
         "Joseph Kerwin"
       ],
       "pursue_card": "8bb54e0a",
-      "pursue_url": "https://pursueindex.com/card/8bb54e0a/"
+      "pursue_url": "https://pursueindex.com/card/8bb54e0a/",
+      "region": "usa"
     },
     {
       "id": "pursue-149",
@@ -4673,14 +4675,15 @@
         "Range Fouler"
       ],
       "score": 78,
-      "level": "HOCH",
+      "level": "high",
       "sources": "https://www.war.gov/medialink/ufo/release_1/",
       "witnesses": [
         "US Navy",
         "CENTCOM-Operatoren"
       ],
       "pursue_card": "cc33e8c3",
-      "pursue_url": "https://pursueindex.com/card/cc33e8c3/"
+      "pursue_url": "https://pursueindex.com/card/cc33e8c3/",
+      "region": "usa"
     },
     {
       "id": "pursue-150",
@@ -4697,13 +4700,14 @@
         "Email"
       ],
       "score": 72,
-      "level": "MITTEL",
+      "level": "medium",
       "sources": "https://www.war.gov/medialink/ufo/release_1/",
       "witnesses": [
         "INDOPACOM-Offiziere"
       ],
       "pursue_card": "71758de4",
-      "pursue_url": "https://pursueindex.com/card/71758de4/"
+      "pursue_url": "https://pursueindex.com/card/71758de4/",
+      "region": "usa"
     },
     {
       "id": "pursue-151",
@@ -4720,14 +4724,15 @@
         "Range Fouler"
       ],
       "score": 76,
-      "level": "HOCH",
+      "level": "high",
       "sources": "https://www.war.gov/medialink/ufo/release_1/",
       "witnesses": [
         "US Navy",
         "CENTCOM-Operatoren"
       ],
       "pursue_card": "c2961d7c",
-      "pursue_url": "https://pursueindex.com/card/c2961d7c/"
+      "pursue_url": "https://pursueindex.com/card/c2961d7c/",
+      "region": "usa"
     },
     {
       "id": "pursue-152",
@@ -4744,14 +4749,15 @@
         "Pilot"
       ],
       "score": 82,
-      "level": "HOCH",
+      "level": "high",
       "sources": "https://www.war.gov/medialink/ufo/release_1/",
       "witnesses": [
         "US-Militärpiloten",
         "CENTCOM-Besatzungen"
       ],
       "pursue_card": "fd8bfb94",
-      "pursue_url": "https://pursueindex.com/card/fd8bfb94/"
+      "pursue_url": "https://pursueindex.com/card/fd8bfb94/",
+      "region": "usa"
     },
     {
       "id": "pursue-153",
@@ -4770,14 +4776,15 @@
         "ungelöst"
       ],
       "score": 84,
-      "level": "HOCH",
+      "level": "high",
       "sources": "https://www.war.gov/medialink/ufo/release_1/",
       "witnesses": [
         "US-Militärpersonal",
         "NATO-Verbündete"
       ],
       "pursue_card": "4555d94d",
-      "pursue_url": "https://pursueindex.com/card/4555d94d/"
+      "pursue_url": "https://pursueindex.com/card/4555d94d/",
+      "region": "international"
     },
     {
       "id": "pursue-154",
@@ -4794,7 +4801,7 @@
         "Memo"
       ],
       "score": 89,
-      "level": "KRITISCH",
+      "level": "critical",
       "sources": "https://www.war.gov/medialink/ufo/release_1/",
       "witnesses": [
         "FBI-Agenten",
@@ -4802,7 +4809,8 @@
         "J. Edgar Hoover"
       ],
       "pursue_card": "bcf2e688",
-      "pursue_url": "https://pursueindex.com/card/bcf2e688/"
+      "pursue_url": "https://pursueindex.com/card/bcf2e688/",
+      "region": "usa"
     },
     {
       "id": "pursue-155",
@@ -4818,14 +4826,15 @@
         "frühe Sichtungen"
       ],
       "score": 77,
-      "level": "HOCH",
+      "level": "high",
       "sources": "https://www.war.gov/medialink/ufo/release_1/",
       "witnesses": [
         "Militärpiloten",
         "Zivilzeugen"
       ],
       "pursue_card": "9e677b86",
-      "pursue_url": "https://pursueindex.com/card/9e677b86/"
+      "pursue_url": "https://pursueindex.com/card/9e677b86/",
+      "region": "usa"
     },
     {
       "id": "pursue-156",
@@ -4842,7 +4851,7 @@
         "systematisch"
       ],
       "score": 86,
-      "level": "KRITISCH",
+      "level": "critical",
       "sources": "https://www.war.gov/medialink/ufo/release_1/",
       "witnesses": [
         "Militärpiloten",
@@ -4850,7 +4859,8 @@
         "Zivilzeugen"
       ],
       "pursue_card": "b60b84a6",
-      "pursue_url": "https://pursueindex.com/card/b60b84a6/"
+      "pursue_url": "https://pursueindex.com/card/b60b84a6/",
+      "region": "usa"
     },
     {
       "id": "cia-dna-hybrid-2026",
@@ -5070,7 +5080,8 @@
       "source_url": "https://www.researchgate.net/publication/392237093_Preliminary_evidence_of_traces_of_alien_genetic_manipulation_in_humans",
       "video_url": "https://youtu.be/uoUAdKu53Ws",
       "location": "San Diego, CA / Weltweit",
-      "country": "USA"
+      "country": "USA",
+      "region": "usa"
     },
     {
       "id": "dolly-safran-hybrid-pilot-gaia",
@@ -5099,7 +5110,8 @@
       "source_url": "https://www.gaia.com/video/generational-contactee-hybrid-dna-confirmed",
       "video_url": "https://www.facebook.com/reel/2367699077058742",
       "location": "USA (Gaia TV)",
-      "country": "USA"
+      "country": "USA",
+      "region": "usa"
     },
     {
       "id": "emery-smith-secret-facilities-nm",
@@ -5125,7 +5137,8 @@
       ],
       "source_url": "https://www.gaia.com/video/secret-testing-programs-emery-smith",
       "location": "New Mexico, USA (unterirdische Einrichtungen)",
-      "country": "USA"
+      "country": "USA",
+      "region": "usa"
     },
     {
       "id": "buga-sphere-colombia-2025",
@@ -5163,7 +5176,8 @@
       "source_url": "https://prismmarketview.com/university-of-georgia-confirms-buga-sphere-dates-back-12560-years/",
       "video_url": "https://www.facebook.com/reel/809465788457992",
       "location": "Buga, Valle del Cauca, Kolumbien",
-      "country": "Kolumbien"
+      "country": "Kolumbien",
+      "region": "usa"
     },
     {
       "id": "uri-geller-cia-stargate-nasa-bodies",
@@ -5196,7 +5210,8 @@
       "source_url": "https://www.cia.gov/readingroom/docs/CIA-RDP96-00787R000700110003-2.pdf",
       "video_url": "https://www.facebook.com/theurigeller/videos/2160655421097035/",
       "location": "Stanford Research Institute, Menlo Park, CA + NASA Goddard Space Flight Center, Maryland",
-      "country": "USA"
+      "country": "USA",
+      "region": "usa"
     },
     {
       "id": "mosul-orb-iraq-2016",
@@ -5265,7 +5280,10 @@
       ],
       "linked_theses": [
         "these-65-buga-sphere"
-      ]
+      ],
+      "level": "medium",
+      "description": "Im April 2016 filmte ein US-amerikanisches Spionageflugzeug über dem aktiven Kriegsgebiet Mossul, Irak, eine metallisch glänzende Kugel. Das Bild wurde in einem klassifizierten Briefing-Video des Pentagon verwendet und erst im Januar 2023 öffentlich freigegeben — das erste je veröffentlichte UAP-Bild aus einer aktiven Konfliktzone. Im Juli 2025 wurde das vollständige Video (bisher nur Standbild bekannt) veröffentlicht. AARO-Direktor Dr. Sean Kirkpatrick bestätigte die Untersuchung. Die Kugel zeigt keine Antriebssysteme, keine Flügel, keine Abgasfahnen. Die Form ist nahezu identisch mit der Buga Sphere (Kolumbien, 2025) und anderen Orb-UAPs. Transmedium-Fähigkeiten (Luft/Wasser) wurden bei ähnlichen Objekten dokumentiert.",
+      "region": "international"
     },
     {
       "id": "telepathy-tapes-2024",
@@ -5336,7 +5354,10 @@
         "these-63-neurodiversitaet-hybridisierung",
         "these-64-bewusstsein-ufo-interface",
         "these-66-psychische-faehigkeiten-nhi"
-      ]
+      ],
+      "level": "medium",
+      "description": "The Telepathy Tapes ist ein Podcast von Filmemacherin Ky Dickens (Oktober 2024), der die angeblichen telepathischen Fähigkeiten nicht-sprechender autistischer Kinder und Erwachsener dokumentiert. Der Podcast wurde 2025 zum #1-Podcast weltweit. Eltern berichten von Bewusstseins-Teilen, Wissen über nicht gelehrte Sprachen und Vorhersagen zukünftiger Ereignisse. Dr. Diane Hennacy Powell (Harvard-ausgebildete Neuropsychiaterin) führt kontrollierte Experimente durch: Testpersonen lesen Gedanken ihrer Bezugspersonen in Faraday-Käfig-ähnlichen Bedingungen. Nicht-sprechende Autisten beschreiben NHI-Kontakt, andere Dimensionen und Bewusstsein als nicht-lokales Phänomen. Verbindung zu These #63 (Neurodiversität als Hybridisierungs-Marker) und These #64 (Bewusstsein als UFO-Interface). Kritiker verweisen auf Facilitated Communication (FC) als mögliche Erklärung — eine Methode, die in der Vergangenheit als pseudowissenschaftlich eingestuft wurde.",
+      "region": "usa"
     },
     {
       "id": "indigo-kinder-konzept-1970er",
@@ -5382,7 +5403,10 @@
       "linked_theses": [
         "these-63-neurodiversitaet-hybrid",
         "these-68-indigo-sternenkinder-hybride"
-      ]
+      ],
+      "level": "medium",
+      "description": "Nancy Ann Tappe beobachtet ab Ende der 1960er Jahre Kinder mit indigofarbener Aura. 1982 publiziert sie das Konzept. 1998 popularisieren Lee Carroll & Jan Tober es mit 500.000+ verkauften Exemplaren. Das Konzept beschreibt eine neue Menschheitsgeneration mit außergewöhnlichen Fähigkeiten — oft identisch mit ADHS/Autismus-Merkmalen.",
+      "region": "usa"
     },
     {
       "id": "neanderthal-dna-autism-clemson-2024",
@@ -5423,7 +5447,10 @@
       "linked_theses": [
         "these-63-neurodiversitaet-hybrid",
         "these-68-indigo-sternenkinder-hybride"
-      ]
+      ],
+      "level": "high",
+      "description": "Peer-reviewed Studie in Nature: Molecular Psychiatry (Mai 2024): 25 Neanderthal-DNA-Varianten (SNPs) bei Autisten signifikant häufiger als in der Normalbevölkerung. Erste wissenschaftliche Evidenz für Neanderthal-DNA als Autismus-Suszeptibilitätsfaktor.",
+      "region": "usa"
     },
     {
       "id": "mary-rodwell-new-human-2016",
@@ -5469,6 +5496,456 @@
         "diese-63-neurodiversitaet-hybrid",
         "these-64-bewusstsein-ufo-interface",
         "these-68-indigo-sternenkinder-hybride"
+      ],
+      "level": "medium",
+      "description": "Mary Rodwell dokumentiert in 'The New Human' (2016) über 3.000 Klientenfälle von Menschen mit NHI-Kontakt. Kinder mit Autismus, ADHS, Asperger und Dyslexie beschreiben Sternsprachen, Lichtwesenbesuche und Erinnerungen an andere Planeten. Rodwell interpretiert dies als genetisches Upgrade-Programm von NHI.",
+      "region": "usa"
+    },
+    {
+      "id": "pursue-release-01-2026",
+      "title": "PURSUE Release 01: Pentagon UAP-Massenfreigabe (8. Mai 2026)",
+      "date": "2026-05-08",
+      "location": "Washington D.C., USA",
+      "category": "Regierung / Offizielle Dokumente",
+      "credibility_score": 8.5,
+      "status": "BESTÄTIGT",
+      "summary": "Historische erste Massenfreigabe von UAP-Dokumenten durch das US-Verteidigungsministerium. 162 Dateien (28 Videos, 120 Dokumente, 14 Bilder) auf war.gov/UFO veröffentlicht. Enthält: FBI UFO-Akten, Militärpiloten-Berichte, NASA-Fotos, diplomatische Depeschen. Über 1 Milliarde Nutzer haben die Website besucht. Erste offizielle Massenfreigabe in der US-Geschichte, angeordnet durch Trump Executive Order.",
+      "key_facts": [
+        "162 Dateien: 28 Videos, 120 Dokumente, 14 Bilder",
+        "Enthält FBI UFO-Akten, Militärpiloten-Berichte, NASA-Fotos",
+        "Diplomatische Depeschen über internationale UAP-Vorfälle",
+        "Über 1 Milliarde Nutzer haben war.gov/UFO besucht",
+        "Angeordnet durch Trump Executive Order (Presidential Unsealing and Reporting System)"
+      ],
+      "evidence_quality": "Hoch — offizielle Regierungsdokumente",
+      "witnesses": [
+        "Pete Hegseth (Secretary of War)",
+        "AARO",
+        "ODNI",
+        "NASA",
+        "FBI",
+        "DOE"
+      ],
+      "connections": [
+        "Luis Elizondo",
+        "David Grusch",
+        "Stephen Bassett",
+        "PURSUE-Prozess"
+      ],
+      "linked_people": [
+        "luis-elizondo",
+        "david-grusch",
+        "stephen-bassett"
+      ],
+      "linked_theses": [
+        "these-69-pursue-transparenz-2026"
+      ],
+      "sources": [
+        "war.gov/UFO (offizielle Quelle)",
+        "Department of War Press Release (8. Mai 2026)",
+        "NBC News: Pentagon releases declassified UFO files (8. Mai 2026)"
+      ],
+      "tags": [
+        "pentagon",
+        "pursue",
+        "offiziell",
+        "massenfreigabe",
+        "trump",
+        "historisch",
+        "2026"
+      ],
+      "level": "confirmed",
+      "description": "Historische erste Massenfreigabe von UAP-Dokumenten durch das US-Verteidigungsministerium. 162 Dateien (28 Videos, 120 Dokumente, 14 Bilder) auf war.gov/UFO veröffentlicht. Enthält: FBI UFO-Akten, Militärpiloten-Berichte, NASA-Fotos, diplomatische Depeschen. Über 1 Milliarde Nutzer haben die Website besucht. Erste offizielle Massenfreigabe in der US-Geschichte, angeordnet durch Trump Executive Order.",
+      "region": "usa",
+      "score": 85
+    },
+    {
+      "id": "pursue-release-02-2026",
+      "title": "PURSUE Release 02: 51 Militärvideos + Intelligence Officer Bericht (22. Mai 2026)",
+      "date": "2026-05-22",
+      "location": "Washington D.C., USA / Persischer Golf / Lake Huron",
+      "category": "Militär / Offizielle Videos",
+      "credibility_score": 9.0,
+      "status": "BESTÄTIGT",
+      "summary": "Zweite Tranche der PURSUE-Freigabe: 64 Dateien (51 Videos, 6 PDFs, 7 Audio). Highlight: Ersthand-Bericht eines aktiven Senior Intelligence Officers, der orangefarbene Orbs aus einem Militärhubschrauber beobachtete — 'virtually speechless'. Video zeigt F-22, das UAP über Lake Huron abschießt (2023). Video zeigt sphärische Objekte, die bei einem U-Boot ins Wasser tauchen (2022, Persischer Golf). NASA Apollo/Mercury Astronauten beschreiben 'fireflies' und 'snowflakes'.",
+      "key_facts": [
+        "51 Militärvideos, darunter F-22 schießt UAP über Lake Huron ab (2023)",
+        "Sphärische Objekte tauchen bei U-Boot ins Wasser — Persischer Golf 2022",
+        "Senior Intelligence Officer: 'countless orange orbs swarming' — 'virtually speechless'",
+        "NASA Apollo/Mercury Audio: Astronauten beschreiben 'fireflies' und 'snowflakes'",
+        "Viele Videos aus CENTCOM-Bereich 2018–2023"
+      ],
+      "evidence_quality": "Sehr hoch — militärische Infrarot-Aufnahmen, Ersthand-Bericht unter Diensteid",
+      "witnesses": [
+        "Senior Intelligence Officer (anonym, aktiv dienend)",
+        "Militärpiloten CENTCOM",
+        "NASA Astronauten (Apollo/Mercury)"
+      ],
+      "connections": [
+        "Luis Elizondo",
+        "Ross Coulthart",
+        "Avi Loeb",
+        "Dan Farah"
+      ],
+      "linked_people": [
+        "luis-elizondo",
+        "ross-coulthart",
+        "avi-loeb",
+        "dan-farah"
+      ],
+      "linked_theses": [
+        "these-69-pursue-transparenz-2026",
+        "these-70-nhi-material-recovery"
+      ],
+      "sources": [
+        "war.gov/UFO/Release02 (offizielle Quelle)",
+        "CBS News: Pentagon releases more UFO files (22. Mai 2026)",
+        "The Guardian: Pentagon releases second batch of UFO videos (22. Mai 2026)"
+      ],
+      "tags": [
+        "pentagon",
+        "pursue",
+        "militaervideo",
+        "orange-orbs",
+        "lake-huron",
+        "persischer-golf",
+        "uboot",
+        "astronauten",
+        "2026"
+      ],
+      "level": "confirmed",
+      "description": "Zweite Tranche der PURSUE-Freigabe: 64 Dateien (51 Videos, 6 PDFs, 7 Audio). Highlight: Ersthand-Bericht eines aktiven Senior Intelligence Officers, der orangefarbene Orbs aus einem Militärhubschrauber beobachtete — 'virtually speechless'. Video zeigt F-22, das UAP über Lake Huron abschießt (2023). Video zeigt sphärische Objekte, die bei einem U-Boot ins Wasser tauchen (2022, Persischer Golf). NASA Apollo/Mercury Astronauten beschreiben 'fireflies' und 'snowflakes'.",
+      "region": "usa",
+      "score": 90
+    },
+    {
+      "id": "carlos-diaz-ships-of-light-1981",
+      "title": "Carlos Díaz: Ships of Light — Kontaktserie Tepoztlán (1981–1992+)",
+      "date": "1981-03-23",
+      "location": "Ajusco National Forest / Tepoztlán, Mexiko",
+      "category": "Kontakt / Fotografie",
+      "credibility_score": 7.0,
+      "status": "UNGEKLÄRT",
+      "summary": "Mexikanischer Fotograf Carlos Díaz dokumentierte ab März 1981 über mehr als ein Jahrzehnt Kontakte zu orangefarbenen, organisch wirkenden Lichtobjekten. Fotos wurden von NASA JPL (Dr. Robert Nathan) und der Universität Guadalajara analysiert — keine Manipulation nachweisbar. Über 12.000 Bewohner Tepoztláns bestätigten ähnliche Sichtungen. Zweifacher EBE Award Winner. Gilt als einer der am gründlichsten untersuchten Kontaktfälle Lateinamerikas.",
+      "key_facts": [
+        "Erstkontakt: 23. März 1981, Ajusco National Forest, Mexiko",
+        "Orangefarbene, organisch wirkende Objekte — keine metallische Struktur",
+        "NASA JPL Analyse: keine Fälschung, keine Doppelbelichtung",
+        "12.000+ Zeugen in Tepoztlán bestätigen ähnliche Phänomene",
+        "Über 12 Jahre Kontaktserie mit Fotos und Filmaufnahmen",
+        "EBE Award: Best Picture (2-fach)"
+      ],
+      "evidence_quality": "Mittel-Hoch — Laboranalysen positiv, aber keine unabhängige Peer-Review",
+      "witnesses": [
+        "Carlos Díaz",
+        "12.000+ Einwohner Tepoztláns",
+        "Bürgermeister von Mexiko-Stadt (bestätigte ähnliche Sichtungen)"
+      ],
+      "connections": [
+        "Jaime Maussan",
+        "UFOTV",
+        "Tepoztlán UAP-Hotspot"
+      ],
+      "linked_people": [
+        "carlos-diaz",
+        "jaime-maussan"
+      ],
+      "linked_theses": [
+        "these-32-kontaktpersonen-netzwerk"
+      ],
+      "sources": [
+        "UFOTV: Ships Of Light: The Carlos Diaz UFO Experience",
+        "NASA JPL Analyse — Dr. Robert Nathan",
+        "UFO Evidence: Carlos Diaz Case Is Not A Hoax (ufoevidence.org)",
+        "Rense.com: Hoax? Carlos Diaz' Dubious Alien Contact Experiences"
+      ],
+      "tags": [
+        "mexiko",
+        "kontakt",
+        "fotografie",
+        "ships-of-light",
+        "nasa-analyse",
+        "massenzeugnis",
+        "ebe-award",
+        "tepoztlan",
+        "organisch"
+      ],
+      "level": "high",
+      "description": "Mexikanischer Fotograf Carlos Díaz dokumentierte ab März 1981 über mehr als ein Jahrzehnt Kontakte zu orangefarbenen, organisch wirkenden Lichtobjekten. Fotos wurden von NASA JPL (Dr. Robert Nathan) und der Universität Guadalajara analysiert — keine Manipulation nachweisbar. Über 12.000 Bewohner Tepoztláns bestätigten ähnliche Sichtungen. Zweifacher EBE Award Winner. Gilt als einer der am gründlichsten untersuchten Kontaktfälle Lateinamerikas.",
+      "region": "international",
+      "score": 70
+    },
+    {
+      "id": "sleeping-dog-corbell-2026",
+      "title": "Sleeping Dog: Jeremy Corbell Dokumentation + 46 zurückgehaltene Videos (Mai 2026)",
+      "date": "2026-05-30",
+      "location": "USA",
+      "category": "Medien / Whistleblower",
+      "credibility_score": 7.5,
+      "status": "LAUFEND",
+      "summary": "Heimlich gefilmte Dokumentation über Jeremy Corbells jahrzehntelangen Kampf für UAP-Transparenz. Enthält angebliches 'Insider-Video' — eines der 46 Videos, die der US-Kongress explizit angefordert hatte. Die Deadline für die Freigabe dieser 46 Videos ist abgelaufen, ohne dass eine einzige freigegeben wurde. Corbell berichtet, dass das White House ihn kontaktierte, um zu fragen, wie Disclosure am besten gehandhabt werden sollte.",
+      "key_facts": [
+        "Kongress forderte 46 spezifische UAP-Videos — Deadline abgelaufen, keine freigegeben",
+        "Dokumentation enthält angebliches 'Insider-Video' aus der Liste der 46",
+        "Corbell: 'White House reached out to me to ask how to handle disclosure'",
+        "Regisseur: Michael Lazovsky",
+        "Veröffentlicht zeitgleich mit PURSUE Release 02 (Mai 2026)"
+      ],
+      "evidence_quality": "Mittel — Insider-Aussagen, keine unabhängige Verifikation",
+      "witnesses": [
+        "Jeremy Corbell (Investigativjournalist)",
+        "Anonyme Insider"
+      ],
+      "connections": [
+        "PURSUE-Prozess",
+        "David Grusch",
+        "Luis Elizondo",
+        "White House"
+      ],
+      "linked_people": [
+        "jeremy-corbell",
+        "luis-elizondo"
+      ],
+      "linked_theses": [
+        "these-69-pursue-transparenz-2026"
+      ],
+      "sources": [
+        "Fox News: Secretly filmed UFO doc reveals insider video (31. Mai 2026)",
+        "IMDB: Sleeping Dog (2026)",
+        "Instagram: @jeremycorbell Sleeping Dog Trailer"
+      ],
+      "tags": [
+        "corbell",
+        "dokumentation",
+        "insider-video",
+        "46-videos",
+        "kongress",
+        "white-house",
+        "2026"
+      ],
+      "level": "high",
+      "description": "Heimlich gefilmte Dokumentation über Jeremy Corbells jahrzehntelangen Kampf für UAP-Transparenz. Enthält angebliches 'Insider-Video' — eines der 46 Videos, die der US-Kongress explizit angefordert hatte. Die Deadline für die Freigabe dieser 46 Videos ist abgelaufen, ohne dass eine einzige freigegeben wurde. Corbell berichtet, dass das White House ihn kontaktierte, um zu fragen, wie Disclosure am besten gehandhabt werden sollte.",
+      "region": "usa",
+      "score": 75
+    },
+    {
+      "id": "capitol-uap-pressekonferenz-juni-2026",
+      "title": "Capitol UAP-Pressekonferenz: Grusch + Kongressabgeordnete fordern vollständige Freigabe (9. Juni 2026)",
+      "date": "2026-06-09",
+      "location": "US Capitol, Washington D.C.",
+      "category": "Politik / Kongress",
+      "credibility_score": 8.0,
+      "status": "GEPLANT",
+      "summary": "Biparteiische Gruppe hochrangiger Beamter und Zivilisten versammelt sich auf den Stufen des US-Kapitols, um Präsident Trump zur Freigabe spezifischer UAP-Dateien aufzufordern. David Grusch wird konkrete NHI-Beweise aus streng geheimen Kanälen beschreiben. Moderiert von Leslie Kean und James Fox. Kongressabgeordnete fordern UAP Disclosure Act und stärkeren Whistleblower-Schutz.",
+      "key_facts": [
+        "David Grusch: wird spezifische NHI-Beweise aus geheimen Kanälen beschreiben",
+        "Teilnehmer: Rep. Burlison, Rep. Moskowitz, Rep. Luna, Rep. Burchett",
+        "Moderatoren: Leslie Kean (Investigativjournalistin), James Fox (Dokumentarfilmer)",
+        "Forderungen: UAP Disclosure Act, stärkerer Whistleblower-Schutz",
+        "Grusch: 'Präsident Trump hat jetzt eine historische Chance'"
+      ],
+      "evidence_quality": "Hoch — Aussagen unter Eid erwartet, biparteiische Unterstützung",
+      "witnesses": [
+        "David Grusch",
+        "Rep. Tim Burchett",
+        "Rep. Jared Moskowitz",
+        "Rep. Anna Paulina Luna",
+        "Rep. Eric Burlison"
+      ],
+      "connections": [
+        "PURSUE-Prozess",
+        "Stephen Bassett",
+        "Leslie Kean",
+        "James Fox"
+      ],
+      "linked_people": [
+        "david-grusch",
+        "stephen-bassett",
+        "leslie-kean"
+      ],
+      "linked_theses": [
+        "these-69-pursue-transparenz-2026",
+        "these-70-nhi-material-recovery"
+      ],
+      "sources": [
+        "PRNewswire: Push for UAP Transparency (28. Mai 2026)",
+        "Washington Times: Lawmakers host whistleblowers (29. Mai 2026)"
+      ],
+      "tags": [
+        "kongress",
+        "grusch",
+        "capitol",
+        "disclosure-act",
+        "whistleblower-schutz",
+        "2026",
+        "biparteiisch"
+      ],
+      "level": "confirmed",
+      "description": "Biparteiische Gruppe hochrangiger Beamter und Zivilisten versammelt sich auf den Stufen des US-Kapitols, um Präsident Trump zur Freigabe spezifischer UAP-Dateien aufzufordern. David Grusch wird konkrete NHI-Beweise aus streng geheimen Kanälen beschreiben. Moderiert von Leslie Kean und James Fox. Kongressabgeordnete fordern UAP Disclosure Act und stärkeren Whistleblower-Schutz.",
+      "region": "usa",
+      "score": 80
+    },
+    {
+      "id": "pursue-release-03-juni-2026",
+      "title": "PURSUE Release 03: Apollo 12 Audio + Infrarot-Footage + Green Fireballs (1. Juni 2026)",
+      "date": "2026-06-01",
+      "location": "Washington D.C., USA / Apollo 12 (1969) / Nuklear-Standorte USA",
+      "category": "Regierung / Offizielle Dokumente",
+      "credibility_score": 8.0,
+      "status": "AUSSTEHEND",
+      "summary": "Das Department of War kündigte in der Pressemitteilung zu Release 02 (22. Mai 2026) an: 'Wir arbeiten aktiv an der dritten Freigabe von UAP-Dateien, die in naher Zukunft angekündigt wird.' Gerüchten zufolge (Reddit r/aliens, X-Post) soll Release 03 am 12. Juni 2026 erscheinen — zeitgleich mit Steven Spielbergs Film 'Disclosure Day' (Universal Pictures, 12. Juni 2026). Prediction Markets (Lines.com): 77% Wahrscheinlichkeit für Release vor 30. Juni 2026. Inhalt unbekannt, aber erwartet werden weitere Militärvideos und möglicherweise erstmals Dokumente über Bergungsprogramme.",
+      "key_facts": [
+        "Offiziell angekündigt in DoW Pressemitteilung zu Release 02 (22. Mai 2026)",
+        "Gerücht: Erscheinungsdatum 12. Juni 2026 (zeitgleich mit Spielbergs 'Disclosure Day')",
+        "Prediction Markets: 77% Wahrscheinlichkeit für Release vor 30. Juni 2026",
+        "Erwarteter Inhalt: weitere Militärvideos, möglicherweise Bergungsprogramm-Dokumente",
+        "Jay Stratton arbeitet weiterhin mit DoW zur Identifizierung aller Beweise"
+      ],
+      "evidence_quality": "Ausstehend — noch nicht veröffentlicht",
+      "witnesses": [
+        [
+          "Apollo 12 Crew (Conrad, Gordon, Bean)",
+          "Luis Elizondo (Kommentar)",
+          "AARO-Analysten"
+        ]
+      ],
+      "connections": [
+        "PURSUE-Prozess",
+        "Jay Stratton",
+        "Disclosure Day (Spielberg-Film)",
+        "Capitol Pressekonferenz 9. Juni 2026"
+      ],
+      "linked_people": [
+        "jay-stratton",
+        "david-grusch",
+        "luis-elizondo"
+      ],
+      "linked_theses": [
+        "these-69-pursue-transparenz-2026"
+      ],
+      "sources": [
+        "war.gov: DoW Pressemitteilung Release 02 (22. Mai 2026)",
+        "Reddit r/aliens: RUMOR: Next UFO Files Drop June 12th (28. Mai 2026)",
+        "Lines.com: Trump declassifies new UFO files by...? (Prediction Market)"
+      ],
+      "tags": [
+        [
+          "PURSUE",
+          "Apollo",
+          "NASA",
+          "Nuklear",
+          "Green Fireballs",
+          "Infrarot",
+          "Elizondo",
+          "Confirmed"
+        ]
+      ],
+      "level": "confirmed",
+      "description": [
+        "Dritte Tranche PURSUE-Freigabe (1. Juni 2026): Apollo 12 Post-Mission-Audio (1969) mit Astronauten Conrad, Gordon, Bean über unerklärliche 'Streaks of Light' im Weltraum. Infrarot-Footage (Black Hot) über westlichem US-Luftraum September 2025. Cold War-Akten über 'Green Fireballs' nahe Nuklear- und Militärinstallationen. Pantex-Imagery eines unidentifizierten Objekts. Elizondo: 'Absoluter Schatz an Informationen — belegt, dass UAPs seit den 1940ern als nationales Sicherheitsproblem behandelt wurden.'"
+      ],
+      "region": "usa",
+      "score": 88,
+      "source_url": "https://www.war.gov/UFO/"
+    },
+    {
+      "id": "jay-stratton-out-of-shadows-memoir-2026",
+      "title": "Jay Stratton: 'Out of the Shadows' — 16 Jahre UAP-Untersuchung, 80-jährige Vertuschung (Oktober 2026)",
+      "date": "2026-10-13",
+      "location": "USA",
+      "category": "Whistleblower / Memoir",
+      "credibility_score": 9.5,
+      "status": "AUSSTEHEND",
+      "summary": "Memoir von Jay Stratton, der zentralen Figur der modernen US-Regierungsuntersuchung von UAP. Stratton co-gründete AAWSAP (erstes offizielles US-UAP-Programm seit Project Blue Book) und gründete die UAPTF (erste gesamtstaatliche UAP-Untersuchung). Das Memoir beschreibt eine 80-jährige Vertuschung der Existenz nicht-menschlichen intelligenten Lebens, UAP-Vorfälle über Nuklearwaffen-Standorten und den Kampf gegen 'mächtige Gatekeeper'. Dan Farah (The Age of Disclosure) sicherte Film-/TV-Rechte für eine Scripted Series. Erscheint 13. Oktober 2026 bei HarperCollins/William Morrow.",
+      "key_facts": [
+        "Stratton: 16 Jahre UAP-Untersuchung für US-Regierung (DIA, AAWSAP, UAPTF)",
+        "Entdeckte 80-jährige Vertuschung der Existenz nicht-menschlichen intelligenten Lebens",
+        "UAP-Vorfälle über Nuklearwaffen-Standorten dokumentiert",
+        "National Intelligence Meritorious Unit Citation (Oktober 2024)",
+        "Dan Farah sicherte Film-/TV-Rechte — Scripted Series in Entwicklung",
+        "Stratton arbeitet weiterhin mit White House, DNI und DoW zusammen"
+      ],
+      "evidence_quality": "Sehr hoch erwartet — 16 Jahre Ersthand-Erfahrungen, höchste Auszeichnungen",
+      "witnesses": [
+        "Jay Stratton (Autor, ehemaliger DIA/AAWSAP/UAPTF)"
+      ],
+      "connections": [
+        "Dan Farah (The Age of Disclosure)",
+        "White House",
+        "DNI",
+        "Department of War",
+        "Luis Elizondo",
+        "PURSUE-Prozess"
+      ],
+      "linked_people": [
+        "jay-stratton",
+        "dan-farah",
+        "luis-elizondo"
+      ],
+      "linked_theses": [
+        "these-69-pursue-transparenz-2026",
+        "these-70-nhi-material-recovery"
+      ],
+      "sources": [
+        "Hollywood Reporter: Jay Stratton Memoir Out of the Shadows (4. Juni 2026)",
+        "HarperCollins/William Morrow: Out of the Shadows (Preorder, Oktober 2026)",
+        "The Age of Disclosure Documentary (2025)"
+      ],
+      "tags": [
+        "stratton",
+        "memoir",
+        "aawsap",
+        "uaptf",
+        "80-jahre-vertuschung",
+        "nhi",
+        "nuklear",
+        "harpercolins",
+        "2026",
+        "scripted-series"
+      ],
+      "level": "high",
+      "description": "Memoir von Jay Stratton, der zentralen Figur der modernen US-Regierungsuntersuchung von UAP. Stratton co-gründete AAWSAP (erstes offizielles US-UAP-Programm seit Project Blue Book) und gründete die UAPTF (erste gesamtstaatliche UAP-Untersuchung). Das Memoir beschreibt eine 80-jährige Vertuschung der Existenz nicht-menschlichen intelligenten Lebens, UAP-Vorfälle über Nuklearwaffen-Standorten und den Kampf gegen 'mächtige Gatekeeper'. Dan Farah (The Age of Disclosure) sicherte Film-/TV-Rechte für eine Scripted Series. Erscheint 13. Oktober 2026 bei HarperCollins/William Morrow.",
+      "region": "usa",
+      "score": 95
+    },
+    {
+      "id": 181,
+      "title": "Spielberg 'Disclosure Day' — Hollywood trifft UAP-Realität (12. Juni 2026)",
+      "date": "2026-06-12",
+      "location": "Weltweit / Hollywood, USA",
+      "level": "confirmed",
+      "score": 72,
+      "region": "USA",
+      "description": "Steven Spielbergs Rückkehr zum Alien-Thema nach 21 Jahren (seit War of the Worlds 2005). Universal Pictures, Drehbuch David Koepp (40+ Entwürfe). Spielberg bei SXSW 2026: 'Ich habe eine sehr starke Vermutung, dass wir nicht allein sind.' Emily Blunt, Josh O'Connor, Colin Firth. Handlung: Cybersecurity-Whistleblower enthüllt Alien-Existenz weltweit. Thematische Verbindung zu Close Encounters 1977. Kultureller Katalysator: Film erscheint synchron zu PURSUE-Akten-Releases und Capitol-Pressekonferenzen.",
+      "witnesses": [
+        "Steven Spielberg (Regisseur)",
+        "Emily Blunt (Hauptdarstellerin)",
+        "Josh O'Connor (Whistleblower-Rolle)",
+        "Colin Firth"
+      ],
+      "tags": [
+        "Hollywood",
+        "Soft-Disclosure",
+        "Spielberg",
+        "Whistleblower",
+        "Kultureller Katalysator",
+        "2026"
+      ],
+      "sources": [
+        "Universal Pictures",
+        "NBC Insider",
+        "Rotten Tomatoes",
+        "Variety",
+        "Empire Magazine",
+        "SXSW 2026"
+      ],
+      "category": "Soft-Disclosure",
+      "significance": "Kultureller Katalysator — Spielbergs Aussage bei SXSW 2026 ('starke Vermutung, nicht allein') ist bemerkenswert für einen Mainstream-Regisseur. Film erscheint synchron zu PURSUE-Releases.",
+      "connections": [
+        "PURSUE Release 01",
+        "PURSUE Release 02",
+        "PURSUE Release 03",
+        "Capitol UAP-Pressekonferenz 2026"
       ]
     }
   ]

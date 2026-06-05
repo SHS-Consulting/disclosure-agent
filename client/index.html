@@ -144,6 +144,146 @@ footer p{font-size:10px;color:var(--t3);line-height:2}
 footer a{color:var(--v);text-decoration:none}
 
 @media(max-width:640px){.ntabs{display:none}.cg,.ops{grid-template-columns:1fr}.op{grid-template-columns:1fr}}
+
+/* ── NEWS TICKER ─────────────────────────────────────────────────── */
+#news-ticker-bar {
+  width:100%; background:linear-gradient(90deg,rgba(0,229,255,.08),rgba(179,157,219,.06));
+  border-top:1px solid rgba(0,229,255,.2); border-bottom:1px solid rgba(0,229,255,.2);
+  overflow:hidden; height:32px; display:flex; align-items:center; position:relative;
+  z-index:10;
+}
+#news-ticker-label {
+  flex-shrink:0; padding:0 12px; font-family:'Orbitron',sans-serif; font-size:8px;
+  font-weight:700; color:#00e5ff; letter-spacing:1.5px; border-right:1px solid rgba(0,229,255,.3);
+  height:100%; display:flex; align-items:center; background:rgba(0,229,255,.08); white-space:nowrap;
+}
+#news-ticker-track {
+  display:flex; align-items:center; gap:0; white-space:nowrap;
+  animation: ticker-scroll 60s linear infinite;
+  will-change: transform;
+}
+#news-ticker-track:hover { animation-play-state: paused; }
+@keyframes ticker-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.ticker-item {
+  display:inline-flex; align-items:center; gap:8px; padding:0 20px;
+  font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--t1);
+  cursor:pointer; transition:color .2s; text-decoration:none;
+  border-right:1px solid rgba(255,255,255,.08);
+}
+.ticker-item:hover { color:#00e5ff; }
+.ticker-item .ticker-src {
+  font-size:8px; color:#00e5ff; font-weight:700; letter-spacing:.5px;
+  background:rgba(0,229,255,.1); border-radius:3px; padding:1px 5px;
+}
+.ticker-item .ticker-dot { color:rgba(0,229,255,.4); font-size:12px; }
+#news-ticker-loading {
+  padding:0 20px; font-family:'JetBrains Mono',monospace; font-size:10px;
+  color:var(--t3); animation: pulse 1.5s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100%{opacity:.4} 50%{opacity:1} }
+
+/* ── TOP-10 TOUR ─────────────────────────────────────────────────── */
+#tour-overlay {
+  display:none; position:fixed; inset:0; z-index:9999;
+  background:rgba(0,0,0,.85); backdrop-filter:blur(8px);
+  align-items:center; justify-content:center;
+}
+#tour-overlay.active { display:flex; }
+#tour-modal {
+  background:linear-gradient(135deg,#0d1117,#1a1f2e);
+  border:1px solid rgba(0,229,255,.3); border-radius:16px;
+  max-width:680px; width:94%; max-height:88vh; overflow-y:auto;
+  padding:0; position:relative; box-shadow:0 0 60px rgba(0,229,255,.15);
+}
+#tour-header {
+  padding:1.2rem 1.5rem; border-bottom:1px solid rgba(0,229,255,.15);
+  display:flex; align-items:center; gap:1rem; position:sticky; top:0;
+  background:linear-gradient(135deg,#0d1117,#1a1f2e); z-index:1;
+}
+#tour-progress-bar {
+  height:3px; background:rgba(0,229,255,.15); border-radius:2px; flex:1;
+}
+#tour-progress-fill {
+  height:100%; background:linear-gradient(90deg,#00e5ff,#b39ddb);
+  border-radius:2px; transition:width .4s ease;
+}
+#tour-counter {
+  font-family:'Orbitron',sans-serif; font-size:10px; color:#00e5ff;
+  font-weight:700; white-space:nowrap;
+}
+#tour-body { padding:1.5rem; }
+.tour-rank {
+  font-family:'Orbitron',sans-serif; font-size:32px; font-weight:900;
+  color:rgba(0,229,255,.2); line-height:1; margin-bottom:.5rem;
+}
+.tour-title {
+  font-family:'Orbitron',sans-serif; font-size:15px; font-weight:700;
+  color:#e0e0e0; margin-bottom:.75rem; line-height:1.4;
+}
+.tour-score-bar {
+  display:flex; align-items:center; gap:.75rem; margin-bottom:1rem;
+}
+.tour-score-label {
+  font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--t3);
+  white-space:nowrap;
+}
+.tour-score-track {
+  flex:1; height:6px; background:rgba(255,255,255,.08); border-radius:3px;
+}
+.tour-score-fill {
+  height:100%; border-radius:3px;
+  background:linear-gradient(90deg,#00e5ff,#b39ddb);
+}
+.tour-score-val {
+  font-family:'Orbitron',sans-serif; font-size:12px; font-weight:700;
+  color:#00e5ff; white-space:nowrap;
+}
+.tour-desc {
+  font-size:13px; color:var(--t2); line-height:1.6; margin-bottom:1rem;
+}
+.tour-meta {
+  display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:1.2rem;
+}
+.tour-tag {
+  font-size:9px; font-family:'JetBrains Mono',monospace; color:var(--t3);
+  background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.1);
+  border-radius:4px; padding:2px 8px;
+}
+.tour-nav {
+  display:flex; gap:.75rem; align-items:center; justify-content:space-between;
+  padding-top:1rem; border-top:1px solid rgba(255,255,255,.08);
+}
+.tour-btn {
+  font-family:'Orbitron',sans-serif; font-size:10px; font-weight:700;
+  letter-spacing:1px; padding:.6rem 1.2rem; border-radius:6px; cursor:pointer;
+  border:none; transition:all .2s;
+}
+.tour-btn-prev {
+  background:rgba(255,255,255,.06); color:var(--t2); border:1px solid rgba(255,255,255,.1);
+}
+.tour-btn-prev:hover { background:rgba(255,255,255,.12); }
+.tour-btn-next {
+  background:linear-gradient(135deg,rgba(0,229,255,.2),rgba(179,157,219,.15));
+  color:#00e5ff; border:1px solid rgba(0,229,255,.4);
+}
+.tour-btn-next:hover { background:linear-gradient(135deg,rgba(0,229,255,.3),rgba(179,157,219,.25)); }
+.tour-btn-close {
+  background:rgba(255,50,50,.1); color:#ff5555; border:1px solid rgba(255,50,50,.3);
+}
+.tour-btn-close:hover { background:rgba(255,50,50,.2); }
+#tour-dots {
+  display:flex; gap:6px; align-items:center; justify-content:center;
+  margin-top:1rem;
+}
+.tour-dot {
+  width:8px; height:8px; border-radius:50%; background:rgba(255,255,255,.15);
+  cursor:pointer; transition:all .2s;
+}
+.tour-dot.active { background:#00e5ff; transform:scale(1.3); }
+
 </style>
 </head>
 <body>
@@ -170,6 +310,16 @@ footer a{color:var(--v);text-decoration:none}
   <div class="nlive"><div class="ld"></div>LIVE <span id="live-date"></span></div>
 </nav>
 
+<!-- ── LIVE NEWS TICKER ──────────────────────────────────────────────────────── -->
+<div id="news-ticker-bar">
+  <div id="news-ticker-label">📡 UAP NEWS LIVE</div>
+  <div id="news-ticker-scroll" style="overflow:hidden;flex:1;height:100%;display:flex;align-items:center">
+    <div id="news-ticker-track">
+      <span id="news-ticker-loading">Lade aktuelle UAP-News...</span>
+    </div>
+  </div>
+</div>
+
 <div class="hero">
   <div class="badge">⊛ PENTAGON PURSUE ACT AKTIV · RELEASE 01+02+03 · ~382 AKTEN FREIGEGEBEN · LETZTER RELEASE: 1. JUNI 2026</div>
   <h1>UAP · Disclosure<br>Intelligence Hub PRO</h1>
@@ -179,6 +329,12 @@ footer a{color:var(--v);text-decoration:none}
     <div class="hs"><span class="hn" id="stat-people">—</span><span class="hl">Schlüsselpersonen</span></div>
     <div class="hs"><span class="hn" id="stat-ops">—</span><span class="hl">Operationen</span></div>
     <div class="hs"><span class="hn" id="stat-con">—</span><span class="hl">Kongruenz-Thesen</span></div>
+  </div>
+  <!-- ── TOP-10 TOUR BUTTON ── -->
+  <div style="display:flex;justify-content:center;margin-top:1.2rem">
+    <button onclick="startTour()" style="font-family:'Orbitron',sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;padding:.7rem 1.8rem;background:linear-gradient(135deg,rgba(0,229,255,.15),rgba(179,157,219,.1));border:1px solid rgba(0,229,255,.5);border-radius:8px;color:#00e5ff;cursor:pointer;transition:all .2s;display:flex;align-items:center;gap:.6rem" onmouseover="this.style.background='linear-gradient(135deg,rgba(0,229,255,.25),rgba(179,157,219,.18))';this.style.borderColor='#00e5ff'" onmouseout="this.style.background='linear-gradient(135deg,rgba(0,229,255,.15),rgba(179,157,219,.1))';this.style.borderColor='rgba(0,229,255,.5)'">
+      <span style="font-size:16px">🏆</span> TOP 10 FÄLLE · GEFÜHRTE TOUR
+    </button>
   </div>
 </div>
 
@@ -237,8 +393,8 @@ footer a{color:var(--v);text-decoration:none}
 
 <div class="alert">
   <span style="font-size:16px;flex-shrink:0">⚠️</span>
-  <div><strong>BREAKING · Pentagon PURSUE Act · Release 01+02+03 · ~382 Akten freigegeben · Letzter Release: 1. Juni 2026</strong>
-<span>Release 01 (8. Mai): 162 Akten — NASA Apollo/Mercury/Gemini/Skylab-Audio, FBI 57 Fotos, State Dept Kabel (5 Länder), DOW CENTCOM 78 Videos, CIA Sary Shagan 1973, DOE Pantex, ODNI 116 Seiten. · Release 02 (22. Mai): 60 Akten — Skylab 4, Mercury Atlas 7/8/9, Gemini 7, Apollo 12/17, FBI 2023, COMETA 1999, INDOPACOM. · Release 03 (1. Juni): ~160 neue Akten — Apollo 12 Audio, Infrarot-Footage INDOPACOM, weitere Militärberichte. · NEU: CIA jagt Human-Alien-Hybrids via 23andMe/Ancestry (Avi Loeb bei NewsNation) · Nat Cobitz (US Navy Director) zeigt NHI-Materialien · MITRE-Kongress-Anfrage · Trump: 'Extraterrestrials' im Kabinett · Red Book &amp; Yellow Book (Coulthart). · NEU: Kongruenz-These #63: Neurodiversität als Hybridisierungs-Marker (Autismus/ADHS/ASS = Alien-Hybrid-Merkmal, Dr. Max Rempel 2025, Neanderthal-DNA-Studie Nature 2024, CIA-23andMe-Backdoor). · These #66: Uri Geller (CIA Stargate SRI 1972–1973 declassified + Wernher von Braun NASA Goddard Alien Bodies + MINOX-Fotos + Mossad + Dr. Kit Green CIA bestätigt). · 173 Fälle · 80 Personen · 68 Thesen. · Vollständiger Index: <a href="https://pursueindex.com" target="_blank" style="color:#00e5ff;font-weight:700;text-decoration:underline">pursueindex.com</a></span></div>
+  <div><strong>BREAKING · Pentagon PURSUE Act · Release 01+02+03 · ~382 Akten freigegeben · R03: Apollo 12 Audio + Green Fireballs + Infrarot-Footage · Letzter Release: 1. Juni 2026</strong>
+<span>Release 01 (8. Mai): 162 Akten — NASA Apollo/Mercury/Gemini/Skylab-Audio, FBI 57 Fotos, State Dept Kabel (5 Länder), DOW CENTCOM 78 Videos, CIA Sary Shagan 1973, DOE Pantex, ODNI 116 Seiten. · Release 02 (22. Mai): 60 Akten — Skylab 4, Mercury Atlas 7/8/9, Gemini 7, Apollo 12/17, FBI 2023, COMETA 1999, INDOPACOM. · Release 03 (1. Juni): ~160 neue Akten — Apollo 12 Audio, Infrarot-Footage INDOPACOM, weitere Militärberichte. · NEU: CIA jagt Human-Alien-Hybrids via 23andMe/Ancestry (Avi Loeb bei NewsNation) · Nat Cobitz (US Navy Director) zeigt NHI-Materialien · MITRE-Kongress-Anfrage · Trump: 'Extraterrestrials' im Kabinett · Red Book &amp; Yellow Book (Coulthart). · NEU: Kongruenz-These #63: Neurodiversität als Hybridisierungs-Marker (Autismus/ADHS/ASS = Alien-Hybrid-Merkmal, Dr. Max Rempel 2025, Neanderthal-DNA-Studie Nature 2024, CIA-23andMe-Backdoor). · These #66: Andrija Puharich (CIA-finanziert, The Nine, Lab Nine, Geller-Biograph 1974) · Telepathy Tapes (Ky Dickens 2024, nicht-sprechende Autisten + NHI-Kontakt) · Uri Geller (CIA Stargate SRI 1972–1973 declassified + Wernher von Braun NASA Goddard Alien Bodies + MINOX-Fotos + Mossad + Dr. Kit Green CIA bestätigt). · 181 Fälle · 89 Personen · 71 Thesen. · Vollständiger Index: <a href="https://pursueindex.com" target="_blank" style="color:#00e5ff;font-weight:700;text-decoration:underline">pursueindex.com</a></span></div>
 </div>
 
 <div class="tbts">
@@ -278,6 +434,9 @@ footer a{color:var(--v);text-decoration:none}
     <button class="rbtn" onclick="filterEvidenceTag('Video',this)" style="border-color:rgba(255,80,80,.5);color:#ff5050;background:rgba(255,80,80,.07)">🎥 Video</button>
     <button class="rbtn" onclick="filterEvidenceTag('Humanoid',this)" style="border-color:rgba(0,230,118,.5);color:#00e676;background:rgba(0,230,118,.07)">👽 Humanoid</button>
     <button class="rbtn" onclick="filterEvidenceTag('PURSUE',this)" style="border-color:rgba(0,229,255,.5);color:#00e5ff;background:rgba(0,229,255,.07)">🏛 PURSUE</button>
+    <button class="rbtn" onclick="filterEvidenceTag('hybrid',this)" style="border-color:rgba(0,230,118,.5);color:#00e676;background:rgba(0,230,118,.07)">🧬 Hybride</button>
+    <button class="rbtn" onclick="filterEvidenceTag('neurodiversitaet',this)" style="border-color:rgba(179,157,219,.5);color:#b39ddb;background:rgba(179,157,219,.07)">🧠 Neurodiversität</button>
+    <button class="rbtn" onclick="filterEvidenceTag('indigo',this)" style="border-color:rgba(100,100,255,.5);color:#6464ff;background:rgba(100,100,255,.07)">🔮 Indigo/Sternenkinder</button>
   </div>
   <!-- Neueste Fälle -->
   <div id="ev-recent" style="margin-bottom:1rem;display:none">
@@ -337,6 +496,9 @@ footer a{color:var(--v);text-decoration:none}
     <button class="rbtn" onclick="filterPeopleTag('PURSUE',this)" style="border-color:rgba(0,229,255,.5);color:#00e5ff;background:rgba(0,229,255,.07)">🏛 PURSUE</button>
     <button class="rbtn" onclick="filterPeopleTag('Zeuge',this)" style="border-color:rgba(255,176,32,.5);color:#ffb020;background:rgba(255,176,32,.07)">👁 Zeuge</button>
     <button class="rbtn" onclick="filterPeopleTag('umdenker',this)" style="border-color:rgba(100,255,180,.5);color:#64ffb4;background:rgba(100,255,180,.07)">🔄 Umdenker</button>
+    <button class="rbtn" onclick="filterPeopleTag('skeptiker',this)" style="border-color:rgba(255,100,100,.5);color:#ff6464;background:rgba(255,100,100,.07)">🔎 Skeptiker</button>
+    <button class="rbtn" onclick="filterPeopleTag('hybrid',this)" style="border-color:rgba(0,230,118,.5);color:#00e676;background:rgba(0,230,118,.07)">🧬 Hybride</button>
+    <button class="rbtn" onclick="filterPeopleTag('channeling',this)" style="border-color:rgba(179,157,219,.5);color:#b39ddb;background:rgba(179,157,219,.07)">🔮 Channeling</button>
   </div>
   <div id="pp-count" style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--t3);margin-bottom:.5rem"></div>
   <div class="cg" id="pp-grid"><div class="loading">Lade Personendaten...</div></div>
@@ -644,10 +806,12 @@ footer a{color:var(--v);text-decoration:none}
     <!-- Netzwerk-Legende -->
     <div style="display:flex;flex-wrap:wrap;gap:.5rem 1.2rem;margin-top:.6rem;padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px;align-items:center">
       <span style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);letter-spacing:1px">LEGENDE:</span>
-      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#ff4444;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">Score ≥ 9.5</span></span>
-      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#00e676;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">Score ≥ 9.0</span></span>
-      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#00e5ff;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">Score ≥ 8.0</span></span>
-      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#b39ddb;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">Score &lt; 8.0</span></span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#ff4444;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">≥ 9.5 Kritisch</span></span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#00e676;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">≥ 9.0 Sehr stark</span></span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#00e5ff;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">≥ 8.0 Stark</span></span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#b39ddb;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">≥ 7.5 Belegt</span></span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#ff9800;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">≥ 6.5 Teilweise</span></span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:8px"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#ffd600;vertical-align:middle;margin-right:4px"></span><span style="color:var(--t2)">&lt; 6.5 ⚠ Umstritten</span></span>
       <span style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3)">Knotengröße = Score · Linienstärke = gemeinsame Tags/Personen · Klick = zur These springen</span>
     </div>
   </div>
@@ -658,16 +822,21 @@ footer a{color:var(--v);text-decoration:none}
 <div class="aip">
 <div class="aih">
 <div class="aia"><img src="/manus-storage/logo-hq_3761fcd9.jpg" alt="KI Taskforce" onerror="this.parentNode.style.background='linear-gradient(135deg,#7c5cbf,#00e5ff)';this.remove()"></div>
-<div><div class="ain">DISCLOSURE AGENT PRO · KI Taskforce</div><div style="font-size:9px;color:var(--t3);font-family:'JetBrains Mono',monospace">Claude Sonnet · Vollkontext: Pentagon + DIA FOIA + Peyerl-Primäranalyse + Lazar + Bigelow + Brasilien + Skinwalker + Bashar + Steiner + Tesla + Ureinwohner + Council of Nine + 68 Kongruenz-Thesen + Greada Treaty + Eisenhower-Kontaktserie</div></div>
+<div><div class="ain">DISCLOSURE AGENT PRO · KI Taskforce</div><div style="font-size:9px;color:var(--t3);font-family:'JetBrains Mono',monospace">Claude Sonnet · Vollkontext: Pentagon + DIA FOIA + Peyerl-Primäranalyse + Lazar + Bigelow + Brasilien + Skinwalker + Bashar + Steiner + Tesla + Ureinwohner + Council of Nine + 67 Kongruenz-Thesen + Greada Treaty + Eisenhower-Kontaktserie</div></div>
 </div>
-<div class="ams" id="ams"><div class="am"><strong>Disclosure Agent:</strong> v34 vollständig geladen. 173 Fälle · 80 Personen · 13 Operationen · 63 Kongruenz-Thesen. Ich kenne: DIA-FOIA-Paket (5 BAASS-Materialstudien), Nuklear-UAP-Nexus (Score 97), Hollywood-Disclosure-Vehikel (Score 91), Holloman-Kontaktserie (1955/1964), Malmstrom-Echo/Oscar-Flight (1967), Eisenhower-NHI-Kontaktserie (1954–1955), Greada Treaty, Geheimhaltungs-Eskalation (79 Jahre), Eric Davis Legacy Program, Steiner-Äther ↔ Tesla ↔ Bashar, Ureinwohner-Wissen (Lakota, Hopi, Dogon, Aborigines), New Mexico Cluster (Trinity/Roswell/Dulce/Holloman/Los Alamos im 300km-Radius), SOHO-UAP-Nexus (NASA-Datenzugangsbeschränkungen), Morpheus 'Transformation der Erde' (Burkhard Heim 12D + Anunnaki/Nibiru + Photonenring), Zecharia Sitchin (Anunnaki-Grundlagenwerk, 2 Mio. Bücher), Bob Lazar S-4 (Element-115/Moscovium), Phil Schneider Dulce-Kampf 1979, Anthony Bragalia (FOIA-Experte, DIA-Materialnachweis), Reverse-Engineering-Materialnachweis-These (Score 9.6: Roswell → Nitinol → AAWSA → AATIP → Grusch, 76-jährige Beweiskette), Kumburgaz-UAP-Serie 2007–2009 (TÜBİTAK-bestätigt, 7 unabhängige Analysen, Humanoid-Besatzung auf Video, 23 Ereignisse, Kongruenz-These #51: Humanoid-Besatzungsnachweis Score 9.2), war.gov PURSUE Release 01+02+03 (~382 Dateien: NASA Apollo/Mercury/Gemini/Skylab-Audio, FBI 57 Fotos + September-2023-Sichtung, State Dept Kabel Papua-NG/Kasachstan/Georgien/Turkmenistan/Mexiko, DOW CENTCOM 78 Videos 2018-2024, DOW Historische Akten 1946-1950, Vandenberg AFB, INDOPACOM 2025, ODNI Senior Official 116-seitig, CIA Sary Shagan 1973, DOE Pantex Imagery, James Tuck Manhattan Project, COMETA Report 1999), Kongruenz-These #55: NASA-Astronauten-UAP-Konsistenz (Score 9.0: Mercury/Gemini/Apollo/Skylab 1961–1973, 6 Missionen, 8 Astronauten, 12 Jahre, alle durch PURSUE-Archiv bestätigt), Robertson Panel 1953 (CIA-Debunking-Strategie als direkte Folge Washington DC 1952 — deklassifiziert 1975, Beweis für bewusste Geheimhaltungsentscheidung), Donald Keyhoe (USMC-Major, erster öffentlicher Whistleblower 1952, NICAP-Direktor, vom Robertson Panel überwacht), Kongruenz-These #56: CIA-Geheimhaltungs-Eskalation 1953–2023 (Score 9.3: Robertson Panel → BLUEBOOK → AATIP → Grusch, 70-jährige lückenlose Dokumentation), Kongruenz-These #57: Nuklear-UAP-Nexus (Score 9.4: Malmstrom 1967 → Rendlesham 1980 → Minot 2007 → Grusch 2023, 56 Jahre, 3 Länder, Salas+Halt unter Eid, ICBMs deaktiviert), Kongruenz-These #58: Whistleblower-Schutz-Eskalation 2017–2023 (Score 9.1: Elizondo → UAPTF → AARO → Grusch-Schutz, 6 Jahre institutioneller Wandel, NDAA-Gesetze), Kongruenz-These #59: Hollywood-Soft-Disclosure-Nexus (Score 8.7: Spielberg CE3K 1977 → ET 1982 → Contact 1997 → Disclosure Day 2026, 49 Jahre, Hynek+CIA-Briefings, Ben Rich ET-Witz 1983), Kongruenz-These #60: CE-Klassifikation als globaler Standard (Score 8.8: Hynek 1972 → GEPAN 1977 → COMETA 1999 → AARO 2023), Kongruenz-These #61: Institutionelle Selbstkorrektur 2017–2026 (Score 9.1: AATIP → UAPTF → AARO → PURSUE Act, erstmals korrigiert sich das System öffentlich), Kongruenz-These #62: DNA als Frontier — CIA-Hybrid-Suche & Panspermia (Score 8.2: Kit Green/23andMe/Ancestry + Loeb-Panspermia + Varginha/Chereze + Colares-Strahlenopfer). NEU (Juni 2026): CIA jagt Human-Alien-Hybrids via DNA-Datenbanken (Avi Loeb NewsNation), Nat Cobitz US Navy Director zeigt NHI-Materialien (Coulthart), PURSUE Release 03 (1. Juni, ~160 neue Akten), Trump 'Extraterrestrials' im Kabinett, MITRE-Kongress-Anfrage, Red Book & Yellow Book (Coulthart), Buzz Aldrin Apollo 11 'helles Licht' (PURSUE-Akte), Kit Green CIA-Analyst (DNA-Programm), Kongruenz-These #63: Neurodiversität als Hybridisierungs-Marker (Score 7.8: Dr. Max Myakishev-Rempel DNA Resonance Research Foundation 2025 — 2% von 581 Familien mit nicht-elterlichen DNA-Insertionen auf Chromosom 3, betroffene Kinder entwickeln autistische Qualitäten + psychische/künstlerische Talente; Clemson/Nature Molecular Psychiatry 2024 — 25 Neanderthal-DNA-Varianten bei Autisten häufiger; CIA-Backdoor in 23andMe/Ancestry via Kit Green sucht nicht-menschliche genetische Varianten; Rempel: nicht-sprechende Autisten oszillieren zwischen Realitäten — Frequenz zu hoch für diese Dimension; jedes 30. Kind in Kalifornien autistisch = Ausbreitung von Hybriden), Dolly Safran (Gaia Cosmic Disclosure S30E4+E5, April 2026, 793k Views): Hybrid-Pilotin mit bestätigter nicht-menschlicher DNA — UFOs werden durch Remote Viewing des Bewusstseins gesteuert (5D-Entitäten), Craft TLERA ist biologische Erweiterung eines 5D-Wesens; Bob-Lazar-Verbindung: ihre Gravitationssteuerungs-Beschreibung deckt sich exakt mit Lazars S-4-Schilderungen; Kumburgaz-Verbindung: Besatzung als Hybride erklärt menschlich-ähnliches Erscheinungsbild; 'If hybridization is already written into our biology... we've been engineered to survive a cataclysm we don't yet see coming', Emery Smith (US Air Force Veteran, Gaia Cosmic Disclosure, 2017): 3.000+ NHI-Gewebeproben in geheimen biologischen Einrichtungen unter New Mexico disseziert — Atacama-Humanoid-Film Sirius 2013, Zero-Point-Energiemaschinen, strukturelle Übereinstimmung mit Grusch 2023; Preston Dennett (MUFON-Feldermittler, 30 Bücher, 500+ Fälle Südkalifornien): Autor von Symmetry (Dolly Safran, 2022), Reddit AMA November 2024; Kongruenz-These #64: Bewusstsein als UFO-Interface (Score 8.1: Dolly Safran Bewusstsein-Remote-View als Piloten-Interface + Bob Lazar Gravitations-Amplifier Hardware-Seite + Ingo Swann CIA-Stargate Remote-Viewing-Moon + Bashar Frequenz-Resonanz-Steuerung + Kumburgaz keine sichtbaren mechanischen Steuerungselemente + Emery Smith NHI-Neurologie für Telepathie optimiert — 6 unabhängige Quellen konvergieren auf Bewusstsein als primäres NHI-Craft-Interface), Buga Sphere (Buga, Kolumbien, 2. März 2025, SEHR UMSTRITTEN Score 6.5): PRIMÄRDOKUMENT: UGA Radiocarbon Analysis Report 12. Sept. 2025 — Sample BGS, Material Resin, 14C age 12.560±30 BP, δ13C -28.65, pMC 20.94±0.08, AMS-Methode, Ph.D. Research Scientist unterzeichnet, von Greer veröffentlicht 22. Sept. 2025 (6.400 Likes); CT/Röntgen UNAM: 3-schichtige Metallhülle, 18 Mikrosphären, ~50 Glasfaser-Fäden; MIT-Röntgen April 2026: variierende Dichten, konzentrische Muster; Flug-Video 26. Mai 2025 San Vicente del Caguán: 76 Sekunden, @JosCRios, kein Geräusch, Richtungsänderungen; Gewicht 2→10 kg, 2,3 Hz EM; IPN-Experiment 9. Juli 2025 (190-300 Hz + Sanskrit-Mantras, 5°C); STÄRKSTES CONTRA: SGA-Debunking Hans Dietrich: Symbole = Standard Galactic Alphabet (Commander Keen 1990/Minecraft 2011), Übersetzung = Arthur C. Clarkes 3. Gesetz (iguzzini.com), Säureätzungs-Artefakte (bad stencil, bleed over, not symmetrical) → wenn korrekt: post-1990 Fälschung; weitere Contras: Harz-Datierung ≠ Metall-Datierung, Maussan-Kontroverse, IPN nicht peer-reviewed, Flug-Video = mögliche Drohne, Betz Sphere 1974 = industrielles Ventil; Steven Greer (CSETI 1990, Disclosure Project 2001, CE-5, Sirius 2013, Unacknowledged 2017): Hauptvertreter, National Press Club 2001, Verbindung Emery Smith; Weitere Sphären: Yumbo + Medellín (Kolumbien), Mosul Orb (Irak/AARO); Kongruenz-These #65 Score 6.5; Uri Geller (geb. 1946, Israel, CIA Stargate SRI 1972–1973 DOKUMENTIERT): CIA-Bericht 1973 declassified: 'paranormal perceptual ability in a convincing and unambiguous manner'; Faraday-Käfig-Tests Targ+Puthoff; Mossad-Verbindung (BBC 2013); Dr. Kit Green CIA bestätigt (Vimeo); Wernher von Braun ~1970 NASA Goddard Space Center: gefrorene Alien-Bodies, große Köpfe, verstümmelt, 'not of this earth or this time or dimension'; MINOX-Kamera geschmuggelt, Negative vorhanden (nicht veröffentlicht); Facebook 28.9.2025 (549.000 Views, 23.000 Likes): Frozen bodies + MINOX + Drohnen-Verbindung + Trump-Forderung; Dez. 2025: 3I/ATLAS = Galactic Federation; Tonight Show 1973 = VERSAGEN (Randi vorgewarnt); Stargate 1998 eingestellt; Kongruenz-These #66: Psychische Fähigkeiten als NHI-Kontakt-Marker (Score 6.2)
-, Nancy Ann Tappe (1931-2012, Synästhesie, San Diego): Begründerin Indigo-Kinder-Konzept — beobachtete ab 1960er Kinder mit indigofarbener Aura, 1982 'Understanding Your Life Thru Color', 4 Indigo-Typen: Humanist/Konzeptuell/Künstler/Interdimensional; Lee Carroll (geb. 1945, Kryon Writings): 1998 'The Indigo Children' (500.000+ Exemplare, Hay House), Kryon-Channeling seit 1989, ADHS = Indigo-Merkmal, 12-Strang-DNA-Upgrade; Mary Rodwell (geb. 1952, ACERN Australien): 3.000+ Klientenfälle, 'The New Human' (2016), Autismus/ADHS/Asperger = Starseed-Merkmale, Sternsprachen, Homo noeticus, FREE Foundation; Kongruenz-These #68: Indigo-/Kristall-/Sternenkinder als Hybridisierungs-Marker (Score 6.8, 7 Quellebenen): Clemson/Nature 2024 (Neanderthal-DNA + Autismus), Rempel 2025 (ET-DNA-Insertionen), Rodwell 3.000+ Fälle, Telepathy Tapes (Autisten NHI-Kontakt), Cannon (Kristallkinder = Autismus), Jacobs (Hybridkinder autistisch), Tappe (Synästhesie-Erstbeobachtung), und den Direktzugriff auf die Peyerl-Akte aus Section 10. Frag alles — ich verbinde alle Ebenen.</div></div>
+<div class="ams" id="ams"><div class="am"><strong>Disclosure Agent:</strong> v34 vollständig geladen. 180 Fälle · 89 Personen · 13 Operationen · 71 Kongruenz-Thesen. Ich kenne: DIA-FOIA-Paket (5 BAASS-Materialstudien), Nuklear-UAP-Nexus (Score 97), Hollywood-Disclosure-Vehikel (Score 91), Holloman-Kontaktserie (1955/1964), Malmstrom-Echo/Oscar-Flight (1967), Eisenhower-NHI-Kontaktserie (1954–1955), Greada Treaty, Geheimhaltungs-Eskalation (79 Jahre), Eric Davis Legacy Program, Steiner-Äther ↔ Tesla ↔ Bashar, Ureinwohner-Wissen (Lakota, Hopi, Dogon, Aborigines), New Mexico Cluster (Trinity/Roswell/Dulce/Holloman/Los Alamos im 300km-Radius), SOHO-UAP-Nexus (NASA-Datenzugangsbeschränkungen), Morpheus 'Transformation der Erde' (Burkhard Heim 12D + Anunnaki/Nibiru + Photonenring), Zecharia Sitchin (Anunnaki-Grundlagenwerk, 2 Mio. Bücher), Bob Lazar S-4 (Element-115/Moscovium), Phil Schneider Dulce-Kampf 1979, Anthony Bragalia (FOIA-Experte, DIA-Materialnachweis), Reverse-Engineering-Materialnachweis-These (Score 9.6: Roswell → Nitinol → AAWSA → AATIP → Grusch, 76-jährige Beweiskette), Kumburgaz-UAP-Serie 2007–2009 (TÜBİTAK-bestätigt, 7 unabhängige Analysen, Humanoid-Besatzung auf Video, 23 Ereignisse, Kongruenz-These #51: Humanoid-Besatzungsnachweis Score 9.2), war.gov PURSUE Release 01+02+03 (~382 Dateien: NASA Apollo/Mercury/Gemini/Skylab-Audio, FBI 57 Fotos + September-2023-Sichtung, State Dept Kabel Papua-NG/Kasachstan/Georgien/Turkmenistan/Mexiko, DOW CENTCOM 78 Videos 2018-2024, DOW Historische Akten 1946-1950, Vandenberg AFB, INDOPACOM 2025, ODNI Senior Official 116-seitig, CIA Sary Shagan 1973, DOE Pantex Imagery, James Tuck Manhattan Project, COMETA Report 1999), Kongruenz-These #55: NASA-Astronauten-UAP-Konsistenz (Score 9.0: Mercury/Gemini/Apollo/Skylab 1961–1973, 6 Missionen, 8 Astronauten, 12 Jahre, alle durch PURSUE-Archiv bestätigt), Robertson Panel 1953 (CIA-Debunking-Strategie als direkte Folge Washington DC 1952 — deklassifiziert 1975, Beweis für bewusste Geheimhaltungsentscheidung), Donald Keyhoe (USMC-Major, erster öffentlicher Whistleblower 1952, NICAP-Direktor, vom Robertson Panel überwacht), Kongruenz-These #56: CIA-Geheimhaltungs-Eskalation 1953–2023 (Score 9.3: Robertson Panel → BLUEBOOK → AATIP → Grusch, 70-jährige lückenlose Dokumentation), Kongruenz-These #57: Nuklear-UAP-Nexus (Score 9.4: Malmstrom 1967 → Rendlesham 1980 → Minot 2007 → Grusch 2023, 56 Jahre, 3 Länder, Salas+Halt unter Eid, ICBMs deaktiviert), Kongruenz-These #58: Whistleblower-Schutz-Eskalation 2017–2023 (Score 9.1: Elizondo → UAPTF → AARO → Grusch-Schutz, 6 Jahre institutioneller Wandel, NDAA-Gesetze), Kongruenz-These #59: Hollywood-Soft-Disclosure-Nexus (Score 8.7: Spielberg CE3K 1977 → ET 1982 → Contact 1997 → Disclosure Day 2026, 49 Jahre, Hynek+CIA-Briefings, Ben Rich ET-Witz 1983), Kongruenz-These #60: CE-Klassifikation als globaler Standard (Score 8.8: Hynek 1972 → GEPAN 1977 → COMETA 1999 → AARO 2023), Kongruenz-These #61: Institutionelle Selbstkorrektur 2017–2026 (Score 9.1: AATIP → UAPTF → AARO → PURSUE Act, erstmals korrigiert sich das System öffentlich), Kongruenz-These #62: DNA als Frontier — CIA-Hybrid-Suche & Panspermia (Score 8.2: Kit Green/23andMe/Ancestry + Loeb-Panspermia + Varginha/Chereze + Colares-Strahlenopfer). NEU (Juni 2026): CIA jagt Human-Alien-Hybrids via DNA-Datenbanken (Avi Loeb NewsNation), Nat Cobitz US Navy Director zeigt NHI-Materialien (Coulthart), PURSUE Release 03 (1. Juni, ~160 neue Akten), Trump 'Extraterrestrials' im Kabinett, MITRE-Kongress-Anfrage, Red Book & Yellow Book (Coulthart), Buzz Aldrin Apollo 11 'helles Licht' (PURSUE-Akte), Kit Green CIA-Analyst (DNA-Programm), Kongruenz-These #63: Neurodiversität als Hybridisierungs-Marker (Score 7.8: Dr. Max Myakishev-Rempel DNA Resonance Research Foundation 2025 — 2% von 581 Familien mit nicht-elterlichen DNA-Insertionen auf Chromosom 3, betroffene Kinder entwickeln autistische Qualitäten + psychische/künstlerische Talente; Clemson/Nature Molecular Psychiatry 2024 — 25 Neanderthal-DNA-Varianten bei Autisten häufiger; CIA-Backdoor in 23andMe/Ancestry via Kit Green sucht nicht-menschliche genetische Varianten; Rempel: nicht-sprechende Autisten oszillieren zwischen Realitäten — Frequenz zu hoch für diese Dimension; jedes 30. Kind in Kalifornien autistisch = Ausbreitung von Hybriden), Dolly Safran (Gaia Cosmic Disclosure S30E4+E5, April 2026, 793k Views): Hybrid-Pilotin mit bestätigter nicht-menschlicher DNA — UFOs werden durch Remote Viewing des Bewusstseins gesteuert (5D-Entitäten), Craft TLERA ist biologische Erweiterung eines 5D-Wesens; Bob-Lazar-Verbindung: ihre Gravitationssteuerungs-Beschreibung deckt sich exakt mit Lazars S-4-Schilderungen; Kumburgaz-Verbindung: Besatzung als Hybride erklärt menschlich-ähnliches Erscheinungsbild; 'If hybridization is already written into our biology... we've been engineered to survive a cataclysm we don't yet see coming', Emery Smith (US Air Force Veteran, Gaia Cosmic Disclosure, 2017): 3.000+ NHI-Gewebeproben in geheimen biologischen Einrichtungen unter New Mexico disseziert — Atacama-Humanoid-Film Sirius 2013, Zero-Point-Energiemaschinen, strukturelle Übereinstimmung mit Grusch 2023; Preston Dennett (MUFON-Feldermittler, 30 Bücher, 500+ Fälle Südkalifornien): Autor von Symmetry (Dolly Safran, 2022), Reddit AMA November 2024; Kongruenz-These #64: Bewusstsein als UFO-Interface (Score 8.1: Dolly Safran Bewusstsein-Remote-View als Piloten-Interface + Bob Lazar Gravitations-Amplifier Hardware-Seite + Ingo Swann CIA-Stargate Remote-Viewing-Moon + Bashar Frequenz-Resonanz-Steuerung + Kumburgaz keine sichtbaren mechanischen Steuerungselemente + Emery Smith NHI-Neurologie für Telepathie optimiert — 6 unabhängige Quellen konvergieren auf Bewusstsein als primäres NHI-Craft-Interface), Buga Sphere (Buga, Kolumbien, 2. März 2025, SEHR UMSTRITTEN Score 6.5): PRIMÄRDOKUMENT: UGA Radiocarbon Analysis Report 12. Sept. 2025 — Sample BGS, Material Resin, 14C age 12.560±30 BP, δ13C -28.65, pMC 20.94±0.08, AMS-Methode, Ph.D. Research Scientist unterzeichnet, von Greer veröffentlicht 22. Sept. 2025 (6.400 Likes); CT/Röntgen UNAM: 3-schichtige Metallhülle, 18 Mikrosphären, ~50 Glasfaser-Fäden; MIT-Röntgen April 2026: variierende Dichten, konzentrische Muster; Flug-Video 26. Mai 2025 San Vicente del Caguán: 76 Sekunden, @JosCRios, kein Geräusch, Richtungsänderungen; Gewicht 2→10 kg, 2,3 Hz EM; IPN-Experiment 9. Juli 2025 (190-300 Hz + Sanskrit-Mantras, 5°C); STÄRKSTES CONTRA: SGA-Debunking Hans Dietrich: Symbole = Standard Galactic Alphabet (Commander Keen 1990/Minecraft 2011), Übersetzung = Arthur C. Clarkes 3. Gesetz (iguzzini.com), Säureätzungs-Artefakte (bad stencil, bleed over, not symmetrical) → wenn korrekt: post-1990 Fälschung; weitere Contras: Harz-Datierung ≠ Metall-Datierung, Maussan-Kontroverse, IPN nicht peer-reviewed, Flug-Video = mögliche Drohne, Betz Sphere 1974 = industrielles Ventil; Steven Greer (CSETI 1990, Disclosure Project 2001, CE-5, Sirius 2013, Unacknowledged 2017): Hauptvertreter, National Press Club 2001, Verbindung Emery Smith; Weitere Sphären: Yumbo + Medellín (Kolumbien), Mosul Orb (Irak/AARO); Kongruenz-These #65 Score 6.5; Uri Geller (geb. 1946, Israel, CIA Stargate SRI 1972–1973 DOKUMENTIERT): CIA-Bericht 1973 declassified: 'paranormal perceptual ability in a convincing and unambiguous manner'; Faraday-Käfig-Tests Targ+Puthoff; Mossad-Verbindung (BBC 2013); Dr. Kit Green CIA bestätigt (Vimeo); Wernher von Braun ~1970 NASA Goddard Space Center: gefrorene Alien-Bodies, große Köpfe, verstümmelt, 'not of this earth or this time or dimension'; MINOX-Kamera geschmuggelt, Negative vorhanden (nicht veröffentlicht); Facebook 28.9.2025 (549.000 Views, 23.000 Likes): Frozen bodies + MINOX + Drohnen-Verbindung + Trump-Forderung; Dez. 2025: 3I/ATLAS = Galactic Federation; Tonight Show 1973 = VERSAGEN (Randi vorgewarnt); Stargate 1998 eingestellt; Kongruenz-These #66: Psychische Fähigkeiten | These #67: The Nine/Council of Nine — 9 kosmische Entitäten, Puharich+Geller+Schlemmer+Roddenberry, CIA-Dokument belegt, Score 5.9 als NHI-Kontakt-Marker (Score 6.2); Ingo Swann (Person #75, CIA Stargate 1972-1995, Begründer Controlled Remote Viewing, SRI Stanford 1972: Magnetometer-Beeinflussung, Jupiter-Ringe 1973 vor Voyager-Bestätigung 1979, Mond-Remote-Viewing 1975: Türme/Kuppeln/Maschinen/menschenähnliche Wesen die seine Präsenz wahrnahmen, Buch Penetration 1998, Zitat US-Regierungsbeamter: "They somehow have told you to stay away. They are not friendly.", Verbindung Uri Geller beide von Targ+Puthoff an SRI getestet); Mosul Orb (Fall #169, April 2016, US-Spionageflugzeug über Mossul/Irak aktive Kampfzone, metallisch glänzende Kugel ohne Antriebssysteme, Pentagon-Briefing-Video klassifiziert bis Jan 2023, AARO-Direktor Dr. Sean Kirkpatrick bestätigt Untersuchung, Juli 2025 Vollvideo veröffentlicht WEAPONIZED Podcast Jeremy Corbell, Score 9.0, identische Form wie Buga Sphere, Transmedium-Fähigkeiten bei ähnlichen Orbs dokumentiert); Kongruenz-Tab: UMSTRITTEN-Badge (gelb) für Thesen Score unter 6.5, TEILWEISE BELEGT (orange) für Score 6.5-7.5, und den Direktzugriff auf die Peyerl-Akte aus Section 10. 
+CARLOS DÍAZ (Person #83, Mexikanischer Fotograf, Tepoztlán): Erstkontakt 23. März 1981 Ajusco National Forest — orangefarbene organisch wirkende Lichtobjekte ('Ships of Light') — NASA JPL Analyse Dr. Robert Nathan: keine Fälschung — 12.000+ Zeugen Tepoztlán — 12+ Jahre Kontaktserie — 2-facher EBE Award Winner — Verbindung Jaime Maussan; STEPHEN BASSETT (Person #84, Erster registrierter UFO-Lobbyist USA): Paradigm Research Group 1996 — prägte Begriff 'Disclosure' als politisches Konzept — 30 Jahre Kongress-Lobbying — koordinierte Capitol-Pressekonferenz 9. Juni 2026 mit Grusch/Fox/Burlison/Luna/Moskowitz; NAT COBITZ (Person #85, Director of Science Technology Development US Navy): beschrieb gegenüber Ross Coulthart geborgene nicht-menschliche Handwerkszeug-Materialien — Coulthart: 'das überzeugte mich persönlich' — hochrangigste Navy-Quelle für NHI-Material-Bergung; DAN FARAH (Person #86, Regisseur 'The Age of Disclosure' 2025): positioniert USA im Wettlauf um Reverse Engineering außerirdischer Technologie — 'größter Moment in der Geschichte der Menschheit'; PURSUE Release 01 (8. Mai 2026, Fall #174): 162 Dateien — 28 Videos, 120 Dokumente, 14 Bilder — FBI-Akten, NASA-Fotos, Militärberichte — 1 Milliarde Nutzer war.gov/UFO; PURSUE Release 02 (22. Mai 2026, Fall #175): 51 Militärvideos — F-22 schießt UAP über Lake Huron ab — sphärische Objekte tauchen bei U-Boot ins Wasser (Persischer Golf 2022) — Senior Intelligence Officer: 'countless orange orbs — virtually speechless' — NASA Apollo/Mercury Audio: 'fireflies' und 'snowflakes'; CARLOS DÍAZ Ships of Light (Fall #176, 1981-1992+): NASA JPL bestätigt Authentizität — 12.000 Zeugen — EBE Award; SLEEPING DOG Corbell-Dokumentation (Fall #177, Mai 2026): Kongress forderte 46 UAP-Videos — Deadline abgelaufen — Corbell zeigt angebliches Insider-Video — White House kontaktierte Corbell für Disclosure-Beratung; CAPITOL UAP-PRESSEKONFERENZ (Fall #178, 9. Juni 2026): Grusch + Burlison + Luna + Moskowitz + Burchett + Leslie Kean + James Fox — Forderung: UAP Disclosure Act + Whistleblower-Schutz; THESE #69 PURSUE-TRANSPARENZ (Score 8.5): Erste echte Massenfreigabe US-Geschichte — 1 Mrd. Nutzer — biparteiischer Kongress-Druck — Tipping Point; THESE #70 NHI-MATERIAL-RECOVERY (Score 8.0): Grusch (Eid) + Cobitz (Navy) + Elizondo (Pentagon) + Coulthart (Journalist) — 4 konvergierende Quellebenen für geborgene nicht-menschliche Technologie. HINWEIS: Aliens.gov (3. Juni 2026) ist eine Immigrations-Website der Trump-Administration — NICHT UAP-bezogen. Disclosure Day (Spielberg-Film, 12. Juni 2026) ist ein Spielfilm, keine Dokumentation.
+
+LESLIE KEAN (Person #87, Investigativjournalistin NYT): Co-Autorin NYT-Artikel 16. Dez. 2017 ('Glowing Auras and Black Money') — enthüllte AATIP-Programm, löste moderne Disclosure-Bewegung aus; Co-Autorin The Debrief 5. Juni 2023 — erste Veröffentlichung von Gruschs NHI-Bergungsaussagen; Buch 'UFOs: Generals, Pilots and Government Officials' (2010, NYT-Bestseller); moderiert Capitol UAP-Pressekonferenz 9. Juni 2026; Verbindungen: Ralph Blumenthal, Helene Cooper, David Grusch, Luis Elizondo, Harry Reid; Credibility Score 9.0; JAMES FOX (Person #88, Dokumentarfilmer): 'Out of the Blue' (2003), 'The Phenomenon' (2020, Rotten Tomatoes 100%, erste Doku mit aktiven Regierungsbeamten), 'Moment of Contact' (2022, Varginha Brasilien, Neurochirurg beschreibt Kontakt mit geborgener NHI-Entität), 'The Program' (2024); 3x Joe Rogan (2020 mit Vallée, 2023, 2024); moderiert Capitol Pressekonferenz 9. Juni 2026; JAY STRATTON (Person #89, HÖCHSTE PRIORITÄT, Score 9.5): Zentralfigur moderner US-UAP-Untersuchung — AAWSAP-Mitgründer (erstes offizielles US-UAP-Programm seit Project Blue Book) — UAPTF-Gründer und -Leiter (erste gesamtstaatliche UAP-Untersuchung) — National Intelligence Meritorious Unit Citation Oktober 2024 (höchste Einheitsauszeichnung im Intelligence-Bereich) — DIA Director's Award — Memoir 'Out of the Shadows' (HarperCollins, 13. Oktober 2026): '80-jährige Vertuschung der Existenz nicht-menschlichen intelligenten Lebens', UAP über Nuklearwaffen-Standorten, Kampf gegen mächtige Gatekeeper — Dan Farah sicherte Film-/TV-Rechte für Scripted Series — arbeitet weiterhin mit White House, DNI und DoW zusammen; PURSUE Release 03 (Fall #179, geplant ~12. Juni 2026): DoW angekündigt 'in naher Zukunft' — Gerücht: 12. Juni 2026 zeitgleich mit Spielbergs Disclosure Day — Prediction Markets 77% Wahrscheinlichkeit vor 30. Juni; JAY STRATTON MEMOIR (Fall #180, Oktober 2026): 'Out of the Shadows' HarperCollins — 16 Jahre Ersthand-Erfahrungen — 80-jährige Vertuschung — NHI-Existenz bestätigt.
+
+RALPH BLUMENTHAL (Person #88, Investigativjournalist NYT 1964-2009): Co-Autor NYT-Artikel 16. Dez. 2017 ('2 Navy Airmen and an Object That Accelerated Like Nothing I Ever Seen') mit Leslie Kean und Helene Cooper — enthüllte AATIP-Programm, löste moderne Disclosure-Bewegung aus; Co-Autor The Debrief 5. Juni 2023 mit Leslie Kean — erste Veröffentlichung von Gruschs NHI-Bergungsaussagen; Buch 'The Believer: Alien Encounters, Hard Science, and the Passion of John Mack' (2021); Kinderbuch 'UFOhs! Mysteries in the Sky' (2023); Verbindungen: Leslie Kean, Helene Cooper, David Grusch, John Mack, Harry Reid; Credibility Score 9.0; PURSUE RELEASE 03 (1. Juni 2026): Apollo 12 Post-Mission-Audio (1969) — Astronauten Conrad, Gordon, Bean beschreiben 'Streaks of Light' im Weltraum; Infrarot-Footage (Black Hot) über westlichem US-Luftraum September 2025; Cold War-Akten über Green Fireballs nahe Nuklear- und Militärinstallationen; Pantex-Imagery eines unidentifizierten Objekts; Elizondo: 'Absoluter Schatz an Informationen — belegt UAPs seit den 1940ern als nationales Sicherheitsproblem'. HELENE COOPER (Person #89, Pentagon-Korrespondentin NYT, Pulitzer 2015): Co-Autorin NYT-Artikel 16. Dez. 2017 mit Leslie Kean und Ralph Blumenthal — enthüllte AATIP, löste Disclosure-Bewegung aus; Verbindungen: Kean, Blumenthal, Elizondo, Reid; Credibility Score 9.0. THESE #71 — INSTITUTIONELLE UAP-KONTINUITÄT (Score 8.8): AAWSAP 2007 (Stratton) → AATIP 2012 (Elizondo) → UAPTF 2020 (Stratton) → AARO 2022 (Kirkpatrick) → PURSUE Act 2026 — 19 Jahre ununterbrochene institutionelle UAP-Untersuchung; Grusch: 'AARO hatte selbst keinen Zugang zu Legacy-Programmen' = parallele Strukturen; Reid als AAWSAP-Initiator; 6 konvergierende Quellen.
+Frag alles — ich verbinde alle Ebenen.</div></div>
 <div class="air"><input type="text" class="ai-inp" id="ai-inp" placeholder="z.B. Verbinde Steiner Äther mit Tesla Colorado Springs und Bashar Frequenz..." onkeydown="if(event.key==='Enter')sendAI()"><button class="ai-send" onclick="sendAI()">→</button></div>
 </div>
 
 <div style="background:rgba(0,230,118,.05);border:1px solid rgba(0,230,118,.2);border-radius:6px;padding:.875rem;margin-bottom:1rem">
   <div style="font-family:'Orbitron',sans-serif;font-size:9px;letter-spacing:2px;color:var(--g);margin-bottom:.5rem">🔗 AUTONOMER KONGRUENZ-SCANNER</div>
-  <div style="font-size:11px;color:var(--t2);margin-bottom:.6rem">Neuen Fall / Person / Zitat eingeben → Agent prüft automatisch alle 68 Kongruenz-Thesen und meldet Treffer mit Score:</div>
+  <div style="font-size:11px;color:var(--t2);margin-bottom:.6rem">Neuen Fall / Person / Zitat eingeben → Agent prüft automatisch alle 67 Kongruenz-Thesen und meldet Treffer mit Score:</div>
   <div style="display:flex;gap:.4rem;margin-bottom:.4rem">
     <input type="text" id="con-scan-inp" class="ai-inp" placeholder="z.B. Ra-Material: 'Die Realität ist Licht-Vibration' oder Varginha 1996 Brasilien...">
     <button class="ai-send" onclick="runCongruenceScan()" style="white-space:nowrap;padding:7px 14px">🔗 Scannen</button>
@@ -728,7 +897,7 @@ footer a{color:var(--v);text-decoration:none}
       <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid rgba(255,68,68,.3);border-radius:5px"><div style="font-size:10px;color:#ff4444;font-weight:600">Nat Cobitz (US Navy) NHI-Materialien</div><div style="font-size:9px;color:var(--t3)">Coulthart · Persönlich gezeigt</div></div>
       <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid rgba(255,68,68,.3);border-radius:5px"><div style="font-size:10px;color:#ff4444;font-weight:600">Trump 'Extraterrestrials' im Kabinett</div><div style="font-size:9px;color:var(--t3)">Mai 2026 · Hegseth-Statement</div></div>
     </div>
-    <div style="margin-top:.75rem;font-size:10px;color:var(--t2)">11 neue Fälle (CIA/DNA, Buzz Aldrin, Trump Kabinett, PURSUE R03, Cobitz, Red Book/Yellow Book, MITRE, Neurodiversität-Hybrid, Dolly Safran, Emery Smith NM, Buga Sphere Kolumbien) · 7 neue Personen (Cobitz, Kit Green, Dr. Rempel, Dolly Safran, Emery Smith, Preston Dennett, Steven Greer) · Thesen #61–#65 · 173 Fälle gesamt</div>
+    <div style="margin-top:.75rem;font-size:10px;color:var(--t2)">11+ neue Fälle · 11 neue Personen (Cobitz, Kit Green, Dr. Rempel, Dolly Safran, Emery Smith, Preston Dennett, Steven Greer, Uri Geller, Ingo Swann, Andrija Puharich, Diane Powell) · Thesen #61–#67 · 170 Fälle gesamt</div>
   </div>
 
   <!-- Release 02 -->
@@ -767,7 +936,7 @@ footer a{color:var(--v);text-decoration:none}
       <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">DOE Pantex Imagery</div><div style="font-size:9px;color:var(--t3)">Nukleare Anlage · UAP-Korrelation</div></div>
       <div style="padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--bd);border-radius:5px"><div style="font-size:10px;color:var(--t1);font-weight:600">ODNI Senior Official</div><div style="font-size:9px;color:var(--t3)">116 Seiten · Orange Orbs</div></div>
     </div>
-    <div style="margin-top:.75rem;font-size:10px;color:var(--t2)">Fälle #1–#146 · 69 Personen · 63 Kongruenz-Thesen · Timeline · Weltkarte · DIA FOIA · Operationen · KI Agent</div>
+    <div style="margin-top:.75rem;font-size:10px;color:var(--t2)">Fälle #1–#180 · 89 Personen · 71 Kongruenz-Thesen · Timeline · Weltkarte · DIA FOIA · Operationen · KI Agent</div>
   </div>
 
   <!-- DIA FOIA -->
@@ -794,7 +963,7 @@ footer a{color:var(--v);text-decoration:none}
 </div>
 <p><a href="https://kitaskforce.com" target="_blank">kitaskforce.com</a> · <a href="https://sgp.kitaskforce.com" target="_blank">SEO GEO Pro</a> · <a href="https://moneyprint.kitaskforce.com" target="_blank">MoneyPrint</a> · SH Schmidt Consulting · Berlin-Adlershof<br>
 Data: war.gov/UFO · DIA FOIA-00089-2018 · NARA · FAB Brasil · AARO · Peyerl-Primäranalyse · 09.05.2026<br>
-<span style="font-size:9px">PWA PRO · 173 Fälle · 80 Personen · 68 Kongruenz-Thesen · war.gov PURSUE ~382 Akten (R01+R02+R03) · Manus-deployable</span></p>
+<span style="font-size:9px">PWA PRO · 180 Fälle · 89 Personen · 71 Kongruenz-Thesen · war.gov PURSUE ~382 Akten (R01+R02+R03) · Manus-deployable</span></p>
 </footer>
 </div><!-- /app -->
 
@@ -1415,10 +1584,12 @@ function renderConNetwork(themes) {
   }
 
   function nodeColor(score) {
-    if(score >= 9.5) return '#ff4444';
-    if(score >= 9.0) return '#00e676';
-    if(score >= 8.0) return '#00e5ff';
-    return '#b39ddb';
+    if(score >= 9.5) return '#ff4444';   // Rot: Kritisch/Höchste Evidenz
+    if(score >= 9.0) return '#00e676';   // Grün: Sehr stark belegt
+    if(score >= 8.0) return '#00e5ff';   // Cyan: Stark belegt
+    if(score >= 7.5) return '#b39ddb';   // Lila: Belegt
+    if(score >= 6.5) return '#ff9800';   // Orange: Teilweise belegt
+    return '#ffd600';                    // Gelb: Umstritten
   }
 
   function simulate() {
@@ -1483,6 +1654,24 @@ function renderConNetwork(themes) {
         ctx.textAlign = 'center';
         const label = n.title.substring(0,28) + (n.title.length>28?'…':'');
         ctx.fillText(label, n.x, n.y - n.radius - 4);
+      }
+      // Small indicator dot for disputed/partial nodes
+      if(n.score < 6.5) {
+        ctx.beginPath();
+        ctx.arc(n.x + n.radius*0.6, n.y - n.radius*0.6, 4, 0, Math.PI*2);
+        ctx.fillStyle = '#ffd600';
+        ctx.fill();
+        ctx.strokeStyle = '#000';
+        ctx.lineWidth = 0.8;
+        ctx.stroke();
+      } else if(n.score < 7.5) {
+        ctx.beginPath();
+        ctx.arc(n.x + n.radius*0.6, n.y - n.radius*0.6, 4, 0, Math.PI*2);
+        ctx.fillStyle = '#ff9800';
+        ctx.fill();
+        ctx.strokeStyle = '#000';
+        ctx.lineWidth = 0.8;
+        ctx.stroke();
       }
     });
   }
@@ -1556,7 +1745,7 @@ const SYS = `Du bist der "Disclosure Agent" der KI Taskforce (kitaskforce.com) �
 
 === AUTONOME KONGRUENZ-DETEKTION (KERNAUFGABE) ===
 
-Bei JEDEM neuen Element prüfst du AUTOMATISCH gegen alle 68 Kongruenz-Thesen:
+Bei JEDEM neuen Element prüfst du AUTOMATISCH gegen alle 67 Kongruenz-Thesen:
 
 THESEN-ÜBERSICHT (Scores):
 1. Parallelrealitäten/Vibration 9/10 — Bashar+Everett+Vedanta+Council+Vallée
@@ -1667,7 +1856,9 @@ BASHAR: Parallelrealitäten als Frequenzkanäle. Körper = vorübergehendes Vehi
 STEINER: Äther als Trägermedium. Höhere Hierarchien begleiten Menschheit.
 TESLA 1899: Colorado Springs — Signale von anderer Intelligenz. Äther als Energiemedium.
 UREINWOHNER: Lakota (Star People normal), Hopi (Kachinas), Dogon (Sirius-B-Wissen), Aborigines (Wandjina 40.000J), Zulu (Chitauri offen tradiert).
-
+PHYLLIS SCHLEMMER (1925-2013, Medium, The Nine): 1974-1992 Hauptmedium für Lab Nine (Andrija Puharich). Channelte "Tom" (Sprecher des Council of Nine = 9 kosmische Entitäten). Buch "The Only Planet of Choice" (1993, Gateway Books) — umfassendste Dokumentation der Nine-Botschaften. Teilnehmer: Gene Roddenberry (Star Trek), Ira Einhorn, Sir John Whitmore, Schauspieler/Wissenschaftler. Kernbotschaft: Erde = einziger Planet mit freiem Willen im Universum; NHI begleiten Menschheit seit Jahrtausenden. Verbindung: Puharich + Geller + The Nine = Kongruenz-These #67 (Score 5.9).
+JAMES RANDI
+SPIELBERG DISCLOSURE DAY (12. JUNI 2026): Universal Pictures, Regie Steven Spielberg, Drehbuch David Koepp. Emily Blunt, Josh O'Connor, Colin Firth. Spielberg bei SXSW 2026: 'Ich habe eine sehr starke Vermutung, dass wir nicht allein sind.' Handlung: Cybersecurity-Whistleblower enthüllt Alien-Existenz weltweit. Thematische Verbindung zu Close Encounters 1977. Kultureller Katalysator synchron zu PURSUE-Releases und Capitol-Pressekonferenz 9. Juni 2026. (1928-2020, JREF, Skeptiker): Gründer James Randi Educational Foundation (JREF) 1996. 1 Million Dollar Challenge: Kein paranormaler Anspruch je bestätigt. Uri Geller: Tonight Show 1973 — Randi hatte Produzenten vorgewarnt, Gellers Objekte durch eigene ersetzt — Geller versagte. Jahrzehntelanger Rechtsstreit Geller vs. Randi (Geller verlor). Buch "Flim-Flam!" (1982). Wichtig für Disclosure-Kontext: Randi repräsentiert institutionellen Skeptizismus — seine Methoden zeigen wie Debunking funktioniert, aber auch seine Grenzen (CIA-SRI-Tests waren unter kontrollierten Bedingungen die Randi nicht replizieren konnte). Tag: skeptiker.
 Antworte auf Deutsch. Trenne Fakten/Zeugenaussagen/Channeling/Spekulation. Prüfe IMMER auf Kongruenzen. Melde Treffer proaktiv.`;
 
 async function sendAI(){
@@ -1776,13 +1967,13 @@ async function runCongruenceScan() {
     bar.style.width = pct + '%';
   }, 200);
   results.style.display = 'block';
-  results.textContent = '🔍 Scanne gegen alle 68 Kongruenz-Thesen...';
+  results.textContent = '🔍 Scanne gegen alle 67 Kongruenz-Thesen...';
   
   const scanPrompt = `KONGRUENZ-SCAN — Neues Element:
 
 "${val}"
 
-Prüfe dieses Element SYSTEMATISCH gegen alle 68 Kongruenz-Thesen:
+Prüfe dieses Element SYSTEMATISCH gegen alle 67 Kongruenz-Thesen:
 1. Parallelitäten/Vibration (9/10) 2. Earth-Supervision/Schwellenwert (7/10) 3. Bewusstsein als Fundamental (8/10)
 4. Physische Verletzungen durch UAP (9/10) 5. UAP+Nuklearwaffen (9/10) 6. Neurodivergenz+Kontakt (7/10)
 7. Steiner-Äther+Tesla+Bashar (8/10) 8. Ureinwohner-Kontakt offen (8/10) 9. Extremer Gestank (9/10)
@@ -2016,7 +2207,160 @@ function closeCaseModal() {
   document.getElementById('case-modal').style.display = 'none';
   document.body.style.overflow = '';
 }
+
+// ── LIVE NEWS TICKER ────────────────────────────────────────────────────────
+(function initNewsTicker() {
+  var track = document.getElementById('news-ticker-track');
+  if (!track) return;
+  function loadNews() {
+    fetch('/api/trpc/news.getLatest?batch=1&input=%7B%7D')
+      .then(function(r){return r.json();})
+      .then(function(data){
+        var items = (data[0]&&data[0].result&&data[0].result.data&&data[0].result.data.json&&data[0].result.data.json.items)||[];
+        if(!items.length){track.innerHTML='<span class="ticker-item">Keine aktuellen UAP-News verf\u00fcgbar</span>';return;}
+        var html = items.map(function(item){
+          var d=item.pubDate?new Date(item.pubDate).toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit'}):'';
+          var t=item.title.length>80?item.title.slice(0,80)+'\u2026':item.title;
+          return '<a href="'+item.link+'" target="_blank" rel="noopener" class="ticker-item"><span class="ticker-src">'+item.source+'</span><span>'+(d?d+' \u00b7 ':'')+t+'</span></a>';
+        }).join('<span style="color:rgba(0,229,255,.3);padding:0 8px">\u00b7</span>');
+        track.innerHTML = html + html;
+        var dur = Math.max(40, items.length * 5);
+        track.style.animationDuration = dur + 's';
+      })
+      .catch(function(){
+        track.innerHTML='<span class="ticker-item" style="color:var(--t3)">UAP-News werden geladen...</span>';
+      });
+  }
+  loadNews();
+  setInterval(loadNews, 15*60*1000);
+})();
+
+// ── TOP-10 TOUR ─────────────────────────────────────────────────────────────
+var tourImages = [
+  "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/tour-01-greece-aFhR7pdZChkgPM2K5CqkmA.webp",
+  "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/tour-02-kumburgaz-SBE7mbn2gXTBxHJB2o77qe.webp",
+  "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/tour-03-stratton-foy9hhDDoSKiw2s6zqfDwD.webp",
+  "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/tour-04-nimitz-aVqYTQY89UjNKiJDybKwb9.webp",
+  "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/tour-05-colares-exiqzouR824iR5bJ997Hy5.webp",
+  "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/tour-06-tic-tac-flir-KPZtXCeQaVCVvWDy7NVaZj.webp",
+  "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/tour-07-cobitz-oFnGzTCbeUnDmYkgw6ru7Y.webp",
+  "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/tour-08-washington52-nsjcEsmkTLexajfihstcWa.webp",
+  "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/tour-09-fastwalker-FpDpzhjD2LFf6NPuyx2oMJ.webp",
+  "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/tour-10-disclosure-day-QHsfkvPtC76MegVypio7mn.webp",
+];
+
+var tourIndex = 0;
+var tourCases = [];
+
+function startTour() {
+  if (tourCases.length) { tourIndex=0; renderTourSlide(); document.getElementById('tour-overlay').classList.add('active'); document.body.style.overflow='hidden'; return; }
+  fetch('/data/cases.json')
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var cases = data.cases || data;
+      tourCases = cases
+        .filter(function(c){return c.score&&c.score>0;})
+        .sort(function(a,b){return (b.score||0)-(a.score||0);})
+        .slice(0,10);
+      tourIndex = 0;
+      renderTourSlide();
+      document.getElementById('tour-overlay').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    })
+    .catch(function(){alert('Fehler beim Laden der F\u00e4lle');});
+}
+
+function closeTour() {
+  document.getElementById('tour-overlay').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function renderTourSlide() {
+  if (!tourCases.length) return;
+  var c = tourCases[tourIndex];
+  var total = tourCases.length;
+  var rank = tourIndex + 1;
+  var score = c.score || 0;
+  var pct = Math.min(100, score);
+  var lvlColors = {critical:'#ff4444',high:'#ff8c00',confirmed:'#00e5ff',medium:'#b39ddb',historical:'#888'};
+  var lvlLabels = {critical:'KRITISCH',high:'HOCH',confirmed:'BEST\u00c4TIGT',medium:'MITTEL',historical:'HISTORISCH'};
+  var lvlColor = lvlColors[c.level] || '#888';
+  var lvlLabel = lvlLabels[c.level] || (c.level||'').toUpperCase();
+  var tags = (c.tags||[]).slice(0,6).map(function(t){return '<span class="tour-tag">'+t+'</span>';}).join('');
+  var witnesses = (c.witnesses&&c.witnesses.length) ? '<div style="margin-bottom:.75rem;font-size:11px;color:var(--t3)">\ud83d\udc41 '+c.witnesses.slice(0,3).join(' \u00b7 ')+'</div>' : '';
+  var meta = [c.date?'\ud83d\udcc5 '+c.date:'',c.location?'\ud83d\udccd '+c.location:''].filter(Boolean).join(' &nbsp;\u00b7&nbsp; ');
+  var imgUrl = tourImages[tourIndex] || '';
+  var imgHtml = imgUrl ? '<div style="width:100%;height:180px;background:url('+imgUrl+') center/cover no-repeat;border-radius:6px;margin-bottom:1rem;position:relative;overflow:hidden"><div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 50%,rgba(3,2,10,.9))"></div></div>' : '';
+  document.getElementById('tour-body').innerHTML =
+    imgHtml+
+    '<div class="tour-rank">#'+rank+'</div>'+
+    '<div class="tour-title">'+( c.title||'Unbekannt')+'</div>'+
+    '<div style="margin-bottom:.75rem;display:flex;align-items:center;gap:.5rem;flex-wrap:wrap">'+
+      '<span style="font-size:9px;font-family:\'JetBrains Mono\',monospace;color:'+lvlColor+';background:'+lvlColor+'22;border:1px solid '+lvlColor+'55;border-radius:4px;padding:2px 8px;font-weight:700">'+lvlLabel+'</span>'+
+      (meta?'<span style="font-size:10px;color:var(--t3);font-family:\'JetBrains Mono\',monospace">'+meta+'</span>':'')+
+    '</div>'+
+    '<div class="tour-score-bar">'+
+      '<span class="tour-score-label">BEWEISLAGE</span>'+
+      '<div class="tour-score-track"><div class="tour-score-fill" style="width:'+pct+'%"></div></div>'+
+      '<span class="tour-score-val">'+score+'/100</span>'+
+    '</div>'+
+    '<div class="tour-desc">'+(c.description||'Keine Beschreibung verf\u00fcgbar.')+'</div>'+
+    witnesses+
+    '<div class="tour-meta">'+tags+'</div>'+
+    '<div class="tour-nav">'+
+      '<button class="tour-btn tour-btn-prev" onclick="tourNav(-1)"'+(tourIndex===0?' disabled style="opacity:.4"':'')+'>\u2190 ZUR\u00dcCK</button>'+
+      '<button class="tour-btn tour-btn-close" onclick="closeTour()">\u2715 SCHLIE\u00dfEN</button>'+
+      '<button class="tour-btn tour-btn-next" onclick="tourNav(1)"'+(tourIndex===total-1?' disabled style="opacity:.4"':'')+'>'+(tourIndex===total-1?'\u2713 FERTIG':'WEITER \u2192')+'</button>'+
+    '</div>';
+  document.getElementById('tour-progress-fill').style.width = ((rank/total)*100)+'%';
+  document.getElementById('tour-counter').textContent = rank+' / '+total;
+  var dotsEl = document.getElementById('tour-dots');
+  dotsEl.style.cssText = 'display:flex;gap:6px;align-items:center;justify-content:center;padding:.75rem 1.5rem 1.25rem';
+  dotsEl.innerHTML = tourCases.map(function(_,i){
+    return '<div class="tour-dot'+(i===tourIndex?' active':'')+'" onclick="tourGoto('+i+')"></div>';
+  }).join('');
+}
+
+function tourNav(dir) {
+  var newIdx = tourIndex + dir;
+  if (newIdx >= 0 && newIdx < tourCases.length) {
+    tourIndex = newIdx;
+    renderTourSlide();
+    document.getElementById('tour-modal').scrollTop = 0;
+  }
+}
+
+function tourGoto(idx) {
+  tourIndex = idx;
+  renderTourSlide();
+  document.getElementById('tour-modal').scrollTop = 0;
+}
+
+document.addEventListener('keydown', function(e) {
+  var overlay = document.getElementById('tour-overlay');
+  if (!overlay || !overlay.classList.contains('active')) return;
+  if (e.key==='ArrowRight'||e.key==='ArrowDown') tourNav(1);
+  if (e.key==='ArrowLeft'||e.key==='ArrowUp') tourNav(-1);
+  if (e.key==='Escape') closeTour();
+});
+
 </script>
 
+
+<!-- ── TOP-10 TOUR MODAL ─────────────────────────────────────────── -->
+<div id="tour-overlay" onclick="if(event.target===this)closeTour()">
+  <div id="tour-modal">
+    <div id="tour-header">
+      <div style="font-family:'Orbitron',sans-serif;font-size:11px;font-weight:700;color:#00e5ff;letter-spacing:1.5px;white-space:nowrap">🏆 TOP 10 FÄLLE</div>
+      <div id="tour-progress-bar"><div id="tour-progress-fill" style="width:10%"></div></div>
+      <div id="tour-counter">1 / 10</div>
+      <button onclick="closeTour()" class="tour-btn tour-btn-close" style="padding:.4rem .8rem;font-size:10px">✕</button>
+    </div>
+    <div id="tour-body">
+      <!-- Wird dynamisch befüllt -->
+    </div>
+    <div id="tour-dots"></div>
+  </div>
+</div>
 </body>
 </html>
