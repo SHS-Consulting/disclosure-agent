@@ -144,6 +144,146 @@ footer p{font-size:10px;color:var(--t3);line-height:2}
 footer a{color:var(--v);text-decoration:none}
 
 @media(max-width:640px){.ntabs{display:none}.cg,.ops{grid-template-columns:1fr}.op{grid-template-columns:1fr}}
+
+/* ── NEWS TICKER ─────────────────────────────────────────────────── */
+#news-ticker-bar {
+  width:100%; background:linear-gradient(90deg,rgba(0,229,255,.08),rgba(179,157,219,.06));
+  border-top:1px solid rgba(0,229,255,.2); border-bottom:1px solid rgba(0,229,255,.2);
+  overflow:hidden; height:32px; display:flex; align-items:center; position:relative;
+  z-index:10;
+}
+#news-ticker-label {
+  flex-shrink:0; padding:0 12px; font-family:'Orbitron',sans-serif; font-size:8px;
+  font-weight:700; color:#00e5ff; letter-spacing:1.5px; border-right:1px solid rgba(0,229,255,.3);
+  height:100%; display:flex; align-items:center; background:rgba(0,229,255,.08); white-space:nowrap;
+}
+#news-ticker-track {
+  display:flex; align-items:center; gap:0; white-space:nowrap;
+  animation: ticker-scroll 60s linear infinite;
+  will-change: transform;
+}
+#news-ticker-track:hover { animation-play-state: paused; }
+@keyframes ticker-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.ticker-item {
+  display:inline-flex; align-items:center; gap:8px; padding:0 20px;
+  font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--t1);
+  cursor:pointer; transition:color .2s; text-decoration:none;
+  border-right:1px solid rgba(255,255,255,.08);
+}
+.ticker-item:hover { color:#00e5ff; }
+.ticker-item .ticker-src {
+  font-size:8px; color:#00e5ff; font-weight:700; letter-spacing:.5px;
+  background:rgba(0,229,255,.1); border-radius:3px; padding:1px 5px;
+}
+.ticker-item .ticker-dot { color:rgba(0,229,255,.4); font-size:12px; }
+#news-ticker-loading {
+  padding:0 20px; font-family:'JetBrains Mono',monospace; font-size:10px;
+  color:var(--t3); animation: pulse 1.5s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100%{opacity:.4} 50%{opacity:1} }
+
+/* ── TOP-10 TOUR ─────────────────────────────────────────────────── */
+#tour-overlay {
+  display:none; position:fixed; inset:0; z-index:9999;
+  background:rgba(0,0,0,.85); backdrop-filter:blur(8px);
+  align-items:center; justify-content:center;
+}
+#tour-overlay.active { display:flex; }
+#tour-modal {
+  background:linear-gradient(135deg,#0d1117,#1a1f2e);
+  border:1px solid rgba(0,229,255,.3); border-radius:16px;
+  max-width:680px; width:94%; max-height:88vh; overflow-y:auto;
+  padding:0; position:relative; box-shadow:0 0 60px rgba(0,229,255,.15);
+}
+#tour-header {
+  padding:1.2rem 1.5rem; border-bottom:1px solid rgba(0,229,255,.15);
+  display:flex; align-items:center; gap:1rem; position:sticky; top:0;
+  background:linear-gradient(135deg,#0d1117,#1a1f2e); z-index:1;
+}
+#tour-progress-bar {
+  height:3px; background:rgba(0,229,255,.15); border-radius:2px; flex:1;
+}
+#tour-progress-fill {
+  height:100%; background:linear-gradient(90deg,#00e5ff,#b39ddb);
+  border-radius:2px; transition:width .4s ease;
+}
+#tour-counter {
+  font-family:'Orbitron',sans-serif; font-size:10px; color:#00e5ff;
+  font-weight:700; white-space:nowrap;
+}
+#tour-body { padding:1.5rem; }
+.tour-rank {
+  font-family:'Orbitron',sans-serif; font-size:32px; font-weight:900;
+  color:rgba(0,229,255,.2); line-height:1; margin-bottom:.5rem;
+}
+.tour-title {
+  font-family:'Orbitron',sans-serif; font-size:15px; font-weight:700;
+  color:#e0e0e0; margin-bottom:.75rem; line-height:1.4;
+}
+.tour-score-bar {
+  display:flex; align-items:center; gap:.75rem; margin-bottom:1rem;
+}
+.tour-score-label {
+  font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--t3);
+  white-space:nowrap;
+}
+.tour-score-track {
+  flex:1; height:6px; background:rgba(255,255,255,.08); border-radius:3px;
+}
+.tour-score-fill {
+  height:100%; border-radius:3px;
+  background:linear-gradient(90deg,#00e5ff,#b39ddb);
+}
+.tour-score-val {
+  font-family:'Orbitron',sans-serif; font-size:12px; font-weight:700;
+  color:#00e5ff; white-space:nowrap;
+}
+.tour-desc {
+  font-size:13px; color:var(--t2); line-height:1.6; margin-bottom:1rem;
+}
+.tour-meta {
+  display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:1.2rem;
+}
+.tour-tag {
+  font-size:9px; font-family:'JetBrains Mono',monospace; color:var(--t3);
+  background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.1);
+  border-radius:4px; padding:2px 8px;
+}
+.tour-nav {
+  display:flex; gap:.75rem; align-items:center; justify-content:space-between;
+  padding-top:1rem; border-top:1px solid rgba(255,255,255,.08);
+}
+.tour-btn {
+  font-family:'Orbitron',sans-serif; font-size:10px; font-weight:700;
+  letter-spacing:1px; padding:.6rem 1.2rem; border-radius:6px; cursor:pointer;
+  border:none; transition:all .2s;
+}
+.tour-btn-prev {
+  background:rgba(255,255,255,.06); color:var(--t2); border:1px solid rgba(255,255,255,.1);
+}
+.tour-btn-prev:hover { background:rgba(255,255,255,.12); }
+.tour-btn-next {
+  background:linear-gradient(135deg,rgba(0,229,255,.2),rgba(179,157,219,.15));
+  color:#00e5ff; border:1px solid rgba(0,229,255,.4);
+}
+.tour-btn-next:hover { background:linear-gradient(135deg,rgba(0,229,255,.3),rgba(179,157,219,.25)); }
+.tour-btn-close {
+  background:rgba(255,50,50,.1); color:#ff5555; border:1px solid rgba(255,50,50,.3);
+}
+.tour-btn-close:hover { background:rgba(255,50,50,.2); }
+#tour-dots {
+  display:flex; gap:6px; align-items:center; justify-content:center;
+  margin-top:1rem;
+}
+.tour-dot {
+  width:8px; height:8px; border-radius:50%; background:rgba(255,255,255,.15);
+  cursor:pointer; transition:all .2s;
+}
+.tour-dot.active { background:#00e5ff; transform:scale(1.3); }
+
 </style>
 </head>
 <body>
@@ -170,6 +310,16 @@ footer a{color:var(--v);text-decoration:none}
   <div class="nlive"><div class="ld"></div>LIVE <span id="live-date"></span></div>
 </nav>
 
+<!-- ── LIVE NEWS TICKER ──────────────────────────────────────────────────────── -->
+<div id="news-ticker-bar">
+  <div id="news-ticker-label">📡 UAP NEWS LIVE</div>
+  <div id="news-ticker-scroll" style="overflow:hidden;flex:1;height:100%;display:flex;align-items:center">
+    <div id="news-ticker-track">
+      <span id="news-ticker-loading">Lade aktuelle UAP-News...</span>
+    </div>
+  </div>
+</div>
+
 <div class="hero">
   <div class="badge">⊛ PENTAGON PURSUE ACT AKTIV · RELEASE 01+02+03 · ~382 AKTEN FREIGEGEBEN · LETZTER RELEASE: 1. JUNI 2026</div>
   <h1>UAP · Disclosure<br>Intelligence Hub PRO</h1>
@@ -179,6 +329,12 @@ footer a{color:var(--v);text-decoration:none}
     <div class="hs"><span class="hn" id="stat-people">—</span><span class="hl">Schlüsselpersonen</span></div>
     <div class="hs"><span class="hn" id="stat-ops">—</span><span class="hl">Operationen</span></div>
     <div class="hs"><span class="hn" id="stat-con">—</span><span class="hl">Kongruenz-Thesen</span></div>
+  </div>
+  <!-- ── TOP-10 TOUR BUTTON ── -->
+  <div style="display:flex;justify-content:center;margin-top:1.2rem">
+    <button onclick="startTour()" style="font-family:'Orbitron',sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;padding:.7rem 1.8rem;background:linear-gradient(135deg,rgba(0,229,255,.15),rgba(179,157,219,.1));border:1px solid rgba(0,229,255,.5);border-radius:8px;color:#00e5ff;cursor:pointer;transition:all .2s;display:flex;align-items:center;gap:.6rem" onmouseover="this.style.background='linear-gradient(135deg,rgba(0,229,255,.25),rgba(179,157,219,.18))';this.style.borderColor='#00e5ff'" onmouseout="this.style.background='linear-gradient(135deg,rgba(0,229,255,.15),rgba(179,157,219,.1))';this.style.borderColor='rgba(0,229,255,.5)'">
+      <span style="font-size:16px">🏆</span> TOP 10 FÄLLE · GEFÜHRTE TOUR
+    </button>
   </div>
 </div>
 
@@ -2050,7 +2206,144 @@ function closeCaseModal() {
   document.getElementById('case-modal').style.display = 'none';
   document.body.style.overflow = '';
 }
+
+// ── LIVE NEWS TICKER ────────────────────────────────────────────────────────
+(function initNewsTicker() {
+  var track = document.getElementById('news-ticker-track');
+  if (!track) return;
+  function loadNews() {
+    fetch('/api/trpc/news.getLatest?batch=1&input=%7B%7D')
+      .then(function(r){return r.json();})
+      .then(function(data){
+        var items = (data[0]&&data[0].result&&data[0].result.data&&data[0].result.data.json&&data[0].result.data.json.items)||[];
+        if(!items.length){track.innerHTML='<span class="ticker-item">Keine aktuellen UAP-News verf\u00fcgbar</span>';return;}
+        var html = items.map(function(item){
+          var d=item.pubDate?new Date(item.pubDate).toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit'}):'';
+          var t=item.title.length>80?item.title.slice(0,80)+'\u2026':item.title;
+          return '<a href="'+item.link+'" target="_blank" rel="noopener" class="ticker-item"><span class="ticker-src">'+item.source+'</span><span>'+(d?d+' \u00b7 ':'')+t+'</span></a>';
+        }).join('<span style="color:rgba(0,229,255,.3);padding:0 8px">\u00b7</span>');
+        track.innerHTML = html + html;
+        var dur = Math.max(40, items.length * 5);
+        track.style.animationDuration = dur + 's';
+      })
+      .catch(function(){
+        track.innerHTML='<span class="ticker-item" style="color:var(--t3)">UAP-News werden geladen...</span>';
+      });
+  }
+  loadNews();
+  setInterval(loadNews, 15*60*1000);
+})();
+
+// ── TOP-10 TOUR ─────────────────────────────────────────────────────────────
+var tourIndex = 0;
+var tourCases = [];
+
+function startTour() {
+  if (tourCases.length) { tourIndex=0; renderTourSlide(); document.getElementById('tour-overlay').classList.add('active'); document.body.style.overflow='hidden'; return; }
+  fetch('/data/cases.json')
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var cases = data.cases || data;
+      tourCases = cases
+        .filter(function(c){return c.score&&c.score>0;})
+        .sort(function(a,b){return (b.score||0)-(a.score||0);})
+        .slice(0,10);
+      tourIndex = 0;
+      renderTourSlide();
+      document.getElementById('tour-overlay').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    })
+    .catch(function(){alert('Fehler beim Laden der F\u00e4lle');});
+}
+
+function closeTour() {
+  document.getElementById('tour-overlay').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function renderTourSlide() {
+  if (!tourCases.length) return;
+  var c = tourCases[tourIndex];
+  var total = tourCases.length;
+  var rank = tourIndex + 1;
+  var score = c.score || 0;
+  var pct = Math.min(100, score);
+  var lvlColors = {critical:'#ff4444',high:'#ff8c00',confirmed:'#00e5ff',medium:'#b39ddb',historical:'#888'};
+  var lvlLabels = {critical:'KRITISCH',high:'HOCH',confirmed:'BEST\u00c4TIGT',medium:'MITTEL',historical:'HISTORISCH'};
+  var lvlColor = lvlColors[c.level] || '#888';
+  var lvlLabel = lvlLabels[c.level] || (c.level||'').toUpperCase();
+  var tags = (c.tags||[]).slice(0,6).map(function(t){return '<span class="tour-tag">'+t+'</span>';}).join('');
+  var witnesses = (c.witnesses&&c.witnesses.length) ? '<div style="margin-bottom:.75rem;font-size:11px;color:var(--t3)">\ud83d\udc41 '+c.witnesses.slice(0,3).join(' \u00b7 ')+'</div>' : '';
+  var meta = [c.date?'\ud83d\udcc5 '+c.date:'',c.location?'\ud83d\udccd '+c.location:''].filter(Boolean).join(' &nbsp;\u00b7&nbsp; ');
+  document.getElementById('tour-body').innerHTML =
+    '<div class="tour-rank">#'+rank+'</div>'+
+    '<div class="tour-title">'+( c.title||'Unbekannt')+'</div>'+
+    '<div style="margin-bottom:.75rem;display:flex;align-items:center;gap:.5rem;flex-wrap:wrap">'+
+      '<span style="font-size:9px;font-family:\'JetBrains Mono\',monospace;color:'+lvlColor+';background:'+lvlColor+'22;border:1px solid '+lvlColor+'55;border-radius:4px;padding:2px 8px;font-weight:700">'+lvlLabel+'</span>'+
+      (meta?'<span style="font-size:10px;color:var(--t3);font-family:\'JetBrains Mono\',monospace">'+meta+'</span>':'')+
+    '</div>'+
+    '<div class="tour-score-bar">'+
+      '<span class="tour-score-label">BEWEISLAGE</span>'+
+      '<div class="tour-score-track"><div class="tour-score-fill" style="width:'+pct+'%"></div></div>'+
+      '<span class="tour-score-val">'+score+'/100</span>'+
+    '</div>'+
+    '<div class="tour-desc">'+(c.description||'Keine Beschreibung verf\u00fcgbar.')+'</div>'+
+    witnesses+
+    '<div class="tour-meta">'+tags+'</div>'+
+    '<div class="tour-nav">'+
+      '<button class="tour-btn tour-btn-prev" onclick="tourNav(-1)"'+(tourIndex===0?' disabled style="opacity:.4"':'')+'>\u2190 ZUR\u00dcCK</button>'+
+      '<button class="tour-btn tour-btn-close" onclick="closeTour()">\u2715 SCHLIE\u00dfEN</button>'+
+      '<button class="tour-btn tour-btn-next" onclick="tourNav(1)"'+(tourIndex===total-1?' disabled style="opacity:.4"':'')+'>'+(tourIndex===total-1?'\u2713 FERTIG':'WEITER \u2192')+'</button>'+
+    '</div>';
+  document.getElementById('tour-progress-fill').style.width = ((rank/total)*100)+'%';
+  document.getElementById('tour-counter').textContent = rank+' / '+total;
+  var dotsEl = document.getElementById('tour-dots');
+  dotsEl.style.cssText = 'display:flex;gap:6px;align-items:center;justify-content:center;padding:.75rem 1.5rem 1.25rem';
+  dotsEl.innerHTML = tourCases.map(function(_,i){
+    return '<div class="tour-dot'+(i===tourIndex?' active':'')+'" onclick="tourGoto('+i+')"></div>';
+  }).join('');
+}
+
+function tourNav(dir) {
+  var newIdx = tourIndex + dir;
+  if (newIdx >= 0 && newIdx < tourCases.length) {
+    tourIndex = newIdx;
+    renderTourSlide();
+    document.getElementById('tour-modal').scrollTop = 0;
+  }
+}
+
+function tourGoto(idx) {
+  tourIndex = idx;
+  renderTourSlide();
+  document.getElementById('tour-modal').scrollTop = 0;
+}
+
+document.addEventListener('keydown', function(e) {
+  var overlay = document.getElementById('tour-overlay');
+  if (!overlay || !overlay.classList.contains('active')) return;
+  if (e.key==='ArrowRight'||e.key==='ArrowDown') tourNav(1);
+  if (e.key==='ArrowLeft'||e.key==='ArrowUp') tourNav(-1);
+  if (e.key==='Escape') closeTour();
+});
+
 </script>
 
+
+<!-- ── TOP-10 TOUR MODAL ─────────────────────────────────────────── -->
+<div id="tour-overlay" onclick="if(event.target===this)closeTour()">
+  <div id="tour-modal">
+    <div id="tour-header">
+      <div style="font-family:'Orbitron',sans-serif;font-size:11px;font-weight:700;color:#00e5ff;letter-spacing:1.5px;white-space:nowrap">🏆 TOP 10 FÄLLE</div>
+      <div id="tour-progress-bar"><div id="tour-progress-fill" style="width:10%"></div></div>
+      <div id="tour-counter">1 / 10</div>
+      <button onclick="closeTour()" class="tour-btn tour-btn-close" style="padding:.4rem .8rem;font-size:10px">✕</button>
+    </div>
+    <div id="tour-body">
+      <!-- Wird dynamisch befüllt -->
+    </div>
+    <div id="tour-dots"></div>
+  </div>
+</div>
 </body>
 </html>
