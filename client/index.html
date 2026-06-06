@@ -1038,6 +1038,7 @@ function renderCases(cases, gridId) {
   
   g.innerHTML = cases.map(c => `
     <div class="card" data-region="${c.region||''}" data-t="${(c.tags||[]).join(' ')} ${c.title} ${c.description}" onclick="openCaseModal('${c.id}')" style="cursor:pointer" title="Vollansicht öffnen">
+      ${(typeof caseImages!=='undefined'&&caseImages[c.id])?`<div style="width:calc(100% + 2rem);height:110px;background:url(${caseImages[c.id]}) center/cover no-repeat;margin:-1rem -1rem .75rem -1rem;border-radius:6px 6px 0 0;position:relative"><div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 40%,rgba(3,2,10,.85));border-radius:6px 6px 0 0"></div></div>`:''}
       <div class="lv ${lvlMap[c.level]||'lm'}">${lvlLabel[c.level]||c.level}</div>
       <div class="ct">${c.title}</div>
       <div class="cd">${c.description}</div>
@@ -2249,6 +2250,19 @@ var tourImages = [
   "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/tour-10-disclosure-day-QHsfkvPtC76MegVypio7mn.webp",
 ];
 
+var caseImages = {
+  181: "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/newest-01-spielberg-a3zXUoXM8r4Tjbt2efC45f.webp",
+  145: "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/newest-02-cometa-cTu8TLz9GRJVXrYqauTWLZ.webp",
+  144: "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/newest-03-doe-tuck-Bp5cqAjDR8cHeq58Bc568a.webp",
+  143: "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/newest-04-pantex-BLwT5XR9P3ZZbrXJLMqd8J.webp",
+  142: "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/newest-05-cia-sary-m4UVRDpEBTdRxH8eXPz8vE.webp",
+  141: "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/newest-06-odni-MYPvuv359MZkZCXAQV6V6k.webp",
+  140: "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/newest-07-indopacom-eS88UE4qqRkUjUZfXYRJM4.webp",
+  139: "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/newest-08-vandenberg-Hbh6XcbwGwMLLUjSAFScbD.webp",
+  138: "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/newest-09-historical-LBVStbiESjkg3qNM9mN5y8.webp",
+  137: "https://d2xsxph8kpxj0f.cloudfront.net/310419663031732271/Ts2w5ycry6VMYcerz2Tgkt/newest-10-centcom-F6cy8WFm8vccqstBQJ6i5L.webp",
+};
+
 var tourIndex = 0;
 var tourCases = [];
 
@@ -2290,6 +2304,9 @@ function renderTourSlide() {
   var witnesses = (c.witnesses&&c.witnesses.length) ? '<div style="margin-bottom:.75rem;font-size:11px;color:var(--t3)">\ud83d\udc41 '+c.witnesses.slice(0,3).join(' \u00b7 ')+'</div>' : '';
   var meta = [c.date?'\ud83d\udcc5 '+c.date:'',c.location?'\ud83d\udccd '+c.location:''].filter(Boolean).join(' &nbsp;\u00b7&nbsp; ');
   var imgUrl = tourImages[tourIndex] || '';
+  // Fallback: case-spezifisches Bild wenn vorhanden
+  var c = tourCases[tourIndex];
+  if (c && caseImages && caseImages[c.id]) imgUrl = caseImages[c.id];
   var imgHtml = imgUrl ? '<div style="width:100%;height:180px;background:url('+imgUrl+') center/cover no-repeat;border-radius:6px;margin-bottom:1rem;position:relative;overflow:hidden"><div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 50%,rgba(3,2,10,.9))"></div></div>' : '';
   document.getElementById('tour-body').innerHTML =
     imgHtml+
