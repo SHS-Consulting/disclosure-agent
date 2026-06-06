@@ -415,6 +415,10 @@ footer a{color:var(--v);text-decoration:none}
     <li><a href="#" onclick="T('ai')">KI Agent</a></li>
   </ul>
   <a href="https://pursueindex.com" target="_blank" rel="noopener" style="font-family:'Orbitron',sans-serif;font-size:9px;font-weight:700;color:#00e5ff;text-decoration:none;border:1px solid rgba(0,229,255,.45);border-radius:4px;padding:4px 10px;white-space:nowrap;letter-spacing:.5px;background:rgba(0,229,255,.07);transition:all .2s" onmouseover="this.style.background='rgba(0,229,255,.18)';this.style.borderColor='#00e5ff'" onmouseout="this.style.background='rgba(0,229,255,.07)';this.style.borderColor='rgba(0,229,255,.45)'">pursueindex.com ↗</a>
+  <div style="display:flex;align-items:center;gap:3px;margin-left:.25rem">
+    <button onclick="setLang('de')" id="lang-de" style="padding:3px 7px;border:1px solid rgba(179,157,219,.4);border-radius:3px;background:rgba(179,157,219,.15);cursor:pointer;font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--v);font-weight:700">DE</button>
+    <button onclick="setLang('en')" id="lang-en" style="padding:3px 7px;border:1px solid var(--bd);border-radius:3px;background:none;cursor:pointer;font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3)">EN</button>
+  </div>
   <div class="nlive"><div class="ld"></div>LIVE <span id="live-date"></span></div>
 </nav>
 
@@ -502,29 +506,61 @@ footer a{color:var(--v);text-decoration:none}
   </div>
 </div>
 
+
+<!-- NEWSLETTER / BENACHRICHTIGUNG -->
+<div id="newsletter-bar" style="margin-bottom:.75rem;padding:.75rem 1.1rem;background:linear-gradient(135deg,rgba(179,157,219,.08),rgba(0,229,255,.05));border:1px solid rgba(179,157,219,.25);border-radius:8px;display:flex;align-items:center;gap:.75rem;flex-wrap:wrap">
+  <div style="font-size:18px;flex-shrink:0">📡</div>
+  <div style="flex:1;min-width:200px">
+    <div style="font-family:'Orbitron',sans-serif;font-size:9px;font-weight:700;color:var(--v);letter-spacing:2px;margin-bottom:.2rem">NEUE FÄLLE · LIVE-UPDATES · PURSUE-RELEASES</div>
+    <div style="font-size:10px;color:var(--t3)">Werde sofort informiert wenn neue UAP-Akten freigegeben werden</div>
+  </div>
+  <div id="newsletter-form" style="display:flex;gap:.4rem;flex-wrap:wrap">
+    <input id="nl-email" type="email" placeholder="deine@email.de" style="padding:5px 10px;background:rgba(255,255,255,.05);border:1px solid var(--bd);border-radius:4px;outline:none;font-family:'Rajdhani',sans-serif;font-size:11px;color:var(--t1);width:170px" />
+    <button onclick="subscribeNewsletter()" style="padding:5px 12px;background:linear-gradient(135deg,var(--vd),var(--v));border:none;border-radius:4px;color:#fff;font-family:'Rajdhani',sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;cursor:pointer;white-space:nowrap">INFORMIEREN ✓</button>
+  </div>
+  <div id="nl-success" style="display:none;font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--g);padding:4px 8px;border:1px solid rgba(0,230,118,.3);border-radius:3px">✅ Du wirst informiert!</div>
+</div>
 <!-- Disclosure Day Countdown -->
 <div id="dd-countdown" style="margin-bottom:.6rem;padding:.55rem 1rem;background:linear-gradient(135deg,rgba(255,140,0,.1),rgba(255,80,80,.07));border:1px solid rgba(255,140,0,.4);border-radius:6px;display:flex;align-items:center;gap:.8rem;flex-wrap:wrap">
   <span style="font-size:14px">🎬</span>
   <div style="flex:1;min-width:180px">
     <span style="font-family:'Orbitron',sans-serif;font-size:9px;font-weight:700;color:#ff8c00;letter-spacing:1.5px">SPIELBERG · DISCLOSURE DAY</span>
-    <span style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);margin-left:.6rem">Kinostart 11. Juni 2026 · "Mehr Wahrheit als Fiktion"</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t3);margin-left:.6rem">Kinostart 12. Juni 2026 · "Mehr Wahrheit als Fiktion"</span>
   </div>
   <div id="dd-days" style="font-family:'Orbitron',sans-serif;font-size:13px;font-weight:900;color:#ff8c00;letter-spacing:1px;white-space:nowrap">... Tage</div>
   <a href="https://pursueindex.com" target="_blank" style="font-family:'JetBrains Mono',monospace;font-size:8px;color:#ff8c00;text-decoration:none;border:1px solid rgba(255,140,0,.4);border-radius:3px;padding:2px 7px;white-space:nowrap">pursueindex.com ↗</a>
 </div>
 <script>
 (function(){
-  var target = new Date('2026-06-11T00:00:00');
+  var target = new Date('2026-06-12T00:00:00');
   function update(){
     var now = new Date();
     var diff = target - now;
     var el = document.getElementById('dd-days');
+    var banner = document.getElementById('spielberg-seo');
+    var countdownDiv = document.getElementById('dd-countdown');
     if(!el) return;
-    if(diff <= 0){ el.textContent = '🎬 HEUTE'; return; }
+    if(diff <= 0){
+      // Film läuft — Banner auf "JETZT IM KINO" umstellen
+      el.textContent = '🎬 JETZT IM KINO';
+      el.style.color = '#00e676';
+      // Spielberg-Banner-Titel aktualisieren
+      var title = banner ? banner.querySelector('[style*="Orbitron"]') : null;
+      if(title) title.textContent = 'SPIELBERG · DISCLOSURE DAY · JETZT IM KINO';
+      // Countdown-Border grün
+      if(countdownDiv) countdownDiv.style.borderColor = 'rgba(0,230,118,.5)';
+      return;
+    }
     var days = Math.floor(diff/86400000);
     var hrs = Math.floor((diff%86400000)/3600000);
     var mins = Math.floor((diff%3600000)/60000);
-    el.textContent = days + 'd ' + hrs + 'h ' + mins + 'm';
+    if(days === 0){
+      el.textContent = hrs + 'h ' + mins + 'm — HEUTE KINOSTART!';
+      el.style.color = '#ff4444';
+      el.style.animation = 'pd 1s ease-in-out infinite';
+    } else {
+      el.textContent = days + 'd ' + hrs + 'h ' + mins + 'm';
+    }
   }
   update();
   setInterval(update, 30000);
@@ -2426,6 +2462,113 @@ function openCaseModal(caseId) {
 
   document.getElementById('case-modal').style.display = 'flex';
   document.body.style.overflow = 'hidden';
+}
+
+
+// ── NEWSLETTER ────────────────────────────────────────────────────────────────
+
+// ── SPRACH-TOGGLE ─────────────────────────────────────────────────────────────
+var translations = {
+  de: {
+    hero_badge: '// INTELLIGENCE NETWORK · UAP ANALYTICS · TRUTH. EVIDENCE. DISCLOSURE',
+    hero_title: 'DISCLOSURE AGENT PRO',
+    hero_sub: 'Die umfassendste KI-gestützte UAP/UFO-Datenbank im deutschsprachigen Raum',
+    tab_cases: '📂 Beweise',
+    tab_people: '👤 Personen',
+    tab_congruence: '🔗 Kongruenz',
+    tab_docs: '📄 Dokumente',
+    tab_ai: '🤖 KI-Agent',
+    search_placeholder: 'Fälle durchsuchen...',
+    tour_btn: '🎯 Top-10-Tour starten',
+    stat_cases: 'Fälle',
+    stat_people: 'Personen',
+    stat_theses: 'Thesen',
+  },
+  en: {
+    hero_badge: '// INTELLIGENCE NETWORK · UAP ANALYTICS · TRUTH. EVIDENCE. DISCLOSURE',
+    hero_title: 'DISCLOSURE AGENT PRO',
+    hero_sub: 'The most comprehensive AI-powered UAP/UFO database — 181 cases, Pentagon PURSUE files, Claude AI agent',
+    tab_cases: '📂 Evidence',
+    tab_people: '👤 People',
+    tab_congruence: '🔗 Congruence',
+    tab_docs: '📄 Documents',
+    tab_ai: '🤖 AI Agent',
+    search_placeholder: 'Search cases...',
+    tour_btn: '🎯 Start Top-10 Tour',
+    stat_cases: 'Cases',
+    stat_people: 'People',
+    stat_theses: 'Theses',
+  }
+};
+
+var currentLang = localStorage.getItem('da_lang') || 'de';
+
+function setLang(lang) {
+  currentLang = lang;
+  localStorage.setItem('da_lang', lang);
+  // Toggle-Buttons aktualisieren
+  var deb = document.getElementById('lang-de');
+  var enb = document.getElementById('lang-en');
+  if(deb) { deb.style.background = lang==='de' ? 'rgba(179,157,219,.15)' : 'none'; deb.style.color = lang==='de' ? 'var(--v)' : 'var(--t3)'; }
+  if(enb) { enb.style.background = lang==='en' ? 'rgba(179,157,219,.15)' : 'none'; enb.style.color = lang==='en' ? 'var(--v)' : 'var(--t3)'; }
+  // html lang-Attribut
+  document.documentElement.lang = lang;
+  // Suchfeld-Placeholder
+  var searchInput = document.getElementById('case-search');
+  if(searchInput) searchInput.placeholder = translations[lang].search_placeholder;
+  // Tab-Labels
+  var tabs = document.querySelectorAll('.tbt');
+  var tabKeys = ['tab_cases','tab_people','tab_congruence','tab_docs','tab_ai'];
+  tabs.forEach(function(t,i){ if(tabKeys[i] && translations[lang][tabKeys[i]]) t.textContent = translations[lang][tabKeys[i]]; });
+  // Hero-Subtitle
+  var heroSub = document.querySelector('.hero p');
+  if(heroSub) heroSub.textContent = translations[lang].hero_sub;
+  // Stat-Labels
+  var statLabels = document.querySelectorAll('.hl');
+  if(statLabels[0]) statLabels[0].textContent = translations[lang].stat_cases;
+  if(statLabels[1]) statLabels[1].textContent = translations[lang].stat_people;
+  if(statLabels[2]) statLabels[2].textContent = translations[lang].stat_theses;
+  // Tour-Button
+  var tourBtn = document.getElementById('tour-btn');
+  if(tourBtn) tourBtn.textContent = translations[lang].tour_btn;
+  // Meta-Tags für SEO
+  if(lang === 'en') {
+    document.title = 'Disclosure Agent PRO · UAP & UFO Intelligence Hub | AI-powered Database';
+    var desc = document.querySelector('meta[name="description"]');
+    if(desc) desc.content = 'AI-powered UAP/UFO database: 181 cases, 89 key figures, Pentagon PURSUE files, Spielberg Disclosure Day 2026. Claude-powered AI agent for deep research. Free, no login.';
+  } else {
+    document.title = 'Disclosure Agent PRO · UAP & UFO Intelligence Hub | KI Taskforce';
+    var desc = document.querySelector('meta[name="description"]');
+    if(desc) desc.content = 'UAP & UFO Intelligence Hub: 181 Fälle, Pentagon PURSUE-Akten, Spielberg Disclosure Day 2026 — die echten Beweise hinter dem Film. KI-Agent powered by Claude.';
+  }
+}
+
+// Beim Laden: gespeicherte Sprache anwenden
+document.addEventListener('DOMContentLoaded', function(){
+  if(currentLang === 'en') setLang('en');
+});
+
+function subscribeNewsletter() {
+  var emailEl = document.getElementById('nl-email');
+  var formEl = document.getElementById('newsletter-form');
+  var successEl = document.getElementById('nl-success');
+  if(!emailEl) return;
+  var email = emailEl.value.trim();
+  if(!email || !email.includes('@')) {
+    emailEl.style.borderColor = 'var(--r)';
+    emailEl.placeholder = 'Bitte gültige E-Mail eingeben';
+    setTimeout(function(){ emailEl.style.borderColor = 'var(--bd)'; emailEl.placeholder = 'deine@email.de'; }, 2000);
+    return;
+  }
+  // Lokale Speicherung + visuelles Feedback
+  var subs = JSON.parse(localStorage.getItem('da_subscribers') || '[]');
+  if(!subs.includes(email)) { subs.push(email); localStorage.setItem('da_subscribers', JSON.stringify(subs)); }
+  if(formEl) formEl.style.display = 'none';
+  if(successEl) successEl.style.display = 'block';
+  // Benachrichtigung an Owner (via tRPC wenn verfügbar)
+  if(window.trpc && window.trpc.system) {
+    try { window.trpc.system.notifyOwner.mutate({ title: 'Neuer Newsletter-Abonnent', content: 'E-Mail: ' + email }); } catch(e) {}
+  }
 }
 
 function closeCaseModal() {

@@ -1,0 +1,52 @@
+# Disclosure Agent PRO — UAP & UFO Intelligence Hub
+
+> Die umfassendste deutschsprachige Datenbank für UAP/UFO-Fälle, Schlüsselpersonen und Kongruenz-Analysen. KI-Agent powered by Claude (Anthropic).
+
+## Was ist Disclosure Agent PRO?
+
+Disclosure Agent PRO ist eine Progressive Web App (PWA) die 181 dokumentierte UAP/UFO-Fälle, 89 Schlüsselpersonen und 71 Kongruenz-Thesen mit KI-Analyse zusammenführt. Die App aggregiert Pentagon PURSUE-Akten, Whistleblower-Aussagen, wissenschaftliche Studien und Regierungsdokumente.
+
+## Kerninhalt
+
+- [Beweise-Datenbank](/): 181 UAP-Fälle von 1947 bis 2026, bewertet nach Beweislage (0–10)
+- [Personen-Datenbank](/): 89 Schlüsselpersonen (Whistleblower, Forscher, Politiker, Journalisten)
+- [Kongruenz-Analyse](/): 71 Thesen die mehrere unabhängige Quellen verbinden
+- [KI-Agent](/): Claude-powered Chatbot für Disclosure-Recherche
+- [Live-News-Ticker](/): Aktuelle UAP-News aus NewsNation und The Debrief
+
+## Wichtigste Fälle (nach Beweislage)
+
+1. USS Nimitz Tic Tac Incident (2004) — Score 9.8/10, FLIR-Video, Radar, Piloten-Aussagen
+2. USS Theodore Roosevelt GIMBAL/GOFAST (2015) — Score 9.5/10, Pentagon bestätigt
+3. Griechenland Radar-Sichtung 90° Kurve (1990) — Score 9.2/10, NATO-Radar
+4. PURSUE Act Release 01 (8. Mai 2026) — Score 9.0/10, Pentagon veröffentlicht 162 Dateien
+5. David Grusch Whistleblower-Aussage (2023) — Score 9.0/10, vereidigt vor Kongress
+
+## Schlüsselpersonen
+
+- **David Grusch** — US Air Force/NRO, Whistleblower, vereidigt vor Kongress 2023
+- **Jay Stratton** — Gründer AAWSAP & UAPTF, Memoir "Out of the Shadows" (Oktober 2026)
+- **Ross Coulthart** — Investigativjournalist, News Nation, "In Plain Sight" (2022)
+- **Leslie Kean** — NYT-Journalistin, Co-Autorin des bahnbrechenden NYT-Artikels 2017
+- **Luis Elizondo** — Ehemaliger AATIP-Direktor, Pentagon
+
+## Aktuelle Entwicklungen (2026)
+
+- **PURSUE Act** (Department of War): Drei Tranchen UAP-Akten veröffentlicht (Mai–Juni 2026)
+- **Spielberg "Disclosure Day"** (12. Juni 2026): Blockbuster basiert auf realen UAP-Ereignissen
+- **Jay Stratton Memoir** (Oktober 2026): 80-jährige Vertuschung, NHI-Existenz
+- **Capitol UAP-Pressekonferenz** (9. Juni 2026): Grusch, Fox, Kean fordern vollständige Freigabe
+
+## Technologie
+
+- Frontend: Vanilla JS PWA (offline-fähig, installierbar)
+- KI: Claude (Anthropic) via tRPC
+- Daten: JSON-Datenbank, täglich aktualisiert
+- Hosting: uap-disclosure.now / disclosure.kitaskforce.com
+
+## Kontakt & Links
+
+- Website: https://uap-disclosure.now
+- Alternativ: https://disclosure.kitaskforce.com
+- GitHub: https://github.com/SHS-Consulting/disclosure-agent
+- Betreiber: KI Taskforce (kitaskforce.com)
