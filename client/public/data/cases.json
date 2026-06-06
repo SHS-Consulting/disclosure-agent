@@ -904,11 +904,11 @@
       "id": "spielberg-ufos-close-encounters",
       "title": "Steven Spielberg — CE3K + ET basieren auf echten Fällen · Hynek + Vallée als Quellen",
       "region": "usa",
-      "level": "confirmed",
+      "level": "Kulturell",
       "date": "1977 (CE3K) / 1982 (ET)",
       "location": "Hollywood / Columbia Pictures",
-      "score": 75,
-      "description": "BEKANNTE FAKTEN (gut belegt): J. Allen Hynek (Blue-Book-Berater, später UFO-Gläubiger) wurde offizieller wissenschaftlicher Berater von Close Encounters. Hynek: 'Das Film basiert größtenteils auf bekannten Fakten des UFO-Mysteriums und fängt das Wesen des Phänomens ein.' Jacques Vallée = Vorlage für Charakter Claude Lacombe (François Truffaut). Spielberg basierte konkrete Szenen auf real-dokumentierten Fällen: Ohio Polizei-UFO-Verfolgung 1966 (60 Meilen), Hopkinsville Kentucky 1955, Angebliche Holloman AFB Landung 1962. Hynek: Alle Beschreibungen der Aliens im Film basieren auf konsistenten weltweiten Berichten — 'Ich selbst berichte nur was andere beschrieben haben.' Hynek machte Cameo in Abschlussszene (Pfeife, blauer Anzug). SET komplett abgeschirmt — keine Kameras, alle Beteiligten zur Geheimhaltung verpflichtet. SPIELBERGS EIGENE AUSSAGE: 'Ich wurde unter enormem Druck gesetzt nach Jaws erneut einen Blockbuster zu liefern. Aber ich entschied mich für einen UFO-Film. Ich setzte meine Karriere aufs Spiel.' WEITERGEHENDE BEHAUPTUNGEN (nicht verrifiziert): Greer + andere: Spielberg wurde von Regierungsstellen gebrieft — 'Weltöffentlichkeit vorbereiten.' Kein konkreter Nachweis. Aber: Hyneks Zugang zu Blue-Book-Daten + Spielbergs extremer Detailtreue zu echten Fällen = mehr als Zufall.",
+      "score": 7.8,
+      "description": "Steven Spielbergs Sci-Fi-Thriller (Universal Pictures, 12. Juni 2026) basiert auf realen UAP-Ereignissen: dem Grusch-Hearing 2023 und dem PURSUE Act. Spielberg: \"Ich habe sieben Jahrzehnte lang gefragt: Sind wir allein? Diese Frage hat sich für mich in Disclosure Day beantwortet.\" Erste Kritiken: \"Top-Tier Spielberg, so aufregend wie Raiders\" (Hollywood Reporter). RT-Vorhersage: 90%+. Budget: $115 Mio. Drehbuch: David Koepp (40+ Entwürfe). Cast: Emily Blunt (Meteorologin Margaret Fairchild), Josh O'Connor (Whistleblower Daniel Kellner), Colin Firth (Konzernchef), Colman Domingo, Eve Hewson. Score: John Williams.",
       "source_url": "https://en.wikipedia.org/wiki/Close_Encounters_of_the_Third_Kind",
       "tags": [
         "spielberg",
@@ -922,7 +922,8 @@
         "filmvorbereitung",
         "weltöffentlichkeit",
         "soft-disclosure"
-      ]
+      ],
+      "status": "confirmed"
     },
     {
       "id": "gary-mckinnon-nasa-hack",
